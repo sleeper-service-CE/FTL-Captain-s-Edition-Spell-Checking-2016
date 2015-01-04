@@ -1,0 +1,626 @@
+<!-- Events and Event lists that will be overwritten if the DLC is turned on -->
+
+<!--
+
+Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here, only some have pulsars added.
+	<event load="PIRATE_PULSAR"/>
+	<event load="REBEL_PULSAR"/>
+
+-->
+
+<eventList name="OVERRIDE_HOSTILE_ENGI">
+	<event load="ENGI_MANTIS_FIGHT"/>
+	<event load="ENGI_REBEL_FIGHT"/>
+	<event load="ENGI_PIRATE_FIGHT"/>
+	
+	<event load="PIRATE"/>
+	<event load="PIRATE_CHOICE"/>
+	<event load="REBEL"/>
+	<event load="SQUAT_WARNING"/>
+	<event load="PIRATE_ASTEROID"/>
+	<event load="PIRATE_SUN"/>
+	<event load="PIRATE_NO_ESCAPE"/>
+	<event load="PIRATE_PULSAR"/>
+
+	<event load="BS_EVENT_ENGI_MEDICAL"/>
+	<event load="BS_EVENT_ENGI_DRONE"/>
+	<event load="BS_EVENT_AUTO"/>
+	<event load="BS_EVENT_AUTO_SUICIDE"/>
+	<event load="CE_EVENT_ENGI_COLLECTOR"/>
+	<event load="CE_EVENT_ENGI_AI"/>
+</eventList>
+
+<eventList name="OVERRIDE_HOSTILE_MANTIS">
+	<event load="MANTIS_FIGHT"/>
+	<event load="MANTIS_FIGHT"/>
+	<event load="MANTIS_SUN_FIGHT"/>
+	<event load="DONOR_MANTIS_CHASE"/>
+	
+	<event load="REBEL"/>
+	<event load="AUTO_ASTEROID"/>
+	<event load="AUTO_WARNING"/>
+	<event load="REBEL_PULSAR"/>
+
+	<event load="BS_EVENT_MANTIS"/>
+	<event load="BS_EVENT_MANTIS"/>
+	<event load="BS_EVENT_MANTIS"/>
+	<event load="BS_EVENT_AUTO"/>
+	<event load="BS_EVENT_AUTO_SUICIDE"/>
+	<event load="CE_PDS_MANTIS"/>
+	<event load="CE_MINEFIELD_MANTIS"/>
+</eventList>
+
+<eventList name="OVERRIDE_HOSTILE_OUTLAW">
+	<event load="PIRATE"/>
+	<event load="REBEL_AUTO"/>
+	<event load="AUTO_ASTEROID"/>
+	<event load="PIRATE_ASTEROID"/>
+	<event load="PIRATE_NO_ESCAPE"/>
+	<event load="PIRATE_SLAVER"/>
+	<event load="PIRATE_SUN"/>
+	<event load="PIRATE_PULSAR"/>
+
+	<event load="PIRATE_AUGMENTED"/>
+	<event load="BS_EVENT_PIRATE"/>
+	<event load="BS_EVENT_PIRATE_SUICIDE"/>
+	<event load="BS_EVENT_AUTO"/>
+	<event load="BS_EVENT_AUTO_SUICIDE"/>
+</eventList>
+
+
+<eventList name="OVERRIDE_HOSTILE_REBEL">
+	<event load="REBEL"/>
+	<event load="REBEL_AUTO"/>
+	<event load="AUTO_ASTEROID"/>
+	<event load="AUTO_WARNING"/>
+	<event load="SQUAT_WARNING"/>
+	<event load="REBEL_PULSAR"/>
+	<event load="REBEL_PDS"/>
+	<event load="REBEL_AUTO_PDS"/>
+
+	<event load="REBEL_AUTO_AUGMENTED"/>
+	<event load="BS_EVENT_AUTO"/>
+	<event load="BS_EVENT_AUTO_AUGMENTED"/>
+	<event load="BS_EVENT_AUTO_SUICIDE"/>
+	<event load="BS_EVENT_REBEL"/>
+	<event load="BS_EVENT_REBEL"/>
+	<event load="C_EVENT_CRUISER_REBEL"/>
+	<event load="C_EVENT_CRUISER_REBEL"/>
+	<event load="C_EVENT_REBEL_GUNBOAT"/>
+	<event load="CE_PDS_REBEL"/>
+	<event load="CE_PDS_REBEL"/>
+	<event load="C_EVENT_GUNBOAT_BOSS_PDS_DELAYED"/>
+</eventList>
+
+
+
+<eventList name="OVERRIDE_HOSTILE_ZOLTAN">
+	<event load="ZOLTAN_FIGHT"/>
+	<event load="ZOLTAN_PIRATE"/>
+	<event load="ZOLTAN_MANTIS"/>
+	<event load="ZOLTAN_ENGI"/>
+	<event load="ZOLTAN_ASTEROID"/>
+	
+
+	<event load="REBEL"/>
+	<event load="REBEL_AUTO"/>
+	<event load="REBEL_PULSAR"/>
+
+	<event load="ZOLTAN_FIGHT_AUGMENTED"/>
+	<event load="BS_EVENT_ZOLTAN_AUGMENTED"/>
+	<event load="BS_EVENT_ZOLTAN"/>
+	<event load="BS_EVENT_ZOLTAN"/>
+	<event load="CE_PDS_ZOLTAN"/>
+	<event load="CE_EVENT_ZOLTAN_AI"/>
+</eventList>
+
+
+
+<eventList name="OVERRIDE_HOSTILE1">
+	<event load="REBEL_PULSAR"/>
+	<event load="PIRATE_PULSAR"/>
+	<event load="SQUAT_WARNING"/>
+	<event load="AUTO_WARNING"/>
+	<event load="AUTO_ASTEROID"/>
+	<event load="AUTO_HACKER"/>
+	<event load="REBEL_AUTO"/>
+	<event load="AUTO_CIVILIAN"/>
+	<event load="PIRATE_CHOICE"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="REBEL"/>
+	<event load="MANTIS_HOSTILE"/>
+
+	<event load="REBEL"/>
+	<event load="REBEL"/>
+	<event load="REBEL"/>
+	<event load="MANTIS_HOSTILE"/>
+	<event load="MANTIS_HOSTILE"/>
+
+	<event load="REBEL_AUTO_AUGMENTED"/>
+	<event load="BS_EVENT_FED"/>
+	<event load="BS_EVENT_FED_AUTO"/>
+	<event load="BS_EVENT_AUTO"/>
+	<event load="BS_EVENT_AUTO_SUICIDE"/>
+</eventList>
+
+<eventList name="OVERRIDE_HOSTILE2">
+	<event load="REBEL_AUTO"/>
+	<event load="REBEL_PULSAR"/>
+	<event load="PIRATE_PULSAR"/>
+	<event load="PIRATE"/>
+	<event load="PIRATE_CHOICE"/>
+	<event load="REBEL"/>
+	<event load="SQUAT_WARNING"/>
+	<event load="SQUAT_REFUEL_STATION"/>
+	<event load="PIRATE_ASTEROID"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="PIRATE_SLAVER"/>
+	<event load="PIRATE_SUN"/>
+	<event load="AUTO_SUN"/>
+	<event load="PIRATE_NO_ESCAPE"/>
+
+	<event load="SQUAT_WARNING"/>
+	<event load="PIRATE"/>
+	<event load="PIRATE_CHOICE"/>
+	<event load="REBEL"/>
+
+	<event load="PIRATE_AUGMENTED"/>
+	<event load="BS_EVENT_FED"/>
+	<event load="BS_EVENT_AUTO"/>
+	<event load="BS_EVENT_AUTO_SUICIDE"/>
+</eventList>
+
+<eventList name="OVERRIDE_ITEMS">
+	<event load="FIND_DRONE"/>
+	<event load="FIND_WEAPON"/>
+	<event load="FREE_ITEMS"/>
+	<event load="FUEL_FOR_DRONE"/>
+	<event load="REFUEL_STATION"/>
+	<event load="REPAIR_STATION"/>
+	<event load="SELL_DRONES_STATION"/>
+	<event load="SELL_MISSILES_STATION"/>
+	<event load="TRADER_CIV"/>
+	<event load="TAVERN_HIRE"/>  
+	<event load="STORE_REBELSIDE"/> <!-- dlcEvents-->
+	<event load="TRADER_UPGRADES"/> <!-- dlcEvents-->
+	<event load="TRADER_UPGRADES_EXCHANGE"/><!-- dlcEvents-->
+	<event load="HELP_MINERS"/><!-- dlcEvents-->
+
+	<event load="CE_STRAY_FLEET"/>
+</eventList>
+
+
+
+
+<eventList name="OVERRIDE_NEUTRAL">  <!-- This event list is hardcoded to fill out a sector if it ran out of all other calls for that sector -->
+	<event load="PIRATE_CIVILIAN"/>
+	<event load="REBEL_TRANSPORT"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="ASTEROID_EXPLORE"/>
+	<event load="BROKEN_REBEL_DRONE"/>
+	<event load="MERCENARY"/>
+	<event load="FRIENDLY_SLAVER"/>
+	<event load="PIRATE_BRIBER"/>
+	<event load="AUTO_DEFENSE_ITEM"/> 
+	<event load="DONOR_PONY"/>
+	<event load="DONOR_PLAGUE"/>
+	
+	<event load="EMPTY_STATION2"/> <!--DLC - newEvents-->
+	<event load="REFUGEE_NO_DISTRESS"/> <!--DLC - newEvents-->
+	<event load="WRECKAGE_EVENT"/> <!--DLC - newEvents-->
+	<event load="FUELING_STATION"/> <!--DLC - newEvents-->
+	<event load="PIRATE_SALESMAN"/>  <!--DLC matt - newEvents-->
+	<event load="TERRAFORMING_SCAN"/>  <!--DLC matt - newEvents-->
+	<event load="REBEL_CHECKPOINT"/>  <!--DLC matt - newEvents-->
+	<event load="REBEL_HELPERS"/>  <!--DLC matt - newEvents-->
+	<event load="ROGUE_REBEL"/><!--DLC matt - newEvents-->
+
+	<event load="CE_PIRATE_CREW_BOUNTY"/>
+	<event load="CE_LONE_SHUTTLE"/>
+	<event load="CE_DERELICT_TREASURE"/>
+	<event load="C_EVENT_CIVILIAN_TRANSPORT"/>
+	<event load="BS_EVENT_PIRATE_BLACKMARKET"/>
+	<event load="CE_CIVILIAN_TRADER"/>
+</eventList>
+
+<eventList name="OVERRIDE_NEUTRAL_EXIT">  <!-- This event list is hardcoded to fill out a sector if it ran out of all other calls for that sector -->
+	<event load="PIRATE_CIVILIAN"/>
+	<event load="REBEL_TRANSPORT"/>
+	<event load="AUTO_REFUEL_STATION"/>
+	<event load="ASTEROID_EXPLORE"/>
+	<event load="FRIENDLY_SLAVER"/>
+	<event load="PIRATE_BRIBER"/>
+	<event load="AUTO_DEFENSE_ITEM"/> 
+	<event load="DONOR_PONY"/>
+	<event load="DONOR_PLAGUE"/>
+	
+	<event load="EMPTY_STATION2"/> <!--DLC - newEvents-->
+	<event load="TRADER_UPGRADES"/> <!--DLC - down below-->
+	<event load="REFUGEE_NO_DISTRESS"/> <!--DLC - newEvents-->
+	<event load="WRECKAGE_EVENT"/> <!--DLC - newEvents-->
+	<event load="FUELING_STATION"/> <!--DLC - newEvents-->
+	<event load="PIRATE_SALESMAN"/> <!--DLC - newEvents-->
+	<event load="REBEL_CHECKPOINT"/>  <!--DLC matt - newEvents-->
+	<event load="REBEL_HELPERS"/>  <!--DLC matt - newEvents-->
+	<event load="ROGUE_REBEL"/><!--DLC matt - newEvents-->
+
+	<event load="CE_PIRATE_CREW_BOUNTY"/>
+	<event load="CE_LONE_SHUTTLE"/>
+	<event load="CE_DERELICT_TREASURE"/>
+	<event load="C_EVENT_CIVILIAN_TRANSPORT"/>
+	<event load="BS_EVENT_PIRATE_BLACKMARKET"/>
+	<event load="CE_CIVILIAN_TRADER"/>
+</eventList>
+
+
+<eventList name="OVERRIDE_QUESTS">
+	<event load="QUEST_ESCORT"/>
+	<event load="MERCHANT_REQUEST"/>
+	<event load="FEDERATION_PLANET_SIGNAL"/>
+	<event load="MERCENARY_WORK_START"/>
+	<event load="QUEST_MANTIS_INVASION_START"/>
+	<event load="QUEST_CREWDEAD_START"/>
+	
+	<event load="QUEST_CONSTRUCTIONYARD"/> <!--newEvents-->
+</eventList>
+
+<eventList name="OVERRIDE_BOSS_HOSTILE">
+	<event load="BOSS_SCOUT"/>
+	<event load="BOSS_SCOUT"/>
+	<event load="BOSS_SCOUT"/>
+	<event load="BOSS_SCOUT"/>
+
+	<event load="REBEL_PDS"/>
+	<event load="REBEL_AUTO_PDS"/>
+
+	<event load="C_EVENT_GUNBOAT_BOSS_SUN"/>
+	<event load="C_FED_REBEL_CRUISER_ASTEROID"/>
+	<event load="CE_PDS_FED"/>
+	<event load="CE_PDS_FED_2"/>
+	<event load="C_EVENT_GUNBOAT_BOSS_PDS_DELAYED"/>
+</eventList>
+
+<eventList name="OVERRIDE_HOSTILE_FED">
+	<event load="PIRATE"/>
+	<event load="REBEL_AUTO"/>
+	<event load="PIRATE_SLAVER"/>
+	<event load="BOSS_FLEETS_BOTH_FIGHT"/>
+	<event load="BOSS_FLEETS_BOTH_FIGHT"/>
+	<event load="BOSS_SCOUT"/>
+	<event load="BOSS_SCOUT"/>
+	<event load="REBEL"/>
+	<event load="REBEL"/>
+
+	<event load="REBEL_PDS"/>
+	<event load="REBEL_AUTO_PDS"/>
+
+	<event load="REBEL_AUTO_AUGMENTED"/>
+	<event load="BS_EVENT_FED_BOSS"/>
+	<event load="BS_EVENT_FED"/>
+	<event load="BS_EVENT_FED_AUTO"/>
+	<event load="C_FED_CRUISER_WARNING"/>
+	<event load="C_EVENT_GUNBOAT_BOSS"/>
+	<event load="C_EVENT_GUNBOAT_BOSS_SUN"/>
+	<event load="C_FED_REBEL_CRUISER"/>
+	<event load="C_FED_REBEL_CRUISER_ASTEROID"/>
+	<event load="CE_PDS_FED"/>
+	<event load="CE_PDS_FED_2"/>
+	<event load="C_EVENT_GUNBOAT_BOSS_PDS_DELAYED"/>
+</eventList>
+
+<eventList name="OVERRIDE_FEDERATION_BASE_ASSIST">
+	<event>
+		<text>You arrive in the sector to see a small outpost being bombarded by a fully automated cruiser. This must be the Federation base you were told about!</text>
+		<ship load="AUTO_FEDERATION_BASE" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy's weapon targeting.</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy's drone communications.</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+	</event>
+	<event>
+		<text>You arrive in the sector to see a small outpost being bombarded by a fully automated cruiser. This must be the Federation base you were told about!</text>
+		<ship load="AUTO_FEDERATION_BASE2" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy's weapon targeting.</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy's drone communications.</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+	</event>
+	<!-- the new ones-->
+	<event> 
+		<img back="BG_WARNING_ASB_ALLIED" planet="NONE"/>
+		<text>You arrive in the sector to see the Federation outpost under fire from multiple Rebel ships. However, as you approach they get their Anti-Ship Battery online and disable two of the smaller ships. You swoop in to assist, taking down the wing leader.</text>
+		<ship load="REBEL_FEDERATION_PDS" hostile="true"/>
+		<environment type="PDS" target="enemy"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy's weapon targeting.</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy's drone communications.</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+	</event>
+	<event>
+		<img back="BG_WARNING_ASB_ALLIED" planet="NONE"/>
+		<text>You arrive in the sector to see a small Federation outpost using their Anti-Ship Battery to fire at an automated cruiser. Debris from other ships is strewn around the area. It looks like the brunt of the battle is already over. You move in to assist.</text>
+		<ship load="AUTO_FEDERATION_BASE2" hostile="true"/>
+		<environment type="PDS" target="enemy"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy's weapon targeting.</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy's drone communications.</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+	</event>
+	<event>
+		<text load="C_REBEL_CRUISER_FEDERATION_BASE_TEXT"/>
+		<ship load="C_REBEL_CRUISER_FEDERATION_BASE" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy's weapon targeting.</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy's drone communications.</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+	</event>
+	<event>
+		<img back="BG_WARNING_ASB_ALLIED" planet="NONE"/>
+		<text>You arrive in the sector to see a small Federation outpost using their Anti-Ship Battery to fire at a Rebel cruiser in close orbit. The planetary base is taking a beating, the cruiser will soon get the upper hand. You move in to assist.</text>
+		<ship load="C_REBEL_CRUISER_FEDERATION_BASE" hostile="true"/>
+		<environment type="PDS" target="enemy"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy's weapon targeting.</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy's drone communications.</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+	</event>
+</eventList>
+
+
+
+<ship name="REBEL_FEDERATION_PDS" auto_blueprint="SHIPS_REBEL_ELITE">
+	<escape  chance="0.8" min="4" max="6">
+		<text>After watching their squadron get destroyed, it looks like their leader is prepared to turn tail and run.</text>
+	</escape>
+	<gotaway>
+		<text>The Rebel ship jumped away.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event>
+				<text>With the threat gone, you contact the Federation outpost. They respond, "Our location has been compromised! Take everything you can and please drop our survivors off at the next station." One soldier offers to stay and fight.</text>
+				<crewMember amount="1"/>
+				<autoReward level="MED">scrap_only</autoReward>
+			</event>
+		</choice>
+	</gotaway>
+	<destroyed>
+		<text>You scrap the wreckage.</text>
+		<autoReward level="LOW">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event>
+				<text>With the threat gone, you contact the Federation outpost. They respond, "Our location has been compromised! Take everything you can and please drop our survivors off at the next station." One soldier offers to stay and fight.</text>
+				<crewMember amount="1"/>
+				<autoReward level="MED">scrap_only</autoReward>
+			</event>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>With the crew dead, you scrap the ship.</text>
+		<autoReward level="MED">standard</autoReward>
+		<choice>
+			<text>Continue...</text>
+			<event>
+				<text>With the threat gone, you contact the Federation outpost. They respond, "Our location has been compromised! Take everything you can and please drop our survivors off at the next station." One soldier offers to stay and fight.</text>
+				<crewMember amount="1"/>
+				<autoReward level="MED">scrap_only</autoReward>
+			</event>
+		</choice>
+	</deadCrew>
+</ship>

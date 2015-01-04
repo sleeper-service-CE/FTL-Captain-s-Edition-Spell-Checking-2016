@@ -1,0 +1,530 @@
+
+
+
+
+
+
+<eventList name="STORE_REBELSIDE_SEARCH">
+	<event>
+		<text>You find a single store that responds to your hails: "Don't open any wide band channels. We'll sell to you but we don't want to draw attention to ourselves."</text>
+		<store/>
+	</event>
+	<event>
+		<text>Your search for a friendly marketplace yields no results but after a time a small shuttle approaches. They release some supplies in your direction with the message, "We are not all friends of the Rebel fleet. Stay strong."</text>
+		<autoReward level="RANDOM">standard</autoReward>
+	</event>
+	<event>
+		<text>You apparently spoke to the wrong person in your search for a store. Warnings go off and you detect an automated Rebel ship moving in to attack.</text>
+		<ship load="REBEL_AUTO" hostile="true"/>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+	</event>
+	<event>
+		<text>You apparently spoke to the wrong person in your search for a store. Warnings go off and you detect an automated Rebel ship moving in to attack.</text>
+		<ship load="REBEL_AUTO" hostile="true"/>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+	</event>
+</eventList>
+
+
+
+
+<event name="REBEL_PULSAR" unique="true">
+	<text load="REBEL_PULSAR_TEXT"/>
+	<ship load="REBEL" hostile="true"/>
+	<environment type="pulsar"/>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+</event>
+
+	
+	
+
+
+<event name="PIRATE_PULSAR" unique="true">
+	<text load="PIRATE_PULSAR_TEXT"/>
+	<ship load="PIRATE" hostile="true"/>
+	<environment type="pulsar"/>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+</event>
+
+
+
+
+<event name="REBEL_PDS" unique="true">
+	<text load="REBEL_PDS_TEXT"/>
+	<environment type="PDS" target="player"/>
+	<ship load="REBEL" hostile="true"/>
+	<choice>
+		<text>Prepare to fight.</text>
+		<event>
+			<text load="CE_PRE_FIGHT_TEXT"/>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		</event>
+	</choice>
+	<choice req="hacking" lvl="1">
+		<text>(Simple Hacking) Confuse the Anti-Ship Battery's targets.</text>
+		<event>
+			<text>You spot a weakness in the targeting satellites. Your crew is able to launch a hacking drone to confuse the Anti-Ship Battery's targeting matrix. It should also fire on the Rebel ship now.</text>
+			<environment type="PDS" target="all"/>
+			<item_modify>
+				<item type="drones" min="-1" max="-1"/>
+			</item_modify>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		</event>
+	</choice>
+	<choice req="hacking" lvl="3">
+		<text>(Advanced Hacking) Overwrite the Anti-Ship Battery's target.</text>
+		<event>
+			<text>You spot a weakness in the targeting satellites. Your crew is able to launch an improved hacking drone to overwrite the Anti-Ship Battery's targeting matrix. It will fire on the Rebel ship instead!</text>
+			<environment type="PDS" target="enemy"/>
+			<item_modify>
+				<item type="drones" min="-1" max="-1"/>
+			</item_modify>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		</event>
+	</choice>
+</event>
+<textList name="REBEL_PDS_TEXT">
+	<text back="BG_WARNING_ASB_HOSTILE" planet="NONE">You're shocked to discover a Rebel forward base on this planet. A patrol ship moves in to intercept and sensors indicate an Anti-Ship Battery is about to fire. We've got to get out of here!</text>
+	<text back="BG_WARNING_ASB_CIVILIAN" planet="NONE">You're shocked to discover a Rebel forward base on this planet. A patrol ship moves in to intercept and sensors indicate an Anti-Ship Battery is about to fire. We've got to get out of here!</text>
+</textList>
+
+
+
+<event name="REBEL_AUTO_PDS" unique="true">
+	<text load="REBEL_AUTO_PDS_TEXT"/>
+	<environment type="PDS" target="player"/>
+	<ship load="REBEL_AUTO" hostile="true"/>
+	<choice>
+		<text>Prepare to fight.</text>
+		<event>
+			<text load="CE_PRE_FIGHT_TEXT"/>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		</event>
+	</choice>
+	<choice req="hacking" lvl="1">
+		<text>(Simple Hacking) Confuse the Anti-Ship Battery's targets.</text>
+		<event>
+			<text>You spot a weakness in the targeting satellites. Your crew is able to launch a hacking drone to periodically confuse the ASB's lock signal. It should sometimes fire on the Rebel ship now.</text>
+			<environment type="PDS" target="all"/>
+			<item_modify>
+				<item type="drones" min="-1" max="-1"/>
+			</item_modify>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		</event>
+	</choice>
+	<choice req="hacking" lvl="3">
+		<text>(Advanced Hacking) Override the ASB's target.</text>
+		<event>
+			<text>You spot a weakness in the targeting satellites. Your crew is able to launch an improved hacking drone to overwrite the ASB's target locks. It will fire on the Rebel ship instead!</text>
+			<environment type="PDS" target="enemy"/>
+			<item_modify>
+				<item type="drones" min="-1" max="-1"/>
+			</item_modify>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy with your advanced scanner device. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		</event>
+	</choice>
+</event>
+<textList name="REBEL_AUTO_PDS_TEXT">
+	<text back="BG_WARNING_ASB_HOSTILE" planet="NONE">As soon as you arrive multiple warnings go off. A hostile automated ship is detected and an Anti-Ship Battery begins firing. This doesn't look good!</text>
+	<text back="BG_WARNING_ASB_CIVILIAN" planet="NONE">As soon as you arrive multiple warnings go off. A hostile automated ship is detected and an Anti-Ship Battery begins firing. This doesn't look good!</text>
+</textList>
+
+

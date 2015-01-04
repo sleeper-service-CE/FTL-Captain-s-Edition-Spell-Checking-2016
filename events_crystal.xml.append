@@ -1,0 +1,3303 @@
+
+<!-- CE MODIFIED CRYSTAL VANILLA EVENTS -->
+
+<eventList name="CRYSTAL_SHIP_SURRENDER">
+	<event>
+		<text>"Thank you. We have misjudged you and will not forget your kindness." They leave without another word.</text>
+		<ship hostile="false"/>
+	</event>
+	<event>
+		<text>They respond, "Good. I'm glad to hear that there are still those who value life throughout the galaxy." They abruptly cut communications and prepare to jump away.</text>
+		<ship hostile="false"/>
+	</event>
+	<event>
+		<text>"Thank you. I hope our early aggression will not prevent a future accord between our peoples." They transfer some goods as a means of compensation.</text>
+		<ship hostile="false"/>
+		<autoReward level="RANDOM">stuff</autoReward>
+		<status type="limit" target="enemy" system="artillery" amount="0"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+			<choice>
+				<text>Honor your truce and let the enemy leave.</text>
+				<event/>
+			</choice>
+			<choice>
+				<text>Open fire on your defeated opponent.</text>
+				<event load="CE_SURRENDER_SHIP_ATTACK"/>
+			</choice>
+	</event>
+	<event>
+		<text>"Good. I see no need for bloodshed either." They release a cargo crate in your direction. "Take this as a trophy for clearly besting us."</text>
+		<ship hostile="false"/>
+		<autoReward level="RANDOM">stuff</autoReward>
+		<status type="limit" target="enemy" system="artillery" amount="0"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+			<choice>
+				<text>Honor your truce and let the enemy leave.</text>
+				<event/>
+			</choice>
+			<choice>
+				<text>Open fire on your defeated opponent.</text>
+				<event load="CE_SURRENDER_SHIP_ATTACK"/>
+			</choice>
+	</event>
+	<event>
+		<text>They thank you for sparing them, their extreme aggression quickly changing to a calm acceptance. You're not sure if they're mocking you when they dryly state that "your species has a knack for warfare".</text>
+		<ship hostile="false"/>
+		<autoReward level="RANDOM">stuff</autoReward>
+		<status type="limit" target="enemy" system="artillery" amount="0"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+			<choice>
+				<text>Honor your truce and let the enemy leave.</text>
+				<event/>
+			</choice>
+			<choice>
+				<text>Open fire on your defeated opponent.</text>
+				<event load="CE_SURRENDER_SHIP_ATTACK"/>
+			</choice>
+	</event>
+	<event>
+		<text>"We would like to apologize for our xenophobia. You have shown that aliens can be compassionate, a fact unwritten in our history records. Please, take this."</text>
+		<ship hostile="false"/>
+		<autoReward level="RANDOM">stuff</autoReward>
+		<status type="limit" target="enemy" system="artillery" amount="0"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+			<choice>
+				<text>Honor your truce and let the enemy leave.</text>
+				<event/>
+			</choice>
+			<choice>
+				<text>Open fire on your defeated opponent.</text>
+				<event load="CE_SURRENDER_SHIP_ATTACK"/>
+			</choice>
+	</event>
+	<event>
+		<text>What appears to be a young soldier pushes its way onto the vid screen, "A captain both able and merciful? I have always wanted to explore beyond our restricted sector... Please, permit me to join your crew?"</text>
+		<ship hostile="false"/>
+		<choice hidden="true">
+			<text>Yes.</text>
+			<event>
+				<text>"Great!" As he brings his few belongings on board, you wonder how a being made of crystal can move with such lightness and enthusiasm.</text>
+				<crewMember amount="1" class="crystal"/>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>No.</text>
+			<event>
+				<text>"I understand. We did try to kill you..." They transfer some materials over before leaving.</text>
+				<autoReward level="RANDOM">stuff</autoReward>
+			</event>
+		</choice>
+	</event>
+</eventList>
+
+<event name="NOTHING_CRYSTAL">
+	<text load="NOTHING_CRYSTAL"/>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+		<status type="clear" target="player" system="hacking" amount="100"/>
+		<status type="clear" target="player" system="clonebay" amount="100"/>
+		<status type="clear" target="player" system="battery" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
+	<choice hidden="true">
+		<text>Socialize with your crew while the FTL charges.</text>
+		<event load="CE_SOCIAL_HOSTILE"/>
+	</choice>
+	<choice hidden="true">
+		<text>Consider some upgrades to your custom ship equipment.</text>
+		<event load="CE_AUGMENT_UPGRADE_HOSTILE"/>
+	</choice>
+	<choice req="AE_AUGMENTS_PRODUCTION" blue="false" hidden="true">
+		<text>Produce something on board the ship.</text>
+		<event load="CE_PRODUCTION_HOSTILE"/>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event>
+			<text>The FTL network here seems to work as you know it, but the jump beacons are of a design you've never seen before. Their crystal shape hints nothing of their functionality, they could just as well be fancy asteroids. The Access Kit is useless here.</text>
+		</event>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
+		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<event>
+			<text>Undisturbed as you are here, you can lay some mines while the FTL charges. What will the crystal beings think of this? The Rebel forces will have to avoid this area, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+
+<event name="START_BEACON_CRYSTAL">
+	<!-- <text>You totally travel through hyperspace lol</text> -->
+	<text load="HYPERSPACE_TEXT"/>
+	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
+	<choice req="engines" lvl="1" hidden="true" blue="false">
+		<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+		<event>
+			<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
+			<modifyPursuit amount="2"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="engines" lvl="2" hidden="true" blue="false">
+		<text>(Standard Engines) Travel at standard FTL speed to the next sector, using the usual amount of fuel. [ Fuel: -2 ]</text>
+		<event>
+			<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
+			<item_modify>
+				<item type="fuel" min="-2" max="-2"/>
+			</item_modify>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="engines" lvl="4" hidden="true">
+		<text>(Improved Engines) Spend addition fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
+		<event>
+			<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
+			<item_modify>
+				<item type="fuel" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="engines" lvl="6" hidden="true">
+		<text>(Advanced Engines) Override the engines security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
+		<event>
+			<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
+			<item_modify>
+				<item type="fuel" min="-4" max="-4"/>
+			</item_modify>
+			<modifyPursuit amount="-2"/>
+			<damage amount="4" system="engines"/>
+			<choice hidden="true" req="SYSTEM_CASING">
+				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<event>
+					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
+					<damage amount="-2"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="engines" lvl="8" hidden="true">
+		<text>(Highly Advanced Engines) Exceed any safety limits and burn out the engines to travel even faster, while also taking more damage. [ Fuel: -5; Hull Damage: 8 ]</text>		
+		<event>
+			<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
+			<item_modify>
+				<item type="fuel" min="-5" max="-5"/>
+			</item_modify>
+			<modifyPursuit amount="-4"/>
+			<damage amount="8" system="engines"/>
+			<choice hidden="true" req="SYSTEM_CASING">
+				<text>(Titanium System Casing) Your ship was prepared for this.</text>
+				<event>
+					<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
+					<damage amount="-4"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="CE_AUGMENTS_HYPERSPACE_BOOST">
+		<text>(Advanced Navigation AI) Let the AI handle the hyperspace jump to travel faster.</text>
+		<event>
+			<text load="HYPERSPACE_BOOSTED_TEXT"/>
+			<choice req="engines" lvl="1" hidden="true" blue="false">
+				<text>(Basic Engines) Travel at minimum FTL speed to the next sector, using only emergency fuel.</text>
+				<event>
+					<text load="HYPERSPACE_TRAVEL_EMERGENCY_TEXT"/>
+					<modifyPursuit amount="1"/>
+					<choice hidden="true">
+				<text>Continue...</text>
+						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="engines" lvl="1" hidden="true" blue="false">
+				<text>(Basic Engines) Travel at standard FTL speed to the next sector. [ Fuel: -1 ]</text>
+				<event>
+					<text load="HYPERSPACE_TRAVEL_STANDARD_TEXT"/>
+					<item_modify>
+						<item type="fuel" min="-1" max="-1"/>
+					</item_modify>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="engines" lvl="2" hidden="true">
+				<text>(Standard Engines) Spend addition fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
+				<event>
+					<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
+					<item_modify>
+						<item type="fuel" min="-2" max="-2"/>
+					</item_modify>
+					<modifyPursuit amount="-1"/>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="engines" lvl="4" hidden="true">
+				<text>(Improved Engines) Override the engines security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<event>
+					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
+					<item_modify>
+						<item type="fuel" min="-3" max="-3"/>
+					</item_modify>
+					<modifyPursuit amount="-2"/>
+					<damage amount="4" system="engines"/>
+					<choice hidden="true" req="SYSTEM_CASING">
+						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<event>
+							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
+							<damage amount="-2"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="engines" lvl="6" hidden="true">
+				<text>(Advanced Engines) Exceed any safety limits and burn out the engines to travel even faster. [ Fuel: -4; Hull Damage: 8 ]</text>		
+				<event>
+					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
+					<item_modify>
+						<item type="fuel" min="-4" max="-4"/>
+					</item_modify>
+					<modifyPursuit amount="-4"/>
+					<damage amount="8" system="engines"/>
+					<choice hidden="true" req="SYSTEM_CASING">
+						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<event>
+							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
+							<damage amount="-4"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+					</choice>
+				</event>
+			</choice>
+			<choice req="engines" lvl="8" hidden="true">
+				<text>(Highly Advanced Engines) Perform the ultimate high-speed jump, grinding the edge of what is physically possible. [ Fuel: -5; Hull Damage: 10 ]</text>		
+				<event>
+					<text load="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT"/>
+					<item_modify>
+						<item type="fuel" min="-5" max="-5"/>
+					</item_modify>
+					<modifyPursuit amount="-5"/>
+					<damage amount="10" system="engines"/>
+					<choice hidden="true" req="SYSTEM_CASING">
+						<text>(Titanium System Casing) Your ship was prepared for this.</text>
+						<event>
+							<text load="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT"/>
+							<damage amount="-5"/>
+							<choice hidden="true">
+								<text>Continue...</text>
+								<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text>Continue...</text>
+						<event load="START_BEACON_CRYSTAL_ACTUAL"/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+
+<event name="START_BEACON_CRYSTAL_ACTUAL">
+	<text>You arrive in a sector not listed in any star charts. Strange crystalline ships dot the horizon. Your companion speaks, "Here we are, my home sector. It has been a long time since others have set foot here, I wonder how you will be received."</text>
+	<environment type="PDS" target="enemy"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>"You have done as you promised and so shall I. The coordinates of my old ship have been forwarded to your navigation system."</text>
+			<quest event="CRYSTAL_UNLOCK"/>
+	<choice req="DRONES_BEAM" hidden="true">
+		<text>(Beam Drone) Refit some beam drones for mining duty and send them ahead into the sector. [ Drone Parts: -3 ]</text>
+		<event>
+			<text load="CE_DRONE_MINING_START_TEXT"/>
+			<item_modify>
+				<item type="drones" min="-3" max="-3"/>
+			</item_modify>
+			<quest event="CE_DRONE_MINING_HOSTILE"/>
+		</event>
+	</choice>
+	<choice req="AE_COMBAT_SIMULATOR" hidden="true">
+		<text>(Combat Simulator) Have your crew train their skills in a simulation.</text>
+		<event load="CE_COMBAT_SIM_START_LIMITED"/>
+	</choice>
+	<choice req="AE_SCIENCE" hidden="true">
+		<text>(On-board Science Lab) Conduct some research on the nearby systems.</text>
+		<event load="CE_RESEARCH"/>
+	</choice>
+	<choice req="AE_REPAIR_KIT" hidden="true">
+		<text>(Hull Repair Kit) Repair some hull damage.</text>
+		<event load="CE_SHIP_MAINTENANCE"/>
+	</choice>
+	<choice req="AE_BEACON_KIT" hidden="true">
+		<text>(Beacon Access Kit) Cover your tracks in the FTL network to delay the Rebel fleet.</text>
+		<event load="CE_BEACON_KIT_HOSTILE"/>
+	</choice>
+	<choice req="AE_SECTOR_SCANNER" hidden="true">
+		<text>(Sector Scanner) Spend some time scanning the entire sector.</text>
+		<event load="CE_SECTOR_SCANNING"/>
+	</choice>
+	<choice req="AE_SECTOR_MAPPING" hidden="true">
+		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
+		<event load="CE_SECTOR_MAPPING"/>
+	</choice>
+	<choice req="DRONES_COMBAT_PROJECTILE" hidden="true">
+		<text>(Combat Drone) Leave some drones behind to harass the Rebel fleet. [ Drone Parts: -3 ]</text>
+		<event load="CE_DRONE_COMBAT_FLEET_DELAY"/>
+	</choice>
+	<choice req="DRONES_MINELAYER" hidden="true">
+		<text>(Minelayer Drone) Have your drone place a minefield to delay the Rebel fleet. [ Drone Parts: -1 ]</text>
+		<event load="CE_DRONE_MINELAYER_FLEET_DELAY"/>
+	</choice>
+	<choice req="WEAPONS_MINES" hidden="true"> 
+		<text>(Minelauncher) Lay a minefield to delay the Rebel fleet. [ Missiles: -3 ]</text>
+		<event>
+			<text>Undisturbed as you are here you can lay some mines around the beacon while the FTL charges. You put up a hazard beacon as well to warn the locals. The Rebel forces will have to avoid this beacon, clear the minefield or suffer heavy damage. All possibilities will considerably delay their fleet.</text>
+			<item_modify>
+				<item type="missiles" min="-3" max="-3"/>
+			</item_modify>
+			<modifyPursuit amount="-1"/>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event/>
+	</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="CRYSTAL_UNLOCK">
+	<text>You arrive at the coordinates to find a massive Crystalline cruiser docked at a small repair station. You arrange for the ship to be sent back to the Federation base while the station upgrades your hull.</text>
+	<autoReward level="MED">fuel</autoReward>
+	<damage amount="-10"/>
+	<unlockShip id="8">The Crystalline ship is sent to the hangar. The Bravais has been unlocked!</unlockShip>
+</event>
+
+
+<event name="CRYSTAL_FIGHT" unique="false">
+	<text load="CRYSTAL_FIGHT"/>
+	<ship load="CRYSTAL_SHIP" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice hidden="true">
+			<text>Offer surrender.</text>
+			<event load="CE_PLAYER_SURRENDER"/>
+		</choice>
+		<choice req="ENERGY_SHIELD" hidden="true">
+			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+</event>
+
+<event name="CRYSTAL_CONVOY" unique="true">
+	<text>A large convoy of lumbering civilian ships appears to be passing through this region. You show no hostile intentions but they are taking no chances, immediately sending their escort to attack!</text>
+	<ship load="CRYSTAL_CONVOY" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice hidden="true">
+			<text>Offer surrender.</text>
+			<event load="CE_PLAYER_SURRENDER"/>
+		</choice>
+		<choice req="ENERGY_SHIELD" hidden="true">
+			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+</event>
+
+<event name="CRYSTAL_HUNTER" unique="true">
+	<text>Crystal shards fly past your ship as soon as you jump. You scan to find the assailant and discover a Crystalline ship carrying a number of humans in its cargo bay. It must be hunting the intruding ships!</text>
+	<ship load="CRYSTAL_HUNTER" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice hidden="true">
+			<text>Offer surrender.</text>
+			<event load="CE_PLAYER_SURRENDER"/>
+		</choice>
+		<choice req="ENERGY_SHIELD" hidden="true">
+			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+</event>
+	
+<event name="CRYSTAL_REBEL" unique="false">
+	<text>As soon as you arrive, a Rebel ship jumps in after you; they must be really hot on your tail!</text>
+	<ship load="REBEL" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+</event>
+
+<event name="CRYSTAL_AUTO" unique="true">
+	<text>The Rebels must have sent their automated scouts to find you. One jumps in and immediately moves to attack.</text>
+	<ship load="REBEL_AUTO" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+</event>
+
+
+<event name="CRYSTAL_REBEL_CRYSTAL" unique="false">
+	<text>Crystal shards fly past the screen as soon as you arrive. Checking the scanners it looks like a crystalline ship is engaged with a Rebel!</text>
+	<choice hidden="true">
+		<text>Attack the Rebel.</text>
+		<event>
+			<text>You message the Crystalline ship your intentions and move in to intercept the Rebel ship.</text>
+			<ship load="REBEL_CRYSTAL_REBEL_CRYSTAL" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Attack the Crystalline ship.</text>
+		<event>
+			<text>You move in to intercept the Crystalline ship. As soon as the Rebel scans your ship it takes the opportunity to jump. You have the sneaking suspicion they will inform the fleet of your position, but that's the least of your current concerns.</text>
+			<modifyPursuit amount="1"/>
+			<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="ENERGY_SHIELD" hidden="true">
+			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Ignore them.</text>
+		<event>
+			<text>With the two ships engaged in combat, you sneak by unnoticed.</text>
+		</event>
+	</choice>
+</event>
+<event name="CRYSTAL_MANTIS_CRYSTAL" unique="false">
+	<text>You discover a number of civilian ships fleeing the area. Shots are fired and you find the assailant; a Mantis ship is attacking one of the smaller ships!</text>
+	<choice hidden="true">
+		<text>Attack the Mantis.</text>
+		<event>
+			<text>You activate your impulse engines and fly between the Mantis and their prey, weapons charging. You appear to have their full attention.</text>
+			<ship load="MANTIS_CRYSTAL" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Ignore them.</text>
+		<event>
+			<text>You try to keep a low profile and quickly prepare to jump.</text>
+		</event>
+	</choice>
+</event>
+<!-- Justin - TO DO - make a separate list? -->
+<event name="CRYSTAL_PIRATE_CRYSTAL" unique="false">
+	<text>A pirate ship jumps in right after you arrive at the beacon. It must have followed once the Long-Range Beacon was reactivated. It almost charges a small Crystalline transport ship, weapons armed.</text>
+	<choice hidden="true">
+		<text>Attack the pirate.</text>
+		<event>
+			<text>You chase down the pirate before it has a chance to engage the civilian ship. When it detects the real threat, it turns to face you.</text>
+			<ship load="PIRATE_CRYSTAL" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Ignore them.</text>
+		<event>
+			<text>You assume the Crystalline ship can handle itself. You have enough of your own problems.</text>
+		</event>
+	</choice>
+</event>
+
+
+<event name="CRYSTAL_REBEL_CRYSTAL2" unique="true">
+	<text>You're greeted by an unwelcome sight - a Rebel advance ship is laying down fire on a Crystalline vessel in the distance.</text>
+	<choice hidden="true">
+		<text>Engage the Rebel ship.</text>
+		<event>
+			<text>Before you can engage, the Crystalline ship scores a direct hit and obliterates the Rebel ship! They hail, "You, you are like these other aliens! You brought them here!" With that they turn their cannons on you!</text>
+			<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="ENERGY_SHIELD" hidden="true">
+			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Leave them alone.</text>
+		<event>
+			<text>It's best to take advantage of the rare occasions when the Rebels aren't shooting at you. You prepare to jump.</text>
+		</event>
+	</choice>
+</event>
+
+			
+
+<event name="CRYSTAL_FED" unique="false">
+	<text>There appears to be a fight going on nearby. A Crystalline border guard is chasing a small Federation ship!</text>
+	<choice hidden="true">
+		<text>Save the Federation ship.</text>
+		<event>
+			<text>It doesn't look like the Fed ship can stand much more pressure. You fly in and intercept the Crystalline ship.</text>
+			<ship load="CRYSTAL_FED" hostile="true"/>
+		<choice req="ENERGY_SHIELD">
+			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<event>
+		<text>You explain that you are a guest in this sector and that the Federation ship belongs to your kind. Somewhat surprisingly, the crystal beings cease hostilities. "We did not know this, noble beings. Guests have a right of passage. But I will have to inform my lord about your presence here."</text>
+		<ship hostile="false"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="CRYSTAL_FED_LIST"/>
+		</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Prepare to leave.</text>
+		<event>
+			<text>With the Federation ship distracting the guard, you are free to continue on your mission.</text>
+		</event>
+	</choice>
+</event>
+
+
+<event name="CRYSTAL_FED_DESERTER" unique="true">
+	<text>For a moment you assume it's a glitch,  but no... you've found a Federation military ship! They hail you and, after some probing, reveal that they deserted the Federation fleet before stumbling into this sector while seeking refuge.</text>
+	<ship load="FED_SHIP" hostile="false"/>
+	<choice hidden="true">
+		<text>Offer supplies.</text>
+		<event>
+			<text> You send over some supplies to help them on their way and in return they upload their flight plan to your computer, allowing you to map the sector! "The Federation fleet's still standing - get there while you can!"</text>
+			<item_modify>
+				<item type="fuel" min="-1" max="-3"/>
+				<item type="scrap" min="-15" max="-25"/>
+			</item_modify>
+			<reveal_map/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Attack the traitors.</text>
+		<event>
+			<text>Deserters cannot be tolerated and the penalty for desertion is death. You open fire on the cowards - though it doesn't please you to do so. The Federation needs every soldier it can get.</text>
+			<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Leave them be.</text>
+		<event>
+			<text>You send them a friendly warning regarding the armada of Rebel ships pursuing you, and then get underway lest they catch you.</text>
+		</event>
+	</choice>
+</event>
+
+<eventList name="CRYSTAL_HUMAN_TESTS_REFUSE">
+	<event>
+		<text>"I see. That is a shame. Perhaps the next aliens we meet will have some respect for the advancement of science."</text>
+	</event>
+	<event>
+		<text>"I see. That is a shame. Perhaps the next aliens we meet will have some respect for the advancement of science."</text>
+	</event>
+	<event>
+		<text>"I see. That is a shame. However we must not let this opportunity pass us by. Submit and you will be treated reasonably well!" A military ship docked nearby detaches and charges you.</text>
+		<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice hidden="true">
+			<text>Offer surrender.</text>
+			<event load="CE_PLAYER_SURRENDER"/>
+		</choice>
+		<choice req="ENERGY_SHIELD" hidden="true">
+			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+	</event>
+</eventList>
+
+<eventList name="CRYSTAL_CHATTY_LIST">
+	<event>
+		<text>"Wow, thanks. Oh look, another alien ship! I wonder if they're as nice as you." Seeing the Rebel insignia you doubt they're friendly. They spot you and move in to attack, while the Crystalline civilian jumps away.</text>
+		<ship load="REBEL" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+	</event>
+	<event>
+		<text>"Wow, thanks! I don't know if this is of any use to you, but we have some supplies we can offer you. Perhaps you can use them on your trip!"</text>
+		<autoReward level="RANDOM">stuff</autoReward>
+	</event>
+	<event>
+		<text>"Wow, thanks! Perhaps we can fix up a bit of your hull for sating my curiosity. We're pretty handy with repairs."</text>
+		<damage amount="-6"/>
+	</event>
+</eventList>
+
+<eventList name="CRYSTAL_REQUEST_LIST">
+	<event>
+		<text>Unable to interpret it themselves, the Crystalline beings assume your data will mean something to the Rebels. It should see the pursuing fleet taking a leisurely cruise before they get back on track.</text>
+		<autoReward level="HIGH">scrap_only</autoReward>
+		<modifyPursuit amount="-1"/>
+	</event>
+	<event>
+		<text>They take one look at your fake telemetry and realize what you've done. They apparently do not take well being lied to... They immediately attack!</text>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true">
+		<text>(Teleporter Disruptor) Get the field up, in case these things can teleport.</text>
+			<event>
+				<text>You indeed detect something that could be teleporter targeting. The ship attacks!</text>
+				<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice hidden="true">
+			<text>Offer surrender.</text>
+			<event load="CE_PLAYER_SURRENDER"/>
+		</choice>
+		<choice req="ENERGY_SHIELD" hidden="true">
+			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+			</event>
+		</choice>
+		<choice>
+			<text>Continue...</text>
+			<event>
+				<text> They immediately attack!</text>
+				<boarders min="1" max="2" class="crystal"/>
+				<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+			</event>
+		</choice>
+	</event>
+</eventList>
+
+		
+<event name="CRYSTAL_HELP_DIG" unique="true">
+	<text>A large Crystalline ship is floating in space here. They hail, "Aliens?! How curious. We request your aid. We have men buried on a nearby planet and we must dig them out."</text>
+	<ship load="CRYSTAL_SHIP_NO_SURRENDER" hostile="false"/>
+	<choice hidden="true">
+		<text>Send a crew member to help.</text>
+		<event>
+			<text>You do as you're asked and send a crew member down to the planet to assist. They discover a massive Crystal excavation operation and it quickly becomes clear this is a task that will take days, not hours.</text>
+			<choice hidden="true">
+				<text>Leave your crew member behind.</text>
+				<event>
+					<text>You're committed to both saving the Federation and upholding the principles it worked to maintain. Your crew member will remain and make good on the promise - you still have a galaxy to save. They give you some supplies for your trouble.</text>
+					<autoReward level="MED">fuel</autoReward>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text>Pull your guy out.</text>
+				<event>
+					<text>The Crystalline captain contacts you urgently, "What is the meaning of this?! Had you no wish to aid us you might simply have declined, but THIS... is an insult!" His turns his massive ship on yours and you prepare to fight for your life.</text>
+					<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice hidden="true">
+			<text>Offer surrender.</text>
+			<event load="CE_PLAYER_SURRENDER"/>
+		</choice>
+		<choice req="ENERGY_SHIELD" hidden="true">
+			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+				</event>
+			</choice>
+			<choice>
+				<text>Wait.</text>
+				<event>
+					<text>You've made a commitment, and that still means something. You wait one jump cycle and then inquire with the Crystalline captain about the status of the operation. "We respect your strength. The operation will take one more cycle."</text>
+					<modifyPursuit amount="1"/>
+					<choice hidden="true">
+						<text>Leave your crew member behind.</text>
+						<event>
+							<text>You're committed to both saving the Federation and upholding the principles it worked to maintain. Your crew member will remain and make good on the promise - you still have a galaxy to save. They give you some supplies for your trouble.</text>
+							<autoReward level="HIGH">fuel</autoReward>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text>Pull your guy out.</text>
+						<event>
+							<text>The Crystalline captain contacts you urgently, "What is the meaning of this?! Had you no wish to aid us you might simply have declined, but THIS... is an insult!" His turns his massive ship on yours and you prepare to fight for your life.</text>
+							<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice hidden="true">
+			<text>Offer surrender.</text>
+			<event load="CE_PLAYER_SURRENDER"/>
+		</choice>
+		<choice req="ENERGY_SHIELD" hidden="true">
+			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. These people might still be reasoned with in order to avoid combat.</text>
+			<event load="CE_PEACE_NEGOTIATION_RESULTS"/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text>Wait.</text>
+						<event>
+							<text>Another cycle passes while the Rebel fleet draws ever nearer. You are contacted by the captain again, "Alien Captain, your knowledge of our customs has most impressed us. Your crew member is on their way back to you now, along with a token of our respect."</text>
+							<modifyPursuit amount="1"/>
+							<autoReward level="HIGH">augment</autoReward>
+							<weapon name="CRYSTAL_HEAVY_2"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>Refuse.</text>
+		<event>
+			<text>"We understand. You rely on machines for so much. Yours is a soft and weak species - we would hardly even have noticed your presence. Fly well."</text>
+		</event>
+	</choice>
+</event>
+		
+
+
+<event name="BOARDERS_CRYSTAL" unique="false">
+	<text load="BOARDERS_CRYSTAL"/>
+	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
+		<text>(Teleporter Disruptor) Get the field up, in case these things can teleport.</text>
+		<event>
+			<text>You indeed detect something that could be teleporter targeting. The crew recommends getting out of here before they call in their warships.</text>
+		</event>
+	</choice>
+	<choice>
+		<text>Continue...</text>
+		<event>
+			<text>You hear lasers ricocheting from within the ship. You've been boarded!</text>
+			<boarders min="1" max="2" class="crystal"/>
+		</event>
+	</choice>
+</event>
+<textList name="BOARDERS_CRYSTAL">
+	<text>You detect a heavily armed Crystalline ship escorting some sort of prison vessel. Scans indicate there are a number of non-Crystal based life forms aboard; they must be rounding up all of the intruders in their space! Before you can react, you hear the annoying sound of your ship's teleporter warning.</text>
+	<text>You arrive near a small settlement and a lone guard ship moves to intercept you. You try to contact them but they are refusing all hails.</text>
+	<text>You pick up chatter from a nearby ship, "Yes... Here are some interesting specimens. Try to take them alive this time; there's a lot of money to be had on aliens." Scanners indicate a remote teleporter is powering up.</text>
+</textList>
+
+
+
+<!-- END OF CE MODIFIED CRYSTAL VANILLA EVENTS -->
+
+
+<eventList name="DESTROYED_SHIP_CRYSTAL">
+	<event>
+		<text load="CRYSTAL_FIGHT_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+	<event>
+		<text load="CRYSTAL_FIGHT_DESTROYED"/>
+		<autoReward level="MED">standard</autoReward>
+	</event>
+</eventList>
+
+<textList name="CRYSTAL_FIGHT_DESTROYED">  
+	<text>The elusive shape of the crystalline ship eventually succumbs to the assault, exploding into a cloud of crystal armor and metal.</text>
+	<text>The final shots chip away at the hull of the crystalline vessel, causing it to shatter into thousands of pieces, usable scrap and metalwork intertwined with the debris.</text>
+	<text>The crystalline ship submits to the force of the attack and breaks apart into crystal shards and assorted scrap materials.</text>
+	<text>The crystalline beings inside their ship soon become one with space as their vessel breaks apart around them, the components within soon entering your cargo holds.</text>
+	<text>The shiny blue ship before you submits to the barrage from your arsenal and shatters into bits, the inner workings ripe for the picking.</text>
+</textList>
+
+
+<!-- TE CRYSTAL EVENTS -->
+
+<event name="STORE_CRYSTAL">
+	<text load="STORE_CRYSTAL"/>
+	<choice req="AE_TRADE_BOOSTER" hidden="true">
+		<text>(Cargo Teleporter) Prepare to quickly transfer cargo and have a look at the goods.</text>
+		<event load="TE_STORE_CRYSTAL_LIST_BOOSTED"/>
+	</choice>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="TE_STORE_CRYSTAL_LIST"/>
+	</choice>
+	<store/>
+</event>
+<textList name="STORE_CRYSTAL">
+	<text>You arrive in an area bustling with crystalline ships and stations.  A merchant quickly messages you, "You're from the outside, no? This is a great opportunity for both of us! Do you have anything you wish to sell or trade?"</text>
+	<text>"Ah! Hello, aliens", says a rotund crystalline being on the vidscreen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
+	<text>You arrive at a trade depot and find a store that is willing to open communications with you. "I can't say I've traded with your kind before, but perhaps we could work out some sort of exchange."</text>
+	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realize it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vidscreen, "Long time since use universal translator necessary. Please, buy, buy!"</text>
+	
+	<text>You arrive in an area bustling with crystalline ships and stations.  A merchant quickly messages you, "You're from the outside, no? This is a great opportunity for both of us! Do you have anything you wish to sell or trade?"</text>
+	<text>"Ah! Hello, aliens", says a rotund crystalline being on the vidscreen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
+	<text>You arrive at a trade depot and find a store that is willing to open communications with you. "I can't say I've traded with your kind before, but perhaps we could work out so sort of exchange?"</text>
+	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realize it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vidscreen, "Long time since use universal translator necessary. Please, buy, buy!"</text>
+</textList>
+
+<eventList name="TE_STORE_CRYSTAL_LIST">
+	<event>
+		<text>You consider striking a deal here. This might take some time.</text>
+<!-- BUYING -->
+		<choice>
+			<text>Buy some crystal relics.</text>
+			<event>
+				<text load="STORE_CRYSTAL_BUY_TEXT"/>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="-40" max="-30"/>
+				</item_modify>
+				<augment name="TE_GOODS_CRYSTAL_ARTIFACTS"/>
+			</event>
+		</choice>
+<!-- SELLING -->
+		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
+			<text>[Sell Compressed Nebula Gas for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="33" max="37"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
+			<text>[Sell Raw Asteroid Ore for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="28" max="32"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
+			<text>[Sell Engine Parts for about 60 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="35" max="45"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
+			<text>[Sell Space Rations for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="32" max="38"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
+			<text>[Sell Consumer Goods for about 45 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="33" max="37"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
+			<text>[Sell Luxury Goods for about 70 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="40" max="50"/>  <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
+			<text>[Sell Pharmaceuticals for about 55 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="35" max="45"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
+			<text>[Sell Ship Hardware for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="32" max="38"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
+			<text>[Sell Industrial Machinery for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="27" max="33"/> <!-- correct? -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
+			<text>[Sell Beacon Parts for about 55 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="35" max="45"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ZOLTAN_CODEX" hidden="true">
+			<text>[Sell the Zoltan Legal Codex for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="30" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ZOLTAN_SHIELDS" hidden="true">
+			<text>[Sell Shield Components for about 65 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="40" max="50"/>  <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
+			<text>[Sell Religious Rock Literature for about 50 Scrap]</text>
+			<event>
+				<text>The Crystal being seems quite amused by this reading material. His kind are referenced as some kind of divine prophet race.</text>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="35" max="40"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
+			<text>[Sell Ship Hull Panels for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="33" max="37"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
+			<text>[Sell Weapon Components for about 75 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+				<item type="scrap" min="45" max="55"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
+			<text>[Sell Looted Bounty for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="33" max="37"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
+			<text>[Sell Slug Hallucinogens for about 70 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="40" max="50"/>  <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_SLUG_ART" hidden="true">
+			<text>[Sell Eccentric Artwork for about 65 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="35" max="55"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
+			<text>[Sell Alien Livestock for about 55 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="35" max="45"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
+			<text>[Sell Small Arms for about 65 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="40" max="50"/>  <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_FED_WRECK" hidden="true">
+			<text>[Sell Ship Wreckage for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
+			<text>[Sell Rare Elements for about 60 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="35" max="40"/>  <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_AI_DATA" hidden="true">
+			<text>[Sell AI Research Data for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_AI_NANOBOTS" hidden="true">
+			<text>[Sell Obedient Nanobots for about 60 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="35" max="40"/>  <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
+			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
+			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_INDUSTRIAL_REACTOR" hidden="true">
+			<text>[Sell Reactor Modules for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="25" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
+			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<!-- generic -->
+		<choice req="TE_GOODS_GIRDERS" hidden="true">
+			<text>[Sell Building Material for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_CHEMICALS" hidden="true">
+			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_TEXTILES" hidden="true">
+			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ORGANISMS" hidden="true">
+			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_O2" hidden="true">
+			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_H2O" hidden="true">
+			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_SEEDS" hidden="true">
+			<text>[Sell Bio-Engineered Seeds for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_CONDUITS" hidden="true">
+			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_PRODUCE" hidden="true">
+			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
+			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_GAMES" hidden="true">
+			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_SENSORS" hidden="true">
+			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
+			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ROBOTS" hidden="true">
+			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_RESEARCH" hidden="true">
+			<text>[Sell Research Eqipment for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="25" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_SOLAR" hidden="true">
+			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="25" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_RELICS" hidden="true">
+			<text>[Sell Archaeological Relics for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="25" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_CLONES" hidden="true">
+			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="25" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_GLANDS" hidden="true">
+			<text>[Sell Alien Glands for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_GEMS" hidden="true">
+			<text>[Sell Deep-Space Gemstones for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_AMBRA" hidden="true">
+			<text>[Sell Space Whale Ambra for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="25" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_PLACEHOLDER" hidden="true">
+			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Just quickly check the available ship equipment.</text>
+			<event/>
+		</choice>
+	</event>
+</eventList>
+
+<textList name="STORE_CRYSTAL_BUY_TEXT">
+	<text>You transfer the scrap. You are not sure if you just bought priceless art or simply cheap crap. No one knows what purpose these artifacts serve... While your crew loads the cargo you have a look at the ship equipment the shop also offers. Time passes.</text>
+	<text>You agree to transfer the scrap, but making the deal still takes a while. Loading the cargo takes even longer. You check the ship equipment catalog while waiting. Luckily, you have the universal translator.</text>
+</textList>
+<textList name="STORE_CRYSTAL_SELL_TEXT">
+	<text>These beings never traded with an outsider in their whole life and seem to think it is great fun. They don't care about the price at all, but haggle as some kind of game or exotic performance.</text>
+</textList>
+
+
+<eventList name="TE_STORE_CRYSTAL_LIST_BOOSTED">
+	<event>
+		<text>You consider striking a deal here.</text>
+<!-- BUYING -->
+		<choice>
+			<text>Buy some crystal relics.</text>
+			<event>
+				<text load="STORE_BUY_TEXT"/>
+				<item_modify>
+					<item type="scrap" min="-40" max="-30"/>
+				</item_modify>
+				<augment name="TE_GOODS_CRYSTAL_ARTIFACTS"/>
+			</event>
+		</choice>
+<!-- SELLING -->
+		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
+			<text>[Sell Compressed Nebula Gas for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="33" max="37"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ROCK_ORE" hidden="true">
+			<text>[Sell Raw Asteroid Ore for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="28" max="32"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
+			<text>[Sell Engine Parts for about 60 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="35" max="45"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
+			<text>[Sell Space Rations for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="32" max="38"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
+			<text>[Sell Consumer Goods for about 45 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="33" max="37"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
+			<text>[Sell Luxury Goods for about 70 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="40" max="50"/>  <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
+			<text>[Sell Pharmaceuticals for about 55 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="35" max="45"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ENGI_ELECTRONICS" hidden="true">
+			<text>[Sell Ship Hardware for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="32" max="38"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ENGI_MACHINES" hidden="true">
+			<text>[Sell Industrial Machinery for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="27" max="33"/> <!-- correct? -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
+			<text>[Sell Beacon Parts for about 55 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="35" max="45"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ZOLTAN_CODEX" hidden="true">
+			<text>[Sell the Zoltan Legal Codex for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="30" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ZOLTAN_SHIELDS" hidden="true">
+			<text>[Sell Shield Components for about 65 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="40" max="50"/>  <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
+			<text>[Sell Religious Rock Literature for about 50 Scrap]</text>
+			<event>
+				<text>The Crystal being seems quite amused by this reading material. His kind are referenced as some kind of divine prophet race.</text>
+				<item_modify>
+					<item type="scrap" min="35" max="40"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
+			<text>[Sell Ship Hull Panels for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="33" max="37"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
+			<text>[Sell Weapon Components for about 75 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+				<item type="scrap" min="45" max="55"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_MANTIS_BOUNTY" hidden="true">
+			<text>[Sell Looted Bounty for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="33" max="37"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
+			<text>[Sell Slug Hallucinogens for about 70 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="40" max="50"/>  <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_SLUG_ART" hidden="true">
+			<text>[Sell Eccentric Artwork for about 65 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="35" max="55"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_SLUG_ANIMALS" hidden="true">
+			<text>[Sell Alien Livestock for about 55 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="35" max="45"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
+			<text>[Sell Small Arms for about 65 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_CRYSTAL_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="40" max="50"/>  <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_FED_WRECK" hidden="true">
+			<text>[Sell Ship Wreckage for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
+			<text>[Sell Rare Elements for about 60 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="35" max="40"/>  <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_AI_DATA" hidden="true">
+			<text>[Sell AI Research Data for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_AI_NANOBOTS" hidden="true">
+			<text>[Sell Obedient Nanobots for about 60 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="35" max="40"/>  <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
+			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
+			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_INDUSTRIAL_REACTOR" hidden="true">
+			<text>[Sell Reactor Modules for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="25" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
+			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<!-- generic -->
+		<choice req="TE_GOODS_GIRDERS" hidden="true">
+			<text>[Sell Building Material for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_CHEMICALS" hidden="true">
+			<text>[Sell Basic Chemicals for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_TEXTILES" hidden="true">
+			<text>[Sell Synth-Textiles for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ORGANISMS" hidden="true">
+			<text>[Sell Xeno Organisms for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_O2" hidden="true">
+			<text>[Sell Stored Oxygen for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_H2O" hidden="true">
+			<text>[Sell Huge Water Supply for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_SEEDS" hidden="true">
+			<text>[Sell Bio-Engineered Seeds for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_CONDUITS" hidden="true">
+			<text>[Sell Power Conduits for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_PRODUCE" hidden="true">
+			<text>[Sell Station-Grown Vegetables for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ANTIMATTER" hidden="true">
+			<text>[Sell Antimatter for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_GAMES" hidden="true">
+			<text>[Sell Virtual Games for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_SENSORS" hidden="true">
+			<text>[Sell Sensor Components for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_LIFESUPPORT" hidden="true">
+			<text>[Sell Life Support Gear for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_ROBOTS" hidden="true">
+			<text>[Sell Serve Drones for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_RESEARCH" hidden="true">
+			<text>[Sell Research Eqipment for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="25" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_SOLAR" hidden="true">
+			<text>[Sell Solar Panels for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="25" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_RELICS" hidden="true">
+			<text>[Sell Archaeological Relics for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="25" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_CLONES" hidden="true">
+			<text>[Sell Trooper DNA Backups for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="25" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_GLANDS" hidden="true">
+			<text>[Sell Alien Glands for about 30 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="20" max="25"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_GEMS" hidden="true">
+			<text>[Sell Deep-Space Gemstones for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_AMBRA" hidden="true">
+			<text>[Sell Space Whale Ambra for about 50 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="25" max="35"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_PLACEHOLDER" hidden="true">
+			<text>You should not see this option. Its a meaningless placeholder.</text>
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Just check the available ship equipment.</text>
+			<event/>
+		</choice>
+	</event>
+</eventList>
+
