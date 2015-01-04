@@ -5027,7 +5027,7 @@
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 	</gotaway>
 	<destroyed>
-		<text>"You successfully completed this attack training session and eliminated the hostile before it got away. The combat simulator will evaluate your crews performance now.</text>
+		<text>"You successfully completed this attack training session and eliminated the hostile before it got away. The combat simulator will now evaluate your crew's performance.</text>
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<choice req="weapons" max_lvl="1" max_group="0" blue="false">
 			<text>Continue...</text>
@@ -5086,7 +5086,7 @@
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>"You successfully completed this evasion training session. The combat simulator will evaluate your crews performance now."</text>
+		<text>"You successfully completed this evasion training session. The combat simulator will now evaluate your crew's performance."</text>
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="drones" amount="100"/>
