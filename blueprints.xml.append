@@ -11854,7 +11854,7 @@
 	<type>SHIP_REPAIR</type>
 	<title>Advanced Hull Repair Drone</title>
 	<short>Hull Repair</short>
-	<desc>Repairs damage to your hull even faster. Part is consumed once it finishes.</desc>
+	<desc>Repairs damage to your hull even faster. part is consumed once it finishes.</desc>
 	<power>3</power>
 	<cooldown>1000</cooldown> <!-- Doesn't effect repair drone -->
 	<dodge>5</dodge>
