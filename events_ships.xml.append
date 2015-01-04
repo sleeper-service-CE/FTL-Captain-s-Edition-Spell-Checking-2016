@@ -5082,7 +5082,7 @@
 
 <ship name="SIMMED_SHIP_AGGRESSIVE" auto_blueprint="CE_AUTO_BASIC_SIMMED_AGGRESSIVE">
 	<escape timer="30" min="10" max="10">
-		<text>A moment ago there was just empty space, now the screen shows a heavily armed gunboat as your opponent. The simulated ship will fire virtual projectiles at you till the training program ends. You remind your crew to take this seriously and order evasive maneuvers.</text>
+		<text>A moment ago there was just empty space; now the screen shows a heavily armed gunboat as your opponent. The simulated ship will fire virtual projectiles at you until the training program ends. You remind your crew to take this seriously and order evasive maneuvers.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
@@ -5107,13 +5107,13 @@
 		<choice req="engines" max_lvl="3" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew and performed well considering the circumstances but your current ship configuration reduce your changes of survival in a real combat situation."</text>
+				<text>"Your crew and performed well considering the circumstances, but your current ship configuration reduces your changes of survival in a real combat situation."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="4" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew scored average results in this scenario. You evaded a significant part of the enemy fire but would still have taken considerable damage in a real fight."</text>
+				<text>"Your crew scored average results in this scenario. You evaded a significant part of the enemy fire, but would still have taken considerable damage in a real fight."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="5" max_group="0" blue="false">
