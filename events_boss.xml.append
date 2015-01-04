@@ -3449,7 +3449,7 @@
 	<text>You arrive amidst the debris of a completely destroyed Federation cruiser. The enemy ship that blew it apart immediately starts to target you. "This is the RS 'I Don't Want To Brag, But...'. Moving in hot, suckers!" Better brace for impact.</text>
 	<text>Fierce fighting is taking place in the distance. You hope to move on unnoticed but a Rebel cruiser breaks away from the main fleet and engages you. They send a short hail, "This is the RS 'Gravitas Shortfall'. God, you are annoying, but now we have you." Evasive maneuvers!</text>
 	<text>The commander of a nearby Federation cruiser sends a warning message, "Multiple enemy assets converging on your position and we can't stop them all. You have to take on one of their cruisers for a bit. Try to get away as fast as..." The Rebel cruiser interrupts your communications, "This is the RS 'Hey Diddly Diddly'. We will blow you apart, Fed scum." Red alert!</text>
-	<text>The commander of the nearby Federation cruiser squadron sends an encrypted message, "We try to distract them to enable you to jump... Concentrate fire on unit 26-b! ... Damn, they got away. You got incoming, sonny. May God help you!" One of the Rebel cruisers, the RS 'Spilt Milk' performed a short distance jump and appeared right in front of your ship.</text>
+	<text>The commander of the nearby Federation cruiser squadron sends an encrypted message, "We try to distract them to enable you to jump... Concentrate fire on unit 26-b! ... Damn, they got away. You got incoming, sonny. May God help you!" One of the Rebel cruisers, the RS "Spilt Milk" performed a short distance jump and appeared right in front of your ship.</text>
 </textList>
 
 <event name="C_BOSS_CRUISER_RESCUE">
