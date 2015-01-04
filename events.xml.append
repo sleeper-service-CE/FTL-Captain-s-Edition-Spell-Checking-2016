@@ -381,21 +381,11 @@
 	</event>
 </eventList>
 <textList name="CE_PRE_FIGHT_NEBULA_SCANNER_TEXT">
-	<text>Nothing will escape you, even within this clouds. Your vision is augmented.</text>
+	<text>Nothing will escape you, even within these clouds. Your vision is augmented.</text>
 	<text>The device scans in more than three dimensions and produces images that are impossible to comprehend for most individuals. You are glad that the sensor system converts the data into something you can work with.</text>
 	<text>Your augmented sensors easily pick up the enemy. You get as much data as you usually would.</text>
-	<text>No one exactly knows how this advanced scanning tech of the Slug actually works. How ever it does it, it allows your sensors to function even within this cloud.</text>
-	<text>You augment scanner can provide detailed data on the ship, even within this cloud.</text>
-	<text>The scanner gives you a detailed subspace image, but you will still need regular sensors to interpret it.</text>
-	<text>The device scans in more than three dimensions and produces images that are impossible to comprehend for most individuals. You are glad that the sensor system converts the data into something you can work with.</text>
-	<text>Your augmented sensors easily pick up the enemy. You get as much data as you usually would.</text>
-	<text>No one exactly knows how this advanced scanning tech of the Slug actually works. How ever it does it, it allows your sensors to function even within this cloud.</text>
-	<text>You augment scanner can provide detailed data on the ship, even within this cloud.</text>
-	<text>The scanner gives you a detailed subspace image, but you will still need regular sensors to interpret it.</text>
-	<text>The device scans in more than three dimensions and produces images that are impossible to comprehend for most individuals. You are glad that the sensor system converts the data into something you can work with.</text>
-	<text>Your augmented sensors easily pick up the enemy. You get as much data as you usually would.</text>
-	<text>No one exactly knows how this advanced scanning tech of the Slug actually works. How ever it does it, it allows your sensors to function even within this cloud.</text>
-	<text>You augment scanner can provide detailed data on the ship, even within this cloud.</text>
+	<text>No one exactly knows how this advanced scanning tech of the Slug actually works. It allows your sensors to function even within this cloud, somehow.</text>
+	<text>You augmented scanner can provide detailed data on the ship, even within this cloud.</text>
 	<text>The scanner gives you a detailed subspace image, but you will still need regular sensors to interpret it.</text>
 </textList>
 
