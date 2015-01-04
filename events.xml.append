@@ -149,9 +149,9 @@
 	</event>
 </eventList>
 <textList name="CE_RESIST_WEAPON_JAMMING_TEXT">
-	<text>Your targeting computer anticipates the enemies movement, making your systems less dependend on direct tracking and allows you to lock on with you full weapon cluster. Prepare to fire!</text>
+	<text>Your targeting computer anticipates the enemy's movements, making your systems less dependent on direct tracking and allowing you to lock on with your full weapon cluster. Prepare to fire!</text>
 	<text>Semi-manual targeting is jammed, but your computer does most of the work anyway.</text>
-	<text>The enemies jamming field prevents you from effectively tracking the ship, but your advanced targeting hardware is able to cope with just the little data it gets. All weapons can be readied and fired.</text>
+	<text>The enemy's jamming field prevents you from effectively tracking the ship, but your advanced targeting hardware is able to cope with just the little data it gets. All weapons can be readied and fired.</text>
 </textList>
 
 <eventList name="CE_RESIST_ICEFIELD">
