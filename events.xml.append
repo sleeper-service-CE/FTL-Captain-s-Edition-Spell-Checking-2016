@@ -208,7 +208,7 @@
 
 <eventList name="CE_RESIST_CLOAK_HACK">
 	<event>
-		<text>Stealth systems are naturally protected by strong firewalls, the enemy hack can only cause small glitches. Normally this would be enough to make you traceable, but with you advanced stealth equipment you will be able to stay hidden. They still won't see you coming like this.</text>
+		<text>Stealth systems are naturally protected by strong firewalls; the enemy hack can only cause small glitches. Normally this would be enough to make you traceable, but with your advanced stealth equipment you will be able to stay hidden. They still won't see you coming like this.</text>
 		<status type="clear" target="player" system="cloaking" amount="100"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true">
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
