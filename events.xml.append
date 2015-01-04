@@ -390,15 +390,11 @@
 </textList>
 
 <textList name="CE_PRE_FIGHT_CLOAK_BREAK_TEXT">
-	<text>You lock on to the enemy with your full subspace scanner array. Like this, the oponent won't be able to hide within a cloak field.</text>
+	<text>You lock on to the enemy with your full subspace scanner array. Like this, the opponent won't be able to hide within a cloak field.</text>
 	<text>Your augmented sensors easily track the enemy. They wont be able to slip into cloak, should they try to.</text>
 	<text>You augmented scanner can track the position of the hostile, even when they should try to cloak.</text>
 	<text>The scanner gives you a detailed subspace image. Unless your enemy has very advanced cloaking capabilities, it wont be able to hide from you.</text>
 </textList>
-
-
-
-
 
 <eventList name="CE_PRE_FIGHT_ASB">
 	<event>
