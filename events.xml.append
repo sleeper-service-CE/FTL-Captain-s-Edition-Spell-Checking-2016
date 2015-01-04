@@ -1227,7 +1227,7 @@
 	<text>Your augment once again tries to defend your crew against mind control attempts.</text>
 </textList>
 <textList name="CE_PRE_FIGHT_FIREWALL_TEXT">
-	<text>A few megawatt running through your hull plating should disrupt any hacker devices that get to your ship. The enemy hacking system will be rendered much less effective.</text>
+	<text>A few megawatts running through your hull plating should disrupt any hacker devices that get on your ship. The enemy hacking system will be rendered much less effective.</text>
 	<text>The real-space firewall is powered up. Their hacking attempts won't be very effective.</text>
 	<text>The crew feels a lot safer with this equipment active. The enemy will have a harder time messing with your ships systems now.</text>
 	<text>The ultra hot firewall plating will obstruct enemy hacking drones from completely disrupting your ship.</text>
