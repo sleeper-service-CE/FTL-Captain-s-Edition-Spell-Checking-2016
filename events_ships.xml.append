@@ -5032,13 +5032,13 @@
 		<choice req="weapons" max_lvl="1" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your ship and crew has passed this test by destroyed the hostile craft, but performed bellow average in most areas. Consider not taking part in any real combat scenarios involving ship-to-ship combat with your current assets."</text>
+				<text>"Your ship and crew has passed this test by destroyed the hostile craft, but performed below average in most areas. Consider not taking part in any real combat scenarios involving ship-to-ship combat with your current assets."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="2" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your ship and crew passed this test by destroyed the hostile craft, but performed bellow average in most areas. Consider additional training exercises and ship upgrades to improve your crews performance."</text>
+				<text>"Your ship and crew passed this test by destroyed the hostile craft, but performed below average in most areas. Consider additional training exercises and ship upgrades to improve your crews performance."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="3" max_group="0" blue="false">
@@ -5095,13 +5095,13 @@
 		<choice req="engines" max_lvl="1" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew performed bellow average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to it's destruction. Consider not taking part in any real combat scenarios involving ship-to-ship combat with your current assets."</text>
+				<text>"Your crew performed below average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to it's destruction. Consider not taking part in any real combat scenarios involving ship-to-ship combat with your current assets."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="2" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew performed bellow average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to it's destruction. Consider additional training exercises and ship upgrades to improve your crews performance."</text>
+				<text>"Your crew performed below average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to it's destruction. Consider additional training exercises and ship upgrades to improve your crews performance."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="3" max_group="0" blue="false">
