@@ -355,8 +355,8 @@
 	<text>Your augmented projectors keep you shields up, even with the ion field present.</text>
 	<text>Your advanced field projectors can negate the effect of the ion field. This should keep your defenses up.</text>
 	<text>A few redundant projectors get fried, but you manage to keep the shields up despite the ion field. Time to focus on the hostile.</text>
-	<text>The projector strain levels go beyond the max, but you decide to fry some redundant components to keep the shields up. The crew reports that your defenses remain fully functional.</text>
-	<text>Lightening arks from the projectors as you struggle to keep the shield up. Steady now! Looks like this will work...</text>
+	<text>The projector is straining beyond its limits, but you allow some redundant components to fry in order to keep the shields up. The crew reports that your defenses remain fully functional.</text>
+	<text>Lightening arcs from the projectors as you struggle to keep the shields up. Steady now! Looks like this will work...</text>
 </textList>
 
 <eventList name="CE_PRE_FIGHT_NEBULA_SCANNER">
