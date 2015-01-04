@@ -301,8 +301,8 @@
 </eventList>
 <textList name="CE_RESIST_DRONE_JAMMING_TEXT">
 	<text>"Sending now, Captain." The uploaded micro AI components will allow the drones to function even though the communication up-link with your ship is scrambled.</text>
-	<text>With the improved AI taking over drone communication, you barely need any connection to have them execute their task. The signal jamming here will not affect your drones performance.</text>
-	<text>You use what little signal strength you have left to activate the drones autonomous AI routines. The machines will be able to anticipate you commands, allowing them to function even you can barely give them any clear commands.</text>
+	<text>With the improved AI taking over drone communication, barely any connection is needed for the drones to execute their tasks. The signal jamming here will not affect your drones' performance.</text>
+	<text>You use what little signal strength you have left to activate the drones' autonomous AI routines. The machines will be able to anticipate your commands, allowing them to function even with barely any clear commands given.</text>
 </textList>
 
 <eventList name="CE_RESIST_ION">
