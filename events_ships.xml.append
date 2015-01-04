@@ -5020,7 +5020,7 @@
 		<ship hostile="true"/>
 	</escape>
 	<surrender chance="0.5" min="10" max="15">
-		<text>You keep flying complex maneuvers and unload your weapons at an opponent that is not really there. For an outside observer this must look quite strange.</text>
+		<text>You keep flying complex maneuvers and unload your weapons at an opponent that is not really there. For an outside observer, this must look quite strange.</text>
 	</surrender>
 	<gotaway>
 		<text>You completed the training simulation, but failed to score enough hits on the simulated craft in time. In a real encounter, your opponent would have escaped.</text>
@@ -5032,13 +5032,13 @@
 		<choice req="weapons" max_lvl="1" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your ship and crew has passed this test by destroyed the hostile craft, but performed below average in most areas. Consider not taking part in any real combat scenarios involving ship-to-ship combat with your current assets."</text>
+				<text>"Your ship and crew has passed this test by destroying the hostile craft, but performed below average in most areas. Consider avoiding any real ship-to-ship combat scenarios with your current assets."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="2" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your ship and crew passed this test by destroyed the hostile craft, but performed below average in most areas. Consider additional training exercises and ship upgrades to improve your crews performance."</text>
+				<text>"Your ship and crew passed this test by destroying the hostile craft, but performed below average in most areas. Consider additional training exercises and ship upgrades to improve your crew's performance."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="3" max_group="0" blue="false">
@@ -5062,19 +5062,19 @@
 		<choice req="weapons" max_lvl="6" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew scored well in this scenario remained disciplined in a hectic situations. This shows good promise."</text>
+				<text>"Your crew scored well in this scenario, and remained disciplined in a hectic situation. This shows good promise."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="7" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew scored well in this scenario eliminated the hostile efficiently."</text>
+				<text>"Your crew scored well in this scenario by efficiently eliminating the hostile."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="8" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew and ship scored exceptionally in this scenario. Your rating qualifies you for a promotion to the rank of [Lieutenant]."</text>
+				<text>"Your crew and ship scored exceptionally well in this scenario. Your rating qualifies you for a promotion to the rank of [Lieutenant]."</text>
 			</event>
 		</choice>
 	</destroyed>
