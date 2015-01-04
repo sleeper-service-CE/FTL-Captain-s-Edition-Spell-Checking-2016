@@ -2561,7 +2561,7 @@
 	</choice>
 </event>
 <textList name="ROCK_BOARDERS_ASTEROID">
-	<text>You arrive in an asteroid field and immediately begin evasive maneuvers. The ship AI warns you about several medium size asteroids on direct collision course. There is an incoming teleporter signal as well.</text>
+	<text>You arrive in an asteroid field and immediately begin evasive maneuvers. The ship AI warns you about several medium size asteroids on a direct collision course. There is an incoming teleporter signal as well.</text>
 	<text>Your shields are being taxed as the they deflect the debris from an asteroid field. As you weave your way between the rocks you happen upon a Rock pirate stronghold. You register teleport signatures.</text>
 </textList>
 

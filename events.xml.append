@@ -12111,7 +12111,7 @@
 
 <eventList name="ASTEROID_DERELICT_SHIP_SEARCH">
 	<event>
-		<text>You find what appear to be pieces of a derelict ship coated with ice or crystal. Before you have a chance to dock, a few asteroids approach on direct collision course.</text>
+		<text>You find what appear to be pieces of a derelict ship coated with ice or crystal. Before you have a chance to dock, a few asteroids approach on a direct collision course.</text>
 		<choice req="FTL_JUMPER" hidden="true">
 			<text>(Advanced Navigation AI) Evasive actions! Get us out of here!</text>
 			<event>
