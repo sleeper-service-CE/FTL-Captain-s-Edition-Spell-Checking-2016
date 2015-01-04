@@ -201,9 +201,9 @@
 	</event>
 </eventList>
 <textList name="CE_RESIST_ICEFIELD_TEXT">
-	<text>Your black-body field will hide you even if there is no background radiation at all. Your opponent wont see you coming.</text>
-	<text>"Les shot them what this vessel is really capable of." The heat-sink field leaves no trace of your ship, even in this sensor friendly region.</text>
-	<text>Your engineer is happy getting a chance to push the stealth capabilities of your vessel to the max. The crew lets the ship run on minimal systems and gets the black body field up. You remain extremely hard to trace, even in this ice-field.</text>
+	<text>Your black-body field will hide you even without background radiation. Your opponent wont see you coming.</text>
+	<text>"Let's show them what this vessel is really capable of." The heat-sink field leaves no trace of your ship, even in this sensor friendly region.</text>
+	<text>Your engineer is happy to get a chance to push the stealth capabilities of your vessel to the max. The crew lets the ship run on minimal systems and gets the black body field up. You remain extremely hard to trace, even in this ice-field.</text>
 </textList>
 
 <eventList name="CE_RESIST_CLOAK_HACK">
