@@ -37199,7 +37199,7 @@ IDEAS
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>You will use the scrap for good, but can't help feeling like you lost your way. Crew morale is as low as it can get</text>
+		<text>You will use the scrap for good, but can't help feeling like you lost your way. Crew morale is as low as it can get.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
@@ -37210,7 +37210,7 @@ IDEAS
 		<text>There are no more life signs remaining on the ship and you send in a salvage team. One of your crew members sends a formal complaint over the comms, arguing that this operation was unnecessary and against Federation protocols. The crew member decides to desert your mission and leaves the ship in an escape pod.</text>
 		<removeCrew>
 			<clone>false</clone>
-			<text>Your clonebay obviously won't revive your crewmen, since he did not die.</text>
+			<text>Your clonebay obviously won't revive your crewman, since he did not die.</text>
 		</removeCrew>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
@@ -37218,7 +37218,7 @@ IDEAS
 
 <eventList name="DESTROYED_PIRACY_CIVILIAN_RESULTS_RISKLESS_STATION">
 	<event>
-		<text>The crew isn't questioning your course of action. Scans indicate some of The cargo is still intact. You order a sweep.</text>
+		<text>The crew isn't questioning your course of action. Scans indicate some of the cargo is still intact. You order a sweep.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
