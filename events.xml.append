@@ -1960,7 +1960,7 @@
 
 <eventList name="CE_DRONE_JAMMING_RESULTS_2">
 	<event>
-		<text>The enemy's drone status lights flicker and go out as their connection to the drone control is severed. One less problem to deal with.</text>
+		<text>The enemy's drone status lights flicker and go out as their drone control connection is severed. One less problem to deal with.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
@@ -1968,19 +1968,7 @@
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>The communications link between the enemy ship and its drones is seriously disrupted. Some of the drones shut down completely.</text>
-		<status type="loss" target="enemy" system="drones" amount="3"/>
-	</event>
-	<event>
-		<text>The enemy's drone status lights flicker and go out as their connection to the drone control is severed. One less problem to deal with.</text>
-		<status type="loss" target="enemy" system="drones" amount="3"/>
-	</event>
-	<event>
-		<text>Your crew reports, "Drone uplink disrupted, Captain."</text>
-		<status type="loss" target="enemy" system="drones" amount="3"/>
-	</event>
-	<event>
-		<text>The communications link between the enemy ship and its drones is seriously disrupted. Some of the drones shut down completely.</text>
+		<text>The communications link between the enemy ship and its drones is seriously disrupted. Some of its drones shut down completely.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
