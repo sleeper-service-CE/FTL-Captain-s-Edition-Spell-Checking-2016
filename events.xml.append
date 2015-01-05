@@ -4392,7 +4392,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>It looks like the Rebels still have an ace up their sleeve. The flagship powers up a combat augment. Its internal effector and manipulates your sensor data, you loose situation awareness entirely.</text>
+		<text>It looks like the Rebels still have an ace up their sleeve. The flagship powers up a combat augment. Its internal effector and manipulates your sensor data; you lose situation awareness entirely.</text>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<status type="limit" target="player" system="sensors" amount="0"/>
 		<ship hostile="true"/>
@@ -5405,7 +5405,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>It looks like the Rebels still have an ace up their sleeve. The flagship powers up a combat augment. Its internal effector and manipulates your sensor data, you loose situation awareness entirely.</text>
+		<text>It looks like the Rebels still have an ace up their sleeve. The flagship powers up a combat augment. Its internal effector and manipulates your sensor data; you lose situation awareness entirely.</text>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<status type="limit" target="player" system="sensors" amount="0"/>
 		<ship hostile="true"/>
@@ -7858,7 +7858,7 @@
 		<status type="loss" target="enemy" system="reactor" amount="1"/>
 	</event>
 	<event>
-		<text>Scans indicate that the enemy's reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly looses power.</text>
+		<text>Scans indicate that the enemy's reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly loses power.</text>
 		<status type="loss" target="enemy" system="reactor" amount="3"/>
 	</event>
 	<event>
@@ -7874,7 +7874,7 @@
 		<boarders breach="true" min="1" max="2" class="ghost"/>
 	</event>
 	<event>
-		<text>The fighting maneuvers bring your ships close to a small asteroid field. The automated craft activates its backup thrusters and speeds towards the rocks. It tries to loose you in the hazard zone and will surely inform the Rebel fleet about your wherabouts if it gets away.</text>
+		<text>The fighting maneuvers bring your ships close to a small asteroid field. The automated craft activates its backup thrusters and speeds towards the rocks. It tries to lose you in the hazard zone, and will surely inform the Rebel fleet about your wherabouts if it gets away.</text>
 		<choice hidden="true">
 			<text>Go after the ship.</text>
 			<event>
@@ -18697,16 +18697,16 @@
 	<text>You order to disregard any fuel economization directives and try to outrun the Rebels in hyperspace.</text>
 	<text>Additional fuels is fed into the reactor and the FTL reaction increases its power output. Your ship screams through the fabric of space-time, accelerating hard.</text>
 	<text>"Affirmative, Captain. Disregarding fuel economization directives. Reactor output at 110%. We can't push it much more without risking engine degradation."</text>
-	<text>The dedicated hyperspace scanner soon loose track of the Rebel fleet. Looks like you have outrun them for now.</text>
+	<text>The dedicated hyperspace scanner soon loses track of the Rebel fleet. Looks like you have outrun them for now.</text>
 	<text>Intel suggests that the Rebel fleet will be unable to move any faster than at standard speed. By spending a little more fuel you can easily get ahead of them.</text>
 </textList>
 
 <textList name="HYPERSPACE_TRAVEL_ADVANCED_TEXT">
 	<text>The ship shudders as the FTL fuel ignites and the reactor output increases. Damage reports start coming in, the engine exhaust is ablating the surrounding hull by their own energy output. Hold it steady!</text>
-	<text>Your crew is eager to use your advanced engines to their full potential. "Affirmative, Captain. We expect some internal degradation of the engine block, but thats nothing we can't fix later."</text>
+	<text>Your crew is eager to use your advanced engines to their full potential. "Affirmative, Captain. We expect some internal degradation of the engine block, but that's nothing we can't fix later."</text>
 	<text>You are pressed deep into your seat as the ship speeds up, tearing a rift into hyperspace that remains traceable even hundreds of light-years away.</text>
 	<text>"Confirmed, Captain. Let's see what shes got!" The ship is sped up beyond the limits specified by its constructors. After a while, red lights come up on you screens. The engines start to take damage and the hull is ablating.</text>
-	<text>The fleets collective FTL signature becomes a slim line on the hyperspace horizon, soon the rear scanners loose the Rebel ships entirely. You manage to get a lot of space between you and the Rebel, but the ships hull sustains some damage in the process.</text>
+	<text>The fleet's collective FTL signature becomes a slim line on the hyperspace horizon; soon the rear scanners lose the Rebel ships entirely. You manage to get a lot of space between you and the Rebels, but the ship's hull sustains some damage in the process.</text>
 	<text>Your ship speeds up with the hyperspace equivalent of a sonic boom. Shock waves ripple through the skein of reality, announcing your high speed maneuver to the startled Rebel officers, which have no hope of catching up with you soon.</text>
 	<text>Your ship was never designed for such a maneuver. The hull is deformed by the sheer speed you are traveling at, but the Rebel fleet is left far behind.</text>
 </textList>
