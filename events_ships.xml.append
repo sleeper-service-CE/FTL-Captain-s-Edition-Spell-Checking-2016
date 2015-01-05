@@ -5202,7 +5202,7 @@
 		<choice>
 			<text>Continue...</text>
 			<event>
-				<text>While salvaging you already scan the facility for weak spots. There must be a way to destroy this place. When the screen turns red again you realize that you wont get far with your plans. Constructors close in through tunnels all around you. The whole factory is in alarm and even the unfinished auto-ships in the hangar slowly activate one after each other. You have to jump out of this place now!</text>
+				<text>While salvaging you already scan the facility for weak spots. There must be a way to destroy this place. When the screen turns red again you realize that you won't get far with your plans. Constructors close in through tunnels all around you. The whole factory is in alarm and even the unfinished auto-ships in the hangar slowly activate one after each other. You have to jump out of this place now!</text>
 				<autoReward level="HIGH">standard</autoReward>
 			</event>
 		</choice>
@@ -5319,7 +5319,7 @@
 		<choice>
 			<text>Accept their offer.</text>
 			<event>					
-				<text>"Oh, you accept our offer? Well aren't you a nice guy! The only thing that might interest you is the location of a Rebel surveyor craft we tracked. Pull its survey data, stick your claim and get rich. Now please excuse us." The ships FTL is charged and they prepare to jump. You wont be able to attack them again.</text>
+				<text>"Oh, you accept our offer? Well aren't you a nice guy! The only thing that might interest you is the location of a Rebel surveyor craft we tracked. Pull its survey data, stick your claim and get rich. Now please excuse us." The ships FTL is charged and they prepare to jump. You won't be able to attack them again.</text>
 				<quest event="CE_QUEST_AUTO_SURVEYOR_HUNT_FIGHT"/>
 				<ship hostile="false"/>
 				<choice>

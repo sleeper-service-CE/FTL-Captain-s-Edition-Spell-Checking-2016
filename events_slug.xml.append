@@ -186,13 +186,13 @@
 
 <eventList name="CE_SURRENDER_SHIP_ATTACK_SLUG">
 	<event>
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 	</event>
 	<event>
 		<text>You opponent was scared like a Slug in open space. After droping the agreed amount of supplies, they immediately put as much distance between your two ships as possible. They are already out of weapon range.</text>
 	</event>
 	<event>
-		<text>You opponent is heavily damaged, but they have called for backup during the fight and several ship already circle the beacon. This wont work, you have to get out of here.</text>
+		<text>You opponent is heavily damaged, but they have called for backup during the fight and several ship already circle the beacon. This won't work, you have to get out of here.</text>
 	</event>
 	<event>
 		<text>"Foolish Aliens. You can't deceived the deceiver!" They activate a backup cloaking device and slip away.</text>

@@ -3067,7 +3067,7 @@
 
 <eventList name="C_PIRACY_SUCCESS_LOOT_ZOLTAN">
 	<event>					
-		<text>They transmit the prices. This took some time; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They transmit the prices. This took some time; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -3076,7 +3076,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>They transmit the supplies. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They transmit the supplies. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -3085,7 +3085,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -3094,7 +3094,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -3103,7 +3103,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo. You are a successful space pirate now. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo. You are a successful space pirate now. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ZOLTAN_BEACONS"/>
 		<choice>
@@ -3112,7 +3112,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying spare parts for FTL beacons and agree to give up their cargo. This makes you just another space pirate but you don't even have those fancy pirate markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying spare parts for FTL beacons and agree to give up their cargo. This makes you just another space pirate but you don't even have those fancy pirate markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ZOLTAN_BEACONS"/>
 		<choice>
@@ -3121,7 +3121,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying a copy of the Zoltan legal codex. You could research what the current punishment for piracy is. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying a copy of the Zoltan legal codex. You could research what the current punishment for piracy is. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="E_GOODS_ZOLTAN_CODEX"/>
 		<choice>
@@ -3130,7 +3130,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying valuable shield system parts and agree to give up their cargo. This makes you just another space pirate but you don't even have the fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They where carrying valuable shield system parts and agree to give up their cargo. This makes you just another space pirate but you don't even have the fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ZOLTAN_SHIELDS"/>
 		<choice>
@@ -3140,7 +3140,7 @@
 	</event>
 
 	<event>
-		<text>They hand over their cargo. You are a successful space pirate now. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo. You are a successful space pirate now. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GIRDERS"/>
 		<choice>
@@ -3149,7 +3149,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GEMS"/>
 		<choice>
@@ -3158,7 +3158,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ANTIMATTER"/>
 		<choice>
@@ -3167,7 +3167,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CONDUITS"/>
 		<choice>
@@ -3177,7 +3177,7 @@
 	</event>
 
 	<event>
-		<text>They were carrying virtual reality substrates and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying virtual reality substrates and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GAMES"/>
 		<choice>
@@ -3186,7 +3186,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying sensor equipment and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying sensor equipment and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SENSORS"/>
 		<choice>
@@ -3195,7 +3195,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying air filters and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying air filters and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_LIFESUPPORT"/>
 		<choice>
@@ -3204,7 +3204,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying industrial drones and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They where carrying industrial drones and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ROBOTS"/>
 		<choice>
@@ -3213,7 +3213,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying research equipment and agree to give up their cargo. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying research equipment and agree to give up their cargo. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RESEARCH"/>
 		<choice>
@@ -3222,7 +3222,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying research equipment and agree to give up their cargo. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying research equipment and agree to give up their cargo. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RESEARCH"/>
 		<choice>
@@ -3231,7 +3231,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying research equipment and agree to give up their cargo. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying research equipment and agree to give up their cargo. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RESEARCH"/>
 		<choice>
@@ -3240,7 +3240,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying solar panels. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They where carrying solar panels. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SOLAR"/>
 		<choice>
@@ -3249,7 +3249,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying strange archaeological artifacts. What are you supposed to do with these? Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They where carrying strange archaeological artifacts. What are you supposed to do with these? Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RELICS"/>
 		<choice>
@@ -6428,7 +6428,7 @@
 
 <eventList name="CE_FED_DESERTER_LIST">
 	<event>
-		<text>"We are not under your command any more! Here we are free, don't you understand? We wont let you take this refuge away from us." Weapons protrude from their hull...</text>
+		<text>"We are not under your command any more! Here we are free, don't you understand? We won't let you take this refuge away from us." Weapons protrude from their hull...</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>

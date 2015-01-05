@@ -5667,14 +5667,14 @@
 	</event>
 </eventList>
 <textList name="DESTROYED_SHIP_AUTO_CONSTRUCTION_STUFF_TEXT">  
-	<text>The automated constructor suffered damage it wont recover from anymore. You salvage what usable tools and supplies you find among its remains before pressing onwards.</text>
+	<text>The automated constructor suffered damage it won't recover from anymore. You salvage what usable tools and supplies you find among its remains before pressing onwards.</text>
 	<text>One more auto-engineer is blown apart and you proceed to loot its remains for construction supplies.</text>
 	<text>Rebel construction crafts are no less dangerous than their scouting counterparts. But at last this one won't stand in your way any more. You quickly search its tool compartments for supplies and prepare to move on.</text>
 </textList>
 <textList name="DESTROYED_SHIP_AUTO_CONSTRUCTION_TEXT">  
 	<text>One more Rebel construction unit is destroyed. In death it emits an short range burst message. An autonomous shipyard at the other end of the system comes online, undoubtedly already manufacturing a replacement. These battles start to seems really pointless.</text>
 	<text>These sentient nuisances just keep on coming; with each one you destroy, there is sure to be many to replace it. You quickly scrap the ship and prepare to jump.</text>
-	<text>You try to tell yourself that you are deeply disrupting Rebel ship production here, but you know the truth: You wont stop these machines. For every ship destroyed, two more might already be put together in a nearby assembly line.</text>
+	<text>You try to tell yourself that you are deeply disrupting Rebel ship production here, but you know the truth: You won't stop these machines. For every ship destroyed, two more might already be put together in a nearby assembly line.</text>
 </textList>
 
 
