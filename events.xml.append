@@ -7858,11 +7858,11 @@
 		<status type="loss" target="enemy" system="reactor" amount="1"/>
 	</event>
 	<event>
-		<text>Scans indicate that the enemies reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly looses power.</text>
+		<text>Scans indicate that the enemy's reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly looses power.</text>
 		<status type="loss" target="enemy" system="reactor" amount="3"/>
 	</event>
 	<event>
-		<text>The enemies engines begin to stutter. The AI craft navigated too hard and burned out the stabilizers.</text>
+		<text>The enemy's engines begin to stutter. The AI craft navigated too hard and burned out the stabilizers.</text>
 		<status type="loss" target="enemy" system="engines" amount="1"/>
 	</event>
 	<event>
