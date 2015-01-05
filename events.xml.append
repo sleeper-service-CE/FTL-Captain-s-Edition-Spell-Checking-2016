@@ -17395,7 +17395,7 @@
 		<choice>
 			<text>Open fire on your defeated opponent.</text>
 			<event>
-				<text>You are content with having fooled the AI into giving up intel. When you proceed to destroy the machine, it hails: "Interesting... and odd. I did not anticipate this. Looks like I calculated your trustworthiness rating incorrectly. I shall fight then, treacherous organic!" The AI transmits a few terabyte of high quality videos, displaying a few thousand ways of how you could die on your mission.</text>
+				<text>You are content with having fooled the AI into giving up intel. When you proceed to destroy the machine, it hails: "Interesting... and odd. I did not anticipate this. Looks like I calculated your trustworthiness rating incorrectly. I shall fight then, treacherous organic!" The AI transmits a few terabytes of high quality videos, displaying a few thousand ways of how you could die on your mission.</text>
 				<ship hostile="true"/>
 			</event>
 		</choice>
