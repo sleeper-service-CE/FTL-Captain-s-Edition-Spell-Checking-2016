@@ -149,9 +149,9 @@
 	</event>
 </eventList>
 <textList name="CE_RESIST_WEAPON_JAMMING_TEXT">
-	<text>Your targeting computer anticipates the enemies movement, making your systems less dependend on direct tracking and allows you to lock on with you full weapon cluster. Prepare to fire!</text>
+	<text>Your targeting computer anticipates the enemy's movements, making your systems less dependent on direct tracking and allowing you to lock on with your full weapon cluster. Prepare to fire!</text>
 	<text>Semi-manual targeting is jammed, but your computer does most of the work anyway.</text>
-	<text>The enemies jamming field prevents you from effectively tracking the ship, but your advanced targeting hardware is able to cope with just the little data it gets. All weapons can be readied and fired.</text>
+	<text>The enemy's jamming field prevents you from effectively tracking the ship, but your advanced targeting hardware is able to cope with just the little data it gets. All weapons can be readied and fired.</text>
 </textList>
 
 <eventList name="CE_RESIST_ICEFIELD">
@@ -201,14 +201,14 @@
 	</event>
 </eventList>
 <textList name="CE_RESIST_ICEFIELD_TEXT">
-	<text>Your black-body field will hide you even if there is no background radiation at all. Your opponent wont see you coming.</text>
-	<text>"Les shot them what this vessel is really capable of." The heat-sink field leaves no trace of your ship, even in this sensor friendly region.</text>
-	<text>Your engineer is happy getting a chance to push the stealth capabilities of your vessel to the max. The crew lets the ship run on minimal systems and gets the black body field up. You remain extremely hard to trace, even in this ice-field.</text>
+	<text>Your black-body field will hide you even without background radiation. Your opponent wont see you coming.</text>
+	<text>"Let's show them what this vessel is really capable of." The heat-sink field leaves no trace of your ship, even in this sensor friendly region.</text>
+	<text>Your engineer is happy to get a chance to push the stealth capabilities of your vessel to the max. The crew lets the ship run on minimal systems and gets the black body field up. You remain extremely hard to trace, even in this ice-field.</text>
 </textList>
 
 <eventList name="CE_RESIST_CLOAK_HACK">
 	<event>
-		<text>Stealth systems are naturally protected by strong firewalls, the enemy hack can only cause small glitches. Normally this would be enough to make you traceable, but with you advanced stealth equipment you will be able to stay hidden. They still won't see you coming like this.</text>
+		<text>Stealth systems are naturally protected by strong firewalls; the enemy hack can only cause small glitches. Normally this would be enough to make you traceable, but with your advanced stealth equipment you will be able to stay hidden. They still won't see you coming like this.</text>
 		<status type="clear" target="player" system="cloaking" amount="100"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true">
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
@@ -301,8 +301,8 @@
 </eventList>
 <textList name="CE_RESIST_DRONE_JAMMING_TEXT">
 	<text>"Sending now, Captain." The uploaded micro AI components will allow the drones to function even though the communication up-link with your ship is scrambled.</text>
-	<text>With the improved AI taking over drone communication, you barely need any connection to have them execute their task. The signal jamming here will not affect your drones performance.</text>
-	<text>You use what little signal strength you have left to activate the drones autonomous AI routines. The machines will be able to anticipate you commands, allowing them to function even you can barely give them any clear commands.</text>
+	<text>With the improved AI taking over drone communication, barely any connection is needed for the drones to execute their tasks. The signal jamming here will not affect your drones' performance.</text>
+	<text>You use what little signal strength you have left to activate the drones' autonomous AI routines. The machines will be able to anticipate your commands, allowing them to function even with barely any clear commands given.</text>
 </textList>
 
 <eventList name="CE_RESIST_ION">
@@ -355,8 +355,8 @@
 	<text>Your augmented projectors keep you shields up, even with the ion field present.</text>
 	<text>Your advanced field projectors can negate the effect of the ion field. This should keep your defenses up.</text>
 	<text>A few redundant projectors get fried, but you manage to keep the shields up despite the ion field. Time to focus on the hostile.</text>
-	<text>The projector strain levels go beyond the max, but you decide to fry some redundant components to keep the shields up. The crew reports that your defenses remain fully functional.</text>
-	<text>Lightening arks from the projectors as you struggle to keep the shield up. Steady now! Looks like this will work...</text>
+	<text>The projector is straining beyond its limits, but you allow some redundant components to fry in order to keep the shields up. The crew reports that your defenses remain fully functional.</text>
+	<text>Lightening arcs from the projectors as you struggle to keep the shields up. Steady now! Looks like this will work...</text>
 </textList>
 
 <eventList name="CE_PRE_FIGHT_NEBULA_SCANNER">
@@ -381,34 +381,20 @@
 	</event>
 </eventList>
 <textList name="CE_PRE_FIGHT_NEBULA_SCANNER_TEXT">
-	<text>Nothing will escape you, even within this clouds. Your vision is augmented.</text>
+	<text>Nothing will escape you, even within these clouds. Your vision is augmented.</text>
 	<text>The device scans in more than three dimensions and produces images that are impossible to comprehend for most individuals. You are glad that the sensor system converts the data into something you can work with.</text>
 	<text>Your augmented sensors easily pick up the enemy. You get as much data as you usually would.</text>
-	<text>No one exactly knows how this advanced scanning tech of the Slug actually works. How ever it does it, it allows your sensors to function even within this cloud.</text>
-	<text>You augment scanner can provide detailed data on the ship, even within this cloud.</text>
-	<text>The scanner gives you a detailed subspace image, but you will still need regular sensors to interpret it.</text>
-	<text>The device scans in more than three dimensions and produces images that are impossible to comprehend for most individuals. You are glad that the sensor system converts the data into something you can work with.</text>
-	<text>Your augmented sensors easily pick up the enemy. You get as much data as you usually would.</text>
-	<text>No one exactly knows how this advanced scanning tech of the Slug actually works. How ever it does it, it allows your sensors to function even within this cloud.</text>
-	<text>You augment scanner can provide detailed data on the ship, even within this cloud.</text>
-	<text>The scanner gives you a detailed subspace image, but you will still need regular sensors to interpret it.</text>
-	<text>The device scans in more than three dimensions and produces images that are impossible to comprehend for most individuals. You are glad that the sensor system converts the data into something you can work with.</text>
-	<text>Your augmented sensors easily pick up the enemy. You get as much data as you usually would.</text>
-	<text>No one exactly knows how this advanced scanning tech of the Slug actually works. How ever it does it, it allows your sensors to function even within this cloud.</text>
-	<text>You augment scanner can provide detailed data on the ship, even within this cloud.</text>
+	<text>No one exactly knows how this advanced scanning tech of the Slug actually works. It allows your sensors to function even within this cloud, somehow.</text>
+	<text>You augmented scanner can provide detailed data on the ship, even within this cloud.</text>
 	<text>The scanner gives you a detailed subspace image, but you will still need regular sensors to interpret it.</text>
 </textList>
 
 <textList name="CE_PRE_FIGHT_CLOAK_BREAK_TEXT">
-	<text>You lock on to the enemy with your full subspace scanner array. Like this, the oponent won't be able to hide within a cloak field.</text>
+	<text>You lock on to the enemy with your full subspace scanner array. Like this, the opponent won't be able to hide within a cloak field.</text>
 	<text>Your augmented sensors easily track the enemy. They wont be able to slip into cloak, should they try to.</text>
 	<text>You augmented scanner can track the position of the hostile, even when they should try to cloak.</text>
 	<text>The scanner gives you a detailed subspace image. Unless your enemy has very advanced cloaking capabilities, it wont be able to hide from you.</text>
 </textList>
-
-
-
-
 
 <eventList name="CE_PRE_FIGHT_ASB">
 	<event>
@@ -1241,7 +1227,7 @@
 	<text>Your augment once again tries to defend your crew against mind control attempts.</text>
 </textList>
 <textList name="CE_PRE_FIGHT_FIREWALL_TEXT">
-	<text>A few megawatt running through your hull plating should disrupt any hacker devices that get to your ship. The enemy hacking system will be rendered much less effective.</text>
+	<text>A few megawatts running through your hull plating should disrupt any hacker devices that get on your ship. The enemy hacking system will be rendered much less effective.</text>
 	<text>The real-space firewall is powered up. Their hacking attempts won't be very effective.</text>
 	<text>The crew feels a lot safer with this equipment active. The enemy will have a harder time messing with your ships systems now.</text>
 	<text>The ultra hot firewall plating will obstruct enemy hacking drones from completely disrupting your ship.</text>
@@ -1938,11 +1924,11 @@
 		<status type="loss" target="enemy" system="weapons" amount="1"/>
 	</event>
 	<event>
-		<text>The jammer proves quite effective against this opponent. Some of its weapons can't be targeted manually and have to be left deactivated.</text>
+		<text>The jammer proves quite effective against this opponent. Some of its weapons can't be targeted manually and are left deactivated.</text>
 		<status type="loss" target="enemy" system="weapons" amount="3"/>
 	</event>
 	<event>
-		<text>The enemy targeting system is jammed and some of its guns power down automatically.</text>
+		<text>The enemy targeting system is jammed and some of its guns automatically power down.</text>
 		<status type="loss" target="enemy" system="weapons" amount="1"/>
 	</event>
 	<event>
@@ -1968,16 +1954,13 @@
 		<text>Your jamming augment seem to be useless against the more advanced targeting systems of this enemy. You will have to deal with the full fire from their weapons array.</text>
 	</event>
 	<event>
-		<text>Your jamming augment seem to be useless against the more advanced targeting systems of this enemy. You will have to deal with the full fire from their weapons array.</text>
-	</event>
-	<event>
-		<text>The enemy scanners should show nothing but static, but it seems you are still targeted with a full weapon cluster. The jammer proved ineffective here.</text>
+		<text>The enemy scanners should show nothing but static, but it seems you are still targeted with their full weapon cluster. The jammer proved ineffective here.</text>
 	</event>
 </eventList>
 
 <eventList name="CE_DRONE_JAMMING_RESULTS_2">
 	<event>
-		<text>The enemy's drone status lights flicker and go out as their connection to the drone control is severed. One less problem to deal with.</text>
+		<text>The enemy's drone status lights flicker and go out as their drone control connection is severed. One less problem to deal with.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
@@ -1985,19 +1968,7 @@
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>The communications link between the enemy ship and its drones is seriously disrupted. Some of the drones shut down completely.</text>
-		<status type="loss" target="enemy" system="drones" amount="3"/>
-	</event>
-	<event>
-		<text>The enemy's drone status lights flicker and go out as their connection to the drone control is severed. One less problem to deal with.</text>
-		<status type="loss" target="enemy" system="drones" amount="3"/>
-	</event>
-	<event>
-		<text>Your crew reports, "Drone uplink disrupted, Captain."</text>
-		<status type="loss" target="enemy" system="drones" amount="3"/>
-	</event>
-	<event>
-		<text>The communications link between the enemy ship and its drones is seriously disrupted. Some of the drones shut down completely.</text>
+		<text>The communications link between the enemy ship and its drones is seriously disrupted. Some of its drones shut down completely.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
@@ -7655,11 +7626,11 @@
 		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
 	</event>
 	<event>
-		<text>Your barrage rips the enemy craft right open. The craft has sustained substantial external damage, it is unlikely that their life support will be able to cope with this.</text>
+		<text>Your barrage rips the enemy craft right open. The craft has sustained substantial external damage; it is unlikely that their life support will be able to hold up much longer.</text>
 		<status type="loss" target="enemy" system="oxygen" amount="3"/>
 	</event>
 	<event>
-		<text>Your fire seemed to have caused some serious damage to the opponents oxygen tanks. They are loosing parts of their life support.</text>
+		<text>Your fire seemed to have caused some serious damage to the opponents oxygen tanks. They are losing parts of their life support.</text>
 		<status type="loss" target="enemy" system="oxygen" amount="1"/>
 	</event>
 	<event>
@@ -7667,11 +7638,11 @@
 		<status type="loss" target="enemy" system="reactor" amount="1"/>
 	</event>
 	<event>
-		<text>Scans indicate that the enemies reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly looses power.</text>
+		<text>Scans indicate that the enemy's reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly loses power.</text>
 		<status type="loss" target="enemy" system="reactor" amount="3"/>
 	</event>
 	<event>
-		<text>The enemies engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
+		<text>The enemy's engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
 		<status type="loss" target="enemy" system="engines" amount="1"/>
 	</event>
 	<event>
@@ -7679,15 +7650,15 @@
 		<status type="loss" target="enemy" system="reactor" amount="1"/>
 	</event>
 	<event>
-		<text>Scans indicate that the enemies reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly looses power.</text>
+		<text>Scans indicate that the enemy's reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly loses power.</text>
 		<status type="loss" target="enemy" system="reactor" amount="3"/>
 	</event>
 	<event>
-		<text>Parts of your salvo crushes into the enemies rear section, resulting in a small explosion that scatters hull panels in all direction. Then the ship goes dark. The opponents reactor must be quite outdated or not well shielded; the craft suffers from an all out power failure.</text>
+		<text>Parts of your salvo crushes into the enemy's rear section, resulting in a small explosion that scatters hull panels in all direction. Then the ship goes dark. The opponent's reactor must be quite outdated or not well shielded; the craft suffers from an all out power failure.</text>
 		<status type="limit" target="enemy" system="reactor" amount="2"/>
 	</event>
 	<event>
-		<text>The enemies engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
+		<text>The enemy's engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
 		<status type="loss" target="enemy" system="engines" amount="1"/>
 	</event>
 	<event>
@@ -7708,7 +7679,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your shots seemed to have breached the enemy cargo hold. The vessel is loosing supplies, scattering ammunition in its wake.</text>
+		<text>Your shots seemed to have breached the enemy cargo hold. The vessel is losing supplies, scattering ammunition in its wake.</text>
 		<choice hidden="true"> 
 			<text>Head for the ammo and quickly pick it up.</text>
 			<event load="CE_COMBAT_FLUFF_MANNED_AMMO"/>
@@ -7719,7 +7690,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your enemy has taken heavy damage and appears to be dropping fuel containers. Are they trying to loose mass?</text>
+		<text>Your enemy has taken heavy damage and appears to be dropping fuel containers. Are they trying to lose mass?</text>
 		<choice hidden="true"> 
 			<text>Head for the fuel and quickly pick it up.</text>
 			<event load="CE_COMBAT_FLUFF_MANNED_FUEL"/>
@@ -7734,7 +7705,7 @@
 		<status type="loss" target="player" system="reactor" amount="3"/>
 	</event>
 	<event>
-		<text>The fighting maneuvers bring your ships close to a small asteroid field. Your opponent is unwilling to avoid it, instead the ship changes course and heads right towards the rocks. They try to loose you in the hazard zone.</text>
+		<text>The fighting maneuvers bring your ships close to a small asteroid field. Your opponent is unwilling to avoid it; instead the ship changes course and heads right towards the rocks. They are trying to lose you in the hazard zone.</text>
 		<choice hidden="true">
 			<text>Go after them.</text>
 			<event>
@@ -7745,7 +7716,7 @@
 		<choice hidden="true">
 			<text>Let them escape.</text>
 			<event>
-				<text>The ship disappears into the field. Maybe they will get crushed by asteroids but you have to assume they know the terrain and will live to harass other vessels. The weapons officer powers down the guns and you return to the beacon.</text>
+				<text>The ship disappears into the field. Maybe they will get crushed by asteroids, but you have to assume they know the terrain and will live to harass other vessels. The weapons officer powers down the guns and you return to the beacon.</text>
 				<ship hostile="false"/>
 			</event>
 		</choice>
@@ -7784,7 +7755,7 @@
 		<damage amount="0" system="random" effect="fire"/>
 	</event>
 	<event>
-		<text>"Captain, it appears we are leaking atmosphere." The battle strained the ship a little too much. Parts of the inner and outer sealing have been compromised and the explosive decompression breached the ship hull.</text>
+		<text>"Captain, it appears we are leaking atmosphere." The battle strained the ship a little too much. Parts of the inner and outer sealing have been compromised and the explosive decompression breaches the ship hull.</text>
 		<damage amount="0" system="random" effect="breach"/>
 	</event>
 </eventList>
@@ -7804,7 +7775,7 @@
 
 <eventList name="CE_COMBAT_FLUFF_MANNED_FUEL">
 	<event>
-		<text>When you approach the fuel, your opponent turns hard and fires potshot at the containers. Thy burst into blue flames that wash right over your ship. Your opponent must be pretty desperate to attempt something like this.</text>
+		<text>When you approach the fuel, your opponent turns hard and fires a potshot at the containers. Thy burst into blue flames that wash right over your ship. Your opponent must be pretty desperate to attempt something like this.</text>
 		<damage amount="1"/>
 	</event>
 	<event>
@@ -7950,8 +7921,8 @@
 <textList name="CE_COMBAT_FLUFF_AUTO_TEXT">
 	<text>Your shots pierce through the enemy craft, spilling trails of molten metal into open space. The enemy is taking heavy damage.</text>
 	<text>The constant maneuvering almost throws you out of your seat. Steady now!</text>
-	<text>All of the sudden the small auto ship turns and boost into your direction, you barely manage to avoid a collision. This definitely caught you off guard.</text>
-	<text>While your weapons trace the enemy, the ship briefly passes in front of the systems sun. For a split-second, it appears as a majestically illuminated shadow in front of the giant star. A brief image of beauty during the cruel carnage of ship-to-ship combat.</text>
+	<text>All of the sudden, the small auto ship turns and boost into your direction; you barely manage to avoid a collision. This definitely caught you off guard.</text>
+	<text>While your weapons trace the enemy, the ship briefly passes in front of the system's sun. For a split-second, it appears as a majestically illuminated shadow in front of the giant star, a brief image of beauty during the cruel carnage of ship-to-ship combat.</text>
 	<text>"Enemy structural integrity is failing, Captain. We got this!"</text>
 	<text>"Shots continue to connect, Captain. Good effect on target."</text>
 	<text>Suddenly electricity arcs out of your console. "Isolate this coupler and reroute my command to another station."</text>
@@ -7962,7 +7933,7 @@
 	<text>The AI craft sends a threatening message. You order to block its channels and focus on the battle.</text>
 	<text>The AI craft hails you: "This is an automated message. You have resisted an executive unit of the Rebellion. This violation has been filed and will have consequences regardless of the outcome of this engagement."</text>
 	<text>The dampeners run on full as you maneuver and exchange fire with your enemy. The heat aboard the ship becomes almost unbearable.</text>
-	<text>You stand in front of the captains chair, focused on the windscreen, bellowing orders to your crew. You will not let this opponent get the better of you!</text>
+	<text>You stand in front of the captain's chair, focused on the windscreen, bellowing orders to your crew. You will not let this opponent get the better of you!</text>
 	<text>Just after you bellowed this last order, everything becomes still for a second. You see yourself from the outside, clutched to one of the silver railings that lines the ship bridge, shouting orders, gesticulating at the screen... Then you remember your parents, your childhood, your time at the academy, the line of cause and effect that brought you here; to another fight to the death. What has become of you?</text>
 	<text>Hold it steady and stay on target... Just like in the simulations.</text>
 	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! You father would be proud.</text>
@@ -7972,8 +7943,7 @@
 	<text>The ships hull creak under the stress of the combat maneuvers. You hope the ship can take it.</text>
 	<text>Your fire tears away a huge section of the enemy plating. Good hit!</text>
 	<text>Hull plating is scattered into space as your shots impact on the enemy craft. You'll pick those up later.</text>
-	<text>Your opponents hull is already covered with glowing impact crater of various sizes. It won't be able to take this kind of punishment for much longer.</text>
-	<text>Hold it steady and stay on target... Just like in the simulations.</text>
+	<text>Your opponents hull is already covered with glowing impact crater of various sizes. It won't be able to take this punishment for much longer.</text>
 </textList>
 
 
