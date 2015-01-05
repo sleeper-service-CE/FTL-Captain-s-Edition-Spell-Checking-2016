@@ -15747,7 +15747,7 @@
 		<choice hidden="true">
 			<text>Accept.</text>
 			<event>
-				<text>"OK. Under no circumstance are you allowed to open the data package. You just have to deliver it to a nearby union outpost and thats it. Payment will be received upon completing the delivery. I guess we don't have to mention that we expect you to make haste." They transfer the data and sign off.</text>
+				<text>"OK. Under no circumstance are you allowed to open the data package. You just have to deliver it to a nearby union outpost and that's it. Payment will be received upon completing the delivery. I guess we don't have to mention that we expect you to make haste." They transfer the data and sign off.</text>
 				<choice>
 					<text>Carefully secure the data package.</text>
 					<event>
@@ -36541,7 +36541,7 @@ IDEAS
 
 <eventList name="CE_CIVILIAN_THEFT_SLUG">
 	<event>
-		<text>The Slug looks insulted. "I didn't take it, if thatsss what you think Captain. But let me tell you: there wass plenty opportunity for theft in thiss sector. We might never find out what happened to thiss sssuppliess."</text>
+		<text>The Slug looks insulted. "I didn't take it, if that'sss what you think Captain. But let me tell you: there wass plenty opportunity for theft in thiss sector. We might never find out what happened to thiss sssuppliess."</text>
 		<item_modify steal="true">
 			<item type="scrap" min="-10" max="-20"/>
 			<item type="fuel" min="-4" max="-2"/>
@@ -36550,7 +36550,7 @@ IDEAS
 		</item_modify>
 	</event>
 	<event>
-		<text>The Slug looks insulted. "I didn't take it, if thatsss what you think Captain." It concentrates for a few minutes. "Hmmm... There iss sssomeone aboard, I ssense it... A Rebel spy Captain, he has hidden the supplies and plans to sabotage the ship. He must have a perssonal cloaking device."</text>
+		<text>The Slug looks insulted. "I didn't take it, if that'sss what you think Captain." It concentrates for a few minutes. "Hmmm... There iss sssomeone aboard, I ssense it... A Rebel spy Captain, he has hidden the supplies and plans to sabotage the ship. He must have a perssonal cloaking device."</text>
 		<boarders min="1" max="1" class="human"/>
 		<choice hidden="true">
 			<text>Reconfigure the sensors.</text>
