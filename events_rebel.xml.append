@@ -2717,7 +2717,7 @@
 			<choice hidden="true">
 				<text>"Sorry, but we have our own mission to take care of"</text>
 				<event>
-					<text>"Well we wish you luck with that then. You might want to get out of here, we detect incoming bogies." You detect a small jump signature a few klicks away and then a much bigger one right in front of you.</text>
+					<text>"Well we wish you luck with that then. You might want to get out of here, we detect incoming bogies." You detect a small jump signature a few clicks away and then a much bigger one right in front of you.</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event>
