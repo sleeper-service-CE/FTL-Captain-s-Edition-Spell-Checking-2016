@@ -36550,7 +36550,7 @@ IDEAS
 		</item_modify>
 	</event>
 	<event>
-		<text>The Slug looks insulted. "I didn't take it, if that'sss what you think Captain." It concentrates for a few minutes. "Hmmm... There iss sssomeone aboard, I ssense it... A Rebel spy Captain, he has hidden the supplies and plans to sabotage the ship. He must have a perssonal cloaking device."</text>
+		<text>The Slug looks insulted. "I didn't take it, if that'sss what you think Captain." It concentrates for a few minutes. "Hmmm... There iss sssomeone aboard, I ssense it... A Rebel spy, Captain. He has hidden the supplies and plans to sabotage the ship. He must have a perssonal cloaking device."</text>
 		<boarders min="1" max="1" class="human"/>
 		<choice hidden="true">
 			<text>Reconfigure the sensors.</text>
@@ -36561,34 +36561,34 @@ IDEAS
 		</choice>
 	</event>
 	<event>
-		<text>"If I couldn't read your mind, I might assume you think that I stole these supplies. But you should rather question you crewmen there. He is awfully nervous."</text>
+		<text>"If I couldn't read your mind, I might assume you think that I stole these supplies. But you should rather question you crewman there. He is awfully nervous."</text>
 		<choice hidden="true">
 			<text>"What is this about?"</text>
 			<event>
-				<text>Your other crewmen shamefully admits that he was planning to abandon you mission. The missing supplies are discovered in one of the shuttles.</text>
+				<text>Your other crewman shamefully admits that he was planning to abandon your mission. The missing supplies are discovered in one of the shuttles.</text>
 				<choice hidden="true">
-					<text>Punish your crewmen.</text>
+					<text>Punish your crewman.</text>
 					<event>
-						<text>You crewmen free time privileges are suspended for some jumps. You also give a inspiring lecture on the purpose of the mission. You hope that this will make him see sense.</text>
+						<text>Your crewman's free time privileges are suspended for some jumps. You also give a inspiring lecture on the purpose of the mission, hoping to put some sense into him.</text>
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Dismiss your crewmen.</text>
+					<text>Dismiss your crewman.</text>
 					<event>
-						<text>A crewmen that can't be trusted is worthless. You reclaim the stolen supplies, but send the crewmen away in the shuttle. The remaining crew agrees that this was the best thing to do.</text>
+						<text>A crewman that can't be trusted is worthless. You reclaim the stolen supplies, but send the crewman away in the shuttle. The remaining crew agrees that this was the best thing to do.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>This also makes room in the clonebays data base for new crewmen.</text>
+							<text>This also makes room in the clonebay's database for a new crewman.</text>
 						</removeCrew>
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Execute your crewmen.</text>
+					<text>Execute your crewman.</text>
 					<event>
 						<text>Deserting is punishable by death under Federation protocol. You line up a firing squad in the cargo bay. It is over quickly.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>The deletion of the deserters mental-backup is also executed in accordance with Federation law.</text>
+							<text>The deletion of the deserter's mental-backup is also executed in accordance with Federation law.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -36596,11 +36596,11 @@ IDEAS
 		</choice>
 	</event>
 	<event>
-		<text>"If I couldn't read your mind, I might assume you think that I stole these supplies. But you should rather question you crewmen there. He is awfully nervous."</text>
+		<text>"If I couldn't read your mind, I might assume you think that I stole these supplies. But you should rather question you crewman there. He is awfully nervous."</text>
 		<choice hidden="true">
 			<text>"What is this about?"</text>
 			<event>
-				<text>Your other crewmen shamefully admits that he has simply misplaced the supplies. You suspend some of his off-time privileges. Let's hope this won't happen again.</text>
+				<text>Your other crewman shamefully admits that he has simply misplaced the supplies. You suspend some of his off-time privileges. Let's hope this won't happen again.</text>
 			</event>
 		</choice>
 	</event>
