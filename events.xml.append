@@ -17784,7 +17784,7 @@
 	</choice>
 </event>
 <textList name="BS_SLUG_SURRENDER_TEXT">
-	<text>The Slugs send frantic hails: "Dont do this, please. We can make you rich!"</text>
+	<text>The Slugs send frantic hails: "Don't do this, please. We can make you rich!"</text>
 	<text>The Slug station hails, "Pleasse don't destroy uss. We shall pay you fine goods!"</text>
 	<text>The Slug station's gelatine hull can't keep up with closing the big holes your weapons keep punching into it. They make contact, "Sspare uss, mighty invader. We shall give you access to some supplies..."</text>
 	<text>Slug gel is splattered in all directions as your weapons keep pounding the station. The crew seems to start worrying about their home. They offer vaguely defined goods in exchange for a cease-fire.</text>
@@ -37588,7 +37588,7 @@ IDEAS
 		</choice>
 </event>
 <textList name="GANG_TEXT">
-	<text>"Hey you, Fed cruiser! Glad you came, these bangers won't leave us alone." The hail comes from a nearby civilian ship. You dont have to decide if you want to help: The gang ship already changed course engages you.</text>
+	<text>"Hey you, Fed cruiser! Glad you came, these bangers won't leave us alone." The hail comes from a nearby civilian ship. You don't have to decide if you want to help: The gang ship already changed course engages you.</text>
 	<text>As local authority has broken down, some petty criminals have organized small gangs. Most of their members are simply common pirates with fancier ships.</text>
 	<text>A ship with gang markings demands your surrender. You doubt these fools will be missed.</text>
 	<text>You spot a gang ship looting a small civilian freighter. There is doubt that they destroyed it themselves, but as you scan them they react aggressively and move in to attack.</text>
