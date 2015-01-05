@@ -7921,8 +7921,8 @@
 <textList name="CE_COMBAT_FLUFF_AUTO_TEXT">
 	<text>Your shots pierce through the enemy craft, spilling trails of molten metal into open space. The enemy is taking heavy damage.</text>
 	<text>The constant maneuvering almost throws you out of your seat. Steady now!</text>
-	<text>All of the sudden the small auto ship turns and boost into your direction, you barely manage to avoid a collision. This definitely caught you off guard.</text>
-	<text>While your weapons trace the enemy, the ship briefly passes in front of the systems sun. For a split-second, it appears as a majestically illuminated shadow in front of the giant star. A brief image of beauty during the cruel carnage of ship-to-ship combat.</text>
+	<text>All of the sudden, the small auto ship turns and boost into your direction; you barely manage to avoid a collision. This definitely caught you off guard.</text>
+	<text>While your weapons trace the enemy, the ship briefly passes in front of the system's sun. For a split-second, it appears as a majestically illuminated shadow in front of the giant star, a brief image of beauty during the cruel carnage of ship-to-ship combat.</text>
 	<text>"Enemy structural integrity is failing, Captain. We got this!"</text>
 	<text>"Shots continue to connect, Captain. Good effect on target."</text>
 	<text>Suddenly electricity arcs out of your console. "Isolate this coupler and reroute my command to another station."</text>
@@ -7933,7 +7933,7 @@
 	<text>The AI craft sends a threatening message. You order to block its channels and focus on the battle.</text>
 	<text>The AI craft hails you: "This is an automated message. You have resisted an executive unit of the Rebellion. This violation has been filed and will have consequences regardless of the outcome of this engagement."</text>
 	<text>The dampeners run on full as you maneuver and exchange fire with your enemy. The heat aboard the ship becomes almost unbearable.</text>
-	<text>You stand in front of the captains chair, focused on the windscreen, bellowing orders to your crew. You will not let this opponent get the better of you!</text>
+	<text>You stand in front of the captain's chair, focused on the windscreen, bellowing orders to your crew. You will not let this opponent get the better of you!</text>
 	<text>Just after you bellowed this last order, everything becomes still for a second. You see yourself from the outside, clutched to one of the silver railings that lines the ship bridge, shouting orders, gesticulating at the screen... Then you remember your parents, your childhood, your time at the academy, the line of cause and effect that brought you here; to another fight to the death. What has become of you?</text>
 	<text>Hold it steady and stay on target... Just like in the simulations.</text>
 	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! You father would be proud.</text>
@@ -7943,8 +7943,7 @@
 	<text>The ships hull creak under the stress of the combat maneuvers. You hope the ship can take it.</text>
 	<text>Your fire tears away a huge section of the enemy plating. Good hit!</text>
 	<text>Hull plating is scattered into space as your shots impact on the enemy craft. You'll pick those up later.</text>
-	<text>Your opponents hull is already covered with glowing impact crater of various sizes. It won't be able to take this kind of punishment for much longer.</text>
-	<text>Hold it steady and stay on target... Just like in the simulations.</text>
+	<text>Your opponents hull is already covered with glowing impact crater of various sizes. It won't be able to take this punishment for much longer.</text>
 </textList>
 
 
