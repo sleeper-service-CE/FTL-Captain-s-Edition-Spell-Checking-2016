@@ -15801,7 +15801,7 @@
 	<choice hidden="true">
 		<text>Transmit the data package.</text>
 		<event>
-			<text>"Receiving data... stand by." A moment of radio silence is followed by weapon emerging from the stations hull. "Rebel spies, we do realize that you have compromised our data. We heavily outgun you. Do not attempt to flee." They open fire. You won't get a chance to explain this.</text>
+			<text>"Receiving data... stand by." A moment of radio silence is followed by weapon emerging from the station's hull. "Rebel spies, we do realize that you have compromised our data. We heavily outgun you. Do not attempt to flee." They open fire. You won't get a chance to explain this.</text>
 			<ship hostile="true"/>
 			<status type="clear" target="enemy" system="teleporter" amount="100"/>
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -17786,7 +17786,7 @@
 <textList name="BS_SLUG_SURRENDER_TEXT">
 	<text>The Slugs send frantic hails: "Dont do this, please. We can make you rich!"</text>
 	<text>The Slug station hails, "Pleasse don't destroy uss. We shall pay you fine goods!"</text>
-	<text>The Slug stations gelatine hull can't keep up with closing the big holes your weapons keep punching into it. They make contact, "Sspare uss, mighty invader. We shall give you access to some supplies..."</text>
+	<text>The Slug station's gelatine hull can't keep up with closing the big holes your weapons keep punching into it. They make contact, "Sspare uss, mighty invader. We shall give you access to some supplies..."</text>
 	<text>Slug gel is splattered in all directions as your weapons keep pounding the station. The crew seems to start worrying about their home. They offer vaguely defined goods in exchange for a cease-fire.</text>
 </textList>
 

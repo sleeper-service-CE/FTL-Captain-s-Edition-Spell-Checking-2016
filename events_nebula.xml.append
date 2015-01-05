@@ -8865,7 +8865,7 @@ IDEAS
 <!-- SELLING -->
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
 			<!-- best deal-->
-			<text>The malnourished stations chief approaches you, "Eh... we ain't getting much traffic here. Can you spare some food?" [Sell Space Rations for about 90 Scrap]</text>
+			<text>The malnourished station's chief approaches you, "Eh... we ain't getting much traffic here. Can you spare some food?" [Sell Space Rations for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_HAZARD_SELL_TEXT"/>
 				<choice>
@@ -9650,7 +9650,7 @@ IDEAS
 <!-- SELLING -->
 		<choice req="TE_GOODS_CIVILIAN_FOOD" hidden="true">
 			<!-- best deal-->
-			<text>The malnourished stations chief approaches you, "Eh... we ain't getting much traffic here. Can you spare some food?" [Sell Space Rations for about 90 Scrap]</text>
+			<text>The malnourished station's chief approaches you, "Eh... we ain't getting much traffic here. Can you spare some food?" [Sell Space Rations for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>

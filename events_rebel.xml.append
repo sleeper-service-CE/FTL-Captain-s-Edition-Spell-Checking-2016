@@ -2205,7 +2205,7 @@
 		</choice>
 </event>
 <textList name="BS_EVENT_AUTO_TEXT">
-	<text>You discover one of the Rebels' autonomous satellite turrets. The stations's AI wastes no time in engaging your ship.</text>
+	<text>You discover one of the Rebels' autonomous satellite turrets. The station's AI wastes no time in engaging your ship.</text>
 	<text>Your ship is hailed, "You have been identified as a high priority target and are in range of this unit's weapon clusters. Engagement is the logical conclusion." This satellite seems to be controlled by an advanced Rebel combat AI.</text>
 	<text>A Rebel defense turret has been stationed here to guard this beacon. You realize that you will have to stay in its weapon range until the FTL drive is charged or it is defeated.</text>
 	<text>The AI of a nearby Rebel satellite turret immediately identifies you as a threat and engages.</text>

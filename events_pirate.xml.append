@@ -3814,7 +3814,7 @@
 	<text>This beacon lies in close proximity to a considerably well armed pirate station. You will have to stay in their weapon range if you want to charge your FTL drive... According to the confused, apparently drug influenced comm chatter you receive the pirates seem quite amused by that.</text>
 	<text>A station at this beacon messages you, "Greetings, assholes. We are almost out of food and fuel here. We might have more if we would trade instead of destroying every ship that comes here, but that wouldn't be so exciting, right?"</text>
 	<text>You barely have time to register jump completion before your ship warns you of the station with weapons locked that floats right in front of your nose.</text>
-	<text>You receive hail from a small stations, "Thank god you are here. The last weeks were so boring. Come on, power your weapons. Let's do this!"</text>
+	<text>You receive hail from a small station, "Thank god you are here. The last weeks were so boring. Come on, power your weapons. Let's do this!"</text>
 </textList>
 
 <event name="BS_EVENT_PIRATE_CHOICE" unique="false">

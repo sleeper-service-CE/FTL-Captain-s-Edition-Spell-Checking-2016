@@ -6207,7 +6207,7 @@
 	</choice>
 </event>
 <textList name="BS_EVENT_AI_TEXT">
-	<text>A small outpost orbits this beacon. It's design seems similar to Zoltan stations but it seems to lack the strong shields of the original. The rogue AIs that occupied it identify as hostile.</text>
+	<text>A small outpost orbits this beacon. It's design seems similar to that of Zoltan stations but it seems to lack the strong shields of the original. The rogue AIs that occupied it identify as hostile.</text>
 	<text>This beacon seems to have some importance for the AIs. They have even constructed a battle ready outpost here.</text>
 </textList>
 
