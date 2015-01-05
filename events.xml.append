@@ -1924,11 +1924,11 @@
 		<status type="loss" target="enemy" system="weapons" amount="1"/>
 	</event>
 	<event>
-		<text>The jammer proves quite effective against this opponent. Some of its weapons can't be targeted manually and have to be left deactivated.</text>
+		<text>The jammer proves quite effective against this opponent. Some of its weapons can't be targeted manually and are left deactivated.</text>
 		<status type="loss" target="enemy" system="weapons" amount="3"/>
 	</event>
 	<event>
-		<text>The enemy targeting system is jammed and some of its guns power down automatically.</text>
+		<text>The enemy targeting system is jammed and some of its guns automatically power down.</text>
 		<status type="loss" target="enemy" system="weapons" amount="1"/>
 	</event>
 	<event>
@@ -1954,10 +1954,7 @@
 		<text>Your jamming augment seem to be useless against the more advanced targeting systems of this enemy. You will have to deal with the full fire from their weapons array.</text>
 	</event>
 	<event>
-		<text>Your jamming augment seem to be useless against the more advanced targeting systems of this enemy. You will have to deal with the full fire from their weapons array.</text>
-	</event>
-	<event>
-		<text>The enemy scanners should show nothing but static, but it seems you are still targeted with a full weapon cluster. The jammer proved ineffective here.</text>
+		<text>The enemy scanners should show nothing but static, but it seems you are still targeted with their full weapon cluster. The jammer proved ineffective here.</text>
 	</event>
 </eventList>
 
