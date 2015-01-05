@@ -7626,11 +7626,11 @@
 		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
 	</event>
 	<event>
-		<text>Your barrage rips the enemy craft right open. The craft has sustained substantial external damage, it is unlikely that their life support will be able to cope with this.</text>
+		<text>Your barrage rips the enemy craft right open. The craft has sustained substantial external damage; it is unlikely that their life support will be able to hold up much longer.</text>
 		<status type="loss" target="enemy" system="oxygen" amount="3"/>
 	</event>
 	<event>
-		<text>Your fire seemed to have caused some serious damage to the opponents oxygen tanks. They are loosing parts of their life support.</text>
+		<text>Your fire seemed to have caused some serious damage to the opponents oxygen tanks. They are losing parts of their life support.</text>
 		<status type="loss" target="enemy" system="oxygen" amount="1"/>
 	</event>
 	<event>
@@ -7638,11 +7638,11 @@
 		<status type="loss" target="enemy" system="reactor" amount="1"/>
 	</event>
 	<event>
-		<text>Scans indicate that the enemies reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly looses power.</text>
+		<text>Scans indicate that the enemy's reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly loses power.</text>
 		<status type="loss" target="enemy" system="reactor" amount="3"/>
 	</event>
 	<event>
-		<text>The enemies engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
+		<text>The enemy's engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
 		<status type="loss" target="enemy" system="engines" amount="1"/>
 	</event>
 	<event>
@@ -7650,15 +7650,15 @@
 		<status type="loss" target="enemy" system="reactor" amount="1"/>
 	</event>
 	<event>
-		<text>Scans indicate that the enemies reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly looses power.</text>
+		<text>Scans indicate that the enemy's reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly loses power.</text>
 		<status type="loss" target="enemy" system="reactor" amount="3"/>
 	</event>
 	<event>
-		<text>Parts of your salvo crushes into the enemies rear section, resulting in a small explosion that scatters hull panels in all direction. Then the ship goes dark. The opponents reactor must be quite outdated or not well shielded; the craft suffers from an all out power failure.</text>
+		<text>Parts of your salvo crushes into the enemy's rear section, resulting in a small explosion that scatters hull panels in all direction. Then the ship goes dark. The opponent's reactor must be quite outdated or not well shielded; the craft suffers from an all out power failure.</text>
 		<status type="limit" target="enemy" system="reactor" amount="2"/>
 	</event>
 	<event>
-		<text>The enemies engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
+		<text>The enemy's engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
 		<status type="loss" target="enemy" system="engines" amount="1"/>
 	</event>
 	<event>
@@ -7679,7 +7679,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your shots seemed to have breached the enemy cargo hold. The vessel is loosing supplies, scattering ammunition in its wake.</text>
+		<text>Your shots seemed to have breached the enemy cargo hold. The vessel is losing supplies, scattering ammunition in its wake.</text>
 		<choice hidden="true"> 
 			<text>Head for the ammo and quickly pick it up.</text>
 			<event load="CE_COMBAT_FLUFF_MANNED_AMMO"/>
@@ -7690,7 +7690,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your enemy has taken heavy damage and appears to be dropping fuel containers. Are they trying to loose mass?</text>
+		<text>Your enemy has taken heavy damage and appears to be dropping fuel containers. Are they trying to lose mass?</text>
 		<choice hidden="true"> 
 			<text>Head for the fuel and quickly pick it up.</text>
 			<event load="CE_COMBAT_FLUFF_MANNED_FUEL"/>
@@ -7705,7 +7705,7 @@
 		<status type="loss" target="player" system="reactor" amount="3"/>
 	</event>
 	<event>
-		<text>The fighting maneuvers bring your ships close to a small asteroid field. Your opponent is unwilling to avoid it, instead the ship changes course and heads right towards the rocks. They try to loose you in the hazard zone.</text>
+		<text>The fighting maneuvers bring your ships close to a small asteroid field. Your opponent is unwilling to avoid it; instead the ship changes course and heads right towards the rocks. They are trying to lose you in the hazard zone.</text>
 		<choice hidden="true">
 			<text>Go after them.</text>
 			<event>
@@ -7716,7 +7716,7 @@
 		<choice hidden="true">
 			<text>Let them escape.</text>
 			<event>
-				<text>The ship disappears into the field. Maybe they will get crushed by asteroids but you have to assume they know the terrain and will live to harass other vessels. The weapons officer powers down the guns and you return to the beacon.</text>
+				<text>The ship disappears into the field. Maybe they will get crushed by asteroids, but you have to assume they know the terrain and will live to harass other vessels. The weapons officer powers down the guns and you return to the beacon.</text>
 				<ship hostile="false"/>
 			</event>
 		</choice>
@@ -7755,7 +7755,7 @@
 		<damage amount="0" system="random" effect="fire"/>
 	</event>
 	<event>
-		<text>"Captain, it appears we are leaking atmosphere." The battle strained the ship a little too much. Parts of the inner and outer sealing have been compromised and the explosive decompression breached the ship hull.</text>
+		<text>"Captain, it appears we are leaking atmosphere." The battle strained the ship a little too much. Parts of the inner and outer sealing have been compromised and the explosive decompression breaches the ship hull.</text>
 		<damage amount="0" system="random" effect="breach"/>
 	</event>
 </eventList>
@@ -7775,7 +7775,7 @@
 
 <eventList name="CE_COMBAT_FLUFF_MANNED_FUEL">
 	<event>
-		<text>When you approach the fuel, your opponent turns hard and fires potshot at the containers. Thy burst into blue flames that wash right over your ship. Your opponent must be pretty desperate to attempt something like this.</text>
+		<text>When you approach the fuel, your opponent turns hard and fires a potshot at the containers. Thy burst into blue flames that wash right over your ship. Your opponent must be pretty desperate to attempt something like this.</text>
 		<damage amount="1"/>
 	</event>
 	<event>
