@@ -38126,7 +38126,7 @@ IDEAS
 	<text planet="PLANET_UNPOPULATED">A rare breed of the luminous saber-goat is said to live in the equatorial mountain regions of this planet. You crew goes for a hike with stun-blasters ready. You are glad no one gets hurt during the hunt.</text>
 	<text planet="PLANET_UNPOPULATED">The information provided by the Curator drone proves to be true. The special door frame, an ancient Zoltan artifact, is hidden near the pole of this planet. The device enables FTL travel for a single individual, but no one that stepped through it came back to report where it leads to.</text>
 	<text>Space whales are almost hunted to extinction. This beacon lies close to a part of space where the legendary creatures gathered to die. Several of their eternal corpses orbit a large planetoid. You gather the frozen space whale oil that the Curator is looking for.</text>
-	<text planet="PLANET_UNPOPULATED">An ancient Zoltan monolith is found near an abandoned monastery at this planet. Few know what purpose these devices really serve. I shiver runs through you when you break off a shard from the polished artifact. The Curator will want to study the material.</text>
+	<text planet="PLANET_UNPOPULATED">An ancient Zoltan monolith is found near an abandoned monastery at this planet. Few know what purpose these devices really serve. A shiver runs through you when you break off a shard from the polished artifact. The Curator will want to study the material.</text>
 </textList>
 
 <event name="CE_QUEST_CURATOR_ITEM_4">
@@ -38157,7 +38157,7 @@ IDEAS
 	<text planet="PLANET_UNPOPULATED">A rare breed of the luminous saber-goat is said to live in the equatorial mountain regions of this planet. You crew goes for a hike with stun-blasters ready. You are glad no one gets hurt during the hunt.</text>
 	<text planet="PLANET_UNPOPULATED">The information provided by the Curator drone proves to be true. The special door frame, an ancient Zoltan artifact, is hidden near the pole of this planet. The device enables FTL travel for a single individual, but no one that stepped through it came back to report where it leads to.</text>
 	<text>Space whales are almost hunted to extinction. This beacon lies close to a part of space where the legendary creatures gathered to die. Several of their eternal corpses orbit a large planetoid. You gather the frozen space whale oil that the Curator is looking for.</text>
-	<text planet="PLANET_UNPOPULATED">An ancient Zoltan monolith is found near an abandoned monastery at this planet. Few know what purpose these devices really serve. I shiver runs through you when you break off a shard from the polished artifact. The Curator will want to study the material.</text>
+	<text planet="PLANET_UNPOPULATED">An ancient Zoltan monolith is found near an abandoned monastery at this planet. Few know what purpose these devices really serve. A shiver runs through you when you break off a shard from the polished artifact. The Curator will want to study the material.</text>
 </textList>
 
 <event name="CE_QUEST_CURATOR_ITEM_5">
