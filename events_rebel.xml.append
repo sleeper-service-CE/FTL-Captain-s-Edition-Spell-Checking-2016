@@ -2205,7 +2205,7 @@
 		</choice>
 </event>
 <textList name="BS_EVENT_AUTO_TEXT">
-	<text>You discover one of the Rebels' autonomous satellite turrets. The stations's AI wastes no time in engaging your ship.</text>
+	<text>You discover one of the Rebels' autonomous satellite turrets. The station's AI wastes no time in engaging your ship.</text>
 	<text>Your ship is hailed, "You have been identified as a high priority target and are in range of this unit's weapon clusters. Engagement is the logical conclusion." This satellite seems to be controlled by an advanced Rebel combat AI.</text>
 	<text>A Rebel defense turret has been stationed here to guard this beacon. You realize that you will have to stay in its weapon range until the FTL drive is charged or it is defeated.</text>
 	<text>The AI of a nearby Rebel satellite turret immediately identifies you as a threat and engages.</text>
@@ -2717,7 +2717,7 @@
 			<choice hidden="true">
 				<text>"Sorry, but we have our own mission to take care of"</text>
 				<event>
-					<text>"Well we wish you luck with that then. You might want to get out of here, we detect incoming bogies." You detect a small jump signature a few klicks away and then a much bigger one right in front of you.</text>
+					<text>"Well we wish you luck with that then. You might want to get out of here, we detect incoming bogies." You detect a small jump signature a few clicks away and then a much bigger one right in front of you.</text>
 					<choice hidden="true">
 						<text>Continue...</text>
 						<event>
@@ -5667,14 +5667,14 @@
 	</event>
 </eventList>
 <textList name="DESTROYED_SHIP_AUTO_CONSTRUCTION_STUFF_TEXT">  
-	<text>The automated constructor suffered damage it wont recover from anymore. You salvage what usable tools and supplies you find among its remains before pressing onwards.</text>
+	<text>The automated constructor suffered damage it won't recover from anymore. You salvage what usable tools and supplies you find among its remains before pressing onwards.</text>
 	<text>One more auto-engineer is blown apart and you proceed to loot its remains for construction supplies.</text>
 	<text>Rebel construction crafts are no less dangerous than their scouting counterparts. But at last this one won't stand in your way any more. You quickly search its tool compartments for supplies and prepare to move on.</text>
 </textList>
 <textList name="DESTROYED_SHIP_AUTO_CONSTRUCTION_TEXT">  
 	<text>One more Rebel construction unit is destroyed. In death it emits an short range burst message. An autonomous shipyard at the other end of the system comes online, undoubtedly already manufacturing a replacement. These battles start to seems really pointless.</text>
 	<text>These sentient nuisances just keep on coming; with each one you destroy, there is sure to be many to replace it. You quickly scrap the ship and prepare to jump.</text>
-	<text>You try to tell yourself that you are deeply disrupting Rebel ship production here, but you know the truth: You wont stop these machines. For every ship destroyed, two more might already be put together in a nearby assembly line.</text>
+	<text>You try to tell yourself that you are deeply disrupting Rebel ship production here, but you know the truth: You won't stop these machines. For every ship destroyed, two more might already be put together in a nearby assembly line.</text>
 </textList>
 
 

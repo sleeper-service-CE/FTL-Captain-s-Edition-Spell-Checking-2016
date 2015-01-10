@@ -2125,7 +2125,7 @@
 
 <ship name="BS_FED_SCIENCE" auto_blueprint="BS_STATIONS_FED_SCIENCE">
 	<destroyed>
-		<text>Your weapons hit a critical section and the science station's supplies combust, incinerating the whole installation in chemical fires that are visible for many klicks. You scrap what little remains of it. Scanners indicate some drone tech was on board but it is useless now.</text>
+		<text>Your weapons hit a critical section and the science station's supplies combust, incinerating the whole installation in chemical fires that are visible for many clicks. You scrap what little remains of it. Scanners indicate some drone tech was on board but it is useless now.</text>
 		<autoReward level="LOW">standard</autoReward>
 	</destroyed>
 	<deadCrew>
@@ -5020,25 +5020,25 @@
 		<ship hostile="true"/>
 	</escape>
 	<surrender chance="0.5" min="10" max="15">
-		<text>You keep flying complex maneuvers and unload your weapons at an opponent that is not really there. For an outside observer this must look quite strange.</text>
+		<text>You keep flying complex maneuvers and unload your weapons at an opponent that is not really there. For an outside observer, this must look quite strange.</text>
 	</surrender>
 	<gotaway>
 		<text>You completed the training simulation, but failed to score enough hits on the simulated craft in time. In a real encounter, your opponent would have escaped.</text>
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 	</gotaway>
 	<destroyed>
-		<text>"You successfully completed this attack training session and eliminated the hostile before it got away. The combat simulator will evaluate your crews performance now.</text>
+		<text>"You successfully completed this attack training session and eliminated the hostile before it got away. The combat simulator will now evaluate your crew's performance.</text>
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<choice req="weapons" max_lvl="1" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your ship and crew has passed this test by destroyed the hostile craft, but performed bellow average in most areas. Consider not taking part in any real combat scenarios involving ship-to-ship combat with your current assets."</text>
+				<text>"Your ship and crew has passed this test by destroying the hostile craft, but performed below average in most areas. Consider avoiding any real ship-to-ship combat scenarios with your current assets."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="2" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your ship and crew passed this test by destroyed the hostile craft, but performed bellow average in most areas. Consider additional training exercises and ship upgrades to improve your crews performance."</text>
+				<text>"Your ship and crew passed this test by destroying the hostile craft, but performed below average in most areas. Consider additional training exercises and ship upgrades to improve your crew's performance."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="3" max_group="0" blue="false">
@@ -5062,19 +5062,19 @@
 		<choice req="weapons" max_lvl="6" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew scored well in this scenario remained disciplined in a hectic situations. This shows good promise."</text>
+				<text>"Your crew scored well in this scenario, and remained disciplined in a hectic situation. This shows good promise."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="7" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew scored well in this scenario eliminated the hostile efficiently."</text>
+				<text>"Your crew scored well in this scenario by efficiently eliminating the hostile."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="8" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew and ship scored exceptionally in this scenario. Your rating qualifies you for a promotion to the rank of [Lieutenant]."</text>
+				<text>"Your crew and ship scored exceptionally well in this scenario. Your rating qualifies you for a promotion to the rank of [Lieutenant]."</text>
 			</event>
 		</choice>
 	</destroyed>
@@ -5082,11 +5082,11 @@
 
 <ship name="SIMMED_SHIP_AGGRESSIVE" auto_blueprint="CE_AUTO_BASIC_SIMMED_AGGRESSIVE">
 	<escape timer="30" min="10" max="10">
-		<text>A moment ago there was just empty space, now the screen shows a heavily armed gunboat as your opponent. The simulated ship will fire virtual projectiles at you till the training program ends. You remind your crew to take this seriously and order evasive maneuvers.</text>
+		<text>A moment ago there was just empty space; now the screen shows a heavily armed gunboat as your opponent. The simulated ship will fire virtual projectiles at you until the training program ends. You remind your crew to take this seriously and order evasive maneuvers.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
-		<text>"You successfully completed this evasion training session. The combat simulator will evaluate your crews performance now."</text>
+		<text>"You successfully completed this evasion training session. The combat simulator will now evaluate your crew's performance."</text>
 		<status type="clear" target="player" system="teleporter" amount="100"/>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="drones" amount="100"/>
@@ -5095,25 +5095,25 @@
 		<choice req="engines" max_lvl="1" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew performed bellow average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to it's destruction. Consider not taking part in any real combat scenarios involving ship-to-ship combat with your current assets."</text>
+				<text>"Your crew performed below average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to it's destruction. Consider not taking part in any real combat scenarios involving ship-to-ship combat with your current assets."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="2" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew performed bellow average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to it's destruction. Consider additional training exercises and ship upgrades to improve your crews performance."</text>
+				<text>"Your crew performed below average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to it's destruction. Consider additional training exercises and ship upgrades to improve your crews performance."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="3" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew and performed well considering the circumstances but your current ship configuration reduce your changes of survival in a real combat situation."</text>
+				<text>"Your crew and performed well considering the circumstances, but your current ship configuration reduces your changes of survival in a real combat situation."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="4" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew scored average results in this scenario. You evaded a significant part of the enemy fire but would still have taken considerable damage in a real fight."</text>
+				<text>"Your crew scored average results in this scenario. You evaded a significant part of the enemy fire, but would still have taken considerable damage in a real fight."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="5" max_group="0" blue="false">
@@ -5202,7 +5202,7 @@
 		<choice>
 			<text>Continue...</text>
 			<event>
-				<text>While salvaging you already scan the facility for weak spots. There must be a way to destroy this place. When the screen turns red again you realize that you wont get far with your plans. Constructors close in through tunnels all around you. The whole factory is in alarm and even the unfinished auto-ships in the hangar slowly activate one after each other. You have to jump out of this place now!</text>
+				<text>While salvaging you already scan the facility for weak spots. There must be a way to destroy this place. When the screen turns red again you realize that you won't get far with your plans. Constructors close in through tunnels all around you. The whole factory is in alarm and even the unfinished auto-ships in the hangar slowly activate one after each other. You have to jump out of this place now!</text>
 				<autoReward level="HIGH">standard</autoReward>
 			</event>
 		</choice>
@@ -5319,7 +5319,7 @@
 		<choice>
 			<text>Accept their offer.</text>
 			<event>					
-				<text>"Oh, you accept our offer? Well aren't you a nice guy! The only thing that might interest you is the location of a Rebel surveyor craft we tracked. Pull its survey data, stick your claim and get rich. Now please excuse us." The ships FTL is charged and they prepare to jump. You wont be able to attack them again.</text>
+				<text>"Oh, you accept our offer? Well aren't you a nice guy! The only thing that might interest you is the location of a Rebel surveyor craft we tracked. Pull its survey data, stick your claim and get rich. Now please excuse us." The ships FTL is charged and they prepare to jump. You won't be able to attack them again.</text>
 				<quest event="CE_QUEST_AUTO_SURVEYOR_HUNT_FIGHT"/>
 				<ship hostile="false"/>
 				<choice>

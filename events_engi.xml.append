@@ -1606,7 +1606,7 @@
 </event>
 <textList name="NEBULA_ENGI_AUTO_TEXT">
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">Somewhat expected, the Rebels have already sent automated ships into the ice field to look for you. There is no hiding here.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">You jump into a isolated region far away from any stars or other sources of radiation. There is almost no background radiation to conceal ship signatures, you already pick up the auto scout that is heading for your position when it is still several klicks away. It still looks like you wont get away before it arrives.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">You jump into a isolated region far away from any stars or other sources of radiation. There is almost no background radiation to conceal ship signatures, you already pick up the auto scout that is heading for your position when it is still several clicks away. It still looks like you won't get away before it arrives.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">Massive chunks of frozen nebula gas slowly rotate around this beacon. A hazard tag informs you that some Engi experiment has gone horrible wrong here and has made the entire system uninhabitable. Suddenly, you see lights between the galactic glaciers. A previously dormant rebel scout bursts out of the ice, its red status lights glowing aggressively!</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">A Rebel drone, completely frozen, drifts near this beacon. This doesnt's seem right; The ship should be hardly affected by the low temperature... "It's just in sleep mode, Captain. There, systems coming online!" The icy cocoon shatters as the scout's weapon pods swing into firing position.</text>
 </textList>
@@ -1676,7 +1676,7 @@
 </event>
 <textList name="BS_EVENT_NEBULA_ENGI_AUTO_SUICIDE_TEXT">
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">The Rebels must have anticipated you would try to lose them within the ice field; an automated defense turret was waiting for you at the beacon.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">You jumped off the mark a bit, but the Rebel turret that guards the beacon spots you even from several klicks away. No wonder: This area is distant from active stars and no background radiation interferes with sensors.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">You jumped off the mark a bit, but the Rebel turret that guards the beacon spots you even from several clicks away. No wonder: This area is distant from active stars and no background radiation interferes with sensors.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">A few seconds after you arrive, weapon fire shatters the ice around your ship. A Rebel satellite is surveying this part of the field!</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">It seems forward units of the Rebels already scouted the ice field and left some guard ships behind. It's what you would have done as well.</text>
 </textList>
@@ -1838,7 +1838,7 @@
 <textList name="NEBULA_ENGI_NOTHING_TEXT">
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">You arrived in a area far away from any stars that could make planets inhabitable. The space faring Engi depend little on permanent planetary installations and often settle near such desolate regions.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">A thick layer of ice covers this beacon. Shards the size of small planets float quietly around you. According to the ship computer, the field will gather more mass and collapse into a new star within a few billion standard years.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">Huge ice asteroids dot this system, too far away from any major stars to be melted within your lifetime. A thick layer of frozen matter soon covers your ship hull. The radiation from your ship must be detectable hundreds of klicks away, but there is no one around to do so.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">Huge ice asteroids dot this system, too far away from any major stars to be melted within your lifetime. A thick layer of frozen matter soon covers your ship hull. The radiation from your ship must be detectable hundreds of clicks away, but there is no one around to do so.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">The interference-free ice field allows you to get a clear reading of the entire system. There is no one here. This heatless region of space seems completely frozen and deserted.</text>
 </textList>
 
@@ -2118,7 +2118,7 @@
 
 <eventList name="C_PIRACY_SUCCESS_LOOT_ENGI">
 	<event>					
-		<text>They transmit the supplies. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They transmit the supplies. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -2127,7 +2127,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>They transmit the supplies. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They transmit the supplies. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -2136,7 +2136,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>They transmit the supplies. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They transmit the supplies. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -2145,7 +2145,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>They transmit the supplies. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They transmit the supplies. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -2154,7 +2154,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo. You are a successful space pirate now. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo. You are a successful space pirate now. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ENGI_MACHINES"/>
 		<choice>
@@ -2163,7 +2163,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ENGI_MACHINES"/>
 		<choice>
@@ -2172,7 +2172,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying electronic equipment supplies and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying electronic equipment supplies and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ENGI_ELECTRONICS"/>
 		<choice>
@@ -2181,7 +2181,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying medicine and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They where carrying medicine and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ENGI_MEDICINE"/>
 		<choice>
@@ -2191,7 +2191,7 @@
 	</event>
 
 	<event>
-		<text>They hand over their cargo. You are a successful space pirate now. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo. You are a successful space pirate now. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GIRDERS"/>
 		<choice>
@@ -2200,7 +2200,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GEMS"/>
 		<choice>
@@ -2209,7 +2209,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GLANDS"/>
 		<choice>
@@ -2218,7 +2218,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_AMBRA"/>
 		<choice>
@@ -2227,7 +2227,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ANTIMATTER"/>
 		<choice>
@@ -2236,7 +2236,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CONDUITS"/>
 		<choice>
@@ -2245,7 +2245,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying air filters and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying air filters and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_LIFESUPPORT"/>
 		<choice>
@@ -2254,7 +2254,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying industrial drones and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They where carrying industrial drones and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ROBOTS"/>
 		<choice>
@@ -2263,7 +2263,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying industrial drones and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They where carrying industrial drones and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ROBOTS"/>
 		<choice>
@@ -2272,7 +2272,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying industrial drones and agree to give up their cargo. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They where carrying industrial drones and agree to give up their cargo. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ROBOTS"/>
 		<choice>
@@ -2281,7 +2281,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying industrial drones and agree to give up their cargo. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They where carrying industrial drones and agree to give up their cargo. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ROBOTS"/>
 		<choice>
@@ -2290,7 +2290,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying research equipment and agree to give up their cargo. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying research equipment and agree to give up their cargo. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RESEARCH"/>
 		<choice>
@@ -2299,7 +2299,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying solar panels. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They where carrying solar panels. Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SOLAR"/>
 		<choice>
@@ -2308,7 +2308,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying enough clone data to breed a small army. What do the Engi want with that stuff? Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They where carrying enough clone data to breed a small army. What do the Engi want with that stuff? Your opponents FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CLONES"/>
 		<choice>
@@ -2526,7 +2526,7 @@
 		<text>There are no more life signs remaining on the ship and you send in a salvage team. One of your crew members sends a formal complaint over the comms, arguing that this operation was unnecessary and against Federation protocols. The crew member decides to desert your mission and leaves the ship in an escape pod.?</text>
 		<removeCrew>
 			<clone>false</clone>
-			<text>Your clonebay obviously wont revive your crewmen, since he did not die.</text>
+			<text>Your clonebay obviously won't revive your crewmen, since he did not die.</text>
 		</removeCrew>
 		<autoReward level="LOW">standard</autoReward>
 	</event>

@@ -149,9 +149,9 @@
 	</event>
 </eventList>
 <textList name="CE_RESIST_WEAPON_JAMMING_TEXT">
-	<text>Your targeting computer anticipates the enemies movement, making your systems less dependend on direct tracking and allows you to lock on with you full weapon cluster. Prepare to fire!</text>
+	<text>Your targeting computer anticipates the enemy's movements, making your systems less dependent on direct tracking and allowing you to lock on with your full weapon cluster. Prepare to fire!</text>
 	<text>Semi-manual targeting is jammed, but your computer does most of the work anyway.</text>
-	<text>The enemies jamming field prevents you from effectively tracking the ship, but your advanced targeting hardware is able to cope with just the little data it gets. All weapons can be readied and fired.</text>
+	<text>The enemy's jamming field prevents you from effectively tracking the ship, but your advanced targeting hardware is able to cope with just the little data it gets. All weapons can be readied and fired.</text>
 </textList>
 
 <eventList name="CE_RESIST_ICEFIELD">
@@ -201,14 +201,14 @@
 	</event>
 </eventList>
 <textList name="CE_RESIST_ICEFIELD_TEXT">
-	<text>Your black-body field will hide you even if there is no background radiation at all. Your opponent wont see you coming.</text>
-	<text>"Les shot them what this vessel is really capable of." The heat-sink field leaves no trace of your ship, even in this sensor friendly region.</text>
-	<text>Your engineer is happy getting a chance to push the stealth capabilities of your vessel to the max. The crew lets the ship run on minimal systems and gets the black body field up. You remain extremely hard to trace, even in this ice-field.</text>
+	<text>Your black-body field will hide you even without background radiation. Your opponent won't see you coming.</text>
+	<text>"Let's show them what this vessel is really capable of." The heat-sink field leaves no trace of your ship, even in this sensor friendly region.</text>
+	<text>Your engineer is happy to get a chance to push the stealth capabilities of your vessel to the max. The crew lets the ship run on minimal systems and gets the black body field up. You remain extremely hard to trace, even in this ice-field.</text>
 </textList>
 
 <eventList name="CE_RESIST_CLOAK_HACK">
 	<event>
-		<text>Stealth systems are naturally protected by strong firewalls, the enemy hack can only cause small glitches. Normally this would be enough to make you traceable, but with you advanced stealth equipment you will be able to stay hidden. They still won't see you coming like this.</text>
+		<text>Stealth systems are naturally protected by strong firewalls; the enemy hack can only cause small glitches. Normally this would be enough to make you traceable, but with your advanced stealth equipment you will be able to stay hidden. They still won't see you coming like this.</text>
 		<status type="clear" target="player" system="cloaking" amount="100"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true">
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
@@ -301,8 +301,8 @@
 </eventList>
 <textList name="CE_RESIST_DRONE_JAMMING_TEXT">
 	<text>"Sending now, Captain." The uploaded micro AI components will allow the drones to function even though the communication up-link with your ship is scrambled.</text>
-	<text>With the improved AI taking over drone communication, you barely need any connection to have them execute their task. The signal jamming here will not affect your drones performance.</text>
-	<text>You use what little signal strength you have left to activate the drones autonomous AI routines. The machines will be able to anticipate you commands, allowing them to function even you can barely give them any clear commands.</text>
+	<text>With the improved AI taking over drone communication, barely any connection is needed for the drones to execute their tasks. The signal jamming here will not affect your drones' performance.</text>
+	<text>You use what little signal strength you have left to activate the drones' autonomous AI routines. The machines will be able to anticipate your commands, allowing them to function even with barely any clear commands given.</text>
 </textList>
 
 <eventList name="CE_RESIST_ION">
@@ -355,8 +355,8 @@
 	<text>Your augmented projectors keep you shields up, even with the ion field present.</text>
 	<text>Your advanced field projectors can negate the effect of the ion field. This should keep your defenses up.</text>
 	<text>A few redundant projectors get fried, but you manage to keep the shields up despite the ion field. Time to focus on the hostile.</text>
-	<text>The projector strain levels go beyond the max, but you decide to fry some redundant components to keep the shields up. The crew reports that your defenses remain fully functional.</text>
-	<text>Lightening arks from the projectors as you struggle to keep the shield up. Steady now! Looks like this will work...</text>
+	<text>The projector is straining beyond its limits, but you allow some redundant components to fry in order to keep the shields up. The crew reports that your defenses remain fully functional.</text>
+	<text>Lightening arcs from the projectors as you struggle to keep the shields up. Steady now! Looks like this will work...</text>
 </textList>
 
 <eventList name="CE_PRE_FIGHT_NEBULA_SCANNER">
@@ -381,34 +381,20 @@
 	</event>
 </eventList>
 <textList name="CE_PRE_FIGHT_NEBULA_SCANNER_TEXT">
-	<text>Nothing will escape you, even within this clouds. Your vision is augmented.</text>
+	<text>Nothing will escape you, even within these clouds. Your vision is augmented.</text>
 	<text>The device scans in more than three dimensions and produces images that are impossible to comprehend for most individuals. You are glad that the sensor system converts the data into something you can work with.</text>
 	<text>Your augmented sensors easily pick up the enemy. You get as much data as you usually would.</text>
-	<text>No one exactly knows how this advanced scanning tech of the Slug actually works. How ever it does it, it allows your sensors to function even within this cloud.</text>
-	<text>You augment scanner can provide detailed data on the ship, even within this cloud.</text>
-	<text>The scanner gives you a detailed subspace image, but you will still need regular sensors to interpret it.</text>
-	<text>The device scans in more than three dimensions and produces images that are impossible to comprehend for most individuals. You are glad that the sensor system converts the data into something you can work with.</text>
-	<text>Your augmented sensors easily pick up the enemy. You get as much data as you usually would.</text>
-	<text>No one exactly knows how this advanced scanning tech of the Slug actually works. How ever it does it, it allows your sensors to function even within this cloud.</text>
-	<text>You augment scanner can provide detailed data on the ship, even within this cloud.</text>
-	<text>The scanner gives you a detailed subspace image, but you will still need regular sensors to interpret it.</text>
-	<text>The device scans in more than three dimensions and produces images that are impossible to comprehend for most individuals. You are glad that the sensor system converts the data into something you can work with.</text>
-	<text>Your augmented sensors easily pick up the enemy. You get as much data as you usually would.</text>
-	<text>No one exactly knows how this advanced scanning tech of the Slug actually works. How ever it does it, it allows your sensors to function even within this cloud.</text>
-	<text>You augment scanner can provide detailed data on the ship, even within this cloud.</text>
+	<text>No one exactly knows how this advanced scanning tech of the Slug actually works. It allows your sensors to function even within this cloud, somehow.</text>
+	<text>You augmented scanner can provide detailed data on the ship, even within this cloud.</text>
 	<text>The scanner gives you a detailed subspace image, but you will still need regular sensors to interpret it.</text>
 </textList>
 
 <textList name="CE_PRE_FIGHT_CLOAK_BREAK_TEXT">
-	<text>You lock on to the enemy with your full subspace scanner array. Like this, the oponent won't be able to hide within a cloak field.</text>
-	<text>Your augmented sensors easily track the enemy. They wont be able to slip into cloak, should they try to.</text>
+	<text>You lock on to the enemy with your full subspace scanner array. Like this, the opponent won't be able to hide within a cloak field.</text>
+	<text>Your augmented sensors easily track the enemy. They won't be able to slip into cloak, should they try to.</text>
 	<text>You augmented scanner can track the position of the hostile, even when they should try to cloak.</text>
-	<text>The scanner gives you a detailed subspace image. Unless your enemy has very advanced cloaking capabilities, it wont be able to hide from you.</text>
+	<text>The scanner gives you a detailed subspace image. Unless your enemy has very advanced cloaking capabilities, it won't be able to hide from you.</text>
 </textList>
-
-
-
-
 
 <eventList name="CE_PRE_FIGHT_ASB">
 	<event>
@@ -1241,7 +1227,7 @@
 	<text>Your augment once again tries to defend your crew against mind control attempts.</text>
 </textList>
 <textList name="CE_PRE_FIGHT_FIREWALL_TEXT">
-	<text>A few megawatt running through your hull plating should disrupt any hacker devices that get to your ship. The enemy hacking system will be rendered much less effective.</text>
+	<text>A few megawatts running through your hull plating should disrupt any hacker devices that get on your ship. The enemy hacking system will be rendered much less effective.</text>
 	<text>The real-space firewall is powered up. Their hacking attempts won't be very effective.</text>
 	<text>The crew feels a lot safer with this equipment active. The enemy will have a harder time messing with your ships systems now.</text>
 	<text>The ultra hot firewall plating will obstruct enemy hacking drones from completely disrupting your ship.</text>
@@ -1938,11 +1924,11 @@
 		<status type="loss" target="enemy" system="weapons" amount="1"/>
 	</event>
 	<event>
-		<text>The jammer proves quite effective against this opponent. Some of its weapons can't be targeted manually and have to be left deactivated.</text>
+		<text>The jammer proves quite effective against this opponent. Some of its weapons can't be targeted manually and are left deactivated.</text>
 		<status type="loss" target="enemy" system="weapons" amount="3"/>
 	</event>
 	<event>
-		<text>The enemy targeting system is jammed and some of its guns power down automatically.</text>
+		<text>The enemy targeting system is jammed and some of its guns automatically power down.</text>
 		<status type="loss" target="enemy" system="weapons" amount="1"/>
 	</event>
 	<event>
@@ -1968,16 +1954,13 @@
 		<text>Your jamming augment seem to be useless against the more advanced targeting systems of this enemy. You will have to deal with the full fire from their weapons array.</text>
 	</event>
 	<event>
-		<text>Your jamming augment seem to be useless against the more advanced targeting systems of this enemy. You will have to deal with the full fire from their weapons array.</text>
-	</event>
-	<event>
-		<text>The enemy scanners should show nothing but static, but it seems you are still targeted with a full weapon cluster. The jammer proved ineffective here.</text>
+		<text>The enemy scanners should show nothing but static, but it seems you are still targeted with their full weapon cluster. The jammer proved ineffective here.</text>
 	</event>
 </eventList>
 
 <eventList name="CE_DRONE_JAMMING_RESULTS_2">
 	<event>
-		<text>The enemy's drone status lights flicker and go out as their connection to the drone control is severed. One less problem to deal with.</text>
+		<text>The enemy's drone status lights flicker and go out as their drone control connection is severed. One less problem to deal with.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
@@ -1985,19 +1968,7 @@
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
-		<text>The communications link between the enemy ship and its drones is seriously disrupted. Some of the drones shut down completely.</text>
-		<status type="loss" target="enemy" system="drones" amount="3"/>
-	</event>
-	<event>
-		<text>The enemy's drone status lights flicker and go out as their connection to the drone control is severed. One less problem to deal with.</text>
-		<status type="loss" target="enemy" system="drones" amount="3"/>
-	</event>
-	<event>
-		<text>Your crew reports, "Drone uplink disrupted, Captain."</text>
-		<status type="loss" target="enemy" system="drones" amount="3"/>
-	</event>
-	<event>
-		<text>The communications link between the enemy ship and its drones is seriously disrupted. Some of the drones shut down completely.</text>
+		<text>The communications link between the enemy ship and its drones is seriously disrupted. Some of its drones shut down completely.</text>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 	</event>
 	<event>
@@ -4421,7 +4392,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>It looks like the Rebels still have an ace up their sleeve. The flagship powers up a combat augment. Its internal effector and manipulates your sensor data, you loose situation awareness entirely.</text>
+		<text>It looks like the Rebels still have an ace up their sleeve. The flagship powers up a combat augment. Its internal effector and manipulates your sensor data; you lose situation awareness entirely.</text>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<status type="limit" target="player" system="sensors" amount="0"/>
 		<ship hostile="true"/>
@@ -5434,7 +5405,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>It looks like the Rebels still have an ace up their sleeve. The flagship powers up a combat augment. Its internal effector and manipulates your sensor data, you loose situation awareness entirely.</text>
+		<text>It looks like the Rebels still have an ace up their sleeve. The flagship powers up a combat augment. Its internal effector and manipulates your sensor data; you lose situation awareness entirely.</text>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<status type="limit" target="player" system="sensors" amount="0"/>
 		<ship hostile="true"/>
@@ -7655,11 +7626,11 @@
 		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
 	</event>
 	<event>
-		<text>Your barrage rips the enemy craft right open. The craft has sustained substantial external damage, it is unlikely that their life support will be able to cope with this.</text>
+		<text>Your barrage rips the enemy craft right open. The craft has sustained substantial external damage; it is unlikely that their life support will be able to hold up much longer.</text>
 		<status type="loss" target="enemy" system="oxygen" amount="3"/>
 	</event>
 	<event>
-		<text>Your fire seemed to have caused some serious damage to the opponents oxygen tanks. They are loosing parts of their life support.</text>
+		<text>Your fire seemed to have caused some serious damage to the opponents oxygen tanks. They are losing parts of their life support.</text>
 		<status type="loss" target="enemy" system="oxygen" amount="1"/>
 	</event>
 	<event>
@@ -7667,11 +7638,11 @@
 		<status type="loss" target="enemy" system="reactor" amount="1"/>
 	</event>
 	<event>
-		<text>Scans indicate that the enemies reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly looses power.</text>
+		<text>Scans indicate that the enemy's reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly loses power.</text>
 		<status type="loss" target="enemy" system="reactor" amount="3"/>
 	</event>
 	<event>
-		<text>The enemies engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
+		<text>The enemy's engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
 		<status type="loss" target="enemy" system="engines" amount="1"/>
 	</event>
 	<event>
@@ -7679,15 +7650,15 @@
 		<status type="loss" target="enemy" system="reactor" amount="1"/>
 	</event>
 	<event>
-		<text>Scans indicate that the enemies reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly looses power.</text>
+		<text>Scans indicate that the enemy's reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly loses power.</text>
 		<status type="loss" target="enemy" system="reactor" amount="3"/>
 	</event>
 	<event>
-		<text>Parts of your salvo crushes into the enemies rear section, resulting in a small explosion that scatters hull panels in all direction. Then the ship goes dark. The opponents reactor must be quite outdated or not well shielded; the craft suffers from an all out power failure.</text>
+		<text>Parts of your salvo crushes into the enemy's rear section, resulting in a small explosion that scatters hull panels in all direction. Then the ship goes dark. The opponent's reactor must be quite outdated or not well shielded; the craft suffers from an all out power failure.</text>
 		<status type="limit" target="enemy" system="reactor" amount="2"/>
 	</event>
 	<event>
-		<text>The enemies engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
+		<text>The enemy's engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
 		<status type="loss" target="enemy" system="engines" amount="1"/>
 	</event>
 	<event>
@@ -7708,7 +7679,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your shots seemed to have breached the enemy cargo hold. The vessel is loosing supplies, scattering ammunition in its wake.</text>
+		<text>Your shots seemed to have breached the enemy cargo hold. The vessel is losing supplies, scattering ammunition in its wake.</text>
 		<choice hidden="true"> 
 			<text>Head for the ammo and quickly pick it up.</text>
 			<event load="CE_COMBAT_FLUFF_MANNED_AMMO"/>
@@ -7719,7 +7690,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your enemy has taken heavy damage and appears to be dropping fuel containers. Are they trying to loose mass?</text>
+		<text>Your enemy has taken heavy damage and appears to be dropping fuel containers. Are they trying to lose mass?</text>
 		<choice hidden="true"> 
 			<text>Head for the fuel and quickly pick it up.</text>
 			<event load="CE_COMBAT_FLUFF_MANNED_FUEL"/>
@@ -7734,7 +7705,7 @@
 		<status type="loss" target="player" system="reactor" amount="3"/>
 	</event>
 	<event>
-		<text>The fighting maneuvers bring your ships close to a small asteroid field. Your opponent is unwilling to avoid it, instead the ship changes course and heads right towards the rocks. They try to loose you in the hazard zone.</text>
+		<text>The fighting maneuvers bring your ships close to a small asteroid field. Your opponent is unwilling to avoid it; instead the ship changes course and heads right towards the rocks. They are trying to lose you in the hazard zone.</text>
 		<choice hidden="true">
 			<text>Go after them.</text>
 			<event>
@@ -7745,7 +7716,7 @@
 		<choice hidden="true">
 			<text>Let them escape.</text>
 			<event>
-				<text>The ship disappears into the field. Maybe they will get crushed by asteroids but you have to assume they know the terrain and will live to harass other vessels. The weapons officer powers down the guns and you return to the beacon.</text>
+				<text>The ship disappears into the field. Maybe they will get crushed by asteroids, but you have to assume they know the terrain and will live to harass other vessels. The weapons officer powers down the guns and you return to the beacon.</text>
 				<ship hostile="false"/>
 			</event>
 		</choice>
@@ -7784,7 +7755,7 @@
 		<damage amount="0" system="random" effect="fire"/>
 	</event>
 	<event>
-		<text>"Captain, it appears we are leaking atmosphere." The battle strained the ship a little too much. Parts of the inner and outer sealing have been compromised and the explosive decompression breached the ship hull.</text>
+		<text>"Captain, it appears we are leaking atmosphere." The battle strained the ship a little too much. Parts of the inner and outer sealing have been compromised and the explosive decompression breaches the ship hull.</text>
 		<damage amount="0" system="random" effect="breach"/>
 	</event>
 </eventList>
@@ -7804,7 +7775,7 @@
 
 <eventList name="CE_COMBAT_FLUFF_MANNED_FUEL">
 	<event>
-		<text>When you approach the fuel, your opponent turns hard and fires potshot at the containers. Thy burst into blue flames that wash right over your ship. Your opponent must be pretty desperate to attempt something like this.</text>
+		<text>When you approach the fuel, your opponent turns hard and fires a potshot at the containers. Thy burst into blue flames that wash right over your ship. Your opponent must be pretty desperate to attempt something like this.</text>
 		<damage amount="1"/>
 	</event>
 	<event>
@@ -7887,11 +7858,11 @@
 		<status type="loss" target="enemy" system="reactor" amount="1"/>
 	</event>
 	<event>
-		<text>Scans indicate that the enemies reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly looses power.</text>
+		<text>Scans indicate that the enemy's reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly loses power.</text>
 		<status type="loss" target="enemy" system="reactor" amount="3"/>
 	</event>
 	<event>
-		<text>The enemies engines begin to stutter. The AI craft navigated too hard and burned out the stabilizers.</text>
+		<text>The enemy's engines begin to stutter. The AI craft navigated too hard and burned out the stabilizers.</text>
 		<status type="loss" target="enemy" system="engines" amount="1"/>
 	</event>
 	<event>
@@ -7903,7 +7874,7 @@
 		<boarders breach="true" min="1" max="2" class="ghost"/>
 	</event>
 	<event>
-		<text>The fighting maneuvers bring your ships close to a small asteroid field. The automated craft activates its backup thrusters and speeds towards the rocks. It tries to loose you in the hazard zone and will surely inform the Rebel fleet about your wherabouts if it gets away.</text>
+		<text>The fighting maneuvers bring your ships close to a small asteroid field. The automated craft activates its backup thrusters and speeds towards the rocks. It tries to lose you in the hazard zone, and will surely inform the Rebel fleet about your wherabouts if it gets away.</text>
 		<choice hidden="true">
 			<text>Go after the ship.</text>
 			<event>
@@ -7950,8 +7921,8 @@
 <textList name="CE_COMBAT_FLUFF_AUTO_TEXT">
 	<text>Your shots pierce through the enemy craft, spilling trails of molten metal into open space. The enemy is taking heavy damage.</text>
 	<text>The constant maneuvering almost throws you out of your seat. Steady now!</text>
-	<text>All of the sudden the small auto ship turns and boost into your direction, you barely manage to avoid a collision. This definitely caught you off guard.</text>
-	<text>While your weapons trace the enemy, the ship briefly passes in front of the systems sun. For a split-second, it appears as a majestically illuminated shadow in front of the giant star. A brief image of beauty during the cruel carnage of ship-to-ship combat.</text>
+	<text>All of the sudden, the small auto ship turns and boost into your direction; you barely manage to avoid a collision. This definitely caught you off guard.</text>
+	<text>While your weapons trace the enemy, the ship briefly passes in front of the system's sun. For a split-second, it appears as a majestically illuminated shadow in front of the giant star, a brief image of beauty during the cruel carnage of ship-to-ship combat.</text>
 	<text>"Enemy structural integrity is failing, Captain. We got this!"</text>
 	<text>"Shots continue to connect, Captain. Good effect on target."</text>
 	<text>Suddenly electricity arcs out of your console. "Isolate this coupler and reroute my command to another station."</text>
@@ -7962,7 +7933,7 @@
 	<text>The AI craft sends a threatening message. You order to block its channels and focus on the battle.</text>
 	<text>The AI craft hails you: "This is an automated message. You have resisted an executive unit of the Rebellion. This violation has been filed and will have consequences regardless of the outcome of this engagement."</text>
 	<text>The dampeners run on full as you maneuver and exchange fire with your enemy. The heat aboard the ship becomes almost unbearable.</text>
-	<text>You stand in front of the captains chair, focused on the windscreen, bellowing orders to your crew. You will not let this opponent get the better of you!</text>
+	<text>You stand in front of the captain's chair, focused on the windscreen, bellowing orders to your crew. You will not let this opponent get the better of you!</text>
 	<text>Just after you bellowed this last order, everything becomes still for a second. You see yourself from the outside, clutched to one of the silver railings that lines the ship bridge, shouting orders, gesticulating at the screen... Then you remember your parents, your childhood, your time at the academy, the line of cause and effect that brought you here; to another fight to the death. What has become of you?</text>
 	<text>Hold it steady and stay on target... Just like in the simulations.</text>
 	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! You father would be proud.</text>
@@ -7972,8 +7943,7 @@
 	<text>The ships hull creak under the stress of the combat maneuvers. You hope the ship can take it.</text>
 	<text>Your fire tears away a huge section of the enemy plating. Good hit!</text>
 	<text>Hull plating is scattered into space as your shots impact on the enemy craft. You'll pick those up later.</text>
-	<text>Your opponents hull is already covered with glowing impact crater of various sizes. It won't be able to take this kind of punishment for much longer.</text>
-	<text>Hold it steady and stay on target... Just like in the simulations.</text>
+	<text>Your opponents hull is already covered with glowing impact crater of various sizes. It won't be able to take this punishment for much longer.</text>
 </textList>
 
 
@@ -12111,7 +12081,7 @@
 
 <eventList name="ASTEROID_DERELICT_SHIP_SEARCH">
 	<event>
-		<text>You find what appear to be pieces of a derelict ship coated with ice or crystal. Before you have a chance to dock, a few asteroids approach on direct collision course.</text>
+		<text>You find what appear to be pieces of a derelict ship coated with ice or crystal. Before you have a chance to dock, a few asteroids approach on a direct collision course.</text>
 		<choice req="FTL_JUMPER" hidden="true">
 			<text>(Advanced Navigation AI) Evasive actions! Get us out of here!</text>
 			<event>
@@ -13741,13 +13711,13 @@
 
 <eventList name="CE_SURRENDER_SHIP_ATTACK">
 	<event>
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 	</event>
 	<event>
 		<text>Your opponent is scared like a Slug in open space. After dropping the agreed amount of supplies, they immediately put as much distance between your two ships as possible. They are already out of weapon range.</text>
 	</event>
 	<event>
-		<text>Your opponent is heavily damaged, but they have called for backup during the fight and several ship already circle the beacon. This wont work, you have to get out of here.</text>
+		<text>Your opponent is heavily damaged, but they have called for backup during the fight and several ship already circle the beacon. This won't work, you have to get out of here.</text>
 	</event>
 	<event>
 		<text>Your opponent is terrified. "What? Please, you can't do this!" You cut the transmission and order an attack course.</text>
@@ -15777,7 +15747,7 @@
 		<choice hidden="true">
 			<text>Accept.</text>
 			<event>
-				<text>"OK. Under no circumstance are you allowed to open the data package. You just have to deliver it to a nearby union outpost and thats it. Payment will be received upon completing the delivery. I guess we don't have to mention that we expect you to make haste." They transfer the data and sign off.</text>
+				<text>"OK. Under no circumstance are you allowed to open the data package. You just have to deliver it to a nearby union outpost and that's it. Payment will be received upon completing the delivery. I guess we don't have to mention that we expect you to make haste." They transfer the data and sign off.</text>
 				<choice>
 					<text>Carefully secure the data package.</text>
 					<event>
@@ -15831,7 +15801,7 @@
 	<choice hidden="true">
 		<text>Transmit the data package.</text>
 		<event>
-			<text>"Receiving data... stand by." A moment of radio silence is followed by weapon emerging from the stations hull. "Rebel spies, we do realize that you have compromised our data. We heavily outgun you. Do not attempt to flee." They open fire. You won't get a chance to explain this.</text>
+			<text>"Receiving data... stand by." A moment of radio silence is followed by weapon emerging from the station's hull. "Rebel spies, we do realize that you have compromised our data. We heavily outgun you. Do not attempt to flee." They open fire. You won't get a chance to explain this.</text>
 			<ship hostile="true"/>
 			<status type="clear" target="enemy" system="teleporter" amount="100"/>
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
@@ -16892,7 +16862,7 @@
 </event>
 
 <event name="CE_EVENT_UNION_PIRATE_3">
-	<text>The last pirate ship is trying to hide a few klicks away from this beacon. You inform them that you will take them down in the name of the trade union. They send a message, "Who the hell are you?" You go in guns blazing.</text>
+	<text>The last pirate ship is trying to hide a few clicks away from this beacon. You inform them that you will take them down in the name of the trade union. They send a message, "Who the hell are you?" You go in guns blazing.</text>
 	<ship load="CE_UNION_PIRATE_3" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -17425,7 +17395,7 @@
 		<choice>
 			<text>Open fire on your defeated opponent.</text>
 			<event>
-				<text>You are content with having fooled the AI into giving up intel. When you proceed to destroy the machine, it hails: "Interesting... and odd. I did not anticipate this. Looks like I calculated your trustworthiness rating incorrectly. I shall fight then, treacherous organic!" The AI transmits a few terabyte of high quality videos, displaying a few thousand ways of how you could die on your mission.</text>
+				<text>You are content with having fooled the AI into giving up intel. When you proceed to destroy the machine, it hails: "Interesting... and odd. I did not anticipate this. Looks like I calculated your trustworthiness rating incorrectly. I shall fight then, treacherous organic!" The AI transmits a few terabytes of high quality videos, displaying a few thousand ways of how you could die on your mission.</text>
 				<ship hostile="true"/>
 			</event>
 		</choice>
@@ -17814,9 +17784,9 @@
 	</choice>
 </event>
 <textList name="BS_SLUG_SURRENDER_TEXT">
-	<text>The Slugs send frantic hails: "Dont do this, please. We can make you rich!"</text>
+	<text>The Slugs send frantic hails: "Don't do this, please. We can make you rich!"</text>
 	<text>The Slug station hails, "Pleasse don't destroy uss. We shall pay you fine goods!"</text>
-	<text>The Slug stations gelatine hull can't keep up with closing the big holes your weapons keep punching into it. They make contact, "Sspare uss, mighty invader. We shall give you access to some supplies..."</text>
+	<text>The Slug station's gelatine hull can't keep up with closing the big holes your weapons keep punching into it. They make contact, "Sspare uss, mighty invader. We shall give you access to some supplies..."</text>
 	<text>Slug gel is splattered in all directions as your weapons keep pounding the station. The crew seems to start worrying about their home. They offer vaguely defined goods in exchange for a cease-fire.</text>
 </textList>
 
@@ -18727,16 +18697,16 @@
 	<text>You order to disregard any fuel economization directives and try to outrun the Rebels in hyperspace.</text>
 	<text>Additional fuels is fed into the reactor and the FTL reaction increases its power output. Your ship screams through the fabric of space-time, accelerating hard.</text>
 	<text>"Affirmative, Captain. Disregarding fuel economization directives. Reactor output at 110%. We can't push it much more without risking engine degradation."</text>
-	<text>The dedicated hyperspace scanner soon loose track of the Rebel fleet. Looks like you have outrun them for now.</text>
+	<text>The dedicated hyperspace scanner soon loses track of the Rebel fleet. Looks like you have outrun them for now.</text>
 	<text>Intel suggests that the Rebel fleet will be unable to move any faster than at standard speed. By spending a little more fuel you can easily get ahead of them.</text>
 </textList>
 
 <textList name="HYPERSPACE_TRAVEL_ADVANCED_TEXT">
 	<text>The ship shudders as the FTL fuel ignites and the reactor output increases. Damage reports start coming in, the engine exhaust is ablating the surrounding hull by their own energy output. Hold it steady!</text>
-	<text>Your crew is eager to use your advanced engines to their full potential. "Affirmative, Captain. We expect some internal degradation of the engine block, but thats nothing we can't fix later."</text>
+	<text>Your crew is eager to use your advanced engines to their full potential. "Affirmative, Captain. We expect some internal degradation of the engine block, but that's nothing we can't fix later."</text>
 	<text>You are pressed deep into your seat as the ship speeds up, tearing a rift into hyperspace that remains traceable even hundreds of light-years away.</text>
 	<text>"Confirmed, Captain. Let's see what shes got!" The ship is sped up beyond the limits specified by its constructors. After a while, red lights come up on you screens. The engines start to take damage and the hull is ablating.</text>
-	<text>The fleets collective FTL signature becomes a slim line on the hyperspace horizon, soon the rear scanners loose the Rebel ships entirely. You manage to get a lot of space between you and the Rebel, but the ships hull sustains some damage in the process.</text>
+	<text>The fleet's collective FTL signature becomes a slim line on the hyperspace horizon; soon the rear scanners lose the Rebel ships entirely. You manage to get a lot of space between you and the Rebels, but the ship's hull sustains some damage in the process.</text>
 	<text>Your ship speeds up with the hyperspace equivalent of a sonic boom. Shock waves ripple through the skein of reality, announcing your high speed maneuver to the startled Rebel officers, which have no hope of catching up with you soon.</text>
 	<text>Your ship was never designed for such a maneuver. The hull is deformed by the sheer speed you are traveling at, but the Rebel fleet is left far behind.</text>
 </textList>
@@ -20966,7 +20936,7 @@
 		<choice req="SHIELD_RECHARGE" hidden="true">
 			<text>(Shield Charge Booster) Improve the charge booster device. [ Scrap: -70; Augment: Shield Charge Booster ]</text>
 			<event>
-				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few klicks on you while completing the task.</text>
+				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few clicks on you while completing the task.</text>
 				<item_modify>
 					<item type="scrap" min="-70" max="-70"/>
 				</item_modify>
@@ -21656,7 +21626,7 @@
 		<choice req="SHIELD_RECHARGE" hidden="true">
 			<text>(Shield Charge Booster) Improve the charge booster device. [ Scrap: -70; Augment: Shield Charge Booster ]</text>
 			<event>
-				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few klicks on you while completing the task.</text>
+				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few clicks on you while completing the task.</text>
 				<item_modify>
 					<item type="scrap" min="-70" max="-70"/>
 				</item_modify>
@@ -22339,7 +22309,7 @@
 		<choice req="SHIELD_RECHARGE" hidden="true">
 			<text>(Shield Charge Booster) Improve the charge booster device. [ Scrap: -70; Augment: Shield Charge Booster ]</text>
 			<event>
-				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few klicks on you while completing the task.</text>
+				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few clicks on you while completing the task.</text>
 				<item_modify>
 					<item type="scrap" min="-70" max="-70"/>
 				</item_modify>
@@ -27781,9 +27751,9 @@
 	<text>One of the cruisers is already in firing range! They hail, "This is the RS 'Dirty Unicorn'. Many of our fleet assets are converging on this beacon. It's over for you!" You cut communication and get the engines ready.</text>
 	<text>A forward cruiser waits at the beacon. They make contact while already targeting you, "This is the RS 'Bad Day'. Just wanted to let you know who is going to annihilate you." They cut communication..</text>
 	<text>A single cruiser has broken away from the fleet to cover the beacon. They hail your ship, "This is the RS 'Sweet Little Terrorist'. Our unit is more than a match for your ship. And we will have no mercy!" </text>
-	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: a forward cruiser jumped in a few klicks to starboard. You are hailed by a Rebel officer, "This is the RS 'Bad Habits'. You might have guessed, resistance is futile."</text>
+	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: a forward cruiser jumped in a few clicks to starboard. You are hailed by a Rebel officer, "This is the RS 'Bad Habits'. You might have guessed, resistance is futile."</text>
 	<text>A single cruiser is sent out to deal with you. A high priority hail comes in, "This is the RS 'No Joy'. We just want to let you know beforehand that we will not accept surrender." They arm weapons.</text>
-	<text>The fleet remains in formation a few klicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapons range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'Gun Addict'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
+	<text>The fleet remains in formation a few clicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapons range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'Gun Addict'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
 	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you until the FTL is charged, but of course a rearguard cruiser scans your ship and then slowly turns. They hail, "This is the RS 'Pig In A Poke'. Almost missed you there, did we? Well my wingmen are closing in, but me and the crew are aiming for a promotion, so we will deal with you personally."</text>
 	<text>Right after jump completion the computer puts a big red warning dot on the screen. A forward Rebel cruiser closes in and begins a targeting sequence. They hail, "This is the RS 'But Wait, There's More'. My whole crew was originally trained by the Federation. We know your tactics and tricks, get your weapons ready!" </text>
 	<text>The fleet is too spread out to surround you yet, but a nearby cruiser is in firing range. They hail, "This is the RS 'Shield Freak' You are the priority target we are looking for. Resist if you dare!"</text>
@@ -27794,9 +27764,9 @@
 	<text>One of the cruisers is already in firing range! They hail, "This is the RS 'Big Bam Boom'. Multiple fleet units are converging on this beacon. It's over for you!" You cut communication and get the engines ready.</text>
 	<text>A forward cruiser waits at the beacon. They make contact while already targeting you, "This is the RS 'Socially Awkward'. Just wanted to let you know who is going to annihilate you." They cut communication.</text>
 	<text>A single cruiser has broken away from the fleet to cover the beacon. They hail your ship, "This is the RS 'Can You Hear Me Now?'. Our unit is more than a match for your ship. And we will have no mercy!" </text>
-	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: a forward cruiser jumped in a few klicks on starboard. You are hailed by a Rebel Admiral, "This is the RS 'Price Of Water'. As you might have guessed, resistance is futile."</text>
+	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: a forward cruiser jumped in a few clicks on starboard. You are hailed by a Rebel Admiral, "This is the RS 'Price Of Water'. As you might have guessed, resistance is futile."</text>
 	<text>A single cruiser is sent out to deal with you. A high priority hail comes in, "This is the RS 'Advanced Riot Control'. We just want to let you know beforehand that we will not accept surrender." They arm weapons.</text>
-	<text>The fleet remains in formation a few klicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'I Know What You Did'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
+	<text>The fleet remains in formation a few clicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'I Know What You Did'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
 	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you until the FTL is charged, but of course a rearguard cruiser scans your ship and then slowly turns. They hail, "This is the RS 'Arsonist'. Almost missed you there, did we? Well my wingmen are closing in, but me and the crew are aiming for a promotion, so we will deal with you personally."</text>
 	<text>Right after jump completion the computer puts a big red warning dot on the screen. A forward Rebel cruiser closes in and begins a targeting sequence. They hail, "This is the RS 'Try Me'. My whole crew was originally trained by the Federation. We know your tactics and tricks, get your weapons ready!"</text>
 	<text>The fleet is too spread out to surround you yet, but a nearby cruiser is in firing range. They hail, "This is the RS 'Advanced Chemistry' You are the priority target we are looking for. Resist if you dare!"</text>
@@ -27808,9 +27778,9 @@
 	<text>One of the cruisers is already in firing range! They hail, "This is the RS 'Electro Junky'. All fleet are converging on this beacon. It's over for you!" You cut communication and get the engines ready.</text>
 	<text>A forward cruiser waits at the beacon. They make contact while already targeting you, "This is the RS 'Baseline'. Just wanted to let you know who is going to annihilate you." They cut communication.</text>
 	<text>A single cruiser has broken away from the fleet to cover the beacon. They hail your ship, "This is the RS 'Communication Problem'. Our unit is more than a match for your ship. And we will have no mercy!" </text>
-	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: a forward cruiser jumped in a few klicks on starboard. You are hailed by a Rebel officer, "This is the RS 'Hedonists Pride'. As you might have guessed, resistance is futile."</text>
+	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: a forward cruiser jumped in a few clicks on starboard. You are hailed by a Rebel officer, "This is the RS 'Hedonists Pride'. As you might have guessed, resistance is futile."</text>
 	<text>A single cruiser is sent out to deal with you. A high priority hail comes in, "This is the RS 'Change In Government'. We just want to let you know beforehand that we will not accept surrender." They arm weapons.</text>
-	<text>The fleet remains in formation a few klicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'Village Idiot'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
+	<text>The fleet remains in formation a few clicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'Village Idiot'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
 	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you until the FTL is charged, but of course a rearguard cruiser scans your ship and then slowly turns. They hail, "This is the RS 'Pretzel Sticks'. Almost missed you there, did we? Well my wingmen are closing in, but me and the crew are aiming for a promotion, so we will deal with you personally."</text>
 	<text>Right after jump completion the computer puts a big red warning dot on the screen. A forward Rebel cruiser closes in and begins a targeting sequence. They hail, "This is the RS 'Economy Size'. My whole crew was originally trained by the Federation. We know your tactics and tricks, get your weapons ready!"</text>
 	<text>The fleet is too spread out to surround you yet, but a nearby cruiser is in firing range. They hail, "This is the RS 'Plaything'. You are the priority target we are looking for. Resist if you dare!"</text>
@@ -28727,7 +28697,7 @@
 		<text>There are no more life signs remaining on the ship and you send in a salvage team. One of your crew members sends a formal complaint over the comms, arguing that this operation was unnecessary and against Federation protocols. The crew member decides to desert your mission and leaves the ship in an escape pod.</text>
 		<removeCrew>
 			<clone>false</clone>
-			<text>Your clonebay obviously wont revive your crewmen, since he did not die.</text>
+			<text>Your clonebay obviously won't revive your crewmen, since he did not die.</text>
 		</removeCrew>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
@@ -29031,7 +29001,7 @@
 
 <eventList name="C_PIRACY_SUCCESS_LOOT_CIVILIAN">
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29040,7 +29010,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29049,7 +29019,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29058,7 +29028,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29067,7 +29037,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_CONSUMER"/>
 		<choice>
@@ -29076,7 +29046,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_CONSUMER"/>
 		<choice>
@@ -29085,7 +29055,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying food supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying food supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_FOOD"/>
 		<choice>
@@ -29094,7 +29064,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_LUXURY"/>
 		<choice>
@@ -29104,7 +29074,7 @@
 	</event>
 
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29113,7 +29083,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29122,7 +29092,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29131,7 +29101,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29140,7 +29110,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GIRDERS"/>
 		<choice>
@@ -29149,7 +29119,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GEMS"/>
 		<choice>
@@ -29158,7 +29128,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GLANDS"/>
 		<choice>
@@ -29167,7 +29137,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CHEMICALS"/>
 		<choice>
@@ -29176,7 +29146,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying food supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying food supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_TEXTILES"/>
 		<choice>
@@ -29185,7 +29155,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of xeno organisms and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo of xeno organisms and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ORGANISMS"/>
 		<choice>
@@ -29195,7 +29165,7 @@
 	</event>
 
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29204,7 +29174,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29213,7 +29183,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29222,7 +29192,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29231,7 +29201,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_O2"/>
 		<choice>
@@ -29240,7 +29210,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_H2O"/>
 		<choice>
@@ -29249,7 +29219,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying agriculture supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying agriculture supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SEEDS"/>
 		<choice>
@@ -29258,7 +29228,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of power cables and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo of power cables and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CONDUITS"/>
 		<choice>
@@ -29268,7 +29238,7 @@
 	</event>
 
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29277,7 +29247,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29286,7 +29256,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29295,7 +29265,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29304,7 +29274,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_VEGETABLES"/>
 		<choice>
@@ -29313,7 +29283,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ANTIMATTER"/>
 		<choice>
@@ -29322,7 +29292,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying data discs and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying data discs and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GAMES"/>
 		<choice>
@@ -29331,7 +29301,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of packed sensor dishes and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo of packed sensor dishes and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SENSORS"/>
 		<choice>
@@ -29341,7 +29311,7 @@
 	</event>
 
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29350,7 +29320,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29359,7 +29329,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29368,7 +29338,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29377,7 +29347,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_LIFESUPPORT"/>
 		<choice>
@@ -29386,7 +29356,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ROBOTS"/>
 		<choice>
@@ -29395,7 +29365,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying research data and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They were carrying research data and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RESEARCH"/>
 		<choice>
@@ -29404,7 +29374,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SOLAR"/>
 		<choice>
@@ -29413,7 +29383,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RELICS"/>
 		<choice>
@@ -29499,7 +29469,7 @@
 	</event>
 
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29508,7 +29478,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29517,7 +29487,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29526,7 +29496,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29590,7 +29560,7 @@
 	</event>
 
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29599,7 +29569,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29608,7 +29578,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29617,7 +29587,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29663,7 +29633,7 @@
 	</event>
 
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29681,7 +29651,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29690,7 +29660,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29708,7 +29678,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you wont be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ANTIMATTER"/>
 		<choice>
@@ -29735,7 +29705,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29744,7 +29714,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29753,7 +29723,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29762,7 +29732,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29780,7 +29750,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You wont be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ROBOTS"/>
 		<choice>
@@ -36533,7 +36503,7 @@ IDEAS
 		</item_modify>
 	</event>
 	<event>
-		<text>Whatever happened here, it looks like you wont find out now. Some security vids are missing and the cargo logs have been manipulated. You order everyone to be on the lookout.</text>
+		<text>Whatever happened here, it looks like you won't find out now. Some security vids are missing and the cargo logs have been manipulated. You order everyone to be on the lookout.</text>
 		<item_modify steal="true">
 			<item type="scrap" min="-10" max="-20"/>
 			<item type="fuel" min="-4" max="-2"/>
@@ -36549,7 +36519,7 @@ IDEAS
 
 <eventList name="CE_CIVILIAN_THEFT_SCANNER">
 	<event>
-		<text>Security feeds indicate that some locals used old Federation ID codes to secretly enter your ship at the last station. You wont get the stuff back they stole, but at last you know what happened now.</text>
+		<text>Security feeds indicate that some locals used old Federation ID codes to secretly enter your ship at the last station. You won't get the stuff back they stole, but at last you know what happened now.</text>
 		<item_modify steal="true">
 			<item type="scrap" min="-10" max="-20"/>
 			<item type="fuel" min="-4" max="-2"/>
@@ -36571,7 +36541,7 @@ IDEAS
 
 <eventList name="CE_CIVILIAN_THEFT_SLUG">
 	<event>
-		<text>The Slug looks insulted. "I didn't take it, if thatsss what you think Captain. But let me tell you: there wass plenty opportunity for theft in thiss sector. We might never find out what happened to thiss sssuppliess."</text>
+		<text>The Slug looks insulted. "I didn't take it, if that'sss what you think Captain. But let me tell you: there wass plenty opportunity for theft in thiss sector. We might never find out what happened to thiss sssuppliess."</text>
 		<item_modify steal="true">
 			<item type="scrap" min="-10" max="-20"/>
 			<item type="fuel" min="-4" max="-2"/>
@@ -36580,7 +36550,7 @@ IDEAS
 		</item_modify>
 	</event>
 	<event>
-		<text>The Slug looks insulted. "I didn't take it, if thatsss what you think Captain." It concentrates for a few minutes. "Hmmm... There iss sssomeone aboard, I ssense it... A Rebel spy Captain, he has hidden the supplies and plans to sabotage the ship. He must have a perssonal cloaking device."</text>
+		<text>The Slug looks insulted. "I didn't take it, if that'sss what you think Captain." It concentrates for a few minutes. "Hmmm... There iss sssomeone aboard, I ssense it... A Rebel spy, Captain. He has hidden the supplies and plans to sabotage the ship. He must have a perssonal cloaking device."</text>
 		<boarders min="1" max="1" class="human"/>
 		<choice hidden="true">
 			<text>Reconfigure the sensors.</text>
@@ -36591,34 +36561,34 @@ IDEAS
 		</choice>
 	</event>
 	<event>
-		<text>"If I couldn't read your mind, I might assume you think that I stole these supplies. But you should rather question you crewmen there. He is awfully nervous."</text>
+		<text>"If I couldn't read your mind, I might assume you think that I stole these supplies. But you should rather question you crewman there. He is awfully nervous."</text>
 		<choice hidden="true">
 			<text>"What is this about?"</text>
 			<event>
-				<text>Your other crewmen shamefully admits that he was planning to abandon you mission. The missing supplies are discovered in one of the shuttles.</text>
+				<text>Your other crewman shamefully admits that he was planning to abandon your mission. The missing supplies are discovered in one of the shuttles.</text>
 				<choice hidden="true">
-					<text>Punish your crewmen.</text>
+					<text>Punish your crewman.</text>
 					<event>
-						<text>You crewmen free time privileges are suspended for some jumps. You also give a inspiring lecture on the purpose of the mission. You hope that this will make him see sense.</text>
+						<text>Your crewman's free time privileges are suspended for some jumps. You also give a inspiring lecture on the purpose of the mission, hoping to put some sense into him.</text>
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Dismiss your crewmen.</text>
+					<text>Dismiss your crewman.</text>
 					<event>
-						<text>A crewmen that can't be trusted is worthless. You reclaim the stolen supplies, but send the crewmen away in the shuttle. The remaining crew agrees that this was the best thing to do.</text>
+						<text>A crewman that can't be trusted is worthless. You reclaim the stolen supplies, but send the crewman away in the shuttle. The remaining crew agrees that this was the best thing to do.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>This also makes room in the clonebays data base for new crewmen.</text>
+							<text>This also makes room in the clonebay's database for a new crewman.</text>
 						</removeCrew>
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Execute your crewmen.</text>
+					<text>Execute your crewman.</text>
 					<event>
 						<text>Deserting is punishable by death under Federation protocol. You line up a firing squad in the cargo bay. It is over quickly.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>The deletion of the deserters mental-backup is also executed in accordance with Federation law.</text>
+							<text>The deletion of the deserter's mental-backup is also executed in accordance with Federation law.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -36626,11 +36596,11 @@ IDEAS
 		</choice>
 	</event>
 	<event>
-		<text>"If I couldn't read your mind, I might assume you think that I stole these supplies. But you should rather question you crewmen there. He is awfully nervous."</text>
+		<text>"If I couldn't read your mind, I might assume you think that I stole these supplies. But you should rather question you crewman there. He is awfully nervous."</text>
 		<choice hidden="true">
 			<text>"What is this about?"</text>
 			<event>
-				<text>Your other crewmen shamefully admits that he has simply misplaced the supplies. You suspend some of his off-time privileges. Let's hope this won't happen again.</text>
+				<text>Your other crewman shamefully admits that he has simply misplaced the supplies. You suspend some of his off-time privileges. Let's hope this won't happen again.</text>
 			</event>
 		</choice>
 	</event>
@@ -36644,7 +36614,7 @@ IDEAS
 	<choice req="sensors" lvl="2" hidden="true">
 		<text>(Advanced Sensors) Something is out there. Run another scan!</text>
 		<event>
-			<text>Your scanners discover nothing out of the ordinary, but before you can finish charging your FTL an automated Rebel infiltrator suddenly de-cloaks a few klicks away. The AI ship jumps away immediately. It must have been following you and will surely inform the Rebel fleet of your position.</text>
+			<text>Your scanners discover nothing out of the ordinary, but before you can finish charging your FTL an automated Rebel infiltrator suddenly de-cloaks a few clicks away. The AI ship jumps away immediately. It must have been following you and will surely inform the Rebel fleet of your position.</text>
 		</event>
 	</choice>
 	<choice req="sensors" lvl="3" hidden="true">
@@ -37229,7 +37199,7 @@ IDEAS
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>You will use the scrap for good, but can't help feeling like you lost your way. Crew morale is as low as it can get</text>
+		<text>You will use the scrap for good, but can't help feeling like you lost your way. Crew morale is as low as it can get.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
@@ -37240,7 +37210,7 @@ IDEAS
 		<text>There are no more life signs remaining on the ship and you send in a salvage team. One of your crew members sends a formal complaint over the comms, arguing that this operation was unnecessary and against Federation protocols. The crew member decides to desert your mission and leaves the ship in an escape pod.</text>
 		<removeCrew>
 			<clone>false</clone>
-			<text>Your clonebay obviously wont revive your crewmen, since he did not die.</text>
+			<text>Your clonebay obviously won't revive your crewman, since he did not die.</text>
 		</removeCrew>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
@@ -37248,7 +37218,7 @@ IDEAS
 
 <eventList name="DESTROYED_PIRACY_CIVILIAN_RESULTS_RISKLESS_STATION">
 	<event>
-		<text>The crew isn't questioning your course of action. Scans indicate some of The cargo is still intact. You order a sweep.</text>
+		<text>The crew isn't questioning your course of action. Scans indicate some of the cargo is still intact. You order a sweep.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -37476,7 +37446,7 @@ IDEAS
 		<augment name="TE_GOODS_GAMES"/>
 	</event>
 	<event>
-		<text>The station was hosing a research lab. The crew carefully strips it of the dedicated equipment. You wont be able to make any use of the exotic machines aboard, but maybe you can sell this stuff somewhere.</text>
+		<text>The station was hosing a research lab. The crew carefully strips it of the dedicated equipment. You won't be able to make any use of the exotic machines aboard, but maybe you can sell this stuff somewhere.</text>
 		<augment name="TE_GOODS_RESEARCH"/>
 	</event>
 	<event>
@@ -37618,7 +37588,7 @@ IDEAS
 		</choice>
 </event>
 <textList name="GANG_TEXT">
-	<text>"Hey you, Fed cruiser! Glad you came, these bangers won't leave us alone." The hail comes from a nearby civilian ship. You dont have to decide if you want to help: The gang ship already changed course engages you.</text>
+	<text>"Hey you, Fed cruiser! Glad you came, these bangers won't leave us alone." The hail comes from a nearby civilian ship. You don't have to decide if you want to help: The gang ship already changed course engages you.</text>
 	<text>As local authority has broken down, some petty criminals have organized small gangs. Most of their members are simply common pirates with fancier ships.</text>
 	<text>A ship with gang markings demands your surrender. You doubt these fools will be missed.</text>
 	<text>You spot a gang ship looting a small civilian freighter. There is doubt that they destroyed it themselves, but as you scan them they react aggressively and move in to attack.</text>
@@ -38156,7 +38126,7 @@ IDEAS
 	<text planet="PLANET_UNPOPULATED">A rare breed of the luminous saber-goat is said to live in the equatorial mountain regions of this planet. You crew goes for a hike with stun-blasters ready. You are glad no one gets hurt during the hunt.</text>
 	<text planet="PLANET_UNPOPULATED">The information provided by the Curator drone proves to be true. The special door frame, an ancient Zoltan artifact, is hidden near the pole of this planet. The device enables FTL travel for a single individual, but no one that stepped through it came back to report where it leads to.</text>
 	<text>Space whales are almost hunted to extinction. This beacon lies close to a part of space where the legendary creatures gathered to die. Several of their eternal corpses orbit a large planetoid. You gather the frozen space whale oil that the Curator is looking for.</text>
-	<text planet="PLANET_UNPOPULATED">An ancient Zoltan monolith is found near an abandoned monastery at this planet. Few know what purpose these devices really serve. I shiver runs through you when you break off a shard from the polished artifact. The Curator will want to study the material.</text>
+	<text planet="PLANET_UNPOPULATED">An ancient Zoltan monolith is found near an abandoned monastery at this planet. Few know what purpose these devices really serve. A shiver runs through you when you break off a shard from the polished artifact. The Curator will want to study the material.</text>
 </textList>
 
 <event name="CE_QUEST_CURATOR_ITEM_4">
@@ -38187,7 +38157,7 @@ IDEAS
 	<text planet="PLANET_UNPOPULATED">A rare breed of the luminous saber-goat is said to live in the equatorial mountain regions of this planet. You crew goes for a hike with stun-blasters ready. You are glad no one gets hurt during the hunt.</text>
 	<text planet="PLANET_UNPOPULATED">The information provided by the Curator drone proves to be true. The special door frame, an ancient Zoltan artifact, is hidden near the pole of this planet. The device enables FTL travel for a single individual, but no one that stepped through it came back to report where it leads to.</text>
 	<text>Space whales are almost hunted to extinction. This beacon lies close to a part of space where the legendary creatures gathered to die. Several of their eternal corpses orbit a large planetoid. You gather the frozen space whale oil that the Curator is looking for.</text>
-	<text planet="PLANET_UNPOPULATED">An ancient Zoltan monolith is found near an abandoned monastery at this planet. Few know what purpose these devices really serve. I shiver runs through you when you break off a shard from the polished artifact. The Curator will want to study the material.</text>
+	<text planet="PLANET_UNPOPULATED">An ancient Zoltan monolith is found near an abandoned monastery at this planet. Few know what purpose these devices really serve. A shiver runs through you when you break off a shard from the polished artifact. The Curator will want to study the material.</text>
 </textList>
 
 <event name="CE_QUEST_CURATOR_ITEM_5">
