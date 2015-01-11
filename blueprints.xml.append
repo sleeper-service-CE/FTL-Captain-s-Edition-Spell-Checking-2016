@@ -12611,7 +12611,7 @@
 	<name>TE_GOODS_ENGI_ELECTRONICS</name>
 	<name>TE_GOODS_ENGI_MACHINES</name>
 	<name>TE_GOODS_ZOLTAN_BEACONS</name>
-	<name>TE_GOODS_ZOLTAN_KODEX</name>
+	<name>TE_GOODS_ZOLTAN_CODEX</name>
 	<name>TE_GOODS_ZOLTAN_SHIELDS</name>
 	<name>TE_GOODS_ROCK_LITERATURE</name>
 	<name>TE_GOODS_ROCK_ORE</name>
@@ -12644,7 +12644,7 @@
 	<name>TE_GOODS_H2O</name>
 	<name>TE_GOODS_SEEDS</name>
 	<name>TE_GOODS_CONDUITS</name>
-	<name>TE_GOODS_VEGETABLES</name>
+	<name>TE_GOODS_PRODUCE</name>
 	<name>TE_GOODS_ANTIMATTER</name>
 	<name>TE_GOODS_GAMES</name>
 	<name>TE_GOODS_SENSORS</name>
@@ -13118,7 +13118,7 @@
 <!--	Best Sell: None -->
 </augBlueprint>
 
-<augBlueprint name="TE_GOODS_VEGETABLES">
+<augBlueprint name="TE_GOODS_PRODUCE">
 	<title>Station-Grown Vegetables</title>
 	<desc>Contribute to a healthy diet, but are considered more of a luxury than something that can sustain a population in space. Basic trade goods.</desc>
 	<cost>30</cost>
@@ -14686,6 +14686,168 @@
 	<weaponArt>crystal_heavy_2</weaponArt> 
 </weaponBlueprint>
 
+
+<mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_1">
+    <mod-overwrite:launchSounds>
+      <sound>CrystalWeapon1</sound>
+      <sound>CrystalWeapon2</sound>
+    </mod-overwrite:launchSounds>
+  </mod:findName>
+
+<mod:findName type="weaponBlueprint" name="CRYSTAL_BURST_2">
+    <mod-overwrite:launchSounds>
+      <sound>CrystalWeapon1</sound>
+      <sound>CrystalWeapon2</sound>
+    </mod-overwrite:launchSounds>
+  </mod:findName>
+  
+  <mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_1">
+    <mod-overwrite:launchSounds>
+		  <sound>CrystalWeaponHeavy1</sound>
+		  <sound>CrystalWeaponHeavy2</sound>
+    </mod-overwrite:launchSounds>
+  </mod:findName>
+
+  <mod:findName type="weaponBlueprint" name="CRYSTAL_HEAVY_2">
+    <mod-overwrite:launchSounds>
+		  <sound>CrystalWeaponHeavy1</sound>
+		  <sound>CrystalWeaponHeavy2</sound>
+    </mod-overwrite:launchSounds>
+  </mod:findName>
+  
+  <mod:findName type="weaponBlueprint" name="BOMB_LOCK">
+    <mod-overwrite:hitShipSounds>
+		  <sound>LockdownBomb1</sound>
+		  <sound>LockdownBomb2</sound>
+    </mod-overwrite:hitShipSounds>
+  </mod:findName>
+
+
+<mod:findName type="weaponBlueprint" name="BA_CRYSTAL_LIGHT_1">
+    <mod-overwrite:launchSounds>
+      <sound>CrystalWeaponLight1</sound>
+      <sound>CrystalWeaponLight2</sound>
+    </mod-overwrite:launchSounds>
+    <mod-overwrite:hitShipSounds>
+		  <sound>crystalExplosion_light</sound>
+    </mod-overwrite:hitShipSounds>
+     <mod-overwrite:explosion>explosion_crystal_small_red</mod-overwrite:explosion>
+  </mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BA_CRYSTAL_LIGHT_2">
+    <mod-overwrite:launchSounds>
+      <sound>CrystalWeaponLight1</sound>
+      <sound>CrystalWeaponLight2</sound>
+    </mod-overwrite:launchSounds>
+    <mod-overwrite:hitShipSounds>
+		  <sound>crystalExplosion_light</sound>  
+    </mod-overwrite:hitShipSounds>
+    <mod-overwrite:explosion>explosion_crystal_small_red</mod-overwrite:explosion>
+  </mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BA_CRYSTAL_HEAVY_LOCKDOWN_1">
+    <mod-overwrite:launchSounds>
+      <sound>CrystalWeapon1</sound>
+      <sound>CrystalWeapon2</sound>
+    </mod-overwrite:launchSounds>
+    <mod-overwrite:hitShipSounds>
+		  <sound>CrystalExplosionLockdown1</sound>  
+		 <sound>CrystalExplosionLockdown2</sound>  
+    </mod-overwrite:hitShipSounds>
+  </mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BA_CRYSTAL_HEAVY_LOCKDOWN_2">
+    <mod-overwrite:launchSounds>
+		  <sound>CrystalWeaponHeavy1</sound>
+		  <sound>CrystalWeaponHeavy2</sound>
+    </mod-overwrite:launchSounds>
+    <mod-overwrite:hitShipSounds>
+		  <sound>CrystalExplosionLockdownH1</sound>  
+		 <sound>CrystalExplosionLockdownH1</sound>  
+    </mod-overwrite:hitShipSounds> 
+  </mod:findName>
+  
+    <mod:findName type="weaponBlueprint" name="BA_BOMB_LOCK_2">
+    <mod-overwrite:hitShipSounds>
+		  <sound>LockdownBomb2_1</sound> 
+		  <sound>LockdownBomb2_2</sound>
+    </mod-overwrite:hitShipSounds>
+  </mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BA_ARTILLERY_CRYSTAL">
+    <mod-overwrite:launchSounds>
+      <sound>CrystalWeapon1</sound>
+      <sound>CrystalWeapon2</sound>
+    </mod-overwrite:launchSounds>
+    <mod-overwrite:hitShipSounds>
+		  <sound>CrystalExplosionLockdown1</sound>  
+		 <sound>CrystalExplosionLockdown2</sound>  
+    </mod-overwrite:hitShipSounds>
+  </mod:findName>
+
+<mod:findName type="weaponBlueprint" name="BA_ARTILLERY_CRYSTAL_LIGHT">
+    <mod-overwrite:launchSounds>
+		  <sound>CrystalWeaponHeavy1</sound>
+		  <sound>CrystalWeaponHeavy2</sound>
+    </mod-overwrite:launchSounds>
+    <mod-overwrite:hitShipSounds>
+		  <sound>crystalExplosion_light</sound>  
+    </mod-overwrite:hitShipSounds>
+    <mod-overwrite:explosion>explosion_crystal_small_red</mod-overwrite:explosion>
+  </mod:findName>
+    
+  <mod:findName type="weaponBlueprint" name="BA_DRONE_CRYSTAL">
+    <mod-overwrite:launchSounds>
+	  	<sound>CrystalWeapon1</sound>
+	  	<sound>CrystalWeapon2</sound>
+    </mod-overwrite:launchSounds>
+        <mod-overwrite:hitShipSounds>
+		  <sound>crystalExplosion_small</sound>  
+    </mod-overwrite:hitShipSounds>
+  </mod:findName>
+  
+
+    <mod:findName type="weaponBlueprint" name="BA_HEAVY_DRONE_CRYSTAL">
+    <mod-overwrite:launchSounds>
+	  	<sound>CrystalWeaponHeavy1</sound>
+	  	<sound>CrystalWeaponHeavy2</sound>
+    </mod-overwrite:launchSounds>
+     <mod-overwrite:hitShipSounds>
+		  <sound>crystalExplosion</sound>  
+    </mod-overwrite:hitShipSounds>
+  </mod:findName>
+  
+<mod:findName type="weaponBlueprint" name="BA_LIGHT_DRONE_CRYSTAL">
+    <mod-overwrite:launchSounds>
+      <sound>CrystalWeaponLight1</sound>
+      <sound>CrystalWeaponLight2</sound>
+    </mod-overwrite:launchSounds>
+    <mod-overwrite:hitShipSounds>
+		  <sound>crystalExplosion_light</sound>  
+    </mod-overwrite:hitShipSounds>
+    <mod-overwrite:explosion>explosion_crystal_small_red</mod-overwrite:explosion>
+  </mod:findName>
+  
+  <mod:findName type="weaponBlueprint" name="BA_LIGHT_DEFENSE_DRONE_CRYSTAL">
+    <mod-overwrite:launchSounds>
+      <sound>CrystalWeaponLight1</sound>
+      <sound>CrystalWeaponLight2</sound>
+    </mod-overwrite:launchSounds>
+    <mod-overwrite:explosion>explosion_crystal_small_red</mod-overwrite:explosion>
+  </mod:findName>
+  
+    <mod:findName type="weaponBlueprint" name="BA_ANTI_DRONE_CRYSTAL">
+    <mod-overwrite:launchSounds>
+	  	<sound>CrystalWeapon1</sound>
+	  	<sound>CrystalWeapon2</sound>
+    </mod-overwrite:launchSounds>
+  </mod:findName>
+  
+<mod:findName type="weaponBlueprint" name="CRYSTAL_1">
+    <mod-overwrite:hitShipSounds>
+		  <sound>crystalExplosion</sound>  
+    </mod-overwrite:hitShipSounds>
+  </mod:findName>
 
 
  <!-- END OF DIVERSITY MOD Weapon BLUEPRINTS -->

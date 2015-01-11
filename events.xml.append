@@ -29276,7 +29276,7 @@
 	<event>
 		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
-		<augment name="TE_GOODS_VEGETABLES"/>
+		<augment name="TE_GOODS_PRODUCE"/>
 		<choice>
 			<text>Continue...</text>
 			<event load="C_PIRACY_SUCCESS"/>
@@ -29671,7 +29671,7 @@
 	<event>
 		<text>They hand over some of the produce they grow onboard the station - you successful stole those peoples groceries. During the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
-		<augment name="TE_GOODS_VEGETABLES"/>
+		<augment name="TE_GOODS_PRODUCE"/>
 		<choice>
 			<text>Continue...</text>
 			<event load="C_PIRACY_SUCCESS"/>
@@ -32560,7 +32560,7 @@
 				</item_modify>
 			</event>
 		</choice>
-		<choice req="TE_GOODS_POLYMERS" hidden="true">
+		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
 			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT"/>
@@ -33465,7 +33465,7 @@
 				</item_modify>
 			</event>
 		</choice>
-		<choice req="TE_GOODS_POLYMERS" hidden="true">
+		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
 			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
@@ -33935,7 +33935,7 @@
 				<store/>
 			</event>
 		</choice>
-		<choice req="TE_GOODS_POLYMERS" hidden="true">
+		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
 			<text>[Sell Plastic Items for about 30 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="TRADER_SELL_TEXT_BOOSTED"/>
@@ -37439,7 +37439,7 @@ IDEAS
 	</event>
 	<event>
 		<text>The station is equipped with an extensive hydroponics lab. Your crew makes off with the latest harvest.</text>
-		<augment name="TE_GOODS_VEGETABLES"/>
+		<augment name="TE_GOODS_PRODUCE"/>
 	</event>
 	<event>
 		<text>The station was storing entertainment gear. Your crew loads the shipment into the cargo holds.</text>

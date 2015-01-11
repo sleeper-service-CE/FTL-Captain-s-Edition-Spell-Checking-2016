@@ -1856,7 +1856,7 @@
 			<text>(Mantis Ship) Torture the Rebels for Information.</text>
 			<event>
 				<text>You order them to be take to the special room. After a few hours that involve plenty of shouting, medication and hand tools, the group of cadets is reduced to a whimpering pile of half-dismembered bodies. You learned all you can about the Rebels pursuit vectors and hose down the torture chamber,- airlock style.</text>
-				<modifyPursuit amount="1"/>
+				<modifyPursuit amount="-1"/>
 			</event>
 		</choice>
 	</event>
@@ -5774,13 +5774,11 @@
 		<event>
 			<text>When you attempt a detailed scan of your surroundings, the first thing you notice is a nearby bulkhead opening. A hard-mounted turret slides out of the wall and turns towards you. "Intrusion detected. You have three seconds to verify your identity. 3... 2..."</text>
 			<ship load="BS_AUTO_TURRET_BOARDERS_SPACE_FACTORY" hostile="true"/>
-			<status type="limit" target="player" system="engines" amount="1"/>
 			<status type="limit" target="enemy" system="engines" amount="0"/>
 			<choice req="FTL_JUMPER" hidden="true">
 				<text>(Advanced Navigation AI) Activate your advanced navigation software.</text>
 				<event>
 					<text>Your augment allows you to use the side thrusters to their full potential. You can navigate more safely within the confined environment and gain a noticeable advantage against your opponent.</text>
-				<status type="clear" target="player" system="engines" amount="100"/>
 				<status type="limit" target="player" system="engines" amount="4"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
@@ -5823,7 +5821,8 @@
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
-					<text>"... 1... Verification failed. Engaging target." The turret start to unload its weapon clusters on you. There is no space to navigate here; you are a sitting duck.</text>
+					<text>"... 1... Verification failed. Engaging target." The turret starts to unload its weapon clusters on you. There is no space to navigate here; you are a sitting duck.</text>
+					<status type="limit" target="player" system="engines" amount="1"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -6126,7 +6125,7 @@
 			<text>(Mantis Ship) Torture the Rebels for Information.</text>
 			<event>
 				<text>You order them to be take to the special room. After a few hours that involve plenty of shouting, medication and hand tools, the group of cadets is reduced to a whimpering pile of half-dismembered bodies. You learned all you can about the Rebels pursuit vectors and hose down the torture chamber,- airlock style.</text>
-				<modifyPursuit amount="1"/>
+				<modifyPursuit amount="-1"/>
 			</event>
 		</choice>
 	</event>
