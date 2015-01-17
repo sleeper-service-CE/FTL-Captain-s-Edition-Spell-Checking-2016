@@ -2125,7 +2125,7 @@
 
 <ship name="BS_FED_SCIENCE" auto_blueprint="BS_STATIONS_FED_SCIENCE">
 	<destroyed>
-		<text>Your weapons hit a critical section and the science station's supplies combust, incinerating the whole installation in chemical fires that are visible for many clicks. You scrap what little remains of it. Scanners indicate some drone tech was on board but it is useless now.</text>
+		<text>Your weapons hit a critical section and the science station's supplies combust, incinerating the whole installation in chemical fires that are visible for many klicks. You scrap what little remains of it. Scanners indicate some drone tech was on board but it is useless now.</text>
 		<autoReward level="LOW">standard</autoReward>
 	</destroyed>
 	<deadCrew>

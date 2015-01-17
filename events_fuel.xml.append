@@ -570,7 +570,7 @@
 		<choice req="SHIELD_RECHARGE" hidden="true">
 			<text>(Shield Charge Booster) Improve the charge booster device. [ Scrap: -70; Augment: Shield Charge Booster ]</text>
 			<event>
-				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few clicks on you while completing the task.</text>
+				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few klicks on you while completing the task.</text>
 				<item_modify>
 					<item type="scrap" min="-70" max="-70"/>
 				</item_modify>

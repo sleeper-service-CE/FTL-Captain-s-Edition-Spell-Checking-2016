@@ -2890,7 +2890,7 @@
 </event>
 <textList name="BS_EVENT_AUTO_SUICIDE_NEBULA_TEXT">
 	<text>The Rebels must have anticipated you would try to lose them within the nebula; an automated defense turret was waiting for you at the beacon.</text>
-	<text>A few clicks ahead, a Rebel AI turret floats right in the middle of this wide clearing in the nebula; a perfect arena for a fight to the death.</text>
+	<text>A few klicks ahead, a Rebel AI turret floats right in the middle of this wide clearing in the nebula; a perfect arena for a fight to the death.</text>
 	<text>A few seconds after you arrive you are fired on from within the clouds; a Rebel turret has been left behind to guard this beacon!</text>
 	<text>This part of the nebula seems to be not as uncharted as expected; an AI controlled turret is guarding the beacon. The Rebels knew ships would have to stay in its weapon range to charge their FTL. A fight will be unavoidable.</text>
 	<text>The Rebel turret that is guarding this remote part of the nebula seems to be well up to date about high level targets. It immediately powers up its weapons as you arrive.</text>
@@ -8286,7 +8286,7 @@ IDEAS
 		</choice>
 </event>
 <textList name="REBEL_AUTO_HAZARD_ASTEROID_NEBULA_TEXT">
-	<text planet="NONE" back="BG_NEBULA_ASTEROIDS">The magnetic fields of an ion storm a few clicks away are strong enough to disable your sensors even in this asteroid field far away from the nebula. Your ship is hailed, "This is an automated message. Our auto-scouts are already swarming the asteroid fields and nebula in this sector. We will find you wherever you go."</text>
+	<text planet="NONE" back="BG_NEBULA_ASTEROIDS">The magnetic fields of an ion storm a few klicks away are strong enough to disable your sensors even in this asteroid field far away from the nebula. Your ship is hailed, "This is an automated message. Our auto-scouts are already swarming the asteroid fields and nebula in this sector. We will find you wherever you go."</text>
 	<text planet="NONE" back="BG_NEBULA_ASTEROIDS">Ionized asteroid dust is impeding your sensors in this part of the field. Another auto-scout is searching for you here.</text>
 </textList>
 

@@ -16862,7 +16862,7 @@
 </event>
 
 <event name="CE_EVENT_UNION_PIRATE_3">
-	<text>The last pirate ship is trying to hide a few clicks away from this beacon. You inform them that you will take them down in the name of the trade union. They send a message, "Who the hell are you?" You go in guns blazing.</text>
+	<text>The last pirate ship is trying to hide a few klicks away from this beacon. You inform them that you will take them down in the name of the trade union. They send a message, "Who the hell are you?" You go in guns blazing.</text>
 	<ship load="CE_UNION_PIRATE_3" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -20936,7 +20936,7 @@
 		<choice req="SHIELD_RECHARGE" hidden="true">
 			<text>(Shield Charge Booster) Improve the charge booster device. [ Scrap: -70; Augment: Shield Charge Booster ]</text>
 			<event>
-				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few clicks on you while completing the task.</text>
+				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few klicks on you while completing the task.</text>
 				<item_modify>
 					<item type="scrap" min="-70" max="-70"/>
 				</item_modify>
@@ -21626,7 +21626,7 @@
 		<choice req="SHIELD_RECHARGE" hidden="true">
 			<text>(Shield Charge Booster) Improve the charge booster device. [ Scrap: -70; Augment: Shield Charge Booster ]</text>
 			<event>
-				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few clicks on you while completing the task.</text>
+				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few klicks on you while completing the task.</text>
 				<item_modify>
 					<item type="scrap" min="-70" max="-70"/>
 				</item_modify>
@@ -22309,7 +22309,7 @@
 		<choice req="SHIELD_RECHARGE" hidden="true">
 			<text>(Shield Charge Booster) Improve the charge booster device. [ Scrap: -70; Augment: Shield Charge Booster ]</text>
 			<event>
-				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few clicks on you while completing the task.</text>
+				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few klicks on you while completing the task.</text>
 				<item_modify>
 					<item type="scrap" min="-70" max="-70"/>
 				</item_modify>
@@ -27751,9 +27751,9 @@
 	<text>One of the cruisers is already in firing range! They hail, "This is the RS 'Dirty Unicorn'. Many of our fleet assets are converging on this beacon. It's over for you!" You cut communication and get the engines ready.</text>
 	<text>A forward cruiser waits at the beacon. They make contact while already targeting you, "This is the RS 'Bad Day'. Just wanted to let you know who is going to annihilate you." They cut communication..</text>
 	<text>A single cruiser has broken away from the fleet to cover the beacon. They hail your ship, "This is the RS 'Sweet Little Terrorist'. Our unit is more than a match for your ship. And we will have no mercy!" </text>
-	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: a forward cruiser jumped in a few clicks to starboard. You are hailed by a Rebel officer, "This is the RS 'Bad Habits'. You might have guessed, resistance is futile."</text>
+	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: a forward cruiser jumped in a few klicks to starboard. You are hailed by a Rebel officer, "This is the RS 'Bad Habits'. You might have guessed, resistance is futile."</text>
 	<text>A single cruiser is sent out to deal with you. A high priority hail comes in, "This is the RS 'No Joy'. We just want to let you know beforehand that we will not accept surrender." They arm weapons.</text>
-	<text>The fleet remains in formation a few clicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapons range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'Gun Addict'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
+	<text>The fleet remains in formation a few klicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapons range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'Gun Addict'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
 	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you until the FTL is charged, but of course a rearguard cruiser scans your ship and then slowly turns. They hail, "This is the RS 'Pig In A Poke'. Almost missed you there, did we? Well my wingmen are closing in, but me and the crew are aiming for a promotion, so we will deal with you personally."</text>
 	<text>Right after jump completion the computer puts a big red warning dot on the screen. A forward Rebel cruiser closes in and begins a targeting sequence. They hail, "This is the RS 'But Wait, There's More'. My whole crew was originally trained by the Federation. We know your tactics and tricks, get your weapons ready!" </text>
 	<text>The fleet is too spread out to surround you yet, but a nearby cruiser is in firing range. They hail, "This is the RS 'Shield Freak' You are the priority target we are looking for. Resist if you dare!"</text>
@@ -27764,9 +27764,9 @@
 	<text>One of the cruisers is already in firing range! They hail, "This is the RS 'Big Bam Boom'. Multiple fleet units are converging on this beacon. It's over for you!" You cut communication and get the engines ready.</text>
 	<text>A forward cruiser waits at the beacon. They make contact while already targeting you, "This is the RS 'Socially Awkward'. Just wanted to let you know who is going to annihilate you." They cut communication.</text>
 	<text>A single cruiser has broken away from the fleet to cover the beacon. They hail your ship, "This is the RS 'Can You Hear Me Now?'. Our unit is more than a match for your ship. And we will have no mercy!" </text>
-	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: a forward cruiser jumped in a few clicks on starboard. You are hailed by a Rebel Admiral, "This is the RS 'Price Of Water'. As you might have guessed, resistance is futile."</text>
+	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: a forward cruiser jumped in a few klicks on starboard. You are hailed by a Rebel Admiral, "This is the RS 'Price Of Water'. As you might have guessed, resistance is futile."</text>
 	<text>A single cruiser is sent out to deal with you. A high priority hail comes in, "This is the RS 'Advanced Riot Control'. We just want to let you know beforehand that we will not accept surrender." They arm weapons.</text>
-	<text>The fleet remains in formation a few clicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'I Know What You Did'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
+	<text>The fleet remains in formation a few klicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'I Know What You Did'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
 	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you until the FTL is charged, but of course a rearguard cruiser scans your ship and then slowly turns. They hail, "This is the RS 'Arsonist'. Almost missed you there, did we? Well my wingmen are closing in, but me and the crew are aiming for a promotion, so we will deal with you personally."</text>
 	<text>Right after jump completion the computer puts a big red warning dot on the screen. A forward Rebel cruiser closes in and begins a targeting sequence. They hail, "This is the RS 'Try Me'. My whole crew was originally trained by the Federation. We know your tactics and tricks, get your weapons ready!"</text>
 	<text>The fleet is too spread out to surround you yet, but a nearby cruiser is in firing range. They hail, "This is the RS 'Advanced Chemistry' You are the priority target we are looking for. Resist if you dare!"</text>
@@ -27778,9 +27778,9 @@
 	<text>One of the cruisers is already in firing range! They hail, "This is the RS 'Electro Junky'. All fleet are converging on this beacon. It's over for you!" You cut communication and get the engines ready.</text>
 	<text>A forward cruiser waits at the beacon. They make contact while already targeting you, "This is the RS 'Baseline'. Just wanted to let you know who is going to annihilate you." They cut communication.</text>
 	<text>A single cruiser has broken away from the fleet to cover the beacon. They hail your ship, "This is the RS 'Communication Problem'. Our unit is more than a match for your ship. And we will have no mercy!" </text>
-	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: a forward cruiser jumped in a few clicks on starboard. You are hailed by a Rebel officer, "This is the RS 'Hedonists Pride'. As you might have guessed, resistance is futile."</text>
+	<text>A nearby scout turns to engage, but then apparently is ordered back. You realize why: a forward cruiser jumped in a few klicks on starboard. You are hailed by a Rebel officer, "This is the RS 'Hedonists Pride'. As you might have guessed, resistance is futile."</text>
 	<text>A single cruiser is sent out to deal with you. A high priority hail comes in, "This is the RS 'Change In Government'. We just want to let you know beforehand that we will not accept surrender." They arm weapons.</text>
-	<text>The fleet remains in formation a few clicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'Village Idiot'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
+	<text>The fleet remains in formation a few klicks away, slowly approaching. The computer calculates that there is enough time to charge the FTL before they get in weapon range. Your relief is spoiled as one of the cruisers decides to makes a short range jump and appears right on your six. "This is the RS 'Village Idiot'. Get ready for a fight with someone who actually is a match for a cruiser like yours!"</text>
 	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. You hope that they don't notice you until the FTL is charged, but of course a rearguard cruiser scans your ship and then slowly turns. They hail, "This is the RS 'Pretzel Sticks'. Almost missed you there, did we? Well my wingmen are closing in, but me and the crew are aiming for a promotion, so we will deal with you personally."</text>
 	<text>Right after jump completion the computer puts a big red warning dot on the screen. A forward Rebel cruiser closes in and begins a targeting sequence. They hail, "This is the RS 'Economy Size'. My whole crew was originally trained by the Federation. We know your tactics and tricks, get your weapons ready!"</text>
 	<text>The fleet is too spread out to surround you yet, but a nearby cruiser is in firing range. They hail, "This is the RS 'Plaything'. You are the priority target we are looking for. Resist if you dare!"</text>
@@ -36614,7 +36614,7 @@ IDEAS
 	<choice req="sensors" lvl="2" hidden="true">
 		<text>(Advanced Sensors) Something is out there. Run another scan!</text>
 		<event>
-			<text>Your scanners discover nothing out of the ordinary, but before you can finish charging your FTL an automated Rebel infiltrator suddenly de-cloaks a few clicks away. The AI ship jumps away immediately. It must have been following you and will surely inform the Rebel fleet of your position.</text>
+			<text>Your scanners discover nothing out of the ordinary, but before you can finish charging your FTL an automated Rebel infiltrator suddenly de-cloaks a few klicks away. The AI ship jumps away immediately. It must have been following you and will surely inform the Rebel fleet of your position.</text>
 		</event>
 	</choice>
 	<choice req="sensors" lvl="3" hidden="true">

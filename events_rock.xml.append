@@ -3043,7 +3043,7 @@
 </event>
 <textList name="BS_EVENT_ROCK_COLONY_TEXT">
 	<text>Identifying a Rock colony in a nearby asteroid field, you signal once more that you are friendly. They fire a few unarmed warning-missiles as a response.</text>
-	<text>Upon arrival, your navigator informs you that you jumped a few clicks off the mark. You realize its better this way, because at the far side of the beacon lies an asteroid patch harboring a small Rock colony. They send threatening messages and demand that you leave immediately.</text>
+	<text>Upon arrival, your navigator informs you that you jumped a few klicks off the mark. You realize its better this way, because at the far side of the beacon lies an asteroid patch harboring a small Rock colony. They send threatening messages and demand that you leave immediately.</text>
 	<text>As your ship slips into real-space, you detect an small asteroid patch, almost completely depleted of its natural resources. The Rock mining colony at it's perimiter refuses all hails. Passive scans show their stores are full of materials.</text>
 	<text>You receive a hail from within a large asteroid field nearby. "This mining area and the adjacent habitats are off-limits. Leave now, wobbly aliens!"</text>
 </textList>
