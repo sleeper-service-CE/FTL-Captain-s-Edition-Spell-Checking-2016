@@ -133,7 +133,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -182,7 +182,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -231,7 +231,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -280,7 +280,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -329,7 +329,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -378,7 +378,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -427,7 +427,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -476,7 +476,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -526,7 +526,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -576,7 +576,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -626,7 +626,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -676,7 +676,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -725,7 +725,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -775,7 +775,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -824,7 +824,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -873,7 +873,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -922,7 +922,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -971,7 +971,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1020,7 +1020,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1070,7 +1070,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1120,7 +1120,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1169,7 +1169,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1218,7 +1218,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1440,7 +1440,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="6" hidden="true">
-		<text>(Advanced Engines) Override the engines security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
+		<text>(Advanced Engines) Override the engines' security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
 		<event>
 			<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 			<item_modify>
@@ -1534,7 +1534,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="4" hidden="true">
-				<text>(Improved Engines) Override the engines security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 					<item_modify>
@@ -1766,7 +1766,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1992,7 +1992,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2019,8 +2019,8 @@
 	<text>The only other ship at this beacon messages you: "Finally, after months of waiting, someone has fallen into our trap!"</text>
 	<text>You barely have time to register jump completion before your ship warns you of an incoming ship with weapons hot.</text>
 	<text>A small blip appears on the system map. The sector archive lists this ship as a local pirate with a long rap sheet. "Unidentified cruiser, surrender or you will be destroyed." They are closing in fast.</text>
-	<text>A small ship remains stationary in the distance. It's Captain hails and claims that he is a Federation requisition officer, here to collect the war toll from passing ships. When you demand to see the official requisition license, the ships weapons come live. "You resist a Federation official? We will take what we demand by force then." It is unclear if these are common freebooters or bureaucrats.</text>
-	<text>A small ship remains stationary in the distance. It's Captain hails and claims that he is a Federation requisition officer, here to collect the war toll from passing ships. When you demand to see the official requisition license, the ships weapons come live. It is unclear if your opponent is an especially violent bureaucrats or just a common freebooter.</text>
+	<text>A small ship remains stationary in the distance. Its Captain hails and claims that she is a Federation requisition officer, here to collect the war toll from passing ships. When you demand to see their official requisition license, the ship's weapons come live. "You resist a Federation official? We will take what we demand by force then." It is unclear if these are common freebooters or bureaucrats.</text>
+	<text>A small ship remains stationary in the distance. Its Captain hails and claims that he is a Federation requisition officer, here to collect the war toll from passing ships. When you demand to see their official requisition license, the ship's weapons come live. It is unclear if your opponent is an especially violent bureaucrats or just a common freebooter.</text>
 	<text>The captain of this ship with pirate markings claims to be an official Rebel requisition officer. When you refuse to donate to the Rebellion, the ship cuts coms and moves in to attack.</text>
 </textList>
 
@@ -2058,7 +2058,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2112,7 +2112,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2182,7 +2182,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2250,7 +2250,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2318,7 +2318,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2402,7 +2402,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2432,22 +2432,22 @@
 
 <eventList name="CE_SLAVER_RELEASE">
 	<event>
-		<text>You opponent jettisons the slave towards you in a pod and jumps away. This individual has been saved from lifelong imprisonment and forced labor. After hearing about your mission, the former slave offers to join your cause anyway. He wants to thank you for his rescue.</text>
+		<text>Your opponent jettisons the slave towards you in a pod and jumps away. This individual has been saved from lifelong imprisonment and forced labor. After hearing about your mission, the former slave offers to join your cause anyway. They want to thank you for their rescue.</text>
 		<ship hostile="false"/>
 		<choice>
 			<text>Are you sure? Welcome aboard then!</text>
 			<event>
-				<text>Your new crewman puts on Federation insignia and prepares for duty.</text>
+				<text>Your new crewman puts on the Federation insignia and prepares for duty.</text>
 				<crewMember amount="1"/>
 			</event>
 		</choice>
 		<choice>
-			<text>Decline his request. This person deserves to be out of danger.</text>
+			<text>Decline their request. This person deserves to be out of danger.</text>
 			<event/>
 		</choice>
 	</event>
 	<event>
-		<text>You opponent jettisons the slave towards you in a pod and jumps away. It turns out the former slave was a Federation Ensign before he was captured. Technically, you are a senior officer to him and he has to submit to your command, regardless of what he has been through recently.</text>
+		<text>You opponent jettisons the slave towards you in a pod and jumps away. It turns out the former slave was a Federation Ensign before they were captured. Technically, you are their senior officer and they must to submit to your command, regardless of what they have been through recently.</text>
 		<ship hostile="false"/>
 		<choice>
 			<text>"I guess we can both be glad that we ran into each other. Await further orders Ensign. Dismissed."</text>
@@ -2467,16 +2467,16 @@
 		<reveal_map/>
 	</event>
 	<event>
-		<text>You opponent jettisons the slave towards you in a pod and jumps away. The former slave barely speaks a word. He seems to have been through a lot and must be deeply traumatized. You order him put under medical supervision until you find a place where he can leave the ship.</text>
+		<text>Your opponent jettisons the slave towards you in a pod and jumps away. The former slave barely speaks a word. He seems to have been through a lot and must be deeply traumatized. You order him put under medical supervision until you find a place where he can leave the ship.</text>
 		<ship hostile="false"/>
 	</event>
 	<event>
-		<text>You opponent jettisons the slave towards you in a pod and jumps away. The former slave thanks you enthusiastically for the rescue. She can barely believe that she survived, and begs you to return her to her people that dwell at a nearby beacon, claiming that they will offer a reward.</text>
+		<text>Your opponent jettisons the slave towards you in a pod and jumps away. The former slave thanks you enthusiastically for the rescue. She can barely believe that she survived, and begs you to return her to her people that dwell at a nearby beacon, claiming that they will offer a reward.</text>
 		<ship hostile="false"/>
 		<quest event="FAMILY_RETURN_SLAVERY"/>
 	</event>
 	<event>
-		<text>You opponent jettisons the slave towards you in a pod and jumps away. The former slave politely thanks you for the rescue. He is determined to take vengeance on all slavers in the galaxy. You wish him good luck.</text>
+		<text>Your opponent jettisons the slave towards you in a pod and jumps away. The former slave politely thanks you for the rescue. He is determined to take vengeance on all slavers in the galaxy. You wish him good luck.</text>
 		<ship hostile="false"/>
 	</event>
 </eventList>
@@ -2484,7 +2484,7 @@
 
 <eventList name="CE_SLAVER_RELEASE_2">
 	<event>
-		<text>This individual has been saved from lifelong imprisonment and forced labor. After hearing about your mission, the former slave offers to join your cause anyway. He wants to thank you for his rescue.</text>
+		<text>This individual has been saved from lifelong imprisonment and forced labor. After hearing about your mission, the former slave offers to join your cause anyway. They want to thank you for their rescue.</text>
 		<ship hostile="false"/>
 		<choice>
 			<text>Are you sure? Welcome aboard then!</text>
@@ -2494,12 +2494,12 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Decline his request. This person deserves to be out of danger.</text>
+			<text>Decline their request. This person deserves to be out of danger.</text>
 			<event/>
 		</choice>
 	</event>
 	<event>
-		<text>It turns out the former slave was a Federation Ensign before he was captured. Technically, you are a senior officer to him and he has to submit to your command, regardless of what he has been through recently.</text>
+		<text>It turns out the former slave was a Federation Ensign before they were captured. Technically, you are their senior officer and they must to submit to your command, regardless of what they have been through recently.</text>
 		<ship hostile="false"/>
 		<choice>
 			<text>"I guess we can both be glad that we ran into each other. Await further orders Ensign. Dismissed."</text>
@@ -2536,7 +2536,7 @@
 
 <eventList name="CE_SLAVER_RELEASE_OLD">
 	<event>
-		<text>This individual has been saved from lifelong imprisonment and forced labor. After hearing about your mission, the former slave offers to join your cause anyway. He wants to thank you for his rescue.</text>
+		<text>This individual has been saved from lifelong imprisonment and forced labor. After hearing about your mission, the former slave offers to join your cause anyway. They want to thank you for their rescue.</text>
 		<ship hostile="false"/>
 		<choice>
 			<text>Are you sure? Welcome aboard then!</text>
@@ -2546,12 +2546,12 @@
 			</event>
 		</choice>
 		<choice>
-			<text>Decline his request. This person deserves to be out of danger.</text>
+			<text>Decline their request. This person deserves to be out of danger.</text>
 			<event/>
 		</choice>
 	</event>
 	<event>
-		<text>It turns out the former slave was a Federation Ensign before he was captured. Technically, you are a senior officer to him and he has to submit to your command, regardless of what he has been through recently.</text>
+		<text>It turns out the former slave was a Federation Ensign before they were captured. Technically, you are their senior officer and they must to submit to your command, regardless of what they have been through recently.</text>
 		<ship hostile="false"/>
 		<choice>
 			<text>"I guess we can both be glad that we ran into each other. Await further orders Ensign. Dismissed."</text>
@@ -2594,7 +2594,7 @@
 			<event load="CE_SLAVERY_RESULTS"/>
 		</choice>
 		<choice hidden="true"> 
-			<text>Change your mind, free the slave and drop him off at the next station.</text>
+			<text>Change your mind, free the slave and drop them off at the next station.</text>
 			<event load="CE_SLAVER_RELEASE_2"/>
 		</choice>
 		<choice req="CREW_STIMS" hidden="true"> 
@@ -2614,9 +2614,9 @@
 		<crewMember amount="1"/>
 	</event>
 	<event>
-		<text>Your actions are frowned upon by your crew. Still, your command is not questioned. The slave begs you to set him free. He claims that his family is of great wealth and will surely pay a ransom.</text>
+		<text>Your actions are frowned upon by your crew. Still, your command is not questioned. The slave begs you to set them free, claiming that their family is of great wealth and will surely pay a ransom.</text>
 		<choice hidden="true">
-			<text>Take him to his family at a nearby beacon.</text>
+			<text>Take them to their family at a nearby beacon.</text>
 			<event>
 				<text>You deem a compensation for the rescue necessary and set a course. Let's hope this will be worth it.</text>
 				<quest event="FAMILY_RETURN_SLAVERY_REVENGE"/>
@@ -2631,7 +2631,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The slave is unwilling to submit to his fate. He snatches a blaster from an inattentive crewmen and tries to fight his way to the shuttle bay.</text>
+		<text>The slave is unwilling to submit to their fate. They snatch a blaster from an inattentive crewman and try to fight their way to the shuttle bay.</text>
 		<boarders min="1" max="1" class="random"/>
 	</event>
 	<event>
@@ -2643,9 +2643,9 @@
 				<crewMember amount="1"/>
 	</event>
 	<event>
-		<text>Your actions are frowned upon by your crew. Still, your command is not questioned. The slave begs you to set him free. He claims that his family is of great wealth and will surely pay a ransom.</text>
+		<text>Your actions are frowned upon by your crew. Still, your command is not questioned. The slave begs you to set them free, claiming that their family is of great wealth and will surely pay a ransom.</text>
 		<choice hidden="true">
-			<text>Take him to his family at a nearby beacon.</text>
+			<text>Take them to their family at a nearby beacon.</text>
 			<event>
 				<text>You deem a compensation for the rescue necessary and set a course. Let's hope this will be worth it.</text>
 				<quest event="FAMILY_RETURN_SLAVERY_REVENGE"/>
@@ -2660,9 +2660,9 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your actions are frowned upon by your crew. Still, your command is not questioned. The slave begs you to set him free. He claims that his family is of great wealth and will surely pay a ransom.</text>
+		<text>Your actions are frowned upon by your crew. Still, your command is not questioned. The slave begs you to set them free, claiming that their family is of great wealth and will surely pay a ransom.</text>
 		<choice hidden="true">
-			<text>Take him to his family at a nearby beacon.</text>
+			<text>Take them to their family at a nearby beacon.</text>
 			<event>
 				<text>You deem a compensation for the rescue necessary and set a course. Let's hope this will be worth it.</text>
 				<quest event="FAMILY_RETURN_SLAVERY_REVENGE"/>
@@ -2692,22 +2692,22 @@
 		<text>One of your crew members sends a formal complaint over the comms, arguing that disregarding individuals personal freedom violates the Federation sentient rights charter. The crewman already deserted your ship via an escape pod.</text>
 		<removeCrew>
 			<clone>false</clone>
-			<text>Your clone bay obviously does not revive your crewmember since he did not die.</text>
+			<text>Your clone bay obviously does not revive your crewmember since they did not die.</text>
 		</removeCrew>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
-				<text>On the other hand you own a slave now and he can replace the deserter. You wonder if all this is really the right course of action.</text>
+				<text>On the other hand you own a slave now and they can replace the deserter. You wonder if all this is really the right course of action.</text>
 				<crewMember amount="1"/>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>One of your crew is outraged by your decission. The crewmen deserts your ship via a shuttle and takes the slave with him. "This is enough, Sir. I will take this person to safety and then... well, maybe the Rebels actually pursuit a worthy cause after all..." You try to chase the traitor, but an explosion erupts from the sensor room and you loose track of the shuttle. Sabotage!</text>
+		<text>One of your crew is outraged by your decission. The crewmen deserts your ship via a shuttle and takes the slave with them. "This is enough, Sir. I will take this person to safety and then... well, maybe the Rebels actually pursue a worthy cause after all..." You try to chase the traitor, but an explosion erupts from the sensor room and you loose track of the shuttle. Sabotage!</text>
 		<damage amount="1" system="sensors" effect="fire"/>
 		<removeCrew>
 			<clone>false</clone>
-			<text>Your clone bay obviously does not revive your crewmember since he did not die.</text>
+			<text>Your clone bay obviously does not revive your crewmember since they did not die.</text>
 		</removeCrew>
 	</event>
 </eventList>
@@ -2767,7 +2767,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2821,7 +2821,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2842,7 +2842,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You return the former slave, but it turns out that his family is only of modest means. They transfer a meager reward and only look at you only with despite upon learning what happened.</text>
+		<text>You return the former slave, but it turns out that their family is only of modest means. They transfer a meager reward and look at you only with spite upon learning what happened.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>	
 </eventList>
@@ -2909,7 +2909,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2941,7 +2941,7 @@
 </event>
 <eventList name="FRIENDLY_SLAVER_TELEPORTER">
 	<event>
-		<text>You beam a small team into their holds. They work quickly to free the slaves and teleport back to your ship. One of the captives is a recently enslaved Federation officer. You throw him a weapon in preparation for a fight.</text>
+		<text>You beam a small team into their holds. They work quickly to free the slaves and teleport back to your ship. One of the captives is a recently enslaved Federation officer. You throw them a weapon in preparation for the fight ahead.</text>
 		<crewMember amount="1"/>
 		<ship hostile="true"/>
 		<choice hidden="true">
@@ -2969,7 +2969,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3018,7 +3018,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3066,7 +3066,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3118,7 +3118,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3169,7 +3169,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3242,7 +3242,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3354,7 +3354,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3407,7 +3407,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3480,7 +3480,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3538,7 +3538,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3596,7 +3596,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3654,7 +3654,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3788,7 +3788,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3859,7 +3859,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3922,7 +3922,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3974,7 +3974,7 @@
 	<choice req="CE_AUGMENTS_PIRATE" hidden="true">
 		<text>(Pirate Ship) Use your contacts to the underworld to facilitate trading.</text>
 		<event>
-			<text>Your crewmen's personal contacts and your ships reputations open up some doors here. The trader reveals that he actually has access to a cargo teleporter and offers to quickly buy some of your hot goods.</text>
+			<text>Your crewman's personal contacts and your ship's reputation open up some doors here. The trader reveals that he actually has access to a cargo teleporter and offers to quickly buy some of your hot goods.</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event load="TE_STORE_OUTLAW_LIST_BOOSTED"/>
@@ -4090,7 +4090,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4138,7 +4138,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6075,7 +6075,7 @@ IDEAS
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6140,7 +6140,7 @@ IDEAS
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6299,7 +6299,7 @@ IDEAS
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6351,7 +6351,7 @@ IDEAS
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6404,7 +6404,7 @@ IDEAS
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6477,7 +6477,7 @@ IDEAS
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 

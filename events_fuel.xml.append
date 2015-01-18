@@ -111,7 +111,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -165,7 +165,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -209,7 +209,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1449,7 +1449,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1498,7 +1498,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1556,7 +1556,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1621,7 +1621,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1679,7 +1679,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1733,7 +1733,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1821,7 +1821,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1873,7 +1873,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1927,7 +1927,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1991,7 +1991,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2055,7 +2055,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2289,7 +2289,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2342,7 +2342,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2392,7 +2392,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2441,7 +2441,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2494,7 +2494,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2572,7 +2572,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2639,7 +2639,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2718,7 +2718,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2887,7 +2887,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 

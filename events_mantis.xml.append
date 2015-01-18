@@ -212,7 +212,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="6" hidden="true">
-		<text>(Advanced Engines) Override the engines security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
+		<text>(Advanced Engines) Override the engines' security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
 		<event>
 			<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 			<item_modify>
@@ -306,7 +306,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="4" hidden="true">
-				<text>(Improved Engines) Override the engines security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 					<item_modify>
@@ -651,11 +651,11 @@
 	<choice req="mind" hidden="true"> <!--DLC-->
 		<text>(Mind Control) Interrogate him.</text>
 		<event>
-			<text>Your mind control device allows you to quickly get his story without resistance. It appears the boarding party was attempting to steal an weapon that the Engi ship was transporting. However their team was wiped out by drones.</text>
+			<text>Your mind control device allows you to quickly get his story without resistance. It appears the boarding party was attempting to steal an weapon that the Engi ship was transporting. However, their team was wiped out by drones.</text>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
-					<text>You find the weapon in a hidden storage hold and decide to patch the ship up enough to let the mantis leave.</text>
+					<text>You find the weapon in a hidden storage hold and decide to patch the ship up enough to let the Mantis leave.</text>
 					<autoReward level="LOW">weapon</autoReward>
 				</event>
 			</choice>
@@ -712,7 +712,7 @@
 		<reveal_map/>
 	</event>
 	<event>
-		<text>After a short time alone with the commando, you are told he wishes to join the crew. Although you are surprised at the commando's willingness to swap allegiances, you trust your crew members' judgment about him.</text>
+		<text>After a short time alone with the commando, you are told he wishes to join the crew. Although you are surprised at the commando's willingness to swap allegiances, you trust your crew member's judgment about him.</text>
 		<crewMember amount="1" class="mantis"/>  
 		<autoReward level="MED">stuff</autoReward>
 	</event>
@@ -729,7 +729,7 @@
 	<choice hidden="true" req="clonebay">
 		<text>(Clonebay) Ask for volunteers.</text>
 		<event>
-			<text>One of your crewmen does not fear the trauma associated with death due to Mantis melee. He volunteers to go sparring and, after a few dozens of incarnations, actually gets a fighting chance against the champion. The Mantis quickly realize where you take all this identical crewmen from. "Well fought, although true warriors battle without being backed up. The thrill of combat is much greater then."</text>
+			<text>One of your crewmen does not fear the trauma associated with death due to Mantis melee. They volunteer to go sparring and, after a few dozens of incarnations, actually get a fighting chance against the champion. The Mantis quickly realize where you take all these identical crewmen from. "Well fought, although true warriors battle without being backed up. The thrill of combat is much greater then."</text>
 			<autoReward level="MED">standard</autoReward>
 		</event>
 	</choice>
@@ -740,14 +740,14 @@
 	<choice hidden="true" req="rock">
 		<text>(Rock Crew) Send your Rockman over.</text>
 		<event>
-			<text>The Mantis are amazed as their champion's claw glances off your Rock crewmember's stony skin. He finishes the Mantis with a powerful punch, and they teleport him back, saying "A mighty warrior indeed. The reward is yours."</text>
+			<text>The Mantis are amazed as their champion's claw glances off your Rock crewmember's stony skin. It finishes the Mantis with a powerful punch. They teleport your crewmember back saying, "A mighty warrior indeed. The reward is yours."</text>
 			<autoReward level="MED">standard</autoReward>
 		</event>
 	</choice>
 	<choice hidden="true" req="crystal">
 		<text>(Crystal Crew) Send your Crystal over.</text>
 				<event>
-			<text>he Mantis are amazed as their champion's claw glances off your Crystal crewmember's crystalline skin. He flings crystal left and right, and finally the champion fails to dodge one. They teleport him back, saying "We have never seen such a warrior. Please, take this."</text>
+			<text>The Mantis are amazed as their champion's claw glances off your Crystal crewmember's crystalline skin. It flings crystal left and right, and finally the champion fails to dodge one. They teleport your crewmember back saying, "We have never seen such a warrior. Please, take this."</text>
 			<autoReward level="MED">standard</autoReward>
 		</event>
 	</choice>
@@ -785,7 +785,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -809,52 +809,52 @@
 </event>
 <eventList name="CE_MANTIS_SPARRING_MANTIS">
 	<event>
-		<text>Your Mantis crewmember fights well, but is bested in the end. They teleport him back, saying "Your crewmen must be without pride, being your servent. But even for one of us, he fights well. You will be rewarded."</text>
+		<text>Your Mantis crewmember fights well, but is bested in the end. They teleport your crewmember back saying, "Your crewman must be without pride, being your servent. But even for one of us, they fight well. You will be rewarded."</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Your Mantis crewmember gets in a few solid hits, and manages to knock out the champion. They teleport him back, saying "It is only expected that one of us can defeat another, with some luck. Still, the reward is yours."</text>
+		<text>Your Mantis crewmember gets in a few solid hits, and manages to knock out the champion. They teleport your crewmember back saying, "It is only expected that one of us can defeat another, with some luck. Still, the reward is yours."</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 </eventList>
 <eventList name="CE_MANTIS_SPARRING_MEATBAG">
 	<event>
-		<text>Your crewmember fights well, but the Mantis are a warrior race. Even though they say this is sparring, a slice from the Mantis champion's claw nearly cuts your crewmember in half. They teleport him back, saying "You meatbags are far too squishy. That fight is hardly worth a pittance."</text>
+		<text>Your crewmember fights well, but the Mantis are a warrior race. Even though they say this is sparring, a slice from the Mantis champion's claw nearly cuts your crewmember in half. They teleport your crewmember back saying, "You meatbags are far too squishy. That fight is hardly worth a pittance."</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
-			<text>Try to stabilize your crewmen.</text>
+			<text>Try to stabilize your crewman.</text>
 			<event load="CE_MANTIS_SPARRING_STABILIZE"/>
 		</choice>
 		<choice hidden="true" req="medbay" lvl="2">
-			<text>(Improved Medbay) Put your crewmen into medical stasis.</text>
+			<text>(Improved Medbay) Put your crewman into medical stasis.</text>
 			<event>
 				<text>Your fast response and advanced medbay let you quickly patch up your crewmember. The Mantis champion laughs, and says "Impressive... usually, I can cut you meatbags in two. I suppose that was worth something."</text>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>Your crewmember fights well, but the Mantis are a warrior race. Even though they say this is sparring, a slice from the Mantis champion's claw nearly cuts your crewmember in half. They teleport him back, saying "You meatbags are far too squishy. That fight is hardly worth a pittance."</text>
+		<text>Your crewmember fights well, but the Mantis are a warrior race. Even though they say this is sparring, a slice from the Mantis champion's claw nearly cuts your crewmember in half. They teleport your crewmember back saying, "You meatbags are far too squishy. That fight is hardly worth a pittance."</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
-			<text>Try to stabilize your crewmen.</text>
+			<text>Try to stabilize your crewman.</text>
 			<event load="CE_MANTIS_SPARRING_STABILIZE"/>
 		</choice>
 		<choice hidden="true" req="medbay" lvl="2">
-			<text>(Improved Medbay) Put your crewmen into medical stasis.</text>
+			<text>(Improved Medbay) Put your crewman into medical stasis.</text>
 			<event>
 				<text>Your fast response and advanced medbay let you quickly patch up your crewmember. The Mantis champion laughs, and says "Impressive... usually, I can cut you meatbags in two. I suppose that was worth something."</text>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>Your crewmember fights well, but the Mantis are a warrior race. Even though they say this is sparring, a slice from the Mantis champion's claw nearly cuts your crewmember in half. They teleport him back, saying "You meatbags are far too squishy. That fight is hardly worth a pittance."</text>
+		<text>Your crewmember fights well, but the Mantis are a warrior race. Even though they say this is sparring, a slice from the Mantis champion's claw nearly cuts your crewmember in half. They teleport your crewmember back saying, "You meatbags are far too squishy. That fight is hardly worth a pittance."</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
-			<text>Try to stabilize your crewmen.</text>
+			<text>Try to stabilize your crewman.</text>
 			<event load="CE_MANTIS_SPARRING_STABILIZE"/>
 		</choice>
 		<choice hidden="true" req="medbay" lvl="2">
-			<text>(Improved Medbay) Put your crewmen into medical stasis.</text>
+			<text>(Improved Medbay) Put your crewman into medical stasis.</text>
 			<event>
 				<text>Your fast response and advanced medbay let you quickly patch up your crewmember. The Mantis champion laughs, and says "Impressive... usually, I can cut you meatbags in two. I suppose that was worth something."</text>
 			</event>
@@ -866,12 +866,12 @@
 		<choice>
 		<text>That offer could be vital to our survival. Let your crewmember go with the Mantis.</text>
 			<event>
-				<text>Your crewmen is not exactly at ease with this decision.</text>
+				<text>Your crewman is not exactly at ease with this decision.</text>
 				<autoReward level="HIGH">weapon</autoReward>
 			</event>
 		</choice>
 		<choice>
-		<text>Take your crewmen back.</text>
+		<text>Take your crewman back.</text>
 			<event>
 				<text>"It's a shame... Oh well, the prize is yours."</text>
 				<autoReward level="MED">standard</autoReward>
@@ -881,14 +881,14 @@
 </eventList>
 <eventList name="CE_MANTIS_SPARRING_STABILIZE">
 	<event>
-		<text>You try to stem the flow of blood, but your crewmember is just too heavily injured. The Mantis do offer something called a "triumphant trophy burial" for him, saying this has happened before. What a waste.</text>
+		<text>You try to stem the flow of blood, but your crewmember is just too heavily injured. The Mantis do offer something called a "triumphant trophy burial" for them, saying this has happened before. What a waste.</text>
 		<removeCrew>
 			<clone>true</clone>
-			<text>Your defeated crewmembers body is reconstructred in the clonbay. He askes to never be sent on such an assignment again.</text>
+			<text>Your defeated crewmembers body is reconstructred in the clonbay. They ask to never be sent on such an assignment again.</text>
 		</removeCrew>
 	</event>
 	<event>
-		<text>You manage to stem the flow of blood just in time, and your crew is saved! The Mantis champion laughs, and says "Impressive... usually, I can cut you meatbags in two. I suppose that was worth something."</text>
+		<text>You manage to stem the flow of blood just in time, and your crewmember is saved! The Mantis champion laughs, and says "Impressive... usually, I can cut you meatbags in two. I suppose that was worth something."</text>
 	</event>
 </eventList>
 
@@ -947,23 +947,23 @@
 		</item_modify>
 	</event>
 	<event>
-		<text>"I cannot forssee the future, Captain, but the blue Mantiss is suprisingly scared of the fight. Actually... ha, the fight isss fixed! The blue Mantiss sold itss live in order to earn money for itss clan." You make the bet and the fight starts. The blue Mantis puts seems to win, but suddenly drops his guard. Th one in red ends the fight with a single key swipe. You claim your winnings!</text>
+		<text>"I cannot forssee the future, Captain, but the blue Mantiss is suprisingly scared of the fight. Actually... ha, the fight isss fixed! The blue Mantiss sold itss life in order to earn money for itss clan." You make the bet and the fight starts. The blue Mantis puts up a fight, but suddenly drops his guard. The one in red ends the fight with a single key swipe. You claim your winnings!</text>
 		<item_modify>
 			<item type="scrap" min="100" max="100"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>"I cannot forssee the future, Captain, but the red Mantiss sssemss to posses far more self-control and experience." You make the bet and the fight starts. The blue Mantis seems assured to win, scoring numerous hits on his enemy.  However the one in red ends the fight with a single key swipe. You claim your winnings!</text>
+		<text>"I cannot forssee the future, Captain, but the red Mantiss sssemss to posses far more self-control and experience." You make the bet and the fight starts. The blue Mantis seems assured to win, scoring numerous hits on his enemy.  However, the one in red ends the fight with a single key swipe. You claim your winnings!</text>
 		<item_modify>
 			<item type="scrap" min="100" max="100"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>"I cannot forssee the future, Captain, but the blue Mantiss sssemss far more determined and viciouss." You make the bet. The fight starts and the blue Mantis seems assured to win, scoring numerous hits on his enemy.  However the one in red ends the fight with a single key swipe.</text>
+		<text>"I cannot forssee the future, Captain, but the blue Mantiss sssemss far more determined and viciouss." You make the bet. The fight starts and the blue Mantis seems assured to win, scoring numerous hits on his enemy.  However, the one in red ends the fight with a single lucky swipe.</text>
 		<choice hidden="true">
 			<text>Pay what you owe.</text>
 			<event>
-				<text>You transfer over the scrap that you bet and quit while you still have a ship to sail off in.</text>
+				<text>You transfer over the scrap that you bet and quit while you still have a ship to take off in.</text>
 			</event>
 		</choice>
 		<choice req="engines" lvl="4" hidden="true">
@@ -996,7 +996,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1050,7 +1050,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1075,13 +1075,13 @@
 </eventList>
 <eventList name="MANTIS_GAMBLE_BLUE">
 	<event>
-		<text>The one in blue gets pressed into a corner, but he lashes out at the last moment, decapitating his opponent.  You claim your winnings!</text>
+		<text>The Mantis in blue gets pressed into a corner, but he lashes out at the last moment, decapitating his opponent.  You claim your winnings!</text>
 		<item_modify>
 			<item type="scrap" min="100" max="100"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>The blue Mantis seems sure to win, scoring numerous hits on his enemy.  However the one in red ends the fight with a single key swipe.</text>
+		<text>The blue Mantis seems sure to win, scoring numerous hits on his enemy.  However, the one in red ends the fight with a single key swipe.</text>
 		<choice hidden="true">
 			<text>Pay what you owe.</text>
 			<event>
@@ -1118,7 +1118,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1143,7 +1143,7 @@
 </eventList>
 <eventList name="MANTIS_GAMBLE_RED">
 	<event>
-		<text>The blue Mantis seems sure to win, scoring numerous hits on his enemy.  However the one in red ends the fight with a single key swipe.   You claim your winnings!</text>
+		<text>The blue Mantis seems sure to win, scoring numerous hits on his enemy.  However, the one in red ends the fight with a single key swipe. You claim your winnings!</text>
 		<item_modify>
 			<item type="scrap" min="100" max="100"/>
 		</item_modify>
@@ -1159,7 +1159,7 @@
 		<choice req="engines" lvl="4" hidden="true">
 			<text>(Adv. Engines) Dodge the debt and power up the engines.</text>
 			<event>
-				<text>You recall the scrap you prepared to send and are able to get out of the cruiser's firing range before they can react.  However a smaller ship breaks off from a patrol and moves in to engage.</text>
+				<text>You recall the scrap you prepared to send and are able to get out of the cruiser's firing range before they can react.  However, a smaller ship breaks off from a patrol and moves in to engage.</text>
 				<item_modify>
 					<item type="scrap" min="50" max="50"/>
 				</item_modify>
@@ -1189,7 +1189,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1245,7 +1245,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1324,7 +1324,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1391,7 +1391,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1443,7 +1443,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1503,7 +1503,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1559,7 +1559,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1617,7 +1617,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1671,7 +1671,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1726,7 +1726,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1821,7 +1821,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your Slug concentrates for a second. "Interessting! I senss a human inssside." The slug shivers. "He iss in a deep sstate of sshock sssir. Maybe we sshould help him?" You free the human and sedate him immediately. A rare survivor of Mantis captivity.  Once he wakes up in the medbay, he offers to join your crew for a time.</text>
+		<text>Your Slug concentrates for a second. "Interessting! I senss a human inssside." The slug shivers. "They are in a deep sstate of sshock sssir. Maybe we sshould help them?" You free the human and sedate them immediately. A rare survivor of Mantis captivity.  Once they wake up in the medbay, they offer to join your crew for a time.</text>
 		<crewMember amount="1" class="human"/>
 	</event>
 </eventList>
@@ -1876,7 +1876,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1960,7 +1960,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2028,7 +2028,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2080,7 +2080,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2177,7 +2177,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2240,7 +2240,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2295,7 +2295,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2350,7 +2350,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
