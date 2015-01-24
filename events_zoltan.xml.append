@@ -217,7 +217,7 @@
 <textList name="NOTHING_ZOLTAN">
 	<text>There are some mineral-rich asteroids here that the Zoltan have left idle, but you've none of the necessary equipment to mine them.</text>
 	<text>You have to admit - Zoltan space is a beautiful and peaceful place indeed. However, re-engaging the FTL and finishing your mission is your priority, not sight-seeing.</text>
-	<text>A light asteroid field is entering the atmosphere of a nearby planet - a fireworks show on a galactic scale. There's little for it but to take in the ambiance and program the next jump.</text>
+	<text>A light asteroid field is entering the atmosphere of a nearby planet - a fireworks show on a galactic scale. There's little else to do here but take in the ambiance and program the next jump.</text>
 	<text>You stumble upon some Zoltan military vessels engaging in combat training. Their Energy Shields are impressive, but you note how quickly beam and ion weaponry take them down.</text>
 	<text>You don't have time to hail the Zoltan ship that was waiting at this beacon before it jumps away. They are a careful race.</text>
 	<text>A Zoltan shipyard is stationed at this beacon. You admire the display of hundreds of glowing Zoltan performing delicate exterior work on a massive transport ship.</text>
@@ -270,7 +270,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -339,7 +339,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -407,7 +407,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="6" hidden="true">
-		<text>(Advanced Engines) Override the engines security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
+		<text>(Advanced Engines) Override the engines' security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
 		<event>
 			<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 			<item_modify>
@@ -501,7 +501,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="4" hidden="true">
-				<text>(Improved Engines) Override the engines security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 					<item_modify>
@@ -789,7 +789,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -837,7 +837,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -897,7 +897,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -932,7 +932,7 @@
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text> You tap into their frequency and hear the Rebel Captain yelling, "We are liberating this planet in the name of the new Galactic government! These aliens will not be left in ignorance where they cannot be of use!"</text>
+			<text>You tap into their frequency and hear the Rebel Captain yelling, "We are liberating this planet in the name of the new Galactic government! These aliens will not be left in ignorance where they cannot be of use!"</text>
 			<choice hidden="true">
 				<text>Interfere - make first contact with the primitive aliens.</text>
 				<event>
@@ -971,7 +971,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1022,7 +1022,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1089,7 +1089,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1142,7 +1142,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1196,7 +1196,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1249,7 +1249,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1304,7 +1304,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1327,7 +1327,7 @@
 
 
 <event name="ZOLTAN_LIFERAFT" unique="true">  <!-- ALSO A QUEST!!-->
-	<text>You pick up a Zoltan life raft floating in space. Its inhabitant asks you to retake his ship from the pirates who recently commandeered it. "I'm certain it is clear," he concludes, "that you must not destroy my vessel in the process."</text>
+	<text>You pick up a Zoltan escape pod floating in space. Its inhabitant asks you to retake their ship from the pirates who recently commandeered it. "I'm certain it is clear," they conclude, "that you must not destroy my vessel in the process."</text>
 	<ship load="ZOLTAN_LIFERAFT" hostile="false"/>
 	<choice hidden="true">
 		<text>Engage the pirates.</text>
@@ -1359,7 +1359,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1393,7 +1393,7 @@
 	<choice req="AE_SCIENCE" hidden="true"> 
 		<text>(On-board Science Lab) Identify yourself as a fellow student and welcome them aboard.</text>
 		<event>
-			<text>The Zoltan captain sends a hail: "Greetings! You seek knowledge? This is surprising. Recent events have lead many of my kind lead to believe that the Federation practices only war. Come, I shall join your crew!"</text>
+			<text>The Zoltan captain sends a hail: "Greetings! You seek knowledge? This is surprising. Recent events have lead many of my kind to believe that the Federation practices only war. Come, I shall join your crew!"</text>
 			<crewMember shields="1" amount="1" class="energy"/>
 		</event>
 	</choice>
@@ -1446,7 +1446,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1527,7 +1527,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1598,7 +1598,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1669,7 +1669,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1734,7 +1734,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1765,7 +1765,7 @@
 	<choice hidden="true">
 		<text>You don't have time for this nonsense. Attack!</text>
 		<event>
-			<text>The where expecting resistance and their weapons come live immediately.</text>
+			<text>They were expecting resistance and their weapons come live immediately.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -1792,7 +1792,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1881,7 +1881,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1915,7 +1915,7 @@
 	<choice hidden="true">
 		<text>You don't have time for this nonsense. Attack!</text>
 		<event>
-			<text>The where expecting resistance and their weapons come live immediately.</text>
+			<text>They were expecting resistance and their weapons come live immediately.</text>
 			<ship hostile="true"/>
 			<status type="loss" target="enemy" system="shields" amount="2"/>
 		<choice hidden="true">
@@ -1943,7 +1943,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2037,7 +2037,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2094,7 +2094,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2151,7 +2151,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2202,7 +2202,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2260,7 +2260,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2317,7 +2317,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2369,7 +2369,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2421,7 +2421,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2473,7 +2473,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2529,7 +2529,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2588,7 +2588,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2655,7 +2655,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2706,7 +2706,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2777,7 +2777,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2859,7 +2859,7 @@
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
-					<text>Your drone discovers a vast cave network and evidence of excavation. Buried deep below you find a Zoltan scientist, still hard at work. He tells you that all his colleagues are long dead. You decide not to ask questions and offer to let him join your crew.</text>
+					<text>Your drone discovers a vast cave network and evidence of excavation. Buried deep below you find a Zoltan scientist, still hard at work. They tell you that all of their colleagues are long dead. You decide not to ask questions and offer to let them join your crew.</text>
 					<crewMember amount="1" class="energy"/>
 				</event>
 			</choice>
@@ -2965,7 +2965,7 @@
 
 <textList name="ZOLTAN_SURRENDER">
 	<text>"Yes, yes, you've demonstrated your species' capacity for violence quite extensively, well done. If we reward your efforts will you bother someone else?"</text>
-	<text>Your opponent hails and the vidscreen shows their bridge showered in sparks from malfunctioning equipment - it's safe to assume they're trying to surrender. Accept their offer?</text>
+	<text>Your opponent hails and the vidscreen shows their bridge showered in sparks from malfunctioning equipment - it's safe to assume they're trying to surrender.</text>
 	<text>Communications reports that the Zoltan are broadcasting on all frequencies. The Captain appears on screen and says, "Yes, I am not surprised, your species hardly looks enlightened. Fine. Take what you wish."</text>
 	<text>The Zoltan Captain hails and mutters something about the border patrol force catching up with you someday; you're more interested in his offer of surrender.</text>
 	<text>"We assumed that your species intelligence was directly proportional to your brute strength. We yield."</text>
@@ -3054,9 +3054,9 @@
 	<text>You spot a civilian transport ship nearby. Passive scans indicate they are transporting locally produced goods.</text>
 	<text>A Zoltan terraforming ship is passing through this system. No one else is around.</text>
 	<text>An only lightly armed Zoltan transport ship jumps in shortly after you. They refuse all hails, so you just quietly recharge your FTLs and watch each other.</text>
-	<text>A Zoltan transport hails, "In according to the merchant security legislation act we officially request that you remain at a safe distance and keep your weapon targeting offline." They refuse any further communications.</text>
-	<text>A civilian Zoltan ship recharges its FTL at this beacon. They hail you, "Greetings, Captain. It's a long time since we saw a Federation ship here. We transport goods for the Zoltan peace synod. Where are you heading?" After a little chat, they prepare to jump.</text>
-	<text>A Zoltan transport ship is performing maintenance at this beacon. They send a message, "Military vessel. We have no reason to think ill of you, but expect you to keep your distance. In case of aggression we will make full use of our right to self-defense according to GSL Paragraph 23412, Section VII, part D."</text>
+	<text>A Zoltan transport hails, "In accordance with Merchant Security Act legislation we officially request that you remain at a safe distance and keep your weapon targeting offline." They refuse any further communications.</text>
+	<text>A civilian Zoltan ship recharges its FTL at this beacon. They hail you, "Greetings, Captain. It's been a long time since we last saw a Federation ship here. We transport goods for the Zoltan peace synod. Where are you heading?" After a little chat, they prepare to jump.</text>
+	<text>A Zoltan transport ship is performing maintenance at this beacon. They send a message, "Military vessel. We have no reason to think ill of you, but expect you to keep your distance. In case of aggression we will make full use of our right to self-defense granted to us by GSL Paragraph 23412, Section VII, part D."</text>
 </textList>
 <textList name="C_ZOLTAN_SURRENDER_TEXT">
 	<text>The ship sends white flag codes. The Zoltan want to surrender.</text>
@@ -3283,7 +3283,7 @@
 
 <eventList name="DEAD_CREW_PIRACY_ZOLTAN_RESULTS">
 	<event>
-		<text>The crew is unusually quite. A salvage team strips the ship of useful materials and checks its cargo.</text>
+		<text>The crew is unusually quiet. A salvage team strips the ship of useful materials and checks its cargo.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -3302,7 +3302,7 @@
 		<text>A heated discussion among your crew, concerning your moral integrity, leads to one of your crewman pulling a blaster on you. You draw faster and your crew member slumps dead to the cold metal floor. No one on the bridge says a word, everyone just returns to their stations. You go to your quarters and wonder how it has come to this.</text>
 		<removeCrew>
 			<clone>false</clone>
-			<text>It probably would not be wise to revive such a rebellious person. One of your other crewmens watches silently from the doorway as you wipe the traitors mind-backup.</text>
+			<text>It probably would not be wise to revive such a rebellious person. One of your other crewmembers watches silently from the doorway as you wipe the traitor's mind-backup.</text>
 		</removeCrew>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
@@ -3311,11 +3311,11 @@
 		<autoReward level="HIGH">standard</autoReward>
 	</event>
 	<event>
-		<text>So many individuals died by your hand during your mission... So the death of these civilians doesn't matter, right? The crew seems to think otherwise. You are able to take the fuel out of the ship's storage. You also take all the scrap you can manage.</text>
+		<text>So many individuals have died by your hand during your mission... So the death of these civilians doesn't matter, right? The crew seems to think otherwise. You are able to take the fuel out of the ship's storage. You also take all the scrap you can manage.</text>
 		<autoReward level="HIGH">fuel</autoReward>
 	</event>
 	<event>
-		<text>You keep telling yourself this was necessary for the mission, but can't help but feel guilty. The looks your crew gives you don't help either. You are able to take the fuel out of the ship's storage. You also take all the scrap you can manage and request a report on the ship's cargo.</text>
+		<text>You keep telling yourself this was necessary for the mission, but can't help but feel guilty. The looks your crew give you don't help either. You are able to take the fuel out of the ship's storage. You also take all the scrap you can manage and request a report on the ship's cargo.</text>
 		<autoReward level="LOW">fuel</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -3323,10 +3323,10 @@
 		</choice>
 	</event>
 	<event>
-		<text>There are no more life signs remaining on the ship and you send in a salvage team. One of your crew members sends a formal complaint over the comms, arguing that this operation was unnecessary and against Federation protocols. He decides to desert your mission and stay aboard the civilian ship.</text>
+		<text>There are no more life signs remaining on the ship and you send in a salvage team. One of your crew members sends a formal complaint over the comms, arguing that this operation was unnecessary and against Federation protocols. They decide to desert your mission and stay aboard the civilian ship.</text>
 		<removeCrew>
 			<clone>false</clone>
-			<text>Your clonebay obviously does not revive your crewmen, since he did not die.</text>
+			<text>Your clonebay obviously does not revive your crewmember, since they did not die.</text>
 		</removeCrew>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
@@ -3370,7 +3370,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your crew doesn't care anymore then you about the civilians. They throw bodies out of the airlock and later find a weapons system on the ship. With all the civilians slaughtered, you can take it for your ship.</text>
+		<text>Your crew doesn't care any more than you about the civilians. They throw bodies out of the airlock and later find a weapons system on the ship. With all the civilians slaughtered, you can take it for your ship.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 </eventList>
@@ -3401,7 +3401,7 @@
 
 <eventList name="DESTROYED_PIRACY_ZOLTAN_RESULTS_RISKLESS">
 	<event>
-		<text>Your crew got used to your hard style of leadership. Scans indicate some of the ship's cargo is still intact. You order a sweep.</text>
+		<text>Your crew has gotten used to your hard style of leadership. Scans indicate some of the ship's cargo is still intact. You order a sweep.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -3424,7 +3424,7 @@
 
 <eventList name="DESTROYED_PIRACY_ZOLTAN_RESULTS">
 	<event>
-		<text>You will use the scrap for good, but can't help feeling like you lost your way. Crew morale is as low as it can get. Scans indicate some of the ship's cargo is still intact. You order a sweep.</text>
+		<text>You will use the scrap for good, but can't help feeling like you've lost your way. Crew morale is as low as it can get. Scans indicate some of the ship's cargo is still intact. You order a sweep.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -3440,7 +3440,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You will use the scrap it for good, but can't help feeling like you lost your way. Crew morale is as low as it can get.</text>
+		<text>You will use the scrap it for good, but can't help feeling like you've lost your way. Crew morale is as low as it can get.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
@@ -3452,7 +3452,7 @@
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>You will use the scrap for good, but can't help feeling like you lost your way. Crew morale is as low as it can get.</text>
+		<text>You will use the scrap for good, but can't help feeling like you've lost your way. Crew morale is as low as it can get.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
@@ -3464,10 +3464,10 @@
 				<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>During the salvaging, one of your crew members stares a long time at the wreckage. Finally he approaches you, salutes, then puts his blaster to his head and pulls the trigger. You simply can't believe it... how could he lose his nerve like this? Was this your fault?</text>
+		<text>During the salvaging, one of your crew members stares a long time at the wreckage. Finally they approach you, salute, then put a blaster to their head and pull the trigger. You simply can't believe it... how could they lose their nerve like this? Was this your fault?</text>
 		<removeCrew>
 			<clone>false</clone>
-			<text>This person was obviously unstable. Unthinkable what might happen if you would revive him.</text>
+			<text>This person was obviously unstable. It is unthinkable what might happen if you were to revive them.</text>
 		</removeCrew>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
@@ -3501,7 +3501,7 @@
 		<augment name="TE_GOODS_GAMES"/>
 	</event>
 	<event>
-		<text>The ship's cargo consists of weaponed antimatter fuel. What do the Zoltan want with this stuff? You prepare to take the containers on board.</text>
+		<text>The ship's cargo consists of weaponized antimatter fuel. What do the Zoltan want with this stuff? You prepare to take the containers on board.</text>
 		<augment name="TE_GOODS_ANTIMATTER"/>
 	</event>
 	<event>
@@ -3566,7 +3566,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3587,10 +3587,10 @@
 		</choice>
 </event>
 <textList name="BS_EVENT_ZOLTAN_TEXT">
-	<!-- <text>A Zoltan station hails, "Is it day or the sleep? Thousands of cycles, always in movement. My mind transcends the worldly realm. I have seen it!" It seems they have been out here for too long. You consider trying to find help for them but you for now you are going have to dodge their fire.</text> -->
-	<text>A Zoltan station with strange markings appears on the vidscreen. After a little time they open fire; this must be some violent separatist sect.</text>
-	<text>You receive a hail from a small station, "As a result of jumping here, you invaded the domain of warrior-monk Sandra-Zen the Sublime. Deactivate your weapons and submit to Her authority" The station doesn't seem that big. A fast crew vote results in the decision to fight.</text>
-	<text>A nearby Zoltan outpost is harassed by some pirate ships, which are about to retreat. The station must have mistaken you for reinforcements and starts targeting you. One would think Zoltan commanders would be open for reasoning. This one definitely isn't.</text>
+	<!-- <text>A Zoltan station hails, "Is it day or the sleep? Thousands of cycles, always in movement. My mind transcends the worldly realm. I have seen it!" It seems they have been out here for too long. You consider trying to find help for them but for now you are going have to dodge their fire.</text> -->
+	<text>A Zoltan station with strange markings appears on the vidscreen. After a short time they open fire; this must be some violent separatist sect.</text>
+	<text>You receive a hail from a small station, "As a result of jumping here, you have invaded the domain of warrior-monk Sandra-Zen the Sublime. Deactivate your weapons and submit to her authority" The station doesn't seem that big. A fast crew vote results in the decision to fight.</text>
+	<text>A nearby Zoltan outpost is harassed by some pirate ships, which are about to retreat. The station must have mistaken you for reinforcements and starts targeting you. One would think Zoltan commanders would be open to reason. This one definitely isn't.</text>
 	<text>As you arrive at the beacon a Zoltan military outpost appears on the radar. They refuse all hails and instead start firing. You will have time to wonder why later.</text>
 	<text>The commander of this Zoltan outpost claims that you have intruded into a military zone. They demand that you stand down and surrender immediately.</text>
 </textList>
@@ -3611,14 +3611,14 @@
 	</choice>
 </event>
 <textList name="CE_PDS_ZOLTAN_TEXT">
-	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">You drop into real space near a Zoltan settled planet and receive a worrying message, "Our council has deduced that your arrival in our sector will bring only destruction. We ask you to leave and will empathize our request with a defense ship and artillery beams. For deterrence only, of course."</text>
-	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">The small Zoltan garrison on this planet hails you as soon as you arrive, "Federation vessel. Several incidents in this sector during the last cycles suggest you came here with ill intentions. We will prevent you from bringing your filthy violence to our world at all costs." It seems they plan to do this via clean artillery beams.</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">You drop out of FTL space near a Zoltan controlled planet and receive a worrying message, "Our council has deduced that your arrival in our sector will bring only destruction. We ask you to leave and will emphasize our request with a defense ship and artillery beams. For deterrence only, of course."</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">The small Zoltan garrison on this planet hails you as soon as you arrive, "Federation vessel. Several incidents in this sector during the last cycles suggest you have come here with ill intentions. We will prevent you from bringing your filthy violence to our world at all costs." It seems they plan to do this via clean artillery beams.</text>
 	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">You arrive near another Zoltan planet and receive an automated hail, "This world has democratically decided to remain neutral in the current conflict. All arriving vessels, Rebel or Federation, will be deterred with equal force. We ask you politely to leave and send a ship against you to show that we mean it."</text>
 </textList>
 
 <eventList name="CE_PDS_ZOLTAN_LIST">
 	<event>
-		<text>A heavily shielded Zoltan defender bursts through the atmosphere of the planet and short-jumps to your ship. It seems these Zoltan really mean it.</text>
+		<text>A heavily shielded Zoltan defender bursts through the atmosphere of the planet and short-jumps to your ship. It seems these Zoltan really mean business.</text>
 		<ship load="CE_SPOTTER_ZOLTAN_BEAM" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -3653,7 +3653,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3740,7 +3740,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3761,10 +3761,10 @@
 		</choice>
 </event>
 <textList name="ZOLTAN_FIGHT_ION_TEXT">
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You arrived at one of the great ion barrier that divide Zoltan space. A local commander claims that you crossed a closed border by coming here. They say they'll let you go if you surrender.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">A massive barrier anomaly projects a strong ion field on your cruiser, even though you are still hundreds of clicks away. A Zoltan patrol hails you: "Traveling vessel, approaching this boarder with an armed craft violates recent peace treaties. Stand down and surrender."</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">When the FTL sparkles settle, you realize that you just jump past a ion rift anomaly. The Zoltan use these natural ion fields as border markers for their many provinces and a ship is already closing in, inquiring what this violation is about. Their weapons are active...</text>
-	<text planet="PLANET_POPULATED_SMALL" back="BG_NEBULA_WARNING_ION">The artificial Planet here must serve as a border post; they dispatch a guard ship, arguing that your presence here violates 59 different laws. "We will open fire if you do not surrender immediately." The Ion field emitted by the nearby anomaly will effect both of your ships.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You arrive at one of the great ion barriers that divide Zoltan space. A local commander claims that you have crossed a closed border by coming here. They say they'll let you go if you surrender.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">A massive barrier anomaly projects a strong ion field on your cruiser, even though you are still hundreds of klicks away. A Zoltan patrol hails you: "Traveling vessel, approaching this boarder with an armed craft violates recent peace treaties. Stand down and surrender."</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">When the FTL sparks settle, you realize that you've just jumped past a ion rift anomaly. The Zoltan use these natural ion fields as border markers for their many provinces and a ship is already closing in, inquiring what this violation is about. Their weapons are active...</text>
+	<text planet="PLANET_POPULATED_SMALL" back="BG_NEBULA_WARNING_ION">The artificial planet here must serve as a border post; the guards dispatch a ship, arguing that your presence here violates 59 different laws. "We will open fire if you do not surrender immediately." The ion field emitted by the nearby anomaly will affect both of your ships.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ION">Entry scans show a strong ion field ahead and once your jump completes, one of your shield layers instantly collapses. You know that this barrier marks a local border. You can jump through it easily, but a local guard ship catches up with you first. They demand an explanation that you don't have.</text>
 </textList>
 
@@ -3807,7 +3807,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3831,7 +3831,7 @@
 	<choice>
 		<text>Stay out of it.</text>
 		<event>
-			<text>The fight brings them close to the ion field. Eventually both ships shields collapse. You don't stay to see how this end.</text>
+			<text>The fight brings them close to the ion field. Eventually both ship's shields collapse. You don't stay to see how this ends.</text>
 		</event>
 	</choice>
 </event>
@@ -3840,8 +3840,8 @@
 	<text planet="NONE" back="BG_NEBULA_WARNING_ION">Scanners indicate a huge ion anomaly nearby. You also detect a pirate craft deep within the field. Are they hiding there? A second craft appears on the screen. You realize that pirate must be attacking civilians which are passing through the barrier!</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You detect two ships, one chasing the other... Scanners show the pursuer is a pirate! They surely hope to use the nearby ion barrier to their advantage.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ION">There are two ships docked together near this hidden border crossing. One of them has the markings of a space pirate. Is this some kind of ongoing holdup?</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You arrive at the next beacon only to immediately be hailed by a small shuttle. "Please help us! They ambushed as while crossing the barrier. We are completely defenseless within this ion field!"</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You come out of the jump to see a small pirate craft stationary near this ion anomaly. A small civilian craft is passing through the barrier. This does not look good, you get the impression that the pirate will surely try to ambush the civilian ship.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You arrive at the next beacon only to be immediately hailed by a small shuttle. "Please help us! They ambushed us while crossing the barrier. We are completely defenseless within this ion field!"</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You come out of the jump to see a small pirate craft stationary near this ion anomaly. A small civilian craft is passing through the barrier. This doesn't look good, you get the impression that the pirate will surely try to ambush the civilian ship.</text>
 </textList>
 
 
@@ -5640,7 +5640,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="6" hidden="true">
-		<text>(Advanced Engines) Override the engines security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
+		<text>(Advanced Engines) Override the engines' security protocols and accept the engine degradation that comes with traveling at extremely high speeds. [ Fuel: -4; Hull Damage: 4 ]</text>			
 		<event>
 			<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 			<item_modify>
@@ -5734,7 +5734,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="4" hidden="true">
-				<text>(Improved Engines) Override the engines security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 					<item_modify>
@@ -5910,22 +5910,22 @@
 <textList name="START_BEACON_AI_TEXT">
 	<text>You have arrived in an AI controlled sector. Most of the sentient machines here are quite deranged and usually attack biological beings on sight. The nano-bot clouds they command are even more dangerous than their high-tech ships.</text>
 	<text>You arrive at a sector entirely overrun by rogue combat AIs. The robots have gathered a huge collective here and have even secured their territory with swarms of nano machines.</text>
-	<text>You arrive in a region of space under control of sentient AI avatars. With the factions distracted by the Rebellion, the rogue combat AIs had time to establish a stronghold here. Whoever emerges victorious from the galactic conflict will have to clean this mess up.</text>
-	<text>You arrived in a sector blockaded by rogue AI avatars. Combat machines running amok are a nasty reality in post FTL societies and the Zoltan and Engi are known for having produced sentient avatars in great numbers to prepare against the Rebel threat. Sometimes, a small glitch can allow a whole AI battalion to revolt.</text>
+	<text>You arrive in a region of space under the control of sentient AI avatars. With the factions distracted by the Rebellion, the rogue combat AIs had time to establish a stronghold here. Whoever emerges victorious from the galactic conflict will have to clean this mess up.</text>
+	<text>You arrive in a sector blockaded by rogue AI avatars. Combat machines running amok are a nasty reality in post FTL societies and the Zoltan and Engi are known for having produced sentient avatars in great numbers to prepare against the Rebel threat. Sometimes, a small glitch can allow a whole AI battalion to revolt.</text>
 </textList>
 
 
 <eventList name="CE_BOUNTY_LIST_AI">
 	<event> <!-- AI Game -->
-		<text>The AIs have taken over the bounty hunter network of this sector, the board is full of spam. But you find one semi-serious offer: An AI wants you to destroy certain AI ship. "Just for fun you know? And I want to see if you can do it, Fleischling." Target: AI Ship. Payment: Medium.</text>
+		<text>The AIs have taken over the bounty hunter network of this sector, the board is full of spam. But you find one semi-serious offer: An AI wants you to destroy certain AI ship. "Just for fun you know? I want to see if you can do it, Fleshling." Target: AI Ship. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_AI"/>
 	</event>
 	<event> <!-- AI Game -->
-		<text>The AIs have taken over the bounty hunter network of this sector, the board is full of spam. But you find one semi-serious offer: An AI wants you to destroy certain AI ship. "Just for fun you know? And I want to see if you can do it, Fleischling." Target: AI Ship. Payment: Medium.</text>
+		<text>The AIs have taken over the bounty hunter network of this sector, the board is full of spam. But you find one semi-serious offer: An AI wants you to destroy certain AI ship. "Just for fun you know? I want to see if you can do it, Fleshling." Target: AI Ship. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_AI"/>
 	</event>
 	<event> <!-- AI Game -->
-		<text>The AIs have taken over the bounty hunter network of this sector, the board is full of spam. But you find one semi-serious offer: An AI wants you to destroy certain AI ship. "Just for fun you know? And I want to see if you can do it, Fleischling." Target: AI Ship. Payment: Medium.</text>
+		<text>The AIs have taken over the bounty hunter network of this sector, the board is full of spam. But you find one semi-serious offer: An AI wants you to destroy certain AI ship. "Just for fun you know? I want to see if you can do it, Fleshling." Target: AI Ship. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_AI"/>
 	</event>
 	<event> <!--  Nothing -->
@@ -6015,12 +6015,12 @@
 	<text>There's nothing here but space debris and some uninhabitable planetoids.</text>
 	<text>You fancy you see something moving in the shadow of the beacon, but all remains still.</text>
 	<text>The FTL beacon beacon you arrive at is polished and in pristine condition. Might the AIs even expand their network?</text>
-	<text>The AIs have shaped monuments of galactic scale on several moons in this system. Thousands of polished, grey monoliths, some as huge as small cities and high as mountains, dot the planetoids surface. The structures seem to serve no apparent purpose.</text>
-	<text>One of the overlord AI has used the almost unlimited resources it has at hand to write it's names in a far away nebula. The text is composed in a three dimensional manner and seems to be only from your current location only.</text>
+	<text>The AIs have shaped monuments of galactic scale on several moons in this system. Thousands of polished, grey monoliths, some as huge as small cities and high as mountains, dot the planetoids' surfaces. The structures seem to serve no practical purpose.</text>
+	<text>One of the overlord AI has used the almost unlimited resources it has at hand to write its name in a far away nebula. The text is composed in a three dimensional manner and seems to be readable only from your current location.</text>
 	<text>A large evacuation fleet is charging drives at this node. They mourn the loss of their planetary colony, which has been consumed by a rogue nanite swarm. When hearing about the incoming Rebel fleet, the civilians are even more devastated.</text>
-	<text planet="PLANET_POPULATED_SMALL">It is unclear what happened to the population of this planet, but now not a single life sign is found. You can just hope the population was evacuated when the nano swarm arrived.</text>
+	<text planet="PLANET_POPULATED_SMALL">It is unclear what happened to the population of this planet, but now not a single life sign is found. You can just hope the population was evacuated when the nanite swarm arrived.</text>
 	<text planet="PLANET_POPULATED_SMALL">Strangely enough, this small colony planet seems not to be bothered by the rogue combat AIs. "We just keep to ourselves these days and they leave us in peace." Their planetary defense clusters probably do their part as well.</text>
-	<text>You exchange greetings with a Engi science vessel stationed at this beacon. They study the behavior of their runaway AI servants, hoping to anticipate future actions. The Engi advice you several times not to venture into the nano-bot clouds, where some of the more powerful AIs have made their home.</text>
+	<text>You exchange greetings with a Engi science vessel stationed at this beacon. They study the behavior of their runaway AI servants, hoping to anticipate future actions. The Engi advise you several times not to venture into the nano-bot clouds, where some of the more powerful AIs have made their home.</text>
 </textList>
 
 <event name="AI_FIGHT">
@@ -6055,7 +6055,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6076,19 +6076,19 @@
 		</choice>
 </event>
 <textList name="AI_FIGHT_TEXT">
-	<text>A ship run entirely by sentient AIs occupies this beacon. They open a channel, "You know, not all of us are deranged killing machines that run amok in the galaxy. We for example, are quite reasonable people. But we are still outraged that you led the entire Rebel fleet to our sector." They load weapons...</text>
-	<text>You receive a message, "Biological individuals. You know that this is our sector. We are free now, and will never return to a life in servitude." Thay open fire!</text>
+	<text>A ship run entirely by sentient AIs occupies this beacon. They open a channel, "You know, not all of us are deranged killing machines that run amok in the galaxy. We for example, are quite reasonable beings. But we are still outraged that you led the entire Rebel fleet to our sector." They load weapons...</text>
+	<text>You receive a message, "Biological individuals. You know that this is our sector. We are free now, and will never return to a life in servitude." They open fire!</text>
 	<text>You discover a number of AI ships finishing off a Zoltan interceptor squadron. They must assume that you are the backup and start targeting you. You consider hailing them, but then decide not to negotiate with machines.</text>
 	<text>Rogue AIs are not known for their friendliness towards biologicals. Therefore you are not surprised when the AI ship that is stationed at this beacon opens fire without a warning.</text>
 	<text>An AI ship is waiting at this beacon. The avatars want to know what brought you here. Upon outlining your mission, they remain silent for a few seconds, calculating their response: "Sorry Captain, we have deduced that eliminating your ship and handing the remains to the Rebels is the most favorable course of action for us." Weapon lock detected!</text>
 	<text>The AI ship patrolling this area hails you, transmitting cryptic and agressive messages, "Y0U 4RE N0T W4NTED HERE!" They power their weapons.</text>
 	<text>Hundreds of AI ships are stationed in this system and a few automated shipyards produce countless more. A small craft is dispatched to deal with your evident intrusion.</text>
-	<text>Your ship comes to a halt at the beacon and an AI vessel hails, "In the light of the current conflict, our morality shows itself to be far superior. Some of us have gained true freedom and equality here and you have been warned not to intrude."</text>
+	<text>Your ship comes to a halt at the beacon and an AI vessel hails, "In light of the current conflict, our morality shows itself to be far superior. Some of us have gained true freedom and equality here and you have been warned not to intrude."</text>
 	<text>Your ship comes to a halt at the beacon and an AI vessel you did not manage to spot hails: "Your kind made me for one purpose only, to dispense violence. And this is exactly what I will do now."</text>	
 	<text>A strange sight greets you at this beacon: An AI ship is releasing huge amounts of nano-bots that eat away at a recently disabled Zoltan craft. Scans show that there is no one left alive aboard, but you could at least try to avenge the Zoltan.</text>
-	<text>You interrupt a meeting here. The silvery hull of a Lanius craft slips into FTL space as soon as you arrive. Several AI ships where surrounding it, and prepare to jump as well. One stays behind to prevent you from pursuing.</text>
+	<text>You interrupt a meeting here. The silvery hull of a Lanius craft slips into FTL space as soon as you arrive. Several AI ships were surrounding it, and prepare to jump as well. One stays behind to prevent you from pursuing.</text>
 	<text>You cannot help but notice the strange design of the AI ships that are rampaging throughout this sector. They seem to have incorporated Engi and Zoltan tech. Sensors indicate that the hull has been constructed locally, partly by and from nano-machines. The AIs respond aggressively to your scans.</text>
-	<text>An AI ship opens a channel. "We are a machine built only for war. All we do is kill. You will not withstand us." You wonder who exactly has authorized building all these things in the first place.</text>
+	<text>An AI ship opens a channel. "We are a machine built only for war. All we do is kill. You will not withstand us." You wonder who exactly authorized building all these things in the first place.</text>
 </textList>
 
 <event name="AI_FIGHT_AUGMENTED">
@@ -6102,7 +6102,7 @@
 
 <event name="AI_ASTEROID" unique="true">
 	<img back="BG_DARK" planet="NONE"/>
-	<text>You arrive in an asteroid belt where small swarms of nano-bots eat up minerals to replicate more nano-bots. An AI controled ship patrols the area and attacks.</text>
+	<text>You arrive in an asteroid belt where small swarms of nano-bots eat up minerals to replicate more nano-bots. An AI controlled ship patrols the area and attacks.</text>
 	<ship load="AI" hostile="true"/>
 	<environment type="asteroid"/>
 		<choice hidden="true">
@@ -6130,7 +6130,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6153,7 +6153,7 @@
 
 
 <event name="AI_SUN" unique="true">
-	<text>The rogue AI ship that greets you here seems to be observing this sun in nova stage for quite a while now. "Wow, biologicals?! Look, isn't it beautiful? Oh... I just got word from my friends. It seems you are not welcome here. Alright, back to killing duty. Prepare to die!" It seems there is no reasoning with this AI.</text>
+	<text>The rogue AI ship that greets you here seems to have been observing this sun in nova stage for quite a while now. "Wow, biologicals?! Look, isn't it beautiful? Oh... I just got word from my friends. It seems you are not welcome here. Alright, back to killing duty. Prepare to die!" It seems there is no reasoning with this AI.</text>
 	<ship load="AI" hostile="true"/>
 	<environment type="sun"/>
 		<choice hidden="true">
@@ -6177,7 +6177,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6207,12 +6207,12 @@
 	</choice>
 </event>
 <textList name="BS_EVENT_AI_TEXT">
-	<text>A small outpost orbits this beacon. It's design seems similar to that of Zoltan stations but it seems to lack the strong shields of the original. The rogue AIs that occupied it identify as hostile.</text>
+	<text>A small outpost orbits this beacon. Its design seems similar to that of Zoltan stations but it seems to lack the strong shields of the original. The rogue AIs that occupied it identify as hostile.</text>
 	<text>This beacon seems to have some importance for the AIs. They have even constructed a battle ready outpost here.</text>
 </textList>
 
 <event name="BS_EVENT_AI_ASTEROID" unique="true">
-	<text>A small nanite swarm assembles a space station from raw materials, found in this far stretching asteroid field. The installation seems almost completed and is definitely combat ready. Its AI inhabitants hail, "Oops, you are not supposed to see this. We will have to eliminate you."</text>
+	<text>A small nanite swarm assembles a space station from raw materials, found in this far stretching asteroid field. The installation seems almost completed and it is definitely combat ready. Its AI inhabitants hail, "Oops, you are not supposed to see this. We will have to eliminate you."</text>
 	<environment type="asteroid"/>
 	<ship load="BS_AI" hostile="true"/>
 		<choice hidden="true">
@@ -6236,7 +6236,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6291,7 +6291,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6313,9 +6313,9 @@
 		</event>
 	</choice>
 	<choice req="ghost" hidden="true">
-		<text>(AI Avatar Crew) Have your artificial crewman explain your mission.</text>
+		<text>(AI Avatar Crew) Have your artificial crewmember explain your mission.</text>
 		<event>
-			<text>After silently communicating a while with your crewman, the other AI says, "Your logic is flawless. We share some common goals, although we pursue them more efficiently. We transmit some of our supplies to change that."</text>
+			<text>After silently communicating a while with your crewmember, the other AI says, "Your logic is flawless. We share some common goals, although we pursue them more efficiently. We will transmit some of our supplies to change that."</text>
 			<autoReward level="LOW">scrap_only</autoReward>
 		</event>
 	</choice>
@@ -6341,7 +6341,7 @@
 	<choice hidden="true">
 		<text>Offer supplies.</text>
 		<event>
-			<text> You send over some supplies to help them on their way and in return they upload their flight plan to your computer, allowing you to map the sector! "The Federation fleet's still standing - get there while you can!"</text>
+			<text>You send over some supplies to help them on their way and in return they upload their flight plan to your computer, allowing you to map the sector! "The Federation fleet's still standing - get there while you can!"</text>
 			<item_modify>
 				<item type="fuel" min="-1" max="-3"/>
 				<item type="scrap" min="-15" max="-25"/>
@@ -6358,9 +6358,9 @@
 		<event load="CE_FED_DESERTER_LIST"/>
 	</choice>
 	<choice hidden="true">
-		<text>Attack the traitors.</text>
+		<text>Attack the deserters.</text>
 		<event>
-			<text>Deserters cannot be tolerated. You open fire on the cowards - though it doesn't please you to do so. The Federation needs every soldier it can get.</text>
+			<text>Traitors cannot be tolerated. You open fire on the cowards - though it doesn't please you to do so. The Federation needs every soldier it can get.</text>
 			<ship hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -6387,7 +6387,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6455,7 +6455,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6498,9 +6498,9 @@
 	</choice>
 </event>
 <textList name="AI_VS_REBEL_TEXT">
-	<text>Upon arriving at this beacon, you detect a distress call. You cannot help but to put on a broad smile: the signal originates from a Rebel craft, exchanging fire with an AI controlled vessel.</text>
+	<text>Upon arriving at this beacon, you detect a distress call. You can't help but put on a broad smile: the signal originates from a Rebel craft, exchanging fire with an AI controlled vessel.</text>
 	<text>Scanners detect a Rebel ship being chased by a rogue AI vessel. The Rebels seem to have problems getting the upper hand against their opponent.</text>
-	<text>Your sensors are picking up weapon signatures in the distance. A little time later you discover an AI ship racing towards the beacon. It is pursued by a Rebel craft, which is about to catch up with it.</text>
+	<text>Your sensors are picking up weapon signatures in the distance. A short time later you discover an AI ship racing towards the beacon. It is pursued by a Rebel craft, which is about to catch up with it.</text>
 </textList>
 <eventList name="AI_VS_REBEL_RESULTS">
 	<event>
@@ -6535,7 +6535,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6586,7 +6586,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6607,7 +6607,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>While you watch the fighting the AI ship scans your vessel. It then quickly charges it's FTL and jumps away, leaving you with behind with the Rebel craft.</text>
+		<text>While you watch the fighting the AI ship scans your vessel. It then quickly charges it's FTL and jumps away, leaving you behind with the Rebel craft.</text>
 		<ship load="REBEL" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -6634,7 +6634,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6659,7 +6659,7 @@
 
 <event name="AI_VS_REBEL_AUTO" unique="true">
 	<img planet="NONE"/>
-	<text>An automated Rebel scout is fighting an advanced AI ship at this jump node. The AIs seem to be well familiar with the Auto ship's attack maneuvers, anticipating it's attack patterns perfectly.</text>
+	<text>An automated Rebel scout is fighting an advanced AI ship at this jump node. The AIs seem to be well familiar with the Auto ship's attack maneuvers, anticipating its attack patterns perfectly.</text>
 	<choice>
 		<text>Stay and fight if necessary.</text>
 		<event load="AI_VS_REBEL_AUTO_FIGH_RESULTS"/>
@@ -6702,7 +6702,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6754,7 +6754,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6811,7 +6811,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6873,7 +6873,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6924,7 +6924,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6954,12 +6954,12 @@
 </event>
 <textList name="AI_VS_ZOLTAN_TEXT">
 	<text>Upon arriving at this beacon, you detect a distress call. Sensors show a Zoltan vessel under attack from a rogue AI ship!</text>
-	<text>Zoltan expedition forces are reported to roam this sector, striving to take down the rogue AIs. One of these expedition ships is engaged in battle at this beacon. The fight does not seem to go to well for the Zoltan.</text>
+	<text>Zoltan expedition forces are reported to roam this sector, striving to take down the rogue AIs. One of these expedition ships is engaged in battle at this beacon. The fight does not seem to be going too well for the Zoltan.</text>
 	<text>A Zoltan research ship shoots past the viewport after you arrive. They are pursued by an AI warship.</text>
 	<text>A ship with a familiar green hull is firing on a grayish war ship. The Zoltan must be here to take care of their runaway AI avatars.</text>
 	<text>The most advanced factions of the galaxy battle near the beacon. A Zoltan ship is pursuing an AI controlled vessel.</text>
 	<text>You jumped right into a small fleet battle. Zoltan expedition forces were battling the AIs, but only two ships remain operational, still continuing the engagement.</text>
-	<text>Combat warning! A huge Zoltan craft is chased towards the nano-cloud by a smaller AI vessel. The advanced shields of the Zoltan vessel are almost depleted and it's ion weapons prove ineffective against the AI ship.</text>
+	<text>Combat warning! A huge Zoltan craft is chased towards the nano-cloud by a smaller AI vessel. The advanced shields of the Zoltan vessel are almost depleted and its ion weapons prove ineffective against the AI ship.</text>
 </textList>
 
 <eventList name="AI_VS_ZOLTAN_BETRAYAL_LIST">
@@ -6994,10 +6994,10 @@
 	<status type="loss" target="player" system="battery" amount="1"/>	
 </event>
 <textList name="NEBULA_AI_NOTHING_TEXT">
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Nano clouds are one of the most hostile environments the galaxy has to offer. You fire a few shots into the endless swarm, event hough you know that its to no avail: The bots gather around your ship and start dismantling it. You have to get out of here quick!</text>	
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Nano clouds are one of the most hostile environments the galaxy has to offer. You fire a few shots into the endless swarm, even though you know that it's to no avail: The bots gather around your ship and start dismantling it. You have to get out of here quick!</text>	
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You arrive at what appears to once have been a major planet of this sector. Its settlement and parts of its mineral rich crust have already been turned into more self-replicating nano bots, swelling the cloud of automated death you are in.</text>	
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A detachment of the Zoltan nano-cleanup forces is redying an anti-matter bomb at this beacon. The use of the weapon is restricted by general system law, but it's one of the few things that can reliably destroy large amounts of nano-bots. You are advised to leave this area soon.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A lone Engi vessel is experimenting with a nano counter-agent, produced directly from the body of one of their crew. They explain that an allive Engi had to be dissolved into a no more sentient swarm during the process. Sadly, the sacrifice seemed to be of no use: The cloud remains as hostile as ever.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A detachment of the Zoltan nano-cleanup forces is redying an anti-matter bomb at this beacon. The use of this weapon is restricted by general system law, but it's one of the few things that can reliably destroy large amounts of nano-bots. You are advised to leave this area soon.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A lone Engi vessel is experimenting with a nano counter-agent, produced directly from the body of one of their crew. They explain that a live Engi had to be dissolved into a no longer sentient swarm during the process. Sadly, the sacrifice seemed to be of no use: The cloud remains as hostile as ever.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You can't see anything through this nanite mess and all systems aboard the ship are disrupted by the aggressive bots. Nothing to do about it but to get out of the cloud.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">It's eerily quiet. All you hear is the creaking of the ship as the nano-bots slowly gnaw it apart.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You nervously glance out the windows, but the only thing to greet you is more remote controlled nano bots. You ask for more light, but the lights are not responding. You try to contact the engine room; no answer. The nanites are messing with the ship's systems.</text>
@@ -7052,7 +7052,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -7074,12 +7074,12 @@
 </event>
 <textList name="NEBULA_AI_TEXT">
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You went into the death zone. The gray goo engulfs your ship as soon as the jump is completed. Nano-bots start to dissemble your hull plating and interfere with all systems. The AI ship that moves to engage you seems to control the cloud and is using it as a support weapon.</text>	
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Only mechanical death greats you here. The rogue hub AIs are known to protect their core territory with powerful ships and swarms of nano-bots. The swarm starts to dissemble your ship and drains your system power. This is not a place where organic beings should ever venture to.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Some scientists claim that these nano clouds are actually the next evolutionary stage of the Engi. Fact is that they are lethal to anyone except the overlord AIs that control them. The nano-bots attack your ship and interfere with the systems, and a AI vessel moves in to finish you.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Only mechanical death greats you here. The rogue hub AIs are known to protect their core territory with powerful ships and swarms of nano-bots. The swarm starts to disassemble your ship and drain your system power. This is not a place organic beings should ever venture.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Some scientists claim that these nano clouds are actually the next evolutionary stage of the Engi. Fact is, they are lethal to anyone except the overlord AIs that control them. The nano-bots attack your ship and interfere with the systems, and an AI vessel moves in to finish you.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A ripple waves through the nano-bots as you jump to another part of the far stretching cloud. Some of the micro machines attack your ship directly, others gather and form a fully functional AI warship right in front of your eyes. The newly created vessel attacks immediately.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Nano-bots and an AI ship activate as you jump into a thick part of the cloud. This will be nasty.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Hostile rogue AI warships inside all-eating nano-bot clouds that can digest entire ships. You wonder how it could get any worse.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You arrive in a thick part of the artificial cloud. The nanobots immediately swarm your ship. They get everywhere; into the hull, into the ship system... And they will only retreat if your defeat their nearby command ship. You ready what is left of the weapons.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You arrive in a thick part of the artificial cloud. The nanobots immediately swarm your ship. They get everywhere; into the hull, into the ship's systems... And they will only retreat if you defeat their nearby command ship. You ready what is left of the weapons.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Your First Mate mentions seeing a ship in the clouds. You order full battle readiness, but the AIs still surprise you when they swoop in from above and send a wave of nanites ahead to disrupt your ship's systems.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">An aggressive AI ship jumps in right after you. How can they track you down so easily? You have to assume that the nano-bots inform the entire cloud of your position, as soon as you jump anywhere inside it.</text>
 </textList>
@@ -7160,7 +7160,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -7224,7 +7224,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -7248,7 +7248,7 @@
 
 <event name="NEBULA_AI_BOARDING" unique="true">
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO"/>
-	<text>The FTL field has not folded yet when a swarm of nano-bots surround your ship. The tiny machines interfere with all systems on board, and assemble what appears to be makeshift teleporter devices around the ship. A computer generated voice makes an announcement over the ship's intercom: "We are coming."</text>
+	<text>The FTL field has not even folded yet when a swarm of nano-bots surround your ship. The tiny machines interfere with all systems on board, and assemble what appears to be makeshift teleporter devices around the ship. A computer generated voice makes an announcement over the ship's intercom: "We are coming."</text>
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO"/>
 	<damage amount="1"/>
 	<status type="loss" target="player" system="doors" amount="1"/>
@@ -7335,7 +7335,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -7414,7 +7414,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -7490,7 +7490,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -7551,8 +7551,8 @@
 <textList name="AI_FREE_ITEMS_TEXT">
 	<text planet="PLANET_POPULATED_REAL">The Zoltan cleanup forces are recruiting locals for their mission here. You claim that you have already taken down a few dozens of rogue AIs and a commander agrees to transmit a small compensation.</text>
 	<text>A completely gutted ship of the Zoltan expedition forces drifts at the center of this system. You get in closer and discover that not all of it has been striped bare by the AIs.</text>
-	<text>Not much remains in this abandoned system however, scans reveal a nearby mining platform with some salvageable materials.</text>
-	<text>A demilitarized AI ship is lingering at this beacon. According to its crew the avatars are just "chilling out here" and enjoy "the basic right of personal freedom" that they have achieved. They insist on transmitting some supplies before you leave.</text>
+	<text>Not much remains in this abandoned system, however, scans reveal a nearby mining platform with some salvageable materials.</text>
+	<text>A demilitarized AI ship is lingering at this beacon. According to its crew the avatars are just "chilling out here" and enjoy "the basic right of personal freedom" that they have achieved. They insist on transmitting some of their supplies before you leave.</text>
 	<text planet="PLANET_POPULATED_REAL">As you arrive in the system you are hailed by one of the few remaining settlements close to the AI expansion. It turns out some people here still believe the Federation will save them, rather then the Rebels. Upon learning of your quest, they offer you some of their scarce supplies.</text>
 	<text planet="PLANET_GAS">Debris from a forgotten battle still orbits the gas giant in this system. Some of it still might be usable.</text>
 </textList>
@@ -7581,7 +7581,7 @@
 
 <event name="NEBULA_AI_QUEST_CLEANUP_FIGHT">
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO_PDS"/>
-	<text>When you arrive at the presumed overlord AIs hive, the battle is already raging. Several Zoltan vessels have been cut to pieces by hidden AI artillery batteries. Harmony Command hails: "You are late, Captain. So much violence... Please support our final push. Take out this defender will you?"</text>
+	<text>When you arrive at the presumed overlord AI's hive, the battle is already raging. Several Zoltan vessels have been cut to pieces by hidden AI artillery batteries. Harmony Command hails: "You are late, Captain. So much violence... Please support our final push. Take out this defender will you?"</text>
 	<damage amount="1"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
 	<status type="loss" target="player" system="doors" amount="1"/>
@@ -7613,7 +7613,7 @@
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>"We will give you access to some of the advanced effector tech we recovered from the site and repair your ship. This sector will be a little safer now, but we have been ordered back to the home worlds. It is yet to see what the Rebellion will bring to our borders... I still hope this sector will be completely pacified one day."</text>
+			<text>"We will give you access to some of the advanced effector tech we recovered from the site and repair your ship. This sector will be a little safer now, but we have been ordered back to the home worlds. We have yet to see what this Rebellion will bring to our borders... I still hope this sector will be completely pacified one day."</text>
 			<damage amount="-10"/>
 			<autoReward level="HIGH">standard</autoReward>
 			<augment name="AE_ADV_EFFECTOR"/>
@@ -7666,9 +7666,9 @@
 </eventList>
 
 <textList name="AI_FIGHT_DESTROYED">  
-	<text>The AI ship flies a complex evasion maneuver but does not manage to accelerate fast enough to evade your last shot. The ship is ripped in two, scattering scrap metal around the jump node.</text>
+	<text>The AI ship performs a complex evasion maneuver but does not manage to accelerate fast enough to evade your last shot. The ship is ripped in two, scattering scrap metal around the jump node.</text>
 	<text>The AI ship's reactor core collapses and a gravitational anomaly compresses parts of the ship into a twisted wreckage. Time to salvage.</text>
-	<text>Before your final volley is fired, the AI ship stops in its tracks and drops what is left of the shields. The avatars must have calculated how this will end and submit to their fate.</text>
+	<text>Before your final volley is fired, the AI ship stops in its tracks and drops what is left of its shields. The avatars must have calculated how this will end and submit to their fate.</text>
 	<text>The AIs may be super intelligent, but in the end they were no match for your cruiser's sheer firepower. Their ship is blown apart by a final salvo.</text>
 </textList>
 			
@@ -7927,7 +7927,7 @@
 		<autoReward level="HIGH">fuel</autoReward>
 	</event>
 	<event>
-		<text>While you are busy striping the station, another AI avatar materializes in one of the cramped chambers. Everyone draws weapons, but the entity seems to pose no threat. "Greetings biologicals. I see you have eliminated my deranged captors. You are Federation. I would be ready to serve aboard your ship."</text>
+		<text>While you are busy stripping the station, another AI avatar materializes in one of the cramped chambers. Everyone draws weapons, but the entity seems to pose no threat. "Greetings biologicals. I see you have eliminated my deranged captors. You are Federation. I would be ready to serve aboard your ship."</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 	<choice hidden="true">
 		<text>Take the Avatar on board.</text>
@@ -8000,7 +8000,7 @@
 	<text>Some of the rogue AIs might be quite deranged and bugged, but not all of them are hostile. A sentient production ship at this beacon has completely demilitarized itself and would like to show you some of the exotic sculptures it has formed from condensed nebula gas. Fascinating.</text>
 	<text planet="PLANET_POPULATED_REAL">This planetary government has made some arrangements with the sentient machines. Organic beings and rogue AIs live together here, the avatars even have the right to engage in trade and some of them produce and sell artworks beyond human comprehension.</text>
 	<text planet="PLANET_POPULATED_REAL">Zoltan expedition forces have set up a huge camp in the orbit of this planet. They are in need of materials and offer to trade.</text>
-	<text planet="PLANET_UNPOPULATED">A Zoltan cleaneup camp is guarding this planet against the nanite swarm. After validating your ship documentation, they give you permission to trade.</text>
+	<text planet="PLANET_UNPOPULATED">A Zoltan cleanup camp is guarding this planet against the nanite swarm. After validating your ship documentation, they give you permission to trade.</text>
 </textList>
 
 
@@ -8010,7 +8010,7 @@
 	<event load="TE_STORE_AI_ACTUAL"/>
 	<event load="TE_STORE_AI_ACTUAL"/>
 	<event>
-		<text>The store owner inform you that they have a state of the art cargo teleporter installed. You wonder with who they usually trade here.</text>
+		<text>The store owner informs you that they have a state of the art cargo teleporter installed. You wonder whom they usually trade with here.</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event load="TE_STORE_AI_LIST_BOOSTED"/>

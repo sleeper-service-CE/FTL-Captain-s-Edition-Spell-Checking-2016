@@ -280,7 +280,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -346,7 +346,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -412,7 +412,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -567,7 +567,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="6" hidden="true">
-		<text>(Advanced Engines) Override the engines security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
+		<text>(Advanced Engines) Override the engines' security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
 		<event>
 			<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 			<item_modify>
@@ -661,7 +661,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="4" hidden="true">
-				<text>(Improved Engines) Override the engines security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 					<item_modify>
@@ -947,7 +947,7 @@
 </textList>
 
 <event name="SLUG_FIGHT" unique="true">
-	<text>It's rare for the Slugs to stay exposed in open space for long periods - the ship here may be lost, or just passing through, but either way he moves in to attack!</text>
+	<text>It's rare for the Slugs to stay exposed in open space for long periods - the ship here may be lost, or just passing through, but either way it moves in to attack!</text>
 	<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -978,7 +978,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1031,7 +1031,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1084,7 +1084,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1133,7 +1133,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1200,7 +1200,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1267,7 +1267,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1331,7 +1331,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1402,7 +1402,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1497,7 +1497,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1565,7 +1565,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1614,7 +1614,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1668,7 +1668,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1723,7 +1723,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1780,7 +1780,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1844,7 +1844,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1911,7 +1911,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1962,7 +1962,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2018,7 +2018,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2071,7 +2071,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2131,7 +2131,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2186,7 +2186,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2237,7 +2237,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2293,7 +2293,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2347,7 +2347,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2400,7 +2400,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2462,7 +2462,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2523,7 +2523,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2580,7 +2580,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2647,7 +2647,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2681,7 +2681,7 @@
 		<store/>
 	</event>
 	<event>
-		<text>Your crewman is able to identify a heavy anesthetic contained in the flask when he feels slightly drowsy (the Rock digestion system is very robust). His ruse discovered, the Slug immediately returns to his ship and opens fire.</text>
+		<text>Your crewman is able to identify a heavy anesthetic contained in the flask when they feel slightly drowsy (Thankfully the Rock digestion system is very robust). His ruse discovered, the Slug immediately returns to his ship and opens fire.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -2712,7 +2712,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2771,7 +2771,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2826,7 +2826,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2881,7 +2881,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2937,7 +2937,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -2965,7 +2965,7 @@
 
 	
 <event name="SLUG_DISTRESS_PILOTING" unique="true"> <!-- changed to engines-->
-	<text>The distress signal originates from a tampered jump beacon. A Slug vessel jumps in and announces he has hacked your engine system. "Of course if you, asss one of the few remaining sshipsss in the Federation, ssswear allegiance to the SSSlug Empire you will be free to go."</text>
+	<text>The distress signal originates from a tampered jump beacon. A Slug vessel jumps in and its captain announces he has hacked your engine system. "Of course if you, asss one of the few remaining sshipsss in the Federation, ssswear allegiance to the SSSlug Empire you will be free to go."</text>
 	<environment type="nebula"/>
 	<status type="limit" target="player" system="engines" amount="1"/>
 	<ship load="JELLY_STATUS_ENGINES" hostile="false"/>
@@ -3007,7 +3007,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3063,7 +3063,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3123,7 +3123,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3176,7 +3176,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3229,7 +3229,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3289,7 +3289,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3313,7 +3313,7 @@
 </event>
 
 <event name="NEBULA_SLUG_DOORS" unique="true">  <!-- NEEDS CODE TO GIVE FIRE WEAPONS-->
-	<text>There are few more vicious beasts in the galaxy than a Slug with his back to the wall. The faltering ship at this beacon disables your door system and then charges fire-weapons - they're going to burn you out!</text>
+	<text>There are few more vicious beasts in the galaxy than a Slug with their back to the wall. The faltering ship at this beacon disables your door system and then charges fire-weapons - they're going to burn you out!</text>
 		<environment type="nebula"/>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -3350,7 +3350,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3405,7 +3405,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3467,7 +3467,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3523,7 +3523,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3578,7 +3578,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3686,7 +3686,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3714,7 +3714,7 @@
 	<text>You find a busy Slug trade station hidden in this part of the nebula. They agree to let you dock and offer some services</text>
 	<text>A Slug station hails you shortly after you arrive, "Come travelerss, see our waress!"</text>
 	<text>As you jump in the crew already expects another Slug hacker trying to set your ship on fire. You are glad to just find a slimy Slug trade-post instead. They even offer their services to you. </text>
-	<text>This area of the nebula seems devoid of life, but as your charge your FTL a Slug station suddenly de-cloaks a few clicks behind you. They hail and explain that they are a trade-post open for buisness.</text>
+	<text>This area of the nebula seems devoid of life, but as your charge your FTL a Slug station suddenly de-cloaks a few klicks behind you. They hail and explain that they are a trade-post open for buisness.</text>
 </textList>
 <eventList name="BS_EVENT_SLUG_BLACKMARKET_NEBULA_TRADE">
 	<event>
@@ -3759,7 +3759,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3830,7 +3830,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3911,7 +3911,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -3962,7 +3962,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4018,7 +4018,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4069,7 +4069,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4125,7 +4125,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4176,7 +4176,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4232,7 +4232,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4283,7 +4283,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4309,12 +4309,12 @@
 
 
 <event name="NEBULA_SLUG_HOSTAGE" unique="true">
-	<text>You detect a weak brainwave emitter nearby. One of your crew members walks to a console to check it out, but then decides to broadcast his personal teleporter ID into open space?!</text>
+	<text>You detect a weak brainwave emitter nearby. One of your crew members walks to a console to check it out, but then decides to broadcast their personal teleporter ID into open space?!</text>
 	<environment type="nebula"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
 		<text>(Teleporter Disruptor) This is an kidnapping attempt - We need teleporter disruption right away!</text>
 		<event>
-			<text>Your crewmen already starts to dematerialize, but the disruption field prevents him from being teleported away altogether. A Slug ship emerges near the source of the mind control signal. With their initial plans frustrated, the Slugs decide to engage in direct combat.</text>
+			<text>Your crewman has already started to dematerialize, but the disruption field prevents them from being teleported away altogether. A Slug ship emerges near the source of the mind control signal. With their initial plans frustrated, the Slugs decide to engage in direct combat.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -4345,7 +4345,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4369,7 +4369,7 @@
 	<choice req="AE_FIREWALL" hidden="true"> 
 		<text>(Advanced Plating) This is an kidnapping attempt - We need control-protection right away!</text>
 		<event>
-			<text>The rest of the bridge-personal jumps at your crewmen, preventing him from sending the last ID sequence. Once the plating is polarized, the crewmen stops resisting. A Slug ship emerges near the source of the mind control signal. With their initial plans frustrated, the Slugs decide to engage in direct combat.</text>
+			<text>The rest of the bridge-personel jumps at your crewman, preventing them from sending their last ID sequence. Once the plating is polarized, the crewmen stops resisting. A Slug ship emerges near the source of the mind control signal. With their initial plans frustrated, the Slugs decide to engage in direct combat.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -4400,7 +4400,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4424,11 +4424,11 @@
 	<choice>
 		<text>Continue...</text>
 		<event>
-			<text>Your crewmember is teleporter away the same instant and a Slug ship reveals itself nearby: "Greetingss. Asss you can ssee we have controlled and kidnapped your crewman. You will have to pay a ranssom if you want to get him back alive." Your crewmen desperately looks at you from the vidscreen, being hold at gunpoint by an extra slimy Slug. "Don't compromise the mission, Sir. Do what has to be done!"</text>
+			<text>Your crewmember is teleporter away the same instant and a Slug ship reveals itself nearby: "Greetingss. Asss you can ssee we have controlled and kidnapped your crewman. You will have to pay a ranssom if you want to get them back alive." Your crewman desperately looks at you from the vidscreen, being held at gunpoint by an extra slimy Slug. "Don't compromise the mission, Sir. Do what has to be done!"</text>
 			<choice hidden="true">
 				<text>Pay. [ Scrap: -30 ]</text>
 				<event>
-					<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewmen back. The team member is visibly shaken, but mostly unharmed.</text>
+					<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are visibly shaken up, but mostly unharmed.</text>
 					<item_modify>
 						<item type="scrap" min="-30" max="-30"/>
 					</item_modify>
@@ -4466,7 +4466,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4500,7 +4500,7 @@
 			<choice hidden="true">
 				<text>Attack.</text>
 				<event>
-					<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You sssealed your crewmanss fate." The Slugs puts a blaster to your crewmens head, making you watch as it pulls the trigger.</text>
+					<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs puts a blaster to your crewmens head, making you watch as it pulls the trigger.</text>
 					<removeCrew>
 						<clone>true</clone>
 						<text>"Oh... a clonebay? We did not forsssee that. Well then, undersstand thiss asss a preview of what will happen to all of you in a ssecond." The Slugs engage your ship.</text>
@@ -4535,7 +4535,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4562,7 +4562,7 @@
 
 <eventList name="NEBULA_SLUG_HOSTAGE_NEGOTIATE">
 	<event>
-		<text>The Slugs refuse to negotiate. Your crewmen gets beaten and shock-prodded several times. "We are tired of this, you should have payed, but now you sealed your crewmans fate." The Slugs puts a blaster to your crewmens head, making you watch as it pulls the trigger. Filled by rage, you move in to attack.</text>
+		<text>The Slugs refuse to negotiate. Your crewman gets beaten and shock-prodded several times. "We are tired of this, you should have payed, but now you've sealed your friend'ss fate." The Slugs puts a blaster to your crewman's head, making you watch as it pulls the trigger. Filled by rage, you move in to attack.</text>
 		<removeCrew>
 			<clone>true</clone>
 			<text>"Oh... a clonebay? We did not forsssee that. Well then, undersstand thiss asss a preview of what will happen to all of you in a ssecond."</text>
@@ -4597,7 +4597,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4619,11 +4619,11 @@
 
 	</event>
 	<event>
-		<text>The Slugs agree to lower the ransom after some tense talking. Your crewmen gets beaten and shock-prodded several times. "Alright, you got your discount, now pay up or we lay waste to your crewman right here on the spot."</text>
+		<text>The Slugs agree to lower the ransom after some tense discussion. Your crewman gets beaten and shock-prodded several times. "Alright, you got your discount, now pay up or we lay waste to your crewman right here on the spot."</text>
 		<choice hidden="true">
 			<text>Pay. [ Scrap: -15 ]</text>
 			<event>
-				<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewmen back. The team member is visibly shaken, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and jump away immediately.</text>
+				<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are visibly shaken up, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
 				</item_modify>
@@ -4632,21 +4632,21 @@
 		<choice hidden="true"> 
 			<text>Negotiate.</text>
 			<event>
-				<text>The Slugs are no longer willing to listen. "You don't ssseem to undersstand the concept of a hosstage ssituation." One Slug draws a modified shock blaster and shoots your crewmen in the leg, causing him to break down screaming. "Your time iss running out!"</text>
+				<text>The Slugs are no longer willing to listen. "You don't ssseem to undersstand the concept of a hosstage ssituation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
 				<choice hidden="true">
 					<text>Pay. [ Scrap: -15 ]</text>
 					<event>
-						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewmen back. The team member is badly wounded and needs medical attention. The Slugs had enough time to charge their FTL during the negotiations and jump away immediately.</text>
+						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
 						</item_modify>
 						<choice>
 							<text>Perform first aid.</text>
 							<event>
-								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewmen. The person succumbs to its wounds.</text>
+								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewman. They eventually succumb to their wounds.</text>
 								<removeCrew>
 									<clone>true</clone>
-									<text>The crewmate's clone is already ready. The clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed up to get me released, only to let me bleed to death? What the hell, Cap?"</text>
+									<text>The crewmember's clone is already ready. The clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed up to get me released, only to let me bleed to death? What the hell, Cap?"</text>
 								</removeCrew>
 							</event>
 						</choice>
@@ -4661,10 +4661,10 @@
 				<choice hidden="true">
 					<text>Attack.</text>
 					<event>
-						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You sssealed your crewmanss fate." The Slugs had enough time to charge their FTL during the negotiations and jump away immediately, taking your crewmen with them.</text>
+						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>You crewmen is gone and will likely be sold into slavery, should he at all survive. The clonebay won't bring him back.</text>
+							<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -4673,21 +4673,21 @@
 		<choice hidden="true" req="weapons" lvl="5"> 
 			<text>(Weapons) Threaten.</text>
 			<event>
-				<text>The Slugs remain unimpressed. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewmen in the leg, causing him to break down screaming. "Your time iss running out!"</text>
+				<text>The Slugs remain unimpressed. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
 				<choice hidden="true">
 					<text>Pay. [ Scrap: -15 ]</text>
 					<event>
-						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewmen back. The team member is visibly shaken, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and jump away immediately.</text>
+						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
 						</item_modify>
 						<choice>
 							<text>Perform first aid.</text>
 							<event>
-								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewmen. The person succumbs to its wounds.</text>
+								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewman. They eventually succumb to their wounds.</text>
 								<removeCrew>
 									<clone>true</clone>
-									<text>The crewmate's clone is already ready, but the clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed the ransome to get me released, only to let me bleed to death? What the hell, Cap?"</text>
+									<text>The crewmember's clone is already ready, but the clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed the ransom to get me released, only to let me bleed to death? What the hell, Cap?"</text>
 								</removeCrew>
 							</event>
 						</choice>
@@ -4702,10 +4702,10 @@
 				<choice hidden="true">
 					<text>Attack.</text>
 					<event>
-						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You sssealed your crewmanss fate." The Slugs had enough time to charge their FTL during the negotiations and jump away immediately, taking your crewmen with them.</text>
+						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>You crewmen is gone and will likely be sold into slavery, should he at all survive. The clonebay won't bring him back.</text>
+							<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -4714,20 +4714,20 @@
 		<choice hidden="true">
 			<text>Attack.</text>
 			<event>
-				<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You sssealed your crewmanss fate." The Slugs had enough time to charge their FTL during the negotiations and jump away immediately, taking your crewmen with them.</text>
+				<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 				<removeCrew>
 					<clone>false</clone>
-					<text>You crewmen is gone and will likely be sold into slavery, should he at all survive. The clonebay won't bring him back.</text>
+					<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
 				</removeCrew>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>The Slugs agree to lower the ransom after some tense talking. Your crewmen gets beaten and shock-prodded several times. "Alright, you got your dissscount, now pay up or we lay wasste to your crewman right here on the sspot."</text>
+		<text>The Slugs agree to lower the ransom after some tense discussion. Your crewman gets beaten and shock-prodded several times. "Alright, you got your dissscount, now pay up or we lay wasste to your crewman right here on the sspot."</text>
 		<choice hidden="true">
 			<text>Pay. [ Scrap: -15 ]</text>
 			<event>
-				<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewmen back. The team member is visibly shaken, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and jump away immediately.</text>
+				<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are visibly shaken up, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
 				</item_modify>
@@ -4736,11 +4736,11 @@
 		<choice hidden="true"> 
 			<text>Negotiate.</text>
 			<event>
-				<text>The Slugs are no longer willing to listen. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewmen in the leg, causing him to break down screaming. "Your time is running out!"</text>
+				<text>The Slugs are no longer willing to listen. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time is running out!"</text>
 				<choice hidden="true">
 					<text>Pay. [ Scrap: -15 ]</text>
 					<event>
-						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewmen back. The team member is badly wounded and needs medical attention. The Slugs had enough time to charge their FTL during the negotiations and jump away immediately.</text>
+						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and jump away immediately.</text>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
 						</item_modify>
@@ -4750,7 +4750,7 @@
 								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewmen. The person succumbs to its wounds.</text>
 								<removeCrew>
 									<clone>true</clone>
-									<text>The crewmate's clone is already ready. The clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed up to get me released, only to let me bleed to death? What the hell, Cap?"</text>
+									<text>The crewmember's clone is already ready. The clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed up to get me released, only to let me bleed to death? What the hell, Cap?"</text>
 								</removeCrew>
 							</event>
 						</choice>
@@ -4765,10 +4765,10 @@
 				<choice hidden="true">
 					<text>Attack.</text>
 					<event>
-						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You sssealed your crewmanss fate." The Slugs had enough time to charge their FTL during the negotiations and jump away immediately, taking your crewmen with them.</text>
+						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>You crewmen is gone and will likely be sold into slavery, should he at all survive. The clonebay won't bring him back.</text>
+							<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -4777,7 +4777,7 @@
 		<choice hidden="true" req="weapons" lvl="5"> 
 			<text>(Weapons) Threaten.</text>
 			<event>
-				<text>The Slugs remain unimpressed. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewmen in the leg, causing him to break down screaming. "Your time iss running out!"</text>
+				<text>The Slugs remain unimpressed. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
 				<choice hidden="true">
 					<text>Pay. [ Scrap: -15 ]</text>
 					<event>
@@ -4790,10 +4790,10 @@
 				<choice hidden="true">
 					<text>Attack.</text>
 					<event>
-						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You sssealed your crewmanss fate." The Slugs had enough time to charge their FTL during the negotiations and jump away immediately, taking your crewmen with them.</text>
+						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and jump away immediately, taking your crewman with them.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>You crewmen is gone and will likely be sold into slavery, should he at all survive. The clonebay won't bring him back.</text>
+							<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -4802,16 +4802,16 @@
 		<choice hidden="true">
 			<text>Attack.</text>
 			<event>
-				<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You sssealed your crewmanss fate." The Slugs had enough time to charge their FTL during the negotiations and jump away immediately, taking your crewmen with them.</text>
+				<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 				<removeCrew>
 					<clone>false</clone>
-					<text>You crewmen is gone and will likely be sold into slavery, should he at all survive. The clonebay won't bring him back.</text>
+					<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
 				</removeCrew>
 			</event>
 		</choice>
 	</event>
 	<event>
-		<text>The Slugs agree to lower the ransom after some tense talking. Your crewmen gets beaten and shock-prodded several times, but suddenly leashes out to grab a blaster, guns down one of the Slug and runs for the ships teleporters. "I got this Cap, but you have to cover my escape. Strike now!" You engage the Slug craft to distract it's crew and your crewman manages to teleport back in one piece.</text>
+		<text>The Slugs agree to lower the ransom after some tense discussion. Your crewman gets beaten and shock-prodded several times, but suddenly lashes out to grab a blaster, guns down one of the Slug and runs for the ship's teleporters. "I got this Cap, but you have to cover my escape. Strike now!" You engage the Slug craft to distract its crew and your crewman manages to teleport back in one piece.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -4838,7 +4838,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent him from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4864,11 +4864,11 @@
 
 <eventList name="NEBULA_SLUG_HOSTAGE_THREATEN">
 	<event>
-		<text>The Slugs agree that you could probably overpower them in direct combat. "But that won't sssave your crewman." They casually beat and tase him as a reminder. "We are no animalss though and there iss no need for more violence. You got your disscount, now pay up or we lay wasste to your crewman right here on the sspot."</text>
+		<text>The Slugs agree that you could probably overpower them in direct combat. "But that won't sssave your friend." They casually beat and tase your crewman as a reminder. "We are not animalss though and there iss no need for more violence. You got your disscount, now pay up or we lay wasste to your crewman right here on the sspot."</text>
 		<choice hidden="true">
 			<text>Pay. [ Scrap: -15 ]</text>
 			<event>
-				<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewmen back. The team member is visibly shaken, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and jump away immediately.</text>
+				<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are visibly shaken up, but mostly unharmed. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 				<item_modify>
 					<item type="scrap" min="-15" max="-15"/>
 				</item_modify>
@@ -4877,21 +4877,21 @@
 		<choice hidden="true"> 
 			<text>Negotiate.</text>
 			<event>
-				<text>The Slugs are no longer willing to listen. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewmen in the leg, causing him to break down screaming. "Your time iss running out!"</text>
+				<text>The Slugs are no longer willing to listen. "You don't seem to understand the concept of a hostage situation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
 				<choice hidden="true">
 					<text>Pay. [ Scrap: -15 ]</text>
 					<event>
-						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewmen back. The team member is badly wounded and needs medical attention. The Slugs had enough time to charge their FTL during the negotiations and jump away immediately.</text>
+						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
 						</item_modify>
 						<choice>
 							<text>Perform first aid.</text>
 							<event>
-								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewmen. The person succumbs to its wounds.</text>
+								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewman. They eventually succumb to their wounds.</text>
 								<removeCrew>
 									<clone>true</clone>
-									<text>The crewmate's clone is already ready. The clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed up to get me released, only to let me bleed to death? What the hell, Cap?"</text>
+									<text>The crewmember's clone is already ready. The clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed up to get me released, only to let me bleed to death? What the hell, Cap?"</text>
 								</removeCrew>
 							</event>
 						</choice>
@@ -4906,10 +4906,10 @@
 				<choice hidden="true">
 					<text>Attack.</text>
 					<event>
-						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You sssealed your crewmanss fate." The Slugs had enough time to charge their FTL during the negotiations and jump away immediately, taking your crewmen with them.</text>
+						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>You crewmen is gone and will likely be sold into slavery, should he at all survive. The clonebay won't bring him back.</text>
+							<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -4918,21 +4918,21 @@
 		<choice hidden="true" req="weapons" lvl="5"> 
 			<text>(Weapons) Threaten.</text>
 			<event>
-				<text>The Slugs remain unimpressed. "You don't ssseem to undersstand the concept of a hosstage ssituation." One Slug draws a modified shock blaster and shoots your crewmen in the leg, causing him to break down screaming. "Your time iss running out!"</text>
+				<text>The Slugs remain unimpressed. "You don't ssseem to undersstand the concept of a hosstage ssituation." One Slug draws a modified shock blaster and shoots your crewman in the leg, causing them to break down screaming. "Your time iss running out!"</text>
 				<choice hidden="true">
 					<text>Pay. [ Scrap: -15 ]</text>
 					<event>
-						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewmen back. The team member is badly wounded and needs medical attention. The Slugs had enough time to charge their FTL during the negotiations and jump away immediately.</text>
+						<text>"We are content that a fruitful agreement could be reached, hehe." They take the scrap and teleport your crewman back. They are badly wounded and need urgent medical attention. The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately.</text>
 						<item_modify>
 							<item type="scrap" min="-15" max="-15"/>
 						</item_modify>
 						<choice>
 							<text>Perform first aid.</text>
 							<event>
-								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewmen. The person succumbs to it's wounds.</text>
+								<text>Your efforts are fruitless, the Slug blaster inflicted critical tissue damage on your crewman. They eventually succumb to their wounds.</text>
 								<removeCrew>
 									<clone>true</clone>
-									<text>The crewmate's clone is already ready. The clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed the ransome to get me released, only to let me bleed to death? What the hell, Cap?"</text>
+									<text>The crewmember's clone is already ready. The clone has trouble coming to terms with what happened here. "So you escalated the hostage situation, got me shot, then payed the ransome to get me released, only to let me bleed to death? What the hell, Cap?"</text>
 								</removeCrew>
 							</event>
 						</choice>
@@ -4947,10 +4947,10 @@
 				<choice hidden="true">
 					<text>Attack.</text>
 					<event>
-						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You sssealed your crewmanss fate." The Slugs had enough time to charge their FTL during the negotiations and jump away immediately, taking your crewmen with them.</text>
+						<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 						<removeCrew>
 							<clone>false</clone>
-							<text>You crewmen is gone and will likely be sold into slavery, should he at all survive. The clonebay won't bring him back.</text>
+							<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
 						</removeCrew>
 					</event>
 				</choice>
@@ -4959,10 +4959,10 @@
 		<choice hidden="true">
 			<text>Attack.</text>
 			<event>
-				<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You sssealed your crewmanss fate." The Slugs had enough time to charge their FTL during the negotiations and jump away immediately, taking your crewmen with them.</text>
+				<text>The Slugs easily detect the power increase in your weapons. "Thisss wass a mistake. You've sssealed your friend'ss fate." The Slugs had enough time to charge their FTL during the negotiations and they jump away immediately, taking your crewman with them.</text>
 				<removeCrew>
 					<clone>false</clone>
-					<text>You crewmen is gone and will likely be sold into slavery, should he at all survive. The clonebay won't bring him back.</text>
+					<text>Your crewman is gone and will likely be sold into slavery, should they survive at all. The clonebay won't be able to bring them back.</text>
 				</removeCrew>
 			</event>
 		</choice>

@@ -837,11 +837,11 @@
 			<event>
 				<text>The Zoltan looks deeply dissatisfied with your aiming and demands to be dropped off at your earliest convenience.</text>
 				<choice>
-					<text>Let him go.</text>
+					<text>Let them go.</text>
 					<event/>
 				</choice>
 				<choice hidden="true">
-					<text>Offer to hire him for 40 scrap.</text>
+					<text>Offer to hire them for 40 scrap.</text>
 					<event load="ZOLTAN_LIFERAFT_HIRE"/>
 				</choice>
 			</event>
@@ -1002,7 +1002,7 @@
 	<surrender  chance="0.2" min="2" max="4">
 		<text>We surrender! Take one of our slaves as tribute; if you destroy us they'll all die anyway!</text>
 		<choice hidden="true">
-			<text>Accept their offer, free the slave and drop him off at the next station.</text>
+			<text>Accept their offer, free the slave and drop them off at the next station.</text>
 			<event load="CE_SLAVER_RELEASE"/>
 		</choice>
 		<choice hidden="true">
@@ -2125,7 +2125,7 @@
 
 <ship name="BS_FED_SCIENCE" auto_blueprint="BS_STATIONS_FED_SCIENCE">
 	<destroyed>
-		<text>Your weapons hit a critical section and the science station's supplies combust, incinerating the whole installation in chemical fires that are visible for many clicks. You scrap what little remains of it. Scanners indicate some drone tech was on board but it is useless now.</text>
+		<text>Your weapons hit a critical section and the science station's supplies combust, incinerating the whole installation in chemical fires that are visible for many klicks. You scrap what little remains of it. Scanners indicate some drone tech was on board but it is useless now.</text>
 		<autoReward level="LOW">standard</autoReward>
 	</destroyed>
 	<deadCrew>
@@ -3453,11 +3453,11 @@
 		<text>The patrol craft jumps away and the traitor escapes with it.</text>
 	</gotaway>
 	<destroyed>
-		<text>The ship breaks apart; you move in to salvage what remains usable. Your ex-crewman surely died with his Rebel friends.</text>
+		<text>The ship breaks apart; you move in to salvage what remains usable. Your ex-crewman surely died with their Rebel friends.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
-		<text>The patrol craft goes quiet. You send in a salvage crew and let them strip the ship of anything useful. They find the traitor among his dead Rebel friends, still breathing. "I'm sorry, Captain." The once loyal crewmen coughs and passes out.</text>
+		<text>The patrol craft goes quiet. You send in a salvage crew and let them strip the ship of anything useful. They find the traitor among their dead Rebel friends, still breathing. "I'm sorry, Captain." The once loyal crewman coughs and passes out.</text>
 		<autoReward level="HIGH">standard</autoReward>
 	</deadCrew>
 </ship>
@@ -5383,7 +5383,7 @@
 					</event>
 				</choice>
 				<choice>
-					<text>Decline his request.</text>
+					<text>Decline their request.</text>
 					<event/>
 				</choice>
 			</event>
@@ -5410,7 +5410,7 @@
 					</event>
 				</choice>
 				<choice>
-					<text>Decline his request.</text>
+					<text>Decline their request.</text>
 					<event/>
 				</choice>
 			</event>
@@ -5437,7 +5437,7 @@
 					</event>
 				</choice>
 				<choice>
-					<text>Decline his request.</text>
+					<text>Decline their request.</text>
 					<event/>
 				</choice>
 			</event>
@@ -5505,7 +5505,7 @@
 			<event>
 				<ship hostile="false"/>
 				<autoReward level="HIGH">weapon</autoReward>
-			<text>The transfer a generous ammount of scrap and a ship weapon. "Very well. Now scat little you, I had enough of this."</text>
+			<text>She transfers a generous amount of scrap and a ship weapon. "Very well. Now scat you ship rat, I've had enough of this."</text>
 			<choice>
 				<text>Honor your truce and let the enemy leave.</text>
 				<event/>
@@ -5567,7 +5567,7 @@
 			<event>
 				<ship hostile="false"/>
 				<autoReward level="MED">standard</autoReward>
-			<text>Your objective was to eliminate this pirate lord, but you allow him to buy himself out of this. The transfer a generous amount of supplies.</text>
+			<text>Your objective was to eliminate this pirate lord, but you allow him to buy himself out of this. He transfers a generous amount of supplies.</text>
 			<choice>
 				<text>Honor your truce and let the enemy leave.</text>
 				<event/>
@@ -5627,7 +5627,7 @@
 			<event>
 				<ship hostile="false"/>
 				<autoReward level="MED">standard</autoReward>
-			<text>Your objective was to eliminate this pirate lord, but you allow him to buy himself out of this. The transfer a generous amount of supplies.</text>
+			<text>Your objective was to eliminate this pirate lord, but you allow him to buy himself out of this. He transfers a generous amount of supplies.</text>
 			<choice>
 				<text>Honor your truce and let the enemy leave.</text>
 				<event/>
@@ -5687,7 +5687,7 @@
 			<event>
 				<ship hostile="false"/>
 				<autoReward level="MED">standard</autoReward>
-			<text>Your objective was to eliminate this pirate lord, but you allow him to buy himself out of this. The transfer a generous amount of supplies.</text>
+			<text>Your objective was to eliminate this pirate lord, but you allow him to buy himself out of this. He transfers a generous amount of supplies.</text>
 			<choice>
 				<text>Honor your truce and let the enemy leave.</text>
 				<event/>
@@ -6110,7 +6110,7 @@
 	<surrender  chance="0.2" min="2" max="4">
 		<text>We surrender! Take one of our slaves as tribute; if you destroy us they'll all die anyway!</text>
 		<choice hidden="true">
-			<text>Accept their offer, free the slave and drop him off at the next station.</text>
+			<text>Accept their offer, free the slave and drop them off at the next station.</text>
 			<event load="CE_SLAVER_RELEASE"/>
 		</choice>
 		<choice hidden="true">
