@@ -1873,15 +1873,65 @@
 
 
 <event name="NEBULA_SLUG_MEDBAY" unique="true"> 
-	<text>A Slug ship hails you, "We've detected ssome worrying radiation coming from your medical unit, perhaps you sshould take a look?" As he signs off, your medical bay shuts off and their crew teleports aboard from a nearby station. They don't look like engineers.</text>
+	<text>A Slug ship hails you, "We've detected ssome worrying radiation coming from your medical unit, perhaps you sshould take a look?" As he signs off, your medical bay shuts off.</text>
 	<status type="limit" target="player" system="medbay" amount="0"/>
 	<ship load="JELLY_STATUS_MEDBAY" hostile="true"/>
-	<boarders min="2" max="2" class="slug"/>
 	<environment type="nebula"/>
+	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
+		<text>(Teleporter Disruptor) "Well, we in return detected some worrying malfunction in your remote teleporters..."</text>
+		<event>
+			<text>"Yes, it appearss our engineering crew wont be able to help you then." The Slug snickers. "We will, uhm, try to reconfigure our weapon array and uhm... teleport sssome repair bombss!? Pleasse remain at your current position, will you?" Weapon lock detected. Their guns don't look like they are designed to fix things.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice hidden="true">
+			<text>Offer surrender.</text>
+			<event load="CE_PLAYER_SURRENDER_SLUG"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		</event>
+	</choice>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>Your order your crew to repel the boarders.</text>
+			<text>The Slug crew teleports aboard from a nearby station. They don't look like engineers. Your order your crew to repel the boarders.</text>
+			<boarders min="2" max="2" class="slug"/>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event/>
@@ -1935,7 +1985,8 @@
 	<choice hidden="true" req="medbay" lvl="2">
 		<text>(Improved Medbay) Try to squeeze some extra power to the system.</text>
 		<event>
-			<text>Fearing the imminent battle you desperately try to get the medbay working again. Its lights flicker back on and you turn to face the intruders.</text>
+			<text>The Slug crew teleports aboard from a nearby station. They don't look like engineers. Fearing the imminent battle you desperately try to get the medbay working again. Its lights flicker back on and you turn to face the intruders.</text>
+			<boarders min="2" max="2" class="slug"/>
 			<status type="divide" target="player" system="medbay" amount="2"/>
 		<choice hidden="true">
 			<text>Continue...</text>

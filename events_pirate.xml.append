@@ -6279,8 +6279,8 @@ IDEAS
 						<environment type="PDS" target="player"/>
 						<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Offer surrender.</text>
-			<event load="CE_PLAYER_SURRENDER_PIRATE"/>
+			<text>Continue...</text>
+			<event/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
@@ -6334,6 +6334,10 @@ IDEAS
 						<text>You speed towards the Purple Tentacle flagship with weapons hot. You hostile intentions are met with surprised hails, of which you answer none. Anti-ship batteries all around the planet power up and the cruisers weapons come live.</text>
 						<environment type="PDS" target="player"/>
 						<ship load="C_SHIP_PIRATE_CRUISER_QUEST_LORD" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -6387,6 +6391,10 @@ IDEAS
 								<text>You turn and speed towards the Purple Tentacle flagship with weapons hot. "Oh, you silly fool." Anti-ship batteries all around the planet power up and the cruisers weapons come live.</text>
 								<environment type="PDS" target="player"/>
 								<ship load="C_SHIP_PIRATE_CRUISER_QUEST_LORD_NO_REWARD" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -6460,6 +6468,10 @@ IDEAS
 								<text>Leaving a pirate overlord alive just does not fit within your mindset. You turn and speed towards the Purple Tentacle flagship with weapons hot. "Oh, you silly fool." Anti-ship batteries all around the planet power up and the cruisers weapons come live.</text>
 								<environment type="PDS" target="player"/>
 								<ship load="C_SHIP_PIRATE_CRUISER_QUEST_LORD_LADY_DEAD" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>

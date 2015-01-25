@@ -2344,7 +2344,7 @@
 		<text>(Teleporter Disruptor) Don't let them get on board!</text>
 		<event>
 			<text>The Rockmen can't get a teleporter lock and decide to attack with the usual brute force instead.</text>
-		<ship load="ROCK_SHIP" hostile="true"/>
+			<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event/>
@@ -2460,7 +2460,7 @@
 		<text>(Teleporter Disruptor) Don't let them get on board!</text>
 		<event>
 			<text>The Rockmen can't get a teleporter lock and decide to attack with the usual brute force instead.</text>
-		<ship load="ROCK_SHIP" hostile="true"/>
+			<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event/>
@@ -2572,6 +2572,51 @@
 		<text>(Teleporter Disruptor) Don't let them get on board!</text>
 		<event>
 			<text>The Rockmen can't get a teleporter lock and decide to attack with the usual brute force instead.</text>
+			<ship load="ROCK_SHIP" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice hidden="true">
+			<text>Offer surrender.</text>
+			<event load="CE_PLAYER_SURRENDER_ROCK"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
 		</event>
 	</choice>
 	<choice hidden="true">

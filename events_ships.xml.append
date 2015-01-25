@@ -5726,6 +5726,54 @@
 </ship>
 
 
+<ship name="C_SHIP_PIRATE_CRUISER_QUEST_LORD_LADY_DEAD" auto_blueprint="SHIPS_PIRATE_CRUISER">
+	<surrender  min="3" max="4" >
+		<text>The pirate lord hails you: "You flexed your space muscles well enough now. We will pay you tribute if you spare our flagship"</text>
+		<choice>
+			<text>Accept the offer.</text>
+			<event>
+				<ship hostile="false"/>
+				<autoReward level="MED">standard</autoReward>
+			<text>Your objective was to eliminate this pirate lord, but you allow him to buy himself out of this. He transfers a generous amount of supplies.</text>
+			<choice>
+				<text>Honor your truce and let the enemy leave.</text>
+				<event/>
+			</choice>
+			<choice>
+				<text>Open fire on your defeated opponent.</text>
+				<event load="CE_SURRENDER_SHIP_ATTACK"/>
+			</choice>
+			</event>
+		</choice>
+	<choice req="ENERGY_SHIELD">
+		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
+	</choice>
+		<choice>
+			<text>Ignore their pleas and attack.</text>
+			<event/>
+		</choice>
+	</surrender>
+	<escape min="8" max="10">
+		<text>You've proved a sufficient match for the pirates; they are powering up their FTL and trying to get away.</text>
+	</escape>
+	<gotaway>
+		<text>The pirate cruiser jumps into close orbit, leaving you to dodge their ASB. You hope they didn't leave to get reinforcements.</text>
+	</gotaway>
+	<destroyed>
+		<text>A last hit on the opponents ammo storage and the cruiser combusts into bright flames. While you salvage from the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet. You cleansed the galaxy of one more pirate overlord.</text>
+		<autoReward level="HIGH">standard</autoReward>
+		<environment type="PDS" target="enemy"/>
+	</destroyed>
+	<deadCrew>
+		<text>The pirate elite troops are all dead and the anti-ship batteries go quiet. You cleansed the galaxy of one more pirate overlord.</text>
+		<autoReward level="HIGH">standard</autoReward>
+		<environment type="PDS" target="enemy"/>
+	</deadCrew>
+</ship>
+
+
+
 <ship name="CE_SHIP_BOUNTY_PIRATE" auto_blueprint="SHIPS_PIRATE">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<escape  chance="0.5" min="2" max="4" load="PIRATE_ESCAPE"/>
