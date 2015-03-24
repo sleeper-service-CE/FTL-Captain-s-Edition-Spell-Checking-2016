@@ -4263,7 +4263,7 @@
 				<text load="STORE_ROCK_BUY_TEXT"/>
 				<modifyPursuit amount="1"/>
 				<item_modify>
-					<item type="scrap" min="-45" max="-40"/>
+					<item type="scrap" min="-25" max="-20"/>
 				</item_modify>
 				<augment name="TE_GOODS_ROCK_LITERATURE"/>
 			</event>
@@ -5124,7 +5124,7 @@
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
-					<item type="scrap" min="-45" max="-40"/>
+					<item type="scrap" min="-25" max="-20"/>
 				</item_modify>
 				<augment name="TE_GOODS_ROCK_LITERATURE"/>
 			</event>

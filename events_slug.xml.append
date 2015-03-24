@@ -1875,6 +1875,7 @@
 <event name="NEBULA_SLUG_MEDBAY" unique="true"> 
 	<text>A Slug ship hails you, "We've detected ssome worrying radiation coming from your medical unit, perhaps you sshould take a look?" As he signs off, your medical bay shuts off.</text>
 	<status type="limit" target="player" system="medbay" amount="0"/>
+	<status type="limit" target="player" system="clonebay" amount="0"/>
 	<ship load="JELLY_STATUS_MEDBAY" hostile="true"/>
 	<environment type="nebula"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
@@ -3136,6 +3137,18 @@
 		</event>
 	</choice>
 </event>
+
+<eventList name="SLUG_DISTRESS_PILOTING_SWEAR">
+	<event>
+		<text>"Wow, I didn't think you'd go through with it..." He turns to his second in command, "Looks like I owe you some scrap." Strangely enough, they simply let you pass.</text>
+		<status type="clear" target="player" system="engines" amount="100"/>
+	</event>
+	<event>
+		<text>Words come cheap, especially these ones. You assure the Slug of your loyalty and he welcomes you to the fold: "...and finally, let me introduce you to your new Slug Empire Overseer. He will ensure you stay true to the cause." A bored-looking Slug teleports over.</text>
+		<crewMember amount="1" class="slug"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+	</event>
+</eventList>
 
 
 
@@ -4418,9 +4431,64 @@
 		</event>
 	</choice>
 	<choice req="AE_FIREWALL" hidden="true"> 
-		<text>(Advanced Plating) This is an kidnapping attempt - We need control-protection right away!</text>
+		<text>(Advanced Plating) This is a kidnapping attempt - We need control-protection right away!</text>
 		<event>
 			<text>The rest of the bridge-personel jumps at your crewman, preventing them from sending their last ID sequence. Once the plating is polarized, the crewmen stops resisting. A Slug ship emerges near the source of the mind control signal. With their initial plans frustrated, the Slugs decide to engage in direct combat.</text>
+			<ship load="JELLY" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice hidden="true">
+			<text>Offer surrender.</text>
+			<event load="CE_PLAYER_SURRENDER_SLUG"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare for offensive cyber-attack. Effectorize them!</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+		</event>
+	</choice>
+	<choice hidden="true" req="mind"> 
+		<text>(Mind Control) This is a kidnapping attempt - Control that crewmen!</text>
+		<event>
+			<text>Your own mind controll system allows your crewmember to regain control over their body, preventing them from sending their last ID sequence. A Slug ship emerges near the source of the mind control signal. With their initial plans frustrated, the Slugs decide to engage in direct combat.</text>
 			<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>

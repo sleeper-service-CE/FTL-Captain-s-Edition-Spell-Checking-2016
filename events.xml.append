@@ -9262,7 +9262,7 @@
 	<img back="BG_DARK" planet="NONE"/>
 	<text>You arrive in an asteroid belt to discover that a Rebel automated scout has been stationed here. Prepare for a fight!</text>
 	<environment type="asteroid"/>
-	<ship load="REBEL_AUTO" hostile="true"/>
+	<ship load="REBEL_AUTO_ASTEROIDS_NO_FLUFF" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event/>
@@ -32526,6 +32526,7 @@
 				<item_modify>
 					<item type="scrap" min="22" max="28"/> <!-- updated -->
 				</item_modify>
+				<store/>
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
@@ -32542,6 +32543,7 @@
 				<item_modify>
 					<item type="scrap" min="23" max="27"/> <!-- updated -->
 				</item_modify>
+				<store/>
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
@@ -32558,6 +32560,7 @@
 				<item_modify>
 					<item type="scrap" min="30" max="40"/>  <!-- updated -->
 				</item_modify>
+				<store/>
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">
@@ -33433,6 +33436,7 @@
 				<item_modify>
 					<item type="scrap" min="22" max="28"/> <!-- updated -->
 				</item_modify>
+				<store/>
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
@@ -33448,6 +33452,7 @@
 				<item_modify>
 					<item type="scrap" min="23" max="27"/> <!-- updated -->
 				</item_modify>
+				<store/>
 			</event>
 		</choice>
 		<choice req="TE_GOODS_CIVILIAN_LUXURY" hidden="true">
@@ -33463,6 +33468,7 @@
 				<item_modify>
 					<item type="scrap" min="30" max="40"/>  <!-- updated -->
 				</item_modify>
+				<store/>
 			</event>
 		</choice>
 		<choice req="TE_GOODS_LANIUS_POLYMERS" hidden="true">

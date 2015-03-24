@@ -12447,7 +12447,7 @@ IDEAS
 	<text>Galactic corporations control most of this sector. Their security ships shoot on sight, indicating that they have already established good relationships with the Rebels.</text>
 	<text>A assault ship with corporate markings hails you, "This beacon lies within a restricted R and D area. Trespassers will be shot." You try to reason but they refuse to let you charge the FTL at their beacon and insist you leave immediately with impulse engines. In the end they indeed open fire.</text>
 	<text>"This beacon is corporate property. By jumping here you agreed to our license agreement. It is within our right to requisition parts of your weaponry for customer research. Please comply." This is ridiculous. A crew vote results in the decision to teach this guy a lesson.</text>
-	<text>This bacon is flagged as "Private Property of Waypoint-Junta". A corporate security ship spots you and starts firing without even bothering to hail.</text>
+	<text>This beacon is flagged as "Private Property of Waypoint-Junta". A corporate security ship spots you and starts firing without even bothering to hail.</text>
 </textList>
 
 <event name="BS_EVENT_CORP"> <!-- hostile -->

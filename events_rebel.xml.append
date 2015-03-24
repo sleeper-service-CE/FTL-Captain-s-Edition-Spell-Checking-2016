@@ -1833,7 +1833,7 @@
 		<augment name="TE_GOODS_CONDUITS"/>
 	</event>
 	<event>
-		<text>The ship was apparently transporting industrial drones. You have no use them, but maybe you can find a good buyer for the mashines somewhere. You load them into your cargo holds.</text>
+		<text>The ship was apparently transporting industrial drones. You have no use them, but maybe you can find a good buyer for the machines somewhere. You load them into your cargo holds.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_ROBOTS"/>
 	</event>
@@ -6174,7 +6174,7 @@
 		<augment name="TE_GOODS_CONDUITS"/>
 	</event>
 	<event>
-		<text>The ship was apparently transporting industrial drones. You have no use them, but maybe you can find a good buyer for the mashines somewhere. You load them into your cargo holds.</text>
+		<text>The ship was apparently transporting industrial drones. You have no use them, but maybe you can find a good buyer for the machines somewhere. You load them into your cargo holds.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<augment name="TE_GOODS_ROBOTS"/>
 	</event>

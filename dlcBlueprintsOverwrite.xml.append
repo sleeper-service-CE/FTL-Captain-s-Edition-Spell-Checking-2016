@@ -1,0 +1,3605 @@
+<!-- Copyright (c) 2012 by Subset Games. All rights reserved -->
+
+
+<!-- 
+
+This doc is for alterate versions of the existing ships - outfitted with the new systems and different layouts 
+
+-->
+
+<blueprintList name="OVERRIDE_STANDARD_WEAPONS">  <!-- this is just all of them -->
+	<name>LASER_BURST_1</name> 
+	<!-- <name>LASER_BURST_2</name> -->
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_4_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<!-- <name>MISSILES_2_PLAYER</name> -->
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILES_BREACH</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BEAM_3_ENEMY</name>
+	<name>BEAM_LONG</name>
+	<name>BEAM_FIRE</name>
+	<name>ION_1</name>
+	<name>ION_2_ENEMY</name>
+	<name>ION_4</name>
+	<name>BOMB_1</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BOMB_ION_ENEMY</name>
+	<!--  <name>BOMB_HEAL</name> (Might else get in enemy hands? Indicates this is also pirate list?)-->
+	<name>LASER_HULL_1_ENEMY</name>
+	<!-- <name>LASER_HULL_2</name>
+	<name>BEAM_HULL</name> -->
+	<name>MISSILES_HULL</name>
+
+
+	<!-- <name>BOMB_HEAL_SYSTEM</name> -->
+	<name>SHOTGUN_PLAYER</name>
+	<name>SHOTGUN</name>
+	<name>SHOTGUN_2</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>ION_CHAINGUN</name>
+	<name>ION_STUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>BOMB_STUN</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_SHOTGUN_SCATTER</name>
+	<name>BA_SHOTGUN_MISSILES_ENEMY</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_ADAPTIVE_3_ENEMY</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_PLASMA_2_ENEMY</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_BEAM_BATON</name>
+	<name>BA_BEAM_BO</name>
+
+	<name>BA_BEAM_HASTA_ENEMY</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_BEAM_NAGINATA</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_MAUL</name>
+	<name>BA_BEAM_SCYTHE_ENEMY</name>
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_FIRE_2</name>
+	<name>BA_BEAM_FLAIL_DAMAGE_ENEMY</name>
+	<name>BA_BEAM_FIRE_FOCUS</name>
+	<!-- <name>BA_BEAM_BIO_FOCUS</name>
+	<name>BA_BEAM_BIO_2</name> -->
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MISSILES_4</name>
+	<!-- <name>BA_MISSILES_ASTERIA</name> (Might else get in pirate hands? Sucks when pointed at ya...)-->
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<!-- <name>BA_MISSILES_SIMURGH</name>
+	<name>BA_MISSILES_ONI_ENEMY</name>
+	<name>BA_MISSILES_IFRIT_ENEMY</name>
+	<name>BA_MISSILES_FIRE</name>
+	<name>BA_MISSILES_SWARM_1_ENEMY</name>
+	<name>BA_MISSILES_SWARM_2_ENEMY</name>
+	<name>BA_MISSILES_SWARM_3_ENEMY</name>  -->
+	<name>BA_MINES_SMALL_ENEMY</name>
+	<!-- <name>BA_MINES_MEDIUM_ENEMY</name>
+	<name>BA_MINES_BIG_ENEMY</name>
+	<name>BA_MINES_TECH</name> -->
+	<name>BA_LASER_OLD</name> 
+	<name>BA_LASER_DUAL_OLD</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<!-- <name>BA_LASER_LIGHT_1</name>
+	<name>BA_LASER_LIGHT_2</name>
+	<name>BA_LASER_LIGHT_3</name>-->
+	<!-- <name>BA_LASER_LIGHT_1_ENEMY</name> -->
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<!-- <name>BA_LASER_LIGHT_SCATTER_1_ENEMY</name>  -->
+	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_AUTO_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_1_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_2_ENEMY</name>
+	<name>BA_LASER_HULL_SMALL_ENEMY</name>
+	<name>BA_LASER_HULLCRUSHER_ENEMY</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_BURST_3</name>
+	<name>BA_ION_HEAVY_3_ENEMY</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+	<name>BA_BOMB_FIRE_SMALL_ENEMY</name>
+	<name>BA_BOMB_FIRE_2_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<!-- <name>BA_BOMB_BIO_ENEMY</name> -->
+	<!-- <name>BA_BOMB_HEAL_2</name> -->
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+	<!-- <name>BA_BOMB_CLUSTER_FIRE_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_ION_ENEMY</name>
+	<name>BA_EFFECTOR_1_ENEMY</name>
+	<name>BA_EFFECTOR_2_ENEMY</name>
+	<name>BA_EFFECTOR_3_ENEMY</name>
+	<name>BA_EFFECTOR_ADAPTIVE_ENEMY</name> -->
+</blueprintList>
+
+<blueprintList name="WEAPONS_MISSILES_EVENTS"> <!-- for an event that asks for missiles-->
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILES_BREACH</name>
+	<name>MISSILE_CHARGEGUN</name>
+
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MISSILES_SIMURGH</name>
+	<name>BA_MISSILES_FIRE</name> 
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_IFRIT</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_SWARM_3</name>
+
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_AMMO"> <!-- for an event that asks for missiles-->
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_2_PLAYER</name>
+	<name>MISSILES_3</name>
+	<name>MISSILES_BURST</name>
+	<name>MISSILES_BREACH</name>
+	<name>MISSILE_CHARGEGUN</name>
+
+	<name>BA_MISSILES_ASTERIA</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MISSILES_SIMURGH</name>
+	<name>BA_MISSILES_FIRE</name> 
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_IFRIT</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_SWARM_3</name>
+
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+
+
+	<name>BOMB_1</name>
+	<name>BOMB_BREACH_1</name>	
+	<name>BOMB_BREACH_2</name>	
+	<name>BOMB_FIRE</name>
+	<name>BOMB_ION</name>	
+
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BA_BOMB_FIRE_ENEMY_2</name>
+	<name>BA_BOMB_BIG</name>
+	<name>BA_BOMB_BIO</name>
+	<name>BA_BOMB_HEAL_2</name>
+	<name>BA_BOMB_CLUSTER_1</name>
+	<name>BA_BOMB_CLUSTER_BREACH</name>
+	<name>BA_BOMB_CLUSTER_FIRE</name>
+	<name>BA_BOMB_CLUSTER_ION</name>
+
+	<name>BOMB_FIRE</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BA_BOMB_FIRE_2</name>
+	<name>BA_BOMB_CLUSTER_FIRE</name>
+
+	<name>BA_BOMB_NANO_1</name>
+	<name>BA_BOMB_NANO_2</name>
+
+	<name>BOMB_HEAL_SYSTEM</name>
+
+	<name>BOMB_HEAL</name>
+	<name>BA_BOMB_HEAL_2</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_DRONES_STANDARD">  <!-- Unchanged -->
+	<name>COMBAT_1</name>
+	<name>COMBAT_2</name>
+	<name>COMBAT_BEAM</name>	
+	<name>DEFENSE_1</name>
+	<name>DEFENSE_2</name>
+	<name>REPAIR</name>
+	<name>BATTLE</name>
+	<name>BOARDER</name>
+	
+	<name>BOARDER_ION</name>
+	<name>DRONE_SHIELD</name>
+	<name>ANTI_DRONE</name>
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_FIRE</name>
+
+   	<name>DE_DRONE_MISSILES_1_ENEMY</name>
+    	<name>DE_DRONE_MISSILES_2_ENEMY</name>
+    	<name>DE_DRONE_MISSILES_3_ENEMY</name>
+   	<name>DE_DRONE_BEAM_2_ENEMY</name>
+    	<name>DE_DRONE_PLASMA_ENEMY</name>
+    	<name>DE_DRONE_ION_1</name>
+    	<name>DE_DRONE_ION_2_ENEMY</name>
+	<name>DE_DRONE_ION_3</name>
+	<name>DE_DRONE_ION_PIERCE</name>
+
+	<name>DE_DRONE_LIGHT_1</name>
+	<name>DE_DRONE_LIGHT_2</name>
+	<name>DE_DRONE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_LIGHT_MISSILE_FIRE</name>
+    	<name>DE_DRONE_MISSILES_BARRAGE</name>
+    	<name>DE_DRONE_MINE_SMALL</name>
+    	<name>DE_DRONE_MINE_MEDIUM</name>
+	<name>DE_DRONE_HEAVY_SCATTER_ENEMY</name>
+	<name>DE_DRONE_LIGHT_SCATTER</name>
+	<name>DE_DRONE_SCATTER</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_HEAVY_1_ENEMY</name>
+	<name>DE_DRONE_HEAVY_2_ENEMY</name>
+	<name>DE_DRONE_HULL_1_ENEMY</name>
+	<name>DE_DRONE_HULL_2_ENEMY</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_1</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_2</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_SWARM_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+	<name>DE_DRONE_DEFENSE_SCATTER_ENEMY</name>
+	<name>DE_DRONE_DEFENSE_3</name>
+	<name>DE_REPAIR_2</name>
+	<name>DE_REPAIR_3</name>
+	<name>DE_REPAIR_4</name>
+	<name>DE_BATTLE_2</name>
+	<name>DE_BATTLE_3</name>
+	<name>DE_BATTLE_4</name>
+	<name>DE_BOARDER_2</name>
+	<name>DE_BOARDER_3</name>
+	<name>DE_BOARDER_4</name>
+	<name>TB_SHIP_REPAIR_ENEMY</name>
+	<!-- <name>DE_SHIP_REPAIR_2</name>
+	<name>DE_DRONE_HULL_BEAM</name> -->
+
+	<!-- cut content -->
+	<!--
+	<name>DE_DRONE_BOMB_FIRE_ENEMY</name>
+ 	<name>DE_DRONE_BEAM_BIO</name> -->
+
+
+	<name>DE_DRONE_STEALTH_BEAM_1</name>
+	<name>DE_DRONE_STEALTH_BEAM_2</name>
+	<name>DE_DRONE_SHIELD_SMALL</name>
+	<name>DE_DRONE_SHIELD_BIG</name>
+	<name>DE_DRONE_LIGHT_MISSILE_STUN_ENEMY</name>
+	<name>DE_ANTI_DRONE_2</name>
+	<name>DE_ANTI_DRONE_EFFECTOR</name>
+	<name>DE_ANTI_DRONE_MISSILES</name>
+	<name>DE_ANTI_DRONE_LASER_HEAVY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_DRONES_COMBAT">  <!-- Unchanged -->
+	<name>COMBAT_1</name>
+	<name>COMBAT_2</name>
+	<name>COMBAT_BEAM</name>
+	
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_FIRE</name>
+
+	<name>DE_DRONE_STEALTH_BEAM_1</name>
+	<name>DE_DRONE_STEALTH_BEAM_2</name>
+    	<name>DE_DRONE_MISSILES_1</name>
+    	<name>DE_DRONE_MISSILES_2</name>
+    	<name>DE_DRONE_MISSILES_3</name>
+   	<name>DE_DRONE_BEAM_2_ENEMY</name>
+	<name>DE_DRONE_HULL_BEAM</name>
+    	<name>DE_DRONE_ION_1</name>
+    	<name>DE_DRONE_ION_2_ENEMY</name>
+	<name>DE_DRONE_ION_3</name>
+	<name>DE_DRONE_ION_PIERCE</name>
+	<name>DE_DRONE_LIGHT_1</name>
+	<name>DE_DRONE_LIGHT_2</name>
+	<name>DE_DRONE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_LIGHT_MISSILE_FIRE</name>
+	<name>DE_DRONE_HEAVY_1</name>
+	<name>DE_DRONE_HEAVY_2</name>
+    	<name>DE_DRONE_MISSILES_BARRAGE</name>
+    	<name>DE_DRONE_MINE_SMALL</name>
+    	<name>DE_DRONE_MINE_MEDIUM</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_SCATTER</name>
+	<name>DE_DRONE_HEAVY_SCATTER</name>
+	<name>DE_DRONE_LIGHT_SCATTER</name>
+
+    	<name>DE_DRONE_PLASMA</name>
+
+	<name>DE_DRONE_LIGHT_MISSILE_STUN</name>
+</blueprintList>
+
+ <!-- Unchanged 
+<blueprintList name="OVERRIDE_DRONES_INTERNAL"> 
+	<name>REPAIR</name>
+	<name>BATTLE</name>
+</blueprintList>
+-->
+
+<blueprintList name="OVERRIDE_DRONES_DEFENSE">  <!-- Unchanged -->
+	<name>DEFENSE_1</name>
+	<name>DEFENSE_2</name>
+	<name>ANTI_DRONE</name>
+
+	<name>DE_DRONE_DEFENSE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_SWARM_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_1</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_2</name>
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+	<name>DE_DRONE_DEFENSE_SCATTER</name>
+	<name>DE_DRONE_DEFENSE_3</name>
+
+	<name>DE_ANTI_DRONE_2</name>
+	<name>DE_ANTI_DRONE_EFFECTOR</name>
+	<name>DE_ANTI_DRONE_MISSILES</name>
+	<name>DE_ANTI_DRONE_LASER_HEAVY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_WEAPONS_REBEL">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>MISSILES_BREACH</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BOMB_1</name>
+	
+	<name>SHOTGUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>SHOTGUN_2</name>
+
+
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_SHOTGUN_SCATTER</name>
+	<name>BA_SHOTGUN_MISSILES_ENEMY</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_MISSILES_SWARM_1_ENEMY</name>
+	<name>BA_MISSILES_SWARM_2_ENEMY</name>
+	<name>BA_MISSILES_SWARM_3_ENEMY</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_1_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+
+
+
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>MISSILES_BREACH</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BOMB_1</name>
+	
+	<name>SHOTGUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>SHOTGUN_2</name>
+
+
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_SHOTGUN_SCATTER</name>
+	<name>BA_SHOTGUN_MISSILES_ENEMY</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_1_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_WEAPONS_AUTO">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BOMB_1</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BOMB_ION_ENEMY</name>
+	<name>ION_1</name>
+	<name>ION_2_ENEMY</name>
+	<name>ION_4</name>
+
+
+	<name>LASER_CHAINGUN</name>
+	<name>ION_CHARGEGUN</name>
+
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_SHOTGUN_ION_1</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_BURST_3</name>
+	<name>BA_ION_HEAVY_3_ENEMY</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+	<name>BA_EFFECTOR_1_ENEMY</name>
+	<name>BA_EFFECTOR_2_ENEMY</name>
+	<name>BA_MISSILES_ONI_ENEMY</name>
+	<name>BA_MISSILES_IFRIT_ENEMY</name>
+	<name>BA_MISSILES_SWARM_1_ENEMY</name>
+	<name>BA_MISSILES_SWARM_2_ENEMY</name>
+	<name>BA_MISSILES_SWARM_3_ENEMY</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_1_ENEMY</name>
+	<name>BA_BOMB_FIRE_ENEMY_SMALL</name>
+	<name>BA_BOMB_FIRE_ENEMY_2_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_BREACH_ENEMY</name>
+
+
+
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BOMB_1</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BOMB_ION_ENEMY</name>
+	<name>ION_1</name>
+	<name>ION_2_ENEMY</name>
+	<name>ION_4</name>
+
+
+	<name>LASER_CHAINGUN</name>
+	<name>ION_CHARGEGUN</name>
+
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_SHOTGUN_ION_1</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_BURST_3</name>
+	<name>BA_ION_HEAVY_3_ENEMY</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+	<name>BA_EFFECTOR_1_ENEMY</name>
+	<name>BA_EFFECTOR_2_ENEMY</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_1_ENEMY</name>
+	<name>BA_BOMB_FIRE_ENEMY_SMALL</name>
+	<name>BA_BOMB_FIRE_ENEMY_2_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_BREACH_ENEMY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_WEAPONS_JELLY">  
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_BREACH</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BEAM_3_ENEMY</name>
+	<name>BEAM_LONG</name>
+	<name>BEAM_FIRE</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>ION_1</name>
+	<name>ION_4</name>
+	
+	<name>LASER_CHARGEGUN_2</name>
+	<name>ION_CHARGEGUN</name>
+
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_ADAPTIVE_3_ENEMY</name>
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_PLASMA_2_ENEMY</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_ION_PIERCE_2</name>
+
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_BURST_3</name>
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_NAGINATA</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_FIRE_2</name>
+	<name>BA_BEAM_FIRE_FOCUS</name>
+	<name>BA_EFFECTOR_1_ENEMY</name>
+	<name>BA_EFFECTOR_2_ENEMY</name>
+	<name>BA_EFFECTOR_3_ENEMY</name>
+	<name>BA_EFFECTOR_ADAPTIVE_ENEMY</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_AUTO_ENEMY</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MISSILES_ONI_ENEMY</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_BOMB_FIRE_ENEMY_2_ENEMY</name>
+	<name>BA_BOMB_BIO_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_FIRE_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_BREACH_ENEMY</name>
+</blueprintList>
+
+	
+	
+<blueprintList name="OVERRIDE_WEAPONS_ROCK"> 
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>MISSILES_BREACH</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BOMB_1</name>
+	<name>ION_2_ENEMY</name>
+	
+	<!--<name>MISSILE_CHARGEGUN</name>-->
+	<name>SHOTGUN</name>
+	<name>SHOTGUN_2</name>
+
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_PLASMA_2_ENEMY</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+
+	<name>BA_BEAM_SCYTHE_ENEMY</name>
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_FLAIL_DAMAGE_ENEMY</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MISSILES_FIRE</name>
+	<name>BA_MISSILES_SIMURGH</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL_ENEMY</name>
+	<name>BA_MINES_MEDIUM_ENEMY</name>
+	<name>BA_MINES_BIG_ENEMY</name>
+	<name>BA_LASER_OLD</name>
+	<name>BA_LASER_DUAL_OLD</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_HULL_SMALL_ENEMY</name>
+	<name>BA_LASER_HULLCRUSHER_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_1_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_BEAM_FIRE_2</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+</blueprintList>
+
+	
+<blueprintList name="OVERRIDE_WEAPONS_ROCK_CRYSTAL"> 
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>MISSILES_BREACH</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BOMB_1</name>
+	<name>ION_2_ENEMY</name>
+	
+	<!--<name>MISSILE_CHARGEGUN</name>-->
+	<name>SHOTGUN</name>
+	<name>SHOTGUN_2</name>
+
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_PLASMA_2_ENEMY</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+
+	<name>BA_BEAM_SCYTHE_ENEMY</name>
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_FLAIL_DAMAGE_ENEMY</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MISSILES_FIRE</name>
+	<name>BA_MISSILES_SIMURGH</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_MINES_SMALL_ENEMY</name>
+	<name>BA_MINES_MEDIUM_ENEMY</name>
+	<name>BA_MINES_BIG_ENEMY</name>
+	<name>BA_LASER_OLD</name>
+	<name>BA_LASER_DUAL_OLD</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_HULL_SMALL_ENEMY</name>
+	<name>BA_LASER_HULLCRUSHER_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_1_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_BEAM_FIRE_2</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+
+	<name>BOMB_LOCK</name> 
+	<name>CRYSTAL_BURST_1</name> 
+	<name>CRYSTAL_BURST_2</name> 
+	<name>CRYSTAL_HEAVY_1</name> 
+	<name>CRYSTAL_HEAVY_2</name>
+
+	<name>BA_BOMB_LOCK_2</name> 
+	<name>BA_CRYSTAL_LIGHT_1</name> 
+	<name>BA_CRYSTAL_LIGHT_2</name>
+	<name>BA_CRYSTAL_HEAVY_LOCKDOWN_1</name> 
+	<name>BA_CRYSTAL_HEAVY_LOCKDOWN_2</name>
+
+	<name>BOMB_LOCK</name> 
+	<name>CRYSTAL_BURST_1</name> 
+	<name>CRYSTAL_BURST_2</name> 
+	<name>CRYSTAL_HEAVY_1</name> 
+	<name>CRYSTAL_HEAVY_2</name>
+
+	<name>BA_BOMB_LOCK_2</name> 
+	<name>BA_CRYSTAL_LIGHT_1</name> 
+	<name>BA_CRYSTAL_LIGHT_2</name>
+	<name>BA_CRYSTAL_HEAVY_LOCKDOWN_1</name> 
+	<name>BA_CRYSTAL_HEAVY_LOCKDOWN_2</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_WEAPONS_MANTIS"> 
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>MISSILES_BREACH</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BOMB_1</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BOMB_ION_ENEMY</name>
+	
+	<name>ION_CHAINGUN</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>ION_STUN</name>
+	<name>BOMB_STUN</name>
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_BATON</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MISSILES_SWARM_1_ENEMY</name>
+	<name>BA_MISSILES_SWARM_2_ENEMY</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MINES_SMALL_ENEMY</name>
+	<name>BA_MINES_MEDIUM_ENEMY</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_AUTO_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_HULL_SMALL_ENEMY</name>
+	<name>BA_MISSILES_HULL_SMALL</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_BOMB_FIRE_ENEMY_SMALL_ENEMY</name>
+	<name>BA_BOMB_FIRE_ENEMY_2_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_FIRE_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_ION_ENEMY</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_WEAPONS_FED"> 
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>MISSILES_BREACH</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BOMB_1</name>
+	
+	<name>SHOTGUN</name>
+	<name>LASER_CHAINGUN_2</name>
+	<name>ION_CHARGEGUN</name>
+	<name>ION_STUN</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_BEAM_BATON</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_HASTA_ENEMY</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_MISSILES_SWARM_1_ENEMY</name>
+	<name>BA_MISSILES_SWARM_2_ENEMY</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_AUTO_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_1_ENEMY</name>
+	<name>BA_EFFECTOR_1_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+</blueprintList>
+
+
+
+<blueprintList name="OVERRIDE_WEAPONS_CIRCLE"> 
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BEAM_3_ENEMY</name>
+	<name>BEAM_LONG</name>
+	<name>BEAM_FIRE</name>
+	<name>ION_1</name>
+	<name>ION_2_ENEMY</name>
+	<name>ION_4</name>
+	
+	<name>ION_CHAINGUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>ION_STUN</name>
+	<name>BOMB_STUN</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_ADAPTIVE_3_ENEMY</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_ION_PIERCE_2</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_SCYTHE_ENEMY</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_HASTA_ENEMY</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_BURST_3</name>
+	<name>BA_ION_HEAVY_3_ENEMY</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+	<name>BA_EFFECTOR_1_ENEMY</name>
+	<name>BA_EFFECTOR_2_ENEMY</name>
+	<name>BA_LASER_OLD</name>
+	<name>BA_LASER_DUAL_OLD</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_DRONES_CIRCLE">  <!-- Unchanged -->
+	<name>COMBAT_BEAM</name>	
+	<name>DEFENSE_1</name>
+	<name>DEFENSE_2</name>
+	<!-- <name>SHIP_REPAIR</name> -->
+	<name>REPAIR</name>
+	<name>BATTLE</name>
+	
+	<name>BOARDER_ION</name>
+	<name>DRONE_SHIELD</name>
+	<name>ANTI_DRONE</name>
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_FIRE</name>
+
+	<name>DE_DRONE_STEALTH_BEAM_1</name>
+	<name>DE_DRONE_STEALTH_BEAM_2</name>
+   	<name>DE_DRONE_BEAM_2_ENEMY</name>
+    	<name>DE_DRONE_ION_1</name>
+    	<name>DE_DRONE_ION_2_ENEMY</name>
+	<name>DE_DRONE_ION_3</name>
+	<name>DE_DRONE_ION_PIERCE</name>
+
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+	<name>DE_DRONE_DEFENSE_SCATTER_ENEMY</name>
+	<name>DE_DRONE_DEFENSE_3</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_SCATTER</name>
+	<name>DE_DRONE_HEAVY_1_ENEMY</name>
+	<name>DE_DRONE_HEAVY_SCATTER_ENEMY</name>
+	<name>DE_DRONE_HULL_1_ENEMY</name>
+	<name>DE_DRONE_HULL_2_ENEMY</name>
+	<name>DE_REPAIR_2</name>
+	<name>DE_BATTLE_2</name>
+	<name>DE_REPAIR_3</name>
+	<name>DE_REPAIR_4</name>
+	<name>DE_BATTLE_3</name>
+	<name>DE_BATTLE_4</name>
+	<name>TB_SHIP_REPAIR_ENEMY</name>
+</blueprintList>
+
+
+
+<blueprintList name="OVERRIDE_WEAPONS_ZOLTAN">   <!-- Unchanged -->
+	<name>LASER_BURST_1</name> 
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BEAM_3_ENEMY</name>
+	<name>BEAM_LONG</name>
+	<name>BEAM_FIRE</name>
+	<name>ION_1</name>
+	<name>ION_2_ENEMY</name>
+	<name>BOMB_1</name>
+	<name>BOMB_ION_ENEMY</name>
+	<name>BEAM_HULL</name>
+	
+	<name>SHOTGUN</name>
+	<name>ION_STUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_BEAM_BATON</name>
+	<name>BA_BEAM_BO</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_ADAPTIVE_3_ENEMY</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_ION_PIERCE_1</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_NAGINATA</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_MAUL</name>
+	<name>BA_BEAM_HASTA_ENEMY</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_SWARM_1_ENEMY</name>
+	<name>BA_MISSILES_SWARM_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_ION_ENEMY</name>
+
+
+</blueprintList>
+
+<!-- Unchanged 
+<blueprintList name="OVERRIDE_WEAPONS_CRYSTAL">   
+	<name>BOMB_LOCK</name> 
+	<name>CRYSTAL_BURST_1</name> 
+	<name>CRYSTAL_BURST_2</name> 
+	<name>CRYSTAL_HEAVY_1</name> 
+	<name>CRYSTAL_HEAVY_2</name> 
+</blueprintList>
+-->
+
+<blueprintList name="OVERRIDE_WEAPONS_CORP">
+	<name>BEAM_BIO</name>
+
+	<name>ION_CHAINGUN</name>
+	<name>ION_STUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>BOMB_STUN</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_BEAM_BATON</name>
+	<name>BA_BEAM_BO</name>
+
+	<name>BA_BEAM_BIO_2</name>
+	<name>BA_LASER_LIGHT_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_BURST_3</name>
+	<name>BA_EFFECTOR_1_ENEMY</name>
+	<name>BA_EFFECTOR_2_ENEMY</name>
+	<name>BA_EFFECTOR_3_ENEMY</name>
+	<name>BA_EFFECTOR_ADAPTIVE_ENEMY</name>
+	<name>BA_BOMB_FIRE_ENEMY_SMALL_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_BIO_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_BREACH_ENEMY</name>
+
+</blueprintList>
+
+<blueprintList name="OVERRIDE_WEAPONS_CORP_LEATHAL">
+	<name>BEAM_BIO</name>
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>LASER_BURST_4_ENEMY</name>
+	<name>LASER_HULL_1_ENEMY</name>
+	<name>LASER_HULL_2_ENEMY</name>
+
+	<name>SHOTGUN</name>
+	<name>SHOTGUN_2</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>ION_CHAINGUN</name>
+	<name>ION_STUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>BOMB_STUN</name>
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_ION_PIERCE_2</name>
+
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MINES_TECH</name>
+	<name>BA_MISSILES_ONI_ENEMY</name>
+	<name>BA_MISSILES_IFRIT_ENEMY</name>
+	<name>BA_MISSILES_SWARM_2_ENEMY</name>
+	<name>BA_MISSILES_SWARM_3_ENEMY</name>
+	<name>BA_BEAM_BIO_2</name>
+	<name>BA_LASER_LIGHT_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_AUTO_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_HULL_SMALL_ENEMY</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_MAUL</name>
+	<name>BA_EFFECTOR_1_ENEMY</name>
+	<name>BA_EFFECTOR_2_ENEMY</name>
+	<name>BA_EFFECTOR_3_ENEMY</name>
+	<name>BA_EFFECTOR_ADAPTIVE_ENEMY</name>
+	<name>BA_BOMB_FIRE_ENEMY_SMALL_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_BIO_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_SHOTGUN_SCATTER</name>
+	<name>BA_SHOTGUN_MISSILES_ENEMY</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_ADAPTIVE_3_ENEMY</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_WEAPONS_CIV">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>LASER_HULL_1_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>BEAM_1</name>
+	<name>ION_1</name>
+	<name>ION_2_ENEMY</name>
+   	<name>BOMB_1</name>
+	<name>BOMB_ION_ENEMY</name>
+	<name>LASER_BURST_4_ENEMY</name>
+
+	<name>SHOTGUN</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>BOMB_STUN</name>
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_BEAM_BATON</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_SCYTHE_ENEMY</name>
+	<name>BA_BEAM_HASTA_ENEMY</name>
+	<name>BA_BEAM_FLAIL_DAMAGE_ENEMY</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_EFFECTOR_1_ENEMY</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MINES_MEDIUM_ENEMY</name>
+	<name>BA_LASER_OLD</name>
+	<name>BA_LASER_DUAL_OLD</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_LIGHT_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_AUTO_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_HULL_SMALL_ENEMY</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_1_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_BREACH_ENEMY</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_WEAPONS_AI">
+	<name>LASER_BURST_1</name> 
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BEAM_3_ENEMY</name>
+	<name>BEAM_LONG</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_HULL</name>
+	<name>ION_1</name>
+	<name>ION_2_ENEMY</name>
+   	<name>BOMB_1</name>
+	<name>BOMB_ION_ENEMY</name>
+	<name>ION_4</name>
+
+	<name>SHOTGUN</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>ION_STUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>BOMB_STUN</name>
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_BEAM_BATON</name>
+	<name>BA_BEAM_BO</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_NAGINATA</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_MAUL</name>
+	<name>BA_BEAM_HASTA_ENEMY</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_HULL_SMALL</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_SWARM_1_ENEMY</name>
+	<name>BA_MISSILES_SWARM_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_ION_ENEMY</name>
+	<name>BA_BEAM_SCYTHE_ENEMY</name>
+	<name>BA_BEAM_FLAIL_DAMAGE_ENEMY</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_BURST_3</name>
+	<name>BA_ION_HEAVY_3_ENEMY</name>
+	<name>BA_EFFECTOR_1_ENEMY</name>
+	<name>BA_EFFECTOR_2_ENEMY</name>
+	<name>BA_LASER_OLD</name>
+	<name>BA_LASER_DUAL_OLD</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_SHOTGUN_SCATTER</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_ADAPTIVE_3_ENEMY</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_WEAPONS_LIGHT_LASER">
+	<name>BA_LASER_LIGHT_1</name>
+	<name>BA_LASER_LIGHT_2</name>
+	<name>BA_LASER_LIGHT_3</name>
+	<name>BA_LASER_LIGHT_SCATTER_1</name>
+	<name>BA_LASER_LIGHT_SCATTER_2</name>
+	<name>BA_LASER_LIGHT_SCATTER_3</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_TB_WEAPONS_JELLY_HUNTER">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>MISSILES_2</name>
+	<name>BEAM_LONG</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_BIO</name>
+	<name>BOMB_1</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BOMB_BREACH_2</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BOMB_ION_ENEMY</name>
+	<name>ION_1</name>
+	<name>ION_2_ENEMY</name>
+	<name>ION_4</name>
+
+
+	<name>ION_CHAINGUN</name>
+	<name>ION_STUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>BOMB_STUN</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_PLASMA_2_ENEMY</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_ION_PIERCE_2</name>
+
+
+	<name>BA_EFFECTOR_1_ENEMY</name>
+	<name>BA_EFFECTOR_2_ENEMY</name>
+	<name>BA_EFFECTOR_3_ENEMY</name>
+	<name>BA_EFFECTOR_ADAPTIVE_ENEMY</name>
+	<name>BA_LASER_LIGHT_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_MISSILES_ONI</name>
+	<name>BA_MISSILES_SWARM_2_ENEMY</name>
+	<name>BA_BEAM_BIO_2</name>
+	<name>BA_BOMB_FIRE_ENEMY_SMALL</name>
+	<name>BA_BEAM_FIRE_FOCUS</name>
+	<name>BA_BEAM_BIO_FOCUS</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_BIO_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_BURST_3</name>
+	<name>BA_ION_HEAVY_3_ENEMY</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_TB_WEAPONS_JELLY_FIRE">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>MISSILES_2</name>
+	<name>BEAM_LONG</name>
+	<name>BEAM_FIRE</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_PLASMA_2_ENEMY</name>
+
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_BEAM_FIRE_2</name>
+	<name>BA_BEAM_FIRE_FOCUS</name>
+	<name>BA_BOMB_FIRE_ENEMY_SMALL</name>
+	<name>BA_BOMB_FIRE_ENEMY_2_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_FIRE_ENEMY</name>
+	<name>BA_MISSILES_FIRE</name>
+	<name>BA_MISSILES_PERYTON</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_TB_WEAPONS_ROCK_HUNTER">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>BEAM_FIRE</name>
+	<name>BOMB_1</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BOMB_BREACH_2</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BOMB_ION_ENEMY</name>
+	<name>ION_2_ENEMY</name>
+	<name>LASER_BURST_4_ENEMY</name>
+
+	<name>SHOTGUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>ION_STUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>BOMB_STUN</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_PLASMA_2_ENEMY</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_FIRE</name>
+	<name>BA_BEAM_FIRE_2</name>
+	<name>BA_BEAM_FIRE_FOCUS</name>
+	<name>BA_BOMB_FIRE_ENEMY_SMALL</name>
+	<name>BA_BOMB_FIRE_ENEMY_2_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_FIRE_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_ION_ENEMY</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_TB_WEAPONS_CRYSTAL_HUNTER">  
+	<name>BOMB_LOCK</name> 
+	<name>CRYSTAL_BURST_1</name> 
+
+	<name>BA_CRYSTAL_LIGHT_1</name> 
+	<name>BA_CRYSTAL_LIGHT_2</name>
+	<name>BA_CRYSTAL_HEAVY_LOCKDOWN_1</name> 
+</blueprintList>
+
+<blueprintList name="OVERRIDE_TB_WEAPONS_ROCK_BARGE">
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>MISSILES_BREACH</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BOMB_1</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BOMB_BREACH_2</name>
+
+	<name>MISSILE_CHARGEGUN</name>
+
+	<name>BA_SHOTGUN_MISSILES_ENEMY</name>
+
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>BA_MISSILES_CHAFFLAUNCHER</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_BEAM_SCYTHE_ENEMY</name>
+	<name>BA_BEAM_FLAIL_DAMAGE_ENEMY</name>
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_LASER_ARTILLERY_1_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MISSILES_SIMURGH</name>
+	<name>BA_MISSILES_FIRE</name>
+	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_SWARM_1_ENEMY</name>
+	<name>BA_MISSILES_SWARM_2_ENEMY</name>
+	<name>BA_MISSILES_SWARM_3_ENEMY</name>
+	<name>BA_MINES_SMALL_ENEMY</name>
+	<name>BA_MINES_MEDIUM_ENEMY</name>
+	<name>BA_MINES_BIG_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_WEAPONS_ROCK_MINELAYER">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>LASER_HULL_1_ENEMY</name>
+	<name>LASER_HULL_2_ENEMY</name>
+	<name>BOMB_1</name>
+    	<name>ION_2_ENEMY</name>
+	<name>LASER_BURST_4_ENEMY</name>
+
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_MINES_SMALL_ENEMY</name>
+	<name>BA_MINES_MEDIUM_ENEMY</name>
+	<name>BA_MINES_BIG_ENEMY</name>
+	<name>BA_MINES_SMALL_ENEMY</name>
+	<name>BA_MINES_MEDIUM_ENEMY</name>
+	<name>BA_MINES_BIG_ENEMY</name>
+	<name>BA_MINES_SMALL_ENEMY</name>
+	<name>BA_MINES_MEDIUM_ENEMY</name>
+	<name>BA_MINES_BIG_ENEMY</name>
+	<name>BA_LASER_OLD</name>
+	<name>BA_LASER_DUAL_OLD</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_HULLCRUSHER_ENEMY</name>
+	<name>BA_LASER_HULL_SMALL_ENEMY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_TB_WEAPONS_MANTIS_HUNTER">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>BEAM_FIRE</name>
+	<name>BOMB_1</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BOMB_BREACH_2</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BOMB_ION_ENEMY</name>
+	<name>LASER_BURST_4_ENEMY</name>
+
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+
+	<name>ION_STUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>BOMB_STUN</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+
+	<name>BA_LASER_LIGHT_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_LIGHT_AUTO_ENEMY</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_FIRE_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_ION_ENEMY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_TB_WEAPONS_MANTIS_BARGE">
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>LASER_HULL_1_ENEMY</name>
+	<name>LASER_HULL_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>BOMB_1</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BOMB_ION_ENEMY</name>
+
+	<name>BOMB_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_AUTO_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_BOMB_FIRE_ENEMY_SMALL_ENEMY</name>
+	<name>BA_BOMB_FIRE_ENEMY_2_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_FIRE_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_ION_ENEMY</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_WEAPONS_MANTIS_MINELAYER">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>LASER_HULL_1_ENEMY</name>
+	<name>LASER_HULL_2_ENEMY</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BOMB_ION_ENEMY</name>
+	<name>LASER_BURST_4_ENEMY</name>
+
+	<name>LASER_CHAINGUN</name>
+
+	<name>BA_SHOTGUN_SMALL</name>
+
+
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_COCKATRICE</name>
+	<name>BA_MINES_SMALL_ENEMY</name>
+	<name>BA_MINES_MEDIUM_ENEMY</name>
+	<name>BA_MINES_SMALL_ENEMY</name>
+	<name>BA_MINES_MEDIUM_ENEMY</name>
+	<name>BA_MINES_SMALL_ENEMY</name>
+	<name>BA_MINES_MEDIUM_ENEMY</name>
+	<name>BA_MINES_SMALL_ENEMY</name>
+	<name>BA_MINES_MEDIUM_ENEMY</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_AUTO_ENEMY</name>
+	<name>BA_LASER_HULL_SMALL_ENEMY</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_BOMB_FIRE_ENEMY_SMALL_ENEMY</name>
+	<name>BA_BOMB_FIRE_ENEMY_2_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_FIRE_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_ION_ENEMY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_TB_WEAPONS_FED_HUNTER">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>BOMB_1</name>
+	<name>BOMB_BREACH_1</name>
+	<name>BOMB_BREACH_2</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BOMB_ION_ENEMY</name>
+	<name>BEAM_FIRE</name>
+	<name>LASER_BURST_4_ENEMY</name>
+	
+	<name>SHOTGUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>ION_STUN</name>
+	<name>BOMB_STUN</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+
+	<name>BA_LASER_LIGHT_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_AUTO_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_BEAM_FIRE_FOCUS</name>
+	<name>BA_MISSILES_PERYTON</name>
+	<name>BA_MISSILES_ONI_ENEMY</name>
+	<name>BA_BOMB_FIRE_ENEMY_SMALL</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_TB_WEAPONS_REBEL_BARGE">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_BURST_4_ENEMY</name>
+	<name>LASER_HULL_1_ENEMY</name>
+	<name>LASER_HULL_2_ENEMY</name>
+
+
+
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>LASER_CHARGEGUN_2</name>
+
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_OLD</name>
+	<name>BA_LASER_DUAL_OLD</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_AUTO_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_HULL_SMALL_ENEMY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_TB_WEAPONS_CIRCLE_HUNTER">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>BEAM_LONG</name>
+	<name>BEAM_FIRE</name>
+	<name>BEAM_BIO</name>
+	<name>ION_1</name>
+	<name>ION_4</name>
+
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>ION_CHAINGUN</name>
+	<name>ION_STUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>BOMB_STUN</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_PLASMA_2_ENEMY</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_BEAM_BATON</name>
+	<name>BA_BEAM_BO</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_BURST_3</name>
+	<name>BA_EFFECTOR_2_ENEMY</name>
+	<name>BA_EFFECTOR_3_ENEMY</name>
+	<name>BA_EFFECTOR_ADAPTIVE_ENEMY</name>
+	<name>BA_LASER_LIGHT_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_AUTO_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_BEAM_BIO_2</name>
+	<name>BA_BEAM_BIO_FOCUS</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_TB_WEAPONS_CIRCLE_BARGE">
+	<name>ION_1</name>
+	<name>ION_2_ENEMY</name>
+	<name>ION_4</name>
+	<name>BOMB_ION_ENEMY</name>
+
+	<name>ION_CHAINGUN</name>
+	<name>ION_STUN</name>
+	<name>ION_CHARGEGUN</name>
+	<name>BOMB_STUN</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_ION_PIERCE_2</name>
+
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_BURST_3</name>
+	<name>BA_ION_HEAVY_3_ENEMY</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+	<name>BA_EFFECTOR_1_ENEMY</name>
+	<name>BA_EFFECTOR_2_ENEMY</name>
+	<name>BA_EFFECTOR_3_ENEMY</name>
+	<name>BA_EFFECTOR_ADAPTIVE_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_ION_ENEMY</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_WEAPONS_AUTO_HUNTER">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BOMB_ION_ENEMY</name>
+	<name>ION_1</name>
+	<name>ION_2_ENEMY</name>
+	<name>ION_4</name>
+
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_BEAM_BATON</name>
+	<name>BA_BEAM_BO</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_HASTA_ENEMY</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+	<name>BA_EFFECTOR_1_ENEMY</name>
+	<name>BA_EFFECTOR_2_ENEMY</name>
+	<name>BA_EFFECTOR_3_ENEMY</name>
+	<name>BA_EFFECTOR_ADAPTIVE_ENEMY</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_LIGHT_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_LIGHT_SCATTER_3_ENEMY</name>
+	<name>BA_LASER_LIGHT_ARTILLERY</name>
+	<name>BA_BOMB_FIRE_ENEMY_SMALL</name>
+	<name>BA_BOMB_FIRE_ENEMY_2_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_ION_ENEMY</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_WEAPONS_AUTO_CONSTRUCTION">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BEAM_FIRE</name>
+	<name>BOMB_1</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BOMB_ION_ENEMY</name>
+	<name>ION_1</name>
+	<name>ION_2</name>
+	<name>LASER_BURST_4_ENEMY</name>
+
+	<name>SHOTGUN</name>
+	<name>SHOTGUN_2</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>ION_STUN</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_SCYTHE_ENEMY</name>
+	<name>BA_BEAM_FLAIL_DAMAGE_ENEMY</name>
+	<name>BA_BEAM_FIRE_2</name>
+	<name>BA_BEAM_FIRE_FOCUS</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+	<name>BA_MISSILES_SWARM_1_ENEMY</name>
+	<name>BA_MISSILES_SWARM_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_PLASMA_2_ENEMY</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_BEAM_BATON</name>
+	<name>BA_BEAM_BO</name>
+
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BEAM_FIRE</name>
+	<name>BOMB_1</name>
+	<name>BOMB_FIRE_ENEMY</name>
+	<name>BOMB_ION_ENEMY</name>
+	<name>ION_1</name>
+	<name>ION_2</name>
+	<name>LASER_BURST_4_ENEMY</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_BEAM_SCYTHE_ENEMY</name>
+	<name>BA_BEAM_FLAIL_DAMAGE_ENEMY</name>
+	<name>BA_BEAM_FIRE_2</name>
+	<name>BA_BEAM_FIRE_FOCUS</name>
+	<name>BA_ION_BURST_1</name>
+	<name>BA_ION_BURST_2</name>
+	<name>BA_ION_HEAVY_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_BOMB_FIRE_SMALL</name>
+	<name>BA_BOMB_FIRE_2_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_PLASMA_2_ENEMY</name>
+	<name>BA_SHOTGUN_ION_1</name>
+	<name>BA_SHOTGUN_ION_2</name>
+	<name>BA_ION_PIERCE_1</name>
+	<name>BA_ION_PIERCE_2</name>
+	<name>BA_BEAM_BATON</name>
+	<name>BA_BEAM_BO</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_DRONES_BOARDER">
+	<name>BOARDER</name>
+	<name>DE_BOARDER_2</name>
+	<name>DE_BOARDER_3</name>
+	<name>DE_BOARDER_4</name>
+
+	<name>BOARDER_ION</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_DRONES_DEFENSE_ENEMY">
+	<name>DEFENSE_1</name>
+	<name>DEFENSE_2</name>
+
+	<name>DRONE_SHIELD</name>
+	<name>ANTI_DRONE</name>
+
+	<name>DE_DRONE_DEFENSE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_SWARM_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_1</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_2</name>
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+	<name>DE_DRONE_DEFENSE_SCATTER_ENEMY</name>
+	<name>DE_DRONE_DEFENSE_3</name>
+	<name>DE_DRONE_DEFENSE_MINESWEEPER_ENEMY</name>
+	<name>TB_SHIP_REPAIR_ENEMY</name>
+
+	<name>DE_DRONE_LIGHT_MISSILE_STUN_ENEMY</name>
+	<name>DE_ANTI_DRONE_2</name>
+	<name>DE_ANTI_DRONE_EFFECTOR</name>
+	<name>DE_ANTI_DRONE_MISSILES</name>
+	<name>DE_ANTI_DRONE_LASER_HEAVY</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_CE_DRONES_CIRCLE_BARGE"> 
+	<name>COMBAT_1_ENEMY</name>
+	<name>COMBAT_2_ENEMY</name>
+	<name>COMBAT_BEAM</name>
+
+	<name>COMBAT_BEAM_2</name>
+
+	<name>DE_DRONE_STEALTH_BEAM_1</name>
+	<name>DE_DRONE_STEALTH_BEAM_2</name>
+   	<name>DE_DRONE_BEAM_2_ENEMY</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_SCATTER</name>
+
+	<name>COMBAT_1_ENEMY</name>
+	<name>COMBAT_2_ENEMY</name>
+	<name>COMBAT_BEAM</name>
+
+   	<name>DE_DRONE_BEAM_2_ENEMY</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_SCATTER</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_CE_DRONES_CIRCLE_CARRIER"> 
+	<name>COMBAT_1_ENEMY</name>
+	<name>COMBAT_2_ENEMY</name>
+	<name>COMBAT_BEAM</name>
+
+	<name>COMBAT_BEAM_2</name>
+	<name>DRONE_SHIELD</name>
+	<name>ANTI_DRONE</name>
+
+	<name>DE_DRONE_STEALTH_BEAM_1</name>
+	<name>DE_DRONE_STEALTH_BEAM_2</name>
+
+   	<name>DE_DRONE_BEAM_2_ENEMY</name>
+    	<name>DE_DRONE_ION_1</name>
+    	<name>DE_DRONE_ION_2_ENEMY</name>
+	<name>DE_DRONE_ION_3</name>
+	<name>DE_DRONE_ION_PIERCE</name>
+	<name>DE_DRONE_DEFENSE_SCATTER_ENEMY</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_SCATTER</name>
+	<name>DE_DRONE_HEAVY_1_ENEMY</name>
+	<name>DE_DRONE_HEAVY_SCATTER_ENEMY</name>
+	<name>DE_DRONE_HULL_1_ENEMY</name>
+	<name>DE_DRONE_HULL_2_ENEMY</name>
+
+
+	<name>DE_DRONE_SHIELD_SMALL</name>
+	<name>DE_DRONE_SHIELD_BIG</name>
+	<name>DE_ANTI_DRONE_2</name>
+	<name>DE_ANTI_DRONE_EFFECTOR</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_CE_DRONES_CIRCLE_HUNTER">
+    	<name>DE_DRONE_ION_2_ENEMY</name>
+
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_FIRE</name>
+
+    	<name>DE_DRONE_PLASMA_ENEMY</name>
+	<name>DRONE_SHIELD</name>
+
+	<name>DE_DRONE_STEALTH_BEAM_1</name>
+	<name>DE_DRONE_STEALTH_BEAM_2</name>
+
+	<name>DE_DRONE_DEFENSE_LIGHT_1</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_2</name>
+	<name>DE_DRONE_LIGHT_1</name>
+	<name>DE_DRONE_LIGHT_2</name>
+	<name>DE_DRONE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_LIGHT_MISSILE_FIRE</name>
+	<name>DE_REPAIR_2</name>
+	<name>DE_BATTLE_2</name>
+	<name>DE_BOARDER_2</name>
+
+	<name>DE_DRONE_LIGHT_MISSILE_STUN_ENEMY</name>
+	<name>DE_ANTI_DRONE_MISSILES</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_CE_DRONES_REBEL"> 
+	<name>COMBAT_1_ENEMY</name>
+	<name>COMBAT_2_ENEMY</name>
+	<name>COMBAT_BEAM</name>
+	<name>DEFENSE_1</name>
+	<name>DEFENSE_2</name>
+	<name>REPAIR</name>
+	<name>BATTLE</name>
+	<name>BOARDER</name>
+
+	<name>BOARDER_ION</name>
+	<name>BOARDER_ION</name>
+	<name>BOARDER_ION</name>
+	<name>DRONE_SHIELD</name>
+	<name>ANTI_DRONE</name>
+	<name>COMBAT_BEAM_2</name>
+
+    	<name>DE_DRONE_MISSILES_1</name>
+    	<name>DE_DRONE_MISSILES_2</name>
+    	<name>DE_DRONE_MISSILES_3</name>
+    	<name>DE_DRONE_MISSILES_BARRAGE</name>
+    	<name>DE_DRONE_MINE_SMALL</name>
+    	<name>DE_DRONE_MINE_MEDIUM</name>
+   	<name>DE_DRONE_BEAM_2_ENEMY</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_SCATTER</name>
+	<name>DE_DRONE_HEAVY_1_ENEMY</name>
+	<name>DE_DRONE_HEAVY_2_ENEMY</name>
+	<name>DE_DRONE_HEAVY_SCATTER_ENEMY</name>
+	<name>DE_DRONE_HULL_1_ENEMY</name>
+	<name>DE_DRONE_HULL_2_ENEMY</name>
+	<name>DE_DRONE_DEFENSE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_SWARM_MISSILE</name>
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+	<name>DE_DRONE_DEFENSE_SCATTER_ENEMY</name>
+	<name>DE_DRONE_DEFENSE_3</name>
+	<name>DE_REPAIR_2</name>
+	<name>DE_REPAIR_3</name>
+	<name>DE_REPAIR_4</name>
+	<name>DE_BATTLE_2</name>
+	<name>DE_BATTLE_3</name>
+	<name>DE_BATTLE_4</name>
+	<name>DE_BOARDER_2</name>
+	<name>DE_BOARDER_3</name>
+	<name>DE_BOARDER_4</name>
+
+	<name>DE_DRONE_SHIELD_SMALL</name>
+	<name>DE_DRONE_SHIELD_BIG</name>
+	<name>DE_ANTI_DRONE_MISSILES</name>
+	<name>DE_ANTI_DRONE_LASER_HEAVY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_CE_DRONES_REBEL_CARRIER"> 
+	<name>COMBAT_1_ENEMY</name>
+	<name>COMBAT_2_ENEMY</name>
+	<name>DEFENSE_1</name>
+
+	<name>ANTI_DRONE</name>
+
+    	<name>DE_DRONE_MISSILES_1</name>
+    	<name>DE_DRONE_MISSILES_BARRAGE</name>
+    	<name>DE_DRONE_MINE_SMALL</name>
+	<name>DE_DRONE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_SCATTER</name>
+	<name>DE_DRONE_HEAVY_SCATTER_ENEMY</name>
+	<name>DE_DRONE_HEAVY_1_ENEMY</name>
+	<name>DE_DRONE_HEAVY_2_ENEMY</name>
+	<name>DE_DRONE_HULL_1_ENEMY</name>
+	<name>DE_DRONE_HULL_2_ENEMY</name>
+	<name>DE_DRONE_DEFENSE_SCATTER_ENEMY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+
+	<name>DE_ANTI_DRONE_MISSILES</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_CE_DRONES_AUTO_TROOPSHIP"> 
+	<name>BATTLE</name>
+	<name>BOARDER</name>
+
+	<name>BOARDER_ION</name>
+	<name>BOARDER_ION</name>
+
+	<name>DE_BOARDER_2</name>
+	<name>DE_BOARDER_3</name>
+	<name>DE_BOARDER_4</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_CE_DRONES_AUTO_CARRIER">
+	<name>COMBAT_1_ENEMY</name>
+	<name>COMBAT_2_ENEMY</name>
+	<name>COMBAT_BEAM</name>
+
+	<name>COMBAT_BEAM_2</name>
+
+	<name>DE_DRONE_STEALTH_BEAM_1</name>
+	<name>DE_DRONE_STEALTH_BEAM_2</name>
+
+	<name>DE_DRONE_HEAVY_SCATTER_ENEMY</name>
+	<name>DE_DRONE_BEAM_FOCUS</name>
+	<name>DE_DRONE_SCATTER</name>
+   	<name>DE_DRONE_BEAM_2_ENEMY</name>
+    	<name>DE_DRONE_ION_1</name>
+    	<name>DE_DRONE_ION_2_ENEMY</name>
+	<name>DE_DRONE_ION_3</name>
+	<name>DE_DRONE_ION_PIERCE</name>
+
+	<name>DE_DRONE_HEAVY_1_ENEMY</name>
+	<name>DE_DRONE_HEAVY_2_ENEMY</name>
+	<name>DE_DRONE_RECON</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_CE_DRONES_AUTO_SCRAMBLER">
+	<name>REPAIR</name>
+
+	<name>BOARDER_ION</name>
+
+	<name>DE_REPAIR_2</name>
+    	<name>DE_DRONE_ION_1</name>
+    	<name>DE_DRONE_ION_2_ENEMY</name>
+	<name>DE_DRONE_ION_3</name>
+	<name>DE_DRONE_ION_PIERCE</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_CE_DRONES_AUTO_HUNTER">
+	<name>BOARDER</name>
+
+	<name>BOARDER_ION</name>
+	<name>BOARDER_ION</name>
+
+	<name>DE_BOARDER_2</name>
+	<name>DE_BOARDER_3</name>
+	<name>DE_BOARDER_4</name>
+	<name>DE_DRONE_LIGHT_MISSILE_FIRE</name>
+	<name>DE_DRONE_LIGHT_MISSILE</name>
+	<name>DE_DRONE_LIGHT_MISSILE_STUN_ENEMY</name>
+	<name>DE_DRONE_LIGHT_1</name>
+	<name>DE_DRONE_LIGHT_2</name>
+	<name>DE_DRONE_LIGHT_SCATTER</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_CE_DRONES_AUTO_CONSTRUCTION">
+	<name>REPAIR</name>
+
+	<name>ANTI_DRONE</name>
+	<name>BOARDER_ION</name>
+
+	<name>TB_SHIP_REPAIR_ENEMY</name>
+
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+
+	<name>DE_DRONE_SHIELD_SMALL</name>
+	<name>DE_ANTI_DRONE_LASER_HEAVY</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_CE_ZOLTAN_SHIELD">
+	<name>DE_DRONE_DEFENSE_HEAVY</name>
+	<name>DE_DRONE_DEFENSE_HEAVY_SMALL</name>
+
+	<name>DE_DRONE_SHIELD_SMALL</name>
+	<name>DE_DRONE_SHIELD_BIG</name>
+	<name>DE_ANTI_DRONE_LASER_HEAVY</name>
+</blueprintList>
+
+
+<!--   Overwriting the previous ship lists to include the new versions          -->
+
+<blueprintList name="OVERRIDE_SHIPS_FED">
+	<name>TB_FED_SCOUT</name>
+	<name>TB_FED_BOMBER</name>
+
+	<name>TB_FED_MINER</name>
+	<name>TB_FED_ASSAULT</name>
+	<name>TB_FED_MEDEVAC</name>
+	<name>TB_FED_HUNTER</name>
+
+	<name>TB_FED_SCOUT_DLC</name>
+	<name>TB_FED_BOMBER_DLC</name>
+	<name>TB_FED_SCOUT_DLC</name>
+	<name>TB_FED_BOMBER_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHPS_REBEL_AND_AUTO">
+	<name>TB_AUTO_SCOUT</name>
+	<name>TB_AUTO_ASSAULT</name>	
+	<name>TB_REBEL_FIGHTER</name>
+	<name>TB_REBEL_RIGGER</name>
+
+	<name>TB_AUTO_INFILTRATOR</name>
+	<name>TB_AUTO_INTERCEPTOR</name>
+	<name>TB_AUTO_BOMBER</name>
+	<name>TB_AUTO_TROOPSHIP</name>
+	<name>TB_AUTO_CARRIER</name>
+
+	<name>TB_REBEL_REPAIR</name>
+	<name>TB_REBEL_TROOPSHIP</name>
+	<name>TB_REBEL_CARRIER</name>
+	<name>TB_REBEL_INTERCEPTOR</name>
+	<name>TB_REBEL_BARGE</name>
+	<name>TB_REBEL_ASSAULT</name>
+
+	<name>TB_REBEL_SCOUT</name>
+	<name>TB_REBEL_INFILTRATOR</name>
+	<name>TB_REBEL_TUG</name>
+
+	<name>TB_REBEL_EW</name>
+	<name>TB_REBEL_EW</name>
+	<name>TB_AUTO_BASIC_DLC</name>
+	<name>TB_AUTO_ASSAULT_DLC</name>
+	<name>TB_REBEL_FAT_DLC</name>
+	<name>TB_REBEL_SKINNY_DLC</name>
+	<name>TB_AUTO_BASIC_DLC</name>
+	<name>TB_AUTO_ASSAULT_DLC</name>
+	<name>TB_REBEL_FAT_DLC</name>
+	<name>TB_REBEL_SKINNY_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_REBEL">
+	<name>TB_REBEL_FIGHTER</name>
+	<name>TB_REBEL_RIGGER</name>
+
+	<name>TB_REBEL_REPAIR</name>
+	<name>TB_REBEL_TROOPSHIP</name>
+	<name>TB_REBEL_CARRIER</name>
+	<name>TB_REBEL_INTERCEPTOR</name>
+	<name>TB_REBEL_BARGE</name>
+	<name>TB_REBEL_ASSAULT</name>
+
+	<name>TB_REBEL_SCOUT</name>
+	<name>TB_REBEL_INFILTRATOR</name>
+	<name>TB_REBEL_TUG</name>
+
+	<name>TB_REBEL_EW</name>
+	<name>TB_REBEL_EW</name>
+	<name>TB_REBEL_FAT_DLC</name>
+	<name>TB_REBEL_SKINNY_DLC</name>
+	<name>TB_REBEL_FAT_DLC</name>
+	<name>TB_REBEL_SKINNY_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_C_SHIPS_AUTO_CRUISER">
+	<name>C_AUTO_CRUISER</name>
+	<name>C_AUTO_CRUISER</name>
+
+	<name>C_AUTO_EW_CRUISER</name>
+	<name>C_AUTO_EW_CRUISER</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_AUTO_HUNTER">
+	<name>TB_AUTO_HUNTER_DLC</name>
+	<name>TB_AUTO_HUNTER_DLC</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_C_SHIPS_REBEL_CRUISER">
+	<name>C_REBEL_CRUISER</name>
+	<name>C_REBEL_CRUISER</name>
+
+	<name>C_REBEL_EW_CRUISER</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_C_SHIPS_REBEL_CRUISER_ELITE">
+	<name>C_REBEL_CRUISER_ELITE</name>
+	<name>C_REBEL_CRUISER_ELITE</name>
+
+	<name>C_REBEL_EW_CRUISER_ELITE</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_C_SHIPS_REBEL_CRUISER_ELITE_EXIT">
+	<name>C_REBEL_CRUISER_ELITE</name>
+	<name>C_REBEL_BATTLESHIP_ELITE_EXIT</name>
+
+	<name>C_REBEL_EW_CRUISER_ELITE</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_C_SHIPS_REBEL_CAPITAL_ELITE">
+	<name>C_REBEL_CRUISER_ELITE</name>
+	<name>C_REBEL_BATTLESHIP_ELITE</name>
+	<name>C_REBEL_CRUISER_ELITE</name>
+	<name>C_REBEL_BATTLESHIP_ELITE</name>
+
+	<name>C_REBEL_EW_CRUISER_ELITE</name>
+	<name>C_REBEL_EW_CRUISER_ELITE</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_C_SHIPS_REBEL_GUNBOATS">
+	<name>C_REBEL_CORVETTE</name>
+	<name>C_REBEL_DESTROYER</name>
+
+	<name>C_REBEL_EW_FRIGATE</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_C_SHIPS_REBEL_GUNBOATS_ELITE">
+	<name>C_REBEL_CORVETTE_ELITE</name>
+	<name>C_REBEL_DESTROYER_ELITE</name>
+	<name>C_REBEL_CORVETTE_ELITE</name>
+	<name>C_REBEL_DESTROYER_ELITE</name>
+
+	<name>C_REBEL_EW_FRIGATE_ELITE</name>
+	<name>C_REBEL_EW_FRIGATE_ELITE</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_SHIPS_REBEL_ELITE">
+	<name>C_REBEL_FIGHTER_ELITE</name>
+	<name>C_REBEL_INTERCEPTOR_ELITE</name>
+
+	<name>C_REBEL_SKINNY_ELITE_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_PIRATE_CRUISER">
+	<name>C_PIRATE_CRUISER_STEALTH</name>
+	<name>C_PIRATE_CRUISER_ARTILLERY</name>
+
+	<name>C_PIRATE_CRUISER_EW</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_SHIPS_AUTO">
+	<name>TB_AUTO_SCOUT</name>
+	<name>TB_AUTO_ASSAULT</name> 
+
+	<name>TB_AUTO_INFILTRATOR</name>
+	<name>TB_AUTO_INTERCEPTOR</name>
+	<name>TB_AUTO_BOMBER</name>
+	<name>TB_AUTO_TROOPSHIP</name>
+	<name>TB_AUTO_CARRIER</name>
+
+
+	<name>TB_AUTO_BASIC_DLC</name>
+	<name>TB_AUTO_ASSAULT_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_JELLY">
+	<name>TB_JELLY_INTERCEPTOR</name>
+	<name>TB_JELLY_CRUISER</name>
+	<name>TB_JELLY_ASSAULT</name>
+
+	<name>TB_JELLY_MINER</name>
+	<name>TB_JELLY_INFILTRATOR</name>
+	<name>TB_JELLY_PLEASURE</name>
+	<name>TB_JELLY_BOMBER</name>
+	<name>TB_JELLY_HUNTER</name>
+	<name>TB_JELLY_FIRE</name>
+	<name>TB_JELLY_BARGE</name>
+
+	<name>TB_JELLY_BUTTON_DLC</name>
+	<name>TB_JELLY_CROISSANT_DLC</name>
+	<name>TB_JELLY_TRUFFLE_DLC</name>
+	<name>TB_JELLY_BUTTON_DLC</name>
+	<name>TB_JELLY_CROISSANT_DLC</name>
+	<name>TB_JELLY_TRUFFLE_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_MANTIS">
+	<name>TB_MANTIS_SCOUT</name>
+	<name>TB_MANTIS_FIGHTER</name>
+	<name>TB_MANTIS_BOMBER</name>
+
+	<name>TB_MANTIS_INTERCEPTOR</name>
+	<name>TB_MANTIS_TROOPSHIP</name>
+	<name>TB_MANTIS_HUNTER</name>
+	<name>TB_MANTIS_BARGE</name>
+	<name>CE_MANTIS_MINELAYER</name>
+	<name>TB_MANTIS_GUNBOAT</name>
+
+	<name>TB_MANTIS_SCOUT_DLC</name>
+	<name>TB_MANTIS_FIGHTER_DLC</name>
+	<name>TB_MANTIS_BOMBER_DLC</name>
+	<name>TB_MANTIS_SCOUT_DLC</name>
+	<name>TB_MANTIS_FIGHTER_DLC</name>
+	<name>TB_MANTIS_BOMBER_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_ROCK">
+	<name>TB_ROCK_SCOUT</name>
+	<name>TB_ROCK_FIGHTER</name>
+	<name>TB_ROCK_ASSAULT</name>
+
+	<name>TB_ROCK_MINER</name>
+	<name>TB_ROCK_HUNTER</name>
+	<name>TB_ROCK_BARGE</name>
+	<name>TB_ROCK_TROOPSHIP</name>
+	<name>TB_ROCK_BOMBER</name>
+	<name>CE_ROCK_MINELAYER</name>
+
+	<name>TB_ROCK_SCOUT_DLC</name>
+	<name>TB_ROCK_FIGHT_DLC</name>
+	<name>TB_ROCK_ASSAULT_DLC</name>
+	<name>TB_ROCK_SCOUT_DLC</name>
+	<name>TB_ROCK_FIGHT_DLC</name>
+	<name>TB_ROCK_ASSAULT_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_CE_SHIPS_ROCK_MILITARY">
+	<name>CE_ROCK_CRUISER</name>
+	<name>CE_ROCK_IRONCLAD</name>
+
+	<name>TB_ROCK_FIRESHIP</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_ROCK_PIRATE">
+	<name>TB_ROCK_SCOUT_OUTLAW</name>
+	<name>TB_ROCK_FIGHTER_OUTLAW</name>
+
+	<name>TB_ROCK_MINER_OUTLAW</name>
+	<name>TB_ROCK_HUNTER_OUTLAW</name>
+	<name>TB_ROCK_TROOPSHIP_OUTLAW</name>
+
+	<name>TB_ROCK_SCOUT_DLC_OUTLAW</name>
+	<name>TB_ROCK_FIGHT_DLC_OUTLAW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_CIRCLE">
+	<name>TB_CIRCLE_SCOUT</name>
+	<name>TB_CIRCLE_BOMBER</name>
+
+	<name>TB_CIRCLE_MINER</name>
+	<name>TB_CIRCLE_REPAIR</name>
+	<name>TB_CIRCLE_MEDEVAC</name>
+	<name>TB_CIRCLE_CARRIER</name>
+	<name>TB_CIRCLE_HUNTER</name>
+	<name>TB_CIRCLE_BARGE</name>
+
+	<name>TB_CIRCLE_SCOUT_DLC</name>
+	<name>TB_CIRCLE_BOMBER_DLC</name>
+	<name>TB_CIRCLE_SCOUT_DLC</name>
+	<name>TB_CIRCLE_BOMBER_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_CIRCLE_PIRATE">
+	<name>TB_CIRCLE_SCOUT_OUTLAW</name>
+	<name>TB_CIRCLE_BOMBER_OUTLAW</name>
+
+	<name>TB_CIRCLE_MINER_OUTLAW</name>
+	<name>TB_CIRCLE_REPAIR_OUTLAW</name>
+	<name>TB_CIRCLE_MEDEVAC_OUTLAW</name>
+	<name>TB_CIRCLE_CARRIER_OUTLAW</name>
+
+	<name>TB_CIRCLE_SCOUT_DLC_OUTLAW</name>
+	<name>TB_CIRCLE_BOMBER_DLC_OUTLAW</name>
+	<name>TB_CIRCLE_SCOUT_DLC_OUTLAW</name>
+	<name>TB_CIRCLE_BOMBER_DLC_OUTLAW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_ZOLTAN">
+	<name>TB_ENERGY_FIGHTER</name>
+	<name>TB_ENERGY_BOMBER</name>
+
+	<name>TB_ENERGY_INTERCEPTOR</name>
+	<name>TB_ENERGY_BARGE</name>
+	<name>TB_ENERGY_ASSAULT</name>
+	<name>TB_ENERGY_TROOPSHIP</name>
+	<name>TB_ENERGY_GUNBOAT</name>
+
+	<name>TB_ZOLTAN_BOMBER_DLC</name>
+	<name>TB_ENERGY_FIGHTER_DLC</name>
+	<name>TB_ZOLTAN_BOMBER_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_ZOLTAN_PIRATE">
+	<name>TB_ENERGY_FIGHTER_OUTLAW</name>
+	<name>TB_ENERGY_BOMBER_OUTLAW</name>
+
+	<name>TB_ENERGY_INTERCEPTOR_OUTLAW</name>
+	<name>TB_ENERGY_ASSAULT_OUTLAW</name>
+	<name>TB_ENERGY_TROOPSHIP_OUTLAW</name>
+
+	<name>TB_ZOLTAN_BOMBER_DLC_OUTLAW</name>
+	<name>TB_ENERGY_FIGHTER_DLC_OUTLAW</name>
+	<name>TB_ZOLTAN_BOMBER_DLC_OUTLAW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_CRYSTAL">
+	<name>TB_CRYSTAL_SCOUT</name>
+	<name>TB_CRYSTAL_BOMBER</name>
+
+	<name>TB_CRYSTAL_INTERCEPTOR</name>
+	<name>TB_CRYSTAL_TROOPSHIP</name>
+	<name>TB_CRYSTAL_ASSAULT</name>
+	<name>TB_CRYSTAL_HUNTER</name>
+	<name>TB_CRYSTAL_BARGE</name>
+
+	<name>TB_CRYSTAL_SCOUT_DLC</name>
+	<name>TB_CRYSTAL_BOMBER_DLC</name>
+	<name>TB_CRYSTAL_SCOUT_DLC</name>
+	<name>TB_CRYSTAL_BOMBER_DLC</name>
+</blueprintList>
+  
+  
+
+<blueprintList name="OVERRIDE_SHIPS_CIVILIAN">
+	<name>TB_JELLY_INTERCEPTOR</name>
+	<name>TB_ROCK_SCOUT</name>
+	<name>TB_ROCK_FIGHTER</name>
+	<name>TB_FED_SCOUT</name>
+	<name>TB_FED_BOMBER</name>
+	<name>TB_CIRCLE_SCOUT</name>
+	<name>TB_CIRCLE_BOMBER</name>
+
+	<name>TB_JELLY_MINER</name>
+	<name>TB_ROCK_MINER</name>
+	<name>TB_ROCK_TROOPSHIP</name>
+	<name>TB_FED_MINER</name>
+	<name>TB_FED_ASSAULT</name>
+	<name>TB_FED_MEDEVAC</name>
+	<name>TB_FED_HUNTER</name>
+	<name>TB_CIRCLE_MINER</name>
+	<name>TB_CIRCLE_REPAIR</name>
+	<name>TB_CIRCLE_MEDEVAC</name>
+	<name>TB_CIRCLE_CARRIER</name>
+	<name>TB_CIRCLE_BARGE</name>
+	<name>C_ROCK_CARGO</name>
+	<name>TB_ROCK_FREIGHTER</name>
+	<name>C_FED_CARGO</name>
+	<name>CE_FED_FREIGHTER</name>
+	<name>C_CIRCLE_CARGO</name>
+	<name>CE_CIV_SCOUT</name>
+	<name>CE_CIV_BOMBER</name>
+	<name>CE_CIV_ASSAULT</name>
+	<name>CE_CIV_MEDEVAC</name>
+
+	<name>TB_JELLY_BUTTON_DLC</name>
+	<name>TB_ROCK_SCOUT_DLC</name>
+	<name>TB_ROCK_FIGHT_DLC</name>
+	<name>TB_CIRCLE_SCOUT_DLC</name>
+	<name>TB_CIRCLE_BOMBER_DLC</name>
+
+	<name>TB_CIRCLE_SCOUT_DLC</name>
+	<name>TB_CIRCLE_BOMBER_DLC</name>
+	<name>TB_CIRCLE_SCOUT_DLC</name>
+	<name>TB_CIRCLE_BOMBER_DLC</name>
+	<name>TB_JELLY_BUTTON_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_PIRATE">
+	<name>TB_JELLY_INTERCEPTOR_OUTLAW</name>
+	<name>TB_JELLY_CRUISER_OUTLAW</name>
+	<name>TB_JELLY_ASSAULT_OUTLAW</name> 
+	<name>TB_REBEL_RIGGER_OUTLAW</name>
+	<name>TB_REBEL_FIGHTER_OUTLAW</name>  
+	<name>TB_ROCK_SCOUT_OUTLAW</name>
+	<name>TB_ROCK_FIGHTER_OUTLAW</name>
+	<name>TB_MANTIS_SCOUT_OUTLAW</name>
+	<name>TB_MANTIS_FIGHTER_OUTLAW</name>
+	<name>TB_MANTIS_BOMBER_OUTLAW</name>
+	<name>TB_FED_SCOUT_OUTLAW</name>
+	<name>TB_FED_BOMBER_OUTLAW</name>
+
+	<name>TB_JELLY_MINER_OUTLAW</name>
+	<name>TB_JELLY_PLEASURE_OUTLAW</name>
+	<name>TB_JELLY_BOMBER_OUTLAW</name>
+	<name>TB_JELLY_HUNTER_OUTLAW</name>
+	<name>TB_REBEL_TROOPSHIP_OUTLAW</name>
+	
+	<name>TB_REBEL_INTERCEPTOR_OUTLAW</name>
+	<name>TB_ROCK_MINER_OUTLAW</name>
+	<name>TB_ROCK_TROOPSHIP_OUTLAW</name>
+	<name>TB_MANTIS_INTERCEPTOR_OUTLAW</name>
+	
+	<name>TB_FED_MINER_OUTLAW</name>
+	<name>TB_FED_HUNTER_OUTLAW</name>
+	<name>TB_FED_ASSAULT_OUTLAW</name>
+	<name>TB_FED_MEDEVAC_OUTLAW</name>
+	<name>C_ROCK_CARGO_OUTLAW</name>
+	<name>C_FED_CARGO_OUTLAW</name>
+	<name>C_REBEL_CARGO_OUTLAW</name>
+
+	<name>TB_JELLY_INTERCEPTOR_OUTLAW</name>
+	<name>TB_JELLY_CRUISER_OUTLAW</name>
+	<name>TB_JELLY_ASSAULT_OUTLAW</name> 
+	<name>TB_REBEL_RIGGER_OUTLAW</name>
+	<name>TB_REBEL_FIGHTER_OUTLAW</name>  
+	<name>TB_ROCK_SCOUT_OUTLAW</name>
+	<name>TB_ROCK_FIGHTER_OUTLAW</name>
+	<name>TB_MANTIS_SCOUT_OUTLAW</name>
+	<name>TB_MANTIS_FIGHTER_OUTLAW</name>
+	<name>TB_MANTIS_BOMBER_OUTLAW</name>
+	<name>TB_FED_SCOUT_OUTLAW</name>
+	<name>TB_FED_BOMBER_OUTLAW</name>
+
+	<name>TB_JELLY_MINER_OUTLAW</name>
+	<name>TB_JELLY_PLEASURE_OUTLAW</name>
+	<name>TB_JELLY_BOMBER_OUTLAW</name>
+	<name>TB_JELLY_HUNTER_OUTLAW</name>
+	<name>TB_REBEL_TROOPSHIP_OUTLAW</name>
+
+	<name>TB_REBEL_INFILTRATOR_OUTLAW</name>
+	<name>TB_REBEL_SCOUT_OUTLAW</name>
+	<name>TB_REBEL_TUG_OUTLAW</name>
+
+	<name>TB_REBEL_INTERCEPTOR_OUTLAW</name>
+	<name>TB_ROCK_MINER_OUTLAW</name>
+	<name>TB_ROCK_TROOPSHIP_OUTLAW</name>
+	<name>TB_MANTIS_INTERCEPTOR_OUTLAW</name>
+	
+	<name>TB_FED_MINER_OUTLAW</name>
+	<name>TB_FED_HUNTER_OUTLAW</name>
+	<name>TB_FED_ASSAULT_OUTLAW</name>
+	<name>TB_FED_MEDEVAC_OUTLAW</name>
+	<name>C_ROCK_CARGO_OUTLAW</name>
+	<name>C_FED_CARGO_OUTLAW</name>
+	<name>C_REBEL_CARGO_OUTLAW</name>
+
+
+
+	<name>TB_ENERGY_FIGHTER_OUTLAW</name>
+	<name>TB_ENERGY_BOMBER_OUTLAW</name>
+	<name>TB_CIRCLE_SCOUT_OUTLAW</name>
+	<name>TB_CIRCLE_BOMBER_OUTLAW</name>
+
+	<name>TB_CIRCLE_MINER_OUTLAW</name>
+	<name>TB_CIRCLE_REPAIR_OUTLAW</name>
+	<name>TB_CIRCLE_MEDEVAC_OUTLAW</name>
+	<name>TB_CIRCLE_CARRIER_OUTLAW</name>
+	<name>C_CIRCLE_CARGO_OUTLAW</name>
+	<name>C_ENERGY_FREIGHTER_OUTLAW</name>
+	<name>TB_ENERGY_INTERCEPTOR_OUTLAW</name>
+	<name>TB_ENERGY_ASSAULT_OUTLAW</name>
+	<name>TB_ENERGY_TROOPSHIP_OUTLAW</name>
+	
+	<name>TB_JELLY_BUTTON_DLC_OUTLAW</name>
+	<name>TB_JELLY_CROISSANT_DLC_OUTLAW</name>
+	<name>TB_JELLY_TRUFFLE_DLC_OUTLAW</name> 
+	<name>TB_REBEL_FAT_DLC_OUTLAW</name>
+	<name>TB_REBEL_SKINNY_DLC_OUTLAW</name>  
+	<name>TB_ROCK_SCOUT_DLC_OUTLAW</name>
+	<name>TB_ROCK_FIGHT_DLC_OUTLAW</name>
+	<name>TB_MANTIS_SCOUT_DLC_OUTLAW</name>
+	<name>TB_MANTIS_FIGHTER_DLC_OUTLAW</name>
+	<name>TB_MANTIS_BOMBER_DLC_OUTLAW</name>
+	<name>TB_FED_SCOUT_DLC_OUTLAW</name>
+	<name>TB_FED_BOMBER_DLC_OUTLAW</name>
+	<name>TB_ENERGY_FIGHTER_DLC_OUTLAW</name>
+	<name>TB_ZOLTAN_BOMBER_DLC_OUTLAW</name>
+
+
+
+	<name>TB_JELLY_BUTTON_P</name>
+	<name>TB_JELLY_CROISSANT_P</name>
+	<name>TB_JELLY_TRUFFLE_P</name> 
+	<name>TB_REBEL_FAT_P</name>
+	<name>TB_REBEL_SKINNY_P</name>  
+	<name>TB_ROCK_SCOUT_P</name>
+	<name>TB_ROCK_FIGHT_P</name>
+	<name>TB_MANTIS_SCOUT_P</name>
+	<name>TB_MANTIS_FIGHTER_P</name>
+	<name>TB_MANTIS_BOMBER_P</name>
+	<name>TB_FED_SCOUT_P</name>
+	<name>TB_FED_BOMBER_P</name>
+	<name>TB_ZOLTAN_FIGHTER_P</name>
+	<name>TB_ZOLTAN_BOMBER_P</name> 
+	
+	<name>TB_JELLY_BUTTON_P</name>
+	<name>TB_JELLY_CROISSANT_P</name>
+	<name>TB_JELLY_TRUFFLE_P</name> 
+	<name>TB_REBEL_FAT_P</name>
+	<name>TB_REBEL_SKINNY_P</name>  
+	<name>TB_ROCK_SCOUT_P</name>
+	<name>TB_ROCK_FIGHT_P</name>
+	<name>TB_MANTIS_SCOUT_P</name>
+	<name>TB_MANTIS_FIGHTER_P</name>
+	<name>TB_MANTIS_BOMBER_P</name>
+	<name>TB_FED_SCOUT_P</name>
+	<name>TB_FED_BOMBER_P</name>
+	<name>TB_ZOLTAN_FIGHTER_P</name>
+	<name>TB_ZOLTAN_BOMBER_P</name> 
+	
+	<name>TB_JELLY_BUTTON_P_DLC</name>
+	<name>TB_JELLY_CROISSANT_P_DLC</name>
+	<name>TB_JELLY_TRUFFLE_P_DLC</name> 
+	<name>TB_REBEL_FAT_P_DLC</name>
+	<name>TB_REBEL_SKINNY_P_DLC</name>  
+	<name>TB_ROCK_SCOUT_P_DLC</name>
+	<name>TB_ROCK_FIGHT_P_DLC</name>
+	<name>TB_MANTIS_SCOUT_P_DLC</name>
+	<name>TB_MANTIS_FIGHTER_P_DLC</name>
+	<name>TB_MANTIS_BOMBER_P_DLC</name>
+	<name>TB_FED_SCOUT_P_DLC</name>
+	<name>TB_FED_BOMBER_P_DLC</name>
+	<name>TB_ZOLTAN_FIGHTER_P_DLC</name>
+	<name>TB_ZOLTAN_BOMBER_P_DLC</name>
+</blueprintList>
+
+
+<blueprintList name="OVERRIDE_SHIPS_MILITIA">
+	<name>CE_CIV_SCOUT</name>
+	<name>CE_CIV_BOMBER</name>
+
+	<name>CE_CIV_ASSAULT</name>
+	<name>CE_CIV_MEDEVAC</name>
+	<name>CE_CIV_HUNTER</name>
+	<name>CE_CIV_INFILTRATOR</name>
+	<name>CE_CIV_INTERCEPTOR</name>
+	<name>CE_CIV_ARTILLERY</name>
+	<name>CE_CIV_CRUISER</name>
+	<name>CE_CIV_FIGHTER</name>
+
+	<name>TB_CIV_SCOUT_DLC</name>
+	<name>TB_CIV_BOMBER_DLC</name>
+	<name>TB_CIV_SCOUT_DLC</name>
+	<name>TB_CIV_BOMBER_DLC</name>
+	<name>CE_CIV_EW</name>
+	<name>CE_CIV_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_MILITIA_PIRATE">
+	<name>CE_CIV_SCOUT_OUTLAW</name>
+	<name>CE_CIV_BOMBER_OUTLAW</name>
+
+	<name>CE_CIV_ASSAULT_OUTLAW</name>
+	<name>CE_CIV_MEDEVAC_OUTLAW</name>
+	<name>CE_CIV_HUNTER_OUTLAW</name>
+	<name>CE_CIV_INFILTRATOR_OUTLAW</name>
+	<name>CE_CIV_INTERCEPTOR_OUTLAW</name>
+
+	<name>TB_CIV_SCOUT_DLC_OUTLAW</name>
+	<name>TB_CIV_BOMBER_DLC_OUTLAW</name>
+	<name>TB_CIV_SCOUT_DLC_OUTLAW</name>
+	<name>TB_CIV_BOMBER_DLC_OUTLAW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_QUARANTINE_PATROL">
+	<name>TB_CIRCLE_SCOUT</name>
+	<name>TB_CIRCLE_BOMBER</name>
+	<name>TB_CIRCLE_MEDEVAC</name>
+	<name>TB_CIRCLE_CARRIER</name>
+	<name>TB_ENERGY_FIGHTER</name>
+	<name>TB_ENERGY_BOMBER</name>
+	<name>TB_ENERGY_INTERCEPTOR</name>
+	<name>TB_ENERGY_ASSAULT</name>
+	<name>TB_ENERGY_TROOPSHIP</name>
+
+	<name>TB_CIRCLE_SCOUT_DLC</name>
+	<name>TB_CIRCLE_BOMBER_DLC</name>
+	<name>TB_ENERGY_FIGHTER_DLC</name>
+	<name>TB_ZOLTAN_BOMBER_DLC</name>
+	<name>TB_CIRCLE_SCOUT_DLC</name>
+	<name>TB_CIRCLE_BOMBER_DLC</name>
+	<name>TB_ENERGY_FIGHTER_DLC</name>
+	<name>TB_ZOLTAN_BOMBER_DLC</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_AI">
+	<name>CE_AI_REPAIR</name>
+	<name>CE_AI_INTERCEPTOR</name>
+	<name>CE_AI_BOMBER</name>
+	<name>CE_AI_ASSAULT</name>
+ 
+	<name>CE_AI_INSTIGATOR</name>
+	<name>CE_AI_HACKER</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_C_SHIPS_AUTO_CRUISER_CONSTRUCTION">
+	<name>C_AUTO_CRUISER_MINER</name>
+	<name>C_AUTO_CRUISER_CONSTRUCTOR</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_SHIPS_AUTO_CONSTRUCTION">
+	<name>CE_AUTO_REPAIR</name>
+	<name>CE_AUTO_MINER</name>
+	<name>CE_AUTO_CONSTRUCTOR</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_AUTO_CONSTRUCTION">
+	<name>BS_AUTO_REPAIR</name>
+	<name>BS_AUTO_CONSTRUCTOR</name>
+</blueprintList>
+
+
+<!-- CE BS OVERRIDE STATIONS -->
+ 
+<blueprintList name="OVERRIDE_BS_STATIONS_FED">
+	<name>BS_FED_MEDICAL</name>
+	<name>BS_FED_OUTPOST</name>
+	<name>BS_FED_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_CIV">
+	<name>BS_CIV_MEDICAL</name>
+	<name>BS_CIV_OUTPOST</name>
+	<name>BS_CIV_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_CIV_OUTPOST">
+	<name>BS_CIV_OUTPOST</name>
+	<name>BS_CIV_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_FED_AUTO">
+	<name>BS_AUTO_MEDICAL</name>
+	<name>BS_AUTO_OUTPOST</name>
+	<name>BS_FED_AUTO_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_PIRATE">
+	<name>BS_OUTLAW_BLACKMARKET</name>
+	<name>BS_OUTLAW_OUTPOST</name>
+	<name>BS_OUTLAW_CHECKPOINT</name>
+	<name>BS_OUTLAW_CHECKPOINT</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_AUTO_TURRET">
+	<name>BS_AUTO_TURRET</name>
+	<name>BS_AUTO_DRONE</name>
+	<name>BS_AUTO_CHECKPOINT</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_AUTO_SUICIDE">
+	<name>BS_AUTO_SATELLITE</name>
+	<name>BS_AUTO_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_REBEL">
+	<name>BS_REBEL_OUTPOST</name>
+	<name>BS_REBEL_SUPPLY</name>
+	<name>BS_REBEL_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_ROCK_OUTPOST">
+	<name>BS_ROCK_OUTPOST</name>
+	<name>BS_ROCK_CHECKPOINT</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_ENGI_DRONE">
+	<name>BS_CIRCLE_DRONE</name>
+	<name>BS_CIRCLE_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_ENGI_MANTIS_CONTROLLED">
+	<name>BS_CIRCLE_MEDICAL</name>
+	<name>BS_CIRCLE_DRONE</name>
+	<name>BS_CIRCLE_EW</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_MANTIS">
+	<name>BS_MANTIS_HIVE</name>
+	<name>BS_MANTIS_OUTPOST</name>
+	<name>BS_MANTIS_BROOD</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_ZOLTAN">
+	<name>BS_ENERGY_OUTPOST</name>
+	<name>BS_ENERGY_SHIELD</name>
+	<name>BS_ENERGY_CHECKPOINT</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_SLUG">
+	<name>BS_JELLY_BLACKMARKET</name>
+	<name>BS_JELLY_CHECKPOINT</name>
+</blueprintList>
+
+<blueprintList name="OVERRIDE_BS_STATIONS_AI">
+	<name>BS_AI_OUTPOST</name>
+	<name>BS_AI_TECH_STATION</name>
+</blueprintList>
+
+<!-- END OF CE BS OVERRIDE STATIONS -->
+
+
+
+<!--
+Overwritten player ships!
+-->
+
+
+<shipBlueprint name="PLAYER_SHIP_HARD_3" layout="kestral_3" img="kestral_3">
+	<class>Kestrel Cruiser</class>
+	<name>The Swallow</name>
+	<desc>This model was modified by pirates to utilize newly discovered technology. It can clone lost crewmembers and stun enemies.</desc>
+	<unlock>Get to Sector 8 with the Kestrel Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+	<systemList>
+		<pilot power="1" room="11" start="true" img="room_pilot"> 
+			<slot>
+				<direction>right</direction>
+				<number>0</number> 
+			</slot>
+		</pilot>
+		<doors power="1" room="10" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number> 
+			</slot>
+		</doors>
+		<sensors power="2" room="13" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number> 
+			</slot>
+		</sensors>  
+		<medbay power="1" room="9" start="false" img="room_medbay_8">  <!--F-->
+			<slot>
+				<number>1</number> 
+			</slot>
+		</medbay>
+		<clonebay power="1" room="9" start="true"> 
+			<slot>
+				<number>1</number> 
+			</slot>
+		</clonebay>
+		<oxygen power="1"  room="7" start="true" img="room_oxygen_10"/>
+		<shields power="2" room="12" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number> 
+			</slot>
+		</shields>
+		<engines power="2" room="5" start="true" img="room_engines"/>
+		<weapons power="2" room="2" start="true" img="room_weapons_2"/>
+		<drones power="2" room="6" start="false" img="room_drones_13"/>  
+		<teleporter power="1" room="4"	start="false"/>  
+		<cloaking power="1" room="1" start="false" img="room_cloaking_3"/>  
+		<battery power="1" room="8" start="false" img="room_battery_6"/>    
+		<mind power="1" room="16" start="false" img="room_mind_1"/>  
+		<hacking power="1" room="14" start="false" img="room_hacking"> 
+			<slot>
+				<direction>down</direction>
+				<number>0</number> 
+			</slot>
+		</hacking>
+		<artillery power="1" room="18" start="false" weapon="BA_ARTILLERY_KESTREL" img="room_artillery_green_2x1" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList count="2" missiles="4">
+		<weapon name="BA_SHOTGUN_SMALL"/>
+		<weapon name="BA_BEAM_BATON"/>
+	</weaponList>
+	<droneList count="0" drones="3">
+	</droneList>
+	<health amount="30"/>
+	<maxPower amount ="7"/> 
+	<crewCount amount = "1" class="human"/>
+	<crewCount amount = "1" class="anaerobic"/>
+	<crewCount amount = "1" class="human"/>
+	<aug name="AE_BOUNTYHUNTER"/>
+	<shieldImage>kestral</shieldImage>
+	<cloakImage>kestral</cloakImage>
+	<floorImage>kestral_3</floorImage>
+</shipBlueprint>
+
+
+
+<shipBlueprint name="PLAYER_SHIP_CIRCLE_3" layout="circle_cruiser_3" img="circle_cruiser_3">
+	<class>Engi Cruiser</class>
+	<name>Tetragon</name>
+	<unlock>Get to Sector 8 with the Engi Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+	<desc>The Engi were quick to adapt to the sudden surge of hacking technology - this science vessel is the result of their efforts.</desc>
+	<systemList>  
+		<pilot power="1" room="14" start="true"/>    
+		<doors power="1" room="16" start="true" img="room_doors_2">
+			<slot>
+				<direction>down</direction>
+				<number>0</number> 
+			</slot>
+		</doors>
+		<sensors power="1" room="13" start="true" img="room_sensors_2">
+			<slot>
+				<direction>up</direction>
+				<number>0</number> 
+			</slot>
+		</sensors>  
+		<oxygen power="1" room="0" start="true" img="room_oxygen_13"/>
+		<engines power="2" room="10" start="true" img="room_engines_2"> 
+			<slot>
+				<direction>down</direction>
+				<number>1</number> 
+			</slot>
+		</engines>  
+		<shields power="2" room="8" start="true" img="room_shields_4"/> 
+		<weapons power="2" room="6" start="true"/> 
+		<drones power="2" room="7" start="true" img="room_drones_9"/> 
+		<medbay power="1" room="11" start="false" img="room_medbay_9">  
+			<slot>
+				<number>-2</number> 
+			</slot>
+		</medbay>   
+		<clonebay power="1" room="11" start="true"/>   
+		<teleporter power="1" room="4" start="false"/>
+		<cloaking power="1" room="1" start="false" img="room_cloaking_4"/> 
+		<battery power="1" room="2" start="false" img="room_battery_17"/> 
+		<mind power="1" room="3" start="false" img="room_mind_12"/> 
+		<hacking power="1" room="5" start="true" img="room_hacking_5"> 
+			<slot>
+				<direction>down</direction>
+				<number>0</number> 
+			</slot>
+		</hacking>
+		<artillery power="1" room="9" start="false" weapon="BA_ARTILLERY_CIRCLE" img="room_artillery_blue_2x1right"/>
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList count="2" missiles="0">
+		<weapon name="BA_LASER_BURST_1_2"/>
+		<weapon name="BA_LASER_BURST_1_2"/>
+	</weaponList>
+	<droneList count="1" drones="25">
+		<drone name="DE_DRONE_STEALTH_BEAM_1"/>
+	</droneList>
+	<health amount="30"/>
+	<maxPower amount ="9"/> 
+	<crewCount amount = "1" class="anaerobic"/>
+	<crewCount amount = "2" class="engi"/>
+	<aug name="AE_SCIENCE"/>
+	<shieldImage>circle_cruiser</shieldImage>
+	<cloakImage>circle_cruiser</cloakImage>
+	<floorImage>circle_cruiser_3</floorImage>
+</shipBlueprint>
+
+
+
+<shipBlueprint name="PLAYER_SHIP_FED_3" layout="fed_cruiser_3" img="fed_cruiser_3">
+	<class>Federation Cruiser</class>
+	<name>The Fregatidae</name>
+	<unlock>Get to Sector 8 with the Federation Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+	<desc>With a Flak Artillery weapon and an improved Clonebay, only the most suicidal of infantry chooses to fly on this requisition ship.</desc>
+	<systemList>
+		<pilot power="1" room="6" start="true"/>  
+		<doors power="1" room="13" start="true" img="room_doors">
+			<slot>
+				<direction>up</direction>
+				<number>1</number> 
+			</slot>
+		</doors>
+		<sensors power="1" room="10" start="true">
+			<slot>
+				<direction>down</direction>
+				<number>1</number> 
+			</slot>
+		</sensors>     
+		<oxygen power="1" room="12" start="true" img="room_oxygen_2"/>
+		<engines power="2" room="5" start="true" img="room_engines_8">
+			<slot>
+				<direction>left</direction>
+				<number>1</number> 
+			</slot>
+		</engines>     
+		<shields power="2" room="15" start="true"/>
+		<weapons power="1" room="11" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number> 
+			</slot>
+		</weapons>     
+		<drones power="2" room="17" start="false" img="room_drones_3"/> 
+		<medbay power="1" room="1" start="false"/>  
+		<clonebay power="2" room="1" start="true"/>  
+		<teleporter power="1" room="8" start="true"/>  
+		<artillery power="1" room="9" weapon="ARTILLERY_FED_C"/>
+		<cloaking power="1" room="4" start="false" img="room_cloaking_3"/>   
+		<battery power="1" room="7" start="false" img="room_battery_16"/>  
+		<mind power="1" room="16" start="false" img="room_mind_3"/> 
+		<hacking power="1" room="2" start="false" img="room_hacking_9"> 
+			<slot>
+				<direction>left</direction>
+				<number>0</number> 
+			</slot>
+		</hacking> 
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList count="3" missiles="5">
+		<weapon name="BA_LASER_LIGHT_1"/>
+	</weaponList>
+	<droneList drones="0"/>
+	<health amount="30"/>
+	<maxPower amount ="7"/> 
+	<crewCount amount = "1" class="human"/>
+	<crewCount amount = "2" class="energy"/>
+	<crewCount amount = "1" class="mantis"/>
+	<aug name="AE_REQUISITION"/>
+	<shieldImage>fed_cruiser</shieldImage>
+	<cloakImage>fed_cruiser</cloakImage>
+	<floorImage>fed_cruiser_3</floorImage>
+</shipBlueprint>
+
+
+
+
+
+<shipBlueprint name="PLAYER_SHIP_JELLY_3" layout="jelly_cruiser_3" img="jelly_cruiser_3">
+	<class>Slug Cruiser</class>
+	<name>Ariolimax</name>
+	<unlock>Get to Sector 8 with the Slug Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+	<desc>Slugs are often skilled in the arts of misdirection and manipulation. With Hacking and Mind Control systems, this ship capitalizes on that fact.</desc>
+	<systemList>
+		<pilot power="1" room="8" start="true"/>  
+		<doors power="2" room="10" start="true" img="room_doors_9">
+			<slot>
+				<direction>right</direction>
+				<number>1</number> 
+			</slot>
+		</doors>
+		<oxygen power="1" room="3" start="true" img="room_oxygen_2"/>
+		<engines power="2" room="6" start="true" img="room_engines_2"/>  
+		<shields power="2" room="7" start="true" img="room_shields_7">
+			<slot>
+				<direction>up</direction>
+				<number>1</number> 
+			</slot>
+		</shields>    
+		<weapons power="3" room="9" start="true" img="room_weapons_5">
+			<slot>
+				<direction>right</direction>
+				<number>1</number> 
+			</slot>
+		</weapons>   
+		<medbay power="1" room="15" start="false" img="room_medbay_9"/>  
+		<clonebay power="1" room="15" start="true">  
+			<slot>
+				<number>1</number> 
+			</slot>
+		</clonebay>   
+		<sensors power="1" room="5" start="false" img="room_sensors_3">
+			<slot>
+				<direction>right</direction>
+				<number>1</number> 
+			</slot>
+		</sensors>  
+		<drones power="2" room="13" start="false" img="room_drones_15"/>  
+		<teleporter power="1" room="11" start="false"/>  
+		<cloaking power="1" room="1" start="false" img="room_cloaking_3"/>  
+		<battery power="1" room="4" start="false" img="room_battery_10"/> 
+		<mind power="1" room="0" start="true" img="room_mind_5"/>  
+		<hacking power="1" room="12" start="true" img="room_hacking_8"> 
+			<slot>
+				<direction>up</direction>
+				<number>0</number> 
+			</slot>
+		</hacking>
+		<artillery power="1" room="14" start="false" weapon="BA_ARTILLERY_SLUG_C" img="room_artillery_yellow_2x1" /> 
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList count="1" missiles="1">
+		<weapon name="BA_LASER_CHARGEGUN_HEAVY"/>
+	</weaponList>
+	<droneList drones="15"/>
+	<aug name="SLUG_GEL"/>
+	<health amount="30"/>
+	<maxPower amount ="10"/> 
+	<crewCount amount = "3" class="slug"/>
+	<shieldImage>jelly_cruiser</shieldImage>
+	<cloakImage>jelly_cruiser</cloakImage>
+	<floorImage>jelly_cruiser_3</floorImage>
+</shipBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_STEALTH_3" layout="stealth_3" img="stealth_3">
+	<class>Stealth Cruiser</class>
+	<name>Simo-H</name>
+	<unlock>Get to Sector 8 with the Stealth Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+	<desc>This ship was part of an Engi experiment to make a power efficient version of the Zoltan shield. Unfortunately this required the removal of the Cloaking system.</desc>
+	<systemList>
+		<pilot power="1" room="8" start="true"/>
+		<doors power="1" room="9" start="true" img="room_doors_2">
+			<slot>
+				<direction>down</direction>
+				<number>0</number> 
+			</slot>
+		</doors> 
+		<sensors power="1" room="4" start="false" img="room_sensors_2">
+			<slot>
+				<direction>up</direction>
+				<number>0</number> 
+			</slot>
+		</sensors>
+		<oxygen power="1" room="1" start="true" img="room_oxygen_2"/>
+		<engines power="3" room="5" start="true" img="room_engines"/>
+		<shields power="2" room="6" start="false" img="room_shields_7"> 
+			<slot>
+				<direction>up</direction>
+				<number>1</number> 
+			</slot>
+		</shields>  
+		<weapons power="3" room="3" start="true" img="room_weapons_5"> 
+			<slot>
+				<direction>right</direction>
+				<number>1</number> 
+			</slot>
+		</weapons>  
+		<drones power="3" room="11" start="true" img="room_drones_4"/>
+		<medbay power="1" room="0" start="false" img="room_medbay_4"> 
+			<slot>
+				<number>0</number> 
+			</slot>
+		</medbay>    
+		<clonebay power="1" room="0" start="true">
+			<slot>
+				<number>0</number> 
+			</slot>
+		</clonebay>    
+		<teleporter power="1" room="10" start="false"/> 
+		<cloaking power="1" room="12" start="false" img="room_cloaking_11"/>
+		<hacking power="1" room="13" start="false" img="room_hacking">
+			<slot>
+				<direction>down</direction>
+				<number>0</number> 
+			</slot>
+		</hacking>  
+		<battery power="1" room="2" start="false" img="room_battery_15"/>
+		<mind power="1" room="7" start="false" img="room_mind_5"/>
+		<artillery power="1" room="14" start="false" weapon="BA_ARTILLERY_STEALTH" img="room_artillery_grey_1x2right" />
+	</systemList>
+	<weaponList count="2" missiles="0">
+		<weapon name="BA_LASER_CHARGEGUN_MEDIUM"/>
+		<weapon name="BA_BEAM_ADAPTIVE_1"/>
+	</weaponList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<aug name="ADV_SCANNERS"/>
+	<aug name="AE_FIREWALL"/>
+	<droneList count="2" drones="16">
+		<drone name="DE_DRONE_SHIELD_BIG"/>
+		<drone name="DE_ANTI_DRONE_EFFECTOR"/>
+	</droneList>
+	<health amount="30"/>
+	<maxPower amount ="10"/> 
+	<crewCount amount = "1" class="human"/>
+	<crewCount amount = "1" class="rock"/>
+	<crewCount amount = "1" class="slug"/>
+	<shieldImage>stealth</shieldImage>
+	<cloakImage>stealth</cloakImage>
+	<floorImage>stealth_3</floorImage>
+</shipBlueprint> 
+
+
+
+<shipBlueprint name="PLAYER_SHIP_ENERGY_3" layout="energy_cruiser_3" img="energy_cruiser_3">
+	<class>Zoltan Cruiser</class>
+	<name>Cerenkov</name>
+	<unlock>Get to Sector 8 with the Zoltan Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+	<desc>The designer of this factory ship was not willing to spend the money for a decent reactor. Instead it relies on its Zoltan crew and Backup Battery.</desc>
+	<systemList>
+		<pilot power="1" room="8" start="true"/>  
+		<doors power="1" room="17" start="true" img="room_doors_2">
+			<slot>
+				<direction>down</direction>
+				<number>0</number> 
+			</slot>
+		</doors>   
+		<sensors power="1" room="16" start="true">
+			<slot>
+				<direction>down</direction>
+				<number>1</number> 
+			</slot>
+		</sensors>   
+		<oxygen power="1" room="3" start="true" img="room_oxygen_2"/>    
+		<engines power="2" room="0" start="true" img="room_engines_5">    
+			<slot>
+				<direction>up</direction>
+				<number>0</number> 
+			</slot>
+		</engines>     
+		<shields power="2" room="1" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number> 
+			</slot>
+		</shields>     
+		<weapons power="2" room="2" start="true" img="room_weapons"/>  
+		<drones power="3" room="14" start="true" img="room_drones_5"/>    
+		<medbay power="1" room="11" start="false" img="room_medbay_4"> 
+			<slot>
+				<number>0</number> 
+			</slot>
+		</medbay>    
+		<clonebay power="1" room="11" start="true"> 
+			<slot>
+				<number>0</number> 
+			</slot>
+		</clonebay>    
+		<teleporter power="1" room="13" start="false"/>  
+		<cloaking power="1" room="9" start="false" img="room_cloaking_3"/> 
+		<battery power="2" room="4" start="true" img="room_battery_9"/>  
+		<mind power="1" room="12" start="false" img="room_mind_5"/>  
+		<hacking power="1" room="6" start="false" img="room_hacking_7"> 
+			<slot>
+				<direction>left</direction>
+				<number>0</number> 
+			</slot>
+		</hacking> 
+		<artillery power="1" room="10" start="false" weapon="BA_ARTILLERY_CIRCLE_2" img="room_artillery_orange_1x2right" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList count="2" missiles="2">
+		<weapon name="BA_ION_BURST_1_STUN"/>
+		<weapon name="BA_ION_BURST_1_STUN"/>
+	</weaponList>
+	<droneList count="1" drones="15">
+		<drone name="DE_DRONE_HULL_BEAM"/>
+	</droneList>
+	<health amount="30"/>
+	<maxPower amount ="2"/> 
+	<crewCount amount = "4" class="energy"/>
+	<aug name="ENERGY_SHIELD"/>
+	<aug name="AE_PRODUCTION"/>
+	<shieldImage>energy_cruiser</shieldImage>
+	<cloakImage>energy_cruiser</cloakImage>
+	<floorImage>energy_cruiser_3</floorImage>
+</shipBlueprint>
+		
+		
+		
+<shipBlueprint name="PLAYER_SHIP_ROCK_3" layout="rock_cruiser_3" img="rock_cruiser_3">
+	<class>Rock Cruiser</class>
+	<name>Tektite</name>
+	<unlock>Get to Sector 8 with the Rock Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+	<desc>Contact has been made with the Crystalline race and this cruiser was offered to the Federation as part of diplomatic discussions between the sister species.</desc>
+	<systemList>
+		<pilot power="1" room="4" start="true"/>  
+		<doors power="1" room="6" start="true" img="room_doors_8">
+			<slot>
+				<direction>left</direction>
+				<number>0</number> 
+			</slot>
+		</doors>    
+		<sensors power="1" room="10" start="true" img="room_sensors_4">
+			<slot>
+				<direction>left</direction>
+				<number>1</number> 
+			</slot>
+		</sensors>  
+		<oxygen power="1" room="7" start="true" img="room_oxygen_13"/>    
+		<engines power="2" room="8" start="true"/>  
+		<shields power="2" room="12" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number> 
+			</slot>
+		</shields>      
+		<weapons power="3" room="0" start="true" img="room_weapons">
+			<slot>
+				<direction>up</direction>
+				<number>1</number> 
+			</slot>
+		</weapons>     
+		<drones power="2" room="11" start="false" img="room_drones_14"/>     
+		<medbay power="1" room="13" start="false" img="room_medbay_6">  
+			<slot>
+				<number>-2</number> 
+			</slot>
+		</medbay>        
+		<clonebay power="1" room="13" start="true"> 
+			<slot>
+				<number>0</number> 
+			</slot>
+		</clonebay>        
+		<teleporter power="1" room="15" start="false"/>  
+		<cloaking power="1" room="2" start="false" img="room_cloaking_3"/>    
+		<battery power="1" room="16" start="false" img="room_battery_14"/>  
+		<mind power="1" room="5" start="false" img="room_mind_4"/>  
+		<hacking power="1" room="9" start="false" img="room_hacking_7"> 
+			<slot>
+				<direction>up</direction>
+				<number>0</number> 
+			</slot>
+		</hacking> 
+		<artillery power="1" room="3" start="false" weapon="BA_ARTILLERY_CRYSTAL" img="room_artillery_blue_1x2up" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList count="3" missiles="20">
+		<weapon name="BA_CRYSTAL_HEAVY_LOCKDOWN_1"/>
+		<weapon name="BA_CRYSTAL_HEAVY_LOCKDOWN_1"/>
+		<weapon name="BA_MISSILE_CHARGEGUN_SMALL"/>
+	</weaponList>
+	<droneList count="0" drones="0">
+	</droneList>
+	<health amount="30"/>
+	<maxPower amount ="8"/> 
+	<crewCount amount = "2" class="rock"/>
+	<crewCount amount = "1" class="crystal"/>
+	<aug name="CRYSTAL_SHARDS"/>
+	<shieldImage>rock_cruiser</shieldImage>
+	<cloakImage>rock_cruiser</cloakImage>
+	<floorImage>rock_cruiser_3</floorImage>
+</shipBlueprint>
+
+
+
+<shipBlueprint name="PLAYER_SHIP_MANTIS_3" layout="mantis_cruiser_3" img="mantis_cruiser_3"> 
+	<class>Mantis Cruiser</class>
+	<name>The Theseus</name>
+	<unlock>Get to Sector 8 with the Mantis Cruiser Type B and Advanced Mode enabled to unlock this ship.</unlock>
+	<desc>With a large teleporter and weapons designed to impede enemy crew, this pirateer is deadly in the hands of a capable boarding party.</desc>
+	<systemList>
+		<pilot power="1" room="7" start="true" img="room_pilot_4"/>
+		<doors power="1" room="9" start="true">
+			<slot>
+				<direction>up</direction>
+				<number>1</number> 
+			</slot>
+		</doors>
+		<sensors power="1" room="10" start="true">
+			<slot>
+				<direction>down</direction>
+				<number>1</number> 
+			</slot>
+		</sensors>   
+		<oxygen power="1" room="5" start="true" img="room_oxygen_12"/>
+		<shields power="2" room="6" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number> 
+			</slot>
+		</shields>   
+		<engines power="2" room="0" start="true" img="room_engines_2"/>
+		<weapons power="2" room="12" start="true" img="room_weapons_9"/>
+		<drones power="2" room="16" start="false" img="room_drones_11"/>
+		<medbay power="1" room="3" start="false"/>
+		<clonebay power="2" room="3" start="true"/>
+		<teleporter power="1" room="15" start="true"/>
+		<cloaking power="1" room="13" start="false" img="room_cloaking_10"/>
+		<battery power="1" room="11" start="false" img="room_battery_8"/> 
+		<mind power="1" room="8" start="false" img="room_mind_4"/>
+		<hacking power="1" room="2" start="false" img="room_hacking_6">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</hacking>
+		<artillery power="1" room="17" start="false" weapon="BA_ARTILLERY_MANTIS" img="room_artillery_orange_2x2" />
+	</systemList>
+	<weaponList count="2" missiles="20">
+		<weapon name="BA_BOMB_LOCK_2"/>
+		<weapon name="BA_BOMB_CLUSTER_STUN"/>
+	</weaponList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<aug name="CREW_STIMS"/>
+	<health amount="30"/>
+	<maxPower amount ="8"/> 
+	<crewCount amount = "1" class="engi"/>
+	<crewCount amount = "1" class="mantis"/>
+	<crewCount amount = "1" class="anaerobic"/>
+	<shieldImage>mantis_cruiser</shieldImage>
+	<cloakImage>mantis_cruiser</cloakImage>
+	<floorImage>mantis_cruiser_3</floorImage>
+</shipBlueprint> 
+
+
+

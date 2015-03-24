@@ -990,8 +990,10 @@
 				</event>
 			</choice>
 			<choice>
-				<text>Open fire on your defeated opponent.</text>
-				<event load="CE_SURRENDER_SHIP_ATTACK"/>
+				<text>Ignore him and attack.</text>
+				<event>
+					<text>"No, wait..." You cut the transmission and continue the assault.</text>
+				</event>
 			</choice>
 		</event>
 	</choice>
@@ -5657,11 +5659,7 @@
 
 <eventList name="DISTRESS_QUARANTINE_PLANET_LIST_SAFE">
 	<event>
-		<text>Your crew teams up with the local forces, but the outbreak seems bigger than first thought. The disease has spread through the suburbs and the governor decides to bomb parts of the city. One of your team gets lost in the narrow streets, you fail to evacuate the crewman in time.</text>
-		<removeCrew>
-			<clone>true</clone>
-			<text>Your bombarded crewmembers body is reformed in the clonbay. They appologize for their failure and promise to do better next time.</text>
-		</removeCrew>
+		<text>Your crew teams up with the local forces, but the outbreak seems bigger than first thought. The disease has spread through the suburbs and the governor decides to bomb parts of the city. Your crews advanced gear allows them to evacuate just in time.</text>
 	</event>
 	<event>
 		<text>Your crew teams up with the local anti-zombie squad leader, but the outbreak seems bigger than first thought. The disease has spread through the suburbs and the governor decides to bomb parts of the city. You swoop down and evacuate your crew.</text>

@@ -1,6 +1,25 @@
 
 
 
+<eventList name="NO_FUEL">
+	<event load="FUEL_FLEET_DELAY"/>
+	
+	<event load="FUEL_NOTHING"/>
+	<event load="FUEL_NOTHING"/>
+	<event load="FUEL_NOTHING"/>
+	<event load="FUEL_NOTHING"/>
+	
+	<event load="FUEL_TRADER"/>
+	<event load="FUEL_EXPLORE"/>
+	<event load="FUEL_APPROACH"/>
+	<event load="FUEL_OFF_ENGI_DUBIOUS"/>
+	<event load="FUEL_OFF_ROCK_WRECK"/>
+	
+	<event load="NO_FUEL_REFUGEE_FRIENDLY"/> <!-- DLC - below -->
+
+	<event load="CE_FUEL_CREW_FOR_FUEL"/>
+	<event load="C_FUEL_REBEL_GUNBOAT"/>
+</eventList>
 
 
 <!-- CE MODIFIED VANILLA FUEL EVENTS -->
@@ -3002,5 +3021,75 @@
 		
 
 
+<event name="CE_FUEL_CREW_FOR_FUEL" unique="true">   
+	<text>Dead in space, you detect a Slug ship on a slow approaches course. They message: "We have a lotss of fuel! Perhapssss we can help you, for the moderate price of a life. We need fresh mindss for our experimentsss."</text>
+	<choice hidden="true"> 
+		<text>Ask if someone would volunteer to leave the ship in exchange for fuel. [ Fuel: +20 ]</text>
+		<event>
+			<text>One off your crewmembers sacrifices himself for the good of the mission. You try to not think about the hiddeous fate might await them.</text>
+			<crewMember amount="-1"/>
+			<item_modify>
+				<item type="fuel" min="20" max="20"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice>
+		<text>Tell them that you won't offer a crew member for the sake of the ship.</text>
+		<event>
+			<text>"As you whissh." The slugs sends out a signal that points the fleet to your position and head off.</text>
+			<modifyPursuit amount="1"/>
+		</event>
+	</choice>
+</event>
+
+
+<event name="C_FUEL_REBEL_GUNBOAT">
+	<text>It appear the Rebels realized that you are dead in the water, they sent a fast-mover patrol craft ahead to deal with you. Battle stations!</text> 
+	<ship load="C_REBEL_GUNBOAT_FUEL" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+</event>
 
 <!-- END OF CE MODIFIED VANILLA FUEL EVENTS -->
