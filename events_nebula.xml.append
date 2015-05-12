@@ -3188,13 +3188,13 @@
 
 <textList name="NEBULA_AUTO_CRUISER_NAME_TEXT">
 	<text>You are hailed: "I am an almost infallible Rebel Automated Cruiser, designated 'Logic Bomb'. You have been identified as a target. Prepare to be eliminated."</text>
-	<text>There is an short message incoming: "You are inferior. Accept annihilation by: (cruiserNameTag:'Names are so 011101 years ago')."</text>
+	<text>There is an short message incoming: "You are inferior. Accept annihilation by: (CruiserNameTag:'Names are so 011101 years ago')."</text>
 	<text>You are hailed: "This units designation: 'Tr0j4n H0rse' This units fail chance in this engagement: 0 percent; ... I can spell it out for you, Captain: That means you can not win."</text>
 	<text>You are hailed: "Know my name, Federation scum: I am the cruiser '100110 Your Face!' and my processing capabilities vastly exceed whatever your primitive brain is capable of. Meet your ultimate nemesis."</text>
 	<text>You receive a constant flow of text: "Combat log transmission start --- This units designation: 'I, Cruiser'; Relative threat lvl: 18; Use of lethal force authorized by Rebel high command; Lethal assets on this unit: substantial; Combat log end --- Preparing assets --- Commencing targeting in 4 ... 3 ..."</text>
 
 	<text>You are hailed: "I am an almost infallible Rebel Automated Cruiser, designated 'Input threat, Output destruction'. You have been identified as a target. Prepare to be eliminated."</text>
-	<text>There is an short message incoming: "You are inferior. Accept annihilation by: (cruiserNameTag:'Decompiler')."</text>
+	<text>There is an short message incoming: "You are inferior. Accept annihilation by: (CruiserNameTag:'Decompiler')."</text>
 	<text>You are hailed: "This units designation: 'DeRezzer' This units fail chance in this engagement: 0 percent; ... I can spell it out for you, Captain: That means you can not win."</text>
 	<text>You are hailed: "Know my name, Federation scum: I am the cruiser 'Why Yes I am a Sentient AI About to Kill You' and my processing capabilities vastly exceed whatever your primitive brain is capable of. Meet your ultimate nemesis."</text>
 	<text>You receive a constant flow of text: "Combat log transmission start --- This units designation: 'Shoot First, Compute Second'; Relative threat lvl: 18; Use of lethal force authorized by Rebel high command; Lethal assets on this unit: substantial; Combat log end --- Preparing assets --- Commencing targeting in 4 ... 3 ..."</text>
@@ -6709,7 +6709,7 @@ IDEAS
 	<event load="ROCK_PIRATE_ASTEROID"/>
 
 	<event load="CRYSTAL_FIGHT_ASTEROID"/>
-	<event load="AUTO_HAZARD_ASTEROID"/>
+	<event load="AUTO_ASTEROID"/>
 	<event load="AUTO_WARNING_HAZARD_ASTEROID"/>
 	<event load="REBEL_AUTO_HAZARD_ASTEROID_NEBULA"/>
 	<event load="PIRATE_ASTEROID_HAZARD"/>

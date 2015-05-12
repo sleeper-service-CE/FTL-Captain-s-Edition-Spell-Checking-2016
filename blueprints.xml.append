@@ -879,14 +879,14 @@
 	<type>LASER</type>
 	<title>Standard Heavy Burst Laser</title>
 	<short>Standard</short>
-	<desc>This widely used artillery weapon fires a powerful barrage, but can't be aimed manually. 40 seconds base cooldown.</desc>
-	<tooltip>Heavy artillery laser that automatically fires 3 projectiles that do 2 damage each. 40 seconds base cooldown. [WARNING: Loading the game won't work with this installed. You'll have to finish this run in one go.]</tooltip>
+	<desc>This widely used artillery weapon fires a powerful barrage, but can't be aimed manually. 30 seconds base cooldown.</desc>
+	<tooltip>Heavy artillery laser that automatically fires 3 projectiles that do 2 damage each. 30 seconds base cooldown. [WARNING: Loading the game won't work with this installed. You'll have to finish this run in one go.]</tooltip>
 	<damage>2</damage>
 	<shots>3</shots>
 	<sp>0</sp>
 	<fireChance>3</fireChance>
 	<breachChance>3</breachChance>
-	<cooldown>40</cooldown>
+	<cooldown>30</cooldown>
 	<power>1</power>
 	<cost>55</cost>
 	<bp>6</bp>
@@ -917,14 +917,14 @@
 	<type>LASER</type>
 	<title>Standard Heavy Burst Laser</title>
 	<short>Standard</short>
-	<desc>This widely used artillery weapon fires a powerful barrage, but can't be aimed manually. 40 seconds base cooldown.</desc>
-	<tooltip>Heavy artillery laser that automatically fires 3 projectiles that do 2 damage each. 40 seconds base cooldown. [WARNING: Loading the game won't work with this installed. You'll have to finish this run in one go.]</tooltip>
+	<desc>This widely used artillery weapon fires a powerful barrage, but can't be aimed manually. 30 seconds base cooldown.</desc>
+	<tooltip>Heavy artillery laser that automatically fires 3 projectiles that do 2 damage each. 30 seconds base cooldown. [WARNING: Loading the game won't work with this installed. You'll have to finish this run in one go.]</tooltip>
 	<damage>2</damage>
 	<shots>3</shots>
 	<sp>0</sp>
 	<fireChance>3</fireChance>
 	<breachChance>3</breachChance>
-	<cooldown>40</cooldown>
+	<cooldown>30</cooldown>
 	<power>1</power>
 	<cost>55</cost>
 	<bp>6</bp>
@@ -1021,13 +1021,13 @@
 	<title>Tool XL Industrial Beam</title>
 	<short>Tool</short>
 	<desc>Heavy duty industrial beam that can keep the enemy constantly under fire. 20 seconds base cooldown.</desc>
-	<tooltip>Simple beam artillery that automatically fires a 1 damage beam. 20 seconds base cooldown. [WARNING: Loading the game won't work with this installed. You'll have to finish this run in one go.]</tooltip>
+	<tooltip>Simple beam artillery that automatically fires a 1 damage beam. 40 seconds base cooldown. [WARNING: Loading the game won't work with this installed. You'll have to finish this run in one go.]</tooltip>
 	<damage>1</damage>
 	<sp>0</sp>
 	<fireChance>1</fireChance>
 	<breachChance>0</breachChance>
 	<speed>1</speed>
-	<cooldown>20</cooldown>
+	<cooldown>40</cooldown>
 	<power>1</power>
 	<cost>50</cost>
 	<bp>2</bp>
@@ -1586,7 +1586,7 @@
 	<title>Lattice Lockdown Blast</title>
 	<short>Lattice</short>
 	<desc>Powerful projectile artillery that can breach and crystallize the entire enemy ship. Vulnerable to defense drones. 40 seconds base cooldown.</desc>
-	<tooltip>Automatically fires 3 projectiles that deal 2 damage each; causes a hull breaches; causes heavy lockdown; pierces 1 shield; vulnerable to defense I. 40 seconds base cooldown. [WARNING: Loading the game won't work with this installed. You'll have to finish this run in one go.]</tooltip>
+	<tooltip>Automatically fires 3 projectiles that deal 2 damage each; causes a hull breaches; causes heavy lockdown; pierces 1 shield; vulnerable to defense I. 30 seconds base cooldown. [WARNING: Loading the game won't work with this installed. You'll have to finish this run in one go.]</tooltip>
 	<drone_targetable>2</drone_targetable>
 	<damage>2</damage>
 	<stun>10</stun>
@@ -1594,7 +1594,7 @@
 	<sp>1</sp>
 	<fireChance>0</fireChance>
 	<breachChance>10</breachChance>
-	<cooldown>40</cooldown>
+	<cooldown>30</cooldown>
 	<lockdown>1</lockdown>
 	<power>1</power>
 	<speed>50</speed>

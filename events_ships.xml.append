@@ -1535,7 +1535,7 @@
 	<text>"Core breach! Warning! This unit has initiated a core breach.  Containment fields shutting down..." Now would probably be a good time to evacuate.</text>
 	<text>FTL field arcs begin to flicker around the enemy ship as its FTL core energy levels start to climb beyond the safety limits.</text>
 	<text>"Critical damage sustained. Initializing self destruction protocol."</text>
-	<text>"This units remains shall not fall into the hands of the enemy." A tremendous spike in the enemy's FTL signature warns you that its core containment has been shut off.  This is going to sting...</text>
+	<text>"This unit's remains shall not fall into the hands of the enemy." A tremendous spike in the enemy's FTL signature warns you that its core containment has been shut off.  This is going to sting...</text>
 	<text>FTL levels around the enemy suddenly increase tremendously as its FTL core starts to overload.</text>
 	 <text>Energy levels suddenly spike on the enemy craft. This is not good.</text>
 </textList>
@@ -4579,7 +4579,7 @@
 <ship name="MANTIS_CLAN" auto_blueprint="SHIPS_MANTIS">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<destroyed>
-		<text>Your opponent's reactor sealing breaks and the Mantis ship melts into a drifting lump of red debris. Your own Mantis crewman tries to apologize. "I will take full responsibility for this incident and thank you for helping me kill my brothers."</text>
+		<text>Your opponent's reactor sealing fails. The Mantis ship melts into a drifting lump of red debris. Your own Mantis crewman tries to apologize. "I will take full responsibility for this incident. Thank you for helping me kill my brothers."</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>
@@ -5855,7 +5855,7 @@
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The militias send out a currier that delivers the payment. "Let us know if you come around, we might have work another job for you at some point."</text>
+				<text>The militia send out a currier that delivers the payment. "Let us know if you come around, we might have work another job for you at some point."</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -5866,7 +5866,7 @@
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The militias send out a currier that delivers the payment. "Let us know if you come around, we might have work another job for you at some point."</text>
+				<text>The militia send out a currier that delivers the payment. "Let us know if you come around, we might have work another job for you at some point."</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -5882,7 +5882,7 @@
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The militias send out a currier that delivers the payment. "Let us know if you are around, we might have work another job for you at some point."</text>
+				<text>The militia send out a currier that delivers the payment. "Let us know if you are around, we might have work another job for you at some point."</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -5893,7 +5893,7 @@
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The militias send out a currier that delivers the payment. "Let us know if you come around, we might have work another job for you at some point."</text>
+				<text>The militia send out a currier that delivers the payment. "Let us know if you come around, we might have work another job for you at some point."</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>

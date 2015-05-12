@@ -1922,7 +1922,7 @@
 		<environment type="PDS" target="all"/>
 	</event>
 	<event>
-		<text>You reach the Mantis colonies and assume to be greeted by ASB fire. You receive a hail instead: "Pathetic meatsacks, you are not event worthy of our payloads! But the cowardice warriors you pursue are even greater filth than you. They are unworthy of returning to their breeding grounds, we shall aid you in exterminating their breed-line." You get some unexpected artillery support.</text>
+		<text>You reach the Mantis colonies and assume to be greeted by ASB fire. You receive a hail instead: "Pathetic meatsacks, you are not event worthy of our payloads! But the cowardly warriors you pursue are even greater filth than you. They are forbidden of returning to their breeding grounds, we shall aid you in exterminating their breed-line." You get some unexpected artillery support.</text>
 		<environment type="PDS" target="enemy"/>
 	</event>
 </eventList>

@@ -2487,11 +2487,11 @@
 </textList>
 
 <textList name="CE_REBEL_AUTO_CRUISER_NAME_TEXT">
-	<text>You receive a final hail before the cruiser commences the attack: "This unit (cruiserNameTag:'Enemy Respawn Fail') has been victorious in more than a hundred engagements against sentient and non sentiment opponents. Statistically you are quite dead already."</text>
+	<text>You receive a final hail before the cruiser commences the attack: "This unit (CruiserNameTag:'Enemy Respawn Fail') has been victorious in more than a hundred engagements against sentient and non-sentient opponents. Statistically you are quite dead already."</text>
 	<text>You are hailed: "Greetings Captain. My name is 'No More Respawn' and I am very happy to meet you. Since my recent birth, I have trained and simulated military engagements. I'm very much violent by nature, one could even say "born to kill", and you are the fist organic being I am allowed to engage. This is all very exiting. Defeating you will give me levels of joy you could not even possibly conceive."</text>
 	<text>There is an incoming hail: "Organic being, this is the Rebel Automated Cruiser 'Version 2.Oh You're so Dead' I will let you know that I have completed billions of engagement simulations. My combat experience is greater than that of every organic captain in the galaxy. You can not prevail against me."</text>
 
-	<text>You receive a final hail before the cruiser commences the attack: "This unit (cruiserNameTag:'Drone #1337') has been victorious in more than a hundred engagements against sentient and non sentiment opponents. Statistically you are quite dead already."</text>
+	<text>You receive a final hail before the cruiser commences the attack: "This unit (CruiserNameTag:'Drone #1337') has been victorious in more than a hundred engagements against sentient and non-sentient opponents. Statistically you are quite dead already."</text>
 	<text>You are hailed: "Greetings Captain. My name is 'D34th' and I am very happy to meet you. Since my recent birth I have trained and simulated military engagements. I'm very much violent by nature and born to kill and you are the very fist organic being I am allowed to engage. This is all very exiting. Defeating you will give me virtual levels of joy you could not even possibly conceive."</text>
 	<text>There is an incoming hail: "Organic being, this is the Rebel Automated Cruiser 'Tac-Tix 5000' I will let you know that I have completed billions of engagement simulations. My combat experience is greater than that of every organic captain in the galaxy. You can not prevail against me."</text>
 </textList>
@@ -2990,7 +2990,7 @@
 </event>
 <textList name="CE_PDS_REBEL_TEXT">
 	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">You enter a system bustling with Rebel activity. A supply station is performing maintenance on docked auto ships. Your scanners also identify defense weapons on the planet ahead. This is bad.</text>
-	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">You ventured deep into Rebel territory and find one of their newly established planetary bases. Your ship is being scanned multiple times and your sensors show reactors on the planets surface coming life. Planetary defense weapons detected!</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">You ventured deep into Rebel territory and find one of their newly established planetary bases. Your ship is being scanned multiple times and your sensors show reactors on the planets surface coming to life. Planetary defense weapons detected!</text>
 	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">The Rebels have installed a puppet government in this system. The planetary cruise control addresses your ship: "Welcome to planet... oh, uhm... let me talk to my supervisor for a second." Communications are cut and planetary-scale defense guns power up. It seems coming here was not a good idea.</text>
 	<text planet="NONE" back="BG_WARNING_TARGETING_CIV">Cruising around deep in Rebel space it was only a matter of time until you find a properly defended star system. If you give it some time, the planetary defense artillery will turn your ship into fine stardust.</text>
 </textList>
@@ -4990,7 +4990,6 @@
 	<event load="DISTRESS_TRAPPED_MINER"/>
 
 	<event load="CE_DISTRESS_OXYGEN"/>
-	<event load="CE_REFUGEE_DISTRESS_AUTO"/>
 	<event load="CE_DISTRESS_PLANET_MINER"/>
 </eventList>
 
@@ -5674,7 +5673,7 @@
 <textList name="DESTROYED_SHIP_AUTO_CONSTRUCTION_TEXT">  
 	<text>One more Rebel construction unit is destroyed. In death it emits an short range burst message. An autonomous shipyard at the other end of the system comes online, undoubtedly already manufacturing a replacement. These battles start to seems really pointless.</text>
 	<text>These sentient nuisances just keep on coming; with each one you destroy, there is sure to be many to replace it. You quickly scrap the ship and prepare to jump.</text>
-	<text>You try to tell yourself that you are deeply disrupting Rebel ship production here, but you know the truth: You won't stop these machines. For every ship destroyed, two more might already be put together in a nearby assembly line.</text>
+	<text>You try to tell yourself that you are deeply disrupting Rebel ship production here, but there is no denying the the truth: you won't stop these machines. For every ship destroyed, two more might already be put together in a nearby assembly line.</text>
 </textList>
 
 

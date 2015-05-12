@@ -1881,7 +1881,7 @@
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 		<text>(Teleporter Disruptor) "Well, we in return detected some worrying malfunction in your remote teleporters..."</text>
 		<event>
-			<text>"Yes, it appearss our engineering crew wont be able to help you then." The Slug snickers. "We will, uhm, try to reconfigure our weapon array and uhm... teleport sssome repair bombss!? Pleasse remain at your current position, will you?" Weapon lock detected. Their guns don't look like they are designed to fix things.</text>
+			<text>"Yes... it appearss our engineering crew won't be able to help you then." The Slug snickers. "We will, uhm, try to reconfigure our weapon array and uhm... teleport sssome repair bombss!? Pleasse remain at your current position, will you?" Weapon lock detected. Their guns don't look like they are designed to fix things.</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event/>
@@ -4376,7 +4376,7 @@
 	<text>You detect a weak brainwave emitter nearby. One of your crew members walks to a console to check it out, but then decides to broadcast their personal teleporter ID into open space?!</text>
 	<environment type="nebula"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
-		<text>(Teleporter Disruptor) This is an kidnapping attempt - We need teleporter disruption right away!</text>
+		<text>(Teleporter Disruptor) This is a kidnapping attempt - We need teleporter disruption right away!</text>
 		<event>
 			<text>Your crewman has already started to dematerialize, but the disruption field prevents them from being teleported away altogether. A Slug ship emerges near the source of the mind control signal. With their initial plans frustrated, the Slugs decide to engage in direct combat.</text>
 			<ship load="JELLY" hostile="true"/>
@@ -4543,7 +4543,7 @@
 	<choice>
 		<text>Continue...</text>
 		<event>
-			<text>Your crewmember is teleporter away the same instant and a Slug ship reveals itself nearby: "Greetingss. Asss you can ssee we have controlled and kidnapped your crewman. You will have to pay a ranssom if you want to get them back alive." Your crewman desperately looks at you from the vidscreen, being held at gunpoint by an extra slimy Slug. "Don't compromise the mission, Sir. Do what has to be done!"</text>
+			<text>Your crewmember is teleported away the same instant and a ship reveals itself nearby: "Greetingss. Asss you can ssee we have controlled and kidnapped your crewman. You will have to pay a ranssom if you want to get them back alive." Your crewman desperately looks at you from the vidscreen, being held at gunpoint by an especially slimy Slug. "Don't compromise the mission, Sir. Do what you must do!"</text>
 			<choice hidden="true">
 				<text>Pay. [ Scrap: -30 ]</text>
 				<event>

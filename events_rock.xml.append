@@ -1929,7 +1929,7 @@
 		<event>
 			<text>While the two Mantis fight, you teleport a repair unit to aid the Rock ship. The device fixes the ship up enough to make at least a single jump. You're surprised when, instead, they embark on a suicide run on the two Mantis, which results in the obliteration of all three!</text>
 			<item_modify>
-				<item type="missile" min="-1" max="-1"/>
+				<item type="missiles" min="-1" max="-1"/>
 			</item_modify>
 			<autoReward level="HIGH">standard</autoReward>
 		</event>
@@ -2702,7 +2702,7 @@
 					<damage amount="3"/>
 					<damage amount="1" system="random"/>  <!--DLC-->
 					<item_modify>
-						<item type="missile" min="-1" max="-1"/>
+						<item type="missiles" min="-1" max="-1"/>
 					</item_modify>
 					<autoReward level="LOW">scrap_only</autoReward>
 				</event>

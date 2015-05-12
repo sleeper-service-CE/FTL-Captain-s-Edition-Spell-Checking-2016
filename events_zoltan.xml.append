@@ -3123,7 +3123,7 @@
 	<event>
 		<text>They were carrying a copy of the Zoltan legal codex. You could research what the current punishment for piracy is. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
-		<augment name="E_GOODS_ZOLTAN_CODEX"/>
+		<augment name="TE_GOODS_ZOLTAN_CODEX"/>
 		<choice>
 			<text>Continue...</text>
 			<event load="C_PIRACY_SUCCESS"/>

@@ -18,11 +18,11 @@
 		<quest event="CE_BOUNTY_AUTO"/>
 	</event>
 	<event> <!-- Gang Ship -->
-		<text>Organized crime is on an all-time high in the sector. The militias have put a price on the head of one of the ring-leaders. Target: Gang Leader. Payment: Medium.</text>
+		<text>Organized crime is on an all-time high in the sector. The militia have put a price on the head of one of the ring-leaders. Target: Gang Leader. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_GANG"/>
 	</event>
 	<event> <!-- Militia Ship -->
-		<text>The Militias have come down hard on the gangs in this sector, often using unreasonable force. A price is out on one of the Militia Captains, who has gone rogue after destroying a secluded station. Target: Militia Leader. Payment: Medium.</text>
+		<text>The Militia have come down hard on the gangs in this sector, often using unreasonable force. A price is out on one of the Militia Captains, who has gone rogue after destroying a secluded station. Target: Militia Leader. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_MILITIA"/>
 	</event>
 	<event> <!-- You yourself -->
@@ -2019,8 +2019,7 @@
 	<text>The only other ship at this beacon messages you: "Finally, after months of waiting, someone has fallen into our trap!"</text>
 	<text>You barely have time to register jump completion before your ship warns you of an incoming ship with weapons hot.</text>
 	<text>A small blip appears on the system map. The sector archive lists this ship as a local pirate with a long rap sheet. "Unidentified cruiser, surrender or you will be destroyed." They are closing in fast.</text>
-	<text>A small ship remains stationary in the distance. Its Captain hails and claims that she is a Federation requisition officer, here to collect the war toll from passing ships. When you demand to see their official requisition license, the ship's weapons come live. "You resist a Federation official? We will take what we demand by force then." It is unclear if these are common freebooters or bureaucrats.</text>
-	<text>A small ship remains stationary in the distance. Its Captain hails and claims that he is a Federation requisition officer, here to collect the war toll from passing ships. When you demand to see their official requisition license, the ship's weapons come live. It is unclear if your opponent is an especially violent bureaucrats or just a common freebooter.</text>
+	<text>A small ship remains stationary in the distance. Its captain hails and claims that she is a Federation requisition officer, here to collect the war toll from passing ships. When you demand to see the official requisition license, the ship's weapons come live. "You resist a Federation official? We will take what we demand by force then."</text>
 	<text>The captain of this ship with pirate markings claims to be an official Rebel requisition officer. When you refuse to donate to the Rebellion, the ship cuts coms and moves in to attack.</text>
 </textList>
 
@@ -6275,7 +6274,7 @@ IDEAS
 				<choice hidden="true"> 
 					<text>"Maybe we just take you out instead?"</text>
 					<event>
-						<text>The whole pirate crew burst into a laughter. "What? Look around Cap: I'm the pirate president of this entire system. I command an entire army of goons that do my bidding. If you think you can come here and start trouble you'll be in over your head soon. Allow me to demonstrate..." Anti-ship batteries all around the planet power up and the cruisers weapons come live.</text>
+						<text>The whole pirate crew burst into a laughter. "What? Look around Cap: I'm the pirate president of this entire system. I command an entire army of goons that do my bidding. If you think you can come here and start trouble you'll be in over your head soon. Allow me to demonstrate..." Anti-ship batteries all around the planet power up and the cruiser's weapons come live.</text>
 						<environment type="PDS" target="player"/>
 						<ship hostile="true"/>
 		<choice hidden="true">
@@ -6331,7 +6330,7 @@ IDEAS
 				<choice hidden="true"> 
 					<text>Approach the planet and attack the pirate cruiser.</text>
 					<event>
-						<text>You speed towards the Purple Tentacle flagship with weapons hot. You hostile intentions are met with surprised hails, of which you answer none. Anti-ship batteries all around the planet power up and the cruisers weapons come live.</text>
+						<text>You speed towards the Purple Tentacle flagship with weapons hot. You hostile intentions are met with surprised hails, of which you answer none. Anti-ship batteries all around the planet power up and the cruiser's weapons come live.</text>
 						<environment type="PDS" target="player"/>
 						<ship load="C_SHIP_PIRATE_CRUISER_QUEST_LORD" hostile="true"/>
 		<choice hidden="true">
@@ -6388,7 +6387,7 @@ IDEAS
 						<choice hidden="true"> 
 							<text>Attack them.</text>
 							<event>
-								<text>You turn and speed towards the Purple Tentacle flagship with weapons hot. "Oh, you silly fool." Anti-ship batteries all around the planet power up and the cruisers weapons come live.</text>
+								<text>You turn and speed towards the Purple Tentacle flagship with weapons hot. "Oh, you silly fool." Anti-ship batteries all around the planet power up and the cruiser's weapons come live.</text>
 								<environment type="PDS" target="player"/>
 								<ship load="C_SHIP_PIRATE_CRUISER_QUEST_LORD_NO_REWARD" hostile="true"/>
 		<choice hidden="true">
@@ -6465,7 +6464,7 @@ IDEAS
 						<choice hidden="true"> 
 							<text>Attack them.</text>
 							<event>
-								<text>Leaving a pirate overlord alive just does not fit within your mindset. You turn and speed towards the Purple Tentacle flagship with weapons hot. "Oh, you silly fool." Anti-ship batteries all around the planet power up and the cruisers weapons come live.</text>
+								<text>Leaving a pirate overlord alive just does not fit within your mindset. You turn and speed towards the Purple Tentacle flagship with weapons hot. "Oh, you silly fool." Anti-ship batteries all around the planet power up and the cruiser's weapons come live.</text>
 								<environment type="PDS" target="player"/>
 								<ship load="C_SHIP_PIRATE_CRUISER_QUEST_LORD_LADY_DEAD" hostile="true"/>
 		<choice hidden="true">

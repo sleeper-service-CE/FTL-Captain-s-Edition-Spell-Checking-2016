@@ -5616,9 +5616,9 @@
 		</event>
 	</choice>
 	<choice req="WEAPONS_BOMB_HEAL" hidden="true">
-		<text>(Heal Bomb) Teleport some med-kits to the local militias. [ Missiles: -1 ]</text>
+		<text>(Heal Bomb) Teleport some med-kits to the local militia. [ Missiles: -1 ]</text>
 		<event>
-			<text>The infected can't be cured, but this will still help out the local militias that are fighting them. They are able to contain the outbreak and offer some supplies as thanks.</text>
+			<text>The infected can't be cured, but this will still help out the local militia that are fighting them. They are able to contain the outbreak and offer some supplies as thanks.</text>
 			<item_modify>
 				<item type="missiles" min="-1" max="-1"/>
 			</item_modify>

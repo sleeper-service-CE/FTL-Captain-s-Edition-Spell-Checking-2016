@@ -618,7 +618,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The weapon platform reports it problems locking onto the enemy. You navigate to close to your opponent; if the ASB fires, it might hit your ship as well.</text>
+		<text>The weapon platform reports it problems locking onto the enemy. You navigate too close to your opponent; if the ASB fires, it might hit your ship as well.</text>
 		<item_modify>
 			<item type="missiles" min="-4" max="-4"/>
 		</item_modify>
@@ -801,7 +801,7 @@
 		</item_modify>
 	</event>
 	<event>
-		<text>The weapon platform reports it problems locking onto the enemy. You navigate to close to your opponent; if the ASB fires, it might hit your ship as well.</text>
+		<text>The weapon platform reports it problems locking onto the enemy. You navigate too close to your opponent; if the ASB fires, it might hit your ship as well.</text>
 		<item_modify>
 			<item type="missiles" min="-4" max="-4"/>
 		</item_modify>
@@ -9921,7 +9921,7 @@
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>As you sweep the wreckage a second time you pick up a radar shadow nearby. The fugitive tried to get away another time, he abandoned the ship in an escape pod during combat. You turn him in and receive a cut of the bounty. "We threw in a little something ourselves. You made our trade lane a lot safer after all."</text>
+		<text>As you sweep the wreckage a second time you pick up a radar shadow nearby. The fugitive tried to slip away once more by abandoning ship in an escape pod amids the combat. You turn him in and receive a cut of the bounty. "We threw in a little something ourselves. You made our trade lane a lot safer after all."</text>
 		<autoReward level="MED">scrap_only</autoReward>
 		<drone name="RANDOM"/>
 	</event>
@@ -9929,7 +9929,7 @@
 
 <eventList name="MERCENARY_WORK_AMBUSH_CREW_DEAD">
 	<event>
-		<text>None of the dead pirates can be identified as the wanted fugitive. As you make a sweep around the ship you pick up a radar shadow nearby. The fugitive tried to get away another time, he abandoned the ship in an escape pod during combat. You turn him in and receive a cut of the bounty. "We threw in a little something ourselves. You made our trade lane a lot safer after all."</text>
+		<text>As you sweep the wreckage a second time you pick up a radar shadow nearby. The fugitive tried to slip away once more by abandoning ship in an escape pod amids the combat. You turn him in and receive a cut of the bounty. "We threw in a little something ourselves. You made our trade lane a lot safer after all."</text>
 		<autoReward level="MED">scrap_only</autoReward>
 		<drone name="RANDOM"/>
 	</event>
@@ -9990,7 +9990,7 @@
 			<text>You program the drone to work carefully around the trapped ship. In a short time it allows the ship to easily slip out of its cage. They thank you and offer some of the resources they have collected.</text>
 			<autoReward level="MED">standard</autoReward>
 			<item_modify>
-				<item type="drone" min="-1" max="-1"/>
+				<item type="drones" min="-1" max="-1"/>
 			</item_modify>
 		</event>
 	</choice>
@@ -12379,7 +12379,7 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Ignore the station</text>
+		<text>Ignore the station.</text>
 		<event/>
 	</choice>
 	<choice>
@@ -12660,7 +12660,7 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Ignore the station</text>
+		<text>Ignore the station.</text>
 		<event/>
 	</choice>
 	<choice>
@@ -13490,7 +13490,7 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Ignore the station</text>
+		<text>Ignore the station.</text>
 		<event/>
 	</choice>
 </event>
@@ -13567,7 +13567,7 @@
 		</event>
 	</choice>
 	<choice>
-		<text>Ignore the station</text>
+		<text>Ignore the station.</text>
 		<event/>
 	</choice>
 </event>
@@ -13880,7 +13880,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Most of your crew has no problem with finishing the ship off. But one crewmen sends in a formal complain. "I have seen enough captain, this is not what I signed up for." The crewmen deserts your ship in a shuttle, planing to join the independent militias in the Civilian Coreworlds.</text>
+		<text>Most of your crew has no problem with finishing the ship off. But one crewmen sends in a formal complain. "I have seen enough captain, this is not what I signed up for." The crewmen deserts your ship in a shuttle, planing to join the independent militia in the Civilian Coreworlds.</text>
 		<removeCrew>
 			<clone>false</clone>
 			<text>Your clonebay obviously does not revive your crewmember since they did not die.</text>
@@ -14299,7 +14299,7 @@
 						<ship hostile="false"/>
 						<item_modify>
 							<item type="fuel" min="-2" max="-2"/>
-							<item type="missile" min="0" max="0"/>
+							<item type="missiles" min="0" max="0"/>
 							<item type="drones" min="-1" max="-1"/>
 							<item type="scrap" min="-15" max="-15"/>
 						</item_modify>
@@ -14465,7 +14465,7 @@
 				<ship hostile="true"/>
 				<item_modify>
 			<item type="fuel" min="-2" max="-2"/>
-			<item type="missile" min="-1" max="-1"/>
+			<item type="missiles" min="-1" max="-1"/>
 			<item type="drones" min="0" max="0"/>
 			<item type="scrap" min="-15" max="-15"/>
 				</item_modify>
@@ -14522,7 +14522,7 @@
 				<ship hostile="true"/>
 				<item_modify>
 			<item type="fuel" min="-4" max="-4"/>
-			<item type="missile" min="-2" max="-2"/>
+			<item type="missiles" min="-2" max="-2"/>
 			<item type="drones" min="1" max="1"/>
 			<item type="scrap" min="-25" max="-25"/>
 				</item_modify>
@@ -14579,7 +14579,7 @@
 				<ship hostile="true"/>
 				<item_modify>
 			<item type="fuel" min="-5" max="-5"/>
-			<item type="missile" min="-3" max="-3"/>
+			<item type="missiles" min="-3" max="-3"/>
 			<item type="drones" min="-2" max="-2"/>
 			<item type="scrap" min="-35" max="-35"/>
 				</item_modify>
@@ -14686,7 +14686,7 @@
 						<ship hostile="true"/>
 						<item_modify>
 			<item type="fuel" min="-2" max="-2"/>
-			<item type="missile" min="-1" max="-1"/>
+			<item type="missiles" min="-1" max="-1"/>
 			<item type="drones" min="0" max="0"/>
 			<item type="scrap" min="-15" max="-15"/>
 						</item_modify>
@@ -14743,7 +14743,7 @@
 						<ship hostile="true"/>
 						<item_modify>
 			<item type="fuel" min="-4" max="-4"/>
-			<item type="missile" min="-2" max="-2"/>
+			<item type="missiles" min="-2" max="-2"/>
 			<item type="drones" min="1" max="1"/>
 			<item type="scrap" min="-25" max="-25"/>
 						</item_modify>
@@ -14882,7 +14882,7 @@
 				<ship hostile="false"/>
 				<item_modify>
 			<item type="fuel" min="-2" max="-2"/>
-			<item type="missile" min="-1" max="-1"/>
+			<item type="missiles" min="-1" max="-1"/>
 			<item type="drones" min="0" max="0"/>
 			<item type="scrap" min="-15" max="-15"/>
 				</item_modify>
@@ -14895,7 +14895,7 @@
 				<ship hostile="false"/>
 				<item_modify>
 			<item type="fuel" min="-4" max="-4"/>
-			<item type="missile" min="-2" max="-2"/>
+			<item type="missiles" min="-2" max="-2"/>
 			<item type="drones" min="1" max="1"/>
 			<item type="scrap" min="-25" max="-25"/>
 				</item_modify>
@@ -14908,7 +14908,7 @@
 				<ship hostile="false"/>
 				<item_modify>
 			<item type="fuel" min="-5" max="-5"/>
-			<item type="missile" min="-3" max="-3"/>
+			<item type="missiles" min="-3" max="-3"/>
 			<item type="drones" min="-2" max="-2"/>
 			<item type="scrap" min="-35" max="-35"/>
 				</item_modify>
@@ -15277,7 +15277,7 @@
 
 		<item_modify>
 			<item type="fuel" min="-2" max="-2"/>
-			<item type="missile" min="-1" max="-1"/>
+			<item type="missiles" min="-1" max="-1"/>
 			<item type="drones" min="0" max="0"/>
 			<item type="scrap" min="-15" max="-15"/>
 		</item_modify>
@@ -15351,7 +15351,7 @@
 
 		<item_modify>
 			<item type="fuel" min="-2" max="-2"/>
-			<item type="missile" min="-1" max="-1"/>
+			<item type="missiles" min="-1" max="-1"/>
 			<item type="drones" min="0" max="0"/>
 			<item type="scrap" min="-15" max="-15"/>
 		</item_modify>
@@ -15374,7 +15374,7 @@
 
 		<item_modify>
 			<item type="fuel" min="-2" max="-2"/>
-			<item type="missile" min="-1" max="-1"/>
+			<item type="missiles" min="-1" max="-1"/>
 			<item type="drones" min="0" max="0"/>
 			<item type="scrap" min="-15" max="-15"/>
 		</item_modify>
@@ -15448,7 +15448,7 @@
 
 		<item_modify>
 			<item type="fuel" min="-4" max="-4"/>
-			<item type="missile" min="-2" max="-2"/>
+			<item type="missiles" min="-2" max="-2"/>
 			<item type="drones" min="-1" max="-1"/>
 			<item type="scrap" min="-25" max="-25"/>
 		</item_modify>
@@ -15471,7 +15471,7 @@
 
 		<item_modify>
 			<item type="fuel" min="-4" max="-4"/>
-			<item type="missile" min="-2" max="-2"/>
+			<item type="missiles" min="-2" max="-2"/>
 			<item type="drones" min="-1" max="-1"/>
 			<item type="scrap" min="-25" max="-25"/>
 		</item_modify>
@@ -15494,7 +15494,7 @@
 
 		<item_modify>
 			<item type="fuel" min="-4" max="-4"/>
-			<item type="missile" min="-2" max="-2"/>
+			<item type="missiles" min="-2" max="-2"/>
 			<item type="drones" min="-1" max="-1"/>
 			<item type="scrap" min="-25" max="-25"/>
 		</item_modify>
@@ -15569,7 +15569,7 @@
 
 		<item_modify>
 			<item type="fuel" min="-5" max="-5"/>
-			<item type="missile" min="-3" max="-3"/>
+			<item type="missiles" min="-3" max="-3"/>
 			<item type="drones" min="-2" max="-2"/>
 			<item type="scrap" min="-35" max="-35"/>
 		</item_modify>
@@ -15591,7 +15591,7 @@
 		<status type="clear" target="player" system="mind" amount="100"/>
 		<item_modify>
 			<item type="fuel" min="-5" max="-5"/>
-			<item type="missile" min="-3" max="-3"/>
+			<item type="missiles" min="-3" max="-3"/>
 			<item type="drones" min="-2" max="-2"/>
 			<item type="scrap" min="-35" max="-35"/>
 		</item_modify>
@@ -18660,7 +18660,7 @@
 
 
 <textList name="HYPERSPACE_BOOSTED_TEXT">
-	<text>The AI calculates and effective field ellipse supercharges to give your ship a lower profile in hyperspace. You will be able to travel faster while using less fuel.</text>
+	<text>The AI calculates the optimal course and supercharges the field ellipse to give your ship a lower profile in hyperspace. You will be able to travel faster while using less fuel.</text>
 	<text>Your augmented navigation drive will allow for a more economic hyperspace jump. This will give you an edge against the fleet.</text>
 	<text>The AI finds a few shortcuts through various hyperspace fissures. You sector jump will be much faster this way.</text>
 </textList>
@@ -24459,7 +24459,7 @@
 	<event>
 		<text>The Mantis is staring out of the viewport. "I know this system, Captain. Members of my Clan come here to hunt. My kind might still obey the traditions and render assistance. You could attempt to make contact."</text>
 		<choice hidden="true">
-			<text>Contact the Mantis related with your crewman.</text>
+			<text>Contact the Mantis related to your crewman.</text>
 			<event load="CE_CONVERSATION_MANTIS_CLAN"/>
 		</choice>
 		<choice hidden="true">
@@ -25916,7 +25916,7 @@
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
-				<text>Your crewmen's arm is already reforming while the cut of limb merges with the metal and turns it gray. After some time, the metal pile has formed into a Lanius body. The creature awakes and greats it's new environment with gargling noinses, but it's creator seems to understand. You order the new crewmen to be thought a few words of Federation standard as fast as possible.</text>
+				<text>Your crewmen's arm is already reforming while the cut of limb merges with the metal and turns it gray. After some time, the metal pile has formed into a Lanius body. The creature awakes and greets it's new environment with gargling noises, but it's creator seems to understand. You order the new crewmen to be tought a few words of Federation standard as fast as possible.</text>
 				<crewMember amount="1" class="anaerobic"/>
 			</event>
 		</choice>
@@ -30269,7 +30269,7 @@
 				<status type="limit" target="enemy" system="weapons" amount="0"/>
 				<status type="limit" target="player" system="oxygen" amount="0"/>
 				<status type="limit" target="player" system="doors" amount="0"/>
-				<damage amount="1" system="room" effect="oxygen"/> 
+				<damage amount="1" system="room" effect="fire"/> 
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event/>
@@ -31015,7 +31015,7 @@
 		<event>
 			<text>A repair unit is successfully deployed to their engine room from a safe distance. The ship manages to ignite its thrusters and narrowly escapes the next barrage of flares. They can't believe that they are still alive and offer supplies as thanks for their rescue.</text>
 			<item_modify>
-				<item type="missile" min="-1" max="-1"/>
+				<item type="missiles" min="-1" max="-1"/>
 			</item_modify>
 			<autoReward level="LOW">standard</autoReward>
 		</event>
@@ -32503,7 +32503,7 @@
 	<text>A civilian vessel detaches from a nearby station and approaches you. A well aged union trader appears on your screen: "Federation vessel, welcome to our humble outpost. Do you carry any trade goods? Because we are currently buying at good prices. You can also have a look at our ship gear, but only should we come to an agreement..." </text>
 	<text>A trade caravan is just heading out of the system as you arrive. Scans show most of their holds empty, they might be interested in acquiring trade goods.</text>
 	<text>A civilian ship flagged as trader waits at this beacon. You hail them: "Federation, hugh? Just as good. We buy anything from anyone here, but ship gear is only available for preferred customers. You might get to look at it if you sell for a good price."</text>
-	<text>An armed transport vessel broadcast subspace adds throughout this systems: "The Rebel fleet approaches, so make you last deal in this sector with the trade union! Everything bought at fine prices. And as an added bonus, transactions above 30 scrap grant you access to our fine selection of ship gear. Don't let this opportunity go to waste!"</text>
+	<text>An armed transport vessel broadcast subspace ads throughout this system: "The Rebel fleet approaches, so make your last deal in this sector with the trade union! Everything bought at fine prices. And as an added bonus, transactions above 30 scrap grant you access to our fine selection of ship gear. Don't let this opportunity go to waste!"</text>
 </textList>
 
 
@@ -36352,18 +36352,18 @@ IDEAS
 		<quest event="CE_BOUNTY_AUTO"/>
 	</event>
 	<event> <!-- Gang Ship -->
-		<text>Organized crime is on an all-time high in the sector. The militias have put a price on the head of one of the ring-leaders. Target: Gang Leader. Payment: Medium.</text>
+		<text>Organized crime is on an all-time high in the sector. The militia have put a price on the head of one of the ring-leaders. Target: Gang Leader. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_GANG"/>
 	</event>
 	<event> <!-- Militia Ship -->
-		<text>The Militias have come down hard on the gangs in this sector, often using unreasonable force. A price is out on one of the Militia Captains, who has gone rogue after destroying a secluded station. Target: Militia Leader. Payment: Medium.</text>
+		<text>The Militia have come down hard on the gangs in this sector, often using unreasonable force. A price is out on one of the Militia Captains, who has gone rogue after destroying a secluded station. Target: Militia Leader. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_MILITIA"/>
 	</event>
 	<event> <!-- You yourself -->
 		<text>A local planetary government wants you to track down a small Federation cruiser that is carrying stolen Rebel data... That sounds familiar. You'd do a lot for scrap, but you won't give up your mission. The locals are obviously looking for you, caution is advised. Target: You. Payment: Extremely High.</text>
 	</event>
 	<event> <!-- Militia Ship -->
-		<text>The Militias have come down hard on the gangs in this sector, often using unreasonable force. A price is out on one of the Militia Captains, who has gone rogue after destroying a secluded station. Target: Militia Leader. Payment: Medium.</text>
+		<text>The Militia have come down hard on the gangs in this sector, often using unreasonable force. A price is out on one of the Militia Captains, who has gone rogue after destroying a secluded station. Target: Militia Leader. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_MILITIA"/>
 	</event>
 	<event> <!-- You yourself -->
@@ -36742,8 +36742,8 @@ IDEAS
 	<text>As you jump into the system a local militia ship confronts you. "The Rebel fleet has put a price on your head. You are a wanted criminal. We will take you, alive or dead". It seems you won't make many friends here.</text>
 	<text>Soon after arriving in the system you are hailed by a small militia ship. "Not everyone wants to stick with this fancy Federation of yours you know? The Rebels promised us independence and we will have it." They move in to engage.</text>
 	<text>At first it appears you've arrived in an peaceful colony system, but a ship appears from behind a small moon and engages you. They hail, "Federation sympathizers are not welcome here anymore. We will fire upon you until your charge your FTL and leave."</text>
-	<text>Some of the local militias seem to be cooperating with the Rebels. One of their ships is docked at a nearby depot, but moves in to intercept when you arrive.</text>
-	<text>The Rebels must have informed the sector's militias that they are looking for you. Several of their ships patrol nearby, one breaks course and engages you.</text>
+	<text>Some of the local militia seem to be cooperating with the Rebels. One of their ships is docked at a nearby depot, but moves in to intercept when you arrive.</text>
+	<text>The Rebels must have informed the sector's militia that they are looking for you. Several of their ships patrol nearby, one breaks course and engages you.</text>
 	<text>As you arrive you are immediately hailed by a militia ship, "We know that you are carrying intel the Rebels want. It was a mistake to come here. We won't bend to Federation rule again!" They charge weapons.</text>
 	<text>After jump completion a militia ship hails you, "Federation Sympathizer. You are under arrest. Hand over your ships control to us." You have to assume that these guys are cooperating with the Rebels... "Comply or prepare to be fired on." They lose patience fast and start to fire.</text>
 	<text>The militia escort of a small trade caravan takes your still hot weapon signatures for an act of aggression. They can't be reasoned with and engage.</text>
@@ -36816,7 +36816,7 @@ IDEAS
 		</choice>
 </event>
 <textList name="BS_EVENT_MILITIA_TEXT">
-	<text>A nearby station has been taken over by local militias. They refuse all hails and start firing on you.</text>
+	<text>A nearby station has been taken over by local militia. They refuse all hails and start firing on you.</text>
 	<text>After jump completion you register a small military installation. They identify themselves as "independent", but that they start firing on you for no reason suggests that they might be sympathizing with the Rebel fleet.</text>
 	<text>You receive a hail from a small station, "The Rebels want you dead and we want peace in our sector. So... we will destroy your ship, hand the remains to the fleet and things can finally go back to normal here." Weapon lock detected!</text>
 </textList>
@@ -36877,7 +36877,7 @@ IDEAS
 	<text planet="PLANET_POPULATED_REAL">A space mall sells trade goods to ships coming and going from this settlement.</text>
 <text>You spot a civilian trade depot nearby. Passive scans indicate they are storing locally produced goods. They notice your interest and offer a sale. They don't sell ship equipment though...</text>
 	<text>An unprotected trade depot lingers nearby. They reluctantly offer to sell some of their goods. The station's chief seems nervous because of all the firepower you brought here.</text>
-	<text>A civilian trade depot hails, "Federation? Well we don't care, not many militias or Rebels come around here. Just keep your big guns holstered, alright?" They offer to sell some goods.</text>
+	<text>A civilian trade depot hails, "Federation? Well we don't care, not many militia units or Rebels come around here. Just keep your big guns holstered, alright?" They offer to sell some goods.</text>
 	<text>A trade depot is storing and trading goods here. They greet you, "OK... we detect a lot of weaponry on your ship. Do we have to call in the militia or do you just want to politely buy some stuff?" They seem to feel threatened.</text>
 </textList>
 
@@ -37602,7 +37602,7 @@ IDEAS
 </textList>
 
 <textList name="GANG_SHAKEDOWN_TEXT">
-	<text>Since interstellar authority has broken down, pirates, militias and local gangs share control of the coreworlds and keep a relative stable peace. A local banger crew seem to know who you are. They threaten to sell you out to the Rebel fleet and demand some scrap to keep quiet.</text>
+	<text>Since interstellar authority has broken down, pirates, militia units and local gangs share control of the coreworlds and keep a relative stable peace. A local banger crew seem to know who you are. They threaten to sell you out to the Rebel fleet and demand some scrap to keep quiet.</text>
 	<text>A small gang ship hails you, "This is our beacon. Some say you are a wanted criminal, but you don't look like a cool one. Got some scrap? Else the Rebels might get a little tip on your whereabouts soon, if you get my meaning..." This seems to be some kind of shakedown.</text>
 	<text>A militia ship with gang markings hails, "Federation!? No way! You are that ship everyone is looking for! You better hand over some scrap or we gonna put the fleet on your ass within a standard hour."</text>
 	<text>A ship with the markings of a local gang jumps in shortly after you. They hail, "Hey there, glad we caught up with you. You are this rogue Federation ship, right? The Rebels would pay a lot for some intel on your whereabouts. What's about you make us a better offer first?" They giggle.</text>
@@ -37728,11 +37728,11 @@ IDEAS
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
-				<text>"Shut up!" The militias intervene. "This man is a Federation war criminal. You will open the airlock and they will leave your ship with us." They draw their weapons as a precaution.</text>
+				<text>"Shut up!" The militia intervene. "This man is a Federation war criminal. You will open the airlock and they will leave your ship with us." They draw their weapons as a precaution.</text>
 				<choice hidden="true">
 					<text>Signal the intruder alert.</text>
 					<event>
-						<text>The Federation sympathizer manages to jump through the security doors before they fall shut between you and the militias. "Thank you, Captain!" You hear pulse rifles from within the ship and impacts resonate through the hallways as the station opens fire. Let's hope this person was worth all this.</text>
+						<text>The Federation sympathizer manages to jump through the security doors before they fall shut between you and the militia. "Thank you, Captain!" You hear pulse rifles from within the ship and impacts resonate through the hallways as the station opens fire. Let's hope this person was worth all this.</text>
 						<crewMember amount="1" class="human"/>
 						<boarders min="2" max="2" class="human"/>
 						<ship hostile="true"/>
@@ -37810,7 +37810,7 @@ IDEAS
 				<choice hidden="true" req="slug">
 					<text>(Slugman Crew) Your Slug doubts that.</text>
 					<event>
-						<text>Your Slug calmyl responds: "Yess we knew that. You really thought you were transsmitting data to your superiorss throughout the whole trip without usss knowing? They've got the wrong co-ordinates." The Rebel curses at the Federation and closes transmission. Your skilled Slug saved you some trouble here.</text>
+						<text>Your Slug calmyl responds: "Yess we knew that. You really thought you were transsmitting data to your superiorss throughout the whole trip without usss knowing? They've got the wrong coordinates." The Rebel curses at the Federation and closes transmission. Your skilled Slug saved you some trouble here.</text>
 					</event>
 				</choice>
 			</event>
@@ -38456,7 +38456,7 @@ IDEAS
 	<text back="BACKGROUND" planet="PLANET_POPULATED">You arrive near the main planet of the sector. A major jump relay located here allows space ships to perform extreme long-range jumps. The place is quite busy. Several vessels wait in line and prepare to travel closer to the Federation coreworld, undoubtedly fleeing from the slowly approaching Rebel fleet.</text>
 	<text>You've arrived at a busy Long-Range Beacon - A massive jump relay that can throw ships a great distance. You can use this installation to travel to another sector.</text>
 	<text back="BACKGROUND" planet="PLANET_POPULATED">This well defended planet is orbited by a long-range relay. The only way out of this sector.</text>
-	<text back="BACKGROUND" planet="PLANET_POPULATED">The local planetary economy is wealth enough to maintain a Long-Range Relay. Permission to jump is still granted for remenants of the Federation.</text>
+	<text back="BACKGROUND" planet="PLANET_POPULATED">The local planetary economy is wealthy enough to maintain a Long-Range Relay. Permission to jump is still granted for remenants of the Federation.</text>
 	<text>Your cruiser arrives at a busy Long-Range Relay.</text>
 
 

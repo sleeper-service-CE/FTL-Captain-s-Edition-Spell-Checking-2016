@@ -86,7 +86,10 @@
 	</choice>
 	<choice req="AE_SECTOR_SCANNER" hidden="true">
 		<text>(Sector Scanner) Scan the entire sector.</text>
-		<event load="CE_SECTOR_SCANNING"/>
+		<event>
+			<text>You synchronize your scanner with all remaining nearby Federation units and quickly gather full situation data on the final battleground. This might give you an advantage in the upcoming fight. Let's roll out.</text>
+			<reveal_map/>
+		</event>
 	</choice>
 	<choice req="AE_SECTOR_MAPPING" hidden="true">
 		<text>(Mapping Computer) Send out mapping drones to gather detailed data on the sector. [ Drone Parts: -3 ]</text>
@@ -165,7 +168,7 @@
 			<event load="CE_PEACE_BOSS_NEGOTIATION"/>
 		</choice>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) "Dispatch the ASB, we need fire support against this thing!" [ Missiles: -4 ]</text> 
+			<text>(Anti-Ship Battery) "Dispatch the ASB, we need fire support against this thing!" [ Missiles: -4, Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -267,7 +270,7 @@
 <event name="BOSS_TEXT_2">
 	<text>You chase down the flagship and discover it is heavily damaged from the previous fight. Scans indicate that it has redirected considerable power to its drones. Get ready for a fight.</text>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) "Dispatch the ASB, we need fire support against this thing!" [ Missiles: -4 ]</text> 
+			<text>(Anti-Ship Battery) "Dispatch the ASB, we need fire support against this thing!" [ Missiles: -4, Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -369,7 +372,7 @@
 <event name="BOSS_TEXT_3">
 	<text>You're not certain how it's able to keep fighting with the amount of damage it has sustained. It looks like it's transferred power to the teleporter as well as... some kind of super weapon. Be prepared... this is it!</text>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) "Dispatch the ASB again, lets finish this!" [ Missiles: -4 ]</text> 
+			<text>(Anti-Ship Battery) "Dispatch the ASB again, lets finish this!" [ Missiles: -4; Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
@@ -1440,7 +1443,7 @@
 
 <event name="BOSS_TEXT_3">
 	<!--	<text>You're not certain how it's able to keep fighting with the amount of damage it has sustained. It looks like it's transferred power to the teleporter as well as... some kind of super weapon. Be prepared... this is it!</text> -->
-	<text>You're not certain how it's able to keep fighting with the amount of damage it has sustained. It looks like it's life support is failing rapidly, but it managed to transferred power to a backup drone system, the teleporters and... the AI core?!? Is the crew abandoning ship already? There is also... some kind of super weapon. Be prepared... this is it!</text> 
+	<text>You're not certain how it's able to keep fighting with the amount of damage it has sustained. It looks like its life support is failing rapidly, but it managed to transfer power to a backup drone system, the teleporters and... the AI core?!? Is the crew abandoning ship already? There is also... some kind of super weapon. Be prepared... this is it!</text> 
 	<status type="limit" target="enemy" system="oxygen" amount="0"/>
 	<choice hidden="true">
 		<text>Continue...</text>
@@ -1455,7 +1458,7 @@
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<ship hostile="true"/>
 		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) "We need more fire support to finish this. Get the ASB ready!" [ Missiles: -4 ]</text> 
+			<text>(Anti-Ship Battery) "We need more fire support to finish this. Get the ASB ready!" [ Missiles: -4, power: -1]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
