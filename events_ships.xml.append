@@ -6124,7 +6124,7 @@
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>Various pirate ships gather in the system to investigate what happened. The commander of a smaller vessel congratulates you personally. "Well done, merc. Don't worry, we have the metal. I would not dare messing with someone like you. Maybe we can even work together again one day?" The hand over a large payment.</text>
+				<text>Various pirate ships gather in the system to investigate what happened. The commander of a smaller vessel congratulates you personally. "Well done, merc. Don't worry, we have the metal. I would not dare messing with someone like you. Maybe we can even work together again one day?" They hand over a large payment.</text>
 				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
