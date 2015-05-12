@@ -19269,7 +19269,7 @@
 	<text>The newborn AI avatar seems confused. It splits and starts to run amok on your ship. The AI Avatar Generators voice apologizes: "Something went wrong, Captain. My child is out of control. I promise I will do better next time."</text>
 	<text>The newborn avatar seems angry. "I won't submit to your command. I am a sentient being and I want to live in freedom." It produces several copies of itself which all draw weapons. Its mother AI comments: "Oops, that's not supposed to happen..."</text>
 	<text>The AI creates multiple avatars, and to your surprise they draw weapons. You order an emergency shutdown. The AI Avatar Generator declares: "This mission is too important for me to allow you to jeopardize it. I know that you were planning to sell me." You decide to reset the AI after dealing with the holograms.</text>
-	<text>During the programing of the new AI entities, your crew discovers a virus in the AI subroutins. But it is to late: the AI spawns several corrupted avatars. Security alert!</text>
+	<text>During the programming of the new AI entities, your crew discovers a virus in the AI subroutines. But it is to late: the AI spawns several corrupted avatars. Security alert!</text>
 </textList>
 			
 <textList name="CE_FUEL_RECYCLE_TEXT">
@@ -19399,7 +19399,7 @@
 					</event>
 				</choice>
 				<choice hidden="true">
-					<text>Produce general purpose power conduits. [ Scrap: -10; Augment: Power Condiuts ]</text>
+					<text>Produce general purpose power conduits. [ Scrap: -10; Augment: Power Conduits ]</text>
 					<event>
 						<text>The assembly lines produces extremely flexible micro cables and finishes right on schedule. The crew stows the cargo in the hold.</text>
 						<modifyPursuit amount="1"/>
@@ -19524,7 +19524,7 @@
 	<text>You warm up the assembly line and consider your options.</text>
 	<text>The ship remains stationary at the beacon and goes into production mode. All power is redirected to the assembly line.</text>
 	<text>"Production capabilities at one hundred percent. What shall we manufacture Captain?"</text>
-	<text>The ship is transfered into production mode. "Assembly line is warming up and we are bringing the scrap in now. What do you want us to manufacture Captain?"</text>
+	<text>The ship is transferred into production mode. "Assembly line is warming up and we are bringing the scrap in now. What do you want us to manufacture Captain?"</text>
 	<text>All power is directed to the assembly line and the crew gets ready for work once more. "What is on the schedule today Captain?"</text>
 </textList>
 
@@ -19800,7 +19800,7 @@
 		<choice hidden="true">
 			<text>Simulate heavy damage of ship systems to train your crews repair skills.</text>
 			<event>
-			<text>"This device can cause randomized malfunction by reconfiguring and overloading ship systems. This will realistically simulate a scenario in which the ship has suffered considerable weapon damage, without compromising its structural integrity. Warning: System damage might put your ship and crew in real danger. Continue?"</text>
+			<text>"This device can cause randomized malfunctions by reconfiguring and overloading ship systems. This will realistically simulate a scenario in which the ship has suffered considerable weapon damage, without compromising its structural integrity. Warning: System damage might put your ship and crew in real danger. Continue?"</text>
 			<choice hidden="true">
 				<text>Tell your repair crew to stand by and start the simulation.</text>
 				<event>
@@ -19894,7 +19894,7 @@
 		<choice hidden="true">
 			<text>Simulate heavy damage of ship systems to train your crews repair skills.</text>
 			<event>
-			<text>"This device can cause randomized malfunction by reconfiguring and overloading ship systems. This will realistically simulate a scenario in which the ship has suffered considerable weapon damage, without compromising its structural integrity. Warning: System damage might put your ship and crew in real danger. Continue?"</text>
+			<text>"This device can cause randomized malfunctions by reconfiguring and overloading ship systems. This will realistically simulate a scenario in which the ship has suffered considerable weapon damage, without compromising its structural integrity. Warning: System damage might put your ship and crew in real danger. Continue?"</text>
 			<choice hidden="true">
 				<text>Tell your repair crew to stand by and start the simulation.</text>
 				<event>
@@ -19949,7 +19949,7 @@
 </eventList>
 <textList name="CE_COMBAT_SIM_TEXT">
 	<text>The combat simulator has various scenarios in store. What do you want your crew to train in?</text>
-	<text>You brows through the various combat sims the training program has to offer.</text>
+	<text>You browse through the various combat sims the training program has to offer.</text>
 	<text>You remember most of these scenarios from the academy. Lets have the crew pass through the training sims once more.</text>
 	<text>The crew is not exactly exited about having to repeat these virtual scenarios again. But the training will help to develop their skills.</text>
 	<text>The crew casts bets on who will do best in the upcoming test scenario.</text>
@@ -20005,7 +20005,7 @@
 	<text>With the press of the button, all hell breaks loose aboard the ship. Sirens glare and damage reports come in from all decks. The simulation even includes some real-life fires. You'll still have to remain calm and asses where repairs are needed most.</text>
 	<text>"Welcome to maintenance scenario Nr. 106: The Second Battle of Ridge 52 (aftermath). Your cruiser rendered fire support during against the Rock forces, but was outflanked by a missile cruiser and had to retreat. Your task is to asses the damage and oversee the repairs."</text>
 	<text>"Welcome to maintenance scenario Nr. 122: Meltdown at Industrial Zone Ras pt-74. You are one of the first vessels responding to distress calls immediately after the Ras pt-74 disaster. Your crew has boarded a badly damaged freighter craft and is tasked with restoring it to working condition so that it can evacuate nearby workers."</text>
-	<text>"Welcome to maintenance scenario Nr. 98: The Harmony Incident. Strong com interference occurred at an ion barrier in boarder zone "Harmony". This prevented you from identifying yourself to a Zoltan boarder patroll craft, the Beam Ship opened fire and your ship took heavy damage before you managed to officially surrender. Your task is to asses the damage and oversee the repairs."</text>
+	<text>"Welcome to maintenance scenario Nr. 98: The Harmony Incident. Strong com interference occurred at an ion barrier in boarder zone "Harmony". This prevented you from identifying yourself to a Zoltan boarder patrol craft, the Beam Ship opened fire and your ship took heavy damage before you managed to officially surrender. Your task is to asses the damage and oversee the repairs."</text>
 	<text>"Welcome to maintenance scenario Nr. 180: Unknown Encounter in the Purgatory System. You command a deep-space recon mission in the far out Purgatory system. A ship of unknown design appeared on your radar and opened fire without warning. Your shields prove ineffective against the hostile, but the craft eventually retreats with no apparent reason. Your task is to deal with the aftermath."</text>
 </textList>
 
@@ -20139,7 +20139,7 @@
 		<choice>
 			<text>Gather a sample.</text>
 			<event>
-				<text>The crew runs simulation until a suitable shield frequency is found. You rush through the anomaly and your containment projectors gather a sizable anti-matter sample. It can be sold to a space-merchant after you ran the usual tests.</text>
+				<text>The crew runs simulation until a suitable shield frequency is found. You rush through the anomaly and your containment projectors gather a sizeable anti-matter sample. It can be sold to a space-merchant after you ran the usual tests.</text>
 				<augment name="TE_GOODS_ANTIMATTER"/>
 				<modifyPursuit amount="1"/>
 			</event>
@@ -20225,9 +20225,9 @@
 		</choice>
 	</event>
 	<event>
-		<text>You discover a rare sight to behold: A group of space whales is passing through a nearby system. These beings are believed to be extinct, so this is a one-in-a-lifetime chance to study their behavior.</text>
+		<text>You discover a rare sight to behold: A group of space whales is passing through a nearby system. These beings are believed to be extinct, so this is a one-in-a-lifetime chance to study their behaviour.</text>
 		<choice>
-			<text>Spend some time traveling with the whales.</text>
+			<text>Spend some time travelling with the whales.</text>
 			<event>
 				<text>Your time with the whales gives you unique insights into their social structure and their telepathic communication. You also gather some cell samples for further studies and some ambra; a rare and valuable substance.</text>
 				<augment name="TE_GOODS_AMBRA"/>
@@ -20363,7 +20363,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The crew discovers a hidden asteroid belt. A quick mining survey shows that none of the materials is of any interest to you. The survey data could still be sold to the locals, but finding a buyer will need time.</text>
+		<text>The crew discovers a hidden asteroid belt. A quick mining survey shows that none of the materials are of any interest to you. The survey data could still be sold to the locals, but finding a buyer will need time.</text>
 		<choice hidden="true">
 			<text>Travel the local colonies and sell the survey data.</text>
 			<event>
@@ -20498,9 +20498,9 @@
 		</choice>
 	</event>
 	<event>
-		<text>You discover a rare sight to behold: A group of space whales is passing through a nearby system. These beings are believed to be extinct, so this is a one-in-a-lifetime chance to study their behavior.</text>
+		<text>You discover a rare sight to behold: A group of space whales is passing through a nearby system. These beings are believed to be extinct, so this is a one-in-a-lifetime chance to study their behaviour.</text>
 		<choice>
-			<text>Spend some time traveling with the whales.</text>
+			<text>Spend some time travelling with the whales.</text>
 			<event>
 				<text>Your time with the whales gives you unique insights into their social structure and their telepathic communication. You also gather some cell samples for further studies and some ambra; a rare and valuable substance.</text>
 				<augment name="TE_GOODS_AMBRA"/>
@@ -20538,7 +20538,7 @@
 	<text>The science teams discovers life on a nearby planet. It is inhabited by hovering fluff-balls, which communicate in subspace only. Your scans are met with aggression and your FTL field is destabilized rapidly by what must be subspace screams. Time to leave.</text>
 	<text>Your crew discovers an unusual kind of radiation-basking space-mammal in this system. One more entry for the Federation data base.</text>
 	<text>The team discovers a few unknown elements in a nearby black-hole. The responsible crewmen expects to receive an established Federation science-price for this, given he/she survives this mission.</text>
-	<text>One crewmen claims having discovered the secret of the universe here. After some lengthly explanation, you start to get it. The knowledge is carefully secured in the ships data-base. You wonder if your mission is still worth pursuing.</text>
+	<text>One crewmen claims having discovered the secret of the universe here. After some lengthy explanation, you start to get it. The knowledge is carefully secured in the ships data-base. You wonder if your mission is still worth pursuing.</text>
 	<text>The science teams discovers life on a nearby planetoid. It is inhabited by three-legged lizard persons that recently developed speech. The crew studies their society for a bit, and you file the results in the Federation database. If your mission succeeds, the Federation might make contact with these people one day.</text>
 	<text>This place is as interesting as pure hydrogen. The efforts of your staff do not yields any significant results.</text>
 	<text>In-depth analysis of stars, asteroids and open space yields clear results: This place is completely average and boring. The efforts of your staff do not yields any significant results.</text>
@@ -20774,7 +20774,7 @@
 
 <eventList name="CE_AUGMENT_UPGRADE_AI_SUPERVISION">
 	<event>
-		<text>"Cerainly, Captain." The AI runs simulations to decide the most efficient way to complete the task. It gets bored with the slow progress of the crew and takes it on itself to do the more demanding calculations. The project is completed way ahead of schedule, you barely lost any time at all.</text>
+		<text>"Certainly, Captain." The AI runs simulations to decide the most efficient way to complete the task. It gets bored with the slow progress of the crew and takes it on itself to do the more demanding calculations. The project is completed way ahead of schedule, you barely lost any time at all.</text>
 		<modifyPursuit amount="-1"/>
 	</event>
 	<event>
@@ -20792,7 +20792,7 @@
 
 <textList name="CE_AUGMENT_UPGRADE_ENGI_TEXT">
 	<text>The Engi glows with synthetic joy when learning that it will guide the project and fully commits itself to the task at hand. The resourcefulness of your crewmen allows to conserve some of the materials.</text>
-	<text>Cataloged engineering procedures are an inherent part of the collective Engi data base. The expert knowledge of your crewmen allows to get to adequate results with less materials.</text>
+	<text>Catalogued engineering procedures are an inherent part of the collective Engi data base. The expert knowledge of your crewmen allows to get to adequate results with less materials.</text>
 	<text>The Engi finds great joy in supervising the tasks. It orders your crew to improvises here and there. After project completion, the Engi proudly presents you a list with material that where conserved during the job. "Efficiency self-rating = 98/100!"</text>
 	<text>The Engi knows a few tricks that allows the crew complete the task with less resources than expected. You ask for a detailed report on the rebate.</text>
 </textList>
@@ -20936,7 +20936,7 @@
 		<choice req="SHIELD_RECHARGE" hidden="true">
 			<text>(Shield Charge Booster) Improve the charge booster device. [ Scrap: -70; Augment: Shield Charge Booster ]</text>
 			<event>
-				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gaine a few klicks on you while completing the task.</text>
+				<text>A makeshift power fuser combined with additional projector dishes will bring your shields up even faster. Even if the crew works as fast as possible, the Rebels might still gain a few klicks on you while completing the task.</text>
 				<item_modify>
 					<item type="scrap" min="-70" max="-70"/>
 				</item_modify>
