@@ -46,7 +46,7 @@
 	<choice>
 		<text>Explain your mission.</text>
 		<event>
-			<text>Your explanation is met with murmurs of cynicism and disbelief among the officers. General Turzil of the Engi Brigade speaks up, "Intel suggests potential counter to Rebel technology. Risk all or save none."</text>
+			<text>Your explanation is met with murmurs of cynicism and disbelief among the officers. General Turzil of the Engi Brigade speaks up: "Intel suggests potential counter to Rebel technology. Risk all or save none."</text>
 			<choice hidden="true">
 				<text>Explain the weakness of the enemy fleet, the Rebel flagship.</text>
 				<event>
@@ -3312,9 +3312,9 @@
 		</choice>
 </event>
 <textList name="C_EVENT_GUNBOAT_BOSS_SUN_TEXT">
-	<text>Prolonged anti-matter bombardment has melted the crust of this planet and started an unstable fusion reaction in its core. You don't even have time to think about all the individuals that lost their lives here, the attack fleet is still in orbit and sends a gunboat after you.</text>
+	<text>Prolonged anti-matter bombardment has melted the crust of this planet and started an unstable fusion reaction in the core. There is no time to think about the people who lost their lives here: the attack fleet is still in orbit and a gunboat approaches.</text>
 	<text>This forward beacon shows the eagle emblem of the Rebels. They must have brought it close to this sun to conceal the jump field. A surprise attack is already under way, multiple cruiser squadrons have arrived in the system and battle the local defenders. The patrol craft that is guarding the beacon spots you.</text>
-	<text>The battle in this region has gotten way out of hand. Contradicting information says that either Rebel or Federation ships have fired anti-matter weapons at the local star, in order to cause a supernova and obstruct the opponents advance. A burned patrol boat picks you as its target.</text>
+	<text>The battle in this region has gotten way out of hand. Contradicting information says that either Rebel or Federation ships have fired anti-matter weapons at the local star, in order to cause a supernova and obstruct the opponent's advance. A burned patrol boat picks you as its target.</text>
 </textList>
 
 

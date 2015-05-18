@@ -84,7 +84,7 @@
 <ship name="QUEST_SLUG_PIRATE_TRAP2" auto_blueprint="SHIPS_PIRATE">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<destroyed>
-		<text>With the pirate taken care of, you search again for the cache he was protecting, but it's lost in the clouds. You console yourself with the salvage from the well-armed pirate ship.</text>
+		<text>With the pirate taken care of, you search again for the cache he was protecting, but it is lost in the clouds. You console yourself with salvage from the well-armed pirate ship.</text>
 		<autoReward level="LOW">standard</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -99,7 +99,7 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>With the pirate defeated, you search again for the cache he was protecting, but it's lost in the clouds. You console yourself with the salvage from the well-armed pirate ship.</text>
+		<text>With the pirate defeated, you search again for the cache he was protecting, but it is lost in the clouds. You console yourself with salvage from the well-armed pirate ship.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -1010,7 +1010,7 @@
 			<event load="CE_SLAVERY"/>
 		</choice>
 		<choice req="ENERGY_SHIELD">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 			<event>
 				<text>As part of the deal, you negotiate the surrender of all the slaves in exchange for a pardon for the slavers. Some would have insisted on dispersing some hard punishment, but this way no more lives where put into immediate danger.</text>
 				<ship hostile="false"/>
@@ -1050,7 +1050,7 @@
 			</event>
 		</choice>
 	<choice req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 		<choice>
@@ -4658,7 +4658,7 @@
 			</event>
 		</choice>
 		<choice req="ENERGY_SHIELD">
-				<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+				<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 			<event>
 				<text>You quickly take their surrender offer aboard and hurry to get out of here. This is not a safe place.</text>
 				<ship hostile="false"/>
@@ -5505,7 +5505,7 @@
 			</event>
 		</choice>
 	<choice req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 		<choice>
@@ -5520,7 +5520,7 @@
 		<text>The pirate cruiser jumps into close orbit, leaving you to dodge their ASB. You hope they didn't leave to get reinforcements.</text>
 	</gotaway>
 	<destroyed>
-		<text>A last hit on the opponents ammo storage and the cruiser combusts into bright flames. While you salvage from the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet.</text>
+		<text>A last hit on the opponent's ammo storage and the cruiser combusts into bright flames. While you salvage from the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet.</text>
 		<environment type="PDS" target="enemy"/>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
@@ -5567,7 +5567,7 @@
 			</event>
 		</choice>
 	<choice req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 		<choice>
@@ -5582,7 +5582,7 @@
 		<text>The pirate cruiser jumps into close orbit, leaving you to dodge their ASB. You hope they didn't leave to get reinforcements.</text>
 	</gotaway>
 	<destroyed>
-		<text>A last hit on the opponents ammo storage and the cruiser combusts into bright flames. While you salvage from the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet.</text>
+		<text>A last hit on the opponent's ammo storage and the cruiser combusts into bright flames. While you salvage from the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
@@ -5627,7 +5627,7 @@
 			</event>
 		</choice>
 	<choice req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 		<choice>
@@ -5642,7 +5642,7 @@
 		<text>The pirate cruiser jumps into close orbit, leaving you to dodge their ASB. You hope they didn't leave to get reinforcements.</text>
 	</gotaway>
 	<destroyed>
-		<text>A last hit on the opponents ammo storage and the cruiser combusts into bright flames. While you salvage from the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet.</text>
+		<text>A last hit on the opponent's ammo storage and the cruiser combusts into bright flames. While you salvage from the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
@@ -5687,7 +5687,7 @@
 			</event>
 		</choice>
 	<choice req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 		<choice>
@@ -5702,7 +5702,7 @@
 		<text>The pirate cruiser jumps into close orbit, leaving you to dodge their ASB. You hope they didn't leave to get reinforcements.</text>
 	</gotaway>
 	<destroyed>
-		<text>A last hit on the opponents ammo storage and the cruiser combusts into bright flames. While you salvage from the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet. You cleansed the galaxy of one more pirate overlord.</text>
+		<text>A last hit on the ammo storage and the cruiser combusts into bright flames. While you salvage from the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. Anti-ship batteries have gone quiet. The galaxy is cleansed of one more pirate overlord.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 	</destroyed>
@@ -5716,7 +5716,7 @@
 
 <ship name="C_SHIP_PIRATE_CRUISER_QUEST_LORD_LADY_DEAD" auto_blueprint="SHIPS_PIRATE_CRUISER">
 	<surrender  min="3" max="4" >
-		<text>The pirate lord hails you: "You flexed your space muscles well enough now. We will pay you tribute if you spare our flagship"</text>
+		<text>The pirate lord hails you: "You flexed your space muscles well enough. We are prepared to pay tribute for our lives."</text>
 		<choice>
 			<text>Accept the offer.</text>
 			<event>
@@ -5734,7 +5734,7 @@
 			</event>
 		</choice>
 	<choice req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 		<choice>
@@ -5749,12 +5749,12 @@
 		<text>The pirate cruiser jumps into close orbit, leaving you to dodge their ASB. You hope they didn't leave to get reinforcements.</text>
 	</gotaway>
 	<destroyed>
-		<text>A last hit on the opponents ammo storage and the cruiser combusts into bright flames. While you salvage from the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet. You cleansed the galaxy of one more pirate overlord.</text>
+		<text>A last hit on the opponent's ammo storage and the cruiser combusts into bright flames. While you salvage the remains, the wreckage slowly drifts towards the planet until it finally burns up in the atmosphere. The anti-ship batteries have gone quiet. The galaxy is cleansed of one more pirate overlord.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 	</destroyed>
 	<deadCrew>
-		<text>The pirate elite troops are all dead and the anti-ship batteries go quiet. You cleansed the galaxy of one more pirate overlord.</text>
+		<text>The elite pirate troops are all dead and the anti-ship batteries go quiet. The galaxy is cleansed of one more pirate overlord.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<environment type="PDS" target="enemy"/>
 	</deadCrew>
@@ -5771,7 +5771,7 @@
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The settlers pay up immediately after seeing what your ship capable of. Their fear induced gratefulness is much greater than the actual payment though, they simply don't have more to give.</text>
+				<text>The settlers pay up immediately after seeing what your ship is capable of. They give you everything they have.</text>
 				<autoReward level="LOW">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -5782,7 +5782,7 @@
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The settlers pay up immediately after seeing what your ship capable of. Their fear induced gratefulness is much greater than the actual payment though, they simply don't have more to give.</text>
+				<text>The settlers pay up immediately after seeing what your ship is capable of. They give you everything they have.</text>
 				<autoReward level="LOW">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -5798,7 +5798,7 @@
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The magistrate sends an official message, condemning your actions. An encoded attachment leads you to a nearby supply cache that contains the payment. The scrap speaks warmer than any words.</text>
+				<text>The magistrate sends an official message, condemning your actions. An encoded attachment leads you to a nearby supply cache containing the payment. The scrap speaks warmer than any words.</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -5809,7 +5809,7 @@
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The magistrate sends an official message, condemning your actions. An encoded attachment leads you to a nearby supply cache that contains the payment. The scrap speaks warmer than any words.</text>
+				<text>The magistrate sends an official message, condemning your actions. An encoded attachment leads you to a nearby supply cache containing the payment. The scrap speaks warmer than any words.</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -5850,23 +5850,23 @@
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<escape  chance="0.5" min="2" max="4" load="PIRATE_ESCAPE"/>
 	<destroyed>
-		<text>The ganger ships engines suddenly stutter and overheat, blowing the aft section of the ship clear off. The remaining wanna-be criminals are sucked into open space.</text>
+		<text>The ganger ship's engines stutter and overheat, blowing the aft section of the ship clear off. The remaining wannabe criminals are sucked into open space.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The militia send out a currier that delivers the payment. "Let us know if you come around, we might have work another job for you at some point."</text>
+				<text>The militia send out a courier to deliver the payment. "Let us know if you come around, we might have another job for you at some point."</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>No more life signs detected on the ship. You order your crew to collect the ciminals bio-tags for the client.</text>
+		<text>No more life signs detected on the ship. You order your crew to collect their biotags.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The militia send out a currier that delivers the payment. "Let us know if you come around, we might have work another job for you at some point."</text>
+				<text>The militia send out a courier to deliver the payment. "Let us know if you come around, we might have another job for you at some point.</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -5877,23 +5877,23 @@
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<escape  chance="0.5" min="2" max="4" load="PIRATE_ESCAPE"/>
 	<destroyed>
-		<text>The militia ships engines suddenly stutter and overheat, blowing the aft section of the ship clear off. The remaining officers are sucked into open space.</text>
+		<text>The militia ship's engines suddenly stutter and overheat, blowing the aft section of the ship clear off. The remaining officers are sucked into open space.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The militia send out a currier that delivers the payment. "Let us know if you are around, we might have work another job for you at some point."</text>
+				<text>The militia send out a courier to deliver the payment. "Let us know if you come around, we might have another job for you at some point."</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>No more life signs detected on the ship. You order your crew to collect the officers bio-tags for the client.</text>
+		<text>No more life signs detected on the ship. You order your crew to collect their biotags.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The militia send out a currier that delivers the payment. "Let us know if you come around, we might have work another job for you at some point."</text>
+				<text>The militia send out a courier to deliver the payment. "Let us know if you come around, we might have another job for you at some point."</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -5966,7 +5966,7 @@
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The Engi confirm your deed more or less indifferently. A local ship is instructed to drop some ship parts in your wake as payment and scuttles off immediately.</text>
+				<text>The Engi confirm your deed more or less indifferently. A local ship is instructed to drop some parts in your wake and scuttles off immediately.</text>
 				<autoReward level="LOW">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -5977,7 +5977,7 @@
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>The Engi confirm your deed more or less indifferently. A local ship is instructed to drop some ship parts in your wake as payment and scuttles off immidiately.</text>
+				<text>The Engi confirm your deed more or less indifferently. A local ship is instructed to drop some parts in your wake and scuttles off immediately.</text>
 				<autoReward level="LOW">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -6154,7 +6154,7 @@
 			<event load="CE_SLAVERY"/>
 		</choice>
 		<choice req="ENERGY_SHIELD">
-			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 			<event>
 				<text>As part of the deal, you negotiate the surrender of all the slaves in exchange for a pardon for the slavers. Some would have insisted on dispersing some hard punishment, but this way no more lives where put into immediate danger.</text>
 				<ship hostile="false"/>
@@ -6226,7 +6226,7 @@
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>"I am glad you fulfilled your mission, outsider. This was much more than I would have expected. Have your payment and take your leave before your are seen please."</text>
+				<text>"I am glad you fulfilled your mission, outsider. It is more than we would have expected. Please take your payment and leave before you are seen."</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -6237,7 +6237,7 @@
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
 			<event>
-				<text>"I am glad you fulfilled your mission, outsider. This was much more than I would have expected. Have your payment and take your leave before your are seen please."</text>
+				<text>"I am glad you fulfilled your mission, outsider. It is more than we would have expected. Please take your payment and leave before you are seen."</text>
 				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>
@@ -6247,7 +6247,7 @@
 <ship name="CE_SHIP_BOUNTY_FED" auto_blueprint="SHIPS_FED">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<destroyed>
-		<text>The Federation ship tries to get away with what remains of its impulse engines, but is shot to bits during the pursuit. The traitors have been eliminated.</text>
+		<text>The Federation ship tries to get away with what remains of its impulse engines, but it does not survive pursuit. The traitors have been eliminated.</text>
 		<autoReward level="MED">standard</autoReward>
 		<choice hidden="true">
 			<text>Contact the client and collect the bounty.</text>
@@ -6273,7 +6273,7 @@
 <ship name="CE_SHIP_BOUNTY_AI" auto_blueprint="SHIPS_AI">
 	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
 	<escape min="5" max="6" >
-		<text>The AI ship tries to retreat from combat. It's powering up its jump drive!</text>
+		<text>The AI ship tries to retreat from combat. It's powering up the jump drive!</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>

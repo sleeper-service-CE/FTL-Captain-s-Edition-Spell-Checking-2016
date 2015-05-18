@@ -75,21 +75,21 @@
 	<text>Once more you get the ship ready for battle.</text>
 </textList>
 <textList name="CE_PRE_FIGHT_ION_TEXT">
-	<text>The enemy's shields flicker and fade as their protective layers collapse. This should soften them up a bit!</text>
-	<text>The enemy's shields start to crackle, sending electric discharges everywhere. It seems the Ion field works well.</text>
-	<text>Lightning flashes from the enemy's shields. One of their shield bubbles collapses and stays down.</text>
+	<text>The enemy's shields flicker and fade as their protective layers collapse. That should soften them up a bit!</text>
+	<text>The enemy's shields start to crackle, sending electric discharges everywhere. It seems the ion field works well.</text>
+	<text>Lightning flashes from the enemy's shields. One of their bubbles collapses and stays down.</text>
 	<text>The ion field depletes one of the enemy's shield bubbles.</text>
 	<text>You crew reports, "Good effect on target, Captain. Enemy defenses weakened."</text>
 	<text>"Their shields are collapsing, Captain." You move in to engage.</text>
 	<text>That should soften them up a bit.</text>
-	<text>The field projector has trouble keeping a lock on the enemy, but after a while their defenses start going down.</text>
-	<text>Your augment once again disrupts parts of the opponents shield projection.</text>
+	<text>The field projector initially has trouble keeping a lock, but their defenses soon succumb.</text>
+	<text>Your augment once again disrupts the opponent's shield projection.</text>
 </textList>
 <textList name="CE_PRE_FIGHT_TELEPORTER_TEXT">
 	<text>A reassuring green light on your console tells you that the teleporter disruptor is online. The enemy will have trouble trying to board you.</text>
 	<text>A graphic on the vidscreen illustrates how the disruption field unfolds. The enemy's teleporter signals are scrambled.</text>
 	<text>"Disruptor field stable, Captain. That should keep them away." You move in to attack.</text>
-	<text>Your augment once again disrupts the opponents teleporters.</text>
+	<text>Your augment once again disrupts the opponent's teleporters.</text>
 </textList>
 <textList name="CE_PRE_FIGHT_BIOWEAPON_TEXT">
 	<text>"Captain?" Your crew awaits verification of the order. You ignore their concerns and order the activation of the bio weapon. The enemy crew will suffer greatly, unless their life support system is quite advanced.</text>
@@ -1222,7 +1222,7 @@
 	<text>The special shielding prevents the enemy from using mind control devices effectively.</text>
 	<text>You crew reports: "Brain wave jammers active, Captain. We are scrambling their controller devices."</text>
 	<text>"Confirming Captain, we are now in brain-safe mode." You move in to engage.</text>
-	<text>That should mess up your opponents crazy tactics quite a bit.</text>
+	<text>That should mess up your opponent's crazy tactics.</text>
 	<text>The brain-wave jammer has trouble adjusting to the right frequency. But, after a while, you establish a stable mind shielding.</text>
 	<text>Your augment once again tries to defend your crew against mind control attempts.</text>
 </textList>
@@ -1233,7 +1233,7 @@
 	<text>The ultra hot firewall plating will obstruct enemy hacking drones from completely disrupting your ship.</text>
 	<text>You crew reports: "Firewalls heating up, Captain. We are physically protected against hacking devices."</text>
 	<text>"Confirming Captain, plating is going hot." You move in to engage.</text>
-	<text>Your augment will hamper your opponents hacking attempts.</text>
+	<text>Your augment will hamper your opponent's hacking attempts.</text>
 </textList>
 
 <eventList name="CE_PRE_FIGHT_FIREWALL_OLD">
@@ -7630,7 +7630,7 @@
 		<status type="loss" target="enemy" system="oxygen" amount="3"/>
 	</event>
 	<event>
-		<text>Your fire seemed to have caused some serious damage to the opponents oxygen tanks. They are losing parts of their life support.</text>
+		<text>Your fire caused some serious damage to the opponent's oxygen tanks. Life support is weakened.</text>
 		<status type="loss" target="enemy" system="oxygen" amount="1"/>
 	</event>
 	<event>
@@ -7817,7 +7817,7 @@
 	<text>The ships hull creak under the stress of the combat maneuvers. You hope the ship can take it.</text>
 	<text>Your fire tears away a huge section of the enemy plating. Good hit!</text>
 	<text>Hull plating is scattered into space as your shots impact on the enemy craft. You'll pick those up later.</text>
-	<text>Your opponents hull is already covered with glowing impact crater of various sizes. They won't be able to take this kind of punishment for much longer.</text>
+	<text>Your opponent's hull is covered with glowing impact craters of various sizes. They won't be able to take this kind of punishment much longer.</text>
 	<text>You are hailed: "Hey, Captain, should we call it a draw? Ha, just kidding! Bring it on!"</text>
 	<text>Hold it steady and stay on target... Just like in the simulations.</text>
 </textList>
@@ -7943,7 +7943,7 @@
 	<text>The ships hull creak under the stress of the combat maneuvers. You hope the ship can take it.</text>
 	<text>Your fire tears away a huge section of the enemy plating. Good hit!</text>
 	<text>Hull plating is scattered into space as your shots impact on the enemy craft. You'll pick those up later.</text>
-	<text>Your opponents hull is already covered with glowing impact crater of various sizes. It won't be able to take this punishment for much longer.</text>
+	<text>Your opponent's hull is covered with glowing impact crater of various sizes. It won't be able to take this punishment for much longer.</text>
 </textList>
 
 
@@ -13694,7 +13694,7 @@
 		</event>
 	</choice>
 	<choice req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 	<choice>
@@ -13711,7 +13711,7 @@
 
 <eventList name="CE_SURRENDER_SHIP_ATTACK">
 	<event>
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 	</event>
 	<event>
 		<text>Your opponent is scared like a Slug in open space. After dropping the agreed amount of supplies, they immediately put as much distance between your two ships as possible. They are already out of weapon range.</text>
@@ -13787,7 +13787,7 @@
 
 <eventList name="CE_SURRENDER_STATION_ATTACK">
 	<event>
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived following your opponents distress call.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived following your opponent's distress call.</text>
 	</event>
 	<event>
 		<text>Your opponent is terrified. "What? Please, you can't do this!" You cut the transmission and order an attack course.</text>
@@ -14081,7 +14081,7 @@
 	</event>
 </eventList>
 <textList name="CE_SURRENDER_NEGOTIATION_RESULTS_TEXT">
-	<text>The negations are conducted in accordance with the general rules of engagement. Your opponents dignity is preserved and you come to a favorable truce.</text>
+	<text>The negations are conducted in accordance with the general rules of engagement. Your opponent's dignity is preserved and you come to a favorable truce.</text>
 	<text>You suggest that you have both won. The opposing captain agrees immediately, probably fearing future legal prosecution by the Zoltan authorities.</text>
 	<text>You point out that both sides have proven their worth in combat and offer an exchange of goods. You has little choice but to agree.</text>
 	<text>You agree that this was all a misunderstanding and ask if you can further help you former opponent. They decline and willingly transmit supplies, knowing that violating the rules might get them in trouble with the Zoltan later.</text>
@@ -14090,7 +14090,7 @@
 	<text>Your opponent has to compensate you for the damage done. So says the law.</text>
 	<text>Exchange of weapon fire is followed by an exchange of goods. You are glad that this did not have to end in further bloodshed.</text>
 	<text>For once, diplomacy prevails. Maybe peace still has a chance in this galaxy?</text>
-	<text>Your opponents agrees to all you conditions. They turn out to have quite some respect for Zoltan authority.</text>
+	<text>Your opponent agrees to all conditions. It seems they have some respect for Zoltan authority.</text>
 </textList>
 
 
@@ -15601,13 +15601,13 @@
 <textList name="CE_PLAYER_SURRENDER_SUCCESS_TEXT">
 	<text>Your opponent accepts your surrender. You transmit the bounty and are free to leave.</text>
 	<text>The enemy craft flags itself as neutral and your ship computer clears the targeting warning. You where able to buy yourself out of this.</text>
-	<text>Your opponents accepts the offer. After receiving the bounty, they mockingly wish you a safe journey. You prepare to jump.</text>
+	<text>Your opponent accepts the offer. After receiving the bounty, they mockingly wish you a safe journey. You prepare to jump.</text>
 	<text>Your opponent accepts the bribe. The crew is relieved, this could have gone bad.</text>
 	<text>"Alright, that'll do. Now get out of here."</text>
 </textList>
 <textList name="CE_PLAYER_SURRENDER_FAIL_TEXT">
 	<text>Upon sending your offer, your receive a text-only message: "We will not accept surrender."</text>
-	<text>Your opponents ignores you offer. They cut communication and spin up their guns.</text>
+	<text>Your opponent ignores the offer. They cut communication and spin up their guns.</text>
 	<text>Looks like your offer was not convincing enough: The enemy does not reply and instead moves in to attack.</text>
 	<text>Your opponent takes his time with replying. "We discussed the matter and concluded that your offer is ridiculous. What's stopping us from just taking everything from your wreckage?"</text>
 	<text>"What a pathetic offer. This is not enough to get yourself out of this."</text>
@@ -17483,7 +17483,7 @@
 		<event load="BS_PIRATE_SURRENDER_RESULTS"/>
 	</choice>
 	<choice  req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 		<event load="CE_SURRENDER_NEGOTIATION_STATIONS_RESULTS"/>
 	</choice>
 	<choice>
@@ -17758,7 +17758,7 @@
 		<event load="BS_PIRATE_SURRENDER_RESULTS"/>
 	</choice>
 	<choice req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 		<event load="CE_SURRENDER_NEGOTIATION_STATIONS_RESULTS"/>
 	</choice>
 	<choice>
@@ -29001,7 +29001,7 @@
 
 <eventList name="C_PIRACY_SUCCESS_LOOT_CIVILIAN">
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29010,7 +29010,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision..</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29019,7 +29019,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29028,7 +29028,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29037,7 +29037,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>Congratulations: you are now a space pirate. It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_CONSUMER"/>
 		<choice>
@@ -29046,7 +29046,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_CONSUMER"/>
 		<choice>
@@ -29055,7 +29055,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying food supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They were carrying food supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transferred, the opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_FOOD"/>
 		<choice>
@@ -29064,7 +29064,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_LUXURY"/>
 		<choice>
@@ -29074,7 +29074,7 @@
 	</event>
 
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29083,7 +29083,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29092,7 +29092,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29101,7 +29101,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29110,7 +29110,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>Congratulations: you are now a space pirate. It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GIRDERS"/>
 		<choice>
@@ -29119,7 +29119,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>Congratulations: you are now a space pirate. It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GEMS"/>
 		<choice>
@@ -29128,7 +29128,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>Congratulations: you are now a space pirate. It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GLANDS"/>
 		<choice>
@@ -29137,7 +29137,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>Congratulations: you are now a space pirate. It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CHEMICALS"/>
 		<choice>
@@ -29146,7 +29146,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying food supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They were carrying food supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_TEXTILES"/>
 		<choice>
@@ -29155,7 +29155,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of xeno organisms and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They release their cargo of xeno organisms and scuttle off. Who says crime doesn't pay? It took some time to transfer the goods; the opponent's FTL is already charged and they prepare to jump. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ORGANISMS"/>
 		<choice>
@@ -29165,7 +29165,7 @@
 	</event>
 
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29174,7 +29174,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29183,7 +29183,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29192,7 +29192,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29201,7 +29201,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>Congratulations: you are now a space pirate. It took some time to transfer the goods; their FTL drive is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_O2"/>
 		<choice>
@@ -29210,7 +29210,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. A wise decision; you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_H2O"/>
 		<choice>
@@ -29219,7 +29219,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying agriculture supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They were carrying agriculture supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SEEDS"/>
 		<choice>
@@ -29228,7 +29228,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of power cables and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They release their cargo of power cables and scuttle off. Who says crime doesn't pay? It took some time to transfer the goods; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CONDUITS"/>
 		<choice>
@@ -29238,7 +29238,7 @@
 	</event>
 
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29247,7 +29247,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29256,7 +29256,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29265,7 +29265,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29274,7 +29274,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the goods; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_PRODUCE"/>
 		<choice>
@@ -29283,7 +29283,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. It took some time to transfer the goods; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ANTIMATTER"/>
 		<choice>
@@ -29292,7 +29292,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying data discs and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They were carrying data discs and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GAMES"/>
 		<choice>
@@ -29301,7 +29301,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of packed sensor dishes and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They release their cargo of packed sensor dishes and scuttle off. Who says crime doesn't pay? It took some time to transfer the goods; the opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SENSORS"/>
 		<choice>
@@ -29311,7 +29311,7 @@
 	</event>
 
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29320,7 +29320,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29329,7 +29329,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29338,7 +29338,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29347,7 +29347,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the prices;the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. It took some time to transfer the goods; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_LIFESUPPORT"/>
 		<choice>
@@ -29356,7 +29356,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. It took some time to transfer the goods; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ROBOTS"/>
 		<choice>
@@ -29365,7 +29365,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were carrying research data and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They were carrying research data and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. When the cargo is transfered, their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RESEARCH"/>
 		<choice>
@@ -29374,7 +29374,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? It took some time to transfer the goods; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SOLAR"/>
 		<choice>
@@ -29383,7 +29383,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? It took some time to transfer the goods; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RELICS"/>
 		<choice>
@@ -29396,7 +29396,7 @@
 
 <eventList name="C_PIRACY_SUCCESS_LOOT_CIVILIAN_STATION">
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29405,7 +29405,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29414,7 +29414,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29423,7 +29423,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29432,7 +29432,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_CONSUMER"/>
 		<choice>
@@ -29441,7 +29441,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_CONSUMER"/>
 		<choice>
@@ -29450,7 +29450,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were storing food supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. During the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You should get out of here.</text>
+		<text>They were storing food supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. During the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You should get out of here.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_FOOD"/>
 		<choice>
@@ -29459,7 +29459,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of fine goods. Who says crime doesn't pay? But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They release their cargo of fine goods. Who says crime doesn't pay? But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_LUXURY"/>
 		<choice>
@@ -29469,7 +29469,7 @@
 	</event>
 
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29478,7 +29478,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29487,7 +29487,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29496,7 +29496,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29505,7 +29505,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GIRDERS"/>
 		<choice>
@@ -29514,7 +29514,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GEMS"/>
 		<choice>
@@ -29523,7 +29523,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GLANDS"/>
 		<choice>
@@ -29532,7 +29532,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They release their cargo. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CHEMICALS"/>
 		<choice>
@@ -29541,7 +29541,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were storing food supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. During the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They were storing food supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. During the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_TEXTILES"/>
 		<choice>
@@ -29550,7 +29550,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of xeno organisms. Who says crime doesn't pay? During the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They release their cargo of xeno organisms. Who says crime doesn't pay? During the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ORGANISMS"/>
 		<choice>
@@ -29560,7 +29560,7 @@
 	</event>
 
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29569,7 +29569,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29578,7 +29578,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29587,7 +29587,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29596,7 +29596,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_O2"/>
 		<choice>
@@ -29605,7 +29605,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their stored oxygen supply, as it is the only thing of value they have to offer. During the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They release their stored oxygen supply, as it is the only thing of value they have to offer. During the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_H2O"/>
 		<choice>
@@ -29614,7 +29614,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were storing agriculture supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They were storing agriculture supplies and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SEEDS"/>
 		<choice>
@@ -29623,7 +29623,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of power cables. Who says crime doesn't pay? But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They release their cargo of power cables. Who says crime doesn't pay? But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CONDUITS"/>
 		<choice>
@@ -29633,7 +29633,7 @@
 	</event>
 
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29642,7 +29642,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>They release some of their supplies. Who says crime doesn't pay? But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They release some of their supplies. Who says crime doesn't pay? But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29651,7 +29651,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29660,7 +29660,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29669,7 +29669,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over some of the produce they grow onboard the station - you successful stole those peoples groceries. During the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They hand over some of the produce they grow onboard the station - you successful stole those peoples groceries. During the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_PRODUCE"/>
 		<choice>
@@ -29678,7 +29678,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo and prepare to jump. It took some time to transfer the prices; the opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They release their cargo and prepare to jump. It took some time to transfer the goods; their FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ANTIMATTER"/>
 		<choice>
@@ -29687,7 +29687,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were producing data discs and agree to give hand over the current batch. This makes you just another space pirate, but you don't even have those fancy markings. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They were producing data discs and agree to give hand over the current batch. This makes you just another space pirate, but you don't even have those fancy markings. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_GAMES"/>
 		<choice>
@@ -29696,7 +29696,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of packed sensor dishes. Who says crime doesn't pay? But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They release their cargo of packed sensor dishes. Who says crime doesn't pay? But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SENSORS"/>
 		<choice>
@@ -29705,7 +29705,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29714,7 +29714,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29723,7 +29723,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29732,7 +29732,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29741,7 +29741,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>They hand over their cargo, you are a successful space pirate now. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They hand over their cargo, you are a successful space pirate now. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_LIFESUPPORT"/>
 		<choice>
@@ -29750,7 +29750,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ROBOTS"/>
 		<choice>
@@ -29759,7 +29759,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They were collecting research data and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. During the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They were collecting research data and agree to give up their cargo. This makes you just another space pirate, but you don't even have those fancy markings. During the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RESEARCH"/>
 		<choice>
@@ -29768,7 +29768,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? During the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They release their cargo of fine goods and scuttle off. Who says crime doesn't pay? During the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SOLAR"/>
 		<choice>
@@ -29777,7 +29777,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They release their cargo of rare relics and cut communication. Who says crime doesn't pay? But during the time in takes to transfer the prices, several armed ships have arrived, following your opponents distress call. You won't be able to attack them again.</text>
+		<text>They release their cargo of rare relics and cut communication. Who says crime doesn't pay? But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RELICS"/>
 		<choice>
