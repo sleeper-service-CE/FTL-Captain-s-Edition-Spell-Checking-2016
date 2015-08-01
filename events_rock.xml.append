@@ -170,7 +170,7 @@
 		</event>
 	</choice>
 	<choice  req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 	<choice>
@@ -211,7 +211,7 @@
 		</event>
 	</choice>
 	<choice req="ENERGY_SHIELD">
-		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: Negotiating the surrender in accordance with general system law.</text>
+		<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This has to be done the right way: negotiating the surrender in accordance with general system law.</text>
 		<event load="CE_SURRENDER_NEGOTIATION_RESULTS"/>
 	</choice>
 	<choice req="crystal" hidden="true">

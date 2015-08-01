@@ -186,7 +186,7 @@
 
 <eventList name="CE_SURRENDER_SHIP_ATTACK_SLUG">
 	<event>
-		<text>It took some time to transfer the prices. The opponents FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
 	</event>
 	<event>
 		<text>You opponent was scared like a Slug in open space. After droping the agreed amount of supplies, they immediately put as much distance between your two ships as possible. They are already out of weapon range.</text>
