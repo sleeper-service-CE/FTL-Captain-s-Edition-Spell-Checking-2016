@@ -7583,9 +7583,6 @@
 	</event>
 	<event>
 		<text>Your fire caused some serious damage to the opponent's oxygen tanks. Life support is weakened.</text>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 		<status type="loss" target="enemy" system="oxygen" amount="1"/>
 	</event>
 	<event>
