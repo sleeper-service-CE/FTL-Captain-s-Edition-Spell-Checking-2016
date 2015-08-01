@@ -8914,6 +8914,22 @@ IDEAS
 				</item_modify>
 			</event>
 		</choice>
+		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
+			<text>[Sell Compressed Nebula Gas for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_HAZARD_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
+				</item_modify>
+			</event>
+		</choice>
 		<choice req="TE_GOODS_CIVILIAN_CONSUMER" hidden="true">
 			<text>[Sell Consumer Goods for about 35 Scrap]</text> <!-- updated -->
 			<event>
@@ -9693,6 +9709,21 @@ IDEAS
 				</choice>
 				<item_modify>
 					<item type="scrap" min="80" max="100"/>
+				</item_modify>
+			</event>
+		</choice>
+		<choice req="TE_GOODS_NEBULA_GAS" hidden="true">
+			<text>[Sell Compressed Nebula Gas for about 40 Scrap]</text> <!-- updated -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="23" max="27"/> <!-- updated -->
 				</item_modify>
 			</event>
 		</choice>

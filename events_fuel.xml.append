@@ -1004,7 +1004,7 @@
 			</event>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) Upgrade you teleporter devices with late stage shield phase technology. [ Scrap: -70; Augment: Zoltan Shield Bypass ]</text>
+			<text>(Zoltan Ship) Upgrade you ship with specialized shield phase technology for teleporters. [ Scrap: -70; Augment: Zoltan Shield Bypass ]</text>
 			<event>
 				<text>The ship computer contains all available data on the advanced Zoltan shields. This allows you to upgrade teleporter devices so that they can bypass them.</text>
 				<item_modify>
@@ -1028,12 +1028,12 @@
 			</event>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) Construct an external supershield projector unit. [ Scrap: -60; Fuel -10; Drone: Shield Overcharger ]</text>
+			<text>(Zoltan Ship) Construct an external supershield projector unit. [ Scrap: -50; Fuel -8; Drone: Shield Overcharger ]</text>
 			<event>
 				<text>Top secret blueprints of this new tech have been distributed to all Zoltan captains when the conflict escalated. You decide to put the device an a test run. It requires a separate fuel reserve to ignite an FTL reaction, which then generates impenetrable shield layers. The process is to dangerous to be conducted inside a space-ship, you will have to remotely control the device via a drone system.</text>
 				<item_modify>
-					<item type="scrap" min="-60" max="-60"/>
-					<item type="fuel" min="-10" max="-10"/>
+					<item type="scrap" min="-50" max="-50"/>
+					<item type="fuel" min="-8" max="-8"/>
 				</item_modify>
 				<drone name="DE_DRONE_SHIELD_SMALL"/>				
 				<choice req="engi" hidden="true">
@@ -1419,11 +1419,44 @@
 		<text>(On-Board Clone Lab) Clone one of your carbon based crew members while waiting.</text>
 		<event load="CE_CLONING_NO_FUEL"/>
 	</choice>
+<!--	<choice req="energy">
+		<text>(Zoltan Crew) Your Zoltan crewmember has an unsettling proposition.</text>
+		<event load="CE_NO_FUEL_ZOLTAN_SACRIFICE"/>
+	</choice> -->
 	<choice hidden="true"> 
 		<text>Continue...</text>
 		<event/>
 	</choice>
 </event>
+
+
+<eventList name="CE_NO_FUEL_ZOLTAN_SACRIFICE">
+	<event>
+		<text load="CE_NO_FUEL_ZOLTAN_SACRIFICE_TEXT"/>
+		<choice hidden="true">
+			<text>"We need you as part of our crew. I will not allow this, however dire the situation."</text>
+			<event>
+				<text>The Zoltan accepts your refusal just as calmly as it offered it's life. "I'd prefer to live, but you might still change your mind when the time comes. We might be stuck here for a long time."</text>
+			<event/>
+		</choice>
+		<choice hidden="true">
+			<text>"I understand. You will be remembered as a true hero of the Federation."</text>
+			<event>
+				<text>The Zoltan spends some time meditating till it falls into a deep trance. Then it drops itself through the reactor containment field, burning up brightly. Your engines come live, but this won't dispell the sorrow that has befallen the rest of your crew.</text>
+				<removeCrew class="energy">
+					<clone>false</clone>
+					<text>Your .</text>
+				</removeCrew>
+			<event/>
+		</choice>
+	</event>
+</eventList>
+<textList name="CE_NO_FUEL_ZOLTAN_SACRIFICE_TEXT">
+	<text>Your Zoltan proposes to make the ultimate sacrifice: Destroying it's body by merging with the reactor and through that powering your jump drive to escape the sector. "If we remain without fuel the Rebel fleet will surely apprehend us, Captain. We will not withstand. My death is meaningless in the light of what is at stake here."</text>
+	<text>"I can sacrifice my body to power the ships jump drive, probably providing enough fuel to even escape this sector." The beaing seems awfully calm considering that it just offered to die for you.</text>
+	<text>The Zoltan explains calmly that it's body might serve as fuel when merged into the reactor. The being offers to sacrifice itself for the greater good of the mission.</text>
+
+</textList>
 
 <event name="NO_FUEL_FLEET_DLC">
 	<img planet="NONE" back="BG_WARNING_TARGETING_FLEET" />
@@ -1435,7 +1468,7 @@
 	</choice>
 </event>
 	
-	
+
 
 <eventList name="CE_NO_FUEL_FLEET_LIST_DLC">
 	<event>
@@ -1774,15 +1807,14 @@
 </event>
 </eventList>
 <textList name="C_NO_FUEL_FLEET_TEXT">
-	<text>A shockwave ripples through your ship as a Rebel cruiser jumps in right in front of you. A scarred Rebel, apparently an Admiral, appears on the vidscreen, "This is the RS 'Lemony Clean.' A lot of the men you killed were under my command. I'm glad I can deal with your personally.</text>
-	<text>Waiting like this is unbearable. Everyone is on their station and battle ready. Finally the cruiser jumps in and hails, "This is the RS 'Big Palooka.' We heard you are out of fuel..." The Rebel gives you a dirty grin and cuts communication.</text>
-	<text>You don't have to wait long for the cruiser. It enters the system with full impulse engines. You receive a hail: "This is the RS 'Hyper Cheese.' Looks like you made some terrible mistakes, Captain. We were called in to finally finish you. Farewell." They cut communication and open fire.</text>
-	<text>When the cruiser arrives you are already encircled by an entire battalion. They send a message, "This is the RS 'Pocket Full Of Posies' Maybe we would have considered accepting your surrender, but you didn't give that courtesy to most of our boys. There will be no way out of this for you."</text>
-
-	<text>A shockwave ripples through your ship as a Rebel cruiser jumps in right in front of you. A scarred Rebel, apparently an Admiral, appears on the vidscreen, "This is the RS 'Slow Boat To Wherever.' A lot of the men you killed where under my command. I'm glad I can deal with your personally.</text>
+	<text>A shockwave ripples through your ship as a Rebel cruiser jumps in right in front of you. A scarred Rebel, apparently an Admiral, appears on the vidscreen, "This is the RS 'BS Loadout.' A lot of the men you killed were under my command. I'm glad I can deal with your personally.</text>
+	<text>Waiting like this is unbearable. Everyone is on their station and battle ready. Finally the cruiser jumps in and hails, "This is the RS 'Hyper Cheese'. We heard you are out of fuel..." The Rebel gives you a dirty grin and cuts communication.</text>
+	<text>You don't have to wait long for the cruiser. It enters the system with impulse engines on full drive. You receive a hail: "This is the RS 'We're Gonna Git Ya!' Looks like you made some terrible mistakes, Captain. We were called in to finally finish you. Farewell." They cut communication and open fire.</text>
+	<text>When the cruiser arrives you are already encircled by an entire battalion. They send a message, "This is the RS 'How Are You Supposed To Beat Me?'. Maybe we would have considered accepting your surrender, but you didn't give that courtesy to most of our boys. There will be no way out of this for you."</text>
+	<text>A shockwave ripples through your ship as a Rebel cruiser jumps in right in front of you. A scarred Rebel, apparently an Admiral, appears on the vidscreen, "This is the RS 'Slow Boat To Wherever.' A lot of the men you killed where under my command. I'm glad I can deal with your personally now.</text>
 	<text>Waiting like this is unbearable. Everyone is on their station and battle ready. Finally the cruiser jumps in and hails, "This is the RS 'Chilled Jam Session.' We heard you are out of fuel..." The Rebel gives you a dirty grin and cuts communication.</text>
-	<text>You don't have to wait long for the cruiser. It enters the system with full impulse engines. You receive a hail: "This is the RS 'Quacks Like a Duck.' Looks like you made some terrible mistakes, Captain. We were called in to finally finish you. Farewell." They cut communication and open fire.</text>
-	<text>When the cruiser arrives you are already encircled by an entire battalion. They send a message, "This is the RS 'Jungle Bungle' Maybe we would have considered accepting your surrender, but you didn't give that courtesy to most of our boys. There will be no way out of this for you."</text>
+	<text>You don't have to wait long for the cruiser. It enters the system with full impulse engines. You receive a hail: "This is the RS 'Hyperspace Admiral'. Looks like you made some terrible mistakes, Captain. We were called in to finally finish you. Farewell." They cut communication and open fire.</text>
+	<text>When the cruiser arrives you are already encircled by an entire battalion. They send a message, "This is the RS 'FTL Throne' Maybe we would have considered accepting your surrender, but you didn't give that courtesy to most of our boys. There will be no way out of this for you."</text>
 </textList>
 
 
@@ -3090,6 +3122,38 @@
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
+</event>
+
+<event name="FUEL_ON_SLUG_CHUCKLE">
+   <text>A poorly armed Slug ship cruises by and offers assistance. Their captain seems to be chuckling to himself, perhaps at the prices he's charging.</text>
+   <ship load="JELLY" hostile="false" />
+   <choice hidden="true">
+      <text>Pay 15 scrap for 5 fuel.</text>
+      <event load="FUEL_ON_SLUG_CHUCKLE_LIST" />
+   </choice>
+   <choice hidden="true">
+      <text>Ignore the offer.</text>
+      <event>
+         <text>You know better than to do business with a Slugman who seems like he knows something you don't. He jumps off with another chuckle.</text>
+      </event>
+   </choice>
+   <choice hidden="true" req="slug">
+      <text>(Slug Crew) Have your Slug make the purchase.</text>
+      <event>
+         <text>As soon as he sees your crewmember the Slug stops his incessant chuckling. The exchange appears to go smoothly although you wonder what mental battles are telepathically occurring between the two Slugs.</text>
+         <item_modify>
+            <item type="scrap" min="-15" max="-15" />
+            <item type="fuel" min="5" max="5" />
+         </item_modify>
+      </event>
+   </choice>
+   <choice hidden="true">
+      <text>Attack.</text>
+      <event>
+         <text>No good can come of this lowlife slug vessel. Battle stations!</text>
+         <ship hostile="true" />
+      </event>
+   </choice>
 </event>
 
 <!-- END OF CE MODIFIED VANILLA FUEL EVENTS -->

@@ -588,7 +588,7 @@
 				<choice req="engines" lvl="8" hidden="true">
 					<text>(Highly Advanced Engines) "Maybe you should simulate that again, with regarding our ship specifically. We can easily outrun you and even dodge your fleet artillery."</text>
 					<event>
-						<text>The Rebel Admiral checks some screens and consults her advisors. "Alright, you might indeed be a match in combat. So you command a heavily armored ship of death. Are you trying to intimidate us?"</text>
+						<text>The Rebel Admiral checks some screens and consults her advisors. "Alright, you might indeed be a match in combat. We got it, you command a heavily armored kill-cruiser. So what? Are you trying to intimidate us?"</text>
 						<choice req="medbay" lvl="3" hidden="true">
 							<text>(Advanced Medbay) "Our ship can fill many roles. One is rendering aid in the current times of crisis. But this is not the point..."</text>
 							<event load="CE_PEACE_BOSS_NEGOTIATION_2"/>
@@ -1005,7 +1005,7 @@
 						<choice hidden="true" req="mantis">
 							<text>(Mantis Crew) Sometimes it is.</text>
 							<event>
-								<text>"A Mantis on your command ship? I rarely met any Mantis that does not want to kill any human it encounters..." You narrate the course of your journey. A story of endless struggle and hardship. But also the success story of a diverse crew that worked together for a greater good. On a ship that represents the rule of law and... reconciliation!</text>
+								<text>"A Mantis on your command ship? I rarely met a Mantis that does not want to kill any human it encounters..." You narrate the course of your journey. A story of endless struggle and hardship. But also the success story of a diverse crew that worked together for a greater good. On a ship that represents the rule of law and... reconciliation!</text>
 								<choice hidden="true">
 									<text>Continue...</text>
 									<event load="CE_PEACE_BOSS_NEGOTIATION_WIN"/>
@@ -1015,7 +1015,7 @@
 						<choice hidden="true" req="slug">
 							<text>(Slug Crew) Sometimes it is.</text>
 							<event>
-								<text>"A Slug on your command ship? Didn't you expel these from the Federation?" You narrate the course of your journey. A story of endless struggle and hardship. But also the success story of a diverse crew that worked together for a greater good. On a ship that represents the rule of law and... reconciliation!</text>
+								<text>"A Slug on your command ship? Didn't you expel their kind from your Federation?" You narrate the course of your journey. A story of endless struggle and hardship. But also the success story of a diverse crew that worked together for a greater good. On a ship that represents the rule of law and... reconciliation!</text>
 								<choice hidden="true">
 									<text>Continue...</text>
 									<event load="CE_PEACE_BOSS_NEGOTIATION_WIN"/>

@@ -1840,7 +1840,7 @@
 </eventList>
 <eventList name="REBEL_TRANSPORT_CAPTURED">
 	<event>
-		<text>This ship was ferrying a bunch of cadets to their first assignments, you find them hiding deep within the ship. The young Rebels have just passed training and are not equipped to offer any resistance. They surrender and demand to be treated in accordance with general system law.</text>
+		<text>This ship was ferrying a bunch of cadets to their first assignments, you find them hiding deep within the ship. The young Rebels have just passed training and seem ill equipped to offer any kind of resistance. They surrender and demand to be treated in accordance with general system law.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>Take the Rebels as prisoners.</text>
@@ -1895,7 +1895,7 @@
 		<quest event="CE_QUEST_REBEL_POW_MEETING"/>
 	</event>
 	<event>
-		<text>When bringing the Cadets on board, one of them grabs a rifle from a nearby rack and the Rebels stage a desperate attempt to take over your ship. You will have to defend yourself.</text>
+		<text>When bringing the Cadets on board, one of them snatches a rifle from a nearby rack. The young Rebels stage a desperate attempt to take over your ship. You will have to defend yourself.</text>
 		<boarders min="2" max="3" class="human"/>
 	</event>
 </eventList>
@@ -1999,28 +1999,88 @@
 		</choice>
 	</event>
 	<event>
+		<text>It looks like the Rebels do care little about their own. A military vessel waits for you in what is supposed to be the neutral zone and opens fire the moment you arrive.</text>
+		<ship load="REBEL_POW_MEETING" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice req="AE_ASB" hidden="true"> 
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_ASB"/>
+		</choice>
+		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+			<event load="CE_PRE_FIGHT_EFFECTOR"/>
+		</choice>	
+		<choice req="AE_WEAPON_JAMMER" hidden="true">
+			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
+			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_DRONE_JAMMER" hidden="true">
+			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
+			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
+			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
+		</choice>
+		<choice req="AE_MIND_SHIELD" hidden="true"> 
+			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		</choice>
+		<choice req="AE_FIREWALL" hidden="true"> 
+			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
+			<event load="CE_PRE_FIGHT_FIREWALL"/>
+		</choice>
+		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
+			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
+		</choice>
+		<choice req="AE_IRRADIATOR" hidden="true"> 
+			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
+			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
+		</choice>
+	</event>
+	<event>
 		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to pay a ransom in exchange for the live of the prisoners.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to a prisoner exchange and a captured member of the Federation is released when you return the Rebel cadets. The officer has to submit to your command.</text>
-		<crewMember amount="1" class="human"/>
-	</event>
-	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. The leverage gained allows you to convince the Rebel officials to delay the pursuing fleet.</text>
-		<modifyPursuit amount="-2"/>
+		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to pay a ransom in exchange for the live of the prisoners.</text>
+		<autoReward level="HIGH">scrap_only</autoReward>
 	</event>
 	<event>
 		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to pay a ransom in exchange for the live of the prisoners.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to a prisoner exchange and a captured member of the Federation is released when you return the Rebel cadets. The officer has to submit to your command.</text>
-		<crewMember amount="1" class="human"/>
+		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. The leverage gained allows you to convince the Rebel officials to delay the pursuing fleet.</text>
+		<modifyPursuit amount="-3"/>
 	</event>
 	<event>
 		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. The leverage gained allows you to convince the Rebel officials to delay the pursuing fleet.</text>
-		<modifyPursuit amount="-2"/>
+		<modifyPursuit amount="-3"/>
+	</event>
+	<event>
+		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. The leverage gained allows you to convince the Rebel officials to delay the pursuing fleet.</text>
+		<modifyPursuit amount="-3"/>
+	</event>
+	<event>
+		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to a prisoner exchange and a captured Federation commando is released when you return the Rebel cadets. The seasoned leutanant has to submit to your command.</text>
+		<crewMember amount="1" class="human" combat="2"/>
+	</event>
+	<event>
+		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to a prisoner exchange and a captured Federation engineer is released when you return the Rebel cadets. The specialist submits to your command.</text>
+		<crewMember amount="1" class="engi" repair="1"/>
+	</event>
+	<event>
+		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to a prisoner exchange and a captured Federation official is released when you return the Rebel cadets. The Zoltan agrees to submit to your command.</text>
+		<crewMember amount="1" class="zoltan"/>
 	</event>
 </eventList>
 
@@ -5514,7 +5574,7 @@
 
 <textList name="CE_REBEL_CONSTRUCTION_PATROL_TEXT">
 	<text>You wonder when you last communicated with a living being that is not part of your crew. Just then, your ship is hailed: "We've found you at last. Prepare to die." Rebels!</text>
-	<text planet="PLANET_UNPOPULATED">A small Rebel ship is docked at a large shipyard, delivering crew to a newly build cruiser. Their ship is not yet combat ready, but they move in to attack in their militarized transport craft.</text>
+	<text planet="PLANET_UNPOPULATED">A small Rebel ship is docked at a large shipyard, delivering crew to a newly built cruiser. Their ship is not yet combat ready, but they move in to attack in their militarized transport craft.</text>
 	<text>You run into one of the few manned Rebel patrols of the sector.</text>
 	<text>What must be a Rebel inspection group is charging FTL at this beacon. Their escort attacks as soon as you arrive to allow the officers to escape.</text>
 	<text>Com chatter you receive while jumping in does not bode well: "Yes, the jump signature is a match, I think we found them. Going quiet and engaging now." Soon, the ship appears on your radar, closing in fast.</text>
@@ -5773,11 +5833,10 @@
 		<event>
 			<text>When you attempt a detailed scan of your surroundings, the first thing you notice is a nearby bulkhead opening. A hard-mounted turret slides out of the wall and turns towards you. "Intrusion detected. You have three seconds to verify your identity. 3... 2..."</text>
 			<ship load="BS_AUTO_TURRET_BOARDERS_SPACE_FACTORY" hostile="true"/>
-			<status type="limit" target="enemy" system="engines" amount="0"/>
 			<choice req="FTL_JUMPER" hidden="true">
 				<text>(Advanced Navigation AI) Activate your advanced navigation software.</text>
 				<event>
-					<text>Your augment allows you to use the side thrusters to their full potential. You can navigate more safely within the confined environment and gain a noticeable advantage against your opponent.</text>
+					<text>"... 1... Verification failed. Engaging target." The turret starts to unload it's weapon clusters on you. Your augment allows you to use the side thrusters to their full potential. You can navigate more safely within the confined environment of the hangar.</text>
 				<status type="limit" target="player" system="engines" amount="4"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
@@ -5820,7 +5879,7 @@
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
-					<text>"... 1... Verification failed. Engaging target." The turret starts to unload its weapon clusters on you. There is no space to navigate here; you are a sitting duck.</text>
+					<text>"... 1... Verification failed. Engaging target." The turret starts to unload it's weapon clusters on you. There is no space to navigate here; you are a sitting duck.</text>
 					<status type="limit" target="player" system="engines" amount="1"/>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
@@ -6108,7 +6167,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>This ship was ferrying a bunch of cadets to their first assignments, you discover it was even refit with escape pods, which saved some of the men and women. The young Rebels have just passed training and are not equipped to offer any resistance. They surrender and demand to be treated in accordance with general system law.</text>
+		<text>This ship was ferrying a bunch of cadets to their first assignments. You discover it was even refit with escape pods, which saved some of the men and women. The young Rebels have just passed training and seem ill equipped to offer any kind of resistance. They surrender and demand to be treated in accordance with general system law.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
 			<text>Take the Rebels as prisoners.</text>
@@ -6121,7 +6180,7 @@
 			</event>
 		</choice>
 		<choice req="CREW_STIMS" hidden="true"> 
-			<text>(Mantis Ship) Torture the Rebels for Information.</text>
+			<text>(Mantis Ship) Convince the Rebels to share some Intel with you.</text>
 			<event>
 				<text>You order them to be take to the special room. After a few hours that involve plenty of shouting, medication and hand tools, the group of cadets is reduced to a whimpering pile of half-dismembered bodies. You learned all you can about the Rebels pursuit vectors and hose down the torture chamber,- airlock style.</text>
 				<modifyPursuit amount="-1"/>

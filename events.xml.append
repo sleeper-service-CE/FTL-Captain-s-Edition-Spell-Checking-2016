@@ -618,55 +618,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The weapon platform reports it problems locking onto the enemy. You navigate too close to your opponent; if the ASB fires, it might hit your ship as well.</text>
-		<item_modify>
-			<item type="missiles" min="-4" max="-4"/>
-		</item_modify>
-		<choice hidden="true"> 
-			<text>Tell the AI to stand down.</text>
-			<event>
-				<text>The weapon platform activates its passive cloak. You can retrieve it later; for now you will have to take care of the hostile, without fire support.</text>
-				<choice hidden="true"> 
-					<text>Continue...</text>
-					<event/>
-				</choice>
-				<choice req="AE_AUG_GENERATOR" hidden="true"> 
-					<text>(Internal Generator) Use your internal generator to power this augment.</text>
-					<event>
-						<status type="clear" target="player" system="reactor" amount="100"/>
-					</event>
-				</choice>
-				<choice req="AE_AUG_GENERATOR" hidden="true"> 
-					<text>(Internal Generator) Use your internal generator to power up a secondary combat augment.</text>
-					<event load="CE_PRE_FIGHT_NO_ASB"/>
-				</choice>
-			</event>
-		</choice>
-		<choice hidden="true"> 
-			<text>Order the AI to fire anyway.</text>
-			<event>
-				<text>You override the safety protocols and the weapon platform starts firing full spread salvos. This is going to be a vicious fight.</text>
-				<environment type="PDS" target="all"/>
-				<status type="loss" target="player" system="reactor" amount="1"/>
-				<choice hidden="true"> 
-					<text>Continue...</text>
-					<event/>
-				</choice>
-				<choice req="AE_AUG_GENERATOR" hidden="true"> 
-					<text>(Internal Generator) Use your internal generator to power this augment.</text>
-					<event>
-						<status type="clear" target="player" system="reactor" amount="100"/>
-					</event>
-				</choice>
-				<choice req="AE_AUG_GENERATOR" hidden="true"> 
-					<text>(Internal Generator) Use your internal generator to power up a secondary combat augment.</text>
-					<event load="CE_PRE_FIGHT_NO_ASB"/>
-				</choice>
-			</event>
-		</choice>
-	</event>
-	<event>
-		<text>This enemy seems to be equipped with some kind of scrambler plating. Your weapon platform reports that it is unable to lock onto the enemy.</text>
+		<text>This enemy seems to be equipped with some kind of scrambler plating. Your weapon platform reports that it is unable to lock onto the enemy. If it fires, it might hit your ship as well.</text>
 		<item_modify>
 			<item type="missiles" min="-4" max="-4"/>
 		</item_modify>
@@ -7760,6 +7712,250 @@
 	</event>
 </eventList>
 
+
+<eventList name="CE_COMBAT_FLUFF_MANNED_REBEL">
+	<event>
+		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
+	</event>
+	<event>
+		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
+	</event>
+	<event>
+		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
+	</event>
+	<event>
+		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
+	</event>
+	<event>
+		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
+	</event>
+	<event>
+		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
+	</event>
+	<event>
+		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
+	</event>
+	<event>
+		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
+	</event>
+	<event>
+		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
+	</event>
+	<event>
+		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
+	</event>
+	<event>
+		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
+	</event>
+	<event>
+		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
+	</event>
+	<event>
+		<text>Your barrage rips the enemy craft right open. The craft has sustained substantial external damage; it is unlikely that their life support will be able to hold up much longer.</text>
+		<status type="loss" target="enemy" system="oxygen" amount="3"/>
+	</event>
+	<event>
+		<text>Your fire seemed to have caused some serious damage to the opponents oxygen tanks. They are losing parts of their life support.</text>
+		<status type="loss" target="enemy" system="oxygen" amount="1"/>
+	</event>
+	<event>
+		<text>The enemy has sustained heavy damage and the reactor of the small craft starts to malfunction.</text>
+		<status type="loss" target="enemy" system="reactor" amount="1"/>
+	</event>
+	<event>
+		<text>Scans indicate that the enemy's reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly loses power.</text>
+		<status type="loss" target="enemy" system="reactor" amount="3"/>
+	</event>
+	<event>
+		<text>The enemy's engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
+		<status type="loss" target="enemy" system="engines" amount="1"/>
+	</event>
+	<event>
+		<text>The enemy has sustained heavy damage and the reactor of the small craft starts to malfunction.</text>
+		<status type="loss" target="enemy" system="reactor" amount="1"/>
+	</event>
+	<event>
+		<text>Scans indicate that the enemy's reactor has been breached and is only stabilized by the secondary containment fields. The craft rapidly loses power.</text>
+		<status type="loss" target="enemy" system="reactor" amount="3"/>
+	</event>
+	<event>
+		<text>Parts of your salvo crushes into the enemy's rear section, resulting in a small explosion that scatters hull panels in all direction. Then the ship goes dark. The opponent's reactor must be quite outdated or not well shielded; the craft suffers from an all out power failure.</text>
+		<status type="limit" target="enemy" system="reactor" amount="2"/>
+	</event>
+	<event>
+		<text>The enemy's engines begin to stutter. Your opponent navigated too hard and burned out the stabilizers.</text>
+		<status type="loss" target="enemy" system="engines" amount="1"/>
+	</event>
+	<event>
+		<text>"Bring us in closer!" Your first mate is taking the order seriously and an unexpected enemy maneuver brings your ships on a head-on collision course.</text>
+		<choice hidden="true"> 
+			<text>Continue...</text>
+			<event>
+				<text>A loud screeching sounds through the entire ship as you vessels grate along each other at high speed. You lost some hull plating but the enemy looks much worse. One of their weapon arrays has almost broken off.</text>
+				<damage amount="1" system="random" effect="breach"/>
+				<status type="loss" target="enemy" system="weapons" amount="3"/>
+			</event>
+		</choice>
+		<choice req="FTL_JUMPER" hidden="true"> 
+			<text>(Advanced Navigation AI) Abort!</text>
+			<event>
+				<text>The navigation AI takes over and narrowly prevents you from crashing into the enemy craft. "Alright, get some distance between us now!"</text>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text>Your shots seemed to have breached the enemy cargo hold. The vessel is losing supplies, scattering ammunition in its wake.</text>
+		<choice hidden="true"> 
+			<text>Head for the ammo and quickly pick it up.</text>
+			<event load="CE_COMBAT_FLUFF_MANNED_AMMO"/>
+		</choice>
+		<choice hidden="true"> 
+			<text>Abandon the ammo and focus at the battle at hand.</text>
+			<event/>
+		</choice>
+	</event>
+	<event>
+		<text>Your enemy has taken heavy damage and appears to be dropping fuel containers. Are they trying to lose mass?</text>
+		<choice hidden="true"> 
+			<text>Head for the fuel and quickly pick it up.</text>
+			<event load="CE_COMBAT_FLUFF_MANNED_FUEL"/>
+		</choice>
+		<choice hidden="true"> 
+			<text>Abandon the fuel and focus at the battle at hand.</text>
+			<event/>
+		</choice>
+	</event>
+	<event>
+		<text>"Captain, engineering reporting. There is something wrong with the reactor, probably its the fuel solution. I'm working on it, but right now we are running below optimum." You order to get this fixed as soon as possible and focus on managing your remaining power for now.</text>
+		<status type="loss" target="player" system="reactor" amount="3"/>
+	</event>
+	<event>
+		<text>The fighting maneuvers bring your ships close to a small asteroid field. Your opponent is unwilling to avoid it; instead the ship changes course and heads right towards the rocks. They are trying to lose you in the hazard zone.</text>
+		<choice hidden="true">
+			<text>Go after them.</text>
+			<event>
+				<text>You order evasive maneuvers and follow them into the asteroids.</text>
+				<environment type="asteroid"/>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Let them escape.</text>
+			<event>
+				<text>The ship disappears into the field. Maybe they will get crushed by asteroids, but you have to assume they know the terrain and will live to harass other vessels. The weapons officer powers down the guns and you return to the beacon.</text>
+				<ship hostile="false"/>
+			</event>
+		</choice>
+		<choice hidden="true" req="engines" lvl="7">
+			<text>(Improved Engines) Intercept them before they get to the asteroid field!</text>
+			<event>
+				<text>You are pushed deep into your seat as your pilot puts full power to the engines, easily getting ahead of the ship. No one escapes you!</text>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text>During the fighting, your ships got dangerously close to the systems sun. Your opponent has taken considerable damage, but still sets a direct course for the star. Are they trying to escape or do they want to lure you into the danger zone?</text>
+		<choice hidden="true">
+			<text>Go after them.</text>
+			<event>
+				<text>You order your crew to brace for flare-impacts and follow the ship into the corona.</text>
+				<environment type="sun"/>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Let them escape.</text>
+			<event>
+				<text>The ship disappears behind the sun. You leave the epic solar-flare battle for another day.</text>
+				<ship hostile="false"/>
+			</event>
+		</choice>
+		<choice hidden="true" req="engines" lvl="7">
+			<text>(Improved Engines) Intercept them before they get to the star!</text>
+			<event>
+				<text>You are pushed deep into your seat as your pilot puts full power to the engines, easily getting ahead of the ship. No one escapes you!</text>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text>"Captain, we exceeded the operational limits for our current system configuration. If we don't..." A loud bang interrupts your crewmen. You pushed your ship a little to far. An energy spike has overloaded a secondary power-coupler. Fire alarm!</text>
+		<damage amount="0" system="random" effect="fire"/>
+	</event>
+	<event>
+		<text>"Captain, it appears we are leaking atmosphere." The battle strained the ship a little too much. Parts of the inner and outer sealing have been compromised and the explosive decompression breaches the ship hull.</text>
+		<damage amount="0" system="random" effect="breach"/>
+	</event>
+	<event>
+		<text>The young Rebel Captain hails you. "Cease fire! Please, we can't go on like this. My crew and I where never really aboard for this whole Rebellion anyway. We have made up our minds: We surrender. You can take us prisoner, the Rebels might agree to an exchange. At last this way the Federation will get something out of insubordinate. I'm sorry to have betrayed us all.</text>
+		<choice hidden="true"> 
+			<text>Pardon the Captain and allow him to join your crew.</text>
+			<event load="CE_REBEL_TURNCOAT_JOIN"/>
+		</choice>
+		<choice hidden="true">
+			<text>Take the Rebels as prisoners and loot their ship.</text>
+			<event load="CE_REBEL_TURNCOAT_PRISONER"/>
+		</choice>
+		<choice hidden="true">
+			<text>Ignore their pleas and continue the engagement.</text>
+			<event>
+				<text>No mercy for traitors!</text>
+			</event>
+		</choice>
+	</event>
+	<event>
+		<text>In the mids of battle, an escape pod detaches from the enemy ship. The pod is badly damaged and it starts to emit a distress signal with Federation encoding. Faint life-signs are detected from within.</text>
+		<choice hidden="true"> 
+			<text>Maybe a prisoner? Approach the pod to pick it up.</text>
+			<event load="CE_REBEL_ESCAPE_POD"/>
+		</choice>
+		<choice hidden="true">
+			<text>Better don't take any risks. Ignore the pod.</text>
+			<event>
+				<text>As the battle progresses, you scanners soon loose track of the pod as its autonomous energy source ceases to function. If anyone was in there, he is probably dead now.</text>
+			</event>
+		</choice>
+	</event>
+</eventList>
+
+<eventList name="CE_REBEL_ESCAPE_POD">
+	<event>
+		<text>You quickly pick up the pod in fly-by. It indeed contains a Federation officer who managed to escape the Rebels captivity in the heat of battle. You remind him that the fight isn't over yet and throw him a com-piece. "Understood. Reporting for duty, Captain."</text>
+		<crewMember amount="1"/>  
+	</event>
+	<event>
+		<text>You pick up the pod in fly-by and watch the cam feed as your crew quickly proceeds to open it. They find nothing but a whining Castovian Moon-Puppy, alongside several pounds of firebombs with their timer approaching zero. One of your crew fails to escape the blast. Damn those Rebels!</text>
+		<damage amount="0" system="room" effect="fire"/>
+		<removeCrew>
+			<clone>true</clone>
+			<text>You take a hopeful trip to the Clone Bay, and to your relief a clone is already prepared for the lost crewmember.</text>
+		</removeCrew>
+	</event>
+</eventList>
+
+<eventList name="CE_REBEL_TURNCOAT_JOIN">
+	<event>
+		<text>You dock with the Rebel cruft, but immediately realize that this offer was ruse. A concealed detachment of Rebel marines breaches your shield room and escapes deeper into the ship before you can call for a lockdown. The Rebel craft breaks away from you and re-opens fire.</text>
+		<damage amount="1" system="shields" effect="breach"/>
+		<boarders min="2" max="2" class="human"/>
+	</event>
+	<event>
+		<text>The turncoat cannot believe his luck. Better keep a close eye on them. You leave the Rebel ship to his remaining crew, they hope to flee the fleets advance and return to their homes.</text>
+		<crewMember amount="1" pilot="1" class="human"/>  
+	</event>
+</eventList>
+
+<eventList name="CE_REBEL_TURNCOAT_PRISONER">
+	<event>
+		<text>You dock with the Rebel cruft, but immediately realize that this offer was ruse. A concealed detachment of Rebel marines breaches your shield room and escapes deeper into the ship before you can call for a lockdown. The Rebel craft breaks away from you and re-opens fire.</text>
+		<amage amount="1" system="shields" effect="breach"/>
+		<boarders min="2" max="2" class="human"/>
+	</event>
+	<event>
+		<text>You contact a local Rebel official via an encrypted proxy beacon and fix a rendezvous point in neutral territory to perform a prisoner exchange. If you can get there before the fleet then you might be able to negotiate the release of the prisoners under favorable conditions.</text>
+		<autoReward level="HIGH">standard</autoReward>
+		<quest event="CE_QUEST_REBEL_POW_MEETING"/>
+	</event>
+</eventList>
+
+
 <eventList name="CE_COMBAT_FLUFF_MANNED_AMMO">
 	<event>
 		<text>The ammo was rigged with detonators and explodes as your ship gets near. You can't believe you fell for this.</text>
@@ -7772,6 +7968,7 @@
 		</item_modify>	
 	</event>
 </eventList>
+
 
 <eventList name="CE_COMBAT_FLUFF_MANNED_FUEL">
 	<event>
@@ -11806,7 +12003,7 @@
 
 <eventList name="FEDERATION_PLANET_SIGNAL_LIST">
 	<event>
-		<text>You find a smoldering Federation outpost, devastated by an orbital strike. A single medivac class is evacuating a few wounded survivors. "Our defense system had way too little reach. We didn't stand a chance against their cruiser. Scouts say the unit jumped to a nearby system. Better stay away from it!</text>
+		<text>You find a smoldering Federation outpost, devastated by an orbital strike. A single medivac class is evacuating a few wounded survivors. "Our defense system had way too little reach. We didn't stand a chance against their cruiser. Scouts say the unit jumped to a nearby system. Better stay away from it!"</text>
 		<choice>
 			<text>Continue...</text>
 			<event>
@@ -19958,55 +20155,55 @@
 </textList>
 
 <textList name="CE_COMBAT_SIM_WEAPON_TEXT">
-	<text>"Welcome to combat scenario Nr. 124: The Numa Incident. Rock missionary crafts have passed through your control zone in order to reach contested deep-space. They have exchanged fire with you and now attempt to flee towards the nearby long range beacon. Your objective is to disable the crafts before they escape. Use of lethal force is authorized."</text>
-	<text>"Welcome to combat scenario Nr. 371: The Pacification of the Ast 3 Penal Colonies. Top level criminals have been freed from a high security prison shortly before their execution. Their helpers have been intercepted by your wingmen. Your task is to hunt down the fugitives to bring them to justice before they can leave the system."</text>
-	<text>"Welcome to combat scenario Nr. 83a: The Assault on Hope's End. You are the spearhead of an covered attempt to overthrow the local pirate gangs in control of the Hope system. While taking control of the entry zone, a small scout spots you. If the craft gets away your stealth mission will fail before it even started. Your objective is to intercept the craft."</text>
-	<text>"Welcome to combat scenario Nr. 150b: Escalation in the Vilian Markets. Local hallucinogen smugglers have opened fire in protected trade space to evade police forces that attempted to rake a look at their cargo. Three ships have been lost. Upon your arrive the smugglers realize that you easily outgun them and they take flight. Use of lethal force is authorized"</text>
-	<text>"Welcome to combat scenario Nr. 171: Perimeter Breach at [Redacted]. You belong to the defense force of a hidden research and development base. An automated scout has been sighted in the surrounding nebula clouds. Hunt it down to deduce its origin."</text>
-	<text>"Welcome to combat scenario Nr. 91: The Fifth Merco-Call Raid. A pirate raid has gone bad and the hostiles have been easily scatter by the defenders. You are ordered to hunt down their leader."</text>
+	<text>"Welcome to combat scenario #124: The Numa Incident. Rock missionary crafts have passed through your control zone in order to reach contested deep-space. They have exchanged fire with you and now attempt to flee towards the nearby long range beacon. Your objective is to disable the crafts before they escape. Use of lethal force is authorized."</text>
+	<text>"Welcome to combat scenario #371: The Pacification of the Ast 3 Penal Colonies. Top level criminals have been freed from a high security prison shortly before their execution. Their helpers have been intercepted by your wingmen. Your task is to hunt down the fugitives in order to bring them to justice before they can leave the system."</text>
+	<text>"Welcome to combat scenario #83a: The Assault on Hope's End. You are the spearhead of an covered attempt to overthrow the local pirate gangs in control of the Hope system. While taking control of the entry zone, a small scout spots you. If the craft gets away your stealth mission will fail before it even started. Your objective is to intercept the craft."</text>
+	<text>"Welcome to combat scenario #150b: Escalation in the Vilian Markets. Local hallucinogen smugglers have opened fire in protected trade space in an attempt to evade police forces scanning their cargo. Three ships have been lost. Upon your arrival the smugglers realize that you easily outgun them and they take flight. Use of lethal force is authorized"</text>
+	<text>"Welcome to combat scenario #171: Perimeter Breach at [Redacted]. You belong to the defense force of a hidden research and development base. An automated scout has been sighted in the surrounding nebula clouds. Hunt it down to deduce its origin."</text>
+	<text>"Welcome to combat scenario #91: The Fifth Merco-Call Raid. A pirate raid has gone bad and the hostiles have been easily scatter by the defenders. You are ordered to hunt down their leader."</text>
 </textList>
 
 <textList name="CE_COMBAT_SIM_EVASION_TEXT">
-	<text>"Welcome to combat scenario Nr. 109: The Defense of the West Stations. Hostiles are pressing your position from all direction. You have to distract them till all civilians from the station have been evacuated."</text>
-	<text>"Welcome to combat scenario Nr. 137: The Omicron-Tau Incident. Ships of unknown design have attacked and destroyed your garrison. Your orders are to retreat without returning fire."</text>
-	<text>"Welcome to combat scenario Nr. 54: Escape from the Gst'khaz' Broodpools. Negotiations with the Mantis broodloards have failed and the interstellar clone-ban act has been rejected. An anti-xeno faction, probably backed by the Clanlords, is attacking your diplomatic craft as it accents from the planet. You have to evade the enemy fire till you reach the jump beacon."</text>
-	<text>"Welcome to combat scenario Nr. 217: The Kijiro Run. Your trade ship has been ambushed by pirates of the new Kijiro system. Evade their crafts till help arrives."</text>
-	<text>"Welcome to combat scenario Nr. 129: The Legendary Run. Relive parts of the fictional story of the legendary Mantis thief KazaaakplethKilik and escape from the Terror Cluster with a stolen prototype ship."</text>
-	<text>"Welcome to combat scenario Nr. 217: The Malath Blockade Run. Marauders blockade the moon of Malath, but their numbers still allow breaking through their ranks. Aid ships continue to execute daring blockade runs to deliver much needed food rations to the settlements. Your objective is to evade the enemy ship till it retreats."</text>
+	<text>"Welcome to combat scenario #109: The Defense of the West Stations. Hostiles are pressing your position from all direction. You have to distract them till all civilians from the station have been evacuated."</text>
+	<text>"Welcome to combat scenario #137: The Omicron-Tau Incident. Ships of unknown design have attacked and destroyed your garrison. Your orders are to retreat without returning fire."</text>
+	<text>"Welcome to combat scenario #54: Escape from the Gst'khaz' Broodpools. Negotiations with the Mantis broodloards have failed and the interstellar clone-ban act has been rejected. An anti-xeno faction, probably backed by the clans, is attacking your diplomatic craft as it accents from the planet. You have to evade the enemy fire till you reach the jump beacon."</text>
+	<text>"Welcome to combat scenario #217: The Kijiro Run. Your trade ship has been ambushed by pirates of the new Kijiro system. Evade their crafts till help arrives."</text>
+	<text>"Welcome to combat scenario #129: The Legendary Run. Relive parts of the fictional story of the legendary Mantis thief KazaaakplethKilik and escape from the Terror Cluster with a stolen prototype ship."</text>
+	<text>"Welcome to combat scenario #217: The Malath Blockade Run. Marauders blockade the moon of Malath, but their numbers still allow breaking through their ranks. Aid ships continue to execute daring blockade runs to deliver much needed food rations to the settlements. Your objective is to evade the enemy ship till it retreats."</text>
 </textList>
 
 <textList name="CE_COMBAT_SIM_BOARDING_1_TEXT">
 	<text>You tell your crew that this is not a drill. Well, it still is, but with real pain.</text>
-	<text>"Welcome to boarding scenario Nr. 437: Corporate Spies at Junction 32. A young officer discovers unusual readings aboard the station you are in charge of. Sensor adjustments reveal two individuals equipped with a personal cloaking field an emergency respirators. Your task is to dispatch a security detail to arrest the intruders. Use of lethal force is allowed should they attempt to resist."</text>
-	<text>"Welcome to boarding scenario Nr. 411: Intruders in one of the Lockard Stations. The crime wave that followed the Zoltans breakaway from the Federations has reached the habitat you are in charge of. Armed intruders are reported almost daily. Today a group of unknown assailants started a shootout. Your objective is to pacify the attackers."</text>
-	<text>"Welcome to boarding scenario Nr. 480: Sabotage at Mix Theta. A territorial dispute between the Federation and a free planet of the Mix cluster has lead to ongoing tension. You are in command of a guard cruiser that is keeping the region stable. Hostile agents have entered your ship at a store. They are discovers during an attempt to sabotage your reactor. Your objective is to eliminate the intruders."</text>
+	<text>"Welcome to boarding scenario #437: Corporate Spies at Junction 32. A young officer discovers unusual readings aboard the station you are in charge of. Sensor adjustments reveal two individuals equipped with a personal cloaking field and emergency respirators. Your task is to dispatch a security detail to arrest the intruders. Use of lethal force is authorized, should they attempt to resist."</text>
+	<text>"Welcome to boarding scenario #411: Intruders at the Lockard Stations IV. The crime wave that followed the Zoltans breakaway from the Federations has reached the habitat you are in charge of. Armed intruders are reported almost daily. Today a group of unknown assailants started a shootout. Your objective is to pacify the attackers."</text>
+	<text>"Welcome to boarding scenario #480: Sabotage at Mix Theta. A territorial dispute between the Federation and a free planet of the Mix cluster has lead to ongoing tension. You are in command of a guard cruiser that is keeping the region stable. Hostile agents have entered your ship at a store. They are discovered when attempting to sabotage your reactor. Your objective is to eliminate the intruders."</text>
 </textList>
 
 <textList name="CE_COMBAT_SIM_BOARDING_2_TEXT">
 	<text>Your crewmen load their blasters and adjust their armor. Time to beat up some primitive AI dummies.</text>
-	<text>"Welcome to boarding scenario Nr. 208: Boarding attempt in the Gun-lovers Retreat. You are in charge of guarding a trade convoy and have come under attack by pirates. Hostiles have been detected aboard your ship. Your objective is to eliminate the intruders."</text>
-	<text>"Welcome to boarding scenario Nr. 47: Unknown intruders near Uncharted Sector 21.56. Your ship jumped into a plasma storm and a teleporter signal directed at your ship was detected. Hostiles may be aboard the ship, their identity remaining unclear. Your objective is to defend your ship against any intruders."</text>
-	<text>"Welcome to boarding scenario Nr. 16: The Sox Incident. The Slugs have just recently been expelled from the Federation. Your vessel is one of the last remaining Federation ships in Slug space, heading for the boarder. While "official" Slug forces have not engaged you on your journey, pirate raids have become frequent. Your task is to defend your ship against any intruders."</text>
+	<text>"Welcome to boarding scenario #208: Boarding attempt in the Gun-lovers Retreat. You are in charge of guarding a trade convoy and have come under attack by pirates. Hostiles have been detected aboard your ship. Your objective is to eliminate the intruders."</text>
+	<text>"Welcome to boarding scenario #47: Unknown intruders near Uncharted Sector 21.56. Your ship jumped into a plasma storm and a teleporter signal directed at your ship was detected. Hostiles may be aboard the ship, their identity remaining unclear. Your objective is to defend your ship against any intruders."</text>
+	<text>"Welcome to boarding scenario #16: The Sox Incident. The Slugs have just recently been expelled from the Federation. Your vessel is one of the last remaining Federation ships in Slug space, heading for the boarder. While "official" Slug forces have not engaged you on your journey, pirate raids have become frequent. Your task is to defend your ship against any intruders."</text>
 </textList>
 
 <textList name="CE_COMBAT_SIM_BOARDING_3_TEXT">
 	<text>The crew takes point at the doors. Here they come.</text>
-	<text>"Welcome to boarding scenario Nr. 25: Unknown intruders near Uncharted Sector 21.56. Your ship jumped into a plasma storm and a teleporter signal directed at your ship was detected. Hostiles may be aboard the ship, their identity remaining unclear. Your objective is to defend your ship against any intruders."</text>
-	<text>"Welcome to boarding scenario Nr. 16: The Mezan Shootout. Separatists of the Mezan system are agitating against the Federation. Some planets have formed militias and started carrying out raids on Federation traders. Your command a cruiser sized freighter craft and have been boarded by a squat of badly trained space marines. Your task is to defend your ship."</text>
+	<text>"Welcome to boarding scenario #25: Unknown intruders near Uncharted Sector 21.56. Your ship jumped into a plasma storm and a teleporter signal directed at your ship was detected. Hostiles may be aboard the ship, their identity remaining unclear. Your objective is to defend your ship against any intruders."</text>
+	<text>"Welcome to boarding scenario #16: The Mezan Shootout. Separatists of the Mezan system are agitating against the Federation. Some planets have formed militias and started carrying out raids on Federation traders. Your command a cruiser sized freighter craft and have been boarded by a squat of badly trained space marines. Your task is to defend your ship."</text>
 </textList>
 
 <textList name="CE_COMBAT_SIM_BOARDING_4_TEXT">
 	<text>With this kind of training routine you will make yourself a name among the crew in no time.</text>
-	<text>"Welcome to boarding scenario Nr. 501: The Theta Six Revolt. Your craft was patrolling near a secluded Engi research facility that started to emitt a distress call. Upon approaching the station, a detachment of rogue AI avatars teleport aboard. You witness the beginning of the Theta Six AI Revolt that did eventually allow the avatars to gain control of the whole sector."</text>
-	<text>"Welcome to boarding scenario Nr. 584: The Theta Six Revolt. You command a science vessel testing an early stage avatar generation augment. A glitch in the code corrupts the AI during a mass-generation experiment. Your security detail is completely outnumbered. Your task is to prevent the rogue AIs from gaining control over the ship and the avatar generator."</text>
+	<text>"Welcome to boarding scenario #501: The Theta Six Revolt. Your craft was patrolling near a secluded Engi research facility that started to emitt a distress call. Upon approaching the station, a detachment of rogue AI avatars teleport aboard. You witness the beginning of the Theta Six AI Revolt that did eventually allow the avatars to gain control of the whole sector."</text>
+	<text>"Welcome to boarding scenario #584: The Theta Six Revolt. You command a science vessel testing an early stage avatar generation augment. A glitch in the code corrupts the AI during a mass-generation experiment. Your security detail is completely outnumbered. Your task is to prevent the rogue AIs from gaining control over the ship and the avatar generator."</text>
 </textList>
 
 <textList name="CE_COMBAT_SIM_REPAIR_TEXT">
-	<text>With the press of the button, all hell breaks loose aboard the ship. Sirens glare and damage reports come in from all decks. The simulation even includes some real-life fires. You'll still have to remain calm and asses where repairs are needed most.</text>
-	<text>"Welcome to maintenance scenario Nr. 106: The Second Battle of Ridge 52 (aftermath). Your cruiser rendered fire support during against the Rock forces, but was outflanked by a missile cruiser and had to retreat. Your task is to asses the damage and oversee the repairs."</text>
-	<text>"Welcome to maintenance scenario Nr. 122: Meltdown at Industrial Zone Ras pt-74. You are one of the first vessels responding to distress calls immediately after the Ras pt-74 disaster. Your crew has boarded a badly damaged freighter craft and is tasked with restoring it to working condition so that it can evacuate nearby workers."</text>
-	<text>"Welcome to maintenance scenario Nr. 98: The Harmony Incident. Strong com interference occurred at an ion barrier in boarder zone "Harmony". This prevented you from identifying yourself to a Zoltan boarder patrol craft, the Beam Ship opened fire and your ship took heavy damage before you managed to officially surrender. Your task is to asses the damage and oversee the repairs."</text>
-	<text>"Welcome to maintenance scenario Nr. 180: Unknown Encounter in the Purgatory System. You command a deep-space recon mission in the far out Purgatory system. A ship of unknown design appeared on your radar and opened fire without warning. Your shields prove ineffective against the hostile, but the craft eventually retreats with no apparent reason. Your task is to deal with the aftermath."</text>
+	<text>With the press of the button, all hell breaks loose aboard the ship. Sirens glare and damage reports come in from all decks. The simulation even includes some real-life fires. You'll have to remain calm and asses where repairs are needed most.</text>
+	<text>"Welcome to maintenance scenario #106: The Second Battle of Ridge 52 (aftermath). Your cruiser rendered fire support against the Rock forces, but was outflanked by a missile cruiser and had to retreat. Your task is to asses the damage and oversee the repairs."</text>
+	<text>"Welcome to maintenance scenario #122: Meltdown at Industrial Zone Ras pt-74. You are one of the first vessels responding to distress calls immediately after the Ras pt-74 disaster. Your crew has boarded a badly damaged freighter craft and is tasked with restoring it to working condition so that it can evacuate nearby workers."</text>
+	<text>"Welcome to maintenance scenario #98: The Harmony Incident. Strong com interference occurred at an ion barrier in boarder zone "Harmony". This prevented you from identifying yourself to a Zoltan boarder patrol craft, the Beam Ship opened fire and your ship took heavy damage before you managed to officially surrender. Your task is to asses the damage and oversee the repairs."</text>
+	<text>"Welcome to maintenance scenario #180: Unknown Encounter in the Purgatory System. You command a deep-space recon mission in the far out Purgatory system. A ship of unknown design appeared on your radar and opened fire without warning. Your shields prove ineffective against the hostile, but the craft eventually retreats with no apparent reason. Your task is to deal with the aftermath."</text>
 </textList>
 
 
@@ -20750,9 +20947,9 @@
 	</event>
 </eventList>
 <textList name="CE_DRONE_COMBAT_FLEET_DELAY_TEXT">
-			<text>The drones will be way less effective when not controlled directly. Never the less, they will attack any Rebel ships they encounter, till they are either destroyed, or run out of energy.</text>
+			<text>The drones will be way less effective when not controlled directly. However, they will attack any Rebel ships they encounter, till they are either destroyed, or run out of energy.</text>
 			<text>Your preprogrammed drones will do their best to harass you Rebel pursuers, but you doubt that they will buy you much time. These things are designed to be controlled directly after all. The drone parts probably could be put to better use.</text>
-			<text>Autonomous acting drones cant pose a serious thread, even to the smallest Rebel crafts. But they can still serve as a distraction. This should buy you some time.</text>
+			<text>Autonomous acting drones can't pose a serious thread, even to the smallest Rebel crafts. But they can still serve as a distraction. This should buy you some time.</text>
 			<text>Three drones should be enough to take out an auto scouts, if you would control them directly. Acting autonomously, they will become more of a nuisance, but the Rebels will still have to deal with them. You hurry to leave, in order to make the best of the time you just gained.</text>
 			<text>You are undisturbed here. The time the FTL needs to charge is spent on programming some autonomous combat algorithms for the drones. They will do their best to delay the fleet.</text>
 </textList>
@@ -21420,7 +21617,7 @@
 			</event>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) Upgrade you teleporter devices with late stage shield phase technology. [ Scrap: -70; Augment: Zoltan Shield Bypass ]</text>
+			<text>(Zoltan Ship) Upgrade you ship with specialized shield phase technology for teleporters. [ Scrap: -70; Augment: Zoltan Shield Bypass ]</text>
 			<event>
 				<text>The ship computer contains all available data on the advanced Zoltan shields. This allows you to upgrade teleporter devices so that they can bypass them.</text>
 				<item_modify>
@@ -22110,7 +22307,7 @@
 			</event>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) Upgrade you teleporter devices with late stage shield phase technology. [ Scrap: -70; Augment: Zoltan Shield Bypass ]</text>
+			<text>(Zoltan Ship) Upgrade you ship with specialized shield phase technology for teleporters. [ Scrap: -70; Augment: Zoltan Shield Bypass ]</text>
 			<event>
 				<text>The ship computer contains all available data on the advanced Zoltan shields. This allows you to upgrade teleporter devices so that they can bypass them.</text>
 				<item_modify>
@@ -22138,7 +22335,7 @@
 			</event>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) Construct an external supershield projector unit. [ Scrap: -50; Fuel -8; Drone: Shield Overcharger Mark I ]</text>
+			<text>(Zoltan Ship) Construct an external supershield projector unit. [ Scrap: -50; Fuel -8; Drone: Shield Overcharger ]</text>
 			<event>
 				<text>Top secret blueprints of this new tech have been distributed to all Zoltan captains when the conflict escalated. You decide to put the device an a test run. It requires a separate fuel reserve to ignite an FTL reaction, which then generates impenetrable shield layers. The process is to dangerous to be conducted inside a space-ship, you will have to remotely control the device via a drone system.</text>
 				<item_modify>
@@ -22821,7 +23018,7 @@
 			</event>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) Construct an external supershield projector unit. [ Scrap: -50; Fuel -8; Drone: Shield Overcharger Mark I ]</text>
+			<text>(Zoltan Ship) Construct an external supershield projector unit. [ Scrap: -50; Fuel -8; Drone: Shield Overcharger ]</text>
 			<event>
 				<text>Top secret blueprints of this new tech have been distributed to all Zoltan captains when the conflict escalated. You decide to put the device an a test run. It requires a separate fuel reserve to ignite an FTL reaction, which then generates impenetrable shield layers. The process is to dangerous to be conducted inside a space-ship, you will have to remotely control the device via a drone system.</text>
 				<item_modify>
@@ -24623,7 +24820,7 @@
 	<text>The Mantis is coughing up some acid as you approach it. "Better stand back, Captain. Caught a Mantis cold. Hehe." You are not sure if the creature is indeed sick or just wants to scare you.</text>
 	<text>Your Mantis crew member explains at length the joy of feasting on raw meat.</text>
 	<text>Your Mantis crew member describes in detail the taste of human blood. "Ah sorry Captain, I thought this might interest you... Did you ever think about this? That Rebels taste just like Federation humans? Maybe you and the enemy are not so different after all." You'd rather not contemplate on that.</text>
-	<text>Your Mantis asks if you ever thought about how it would be if everyone in the galaxy hated you, even members of your own species. "A rhetorical question, of course. I learned this speech structure recently and I'm certainly fine with the challenging life I've chosen. Even a little proud."</text>
+	<text>Your Mantis asks if you ever thought about how it would be if everyone in the galaxy hated you, even members of your own species. "Since I joined the Federation, I will never be able to return to my Clan. But I'm not complaining, Captain and I'm certainly fine with the challenging life I've chosen. Even a little proud."</text>
 	<text>Your Mantis explains that, even after serving for some time under your command, it still does not understand the concepts of empathy and compassion.</text>
 	<text>Upon your inquiry, the Mantis freely explains how the acid it spits is produced in its throat. Fascinating and scary.</text>
 	<text>The Mantis claims it has killed several dozens of humans before joining the Federation. It wants to know how this makes you feel.</text>
@@ -26095,7 +26292,7 @@
 	<text>The Crystal does not know what to say to you. The being seems lost in the conversation.</text>
 	<text>The Crystal does not know what to say to you. The being seems lost in the conversation.</text>
 	<text>Your Crystal crew member says it is somewhat surprised to see how religious Rockman are. It wonders if some Rockman might consider worshiping it.</text>
-	<text>The Crystal asks if you would like it to produce a crystal object as a present. You are a little overwhelmed by the possibilities and ask for time to think about it.</text>
+	<text>The Crystal asks if you would like to have it produce a crystal object as a present. "I can grow any shape you want, Captain." You are a little overwhelmed by the possibilities and ask for time to think about it.</text>
 	<text>The Crystal gives you a friendly greeting. It holds out its hand and lets a clear crystaline cup sprout from its hand. "I made this for you, my Captain. Please accept it."</text>
 	<text>The Crystal asks if you have heard about the Lanius. "These beings seem to have lived almost as secluded as my kind. They also are not as dependant on oxygen as much. I wonder how it would be to meet them?"</text>
 	<text>The Crystal says it is happy to have met the people of the Federation. "This is all very fascinating, Captain."</text>
@@ -30957,7 +31154,7 @@
 	<text>They still can spare some supplies to aid you in your mission.</text>
 	<text>"Ah I see... affirmative, sending supplies. Staying with this squadron will make you easier to find. Be on your way now, and good luck!" They transfer some equipment to help.</text>
 	<text>"It's you! Um sorry... acknowledged, let us transfer some equipment to help. See you on the other side."</text>
-	<text>"They send AoD-codes and General Turzil appears on-screen, "Mission progress: adequate. Supply transfer authorized. Reunion with fleet command at Federation base still necessary. Single vessel strategy shows good results in simulations. Success intended." They send some equipment and prepare to jump.</text>
+	<text>They send AoD-codes and General Turzil appears on the screen. "Mission progress: adequate. Supply transfer authorized. Reunion with fleet command at Federation base still necessary. Single vessel strategy shows good results in simulations. Success intended." They send some equipment and prepare to jump.</text>
 </textList>
 
 <eventList name="CE_STRAY_FLEET_LIST">
@@ -31557,8 +31754,9 @@
 		<text>The crew of the cargo ship is glad to breathe some clean air. "Thank you, Captain; but this might not be enough. We will jump on now. Let's hope we can repay you one day." They detach from your ship.</text>
 	</event>
 	<event>
-		<text>The airlocks open and few individuals pour into your hold, gasping for air. Their life-support situation seems to be worse than you expected. Your ear terminal beeps: "Captain, we detect small arms in the hold. These chumps are armed." You security officer raises a blaster. The situation escalates surprisingly quick.</text>
+		<text>The airlocks open and few individuals pour into your hold, gasping for air. Their life-support situation seems to be worse than you expected. Your ear terminal beeps: "Captain, we detect small arms in the hold. These chumps are armed." You security officer raises a blaster. The situation escalates surprisingly quick. However, their small ship will make for some salvage.</text>
 		<boarders min="2" max="4" class="random"/>
+		<autoReward level="LOW">scrap_only</autoReward>
 	</event>
 </eventList>
 

@@ -7905,30 +7905,135 @@
 	<event>
 		<text>There are no more AI avatars remaining on the station. You strip it of useful materials.</text>
 		<autoReward level="HIGH">standard</autoReward>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+		<status type="clear" target="player" system="hacking" amount="100"/>
+		<status type="clear" target="player" system="clonebay" amount="100"/>
+		<status type="clear" target="player" system="battery" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
 		<text>There are no more AI avatars remaining on the station. You strip it of useful materials.</text>
 		<autoReward level="HIGH">standard</autoReward>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+		<status type="clear" target="player" system="hacking" amount="100"/>
+		<status type="clear" target="player" system="clonebay" amount="100"/>
+		<status type="clear" target="player" system="battery" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
 		<text>As the station goes dark you become sure that the AI crew is dead. Their equipment is yours for the taking.</text>
 		<autoReward level="HIGH">standard</autoReward>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+		<status type="clear" target="player" system="hacking" amount="100"/>
+		<status type="clear" target="player" system="clonebay" amount="100"/>
+		<status type="clear" target="player" system="battery" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
 		<text>Scanners indicate that the station has been emptied of hostiles. You can go on board and strip it of useful materials.</text>
 		<autoReward level="HIGH">standard</autoReward>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+		<status type="clear" target="player" system="hacking" amount="100"/>
+		<status type="clear" target="player" system="clonebay" amount="100"/>
+		<status type="clear" target="player" system="battery" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
 		<text>There are no more AI avatars remaining on the station. You strip it clean.</text>
 		<autoReward level="HIGH">standard</autoReward>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+		<status type="clear" target="player" system="hacking" amount="100"/>
+		<status type="clear" target="player" system="clonebay" amount="100"/>
+		<status type="clear" target="player" system="battery" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
 		<text>The AI holograms that ran the station have been destroyed. On board you discover a substantial fuel supply. You also take all the scrap you can manage.</text>
 		<autoReward level="HIGH">fuel</autoReward>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+		<status type="clear" target="player" system="hacking" amount="100"/>
+		<status type="clear" target="player" system="clonebay" amount="100"/>
+		<status type="clear" target="player" system="battery" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
 		<text>While you are busy stripping the station, another AI avatar materializes in one of the cramped chambers. Everyone draws weapons, but the entity seems to pose no threat. "Greetings biologicals. I see you have eliminated my deranged captors. You are Federation. I would be ready to serve aboard your ship."</text>
 		<autoReward level="LOW">scrap_only</autoReward>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+		<status type="clear" target="player" system="hacking" amount="100"/>
+		<status type="clear" target="player" system="clonebay" amount="100"/>
+		<status type="clear" target="player" system="battery" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
 	<choice hidden="true">
 		<text>Take the Avatar on board.</text>
 		<event load="AI_CREWMEN_RESULTS"/>
@@ -7950,9 +8055,40 @@
 	<event>
 		<text>You find some advanced ship technology aboard the station. It can be installed on your ship.</text>
 		<autoReward level="LOW">augment</autoReward>
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+		<status type="clear" target="player" system="hacking" amount="100"/>
+		<status type="clear" target="player" system="clonebay" amount="100"/>
+		<status type="clear" target="player" system="battery" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
 		<text>After reassuring themselves that the hostile crew has been eliminated, your salvage team finds a usable repair drone aboard the station. </text>
+
+		<status type="clear" target="player" system="weapons" amount="100"/>
+		<status type="clear" target="player" system="shields" amount="100"/>
+		<status type="clear" target="player" system="medbay" amount="100"/>
+		<status type="clear" target="player" system="oxygen" amount="100"/>
+		<status type="clear" target="player" system="doors" amount="100"/>
+		<status type="clear" target="player" system="engines" amount="100"/>
+		<status type="clear" target="player" system="pilot" amount="100"/>
+		<status type="clear" target="player" system="cloaking" amount="100"/>
+		<status type="clear" target="player" system="drones" amount="100"/>
+		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+		<status type="clear" target="player" system="hacking" amount="100"/>
+		<status type="clear" target="player" system="clonebay" amount="100"/>
+		<status type="clear" target="player" system="battery" amount="100"/>
+		<status type="clear" target="player" system="sensors" amount="100"/>
 		<choice hidden="true"> 
 			<text>Continue...</text>
 			<event>

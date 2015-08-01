@@ -128,7 +128,7 @@
 </ship>
 
 <ship name="REBEL_FUEL" auto_blueprint="SHIPS_REBEL"> 
-	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
+	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED_REBEL"/>
 	<escape timer="80" min="30" max="30"/>
 	<gotaway>
 		<text>The ship jumps away without a word. You hope they didn't leave to get reinforcements.</text>
@@ -285,7 +285,7 @@
 </ship>
 
 <ship name="SQUAT_WARNING" auto_blueprint="SHIPS_REBEL">
-	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED"/>
+	<surrender chance="0.8" min="5" max="6" load="CE_COMBAT_FLUFF_MANNED_REBEL"/>
 	<escape timer="40" min="22" max="22" >
 		<text>They are powering up their FTL! If they get away, they will no doubt warn the fleet of your position!</text>
 		<ship hostile="true"/>
@@ -3936,20 +3936,20 @@
 		</choice>
 	</surrender>
 	<destroyed>
-		<text>The Rock ship sustained heavy damage and it's hard to believe that anything on board it can still be alive and intact. The Rock Captain seems unwilling to give up. He ignites the backup thrusters and the ship heads directly for yours at full speed.</text>
-		<choice req="engines" lvl="1" max_group="0" blue="false">
+		<text>The Rock ship sustained heavy damage and its hard to believe that anything on board can still be alive and intact. But the Rock Captain seems unwilling to give up. He ignites the backup thrusters and the ship heads directly for yours at full speed!</text>
+		<choice req="engines" lvl="1" max_group="0" blue="false" hidden="true">
 			<text>Attempt to alter trajectory.</text>
 			<event load="CE_ROCK_RAMSHIP_EVASION_1_REWARD"/>
 		</choice>
-		<choice hreq="engines" lvl="3" max_group="0" blue="false">
+		<choice hreq="engines" lvl="3" max_group="0" blue="false" hidden="true">
 			<text>(Improved Engines) Divert power to navigation thrusters!</text>
 			<event load="CE_ROCK_RAMSHIP_EVASION_2_REWARD"/>
 		</choice>
-		<choice req="engines" lvl="5" max_group="0" blue="false">
+		<choice req="engines" lvl="5" max_group="0" blue="false" hidden="true">
 			<text>(Advanced Engines) Full power to engines!</text>
 			<event load="CE_ROCK_RAMSHIP_EVASION_3_REWARD"/>
 		</choice>
-		<choice req="engines" lvl="7" max_group="0" blue="false">
+		<choice req="engines" lvl="7" max_group="0" blue="false" hidden="true">
 			<text>(Highly Advanced Engines) Evasive maneuvers!</text>
 			<event>
 				<text>The Rock ship seems to be unable to match your speed and you easily outmaneuver it. You turn and fire a final volley. The FTL core is hit and the brave Rock Captain's military career is brought to a quick end.</text>
@@ -3957,9 +3957,9 @@
 			</event>
 		</choice>
 		<choice req="FTL_JUMPER" hidden="true"> 
-			<text>(Advanced Navigation AI) Complex evasive maneuvers!</text>
+			<text>(Advanced Navigation AI) Evasive jump!</text>
 			<event>
-				<text>Your navigation AI easily outmaneuvers the completely wrecked military vessel. You feel almost sorry for the Rock Captain, but nevertheless you end him with a final volley.</text>
+				<text>Your navigation AI throws your ship into hyper space for a split-second, making it reappear directly behind the completely wrecked military vessel. You feel almost sorry for the Rock Captain, but nevertheless end him with a final volley.</text>
 				<autoReward level="MED">standard</autoReward>
 			</event>
 		</choice>
@@ -4397,6 +4397,10 @@
 		<status type="clear" target="player" system="cloaking" amount="100"/>
 		<status type="clear" target="player" system="drones" amount="100"/>
 		<status type="clear" target="player" system="teleporter" amount="100"/>
+		<status type="clear" target="player" system="mind" amount="100"/>
+		<status type="clear" target="player" system="hacking" amount="100"/>
+		<status type="clear" target="player" system="clonebay" amount="100"/>
+		<status type="clear" target="player" system="battery" amount="100"/>
 		<status type="clear" target="player" system="sensors" amount="100"/>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
@@ -5366,7 +5370,7 @@
 				<choice>
 					<text>Welcome aboard!</text>
 					<event>
-						<text>The young Rebel seems trustworthy enough. You will still keep a close watch.</text>
+						<text>The young Rebel seems trustworthy enough. But you will keep a close watch nevertheless.</text>
 						<crewMember amount="1"/>
 					</event>
 				</choice>
@@ -5393,7 +5397,7 @@
 				<choice>
 					<text>Welcome aboard!</text>
 					<event>
-						<text>The young Rebel seems trustworthy enough. You'll still keep a close watch.</text>
+						<text>The young Rebel seems trustworthy enough. But you'll keep a close watch nevertheless.</text>
 						<crewMember amount="1"/>
 					</event>
 				</choice>
@@ -6481,6 +6485,44 @@
 	<deadCrew>
 		<text>The patrol craft's crew is dead and the ship goes quiet. You send in a salvage crew and let them strip the ship of anything useful.</text>
 		<autoReward level="HIGH">standard</autoReward>
+	</deadCrew>
+</ship>
+
+
+<ship name="PIRATE_REFUEL" auto_blueprint="SHIPS_PIRATE">
+	<surrender  chance="0.5" min="1" max="4" load="PIRATE_SURRENDER"/>
+	<escape  chance="0.5" min="2" max="4" load="PIRATE_ESCAPE"/>
+	<gotaway>
+		<text>The pirate jumps away, leaving you to examine the refueling platform. They left a few fuel capsules behind.</text>
+		<item_modify>
+			<item type="fuel" min="3" max="5"/>
+		</item_modify>
+	</gotaway>
+	<destroyed>
+		<text>The ship breaks apart, you move in to salvage what remains usable.</text>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true"> 
+			<text>Continue...</text>
+			<event>
+				<text>You to examine the refueling platform. A few fuel capsules have been left behind.</text>
+				<item_modify>
+					<item type="fuel" min="3" max="5"/>
+				</item_modify>
+			</event>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>The pirates are dead and the ship goes quiet. You send in a salvage crew and let them strip the ship of anything useful.</text>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true"> 
+			<text>Continue...</text>
+			<event>
+				<text>You to examine the refueling platform. A few fuel capsules have been left behind.</text>
+				<item_modify>
+					<item type="fuel" min="3" max="5"/>
+				</item_modify>
+			</event>
+		</choice>
 	</deadCrew>
 </ship>
 
