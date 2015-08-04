@@ -463,11 +463,11 @@
 </event>
 
 <textList name="CE_AUGMENT_UPGRADE_NO_FUEL_TEXT">
-	<text>You have to wait here anyway, so decide that you can just as well spend the time working on custom ship upgrade.</text>
-	<text>You hope some manual labor will get the crew thoughts off the dire situation you are in.</text>
-	<text>You are stuck here anyway, so you might just as well spend the time with tinkering on your ship.</text>
+	<text>You have to wait here anyway, so decide that you can just as well spend the time working on custom ship upgrades.</text>
+	<text>You hope some manual labor will get the crew's thoughts off the dire situation you are in.</text>
+	<text>You are stuck here anyway, so you might as well spend the time tinkering on your ship.</text>
 	<text>Ship maintenance should give the team something to do. Waiting is not good for crew morale.</text>
-	<text>Cabin fever begins to spread among your crew. It might be best to give them something to, before everyone goes completely crazy in this isolation...</text>
+	<text>Cabin fever begins to spread among your crew. It might be best to give them something to do, before everyone goes completely crazy in this isolation...</text>
 </textList>
 
 <eventList name="CE_AUGMENT_UPGRADE_NO_FUEL">
