@@ -2247,7 +2247,7 @@
 <augBlueprint name="AE_PRODUCTION">
 	<title>On-Board Assembly Line</title>
 	<desc>Can produce various trade goods on board the ship. Available goods depend on crew and ship upgrades. Requires an empty beacon and time. Production Augment.</desc>
-	<cost>30</cost>
+	<cost>10</cost>
 	<bp>5</bp>
 	<rarity>3</rarity>
 	<stackable>false</stackable>
@@ -2256,7 +2256,7 @@
 <augBlueprint name="AE_SCIENCE">
 	<title>On-Board Science Lab</title>
 	<desc>Allows you to conduct research and surveys from aboard the ship. This can yield various results. Requires an empty beacon.</desc>
-	<cost>30</cost>
+	<cost>20</cost>
 	<bp>5</bp>
 	<rarity>3</rarity>
 	<stackable>false</stackable>
@@ -2265,7 +2265,7 @@
 <augBlueprint name="AE_TRADE_BOOSTER">
 	<title>Cargo Teleporter</title>
 	<desc>Facilitates buying and selling of trade goods at stores.</desc>
-	<cost>60</cost>
+	<cost>40</cost>
 	<bp>5</bp>
 	<rarity>3</rarity>
 	<stackable>false</stackable>
@@ -2795,7 +2795,7 @@
 	<bp>12</bp>
 	<rarity>4</rarity>
 	<image>ba_beam_contact_big</image>
-	<length>170</length>
+	<length>255</length>
 	<launchSounds>
 		<sound>beam1</sound>
 	</launchSounds>
@@ -4330,7 +4330,7 @@
 	<breachChance>0</breachChance>
 	<cooldown>5</cooldown>
 	<power>2</power>
-	<cost>40</cost>
+	<cost>20</cost>
 	<bp>7</bp>
 	<rarity>1</rarity>
 	<image>laser_light2</image>
@@ -4369,7 +4369,7 @@
 	<breachChance>0</breachChance>
 	<cooldown>3.5</cooldown>
 	<power>3</power>
-	<cost>60</cost>
+	<cost>50</cost>
 	<bp>7</bp>
 	<rarity>3</rarity>
 	<image>laser_light2</image>
@@ -4403,11 +4403,11 @@
 	<damage>1</damage>
 	<shots>1</shots>
 	<sp>0</sp>
-	<fireChance>1</fireChance>
+	<fireChance>3</fireChance>
 	<breachChance>0</breachChance>
 	<cooldown>8</cooldown>
 	<power>1</power>
-	<cost>20</cost>
+	<cost>10</cost>
 	<bp>2</bp>
 	<rarity>1</rarity>
 	<image>laser_light2</image>
@@ -4769,11 +4769,11 @@
 	<shots>1</shots>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
-	<breachChance>3</breachChance>
+	<breachChance>5</breachChance>
 	<cooldown>9</cooldown>
 	<hullBust>1</hullBust>
 	<power>1</power>
-	<cost>35</cost>
+	<cost>30</cost>
 	<bp>5</bp>
 	<rarity>1</rarity>
 	<speed>75</speed>
@@ -6830,7 +6830,7 @@
 	<desc>Fires swarms of missiles across a very wide area doing up to 6 damage. Very hard to aim and therefore ineffective against smaller ships.</desc>
 	<tooltip>Fires missiles swarms across a random area doing up to 6 damage. Pierces all shields.</tooltip>
 	<drone_targetable>2</drone_targetable>
-	<radius>120</radius>
+	<radius>100</radius>
 	<damage>1</damage>
 	<missiles>1</missiles>
 	<shots>1</shots>
@@ -8856,7 +8856,7 @@
 	<shots>1</shots>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
-	<breachChance>3</breachChance>
+	<breachChance>4</breachChance>
 	<cooldown>9</cooldown>
 	<hullBust>1</hullBust>
 	<power>1</power>
@@ -9087,7 +9087,7 @@
 	<shots>2</shots>
 	<sp>0</sp>
 	<fireChance>0</fireChance>
-	<breachChance>2</breachChance>
+	<breachChance>4</breachChance>
 	<cooldown>14</cooldown>
 	<hullBust>1</hullBust>
 	<power>2</power>
@@ -15352,11 +15352,11 @@
 				<number>-2</number>
 			</slot>
 		</medbay>
-		<clonebay power="1" room="6" start="false">  
-			<slot>
-				<number>-2</number>
-			</slot>
-		</clonebay>
+     		<clonebay power="1" room="6" start="false">  <!--F-->
+        		 <slot>
+          			<number>0</number>
+        		</slot>
+    		</clonebay>
 		<teleporter power="1" room="3" start="false"/>     
 		<cloaking power="1" room="12" start="false" img="room_cloaking_7"/>    
 		<mind power="1" room="4" start="false" img="room_mind_6"/>    
