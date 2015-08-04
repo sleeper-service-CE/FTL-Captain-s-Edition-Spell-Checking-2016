@@ -356,7 +356,7 @@
 	<text>Your advanced field projectors can negate the effect of the ion field. This should keep your defenses up.</text>
 	<text>A few redundant projectors get fried, but you manage to keep the shields up despite the ion field. Time to focus on the hostile.</text>
 	<text>The projector is straining beyond its limits, but you allow some redundant components to fry in order to keep the shields up. The crew reports that your defenses remain fully functional.</text>
-	<text>Lightening arcs from the projectors as you struggle to keep the shields up. Steady now! Looks like this will work...</text>
+	<text>Lightning arcs from the projectors as you struggle to keep the shields up. Steady now! Looks like this will work...</text>
 </textList>
 
 <eventList name="CE_PRE_FIGHT_NEBULA_SCANNER">
@@ -390,7 +390,7 @@
 </textList>
 
 <textList name="CE_PRE_FIGHT_CLOAK_BREAK_TEXT">
-	<text>You lock on to the enemy with your full subspace scanner array. Like this, the opponent won't be able to hide within a cloak field.</text>
+	<text>You lock on to the enemy with your full subspace scanner array. Now the opponent won't be able to hide within a cloak field.</text>
 	<text>Your augmented sensors easily track the enemy. They won't be able to slip into cloak, should they try to.</text>
 	<text>You augmented scanner can track the position of the hostile, even when they should try to cloak.</text>
 	<text>The scanner gives you a detailed subspace image. Unless your enemy has very advanced cloaking capabilities, it won't be able to hide from you.</text>
@@ -668,7 +668,7 @@
 </eventList>
 <textList name="CE_PRE_FIGHT_ASB_TEXT">
 	<text>The crew quickly finishes the last preparations. You release the weapon platform and head towards the hostile.</text>
-	<text>The crew runs for the hangar bay and arms the autonomous weapon platform. It is release through an airlock and speeds away, priming its anti-ship main guns.</text>
+	<text>The crew runs for the hangar bay and arms the autonomous weapon platform. It is released through an airlock and speeds away, priming its anti-ship main guns.</text>
 	<text>Hectic activity fills the ship as crewmen run for the hangar and prepare the weapon platform. It is ready and dispatched before your enemy gets a first shot off.</text>
 	<text>Small carts with ammunition are rolled towards the hangar. The rearming procedure is completed before the battle begins and you head towards the hostile.</text>
 	<text>"Roger, Captain, we are on it. Our ASB will start firing shortly."</text>
@@ -753,7 +753,11 @@
 		</item_modify>
 	</event>
 	<event>
+<<<<<<< HEAD
 		<text>The weapon platform reports it problems locking onto the enemy. You navigate too close to your opponent; if the ASB fires, it might hit your ship as well.</text>
+=======
+		<text>The weapon platform reports it has problems locking onto the enemy. You navigate to close to your opponent; if the ASB fires, it might hit your ship as well.</text>
+>>>>>>> f0f033e... more spelling and grammar fixes for blueprints, dlcEvents, events,
 		<item_modify>
 			<item type="missiles" min="-4" max="-4"/>
 		</item_modify>
@@ -38171,7 +38175,7 @@ IDEAS
 		<choice hidden="true">
 			<text>"Whatever. Welcome on board."</text>
 			<event>
-				<text>You have a quick speech about crew discipline, the dangers of your mission and that everyone will be treated the same on board. Your crewman's partner is still eager to join. Can love bloom in outer space? Perhaps soon you will find out.</text>
+				<text>You give a quick speech about crew discipline, the dangers of your mission and that everyone will be treated the same on board. Your crewman's partner is still eager to join. Can love bloom in outer space? Perhaps soon you will find out.</text>
 			<crewMember amount="1"/>
 			</event>
 		</choice>

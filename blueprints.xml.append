@@ -1044,7 +1044,7 @@
 	<type>BEAM</type>
 	<title>Verdict Focus Beam</title>
 	<short>Verdict</short>
-	<desc>Highly focused beam weapon that can punch through almost any defense, but can't be aimed manually. 40 seconds base cooldown.</desc>
+	<desc>Highly focused beam weapon that can punch through almost any defenses, but can't be aimed manually. 40 seconds base cooldown.</desc>
 	<tooltip>Focused beam artillery that automatically fires a 5 damage beam on a single room. 40 seconds base cooldown. [WARNING: Loading the game won't work with this installed. You'll have to finish this run in one go.]</tooltip>
 	<damage>5</damage>
 	<sp>0</sp>
@@ -1070,7 +1070,7 @@
 	<type>BEAM</type>
 	<title>Verdict Focus Beam</title>
 	<short>Verdict</short>
-	<desc>Highly focused beam weapon that can punch through almost any defense, but can't be aimed manually. 40 seconds base cooldown.</desc>
+	<desc>Highly focused beam weapon that can punch through almost any defenses, but can't be aimed manually. 40 seconds base cooldown.</desc>
 	<tooltip>Focused beam artillery that automatically fires a 5 damage beam on a single room. 40 seconds base cooldown. [WARNING: Loading the game won't work with this installed. You'll have to finish this run in one go.]</tooltip>
 	<damage>5</damage>
 	<sp>0</sp>
@@ -1128,7 +1128,7 @@
 	<type>BEAM</type>
 	<title>Verdict Focus Beam</title>
 	<short>Verdict</short>
-	<desc>Highly focused beam weapon that will penetrate through almost any defense, but can't be aimed manually.</desc>
+	<desc>Highly focused beam weapon that will penetrate through almost any defenses, but can't be aimed manually.</desc>
 	<tooltip>Focused beam artillery that automatically fires a 5 damage beam on a single room. 40 seconds base cooldown. [WARNING: Loading the game won't work with this installed. You'll have to finish this run in one go.]</tooltip>
 	<damage>5</damage>
 	<sp>0</sp>
@@ -1544,7 +1544,7 @@
 	<title>Valentine Missile Rack</title>
 	<tip>tip_flak</tip>
 	<short>Valentine</short>
-	<desc>High-tech missile artillery that replicates it's own ammunition and scrambles the targeting systems of enemy defense drones. 30 seconds base cooldown.</desc>
+	<desc>High-tech missile artillery that replicates its own ammunition and scrambles the targeting systems of enemy defense drones. 30 seconds base cooldown.</desc>
 	<tooltip>Automatically fires a high velocity stealth missile that deals 3 damage, pierces all shields and evades lvl 1 defense drones. 30 seconds base cooldown. [WARNING: Loading the game won't work with this installed. You'll have to finish this run in one go.]</tooltip>
 	<damage>3</damage>
 	<missiles>0</missiles>
@@ -2978,7 +2978,7 @@
 
 
 <!-- BA MISSILES  AND MINES-->
-<!-- Fun fackt: While I was tempted to use names of dieties and mystic creatures of mayor world religions, I diliberately choosed mystical beeings from accient times that have little connection to currently persisting faiths to not offend anybody. Asteria was suposed to be related to Leto. The multishot launchers are all named after mystical winged beasts, for consistency. Peryton is a winged stag, the cockatrice is some weird rooster snake hybrid and the simurgh is a badass winged lion thing. -->
+<!-- Fun fact: While I was tempted to use names of deities and mystical creatures of major world religions, I deliberately chose mystical beeings from ancient times that have little connection to currently persisting faiths to not offend anybody. Asteria was suposed to be related to Leto. The multishot launchers are all named after mystical winged beasts, for consistency. Peryton is a winged stag, the cockatrice is some weird rooster snake hybrid and the simurgh is a badass winged lion thing. -->
 <weaponBlueprint name="BA_MISSILES_ASTERIA">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>
@@ -3689,7 +3689,7 @@
 	<title>Light Laser Mark I</title>
 	<short>Light L.I</short>
 	<desc>Basic antipersonnel laser.</desc>
-	<tooltip>Fires 2 shots that damage crew. Ignores 2 shield bubbles, but can not deplete shields. Low chance of breaching.</tooltip>
+	<tooltip>Fires 2 shots that damage crew. Ignores 2 shield bubbles, but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>1</persDamage>
 	<damage>0</damage>
 	<shots>2</shots>
@@ -3731,7 +3731,7 @@
 	<title>Light Laser Mark II</title>
 	<short>Light L.II</short>
 	<desc>High-energy antipersonnel laser.</desc>
-	<tooltip>Fires 3 shots that damage crew. Ignores 2 shield bubbles but can not deplete shields. Low chance of breaching.</tooltip>
+	<tooltip>Fires 3 shots that damage crew. Ignores 2 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>1</persDamage>
 	<damage>0</damage>
 	<shots>3</shots>
@@ -3773,7 +3773,7 @@
 	<title>Light Laser Mark III</title>
 	<short>Light L.III</short>
 	<desc>Rapid fire anti personnel laser that decimates enemy crew.</desc>
-	<tooltip>Fires 4 shots that damage crew. Ignores 2 shield bubbles but can not deplete shields. Low chance of breaching.</tooltip>
+	<tooltip>Fires 4 shots that damage crew. Ignores 2 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>1</persDamage>
 	<damage>0</damage>
 	<shots>4</shots>
@@ -3815,7 +3815,7 @@
 	<title>Light Auto Laser</title>
 	<short>Light Auto</short>
 	<desc>Very fast charging antipersonnel laser that can keep enemy crew constantly under fire.</desc>
-	<tooltip>Fires 1 shots that damage crew. Ignores 2 shield bubbles, but can not deplete shields. Low chance of breaching.</tooltip>
+	<tooltip>Fires 1 shots that damage crew. Ignores 2 shield bubbles, but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>1</persDamage>
 	<damage>0</damage>
 	<shots>1</shots>
@@ -3857,7 +3857,7 @@
 	<title>Light Scatter Laser Mark I</title>
 	<short>Light Sc. I</short>
 	<desc>Basic antipersonnel scatter laser. Can penetrate weak shields.</desc>
-	<tooltip>Fires 1 shot with multiple projectiles that damage crew. Ignores 1 shield bubble but can not deplete shields. Low chance of breaching.</tooltip>
+	<tooltip>Fires 1 shot with multiple projectiles that damage crew. Ignores 1 shield bubble but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>2</persDamage>
 	<stunChance>1</stunChance>
 	<damage>0</damage>
@@ -3900,8 +3900,8 @@
 	<tip>ce_tip_laser_light</tip>
 	<title>Light Scatter Laser Mark II</title>
 	<short>Light Sc. II</short>
-	<desc>High-energy antipersonnel scatter laser that pierces hull but can not damage ships structural integrity or deplete shields.</desc>
-	<tooltip>Fires 1 shot with multiple projectiles that damage crew. Ignores 1 shield bubble but can not deplete shields. Low chance of breaching.</tooltip>
+	<desc>High-energy antipersonnel scatter laser that pierces hull but cannot damage ships structural integrity or deplete shields.</desc>
+	<tooltip>Fires 1 shot with multiple projectiles that damage crew. Ignores 1 shield bubble but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>3</persDamage>
 	<stunChance>2</stunChance>
 	<damage>0</damage>
@@ -3945,7 +3945,7 @@
 	<title>Light Scatter Laser Mark III</title>
 	<short>Light Sc. III</short>
 	<desc>Devastating anti personnel laser that shreds crew to bits.</desc>
-	<tooltip>Fires 1 shot with multiple projectiles that greatly damage crew. Ignores 1 shield bubble but can not deplete shields. Good chance of breaching.</tooltip>
+	<tooltip>Fires 1 shot with multiple projectiles that greatly damage crew. Ignores 1 shield bubble but cannot deplete shields. Good chance of breaching.</tooltip>
 	<persDamage>4</persDamage>
 	<stunChance>2</stunChance>
 	<damage>0</damage>
@@ -3988,7 +3988,7 @@
 	<title>Light Scatter Laser Mark I</title>
 	<short>Light Sc. I</short>
 	<desc>Basic antipersonnel scatter laser. Can penetrate weak shields.</desc>
-	<tooltip>Fires 1 shot with multiple projectiles that damage crew. Ignores 1 shield bubble but can not deplete shields. Low chance of breaching.</tooltip>
+	<tooltip>Fires 1 shot with multiple projectiles that damage crew. Ignores 1 shield bubble but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>2</persDamage>
 	<stunChance>1</stunChance>
 	<damage>0</damage>
@@ -4029,8 +4029,8 @@
 	<type>LASER</type>
 	<title>Light Scatter Laser Mark II</title>
 	<short>Light Sc. II</short>
-	<desc>High-energy antipersonnel scatter laser that pierces hull but can not damage ships structural integrity or deplete shields.</desc>
-	<tooltip>Fires 1 shot with multiple projectiles that damage crew. Ignores 1 shield bubble but can not deplete shields. Low chance of breaching.</tooltip>
+	<desc>High-energy antipersonnel scatter laser that pierces hull but cannot damage ships structural integrity or deplete shields.</desc>
+	<tooltip>Fires 1 shot with multiple projectiles that damage crew. Ignores 1 shield bubble but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>3</persDamage>
 	<stunChance>2</stunChance>
 	<damage>0</damage>
@@ -4072,7 +4072,7 @@
 	<title>Light Scatter Laser Mark III</title>
 	<short>Light Sc. III</short>
 	<desc>Devastating anti personnel laser that shreds crew to pieces.</desc>
-	<tooltip>Fires 1 shot with multiple projectiles that greatly damage crew. Ignores 1 shield bubble but can not deplete shields. Good chance of breaching.</tooltip>
+	<tooltip>Fires 1 shot with multiple projectiles that greatly damage crew. Ignores 1 shield bubble but cannot deplete shields. Good chance of breaching.</tooltip>
 	<persDamage>4</persDamage>
 	<stunChance>2</stunChance>
 	<damage>0</damage>
@@ -4117,7 +4117,7 @@
 	<title>Light Artillery Laser</title>
 	<short>Light Arti.</short>
 	<desc>Advanced anti personnel laser that pierces shields and devastates crew.</desc>
-	<tooltip>Fires one shot that does high damage to crew. Ignores 3 shield bubbles, but can not deplete shields. Good chance of breaching.</tooltip>
+	<tooltip>Fires one shot that does high damage to crew. Ignores 3 shield bubbles, but cannot deplete shields. Good chance of breaching.</tooltip>
 	<persDamage>4</persDamage>
 	<stunChance>2</stunChance>
 	<damage>0</damage>
@@ -4158,7 +4158,7 @@
 	<title>Light Crystal Mark I</title>
 	<short>Light C.I</short>
 	<desc>Modified projectile weapon that fires 3 shield piercing antipersonnel crystals. Can not damage ships structural integrity or deplete shields.</desc>
-	<tooltip>Fires 3 shots that damage crew. Ignores 3 shield bubbles but can not deplete shields. Low chance of breaching.</tooltip>
+	<tooltip>Fires 3 shots that damage crew. Ignores 3 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>1</persDamage>
 	<damage>0</damage>
 	<shots>3</shots>
@@ -4198,7 +4198,7 @@
 	<title>Light Crystal Mark II</title>
 	<short>Light C.II</short>
 	<desc>Modified projectile weapon that fires 4 shield piercing antipersonnel crystals. Can not damage ships structural integrity or deplete shields.</desc>
-	<tooltip>Fires 4 shots that damage crew. Ignores 3 shield bubble but can not deplete shields. Low chance of breaching.</tooltip>
+	<tooltip>Fires 4 shots that damage crew. Ignores 3 shield bubble but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>1</persDamage>
 	<damage>0</damage>
 	<shots>4</shots>
@@ -4476,7 +4476,7 @@
 	<title>Burst Scatter Laser Mark I</title>
 	<short>Burst Scatter I</short>
 	<desc>This simple scatter laser fires spreading projectiles to bring down shields for other weapons.</desc>
-	<tooltip>Fires 2 shot, 1 damage each; can not damage systems or crew.</tooltip>
+	<tooltip>Fires 2 shot, 1 damage each; cannot damage systems or crew.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>-1</persDamage>
@@ -4518,7 +4518,7 @@
 	<title>Burst Scatter Laser Mark II</title>
 	<short>Burst Scatter II</short>
 	<desc>Powerful burst scatter laser that fires a massive volley of laser pellets.</desc>
-	<tooltip>Fires 4 shot, 1 damage each; can not damage systems or crew.</tooltip>
+	<tooltip>Fires 4 shot, 1 damage each; cannot damage systems or crew.</tooltip>
 	<damage>1</damage>
 	<sysDamage>-1</sysDamage>
 	<persDamage>-1</persDamage>
@@ -6686,7 +6686,7 @@
 	<short>Light Vulcan</short>
 	<tip>ce_tip_chain_laser_light</tip>
 	<desc>This light laser takes a long time to spin up. Each time it fires it decreases the cooldown, eventually allowing to shred enemy crew with constant laser fire.</desc>
-	<tooltip>Cooldown drops the more it fires. Ignores 2 shield bubbles but can not deplete shields. Low chance of breaching.</tooltip>
+	<tooltip>Cooldown drops the more it fires. Ignores 2 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>1</persDamage>
 	<shots>1</shots>
 	<sp>2</sp>
@@ -11153,7 +11153,7 @@
 	<title>Light Anti-Crew Missile Drone</title>
 	<short>Light M.</short>
 	<desc>Slow drone that damages enemy crew and systems with guided micro missiles. Its usage can be considered a war-crime under interstellar law, but nobody cares.</desc>
-<!-- Pierces hull but can not damage ships structural integrity. -->
+<!-- Pierces hull but cannot damage ships structural integrity. -->
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>1</dodge>
@@ -12124,7 +12124,7 @@
 	<title>Light Crystal Mark I</title>
 	<short>Light C.I</short>
 	<desc>Modified projectile weapon that fires 3 shield piercing antipersonnel crystals. Can not damage ships structural integrity or deplete shields.</desc>
-	<tooltip>Fires 3 shots that damage crew. Ignores 3 shield bubbles but can not deplete shields. Low chance of breaching.</tooltip>
+	<tooltip>Fires 3 shots that damage crew. Ignores 3 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>1</persDamage>
 	<damage>0</damage>
 	<shots>3</shots>
@@ -12181,7 +12181,7 @@
 	<title>Light Crystal Mark I</title>
 	<short>Light C.I</short>
 	<desc>Modified projectile weapon that fires 3 shield piercing antipersonnel crystals. Can not damage ships structural integrity or deplete shields.</desc>
-	<tooltip>Fires 3 shots that damage crew. Ignores 3 shield bubbles but can not deplete shields. Low chance of breaching.</tooltip>
+	<tooltip>Fires 3 shots that damage crew. Ignores 3 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>0</persDamage>
 	<damage>1</damage>
 	<shots>3</shots>
