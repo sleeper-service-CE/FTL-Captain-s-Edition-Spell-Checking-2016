@@ -236,8 +236,8 @@
 	<text>You enter a system bustling with Rebel activity.  Supply freighters and re-supply stations are dwarfed by a few heavy warships.  Luckily, no one seems to be paying attention to small cruisers.  No ships are scanning or messaging you.</text>
 	<text>You arrive near a small Rebel refueling depot.  Your ship is being scanned multiple times so they must recognize you, but there appears to be no combat-ready ships in the vicinity.  The only message you receive is a denial to your request to dock at the depot.</text> 
 	<text>There is not much of interest nearby.   A small sun in the distance with a few orbiting planets in nearby space provide little of interest.</text>
-	<text planet="NONE">There are no other ships near this beacon, however you detect a small communications relay.  You tap into it without a problem; there are no encryptions.  Most of the chatter revolves around troop and fleet movements, not particularly interesting.</text>
-	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements.  A small Rebel fleet is in orbit with many ships ferrying back and forth.  It must be a more recently 'liberated' planet.</text>
+	<text planet="NONE">There are no other ships near this beacon, however you detect a small communications relay.  You tap into it without a problem; there are no encryptions.  Most of the chatter revolves around troop and fleet movements, nothing particularly interesting.</text>
+	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements.  A small Rebel fleet is in orbit with many ships ferrying back and forth.  It must be a recently 'liberated' planet.</text>
 </textList>
 
 
@@ -272,7 +272,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="4" hidden="true">
-		<text>(Improved Engines) Spend addition fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
+		<text>(Improved Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 			<item_modify>
@@ -286,7 +286,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="6" hidden="true">
-		<text>(Advanced Engines) Override the engines' security protocols and accept the engine degradation that comes with traveling at extremely high speed. [ Fuel: -4; Hull Damage: 4 ]</text>			
+		<text>(Advanced Engines) Override the engines' security protocols and accept the engine degradation that comes with traveling at extremely high speeds. [ Fuel: -4; Hull Damage: 4 ]</text>			
 		<event>
 			<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 			<item_modify>
@@ -366,7 +366,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="2" hidden="true">
-				<text>(Standard Engines) Spend addition fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
+				<text>(Standard Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 					<item_modify>
@@ -380,7 +380,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="4" hidden="true">
-				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speed. [ Fuel: -3; Hull Damage: 4 ]</text>		
+				<text>(Improved Engines) Override the engines' security protocols. Risk engine degradation by traveling at extremely high speeds. [ Fuel: -3; Hull Damage: 4 ]</text>		
 				<event>
 					<text load="HYPERSPACE_TRAVEL_ADVANCED_TEXT"/>
 					<item_modify>
@@ -571,19 +571,19 @@
 		<quest event="CE_BOUNTY_REBEL_REQUISITION"/>
 	</event>
 	<event> <!-- Rebel Guard Asset -->
-		<text>Students on small planetary settlement are unhappy about being watched by a Rebel surveillance satellite. While some of them have taken up military training, others want to hire outside help, so that no one (other than maybe you) gets hurt. Target: Auto Satellite. Payment: Low.</text>
+		<text>Students on a small planetary settlement are unhappy about being watched by a Rebel surveillance satellite. While some of them have taken up military training, others want to hire outside help, so that no one (other than maybe you) gets hurt. Target: Auto Satellite. Payment: Low.</text>
 		<quest event="CE_BOUNTY_AUTO_SURVEYOR"/>
 	</event>
 	<event> <!-- Auto Ship -->
-		<text>A tiny settlement still loyal to the Federation seeks to recruit a gun for hire. The'll pay you to destroy the automated scouts that guards their system. Target: Automated Craft. Payment: Medium.</text>
+		<text>A tiny settlement still loyal to the Federation seeks to recruit a gun for hire. The'll pay you to destroy the automated scouts that guard their system. Target: Automated Craft. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_AUTO"/>
 	</event>
 	<event> <!-- Rebel Cruiser -->
-		<text>Even though the Rebels have millions of supporters in this sector, not everyone seems to be happy. A wealthy underground group is ready to pay any Captain mad enough to fight the Rebels right in their core territory. Target: Rebel Cruiser. Payment: Medium.</text>
+		<text>Even though the Rebels have millions of supporters in this sector, not everyone seems to be happy. A wealthy underground group is ready to pay any Captain crazy enough to fight the Rebels right in their core territory. Target: Rebel Cruiser. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_REBEL_CRUISER"/>
 	</event>
 	<event> <!-- Rebel Cruiser -->
-		<text>Even though the Rebels have millions of supporters in this sector, not everyone seems to be happy. A wealthy underground group is ready to pay any Captain mad enough to fight the Rebels right in their core territory. Target: Rebel Cruiser. Payment: Medium.</text>
+		<text>Even though the Rebels have millions of supporters in this sector, not everyone seems to be happy. A wealthy underground group is ready to pay any Captain crazy enough to fight the Rebels right in their core territory. Target: Rebel Cruiser. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_REBEL_CRUISER"/>
 	</event>
 </eventList>
@@ -2880,7 +2880,7 @@
 		</choice>
 </event>
 <event name="BS_QUEST_REBEL_REWARD">
-	<text>You arrive at the location specified by the Infiltrator. An automated Rebel armory orbits a nearby moon, being docked at by a few Rebel riggers. After transmitting the stolen codes you receive automated docking instructions.</text>
+	<text>You arrive at the location specified by the Infiltrator. An automated Rebel armory orbits a nearby moon, with a few Rebel riggers currently docking. After transmitting the stolen codes you receive automated docking instructions.</text>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
@@ -3294,7 +3294,7 @@
 </event>
 <textList name="STORE_REBEL">
 	<text>You discover a re-supply station used by Rebels and civilians alike.  You transmit your fake ship identification and for once, they don't seem to recognize your ship.  You try to assume the air of a local as you prepare to dock.</text>
-	<text>You arrive at a small space station that is putting out wide-band broadcasts on black market channels. You doubt they would turn away any business, regardless of allegiances.</text>
+	<text>You arrive at a small space station that is putting out wide-band broadcasts on black market channels. You doubt they would turn away any business, regardless of allegiance.</text>
 	<text>You receive generic advertisements from a nearby public shipyard.  It seems they are willing to work on any ship, not only those of Rebel hue.</text>
 	<text planet="PLANET_POPULATED_REAL">A trade hub orbits this Rebel controlled planet. Propaganda is constantly broadcast on multiple channels. No Rebel ships are detected in the system so you decide to search for a grey market trader.</text>
 	<text planet="PLANET_POPULATED_REAL">A trade ship sells goods in the orbit of this planet. Security is lacking, they don't even check ship identification here.</text>
@@ -3383,7 +3383,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>The Rebels need huge ammounts of materials for their expansion. Several subcontractors buy all construction material they can find. [Sell Building Material for about 70 Scrap]</text> <!-- updated -->
+			<text>The Rebels need huge ammounts of materials for their expansion. Several subcontractors buy all the construction material they can find. [Sell Building Material for about 70 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
@@ -4159,12 +4159,12 @@
 	<text>You transfer the scrap. While your crew loads the cargo you have a look at the ship equipment the shop also offers. Time passes.</text>
 	<text>You write a scrap transfer order. Processing it takes awhile. Loading the cargo takes even longer. You check the ship equipment catalog while waiting.</text>
 	<text>You hand over the crates with the scrap. Loading the cargo takes its time. The cargo drones are in much less of a hurry than you. While waiting you get a chance to check the ship equipment they offer here.</text>
-	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double checked. Why is this taking so long? Then the cargo is finally loaded. Slowly. At last you get a chance to look at the ship gear they also offer.</text>
+	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double checked. Why is this taking so long? Then, the cargo is finally loaded. Slowly. At last, you get a chance to look at the ship gear they also offer.</text>
 </textList>
 
 <textList name="STORE_REBEL_SELL_TEXT">
 	<text>Negotiations are interrupted when a Rebel inspector enters the shop. You are lucky that the trader lets you hide in an equipment closet. Later you take your advance. Better deliver the cargo to the shop and get out of here quick.</text>
-	<text>You have to make up stuff as you go when the trader asks you about your ship and employer. He seems suspicious, but he agrees to pay some scrap in advance. You better unload the cargo at the shop and leave soon.</text>
+	<text>You have to make stuff up as you go when the trader asks you about your ship and employer. He seems suspicious, but he agrees to pay some scrap in advance. You better unload the cargo at the shop and leave soon.</text>
 	<text>Rebel marines patrol the corridors, you are nervous and it takes awhile until you find a trustworthy trader. After agreeing on a price you now have to unload the cargo at the shop to receive full payment.</text>
 	<text>After time-consuming negotiations you get an advance payment. "You get the rest after you unload the cargo at the shop." You hope they don't realize who you are.</text>
 	<text>You pretend that the goods are really worth that much and the trader pretends he isn't really interested. An invitation for some synth tea leads to tough negotiations, but you remain patient. After taking your scrap advance you have to transfer the cargo to the shop to seal the deal.</text>
@@ -5096,7 +5096,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="4" hidden="true">
-		<text>(Improved Engines) Spend addition fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
+		<text>(Improved Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 			<item_modify>
@@ -5190,7 +5190,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="2" hidden="true">
-				<text>(Standard Engines) Spend addition fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
+				<text>(Standard Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 					<item_modify>

@@ -159,7 +159,7 @@
 		</event>
 	</choice>
 	<choice req="engines" lvl="4" hidden="true">
-		<text>(Improved Engines) Spend addition fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
+		<text>(Improved Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 			<item_modify>
@@ -253,7 +253,7 @@
 				</event>
 			</choice>
 			<choice req="engines" lvl="2" hidden="true">
-				<text>(Standard Engines) Spend addition fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
+				<text>(Standard Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 					<item_modify>
@@ -6834,7 +6834,7 @@ IDEAS
 		</event>
 	</choice>
 	<choice req="engines" lvl="4" hidden="true">
-		<text>(Improved Engines) Spend addition fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
+		<text>(Improved Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -3 ]</text>
 		<event>
 			<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 			<item_modify>
@@ -6928,7 +6928,7 @@ IDEAS
 				</event>
 			</choice>
 			<choice req="engines" lvl="2" hidden="true">
-				<text>(Standard Engines) Spend addition fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
+				<text>(Standard Engines) Spend additional fuel in order to travel at full speed to the next sector. [ Fuel: -2 ]</text>
 				<event>
 					<text load="HYPERSPACE_TRAVEL_IMPROVED_TEXT"/>
 					<item_modify>
