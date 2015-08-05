@@ -7256,6 +7256,7 @@
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO"/>
 	<damage amount="1"/>
 	<modifyPursuit amount="-1"/>
+
 	<status type="loss" target="player" system="doors" amount="1"/>
 	<status type="loss" target="player" system="shields" amount="1"/>
 	<status type="loss" target="player" system="engines" amount="1"/>
