@@ -6977,6 +6977,7 @@
 <event name="NEBULA_AI_NOTHING">
 	<text load="NEBULA_AI_NOTHING_TEXT"/>
 	<damage amount="1"/>
+	<modifyPursuit amount="-1"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
 	<status type="loss" target="player" system="doors" amount="1"/>
 	<status type="loss" target="player" system="shields" amount="1"/>
@@ -7011,6 +7012,7 @@
 <event name="NEBULA_AI_FIGHT">
 	<text load="NEBULA_AI_TEXT"/>
 	<damage amount="1"/>
+	<modifyPursuit amount="-1"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
 	<status type="loss" target="player" system="doors" amount="1"/>
 	<status type="loss" target="player" system="shields" amount="1"/>
@@ -7073,21 +7075,22 @@
 		</choice>
 </event>
 <textList name="NEBULA_AI_TEXT">
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You went into the death zone. The gray goo engulfs your ship as soon as the jump is completed. Nano-bots start to dissemble your hull plating and interfere with all systems. The AI ship that moves to engage you seems to control the cloud and is using it as a support weapon.</text>	
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Only mechanical death greats you here. The rogue hub AIs are known to protect their core territory with powerful ships and swarms of nano-bots. The swarm starts to disassemble your ship and drain your system power. This is not a place organic beings should ever venture.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You went into the death zone. The gray goo engulfs your ship as soon as the jump is completed. Nano-bots start to dissemble your hull plating and interfere with all systems. The AI ship that moves to engage you seems to control the cloud and is using it as a support weapon. On the bright side: The rebels will have no way to trace you here.</text>	
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Only mechanical death greats you here. The rogue hub AIs are known to protect their core territory with powerful ships and swarms of nano-bots. The swarm starts to disassemble your ship and drain your system power. This is not a place organic beings should ever venture. But at least the Rebels will avoid the area as well.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Some scientists claim that these nano clouds are actually the next evolutionary stage of the Engi. Fact is, they are lethal to anyone except the overlord AIs that control them. The nano-bots attack your ship and interfere with the systems, and an AI vessel moves in to finish you.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A ripple waves through the nano-bots as you jump to another part of the far stretching cloud. Some of the micro machines attack your ship directly, others gather and form a fully functional AI warship right in front of your eyes. The newly created vessel attacks immediately.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Nano-bots and an AI ship activate as you jump into a thick part of the cloud. This will be nasty.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Hostile rogue AI warships inside all-eating nano-bot clouds that can digest entire ships. You wonder how it could get any worse.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You arrive in a thick part of the artificial cloud. The nanobots immediately swarm your ship. They get everywhere; into the hull, into the ship's systems... And they will only retreat if you defeat their nearby command ship. You ready what is left of the weapons.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Your First Mate mentions seeing a ship in the clouds. You order full battle readiness, but the AIs still surprise you when they swoop in from above and send a wave of nanites ahead to disrupt your ship's systems.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">An aggressive AI ship jumps in right after you. How can they track you down so easily? You have to assume that the nano-bots inform the entire cloud of your position, as soon as you jump anywhere inside it.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">All traces of the Rebel fleet vanish from your screen, the nano clouds inhibit any kind of long range tracking. Your First Mate mentions seeing a ship in the clouds. You order full battle readiness, but the AIs still surprise you when they swoop in from above and send a wave of nanites ahead to disrupt your ship's systems.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">An aggressive AI ship jumps in right after you. How can they track you down so easily? You have to assume that the nano-bots inform the entire cloud of your position, as soon as you jump anywhere inside it. However, you doubt this information will be made available to the Rebels. The nano bots will shroud your movement compleately.</text>
 </textList>
 
 
 <event name="NEBULA_AI_AUGMENTED">
 	<text load="NEBULA_AI_TEXT"/>
 	<damage amount="1"/>
+	<modifyPursuit amount="-1"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
 	<status type="loss" target="player" system="doors" amount="1"/>
 	<status type="loss" target="player" system="shields" amount="1"/>
@@ -7116,6 +7119,7 @@
 	<text>The AI warship that is standing guard at this beacon is occupied with integrating the remains of Rebel auto troopships into its own hull structure. The Rebels are not foolish enough to send manned craft into the all-eating cloud, but their automated craft seem even less effective at dealing with the local opposition.</text>
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO"/>
 	<damage amount="1"/>
+	<modifyPursuit amount="-1"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
 	<status type="loss" target="player" system="doors" amount="1"/>
 	<status type="loss" target="player" system="shields" amount="1"/>
@@ -7251,6 +7255,7 @@
 	<text>The FTL field has not even folded yet when a swarm of nano-bots surround your ship. The tiny machines interfere with all systems on board, and assemble what appears to be makeshift teleporter devices around the ship. A computer generated voice makes an announcement over the ship's intercom: "We are coming."</text>
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO"/>
 	<damage amount="1"/>
+	<modifyPursuit amount="-1"/>
 	<status type="loss" target="player" system="doors" amount="1"/>
 	<status type="loss" target="player" system="shields" amount="1"/>
 	<status type="loss" target="player" system="engines" amount="1"/>
@@ -7281,6 +7286,7 @@
 <event name="NEBULA_AI_PDS" unique="true">
 	<text load="NEBULA_AI_PDS_TEXT"/>
 	<damage amount="1"/>
+	<modifyPursuit amount="-1"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
 	<status type="loss" target="player" system="doors" amount="1"/>
 	<status type="loss" target="player" system="shields" amount="1"/>
@@ -7583,6 +7589,7 @@
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO_PDS"/>
 	<text>When you arrive at the presumed overlord AI's hive, the battle is already raging. Several Zoltan vessels have been cut to pieces by hidden AI artillery batteries. Harmony Command hails: "You are late, Captain. So much violence... Please support our final push. Take out this defender will you?"</text>
 	<damage amount="1"/>
+	<modifyPursuit amount="-1"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
 	<status type="loss" target="player" system="doors" amount="1"/>
 	<status type="loss" target="player" system="shields" amount="1"/>
