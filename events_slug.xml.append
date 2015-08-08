@@ -2091,6 +2091,47 @@
 		</choice>
 </event>
 
+<event name="SLUG_DISTRESS_QUESTION_FALSE">  
+	<text>"That issss... incorrect. Further, I have taken advantage of your lack of acuity to beam aboard your ship and steal your stuff!"</text>
+	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
+		<text>(Teleporter Disruptor) Activate the jammer device.</text>
+		<event>
+			<text>The thief won't be able to teleport away again. You could order your crew to apprehend him. But you could also approach the matter more "diplomatically".</text>
+			<choice hidden="true">
+				<text>Have the crew search the ship and eliminate the hostile.</text>
+				<event>
+					<text>Your crew systematically searches the ship till it uncovers the cloaked intruder. The cornered Slug does not want to go down without a fight, it tries to escape by breaching your hull.</text>
+					<boarders breach="true" min="1" max="1" class="slug"/>
+				</event>
+			</choice>
+			<choice>
+				<text>Offer to hire the Slug thief.</text>
+				<event>
+					<text>You make an announcement over the ship's intercom and describe the situation the thief fiends itself in. As expected, the Slug does what reason and greed would suggest and joins your crew.</text>
+					<item_modify>
+						<item type="scrap" min="-25" max="-25"/>
+					</item_modify>
+					<crewMember amount="1" class="slug"/>  
+				</event>
+			</choice>
+
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>You search the ship but find no trace of the Slug thief. A lot of equipment is missing though.</text>
+			<item_modify steal="true">
+				<item type="scrap" min="-35" max="-35"/>
+				<item type="fuel" min="-4" max="-2"/>
+				<item type="drones" min="-2" max="-1"/>
+				<item type="missiles" min="-4" max="-2"/>
+			</item_modify>
+		</event>
+	</choice>
+
+</event>
+
 <eventList name="SLUG_DISTRESS_ROCK_FIGHT">
 	<event>
 		<text>You charge weapons and the Slugs immediately back down. When you return to the freighter, the Rockmen have already repaired the worst of their damage and jump away without another word.</text>

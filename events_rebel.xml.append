@@ -5838,6 +5838,10 @@
 				<event>
 					<text>"... 1... Verification failed. Engaging target." The turret starts to unload it's weapon clusters on you. Your augment allows you to use the side thrusters to their full potential. You can navigate more safely within the confined environment of the hangar.</text>
 				<status type="limit" target="player" system="engines" amount="4"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -5881,6 +5885,10 @@
 				<event>
 					<text>"... 1... Verification failed. Engaging target." The turret starts to unload it's weapon clusters on you. There is no space to navigate here; you are a sitting duck.</text>
 					<status type="limit" target="player" system="engines" amount="1"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
