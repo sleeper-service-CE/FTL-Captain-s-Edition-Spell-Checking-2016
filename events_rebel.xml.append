@@ -2080,7 +2080,7 @@
 	</event>
 	<event>
 		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to a prisoner exchange and a captured Federation official is released when you return the Rebel cadets. The Zoltan agrees to submit to your command.</text>
-		<crewMember amount="1" class="zoltan"/>
+		<crewMember amount="1" class="energy"/>
 	</event>
 </eventList>
 

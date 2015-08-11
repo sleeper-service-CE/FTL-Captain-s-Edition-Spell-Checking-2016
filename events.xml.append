@@ -753,11 +753,7 @@
 		</item_modify>
 	</event>
 	<event>
-<<<<<<< HEAD
-		<text>The weapon platform reports it problems locking onto the enemy. You navigate too close to your opponent; if the ASB fires, it might hit your ship as well.</text>
-=======
 		<text>The weapon platform reports it has problems locking onto the enemy. You navigate to close to your opponent; if the ASB fires, it might hit your ship as well.</text>
->>>>>>> f0f033e... more spelling and grammar fixes for blueprints, dlcEvents, events,
 		<item_modify>
 			<item type="missiles" min="-4" max="-4"/>
 		</item_modify>
@@ -7760,12 +7756,6 @@
 	</event>
 	<event>
 		<text>Your fire seemed to have caused some serious damage to the opponents oxygen tanks. They are losing parts of their life support.</text>
-=======
->>>>>>> 1941cf8a9bf22e79632d27fb5aacfb8bbde18e1d
-=======
->>>>>>> 1941cf8a9bf22e79632d27fb5aacfb8bbde18e1d
-=======
->>>>>>> 1941cf8a9bf22e79632d27fb5aacfb8bbde18e1d
 		<status type="loss" target="enemy" system="oxygen" amount="1"/>
 	</event>
 	<event>
@@ -7955,7 +7945,7 @@
 <eventList name="CE_REBEL_TURNCOAT_PRISONER">
 	<event>
 		<text>You dock with the Rebel cruft, but immediately realize that this offer was ruse. A concealed detachment of Rebel marines breaches your shield room and escapes deeper into the ship before you can call for a lockdown. The Rebel craft breaks away from you and re-opens fire.</text>
-		<amage amount="1" system="shields" effect="breach"/>
+		<damage amount="1" system="shields" effect="breach"/>
 		<boarders min="2" max="2" class="human"/>
 	</event>
 	<event>

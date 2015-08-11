@@ -2629,6 +2629,10 @@
 			<text>(Long Range Scanner) Your scanners detect a disturbance ahead.</text> 
 			<event>
 				<text>A huge storm-front is approaching. It will soon engulf this part of the nebula and might disrupt your operations.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
 			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
@@ -2670,6 +2674,10 @@
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
 			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
@@ -8408,6 +8416,10 @@ IDEAS
 					<text>Your augment allows you to safely navigate within and around the huge the rocks. You've gained a noticeable advantage over your opponent.</text>
 				<status type="clear" target="player" system="engines" amount="100"/>
 				<status type="limit" target="player" system="engines" amount="6"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>

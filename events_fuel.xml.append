@@ -1437,7 +1437,7 @@
 			<text>"We need you as part of our crew. I will not allow this, however dire the situation."</text>
 			<event>
 				<text>The Zoltan accepts your refusal just as calmly as it offered it's life. "I'd prefer to live, but you might still change your mind when the time comes. We might be stuck here for a long time."</text>
-			<event/>
+			</event>
 		</choice>
 		<choice hidden="true">
 			<text>"I understand. You will be remembered as a true hero of the Federation."</text>
@@ -1447,7 +1447,7 @@
 					<clone>false</clone>
 					<text>Your .</text>
 				</removeCrew>
-			<event/>
+			</event>
 		</choice>
 	</event>
 </eventList>
@@ -1455,7 +1455,6 @@
 	<text>Your Zoltan proposes to make the ultimate sacrifice: Destroying it's body by merging with the reactor and through that powering your jump drive to escape the sector. "If we remain without fuel the Rebel fleet will surely apprehend us, Captain. We will not withstand. My death is meaningless in the light of what is at stake here."</text>
 	<text>"I can sacrifice my body to power the ships jump drive, probably providing enough fuel to even escape this sector." The beaing seems awfully calm considering that it just offered to die for you.</text>
 	<text>The Zoltan explains calmly that it's body might serve as fuel when merged into the reactor. The being offers to sacrifice itself for the greater good of the mission.</text>
-
 </textList>
 
 <event name="NO_FUEL_FLEET_DLC">
