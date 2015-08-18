@@ -3209,7 +3209,7 @@
 <event name="BS_EVENT_ROCK_OUTPOST_SUN" unique="true">
 	<environment type="sun"/>
 	<text load="BS_EVENT_ROCK_OUTPOST_SUN_TEXT"/>
-	<ship load="BS_ROCK_OUTPOST" hostile="true"/>
+	<ship load="BS_ROCK_OUTPOST_NO_SURRENDER" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event/>

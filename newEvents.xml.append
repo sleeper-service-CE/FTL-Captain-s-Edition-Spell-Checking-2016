@@ -1775,6 +1775,43 @@
 
 
 
+<event name="TERRAFORMING_SCAN"  unique="true"> <!-- in neutral only-->
+	<text>You receive a hail from a station orbiting a nearby planet. "Captain, we are Federation Terraforming Team C12 and are in need of assistance. Do you have some time?"</text>
+	<choice>
+		<text>You offer your assistance.</text>
+		<event>
+			<text>"Thank you! We need to scan this planet for life before we can begin terraforming, but our sensors can't get the necessary power to scan through this atmosphere. We've got a schedule to keep, any chance you can help?"</text>
+			<choice>
+				<text>Attempt to scan the planet.</text>
+				<event load="NORMAL_SCAN_TERRAFORMING"/>
+			</choice>
+			<choice req="sensors" lvl="2" hidden="true">
+				<text>(Advanced Sensors) Set sensors to maximum and scan.</text>
+				<event load="HIGH_SCAN_TERRAFORMING"/>
+			</choice>
+			<choice req="AE_SCIENCE" hidden="true"> 
+				<text>(On-board Science Lab) Use your specialized equipment to help with the scan.</text>
+				<event load="HIGH_SCAN_TERRAFORMING"/>
+			</choice>
+			<choice req="energy" hidden="true">
+				<text>(Zoltan) Send your crewman to overcharge their systems.</text>
+				<event load="HIGH_SCAN_TERRAFORMING"/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>You do not have time.</text>
+		<event>
+			<text>"We understand. Best of luck on your mission, sir!"</text>
+			<choice>
+				<text>Prepare to jump away.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+
 <eventList name="HIGH_SCAN_TERRAFORMING">
 	<event>
 		<text>After a complete scan of the planet, you find no life. The team is grateful and ready to get to work. The station scientists have a unique talent for life support units and offer to upgrade your oxygen system as thanks.</text>

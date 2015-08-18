@@ -4459,13 +4459,19 @@ IDEAS
 	</event>
 </eventList>
 
-<event name="QUEST_FED_BATTLE_2" unique="false">
+<eventList name="QUEST_FED_BATTLE_2">
+<event>
+	<text>You were supposed to meet up with your battle group here. However, only a few of the Federation ships have made it. "Free asset, be advised: Dynamic simulations no longer show any likelihood of overall success in this this sector. New orders from Federation high command suggest a full-out evacuation. But we have hear that you have a special mission. We'll do what we can to help."</text>
+	<fleet>fed</fleet>
+	<autoReward level="MED">weapon</autoReward>
+</event>
+<event>
 	<text>You were supposed to meet up with your battle group here in order to finish the Rebel squadron. Something must have gone horribly wrong because the system is littered with the wrecks of Federation ships. An ambush? Reinforcements?</text>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>It seems there is no stopping the Rebel fleet. You pick the bones of the many ships. You find a usable weapon as well.</text>
-			<autoReward level="MED">weapon</autoReward>
+			<text>It seems there is no stopping the Rebel fleet. You pick the bones of the ships and find a usable weapon.</text>
+			<autoReward level="LOW">weapon</autoReward>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
@@ -4520,6 +4526,7 @@ IDEAS
 		</event>
 	</choice>
 </event>
+</eventList>
 <textList name="QUEST_FED_BATTLE_2_TEXT">
 	<text>As you pick through the debris a Rebel cruiser jumps in. They hail, "This is the RS 'Cleanup Crew'. We knew we would catch some stragglers here... but you? You are special! Prepare to meet your maker." They move in to engage.</text>
 	<text>As you pick through the debris a Rebel cruiser jumps in. They hail, "This is the RS 'Dirty Whistle'. We knew we would catch some stragglers here... but you? You are special! Prepare to meet your maker." They move in to engage.</text>

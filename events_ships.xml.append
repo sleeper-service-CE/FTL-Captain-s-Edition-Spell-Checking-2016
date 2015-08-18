@@ -1892,6 +1892,11 @@
 	<deadCrew load="BS_DEAD_CREW_DEFAULT"/>
 </ship>
 
+<ship name="BS_ROCK_OUTPOST_NO_SURRENDER" auto_blueprint="BS_STATIONS_ROCK_OUTPOST">
+	<destroyed load="BS_STATION_DESTROYED_DEFAULT"/>
+	<deadCrew load="BS_DEAD_CREW_DEFAULT"/>
+</ship>
+
 <ship name="BS_ROCK_COLONY" auto_blueprint="BS_STATIONS_ROCK_ASTEROID">
 	<surrender min="10" max="11" load="BS_ROCK_OUTPOST_SURRENDER"/>
 	<destroyed>

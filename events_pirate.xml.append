@@ -1926,9 +1926,9 @@
 		<choice req="AE_SCIENCE" hidden="true"> 
 			<text>(On-board Science Lab) Inquire what their research is about.</text>
 			<event>
-				<text>They are traveling sociologists that try to get a deeper insight into the conflict, right in the field. Your interest in their project is most appreciate. When realizing that you are a fellow scientist, they give you some of their spy-drones as well. You should be able to re-purposed the drone parts.</text>
+				<text>They are traveling sociologists that try to get a deeper insight into the conflict, right in the field. Your interest in their project is most appreciate. When realizing that you are a fellow scientist, they give you some of their spy-devices. You should be able to re-purposed the drone parts.</text>
 				<item_modify>
-					<item type="drones" min="1" max ="3"/>
+					<item type="drones" min="3" max ="5"/>
 				</item_modify>
 			</event>
 		</choice>

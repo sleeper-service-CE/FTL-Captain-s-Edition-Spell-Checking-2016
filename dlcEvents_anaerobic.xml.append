@@ -1476,6 +1476,16 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 			</choice>
 		</event>
 	</choice>
+	<choice req="AE_SCIENCE" hidden="true"> 
+		<text>(On-board Science Lab) Offer to share the linguistic data you have gathered.</text>
+		<event>
+			<text>Your on-board libary is full of Lanius speech samples you recorded while traveling through the sector. The data could be very helpful to these scientists.</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="LANIUS_RESEARCHER_CONTACT_LIST2"/>
+			</choice>
+		</event>
+	</choice>
 	<choice>
 		<text>Leave.</text>
 		<event>

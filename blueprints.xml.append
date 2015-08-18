@@ -12012,7 +12012,7 @@
 	<desc>A special projectile weapon that fires two shield-piercing crystal shards. Vulnerable to Defense drones.</desc>
 	<tooltip>Fires 2 shots, 1 damage each. Low breach chance. Pierces 1 shield. Vulnerable to Defense I.</tooltip>
 	<damage>1</damage>
-	<shots>2</shots>
+	<shots>1</shots>
 	<sp>1</sp>
 	<fireChance>0</fireChance>
 	<breachChance>1</breachChance>
@@ -12052,8 +12052,8 @@
 	<power>2</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>14</speed>
-	<cost>50</cost>
+	<speed>17</speed>
+	<cost>30</cost>
 	<bp>3</bp>
 	<droneImage>de_drone_combat_crystal_1</droneImage>
 	<weaponBlueprint>BA_DRONE_CRYSTAL</weaponBlueprint>
@@ -12072,12 +12072,12 @@
 	<shots>1</shots>
 	<sp>1</sp>
 	<fireChance>0</fireChance>
-	<breachChance>1</breachChance>
+	<breachChance>3</breachChance>
 	<stunChance>2</stunChance>
 	<cooldown>13</cooldown>
 	<power>1</power>
 	<speed>40</speed>
-	<cost>50</cost>
+	<cost>30</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<explosion>explosion_crystal</explosion>
@@ -12127,13 +12127,13 @@
 	<tooltip>Fires 3 shots that damage crew. Ignores 3 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>1</persDamage>
 	<damage>0</damage>
-	<shots>3</shots>
+	<shots>1</shots>
 	<sp>3</sp>
 	<fireChance>0</fireChance>
 	<breachChance>2</breachChance>
 	<cooldown>15</cooldown>
 	<power>1</power>
-	<cost>40</cost>
+	<cost>10</cost>
 	<bp>7</bp>
 	<rarity>0</rarity>
 	<speed>60</speed>
@@ -12167,7 +12167,7 @@
 	<cooldown>1000</cooldown>
 	<dodge>5</dodge>
 	<speed>30</speed> 
-	<cost>30</cost>
+	<cost>10</cost>
 	<bp>3</bp>
 	<droneImage>de_drone_combat_crystal_light</droneImage>
 	<weaponBlueprint>BA_LIGHT_DRONE_CRYSTAL</weaponBlueprint>
@@ -12184,11 +12184,11 @@
 	<tooltip>Fires 3 shots that damage crew. Ignores 3 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>0</persDamage>
 	<damage>1</damage>
-	<shots>3</shots>
+	<shots>1</shots>
 	<sp>3</sp>
 	<cooldown>15</cooldown>
 	<power>1</power>
-	<cost>40</cost>
+	<cost>20</cost>
 	<bp>7</bp>
 	<rarity>0</rarity>
 	<speed>90</speed>
@@ -12223,7 +12223,7 @@
 	<cooldown>3000</cooldown>
 	<dodge>3</dodge>
 	<speed>4</speed> 
-	<cost>30</cost>
+	<cost>20</cost>
 	<bp>2</bp>
 	<droneImage>de_drone_defense_crystal_light</droneImage>
 	<weaponBlueprint>BA_LIGHT_DEFENSE_DRONE_CRYSTAL</weaponBlueprint>
@@ -12238,7 +12238,7 @@
 	<desc>A special projectile weapon that fires two shield-piercing crystal shards. Vulnerable to Defense drones.</desc>
 	<tooltip>Fires 2 shots, 1 damage each. Low breach chance. Pierces 1 shield. Vulnerable to Defense I.</tooltip>
 	<damage>1</damage>
-	<shots>2</shots>
+	<shots>1</shots>
 	<sp>1</sp>
 	<fireChance>0</fireChance>
 	<breachChance>1</breachChance>
@@ -12275,13 +12275,13 @@
 	<target>DRONES</target>
 	<level>1</level>
 	<title>Crystal Drone-Destroyer</title>
-	<short>Cr.Destroyer</short>
+	<short>Cr. Destroyer</short>
 	<desc>Destroys combat drones attacking your ship. Reloads in 4 seconds.</desc>
 	<power>1</power>
 	<cooldown>4000</cooldown>
 	<dodge>0</dodge>
 	<speed>2</speed>
-	<cost>40</cost>
+	<cost>10</cost>
 	<bp>2</bp>
 	<droneImage>de_drone_anti_crystal_heavy</droneImage>
 	<weaponBlueprint>BA_ANTI_DRONE_CRYSTAL</weaponBlueprint>

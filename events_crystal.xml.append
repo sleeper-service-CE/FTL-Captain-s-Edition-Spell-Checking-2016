@@ -1226,6 +1226,40 @@
 	</choice>
 </event>
 
+
+<event name="CRYSTAL_HUMAN_TESTS" unique="true">
+	<text>You arrive near what appears to be a Crystalline research facility. A scientist quickly messages you, "Ah! You're those aliens! Please, I've heard so much about you and I'm really curious about your physiology! Would you let us run a few simple tests?"</text>
+	<choice req="AE_SCIENCE" hidden="true"> 
+		<text>(On-board Science Lab) Offer to share data instead.</text>
+		<event>
+			<text>The crystal scientists are thrille. "What is this? A full evolutionary data profile stored digitally? Marvelous! This will help our research immeasurably. Please, take this in exchange for your help."</text>
+			<autoReward level="MED">weapon</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Allow them to run tests on a crewmember.</text>
+		<event load="CRYSTAL_HUMAN_TESTS_ACCEPT"/>
+	</choice>
+	<choice hidden="true">
+		<text>Refuse.</text>
+		<event load="CRYSTAL_HUMAN_TESTS_REFUSE"/>
+	</choice>
+	<choice hidden="true" req="rock">
+		<text>(Rock crewmember) Send your Rockman crew.</text>
+		<event>
+			<text>"Ah! My dear evolutionary cousin! This is truly wonderful! We have countless historical records of your kind but we lack information on the past few hundreds of years. We can learn so much from these scans, we must get to analyzing them as soon as possible! Please, take this."</text>
+			<autoReward level="MED">standard</autoReward>
+		</event>
+	</choice>
+	<choice hidden="true" req="BACKUP_DNA"> <!--DLC-->
+		<text>(Backup DNA Bank) Send your crew's data.</text>
+		<event>
+			<text>"What is this? Full genetic and personal profiles stored digitally? I did not think this possible... This will help our research immeasurably. Please, take this in exchange for your help."</text>
+			<autoReward level="MED">weapon</autoReward>
+		</event>
+	</choice>
+</event>
+
 <eventList name="CRYSTAL_HUMAN_TESTS_REFUSE">
 	<event>
 		<text>"I see. That is a shame. Perhaps the next aliens we meet will have some respect for the advancement of science."</text>
