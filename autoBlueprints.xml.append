@@ -11873,7 +11873,7 @@
 	<cloakImage>rebel_squat</cloakImage>
 </shipBlueprint>
 
-<shipBlueprint name="TB_REBEL_FAT_P_DLC" layout="tb_rebel_squat_pirate" img="rebel_squat_pirate">
+<shipBlueprint name="TB_REBEL_FAT_P_DLC" layout="tb_rebel_squat_pirate" img="rebel_squat_c_pirate">
 	<class>Pirate Disruptor</class>
 	<systemList>
 		<pilot power="1" max="2" room="0"/>
@@ -11916,7 +11916,7 @@
 	<cloakImage>rebel_long</cloakImage>
 </shipBlueprint>
 
-<shipBlueprint name="TB_REBEL_SKINNY_P_DLC" layout="tb_rebel_long_pirate" img="rebel_long_pirate">
+<shipBlueprint name="TB_REBEL_SKINNY_P_DLC" layout="tb_rebel_long_pirate" img="rebel_long_c_pirate">
 	<class>Pirate Invader</class>
 	<systemList>
 		<oxygen power="1" max="2" room="2"/> <!--2-->
@@ -12398,7 +12398,7 @@
 	<cloakImage>fed_scout</cloakImage>
 </shipBlueprint>
 
-  <shipBlueprint name="TB_FED_SCOUT_P_DLC" layout="tb_fed_scout" img="fed_scout_pirate">
+  <shipBlueprint name="TB_FED_SCOUT_P_DLC" layout="tb_fed_scout" img="fed_scout_c_pirate">
 	<class>Pirate Outrider</class>
 	<maxSector>6</maxSector>
 	<systemList>
@@ -12437,7 +12437,7 @@
 	<cloakImage>fed_bomber</cloakImage>
 </shipBlueprint>
   
-  <shipBlueprint name="TB_FED_BOMBER_P_DLC" layout="tb_fed_bomber" img="fed_bomber_pirate">
+  <shipBlueprint name="TB_FED_BOMBER_P_DLC" layout="tb_fed_bomber" img="fed_bomber_c_pirate">
 	<class>Pirate Hacker</class>
 	<minSector>1</minSector>
 	<systemList>
@@ -13365,7 +13365,7 @@
 
 
 
-<shipBlueprint name="TB_REBEL_INTERCEPTOR_OUTLAW" layout="tb_rebel_interceptor" img="rebel_long_pirate">
+<shipBlueprint name="TB_REBEL_INTERCEPTOR_OUTLAW" layout="tb_rebel_interceptor" img="rebel_long_c_pirate">
 	<class>Rebel Interceptor</class>
 	<systemList>
 		<shields power="2" max="8" room="0" start="true">
@@ -14181,7 +14181,7 @@
 </shipBlueprint>
 
 
-<shipBlueprint name="TB_REBEL_INFILTRATOR_OUTLAW" layout="tb_rebel_infiltrator" img="rebel_long_vintage_pirate">
+<shipBlueprint name="TB_REBEL_INFILTRATOR_OUTLAW" layout="tb_rebel_infiltrator" img="rebel_long_vintage_c_pirate">
 	<class>Rebel Infiltrator</class>
 	<maxSector>5</maxSector>
 	<systemList>
@@ -14205,7 +14205,7 @@
 	<aug name="SYSTEM_CASING" />
 </shipBlueprint>
 
-<shipBlueprint name="TB_REBEL_SCOUT_OUTLAW" layout="tb_rebel_scout" img="rebel_long_vintage_pirate">
+<shipBlueprint name="TB_REBEL_SCOUT_OUTLAW" layout="tb_rebel_scout" img="rebel_long_vintage_c_pirate">
 	<class>Rebel Scout</class>
 	<systemList>
 		<engines power="2" max="6" room="5" start="true" />
@@ -14227,7 +14227,7 @@
 
 
 
-<shipBlueprint name="TB_REBEL_TUG_OUTLAW" layout="tb_rebel_tug" img="rebel_squat_vintage_pirate">
+<shipBlueprint name="TB_REBEL_TUG_OUTLAW" layout="tb_rebel_tug" img="rebel_squat_vintage_c_pirate">
 	<class>Rebel Tug</class>
 	<maxSector>5</maxSector>
 	<systemList>
@@ -14384,7 +14384,7 @@
 
 
 
-<shipBlueprint name="TB_REBEL_FAT_DLC_OUTLAW" layout="tb_rebel_fat_dlc" img="rebel_squat_pirate">
+<shipBlueprint name="TB_REBEL_FAT_DLC_OUTLAW" layout="tb_rebel_fat_dlc" img="rebel_squat_c_pirate">
 	<class>Rebel Disruptor</class>
 	<systemList>
 		<drones power="2" max="8" room="0" start="true"/>
@@ -14426,7 +14426,7 @@
 	<crewCount amount="3" max="6" class="random"/>
 </shipBlueprint>
 
-<shipBlueprint name="TB_REBEL_SKINNY_DLC_OUTLAW" layout="tb_rebel_skinny_dlc" img="rebel_long_pirate">
+<shipBlueprint name="TB_REBEL_SKINNY_DLC_OUTLAW" layout="tb_rebel_skinny_dlc" img="rebel_long_c_pirate">
 	<class>Rebel Invader</class>
 	<systemList>
 		<weapons power="2" max="8" room="0" start="true">
@@ -14820,7 +14820,7 @@
  FED SHIPS!
 -->
 
-<shipBlueprint name="TB_FED_SCOUT_DLC_OUTLAW" layout="tb_fed_scout_dlc" img="fed_scout_pirate">
+<shipBlueprint name="TB_FED_SCOUT_DLC_OUTLAW" layout="tb_fed_scout_dlc" img="fed_scout_c_pirate">
 	<class>Federation Outrider</class>
 	<maxSector>6</maxSector>
 	<systemList>
@@ -14855,7 +14855,7 @@
 	<crewCount amount="2" max="3" class="random"/>
 </shipBlueprint>
   
-<shipBlueprint name="TB_FED_BOMBER_DLC_OUTLAW" layout="tb_fed_bomber_dlc" img="fed_bomber_pirate">
+<shipBlueprint name="TB_FED_BOMBER_DLC_OUTLAW" layout="tb_fed_bomber_dlc" img="fed_bomber_c_pirate">
 	<class>Federation Hacker</class>
 	<systemList>
 		<shields power="2" max="8" room="2" start="true">
@@ -15353,7 +15353,7 @@
 	<aug name="ROCK_ARMOR"/>
 </shipBlueprint>
 
-<shipBlueprint name="C_REBEL_CARGO_OUTLAW" layout="c_rebel_cargo" img="rebel_squat_vintage_pirate">
+<shipBlueprint name="C_REBEL_CARGO_OUTLAW" layout="c_rebel_cargo" img="rebel_squat_vintage_c_pirate">
 	<class>Rebel Pusher</class>
 	<maxSector>4</maxSector>
 	<systemList>

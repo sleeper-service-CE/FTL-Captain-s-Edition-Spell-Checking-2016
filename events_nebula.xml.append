@@ -3056,7 +3056,6 @@
 <event name="BS_EVENT_PIRATE_STORM" unique="true">
 	<text load="BS_EVENT_PIRATE_STORM_TEXT"/>
 	<environment type="storm"/>
-
 	<ship load="BS_PIRATE" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
