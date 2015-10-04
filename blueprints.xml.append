@@ -10613,6 +10613,26 @@
 	<weaponArt>beam_1</weaponArt> 
 </weaponBlueprint>
 
+<weaponBlueprint name="DE_DRONE_BEAM_HEAVY_ENEMY">
+	<type>BEAM</type>
+	<title>Advanced Beam</title>
+	<short>Advanced Beam</short>
+	<desc>Advanced Beam; two damage per room.</desc>
+	<damage>2</damage>
+	<sp>0</sp>
+	<fireChance>1</fireChance>
+	<breachChance>0</breachChance>
+	<speed>4</speed>
+	<rarity>0</rarity>
+	<image>ba_beam_contact_big</image>
+	<length>30</length>
+	<launchSounds>
+		<sound>beam1</sound>
+	</launchSounds>
+	<weaponArt>beam_1</weaponArt> 
+</weaponBlueprint>
+
+
 <weaponBlueprint name="DE_DRONE_BEAM_HULL">
 	<type>BEAM</type>
 	<title>Drone Hull Beam</title>
@@ -11298,6 +11318,24 @@
 	<bp>3</bp>
 	<droneImage>de_drone_beam_2</droneImage>
 	<weaponBlueprint>DE_DRONE_BEAM_HEAVY</weaponBlueprint>
+	<rarity>5</rarity>
+</droneBlueprint>
+
+
+<droneBlueprint name="DE_DRONE_BEAM_2_ENEMY">
+	<type>COMBAT</type>
+	<tip>tip_combat</tip>
+	<title>Heavy Anti-Ship Beam Drone</title>
+	<short>Heavy Beam</short>
+	<desc>Powerful drone that cuts enemy ships into pieces with its heavy beam weapon.</desc>
+	<power>4</power>
+	<cooldown>1000</cooldown>
+	<dodge>2</dodge>
+	<speed>15</speed> 
+	<cost>90</cost>
+	<bp>3</bp>
+	<droneImage>de_drone_beam_2</droneImage>
+	<weaponBlueprint>DE_DRONE_BEAM_HEAVY_ENEMY</weaponBlueprint>
 	<rarity>5</rarity>
 </droneBlueprint>
 
