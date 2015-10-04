@@ -1183,11 +1183,7 @@
 
 <blueprintList name="CE_AUGMENTS_HYPERSPACE_BOOST">
 	<name>FTL_JUMPER</name>
-<<<<<<< HEAD
 	<name>FTL_BOOSTER</name>
-=======
-	<name>FTL_JUMPER</name>
->>>>>>> b720687805f3cdf3dfe3a180e4461a4e1b9f644e
 </blueprintList>
 
 <blueprintList name="CE_AUGMENTS_PIRATE">
