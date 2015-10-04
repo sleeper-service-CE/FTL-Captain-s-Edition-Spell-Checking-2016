@@ -6579,9 +6579,9 @@
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>They respond, "It's a good thing that you dealt with that cruisre, but there will be a new one coming soon. There are always more coming... Well, we might as well bring you a weapon up as thanks. We make a living by stealing those from the Rebel factories and selling them on the black-markets."</text>
+		<text>They respond, "It's a good thing that you dealt with that cruiser, but there will be a new one coming soon. There are always more coming... Well, we might as well bring you a weapon up as thanks. We make a living by stealing those from the Rebel factories and selling them on the black-markets."</text>
+		<text>They respond, "It's a good thing that you dealt with that cruiser, but there will be a new one coming soon. There are always more coming... Well, we might as well bring you a weapon up as thanks. We make a living by stealing those from the Rebel factories and selling them on the black-markets."</text>
 		<autoReward level="LOW">weapon</autoReward>
-
 	</event>
 	<event>
 		<text>"This sector has become increasingly dangerous for friends of the Federation. I think my crew can patch up some of your hull damage as thanks."</text>

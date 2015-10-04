@@ -1052,6 +1052,7 @@
 		</choice>
 </event> 
 
+
 <event name="SLUG_PIRATE" unique="false">
 	<text load="SLUG_PIRATE"/>
 	<ship load="PIRATE" hostile="true"/>

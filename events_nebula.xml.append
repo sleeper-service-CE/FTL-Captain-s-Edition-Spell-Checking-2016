@@ -2621,10 +2621,6 @@
 <event name="NEBULA_AUTO_STORM_DELAY" unique="true">
 	<text load="NEBULA_AUTO_LIST"/>
 	<ship load="REBEL_AUTO_STORM_DELAY" hostile="true"/>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
 		<choice req="ADV_SCANNERS" hidden="true"> 
 			<text>(Long Range Scanner) Your scanners detect a disturbance ahead.</text> 
 			<event>
@@ -2674,6 +2670,10 @@
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
 			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
