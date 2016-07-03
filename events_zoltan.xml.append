@@ -8079,7 +8079,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>After reassuring themselves that the hostile crew has been eliminated, your salvage team finds a usable repair drone aboard the station. </text>
+		<text>After reassuring themselves that the hostile crew has been eliminated, your salvage team finds a usable repair drone aboard the station.</text>
 
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>

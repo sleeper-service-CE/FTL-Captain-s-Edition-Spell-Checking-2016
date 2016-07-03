@@ -247,9 +247,9 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>COMBAT_BEAM_2</name>
 	<name>COMBAT_FIRE</name>
 
-   	<name>DE_DRONE_MISSILES_1_ENEMY</name>
-    	<name>DE_DRONE_MISSILES_2_ENEMY</name>
-    	<name>DE_DRONE_MISSILES_3_ENEMY</name>
+   	<name>DE_DRONE_MISSILES_1</name>
+    	<name>DE_DRONE_MISSILES_2</name>
+    	<name>DE_DRONE_MISSILES_3</name>
    	<name>DE_DRONE_BEAM_2_ENEMY</name>
     	<name>DE_DRONE_PLASMA_ENEMY</name>
     	<name>DE_DRONE_ION_1</name>

@@ -7733,25 +7733,65 @@ IDEAS
 
 <event name="HAZARD_BLACKHOLE_NOTHING">
 	<text load = "HAZARD_BLACKHOLE_NOTHING_TEXT"/>
-	<modifyPursuit amount="1"/>
-	<item_modify steal="true">
-		<item type="fuel" min="-2" max="-2"/>
-	</item_modify>
+	<choice req="FTL_JUMPER" hidden="true">
+		<text>(Advanced Navigation AI) Take quick evasive action.</text>
+		<event>
+			<text>Your navigation AI automatically throws the ship back into higher space befor it comes to a full stop near the anomaly. This saves you from getting stuck here.</text>
+		</event>
+	</choice>
+	<choice req="FTL_BOOSTER" hidden="true">
+		<text>(FTL Recharge Booster) Emergency acceleration!</text>
+		<event>
+			<text>You FTL drive springs back to live almost instantly. You are able to jump out of the black holes gravitational pull before it fully gets hold of your ship.</text>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event>
+			<text load="HAZARD_BLACKHOLE_NOTHING_WAIT_TEXT"/>
+			<modifyPursuit amount="1"/>
+			<item_modify steal="true">
+				<item type="fuel" min="-2" max="-2"/>
+			</item_modify>
+		</event>
+	</choice>
 </event>
 <textList name ="HAZARD_BLACKHOLE_NOTHING_TEXT">
-	<text planet="NONE" back="BG_WARNING_BLACKHOLE">Ooops. The jump leaves you close to the event horizon of a young black hole. Time is passing considerably more slowly in the bow of the ship, a fact the crew uses to play pranks on each other. You will need some extra fuel to escape the black hole's gravitational pull.</text>
-	<text planet="NONE" back="BG_WARNING_BLACKHOLE">By traveling here you earned yourself the rare opportunity to see a black hole up close. Unfortunately, its pull severely hinders FTL travel and you will need some extra fuel to get away from the the gravitational phenomena.</text>
-	<text planet="NONE" back="BG_WARNING_BLACKHOLE">This jump node has been long forgotten and over time drifted dangerously close to one of the sector's black holes. You will need some more fuel than usual to escape the strong gravitational field.</text>
+	<text planet="NONE" back="BG_WARNING_BLACKHOLE">Ooops. The jump leaves you close to the event horizon of a young black hole.</text>
+	<text planet="NONE" back="BG_WARNING_BLACKHOLE">By traveling here you earned yourself the rare opportunity to see a black hole up close.</text>
+	<text planet="NONE" back="BG_WARNING_BLACKHOLE">This jump node has been long forgotten and over time drifted dangerously close to one of the sector's black holes.</text>
+</textList>
+
+<textList name ="HAZARD_BLACKHOLE_NOTHING_WAIT_TEXT">
+	<text>Time is passing considerably more slowly in the bow of the ship, a fact the crew uses to play pranks on each other. You will need some extra fuel to escape the black hole's gravitational pull.</text>
+	<text>Unfortunately, its pull severely hinders FTL travel and you will need some extra fuel to get away from the the gravitational phenomena.</text>
+	<text>You will need some more fuel than usual to escape the strong gravitational field.</text>
 </textList>
 
 <event name="HAZARD_BLACKHOLE_ZOLTAN" unique="true">
 	<img planet="NONE" back="BG_WARNING_BLACKHOLE"/>
-	<text planet="NONE" back="BG_WARNING_BLACKHOLE">A Zoltan ship lingers dangerously close to this growing black hole. They message you, "Sorry, this is not for you. We will fire on you until you leave. Or kill us." They load weapons. You will have to set aside additional fuel to jump out of the black hole's gravity field.</text>
-	<modifyPursuit amount="1"/>
-	<item_modify steal="true">
-		<item type="fuel" min="-2" max="-2"/>
-	</item_modify>
-	<ship load="ZOLTAN_SHIP" hostile="true"/>
+	<text planet="NONE" back="BG_WARNING_BLACKHOLE">A Zoltan ship lingers dangerously close to this growing black hole. They message you, "Sorry, this is not for you. We will fire on you until you leave. Or kill us." They load weapons.</text>
+	<choice req="FTL_JUMPER" hidden="true">
+		<text>(Advanced Navigation AI) Take quick evasive action.</text>
+		<event>
+			<text>Your navigation AI automatically throws the ship back into higher space before it comes to a full stop near the anomaly. This saves you from getting stuck here.</text>
+		</event>
+	</choice>
+	<choice req="FTL_BOOSTER" hidden="true">
+		<text>(FTL Recharge Booster) Emergency acceleration!</text>
+		<event>
+			<text>You FTL drive springs back to live almost instantly. You are able to jump out of the black hole's gravitational pull before it fully gets hold of your ship.</text>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>You will have to set aside additional fuel to jump out of the black hole's gravity field.</text>
+			<modifyPursuit amount="1"/>
+			<item_modify steal="true">
+				<item type="fuel" min="-2" max="-2"/>
+			</item_modify>
+			<ship load="ZOLTAN_SHIP" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event/>
@@ -7800,6 +7840,8 @@ IDEAS
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
+		</event>
+	</choice>
 </event>
 
 <event name="STORM_EMPTY">
@@ -8594,7 +8636,7 @@ IDEAS
 	<text>There's a heavily damaged ship at this beacon. You briefly pick up a very distorted communication from the ship but are unable to understand it. Your sensors detect no life signs.</text>
 </textList>
 
-<eventList name="GHOST_AI_DOCK">
+<event name="GHOST_AI_DOCK">
 	<event>
 		<text>Your crew complains of hearing strange voices as they work. One requests that they end the salvage operation early.</text>
 		<choice hidden="true">
@@ -8624,9 +8666,9 @@ IDEAS
 		</choice>
 	</event>
 	<event load="GHOST_AI_BOARDING"/>
-</eventList>
+</event>
 
-<eventList name="GHOST_AI_SCRAP">
+<event name="GHOST_AI_SCRAP">
 	<event>
 		<text>You recover what you can before making preparations to jump away.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
@@ -8635,7 +8677,7 @@ IDEAS
 			<event load="GHOST_AI_SPACE"/>
 		</choice>
 	</event>
-</eventList>
+</event>
 <eventList name="GHOST_AI_SPACE">
 	<event>
 		<text>Suddenly the wreckage powers up. You have no idea who's piloting the ship, but it has clearly become hostile.</text>
@@ -8803,10 +8845,8 @@ IDEAS
 	</event>
 </eventList>
 <eventList name="GHOST_AI_BOARDED">
-	<event>
-		<text>The AI holograms follow your crew members back on board the ship!</text>
-		<boarders min="2" max="6" class="ghost"/>
-	</event>
+	<text>The AI holograms follow your crew members back on board the ship!</text>
+	<boarders min="2" max="6" class="ghost"/>
 </eventList>
 
 
@@ -9113,7 +9153,7 @@ IDEAS
 				</item_modify>
 			</event>
 		</choice>
-		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
+		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
 			<text>[Sell Weapon Components for about 65 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="STORE_HAZARD_SELL_TEXT"/>
@@ -9899,7 +9939,7 @@ IDEAS
 				</item_modify>
 			</event>
 		</choice>
-		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
+		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
 			<text>[Sell Weapon Components for about 65 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
@@ -10390,6 +10430,26 @@ IDEAS
 
 
  <!-- SE INDUSTRIAL -->
+
+<eventList name="ITEMS_INDUSTRIAL">
+	<event load="FIND_DRONE"/>
+	<event load="FIND_WEAPON"/>
+	<event load="FREE_ITEMS"/>
+	<event load="FUEL_FOR_DRONE"/>
+	<event load="REFUEL_STATION"/>
+	<event load="REPAIR_STATION"/>
+	<event load="SELL_DRONES_STATION"/>
+	<event load="SELL_MISSILES_STATION"/>
+	<event load="TRADER_CIV"/>
+	
+	
+	<event load="TAVERN_HIRE"/> <!-- DLC - old event - down below-->
+	<event load="TRADER_UPGRADES"/> <!--DLC - down below-->
+	<event load="TRADER_UPGRADES_EXCHANGE"/><!--DLC - down below-->
+	<event load="HELP_MINERS"/><!--DLC - down below-->
+
+	<event load="CE_INDUSTRIAL_REPAIRS"/>
+</eventList>
 
 <eventList name="DISTRESS_BEACON_INDUSTRIAL">
 	<event load="CIVILIAN_ASTEROIDS_BEACON"/> 
@@ -10942,6 +11002,11 @@ IDEAS
 	<text>You spot the silvery shimmer of a Lanius vessel within the remains of a derelict salvage yard nearby. The strange beings must be scavenging the metals. You keep your distance and the vessel disappears deeper into the ruins.</text>
 	<text>A few caravans of transport ships jump in shortly after you and head for the local sun. Scans indicate thy transport nuclear waste, no doubt they will dump it into the star.</text>
 </textList>
+
+<event name="CE_INDUSTRIAL_REPAIRS"> 
+	<text>You come across an automated shipyard, lying abandoned in space. You manage to reactivate the facility and have it perform some minor repairs on your ship before it breaks down entirely.</text>
+	<damage amount="5"/>
+</event>
 
 <event name="NEBULA_INDUSTRIAL_ACID_AUTO">
 	<text load="NEBULA_INDUSTRIAL_ACID_TEXT"/>

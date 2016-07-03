@@ -3509,7 +3509,7 @@
 	</deadCrew>
 </ship>
 
-<ship name="GHOST_AI_SHIP" auto_blueprint="SHIPS_GHOST">
+<ship name="GHOST_AI_SHIP" auto_blueprint="SHIPS_AI">
 	<destroyed>
 		<text>The strange ship is destroyed. It won't be able to trouble future travelers.</text>
 		<autoReward level="LOW">standard</autoReward>
@@ -5183,7 +5183,7 @@
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 			<text>(Teleporter Disruptor) Get the scrambler field up!</text>
 			<event>
-				<text>With the field in place, the teleporters will not get a lock on your ship. You continue the engagement without having to fear whatever the AIs boarding attempts.</text>
+				<text>With the field in place, the teleporters will not get a lock on your ship. You continue the engagement without having to fear the boarding attempts.</text>
 			</event>
 		</choice>
 		<choice>
@@ -5195,11 +5195,11 @@
 		</choice>
 	</surrender>
 	<destroyed>
-		<text>Your guns keep pounding into the wall while molten metal and acrid fog spill through the entire hangar. When your mindless opponent is finally blown apart it takes most of the wall down with it. You stare into the neighboring small-bay through a cruiser sized hole, its edges still glowing red-hot. Small explosions erupt where the hangar took damage during the fight.</text>
+		<text>Your guns keep pounding into the wall while molten metal and acrid fog spill through the entire hangar. When your mindless opponent is finally blown apart it takes most of the wall down with it. You stare into the neighboring small-bay through a cruiser sized hole. Small explosions erupt where the hangar took damage during the fight.</text>
 		<choice>
 			<text>Continue...</text>
 			<event>
-				<text>While salvaging you already scan the facility for weak spots. There must be a way to destroy this place. When the screen turns red again you realize that you won't get far with your plans. Constructors close in through tunnels all around you. The whole factory is in alarm, you have to jump out of this place now!</text>
+				<text>While salvaging you already scan the facility for weak spots. There must be a way to destroy this place! When the screen turns red again you realize that you won't get far with your plans. Constructors close in through tunnels all around you. The whole factory is in alarm, you have to jump out of this place now!</text>
 				<autoReward level="HIGH">standard</autoReward>
 			</event>
 		</choice>

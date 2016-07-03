@@ -365,7 +365,7 @@
 			<text>There is not much to do while you drift out here. You decide it's important to keep the crew busy and order them to produce some drones. The on board assembler device turns some ship scrap into functional robots. You feel better prepared for the next engagement.</text>
 			<item_modify>
 				<item type="scrap" min="-15" max="-15"/>
-				<item type="missiles" min="3" max="4"/>
+				<item type="drones" min="3" max="4"/>
 			</item_modify>
 		</event>
 	</choice>
@@ -1325,10 +1325,10 @@
 	<choice req="AE_DRONE_MANUFACTURER" hidden="true"> 
 		<text>(Drone Manufacturer) Assemble some drone parts while you wait. [ Scrap: -15 ]</text>
 		<event>
-			<text>There is not much to do while you drift out here. You decide it's important to keep the crew busy and order them to produce some drones. The on-board assembler device turns some ship scrap into functional robots.. You feel better prepared for the next engagement and prepare the FTL drive.</text>
+			<text>There is not much to do while you drift out here. You decide it's important to keep the crew busy and order them to produce some drones. The on-board assembler device turns some ship scrap into functional robots. You feel better prepared for the next engagement.</text>
 			<item_modify>
 				<item type="scrap" min="-15" max="-15"/>
-				<item type="missiles" min="3" max="4"/>
+				<item type="drones" min="3" max="4"/>
 			</item_modify>
 		</event>
 	</choice>

@@ -20147,9 +20147,9 @@
 <textList name="CE_COMBAT_SIM_TEXT">
 	<text>The combat simulator has various scenarios in store. What do you want your crew to train in?</text>
 	<text>You browse through the various combat sims the training program has to offer.</text>
-	<text>You remember most of these scenarios from the academy. Lets have the crew pass through the training sims once more.</text>
+	<text>You remember most of these scenarios from the academy. Lets have the crew pass through the training sims one more time.</text>
 	<text>The crew is not exactly exited about having to repeat these virtual scenarios again. But the training will help to develop their skills.</text>
-	<text>The crew casts bets on who will do best in the upcoming test scenario.</text>
+	<text>The crew casts bets on who will do best in the upcoming sim-scenario.</text>
 	<text>There is ample time till the FTL is charged. You tell your crew to get ready for a quick combat exercise.</text>
 	<text>The training program greats you in text form: "Welcome Captain [default]. Please choose which scenario you want to exercise in."</text>
 </textList>
@@ -20158,7 +20158,7 @@
 	<text>"Welcome to combat scenario #124: The Numa Incident. Rock missionary crafts have passed through your control zone in order to reach contested deep-space. They have exchanged fire with you and now attempt to flee towards the nearby long range beacon. Your objective is to disable the crafts before they escape. Use of lethal force is authorized."</text>
 	<text>"Welcome to combat scenario #371: The Pacification of the Ast 3 Penal Colonies. Top level criminals have been freed from a high security prison shortly before their execution. Their helpers have been intercepted by your wingmen. Your task is to hunt down the fugitives in order to bring them to justice before they can leave the system."</text>
 	<text>"Welcome to combat scenario #83a: The Assault on Hope's End. You are the spearhead of an covered attempt to overthrow the local pirate gangs in control of the Hope system. While taking control of the entry zone, a small scout spots you. If the craft gets away your stealth mission will fail before it even started. Your objective is to intercept the craft."</text>
-	<text>"Welcome to combat scenario #150b: Escalation in the Vilian Markets. Local hallucinogen smugglers have opened fire in protected trade space in an attempt to evade police forces scanning their cargo. Three ships have been lost. Upon your arrival the smugglers realize that you easily outgun them and they take flight. Use of lethal force is authorized"</text>
+	<text>"Welcome to combat scenario #150b: Escalation in the Vilian Markets. Local hallucinogen smugglers have opened fire in protected trade space in an attempt to evade police forces scanning their cargo. Three ships have been lost. Upon your arrival the smugglers realize that you easily outgun them and take flight. Use of lethal force is authorized"</text>
 	<text>"Welcome to combat scenario #171: Perimeter Breach at [Redacted]. You belong to the defense force of a hidden research and development base. An automated scout has been sighted in the surrounding nebula clouds. Hunt it down to deduce its origin."</text>
 	<text>"Welcome to combat scenario #91: The Fifth Merco-Call Raid. A pirate raid has gone bad and the hostiles have been easily scatter by the defenders. You are ordered to hunt down their leader."</text>
 </textList>
@@ -20166,7 +20166,7 @@
 <textList name="CE_COMBAT_SIM_EVASION_TEXT">
 	<text>"Welcome to combat scenario #109: The Defense of the West Stations. Hostiles are pressing your position from all direction. You have to distract them till all civilians from the station have been evacuated."</text>
 	<text>"Welcome to combat scenario #137: The Omicron-Tau Incident. Ships of unknown design have attacked and destroyed your garrison. Your orders are to retreat without returning fire."</text>
-	<text>"Welcome to combat scenario #54: Escape from the Gst'khaz' Broodpools. Negotiations with the Mantis broodloards have failed and the interstellar clone-ban act has been rejected. An anti-xeno faction, probably backed by the clans, is attacking your diplomatic craft as it accents from the planet. You have to evade the enemy fire till you reach the jump beacon."</text>
+	<text>"Welcome to combat scenario #54: Escape from the Gst'khaz' Broodpools. Negotiations with the Mantis broodloards have failed and the interstellar clone-ban act has been rejected. An anti-xeno faction, probably backed by the clans, is attacking your diplomatic craft as it ascends from the planet. You have to evade the enemy fire till you reach the jump beacon."</text>
 	<text>"Welcome to combat scenario #217: The Kijiro Run. Your trade ship has been ambushed by pirates of the new Kijiro system. Evade their crafts till help arrives."</text>
 	<text>"Welcome to combat scenario #129: The Legendary Run. Relive parts of the fictional story of the legendary Mantis thief KazaaakplethKilik and escape from the Terror Cluster with a stolen prototype ship."</text>
 	<text>"Welcome to combat scenario #217: The Malath Blockade Run. Marauders blockade the moon of Malath, but their numbers still allow breaking through their ranks. Aid ships continue to execute daring blockade runs to deliver much needed food rations to the settlements. Your objective is to evade the enemy ship till it retreats."</text>
@@ -20174,7 +20174,7 @@
 
 <textList name="CE_COMBAT_SIM_BOARDING_1_TEXT">
 	<text>You tell your crew that this is not a drill. Well, it still is, but with real pain.</text>
-	<text>"Welcome to boarding scenario #437: Corporate Spies at Junction 32. A young officer discovers unusual readings aboard the station you are in charge of. Sensor adjustments reveal two individuals equipped with a personal cloaking field and emergency respirators. Your task is to dispatch a security detail to arrest the intruders. Use of lethal force is authorized, should they attempt to resist."</text>
+	<text>"Welcome to boarding scenario #437: Corporate Spies at Junction 32. A young officer discovers unusual readings aboard the station you are in charge of. Sensor adjustments reveal two individuals equipped with a personal cloaking fields and adaptive gel suits. Your task is to dispatch a security detail to arrest the intruders. Use of lethal force is authorized, should they resist."</text>
 	<text>"Welcome to boarding scenario #411: Intruders at the Lockard Stations IV. The crime wave that followed the Zoltans breakaway from the Federations has reached the habitat you are in charge of. Armed intruders are reported almost daily. Today a group of unknown assailants started a shootout. Your objective is to pacify the attackers."</text>
 	<text>"Welcome to boarding scenario #480: Sabotage at Mix Theta. A territorial dispute between the Federation and a free planet of the Mix cluster has lead to ongoing tension. You are in command of a guard cruiser that is keeping the region stable. Hostile agents have entered your ship at a store. They are discovered when attempting to sabotage your reactor. Your objective is to eliminate the intruders."</text>
 </textList>
@@ -20189,12 +20189,12 @@
 <textList name="CE_COMBAT_SIM_BOARDING_3_TEXT">
 	<text>The crew takes point at the doors. Here they come.</text>
 	<text>"Welcome to boarding scenario #25: Unknown intruders near Uncharted Sector 21.56. Your ship jumped into a plasma storm and a teleporter signal directed at your ship was detected. Hostiles may be aboard the ship, their identity remaining unclear. Your objective is to defend your ship against any intruders."</text>
-	<text>"Welcome to boarding scenario #16: The Mezan Shootout. Separatists of the Mezan system are agitating against the Federation. Some planets have formed militias and started carrying out raids on Federation traders. Your command a cruiser sized freighter craft and have been boarded by a squat of badly trained space marines. Your task is to defend your ship."</text>
+	<text>"Welcome to boarding scenario #16: The Mezan Shootout. Separatists of the Mezan system are agitating against the Federation. Some planets have formed militias and started carrying out raids on Federation traders. You command a cruiser-sized freighter craft and have been boarded by a squad of badly trained space marines. Your task is to defend the ship."</text>
 </textList>
 
 <textList name="CE_COMBAT_SIM_BOARDING_4_TEXT">
 	<text>With this kind of training routine you will make yourself a name among the crew in no time.</text>
-	<text>"Welcome to boarding scenario #501: The Theta Six Revolt. Your craft was patrolling near a secluded Engi research facility that started to emitt a distress call. Upon approaching the station, a detachment of rogue AI avatars teleport aboard. You witness the beginning of the Theta Six AI Revolt that did eventually allow the avatars to gain control of the whole sector."</text>
+	<text>"Welcome to boarding scenario #501: The Theta Six Revolt. Your craft was patrolling near a secluded Engi research facility that started to emitt a distress call. Upon approaching the station, a detachment of rogue AI avatars teleport aboard. You witness the beginning of the Theta Six AI Revolt that did eventually allow the avatars to gain control of the entire sector."</text>
 	<text>"Welcome to boarding scenario #584: The Theta Six Revolt. You command a science vessel testing an early stage avatar generation augment. A glitch in the code corrupts the AI during a mass-generation experiment. Your security detail is completely outnumbered. Your task is to prevent the rogue AIs from gaining control over the ship and the avatar generator."</text>
 </textList>
 
@@ -34597,6 +34597,23 @@
 				</item_modify>
 			</event>
 		</choice>
+		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
+			<text>Some fringe worlds in this sectors aren't perfectly habitable yet. Your atmosphere converters could trike a good price. [Sell Terraforming Gear for about 110 Scrap]</text> 
+			<!-- best deal -->
+			<event>
+				<text load="STORE_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<modifyPursuit amount="1"/>
+				<item_modify>
+					<item type="scrap" min="80" max="100"/>
+				</item_modify>
+			</event>
+		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
 			<text>[Sell Pharmaceuticals for about 45 Scrap]</text> <!-- updated -->
 			<event>
@@ -34919,22 +34936,6 @@
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
 			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
-			<event>
-				<text load="STORE_SELL_TEXT"/>
-				<choice>
-					<text>Continue...</text>
-					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
-					</event>
-				</choice>
-				<modifyPursuit amount="1"/>
-				<item_modify>
-					<item type="scrap" min="23" max="27"/> <!-- updated -->
-				</item_modify>
-			</event>
-		</choice>
-		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT"/>
 				<choice>
@@ -35436,6 +35437,22 @@
 				</item_modify>
 			</event>
 		</choice>
+		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
+			<text>Some fringe worlds in this sectors aren't perfectly habitable yet. Your atmosphere converters could trike a good price. [Sell Terraforming Gear for about 110 Scrap]</text> 
+			<!-- best deal -->
+			<event>
+				<text load="STORE_SELL_TEXT_BOOSTED"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
+				<item_modify>
+					<item type="scrap" min="80" max="100"/>
+				</item_modify>
+			</event>
+		</choice>
 		<choice req="TE_GOODS_ENGI_MEDICINE" hidden="true">
 			<text>[Sell Pharmaceuticals for about 45 Scrap]</text> <!-- updated -->
 			<event>
@@ -35738,21 +35755,6 @@
 		</choice>
 		<choice req="TE_GOODS_QUARANTINE_DISEASE" hidden="true">
 			<text>[Sell Disease Samples for about 40 Scrap]</text> <!-- updated -->
-			<event>
-				<text load="STORE_SELL_TEXT_BOOSTED"/>
-				<choice>
-					<text>Continue...</text>
-					<event>
- 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
-					</event>
-				</choice>
-				<item_modify>
-					<item type="scrap" min="23" max="27"/> <!-- updated -->
-				</item_modify>
-			</event>
-		</choice>
-		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>[Sell Terraforming Gear for about 40 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>

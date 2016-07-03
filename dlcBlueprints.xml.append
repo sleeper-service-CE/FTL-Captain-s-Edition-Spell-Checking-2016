@@ -1,0 +1,762 @@
+
+<!-- DLC ITEMS LIST - These items are turned off if the DLC is turned off.
+		Includes any weapons, drones, augments, or aliens 					--> 
+
+<blueprintList name="DLC_ITEMS">
+	<name>BOMB_HEAL_SYSTEM</name>
+	<name>SHOTGUN_PLAYER</name>
+	<name>SHOTGUN</name>
+	<name>SHOTGUN_2</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>ION_CHAINGUN</name>
+	<name>ION_STUN</name>
+	<name>BOMB_STUN</name>
+	
+	<name>PDS_SHOT</name>
+	
+	<name>DRONE_HACKING</name>
+	<name>BOARDER_ION</name>
+	<name>DRONE_SHIELD</name>
+	<name>DRONE_SHIELD_PLAYER</name>
+	<name>ANTI_DRONE</name>
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_FIRE</name>
+	
+	<name>anaerobic</name>
+	
+	
+	<name>O2_MASKS</name>
+	<name>EXPLOSIVE_REPLICATOR</name>
+	<name>FIRE_EXTINGUISHERS</name>
+	<name>FLEET_DISTRACTION</name>
+	<name>TELEPORT_HEAL</name>
+	<name>BATTERY_BOOSTER</name>
+	<name>DEFENSE_SCRAMBLER</name>
+	<name>BACKUP_DNA</name>
+	<name>LIFE_SCANNER</name>
+	<name>ZOLTAN_BYPASS</name>
+	<name>HACKING_STUN</name>
+
+	<name>AE_ASB</name>
+	<name>AE_MIND_SHIELD</name>
+
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_SHOTGUN_SCATTER</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_SHOTGUN_MISSILES_ENEMY</name>
+	<name>BA_BEAM_ADAPTIVE_3</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_ADAPTIVE_3_ENEMY</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_PLASMA_1_ENEMY</name>
+	<name>BA_PLASMA_2</name>
+	<name>BA_PLASMA_2_ENEMY</name>
+
+	<name>DE_DRONE_SHIELD_SMALL</name>
+	<name>DE_DRONE_SHIELD_BIG</name>
+	<name>DE_DRONE_LIGHT_MISSILE_STUN_ENEMY</name>
+	<name>DE_ANTI_DRONE_2</name>
+	<name>DE_ANTI_DRONE_EFFECTOR</name>
+	<name>DE_ANTI_DRONE_MISSILES</name>
+	<name>DE_ANTI_DRONE_LASER_HEAVY</name>
+</blueprintList>
+
+<blueprintList name="DLC_WEAPONS">
+	<name>BOMB_HEAL_SYSTEM</name>
+	<name>SHOTGUN</name>
+	<name>SHOTGUN_2</name>
+	<name>MISSILE_CHARGEGUN</name>
+	<name>LASER_CHAINGUN</name>
+	<name>LASER_CHAINGUN_2</name>
+	<name>ION_CHAINGUN</name>
+	<name>LASER_CHARGEGUN</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>ION_CHARGEGUN</name>
+	<name>ION_STUN</name>
+	<name>BOMB_STUN</name>
+	
+	<name>BA_ION_2_STUN</name>
+	<name>BA_ION_BURST_1_STUN</name>
+	<name>BA_BOMB_CLUSTER_STUN_ENEMY</name>
+	<name>BA_LASER_LIGHT_CHAINGUN</name>
+	<name>BA_SHOTGUN_SMALL</name>
+	<name>BA_SHOTGUN_SCATTER</name>
+	<name>BA_SHOTGUN_MISSILES</name>
+	<name>BA_SHOTGUN_MISSILES_ENEMY</name>
+	<name>BA_BEAM_ADAPTIVE_3</name>
+	<name>BA_BEAM_ADAPTIVE_1</name>
+	<name>BA_BEAM_ADAPTIVE_2</name>
+	<name>BA_BEAM_ADAPTIVE_3_ENEMY</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY</name>
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+	<name>BA_MISSILE_CHARGEGUN_SMALL</name>
+	<name>BA_LASER_CHARGEGUN_MEDIUM</name>
+	<name>BA_STUNGUN_1</name>
+	<name>BA_STUNGUN_2</name>
+	<name>BA_PLASMA_1</name>
+	<name>BA_PLASMA_2</name>
+</blueprintList>
+
+<blueprintList name="DLC_DRONES">
+	<!--<name>DRONE_HACKING</name>-->
+	<name>BOARDER_ION</name>
+	<name>DRONE_SHIELD</name>
+	<name>ANTI_DRONE</name>
+	<name>COMBAT_BEAM_2</name>
+	<name>COMBAT_FIRE</name>
+
+
+
+	<name>DE_DRONE_SHIELD_SMALL</name>
+	<name>DE_DRONE_SHIELD_BIG</name>
+	<name>DE_DRONE_LIGHT_MISSILE_STUN_ENEMY</name>
+	<name>DE_DRONE_STEALTH_BEAM_1</name>
+	<name>DE_DRONE_STEALTH_BEAM_2</name>
+	<name>DE_ANTI_DRONE_2</name>
+	<name>DE_ANTI_DRONE_EFFECTOR</name>
+	<name>DE_ANTI_DRONE_MISSILES</name>
+	<name>DE_ANTI_DRONE_LASER_HEAVY</name>
+</blueprintList>
+
+
+
+<blueprintList name="DLC_AUGMENTS">
+	<name>O2_MASKS</name>
+	<name>EXPLOSIVE_REPLICATOR</name>
+	<name>FIRE_EXTINGUISHERS</name>
+	<name>FLEET_DISTRACTION</name>
+	<name>TELEPORT_HEAL</name>
+	<name>BATTERY_BOOSTER</name>
+	<name>DEFENSE_SCRAMBLER</name>
+	<name>BACKUP_DNA</name>
+	<name>LIFE_SCANNER</name>
+	<name>ZOLTAN_BYPASS</name>
+	<name>HACKING_STUN</name>
+</blueprintList>
+
+
+
+<blueprintList name="SHIPS_LANIUS">
+	<name>TB_ANAEROBIC_SCOUT</name>
+	<name>TB_ANAEROBIC_BOMBER</name>
+
+	<name>TB_ANAEROBIC_ASSAULT</name>
+	<name>TB_ANAEROBIC_BROODSHIP</name>
+	<name>TB_ANAEROBIC_INSTIGATOR</name>
+	<name>TB_ANAEROBIC_INTERCEPTOR</name>
+</blueprintList>
+
+<blueprintList name="WEAPONS_ANAEROBIC">
+	<name>LASER_BURST_1</name>
+	<name>LASER_BURST_2_A</name>
+	<name>LASER_BURST_3_ENEMY</name>
+	<name>LASER_BURST_4_ENEMY</name>
+	<name>LASER_BURST_5_ENEMY</name>
+	<name>LASER_HEAVY_1_ENEMY</name>
+	<name>LASER_HEAVY_2_ENEMY</name>
+	<name>SHOTGUN</name>
+	<name>SHOTGUN_2</name>
+	<name>ION_2_ENEMY</name>
+	<name>MISSILES_1</name>
+	<name>MISSILES_2</name>
+	<name>MISSILES_3</name>
+	<name>MISSILES_BREACH</name>
+	<name>BEAM_1</name>
+	<name>BEAM_2_ENEMY</name>
+	<name>BOMB_1</name>
+
+	<name>BA_BEAM_BARDICHE</name>
+	<name>BA_BEAM_PERNACH</name>
+	<name>BA_BEAM_AUTO</name>
+	<name>BA_MISSILES_SWARM_1</name>
+	<name>BA_MISSILES_SWARM_2</name>
+	<name>BA_MISSILES_SWARM_3</name>
+	<name>BA_LASER_AUTO_1_ENEMY</name>
+	<name>BA_LASER_AUTO_2_ENEMY</name>
+	<name>BA_LASER_BURST_1_2</name>
+	<name>BA_LASER_DUAL_2</name>
+	<name>BA_LASER_BURST_SCATTER_1</name>
+	<name>BA_LASER_BURST_SCATTER_2</name>
+	<name>BA_LASER_HEAVY_SCATTER_1_ENEMY</name>
+	<name>BA_LASER_HEAVY_SCATTER_2_ENEMY</name>
+	<name>BA_LASER_ARTILLERY_1_ENEMY</name>
+	<name>BA_BOMB_BIG_ENEMY</name>
+	<name>BA_BOMB_CLUSTER_1_ENEMY</name>
+
+	<name>BA_SHOTGUN_SMALL</name>
+
+	<name>BA_LASER_CHARGEGUN_HEAVY_ENEMY</name>
+</blueprintList>
+
+
+
+
+<crewBlueprint name="anaerobic">
+	<desc>These anaerobic beings seem friendly enough.</desc>
+	<title>Lanius</title>
+	<short>Lanius</short>
+	<cost>50</cost>
+	<bp>2</bp>
+	<rarity>0</rarity>
+	<powerList>
+		<power>Drains oxygen from rooms.</power>
+		<power>Slow movement but no damage from lack of oxygen.</power>
+	</powerList>
+	<colorList>
+		<layer><!-- Layer 1 - armor -->
+			<color r="255" g="255" b="255" a="0.0"/> <!-- standard -->
+			<color r="255" g="255" b="255" a="0.0"/> <!-- standard -->
+			<color r="255" g="255" b="255" a="0.0"/> <!-- standard -->
+			<color r="80" g="80" b="80" a="0.7"/> <!-- dark -->
+			<color r="80" g="80" b="80" a="0.7"/> <!-- dark -->
+			<color r="150" g="150" b="150" a="1.0"/> <!-- deep grey -->
+			<color r="150" g="150" b="150" a="1.0"/> <!-- deep grey -->
+			<color r="190" g="220" b="255" a="1.0"/> <!-- teal -->
+			<color r="140" g="140" b="255" a="0.7"/> <!-- federation -->
+			<color r="130" g="90" b="115" a="1"/> <!-- purpleish type b -->
+			<color r="135" g="35" b="35" a="1"/> <!-- badass typ b red -->
+		</layer>
+		<layer><!-- Layer 2 - skintone -->
+			<color r="196" g="117" b="232" a="0.3"/>
+			<color r="1" g="1" b="1" a="0"/>
+			<color r="1" g="1" b="1" a="0"/>
+			<color r="1" g="1" b="1" a="0"/>
+			<color r="1" g="1" b="1" a="0.2"/>
+			<color r="232" g="220" b="117" a="0.5"/>
+		</layer>
+		<layer><!-- Layer 3 - eyes -->
+			<color r="255" g="122" b="25" a="1"/> <!-- original orange -->
+			<color r="255" g="122" b="25" a="1"/> <!-- original orange -->
+			<color r="255" g="0" b="0" a="1"/> <!-- raging red -->
+			<color r="170" g="222" b="255" a="1"/> <!-- light blue (white) -->
+			<color r="255" g="255" b="255" a="1"/> <!-- blinded (white) -->
+		</layer>
+	</colorList>
+</crewBlueprint>
+
+
+<augBlueprint name="O2_MASKS"> 
+	<title>Adaptive Gel Suits</title>
+	<desc>Protects crew from certain hazards and reduces damage from low oxygen to a minimum.</desc>
+	<cost>40</cost>
+	<bp>8</bp>
+	<rarity>2</rarity>
+	<stackable>false</stackable>
+	<value>0.25</value>
+</augBlueprint>
+
+<augBlueprint name="FIRE_EXTINGUISHERS"> 
+	<title>Fire Suppression</title>
+	<desc>Automatically and reliably puts out fires throughout the ship.</desc>
+	<cost>65</cost>
+	<bp>8</bp>
+	<rarity>3</rarity>
+	<stackable>false</stackable>
+	<value>2.0</value>
+</augBlueprint>
+
+<augBlueprint name="FLEET_DISTRACTION">
+	<title>Distraction Buoys</title>
+	<desc>Leaves a false signal at sector start to delay Rebels 1 jump.</desc>
+	<cost>55</cost>
+	<bp>8</bp>
+	<rarity>0</rarity>
+	<stackable>false</stackable>
+	<value>1.f</value>
+</augBlueprint>
+
+<shipBlueprint name="PLAYER_SHIP_ANAEROBIC" layout="anaerobic_cruiser" img="anaerobic_cruiser">
+	<class>Lanius Cruiser</class>
+	<name>Kruos</name>
+	<unlock>Entice the Lanius with a valuable fleet, unlock 4 ships in addition to the Kestrel Cruiser to unlock this ship.</unlock>
+	<desc>This requisition cruiser was adapted to support the other races of the Federation and makes use of the Lanius' experience with resource collection.</desc>
+	<systemList>
+		<pilot power="1" room="8" start="true" img="room_pilot_4">
+			<slot>
+				<direction>right</direction>
+				<number>0</number>
+			</slot>
+		</pilot>
+		<doors power="1" room="15" start="true" img="room_doors_2">
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</doors>  
+		<sensors power="1" room="14" start="true" img="room_sensors">
+			<slot>
+				<direction>down</direction>
+				<number>1</number>
+			</slot>
+		</sensors>    
+		<oxygen power="1" room="2" start="true" img="room_oxygen_2"/>
+		<engines power="1" room="7" start="true" img="room_engines_7">
+			<slot>
+				<direction>right</direction>
+				<number>3</number>
+			</slot>
+		</engines>
+		<shields power="2" room="5" start="true" img="room_shields_10">
+			<slot>
+				<direction>down</direction>
+				<number>3</number>
+			</slot>
+		</shields>
+		<weapons power="3" room="9" start="true" img="room_weapons_9">
+			<slot>
+				<direction>up</direction>
+				<number>1</number>
+			</slot>
+		</weapons>
+		<drones power="2" room="11" start="false" img="room_drones_9"/> 
+		<clonebay power="1" room="0" start="true">  
+			<slot>
+				<number>0</number>
+			</slot>
+		</clonebay>
+		<medbay power="1" room="0" start="false" img="room_medbay_4">   
+			<slot>
+				<number>0</number>
+			</slot>
+		</medbay>
+		<teleporter power="1" room="1" start="false"/>   
+		<cloaking power="1" room="6" start="false" img="room_cloaking_4"/>  
+		<battery power="1" room="10" start="false" img="room_battery_10"/>   
+		<mind power="1" room="13" start="false" img="room_mind_6"/>   
+		<hacking power="1" room="3" start="true" img="room_hacking_5">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</hacking>
+		<artillery power="1" room="12" start="false" weapon="ARTILLERY_FED_C" img="room_artillery_grey_1x2down"/>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList count="2" missiles="3">
+		<weapon name="BA_LASER_CHARGEGUN_MEDIUM"/>
+		<weapon name="BA_STUNGUN_1"/>
+	</weaponList>
+	<droneList count="0" drones="9"/>
+	<health amount="30"/>
+	<maxPower amount ="8"/> 
+	<crewCount amount = "1" class="human"/>
+	<crewCount amount = "2" class="anaerobic"/>
+	<aug name="O2_MASKS"/>
+	<aug name="AE_REQUISITION"/>
+	<cloakImage>anaerobic_cruiser</cloakImage>
+</shipBlueprint>
+
+
+
+
+
+
+<shipBlueprint name="PLAYER_SHIP_ANAEROBIC_2" layout="anaerobic_cruiser_2" img="anaerobic_cruiser_2">
+	<class>Lanius Cruiser</class>
+	<name>The Shrike</name>
+	<unlock>Complete 2/3 of the Lanius Cruiser Achievements to unlock this ship.</unlock>
+	<desc>The racial ability of the Lanius make them fearsome combatants in small quarters. Combine that with a Mind Control system and this ship is a force to be reckoned with.</desc>
+	<systemList>
+		<pilot power="1" room="9" start="true">
+			<slot>
+				<direction>right</direction>
+				<number>0</number> 
+			</slot>
+		</pilot>  
+		<doors power="1" room="16" start="true" img="room_doors_2">  
+			<slot>
+				<direction>down</direction>
+				<number>0</number>
+			</slot>
+		</doors>
+		<sensors power="1" room="0" start="false" img="room_sensors_2"> 
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</sensors>
+		<oxygen power="1" room="5" start="true"/>
+		<engines power="1" room="8" start="true" img="room_engines_2">
+			<slot>
+				<direction>down</direction>
+				<number>2</number>
+			</slot>
+		</engines>
+		<shields power="2" room="4" start="true" img="room_shields_3">
+			<slot>
+				<direction>left</direction>
+				<number>2</number>
+			</slot>
+		</shields>
+		<weapons power="2" room="13" start="true" img="room_weapons_10">
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</weapons>
+		<drones power="2" room="2" start="false" img="room_drones_7"/> 
+		<clonebay power="1" room="11" start="true">
+			<slot>
+				<number>2</number>
+			</slot>
+		</clonebay>
+		<medbay power="1" room="11" start="false" img="room_medbay_7"> 
+			<slot>
+				<number>2</number>
+			</slot>
+		</medbay>
+		<teleporter power="1" room="12" start="true"/>  
+		<cloaking power="1" room="1" start="false" img="room_cloaking_3"/> 
+		<mind power="1" room="17" start="true" img="room_mind_3"/> 
+		<battery power="1" room="15" start="false" img="room_battery_12"/>  
+		<hacking power="1" room="3" start="false" img="room_hacking_4">  
+			<slot>
+				<direction>up</direction>
+				<number>0</number>
+			</slot>
+		</hacking>
+		<artillery power="1" room="14" start="false" weapon="ARTILLERY_FED_C" img="room_artillery_grey_1x2right"/>
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList count="2" missiles="0">
+		<weapon name="BA_SHOTGUN_SMALL"/>
+		<weapon name="BA_SHOTGUN_SMALL"/>
+	</weaponList>
+	<droneList drones="0"/>
+	<health amount="30"/>
+	<maxPower amount ="9"/> 
+	<crewCount amount = "1" class="ghost"/>
+	<crewCount amount = "2" class="anaerobic"/>
+	<aug name="AE_REQUISITION"/>
+	<shieldImage>anaerobic_cruiser</shieldImage>
+	<cloakImage>anaerobic_cruiser</cloakImage>
+</shipBlueprint>
+
+
+
+
+<!-- DLC WEAPON OVERRIDES -->
+
+
+<weaponBlueprint name="ARTILLERY_FED_C">
+	<type>BURST</type>
+	<flavorType>Physical Projectile Blast</flavorType>
+	<title>Flak Artillery</title>
+	<short>Flak A.</short>
+	<desc>Slow, high-powered flak gun that fires seven projectiles. 40 seconds base cooldown.</desc>
+	<tooltip>Flak artillery gun that automatically fires 7 projectiles. 40 seconds base cooldown.</tooltip>
+	<radius>35</radius>
+	<damage>1</damage>
+	<spin>720</spin>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>40</cooldown>
+	<power>3</power>
+	<cost>75</cost>
+	<bp>10</bp>
+	<speed>26</speed>
+	<rarity>0</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_large</projectile>
+		<projectile count="4" fake="false">debris_med</projectile>
+		<projectile count="7" fake="true">debris_small</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<iconImage>flak</iconImage>
+	<weaponArt>ce_artillery_invisible</weaponArt> 
+</weaponBlueprint>
+
+<weaponBlueprint name="SHOTGUN">
+	<type>BURST</type>
+	<flavorType>Physical Projectile Blast</flavorType>
+	<title>Flak Gun Mark II</title>
+	<tip>tip_flak</tip>
+	<short>Flak II</short>
+	<desc>Fires a blast of debris across a random area doing up to 3 damage. Good at taking down shields but hard to aim.</desc>
+	<tooltip>Fires a blast of debris across a random area doing up to 3 damage.</tooltip>
+	<radius>42</radius>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>0</sp>
+	<spin>720</spin>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>10</cooldown>
+	<power>2</power>
+	<cost>65</cost>
+	<bp>10</bp>
+	<speed>26</speed>
+	<rarity>2</rarity>
+	<projectiles>
+		<projectile count="1" fake="false">debris_large</projectile>
+		<projectile count="2" fake="false">debris_med</projectile>
+		<projectile count="3" fake="true">debris_small</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>shotgun</weaponArt> 
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+
+
+<weaponBlueprint name="SHOTGUN_2">
+	<type>BURST</type>
+	<flavorType>Physical Projectile Blast</flavorType>
+	<title>Flak Gun Mark III</title>
+	<short>Flak III</short>
+	<tip>tip_flak</tip>
+	<desc>Fires a blast of debris across a random area doing up to 7 damage. Good at taking down shields but hard to aim.</desc>
+	<tooltip>Fires a blast of debris across a random area doing up to 7 damage.</tooltip>
+	<radius>55</radius>
+	<damage>1</damage>
+	<spin>720</spin>
+	<shots>1</shots>
+	<sp>0</sp>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<cooldown>21</cooldown>
+	<power>3</power>
+	<cost>80</cost>
+	<bp>10</bp>
+	<speed>26</speed>
+	<rarity>4</rarity>
+	<projectiles>
+		<projectile count="3" fake="false">debris_large</projectile>
+		<projectile count="4" fake="false">debris_med</projectile>
+		<projectile count="6" fake="true">debris_small</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>flak</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>flakImpact1</sound>
+		<sound>flakImpact2</sound>
+		<sound>flakImpact3</sound>
+		<sound>flakImpact4</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>shotgun_2</weaponArt> 
+	<iconImage>flak</iconImage>
+</weaponBlueprint>
+
+
+<weaponBlueprint name="MISSILE_CHARGEGUN">
+	<type>BURST</type>
+	<flavorType>Charge Blast Missile</flavorType>
+	<drone_targetable>1</drone_targetable>
+	<title>Charge Missiles Mark II</title>
+	<tip>tip_charge</tip>
+	<short>Charge M. II</short>
+	<desc>If given time to prepare, the charge launcher can replicate multiple warheads.</desc>
+	<tooltip>Charges up to 3 shield-piercing missiles. However it always uses only one missile resource.</tooltip>
+	<radius>31</radius>  
+	<missiles>1</missiles>
+	<damage>1</damage>
+	<shots>1</shots>
+	<sp>5</sp>
+	<fireChance>1</fireChance>
+	<breachChance>1</breachChance>
+	<drone_targetable>1</drone_targetable> 
+	<cooldown>5</cooldown>
+	<power>2</power>
+	<chargeLevels>3</chargeLevels>
+	<cost>65</cost>
+	<bp>10</bp>
+	<speed>45</speed>
+	<rarity>4</rarity>
+	<explosion>explosion_random</explosion>
+	<projectiles>
+		<projectile count="1" fake="false">missile_burst</projectile>
+	</projectiles>
+	<launchSounds>
+		<sound>engine_missile_launch1</sound>
+		<sound>engine_missile_launch2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>chargemissile</weaponArt>  
+	<iconImage>missile_charge</iconImage>
+</weaponBlueprint>
+
+<!-- END OF DLC WEAPON OVERRIDES -->
+
+
+<!-- DLC DRONE OVERRIDES -->
+<!--
+<droneBlueprint name="DRONE_SHIELD">
+	<type>SHIELD</type>
+	<level>1</level>
+	<tip>tip_defense</tip>
+	<title>Shield Overcharger Mark II</title>
+	<short>Shield II</short>
+	<desc>Creates single Supershield barrier periodically.</desc>
+	<power>3</power>
+	<cooldown>15000</cooldown> 
+	<dodge>0</dodge>
+	<speed>5</speed> 
+	<cost>60</cost>
+	<bp>2</bp>
+	<droneImage>drone_shield</droneImage>
+	<rarity>4</rarity>
+	<iconImage>shield</iconImage>
+</droneBlueprint>
+-->
+
+<droneBlueprint name="ANTI_DRONE">
+	<type>DEFENSE</type>
+	<tip>tip_defense</tip>
+	<target>DRONES</target>
+	<level>1</level>
+	<title>Anti-Combat Drone Mark I</title>
+	<short>Anti-Drone I</short>
+	<desc>Stuns combat drones attacking your ship. Reloads in 7 seconds.</desc>
+	<power>1</power>
+	<cooldown>7000</cooldown>
+	<dodge>0</dodge>
+	<speed>5</speed> 
+	<cost>35</cost>
+	<bp>2</bp>
+	<droneImage>drone_anti</droneImage>
+	<weaponBlueprint>ANTI_DRONE_ION</weaponBlueprint>
+	<rarity>1</rarity>
+	<iconImage>antiD</iconImage>
+</droneBlueprint>
+
+<weaponBlueprint name="ANTI_DRONE_ION"> 
+	<type>LASER</type>
+	<title>Drone Laser</title>
+	<damage>0</damage>
+	<shots>1</shots>
+	<ion>1</ion>
+	<fireChance>0</fireChance>
+	<breachChance>0</breachChance>
+	<rarity>0</rarity>
+	<speed>90</speed>
+	<image>ion_1_shot</image>
+	<explosion>ba_explosion_ion_anti_intercepted</explosion>
+	<launchSounds>
+		<sound>ionShoot1</sound>
+		<sound>ionShoot2</sound>
+		<sound>ionShoot3</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>ionHit1</sound>
+		<sound>ionHit2</sound>
+		<sound>ionHit3</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>ionShields1</sound>
+		<sound>ionShields2</sound>
+		<sound>ionShields3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>ion_1</weaponArt> 
+	<iconImage>ion</iconImage>
+</weaponBlueprint>
+
+<droneBlueprint name="COMBAT_BEAM_2">
+	<type>COMBAT</type>
+	<title>Anti-Ship Beam Drone II</title>
+	<tip>tip_combat</tip>
+	<short>Beam II</short>
+	<desc>Combat drone that repeatedly attacks with a larger beam weapon</desc>
+	<power>3</power>
+	<cooldown>1000</cooldown> 
+	<dodge>1</dodge>
+	<speed>11</speed> 
+	<cost>60</cost>
+	<bp>3</bp>
+	<droneImage>drone_beam_2</droneImage>
+	<weaponBlueprint>DRONE_BEAM2</weaponBlueprint>
+	<rarity>5</rarity>
+	<iconImage>beam2</iconImage>
+</droneBlueprint>
+
+<droneBlueprint name="COMBAT_FIRE">
+	<type>COMBAT</type>
+	<tip>tip_combat</tip>
+	<title>Anti-Ship Fire Drone</title>
+	<short>Fire</short>
+	<desc>Combat drone that repeatedly attacks with a small beam weapon that lights rooms on fire.</desc>
+	<power>3</power>
+	<cooldown>1000</cooldown> 
+	<dodge>1</dodge>
+	<speed>12</speed> 
+	<cost>50</cost>
+	<bp>3</bp>
+	<droneImage>drone_fire</droneImage>
+	<weaponBlueprint>DRONE_FIREBEAM</weaponBlueprint>
+	<rarity>4</rarity>
+	<iconImage>fire</iconImage>
+</droneBlueprint>
+
+<!-- END OF DLC DRONE OVERRIDES -->
+

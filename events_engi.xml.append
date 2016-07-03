@@ -1363,7 +1363,7 @@
 				</event>
 			</choice>
 			<choice req="hacking" lvl="1" max_group="0" hidden="true">
-				<text>[Hacking System] Isolate and quarantine the virus.</text>
+				<text>(Hacking System) Isolate and quarantine the virus.</text>
 				<event>
 					<text>It takes some time, and the virus is slippery, but you eventually confine it to a useless sub-system prison where it frantically begins calculating insults at you. You eject the system from the ship and then silence the little binary criminal with your weapons.</text>
 					<choice hidden="true">
@@ -1377,7 +1377,7 @@
 				</event>
 			</choice>
 			<choice req="hacking" lvl="2" max_group="0" hidden="true">
-				<text>[Improved Hacking] Reprogram the virus.</text>
+				<text>(Improved Hacking) Reprogram the virus.</text>
 				<event>
 					<text>You proceed to interface with the virus and optimize its repair and benevolence routines.</text>
 					<choice hidden="true">
@@ -1398,7 +1398,7 @@
 				</event>
 			</choice>
 			<choice req="hacking" lvl="3" max_group="0" hidden="true">
-				<text>[Advanced Hacking] Reprogram the virus.</text>
+				<text>(Advanced Hacking) Reprogram the virus.</text>
 				<event>
 					<text>You proceed to interface with the virus and optimize its repair and benevolence routines.</text>
 					<choice hidden="true">
@@ -1419,7 +1419,7 @@
 				</event>
 			</choice>
 			<choice req="anaerobic" hidden="true">
-				<text>[Lanius Crew] Your Lanius crewmember gestures frantically.</text>
+				<text>(Lanius Crew) Your Lanius crewmember gestures frantically.</text>
 				<event>
 					<text>Oddly enough, the Lanius seems aware of which computer the virus is present in, and proceeds to... digest the terminal. There is a burst of O2, and the Engi ship powers down its weapons, no longer sensing the virus on board. The Engi send some parts over to repair your damaged computer, along with a unique ship augmentation as a reward for terminating the virus.</text>
 					<autoReward level="MEDIUM">scrap_only</autoReward>
@@ -1427,7 +1427,7 @@
 				</event>
 			</choice>
 			<choice req="engi" hidden="true">
-				<text>[Engi Crew] Have your Engi crewmember negotiate with the Engi ship.</text>
+				<text>(Engi Crew) Have your Engi crewmember negotiate with the Engi ship.</text>
 				<event>
 					<text>As the Engi attempts to contact the vessel and negotiate, your Engi crewmember suddenly dissolves into nanites - the virus has murdered again! Detecting activity on board your ship, the Engi vessel opens fire!</text>
 					<ship load="ENGI_VIRUS_SHIP_ALT" hostile="true"/>
@@ -2392,8 +2392,8 @@
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Your crew is much more silent during the salvage operation than usual, no one talks to you anymore unless given orders. They find a weapons system on the ship. With all the civilians slaughtered, you can take it for your ship.</text>
-		<autoReward level="MED">weapon</autoReward>
+		<text>Your crew is much more silent during the salvage operation than usual, no one talks to you anymore unless given orders. They find a drone schematic on the ship. With all the civilians slaughtered, you can take it for your ship.</text>
+		<autoReward level="LOW">drone</autoReward>
 	</event>
 </eventList>
 

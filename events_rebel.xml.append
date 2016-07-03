@@ -5827,7 +5827,7 @@
 
 <event name="CE_CONSTRUCTION_SPACE_FACTORY" unique="true">
 	<img back="BG_WARNING_PROXIMITY_CONSTRUCTION" planet="NONE"/>
-	<text>Proximity warnings light up all over the screen. Beacon data explains that you find yourself inside a zero-grav factory of colossal proportions. The installation even has direct jump access, the beacon being housed in the main hanger. Countless tunnels lead to the various parts of the factory, but none are designed for ships of your size.</text>
+	<text>Proximity warnings light up all over the screen. Beacon data explains that you find yourself inside a zero-grav factory of colossal proportions. The installation even has direct jump access. Countless tunnels lead to the various parts of the factory, but none are designed for ships of your size.</text>
 	<choice>
 		<text>Continue...</text>
 		<event>

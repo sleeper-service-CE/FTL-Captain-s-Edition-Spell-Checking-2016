@@ -2073,14 +2073,14 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 		</event>
 	</choice>
 	<choice req="pilot" lvl="2" hidden="true" max_group="0">
-		<text>[Improved Piloting] Engage the auto-pilot and safely harvest the debris.</text>
+		<text>(Improved Piloting) Engage the auto-pilot and safely harvest the debris.</text>
 		<event>
 			<text>With help from the computer, you are able to keep a comfortable distance between you and the Lanius ship, and you are able to gather resources from the debris field without conflict.</text>
 			<autoReward level="MED">standard</autoReward>
 		</event>
 	</choice>
 	<choice req="pilot" lvl="3" hidden="true" max_group="0">
-		<text>[Advanced Piloting] Engage the auto-pilot and safely harvest the debris.</text>
+		<text>(Advanced Piloting) Engage the auto-pilot and safely harvest the debris.</text>
 		<event>
 			<text>With help from the computer, you are able to keep a comfortable distance between you and the Lanius ship, and you gather a considerable amount of resources from the debris field without conflict.</text>
 			<autoReward level="HIGH">standard</autoReward>
@@ -3174,7 +3174,7 @@ This sector will be hostile (i think) but with lots of varied events.  Leading t
 				<event load="LANIUS_FUELING_STATION_LIST"/>
 			</choice>
 			<choice req="doors" lvl="2" hidden="true">
-				<text>[Blast Doors] Secure your blast doors - best to be safe when docked.</text>
+				<text>(Blast Doors) Secure your blast doors - best to be safe when docked.</text>
 				<event>
 					<text>Your reinforced doors save you from an attempted ambush by the Lanius, who cluster around the doors and hull, attempting to consume your ship. Coldly, you wipe them out one by one with your weapon array, then take control of the station and take its fuel reserves.</text>
 					<item_modify>

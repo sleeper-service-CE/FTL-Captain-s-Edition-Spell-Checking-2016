@@ -712,6 +712,10 @@
 		<text>As you hail the refugee ship, a Slug ship jumps into the system... it was hunting the refugee ship for sport and now they've found you instead!</text>
 		<ship load="SLUG_REFUGEE" hostile="true"/>
 		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice hidden="true">
 			<text>Offer surrender.</text>
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
@@ -754,10 +758,6 @@
 		<choice req="AE_IRRADIATOR" hidden="true"> 
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 	</event>
 	<event load="REFUGEE_TRADER_NO_ESCAPE"/>
@@ -1026,6 +1026,10 @@
 		<text>As you hail the refugee ship, a Slug ship jumps into the system... it was hunting the refugee ship for sport and now they've found you instead!</text>
 		<ship load="SLUG_REFUGEE" hostile="true"/>
 		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
+		<choice hidden="true">
 			<text>Offer surrender.</text>
 			<event load="CE_PLAYER_SURRENDER_SLUG"/>
 		</choice>
@@ -1068,10 +1072,6 @@
 		<choice req="AE_IRRADIATOR" hidden="true"> 
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 	</event>
 	<event load="REFUGEE_TRADER"/>

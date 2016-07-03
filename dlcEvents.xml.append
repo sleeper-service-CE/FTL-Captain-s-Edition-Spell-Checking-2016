@@ -16,6 +16,10 @@
 	<event>
 		<text>You apparently spoke to the wrong person in your search for a store. Warnings go off and you detect an automated Rebel ship moving in to attack.</text>
 		<ship load="REBEL_AUTO" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ASB" hidden="true"> 
 			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
@@ -55,15 +59,15 @@
 		<choice req="AE_IRRADIATOR" hidden="true"> 
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 	</event>
 	<event>
 		<text>You apparently spoke to the wrong person in your search for a store. Warnings go off and you detect an automated Rebel ship moving in to attack.</text>
 		<ship load="REBEL_AUTO" hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ASB" hidden="true"> 
 			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
@@ -103,10 +107,6 @@
 		<choice req="AE_IRRADIATOR" hidden="true"> 
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 	</event>
 </eventList>
@@ -118,6 +118,10 @@
 	<text load="REBEL_PULSAR_TEXT"/>
 	<ship load="REBEL" hostile="true"/>
 	<environment type="pulsar"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -153,10 +157,6 @@
 		<choice req="AE_IRRADIATOR" hidden="true"> 
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 </event>
 
@@ -168,6 +168,10 @@
 	<text load="PIRATE_PULSAR_TEXT"/>
 	<ship load="PIRATE" hostile="true"/>
 	<environment type="pulsar"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -203,10 +207,6 @@
 		<choice req="AE_IRRADIATOR" hidden="true"> 
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 </event>
 
@@ -221,6 +221,10 @@
 		<text>Prepare to fight.</text>
 		<event>
 			<text load="CE_PRE_FIGHT_TEXT"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -256,10 +260,6 @@
 		<choice req="AE_IRRADIATOR" hidden="true"> 
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 		</event>
 	</choice>
@@ -271,6 +271,10 @@
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
 			</item_modify>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -306,10 +310,6 @@
 		<choice req="AE_IRRADIATOR" hidden="true"> 
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 		</event>
 	</choice>
@@ -321,6 +321,10 @@
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
 			</item_modify>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -356,10 +360,6 @@
 		<choice req="AE_IRRADIATOR" hidden="true"> 
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 		</event>
 	</choice>
@@ -379,6 +379,10 @@
 		<text>Prepare to fight.</text>
 		<event>
 			<text load="CE_PRE_FIGHT_TEXT"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -414,10 +418,6 @@
 		<choice req="AE_IRRADIATOR" hidden="true"> 
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 		</event>
 	</choice>
@@ -429,6 +429,10 @@
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
 			</item_modify>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -464,10 +468,6 @@
 		<choice req="AE_IRRADIATOR" hidden="true"> 
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 		</event>
 	</choice>
@@ -479,6 +479,10 @@
 			<item_modify>
 				<item type="drones" min="-1" max="-1"/>
 			</item_modify>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -514,10 +518,6 @@
 		<choice req="AE_IRRADIATOR" hidden="true"> 
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 		</event>
 	</choice>

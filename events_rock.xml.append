@@ -2784,33 +2784,68 @@
 
 <event name="CE_ROCK_BLACKHOLE_FREE_STUFF" unique="true">
 	<text load="CE_ROCK_BLACKHOLE_NOTHING_TEXT"/>
-	<modifyPursuit amount="1"/>
-	<item_modify steal="true">
-		<item type="fuel" min="-2" max="-2"/>
-	</item_modify>
-		<choice hidden="true"> 
-			<text>Continue...</text>
-			<event>
-				<text>You try to figure out a jump vector that does not cause too much damage to your ship. In the meantime, the crew salvages from the remains of a nearby Rock vessel that has been abandoned in the anomaly.</text>
-				<ship load="ROCK_SHIP" hostile="false"/>
-				<autoReward level="MED">standard</autoReward>
-			</event>
-		</choice>
+	<choice req="FTL_JUMPER" hidden="true">
+		<text>(Advanced Navigation AI) Take quick evasive action.</text>
+		<event>
+			<text>Your navigation AI automatically throws the ship back into higher space before it comes to a full stop near the anomaly. This saves you from getting stuck here.</text>
+		</event>
+	</choice>
+	<choice req="FTL_BOOSTER" hidden="true">
+		<text>(FTL Recharge Booster) Emergency acceleration!</text>
+		<event>
+			<text>You FTL drive springs back to live almost instantly. You are able to jump out of the black holes gravitational pull before it fully gets hold of your ship.</text>
+		</event>
+	</choice>
+	<choice hidden="true"> 
+		<text>Continue...</text>
+		<event>
+			<text load="CE_ROCK_BLACKHOLE_STUFF_SHIP_TEXT"/>
+			<modifyPursuit amount="1"/>
+			<item_modify steal="true">
+				<item type="fuel" min="-2" max="-2"/>
+			</item_modify>
+			<autoReward level="MED">scrap_only</autoReward>
+			<ship load="ROCK_SHIP" hostile="false"/>
+		</event>
+	</choice>
 </event>
 <textList name ="CE_ROCK_BLACKHOLE_NOTHING_TEXT">
-	<text planet="NONE" back="BG_WARNING_BLACKHOLE">Ooops. The jump leaves you close to the event horizon of a young black hole. Time is passing considerably more slowly in the bow of the ship, a fact the crew uses to play pranks on each other. You will need some extra fuel to escape the black hole's gravitational pull.</text>
-	<text planet="NONE" back="BG_WARNING_BLACKHOLE">By traveling deep into Rock territory, you earned yourself the rare opportunity to see a black hole up close. Unfortunately, its pull severely hinders FTL travel and you will need some extra fuel to get away from the the gravitational phenomenon.</text>
-	<text planet="NONE" back="BG_WARNING_BLACKHOLE">This jump node has been long forgotten and over time drifted dangerously close to one of the sector's black holes. You will need more fuel than usual to escape the strong gravitational field. Even worse: Time passes slower here and the Rebel fleet still pursues you in realtime.</text>
-	<text planet="NONE" back="BG_WARNING_BLACKHOLE">Suns, black holes and other devastating space bodies play a central role in the Rock religion. You have heard stories of the event-horizon monasteries, shielded stations that preserve the Rock elders in time. Lucky enough, this black hole is deserted; you don't want to deal with the monastery guards.</text>
+	<text planet="NONE" back="BG_WARNING_BLACKHOLE">Time is passing considerably more slowly in the bow of the ship, a fact the crew uses to play pranks on each other. You will need some extra fuel to escape the black hole's gravitational pull.</text>
+	<text planet="NONE" back="BG_WARNING_BLACKHOLE">Unfortunately, its pull severely hinders FTL travel and you will need some extra fuel to get away from the the gravitational phenomenon.</text>
+	<text planet="NONE" back="BG_WARNING_BLACKHOLE">This jump node has been long forgotten and over time drifted dangerously close to one of the sector's black holes.</text>
 </textList>
+
+<textList name ="CE_ROCK_BLACKHOLE_STUFF_SHIP_TEXT">
+	<text>Time is passing considerably more slowly in the bow of the ship, a fact the crew uses to play pranks on each other. You will need some extra fuel to escape the black hole's gravitational pull. You try to figure out a jump vector that does not cause too much damage to your ship. In the meantime, the crew salvages from the remains of a nearby Rock vessel that has been abandoned in the anomaly.</text>
+	<text>Unfortunately, its pull severely hinders FTL travel and you will need some extra fuel to get away from the the gravitational phenomenon. You try to figure out a jump vector that does not cause too much damage to your ship. In the meantime, the crew salvages from the remains of a nearby Rock vessel that has been abandoned in the anomaly.</text>
+	<text>You will need more fuel than usual to escape the strong gravitational field. Even worse: Time passes slower here and the Rebel fleet still pursues you in realtime. You try to figure out a jump vector that does not cause too much damage to your ship. In the meantime, the crew salvages from the remains of a nearby Rock vessel that has been abandoned in the anomaly.</text>
+	<text>Suns, black holes and other devastating space bodies play a central role in the Rock religion. You have heard stories of the event-horizon monasteries, shielded stations that preserve the Rock elders in time. Lucky enough, this black hole is deserted; you don't want to deal with the monastery guards.</text>
+</textList>
+
 
 <event name="CE_ROCK_BLACKHOLE_SHIP" unique="true">
 	<text load="CE_ROCK_BLACKHOLE_SHIP_TEXT"/>
-	<modifyPursuit amount="1"/>
-	<item_modify steal="true">
-		<item type="fuel" min="-2" max="-2"/>
-	</item_modify>
-	<ship load="ROCK_SHIP" hostile="true"/>
+	<choice req="FTL_JUMPER" hidden="true">
+		<text>(Advanced Navigation AI) Take quick evasive action.</text>
+		<event>
+			<text>Your navigation AI automatically throws the ship back into higher space before it comes to a full stop near the anomaly. This saves you from getting stuck here.</text>
+		</event>
+	</choice>
+	<choice req="FTL_BOOSTER" hidden="true">
+		<text>(FTL Recharge Booster) Emergency acceleration!</text>
+		<event>
+			<text>You FTL drive springs back to live almost instantly. You are able to jump out of the black hole's gravitational pull before it fully gets hold of your ship.</text>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text load="CE_ROCK_BLACKHOLE_SHIP_BATTLE_TEXT"/>
+			<modifyPursuit amount="1"/>
+			<item_modify steal="true">
+				<item type="fuel" min="-2" max="-2"/>
+			</item_modify>
+			<ship load="ROCK_SHIP" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event/>
@@ -2859,11 +2894,19 @@
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
+		</event>
+	</choice>
 </event>
 <textList name ="CE_ROCK_BLACKHOLE_SHIP_TEXT">
-	<text planet="NONE" back="BG_WARNING_BLACKHOLE">A Rock ship is stationed dangerously close to this growing black hole. They message you, "What is this interference? You disbelievers threaten our holy mass?" They load weapons. You will have to set aside additional fuel to jump out of the black hole's gravity well.</text>
-	<text planet="NONE" back="BG_WARNING_BLACKHOLE">This is a bad beacon to jump to. You find yourself within the strong pull of a class delta black hole. A ship with markings of the Rock grand inquisition is hailing you. What are they doing here? "Alien vessel. You intruded into a holy convent and will surrender immediately."</text>
-	<text planet="NONE" back="BG_WARNING_BLACKHOLE">The Rock enjoy resisting gravitation and often place beacons near black holes. A military ship is stationed here, claiming that the anomaly is actually a checkpoint. They say that you invaded their sector and demand your surrender. With this strong gravitational pull present, you will need extra fuel to escape.</text>
+	<text planet="NONE" back="BG_WARNING_BLACKHOLE">A Rock ship is stationed dangerously close to this growing black hole. They message you.</text>
+	<text planet="NONE" back="BG_WARNING_BLACKHOLE">This is a bad beacon to jump to. You find yourself within the strong pull of a class delta black hole. A ship with markings of the Rock grand inquisition is hailing you. </text>
+	<text planet="NONE" back="BG_WARNING_BLACKHOLE">The Rock enjoy resisting gravitation and often place beacons near black holes. A military ship is stationed here, claiming that the anomaly is actually a checkpoint.</text>
+</textList>
+
+<textList name ="CE_ROCK_BLACKHOLE_SHIP_BATTLE_TEXT">
+	<text planet="NONE" back="BG_WARNING_BLACKHOLE">"What is this interference? You disbelievers threaten our holy mass?" They load weapons. You will have to set aside additional fuel to jump out of the black hole's gravity well.</text>
+	<text planet="NONE" back="BG_WARNING_BLACKHOLE">What are they doing here? "Alien vessel. You intruded into a holy convent and will surrender immediately."</text>
+	<text planet="NONE" back="BG_WARNING_BLACKHOLE">The Rock enjoy resisting gravitation and often place beacons near black holes. A military ship is stationed here, claiming that the anomaly is actually a checkpoint.</text>
 </textList>
 
 <event name="CE_ROCK_PIRATE_ASTEROID_ESCAPE">

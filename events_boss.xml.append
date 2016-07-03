@@ -163,6 +163,10 @@
 
 <event name="BOSS_TEXT_1">
 	<text>This is it... The Rebel flagship. If you are able to destroy this monstrosity, the Federation fleet will have a chance of surviving. There's no turning back!</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
 			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. The Rebels might still be reasoned with in order to negotiate a peaceful end to this entire conflict.</text>
 			<event load="CE_PEACE_BOSS_NEGOTIATION"/>
@@ -261,14 +265,14 @@
 				</choice>
 			</event>
 		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
 </event>
 
 <event name="BOSS_TEXT_2">
 	<text>You chase down the flagship and discover it is heavily damaged from the previous fight. Scans indicate that it has redirected considerable power to its drones. Get ready for a fight.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ASB" hidden="true"> 
 			<text>(Anti-Ship Battery) "Dispatch the ASB, we need fire support against this thing!" [ Missiles: -4, Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
@@ -363,14 +367,14 @@
 				</choice>
 			</event>
 		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
 </event>
 <!--
 <event name="BOSS_TEXT_3">
 	<text>You're not certain how it's able to keep fighting with the amount of damage it has sustained. It looks like it's transferred power to the teleporter as well as... some kind of super weapon. Be prepared... this is it!</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ASB" hidden="true"> 
 			<text>(Anti-Ship Battery) "Dispatch the ASB again, lets finish this!" [ Missiles: -4; Power: -1 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
@@ -463,10 +467,6 @@
 				</choice>
 			</event>
 		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
 </event>
 
 
@@ -479,6 +479,10 @@
 			<event>
 		<fleet>battle</fleet>
 		<text>What little is left of the Federation fleet jumps in after you. You receive a last hail, "This is Admiral Tully speaking, we will try to draw the cruisers away from you, but they will easily out-gun us. The fleet artillery will eventually acquire you. Maintain radio silence from now on. Good luck!"</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
 			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. The Rebels might still be reasoned with in order to negotiate a peaceful end to this entire conflict.</text>
 			<event load="CE_PEACE_BOSS_NEGOTIATION"/>
@@ -568,10 +572,6 @@
 					<event load="CE_PRE_FIGHT_NO_IRRADIATOR"/>
 				</choice>
 			</event>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 		</event>
 	</choice>
@@ -1348,6 +1348,10 @@
 <!--
 <event name="BOSS_TEXT_2">
 	<text>The main fleets continue their engagement at the other beacon. You chase down the flagship and discover it is heavily damaged from the previous fight. Scans indicate that it has redirected considerable power to its drones. Get ready for a fight.</text>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) "Prepare for offensive cyber-attack. Hack it again!"</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -1434,10 +1438,6 @@
 				</choice>
 			</event>
 		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
 </event>
 -->
 
@@ -1457,6 +1457,10 @@
 		<text>Several Federation fleet detachments have broken through the lines and come to aid you in your final effort. They have suffered critical losses to get here and will not be able to distract the fleet for long.</text>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ASB" hidden="true"> 
 			<text>(Anti-Ship Battery) "We need more fire support to finish this. Get the ASB ready!" [ Missiles: -4, power: -1]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
@@ -1557,16 +1561,16 @@
 				</choice>
 			</event>
 		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
 	</event>
 	<event>
 		<fleet>battle</fleet>
 		<text>Several Federation fleet detachments have broken through the lines and come to aid you in your final effort. They have suffered critical losses to get here and will not be able to distract the fleet for long.</text>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ASB" hidden="true"> 
 			<text>(Anti-Ship Battery) "We need more fire support to finish this. Get the ASB ready!" [ Missiles: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
@@ -1667,16 +1671,16 @@
 				</choice>
 			</event>
 		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
 	</event>
 	<event>
 		<fleet>battle</fleet>
 		<text>Several Federation fleet detachments have broken through the lines and come to aid you in your final effort. They have suffered critical losses to get here and will not be able to distract the fleet for long.</text>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ASB" hidden="true"> 
 			<text>(Anti-Ship Battery) "We need more fire support to finish this. Get the ASB ready!" [ Missiles: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
@@ -1777,16 +1781,16 @@
 				</choice>
 			</event>
 		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
 	</event>
 	<event>
 		<fleet>battle</fleet>
 		<text>Several Federation fleet detachments have broken through the lines and come to aid you in your final effort. They have suffered critical losses to get here and will not be able to distract the fleet for long.</text>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ASB" hidden="true"> 
 			<text>(Anti-Ship Battery) "We need more fire support to finish this. Get the ASB ready!" [ Missiles: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
@@ -1887,16 +1891,16 @@
 				</choice>
 			</event>
 		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
 	</event>
 	<event>
 		<fleet>battle</fleet>
 		<text>Several Federation fleet detachments have broken through the lines and come to aid you in your final effort. They have suffered critical losses to get here and will not be able to distract the fleet for long.</text>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ASB" hidden="true"> 
 			<text>(Anti-Ship Battery) "We need more fire support to finish this. Get the ASB ready!" [ Missiles: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
@@ -1997,16 +2001,16 @@
 				</choice>
 			</event>
 		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
 	</event>
 	<event>
 		<fleet>battle</fleet>
 		<text>Several Federation fleet detachments have broken through the lines and come to aid you in your final effort. They have suffered critical losses to get here and will not be able to distract the fleet for long.</text>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ASB" hidden="true"> 
 			<text>(Anti-Ship Battery) "We need more fire support to finish this. Get the ASB ready!" [ Missiles: -4 ]</text> 
 			<event load="CE_PRE_FIGHT_ASB"/>
@@ -2106,10 +2110,6 @@
 					<event load="CE_PRE_FIGHT_NO_IRRADIATOR"/>
 				</choice>
 			</event>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 	</event>
 	<event>
@@ -2118,6 +2118,10 @@
 		<fleet>battle</fleet>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) "Prepare the field generator. Effectorize it once more!"</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -2209,10 +2213,6 @@
 					<event load="CE_PRE_FIGHT_NO_IRRADIATOR"/>
 				</choice>
 			</event>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 	</event>
 	<event>
@@ -2221,6 +2221,10 @@
 		<fleet>battle</fleet>
 		<status type="limit" target="enemy" system="drones" amount="0"/>
 		<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) "Prepare the field generator. Effectorize it once more!"</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -2274,7 +2278,7 @@
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
 			<text>(Ion Field) "Activate the ion field. We have to weaken this shield!"</text>
 			<event>
-								<text load="CE_PRE_FIGHT_ION_TEXT"/>
+				<text load="CE_PRE_FIGHT_ION_TEXT"/>
 				<status type="loss" target="enemy" system="shields" amount="2"/>
 				<status type="loss" target="player" system="reactor" amount="3"/>
 				<choice hidden="true">
@@ -2313,14 +2317,17 @@
 				</choice>
 			</event>
 		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
-		</choice>
 	</event>
 	<event>
 		<text>The flagship evades your attack with its powerful backup engines and retreats into the upper atmosphere of a nearby gas giant. The Rebels probably hope to ambush you within the gases.</text>
 		<environment type="nebula"/>
+		<fleet>battle</fleet>
+		<status type="limit" target="enemy" system="drones" amount="0"/>
+		<ship hostile="true"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event/>
+		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
 			<text>(Subspace Scanner) Probe the environment with your advanced scanner device and re-route the data to your sensors. [ Power: -1 ]</text> 
 			<event>
@@ -2519,10 +2526,6 @@
 					<event load="CE_PRE_FIGHT_NO_IRRADIATOR"/>
 				</choice>
 			</event>
-		</choice>
-		<choice hidden="true">
-			<text>Continue...</text>
-			<event/>
 		</choice>
 	</event>
 </eventList>

@@ -2106,7 +2106,7 @@
 
 <augBlueprint name="FTL_BOOSTER">
 	<title>FTL Recharge Booster</title>
-	<desc>The ship's FTL Drive powers up 30 percent faster and enables faster hyperspace travel.</desc>
+	<desc>The ship's FTL Drive powers up 30 percent faster; also enables faster hyperspace travel.</desc>
 	<cost>35</cost>
 	<bp>4</bp>
 	<rarity>2</rarity>
@@ -2460,9 +2460,9 @@
 	<title>Baton Beam</title>
 	<short>Baton Beam</short>
 	<desc>Modified particle beam that incapacitates ships and crew. Often used by law enforcement units.</desc>
-	<tooltip>Beam weapon; deals 1 damage to system; injures crew and stuns for 5 seconds.</tooltip>
+	<tooltip>Beam weapon; deals 1 damage to systems, injures crew and stuns for 10 seconds.</tooltip>
 	<damage>0</damage>
-	<stun>5</stun>
+	<stun>10</stun>
 	<sysDamage>1</sysDamage>
 	<persDamage>1</persDamage>
 	<sp>0</sp>
@@ -2493,9 +2493,9 @@
 	<title>Bo Beam</title>
 	<short>Bo Beam</short>
 	<desc>Advanced particle beam that can incapacitate ships and crew without dealing hull damage.</desc>
-	<tooltip>Beam weapon; deals 1 damage to system; injures crew and stuns for 5 seconds.</tooltip>
+	<tooltip>Beam weapon; deals 1 damage to systems, injures crew and stuns for 10 seconds.</tooltip>
 	<damage>0</damage>
-	<stun>5</stun>
+	<stun>10</stun>
 	<sysDamage>1</sysDamage>
 	<persDamage>1</persDamage>
 	<sp>0</sp>
@@ -3261,8 +3261,8 @@
 	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
 	<cooldown>20</cooldown>
-	<power>2</power>
-	<cost>30</cost>
+	<power>1</power>
+	<cost>15</cost>
 	<bp>6</bp>
 	<rarity>3</rarity>
 	<image>ba_mine_big</image>
@@ -5537,7 +5537,7 @@
 	<sp>0</sp>
 	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
-	<cooldown>18</cooldown>
+	<cooldown>14</cooldown>
 	<power>3</power>
 	<cost>70</cost>
 	<bp>4</bp>
@@ -6950,7 +6950,7 @@
 	<rarity>2</rarity>
 	<explosion>ba_explosion_fire</explosion>
 	<projectiles>
-		<projectile count="3" fake="false">ba_plasma_shot</projectile>
+		<projectile count="4" fake="false">ba_plasma_shot</projectile>
 	</projectiles>
 	<launchSounds>
 		<sound>heavyLaserScatter1</sound>
@@ -6994,7 +6994,7 @@
 	<rarity>0</rarity>
 	<explosion>ba_explosion_fire_impact</explosion>
 	<projectiles>
-		<projectile count="3" fake="false">ba_plasma_shot</projectile>
+		<projectile count="4" fake="false">ba_plasma_shot</projectile>
 	</projectiles>
 	<launchSounds>
 		<sound>heavyLaserScatter1</sound>
@@ -7028,7 +7028,7 @@
 	<missiles>0</missiles>
 	<shots>1</shots>
 	<sp>0</sp>
-	<fireChance>8</fireChance>
+	<fireChance>9</fireChance>
 	<breachChance>0</breachChance>
 	<cooldown>20</cooldown>
 	<power>2</power>
@@ -7038,7 +7038,7 @@
 	<rarity>3</rarity>
 	<explosion>ba_explosion_fire</explosion>
 	<projectiles>
-		<projectile count="8" fake="false">ba_plasma_shot</projectile>
+		<projectile count="9" fake="false">ba_plasma_shot</projectile>
 	</projectiles>
 	<launchSounds>
 		<sound>heavyLaserScatter1</sound>
@@ -7071,7 +7071,7 @@
 	<missiles>0</missiles>
 	<shots>1</shots>
 	<sp>0</sp>
-	<fireChance>8</fireChance>
+	<fireChance>9</fireChance>
 	<breachChance>0</breachChance>
 	<cooldown>20</cooldown>
 	<power>2</power>
@@ -7081,7 +7081,7 @@
 	<rarity>0</rarity>
 	<explosion>ba_explosion_fire_impact</explosion>
 	<projectiles>
-		<projectile count="8" fake="false">ba_plasma_shot</projectile>
+		<projectile count="9" fake="false">ba_plasma_shot</projectile>
 	</projectiles>
 	<launchSounds>
 		<sound>heavyLaserScatter1</sound>
@@ -7268,7 +7268,7 @@
 	<fireChance>0</fireChance>
 	<breachChance>0</breachChance>
 	<speed>2</speed>
-	<cooldown>15</cooldown>
+	<cooldown>18</cooldown>
 	<power>3</power>
 	<cost>100</cost>
 	<bp>12</bp>
@@ -10055,7 +10055,7 @@
 	<bp>3</bp>
 	<droneImage>de_drone_ion_2</droneImage>
 	<weaponBlueprint>DE_DRONE_ION_HEAVY_ENEMY</weaponBlueprint>
-	<rarity>3</rarity>
+	<rarity>0</rarity>
 </droneBlueprint>
 
 
@@ -11262,7 +11262,7 @@
 	<power>3</power>
 	<cooldown>1000</cooldown>
 	<dodge>0</dodge>
-	<speed>4</speed>
+	<speed>5</speed>
 	<cost>80</cost>
 	<bp>3</bp>
 	<droneImage>de_drone_missiles_barrage</droneImage>
@@ -11578,7 +11578,7 @@
 	<cooldown>24000</cooldown> <!-- Shooting cooldown for shooting at asteroids/missiles, in ms -->
 	<dodge>0</dodge>
 	<speed>1</speed> <!-- Superficial change.. just makes it fly faster -->
-	<cost>20</cost>
+	<cost>10</cost>
 	<bp>2</bp>
 	<droneImage>de_drone_defense_missiles</droneImage>
 	<weaponBlueprint>DE_DRONE_MISSILES_DEFENSE</weaponBlueprint>
@@ -15277,9 +15277,8 @@
 		<mind power="1" room="10" start="false" img="room_mind_3"/>
 		<artillery power="1" room="7" start="false" weapon="BA_ARTILLERY_STEALTH" img="room_artillery_grey_1x2double" />
 	</systemList>
-	<weaponList count="2" missiles="4">
-		<weapon name="BA_BEAM_NAGINATA"/>
-		<weapon name="BA_MISSILES_IFRIT"/>
+	<weaponList count="1" missiles="0">
+		<weapon name="BA_BEAM_MAUL"/>
 	</weaponList>
 	<weaponSlots>3</weaponSlots>
 	<droneSlots>2</droneSlots>
@@ -15723,7 +15722,7 @@
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
 	<weaponList count="2" missiles="20">
-		<weapon name="BA_MISSILES_HULL_SMALL"/>
+		<weapon name="BA_MISSILES_SWARM_1"/>
 		<weapon name="BA_MISSILES_COCKATRICE"/>
 	</weaponList>
 	<droneList drones="0"/>
@@ -15798,7 +15797,7 @@
 	<class>Zoltan Cruiser</class>
 	<name>The Adjudicator</name>
 	<unlock>Learn from the Zoltan that sometimes diplomacy works.</unlock>
-	<desc>The Zoltan's advanced shields and their field generation technology give this ship an edge during each battle.</desc>
+	<desc>The Zoltan's advanced weapon and field generation technology give this ship an edge during each battle.</desc>
 	<systemList>
 		<pilot power="1" room="11" start="true"/>  
 		<doors power="2" room="10" start="true" img="room_doors_6">
@@ -15821,7 +15820,7 @@
 				<number>1</number> 
 			</slot>
 		</shields>     
-		<weapons power="3" room="14" start="true" img="room_weapons_7"/>  
+		<weapons power="2" room="14" start="true" img="room_weapons_7"/>  
 		<drones power="2" room="16" start="false" img="room_drones_8"/>     
 		<medbay power="1" room="8" start="true" img="room_medbay_4"> 
 			<slot>
@@ -15848,12 +15847,12 @@
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
 	<weaponList count="4" missiles="8"> 
-		<weapon name="BA_BEAM_BARDICHE"/>
-		<weapon name="BA_MISSILES_SWARM_1"/>
+		<weapon name="BA_BEAM_AUTO"/>
+		<weapon name="BA_MISSILES_ONI"/>
 	</weaponList>
 	<droneList drones="2"/>
 	<health amount="30"/>
-	<maxPower amount ="5"/> 
+	<maxPower amount ="4"/> 
 	<crewCount amount = "3" class="energy"/>
 	<aug name="ENERGY_SHIELD"/>
 	<aug name="AE_SHIELD_JAMMER"/>
@@ -15886,7 +15885,7 @@
 			</slot>
 		</engines>     
 		<shields power="1" room="5" start="true" img="room_shields_8"/>
-		<weapons power="3" room="7" start="true" img="room_weapons_4">
+		<weapons power="4" room="7" start="true" img="room_weapons_4">
 			<slot>
 				<direction>up</direction>
 				<number>0</number>
@@ -15917,13 +15916,14 @@
 	</systemList>
 	<weaponSlots>4</weaponSlots>
 	<droneSlots>2</droneSlots>
-	<weaponList count="4" missiles="0">
+	<weaponList count="3" missiles="0">
 		<weapon name="BA_ION_BURST_1"/>
-		<weapon name="BA_BEAM_PERNACH"/>
+		<weapon name="BA_ION_BURST_1"/>
+		<weapon name="BA_BEAM_BARDICHE"/>
 	</weaponList>
 	<droneList drones="2"/>
 	<health amount="30"/>
-	<maxPower amount ="4"/> 
+	<maxPower amount ="5"/> 
 	<crewCount amount="1" class="ghost"/>
 	<crewCount amount="2" class="energy"/>
 	<aug name="ENERGY_SHIELD"/>

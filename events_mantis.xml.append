@@ -2106,7 +2106,7 @@
 	<choice hidden="true">
 		<text>Keep your distance.</text>
 		<event>
-			<text>Just as you the insectoids seem unwilling to risk a direct engagement, but a few worriers seem unwilling to leave it at that, one troopship gets ready to teleport.</text>
+			<text>The insectoids do not intend to risk a direct engagement, although a few worriers seem unwilling to leave it at that. One of the troopship gets ready to teleport.</text>
 			<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 				<text>(Teleporter Disruptor) Keep them away with the disruption field.</text>
 				<event>

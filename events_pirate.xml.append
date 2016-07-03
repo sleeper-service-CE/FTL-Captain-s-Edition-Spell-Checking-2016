@@ -4055,7 +4055,7 @@
 			</event>
 		</choice>
 		<choice req="doors" lvl="3" hidden="true">
-			<text>[Improved Blast Doors] "Put the ship under lockdown till I'm back. Stand your ground and let nobody in!"</text>
+			<text>(Improved Blast Doors) "Put the ship under lockdown till I'm back. Stand your ground and let nobody in!"</text>
 			<event>
 				<text>Your reinforced bulkheads and advanced internal security systems will hopefully deter the local hoodlums till your business is concluded.</text>
 			</event>
@@ -4464,7 +4464,7 @@
 				</item_modify>
 			</event>
 		</choice>
-		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
+		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
 			<text>[Sell Weapon Components for about 65 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="STORE_OUTLAW_SELL_TEXT"/>
@@ -5315,7 +5315,7 @@
 				</item_modify>
 			</event>
 		</choice>
-		<choice req="TE_GOODS_MANTIS_ENGINES" hidden="true">
+		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
 			<text>[Sell Weapon Components for about 65 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
