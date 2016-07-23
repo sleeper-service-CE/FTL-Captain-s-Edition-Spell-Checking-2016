@@ -12450,7 +12450,7 @@ IDEAS
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">The shields crackle as you jump into another deeply polluted part of the sector. Micro particles and pseudo-organic cooling sludge floats everywhere. You are looking at years of waste dumping. The stuff gathers at the port windows. Who will clean this up?</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">You jump into a quiet area of the clouds, full of free floating organic and inorganic waste. The stuff seems to be held here by a weak containment field, it's like an intergalactic garbage bin. Yuk!</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">Derelict industrial installations surround this beacon, shrouded in thick brown particle clouds. Some of the factories are still online and constantly emit more synthetic dust and smoke from their bleak neosteel funnels.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">What appears to be a rouge Lanius vessel is scavenging materials from a small scrapyard nearby. You attempt to hail the strange creatures, but when they receive your signal they quickly retreat into the haze.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">What appears to be a rogue Lanius vessel is scavenging materials from a small scrapyard nearby. You attempt to hail the strange creatures, but when they receive your signal they quickly retreat into the haze.</text>
 </textList>
 
 <event name="NEBULA_INDUSTRIAL_SMOG_HIGH_BOARDERS" unique="true">
