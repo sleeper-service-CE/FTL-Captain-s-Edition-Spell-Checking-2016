@@ -15890,7 +15890,7 @@
 		<choice hidden="true">
 			<text>Accept.</text>
 			<event>
-				<text>Great!  I uploaded their location to your star map.   I'm running out of options, so I have no choice but to trust you'll do what you have agreed to do.</text>
+				<text>Great!  I uploaded their location to your star map. I'm running out of options, so I have no choice but to trust you'll do what you have agreed to do.</text>
 				<item_modify>
 					<item type="drones" min="5" max="5"/>
 				</item_modify>
