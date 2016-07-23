@@ -4687,7 +4687,7 @@
 		<text>The pirate escapes, leaving you in peace to inspect the shop again.</text>
 	</gotaway>
 	<destroyed>
-		<text>The ship breaks apart. A few unregistered ships within the system are messaging their approval. The pirates you took out where obviously not very popular here. Yet so are you, exchange of trade goods seems out of question after this incident.</text>
+		<text>The ship breaks apart. A few unregistered ships within the system are messaging their approval. The pirates you took out were obviously not very popular here. Yet so are you, exchange of trade goods seems out of question after this incident.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>

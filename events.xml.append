@@ -15890,7 +15890,7 @@
 		<choice hidden="true">
 			<text>Accept.</text>
 			<event>
-				<text>Great!  I uploaded their location to your star map.   I'm running out of options, so I have no choice but to trust you'll do what you have agreed to do.</text>
+				<text>Great!  I uploaded their location to your star map. I'm running out of options, so I have no choice but to trust you'll do what you have agreed to do.</text>
 				<item_modify>
 					<item type="drones" min="5" max="5"/>
 				</item_modify>
@@ -16937,7 +16937,7 @@
 </eventList>
 <eventList name="CE_DINER_MERCHANT">
 	<event>
-		<text>The merchant politely declines when you offer some of your burger. "The trade union isn't exactly thriving within this Rebellion. Mainly due to an increase in taxes and piracy. There are three ships that are attacking our caravans again and again around this sector. I figured a rouge Captain with a badly faked ship registration like yours might be able to handle that. My data says you have quite a kill count."</text>
+		<text>The merchant politely declines when you offer some of your burger. "The trade union isn't exactly thriving within this Rebellion. Mainly due to an increase in taxes and piracy. There are three ships that are attacking our caravans again and again around this sector. I figured a rogue Captain with a badly faked ship registration like yours might be able to handle that. My data says you have quite a kill count."</text>
 		<choice hidden="true">
 			<text>"Murdering pirates is an ugly necessity these days. Count us in!"</text>
 			<event>
