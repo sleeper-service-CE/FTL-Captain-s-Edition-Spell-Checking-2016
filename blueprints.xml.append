@@ -6487,7 +6487,7 @@
 	<short>Phase Ion I</short>
 	<tip>ce_tip_ion_pierce</tip>
 	<locked>1</locked>
-	<desc>This weapons ion projectiles phase through shields, ionizing them as well as any system they hit afterwards.</desc>
+	<desc>This weapon's ion projectiles phase through shields, ionizing them as well as any system they hit afterwards.</desc>
 	<tooltip>Fires one phase blast; pierces all shields; deals 1 ion damage to shields and deals 1 additional ion damage to any system it hits afterwards.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
@@ -6534,7 +6534,7 @@
 	<short>Phase Ion II</short>
 	<tip>ce_tip_ion_pierce</tip>
 	<locked>1</locked>
-	<desc>This weapons ion projectiles phase through shields, ionizing them as well as any system they hit afterwards.</desc>
+	<desc>This weapon's ion projectiles phase through shields, ionizing them as well as any system they hit afterwards.</desc>
 	<tooltip>Fires one phase blast; pierces all shields; deals 1 ion damage to shields and deals 1 additional ion damage to any system it hits afterwards.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
