@@ -1,0 +1,148 @@
+
+
+<imageList name="PLANET_POPULATED">
+	<img w="480" h="460">stars/planet_populated_invisible_1.png</img>
+	<img w="480" h="460">stars/planet_populated_invisible_2.png</img>
+</imageList>	
+
+
+<imageList name="PLANET_POPULATED_REAL">
+	<img w="480" h="460">stars/planet_populated_brown.png</img>
+	<img w="480" h="460">stars/planet_populated_dark.png</img>
+	<img w="480" h="460">stars/planet_populated_orange.png</img>
+</imageList>	
+
+
+
+<imageList name="PLANET_MANTIS_FLEET">
+	<img w="1024" h="1024">stars/bg_planet_fleet_mantis.png</img>
+</imageList>
+
+<imageList name="BG_WARNING_MINES">
+	<img w="1280" h="720">stars/bg_mines_warning_1.png</img>
+	<img w="1280" h="720">stars/bg_mines_warning_2.png</img>
+	<img w="1280" h="720">stars/bg_mines_warning_3.png</img>
+</imageList>
+
+<imageList name="BG_WARNING_TARGETING_CIV">
+	<img w="1280" h="720">stars/bg_targeting_warning_1.png</img>
+	<img w="1280" h="720">stars/bg_targeting_warning_2.png</img>
+</imageList>
+
+<imageList name="BG_WARNING_TARGETING_ZOLTAN">
+	<img w="1280" h="720">stars/bg_targeting_warning_1.png</img>
+	<img w="1280" h="720">stars/bg_targeting_warning_2.png</img>
+</imageList>
+
+<imageList name="BG_WARNING_ASB_CIVILIAN">
+	<img w="1280" h="720">stars/bg_asb_warning_civilian_1.png</img>
+	<img w="1280" h="720">stars/bg_asb_warning_civilian_2.png</img>
+</imageList>
+
+<imageList name="BG_WARNING_ASB_HOSTILE">
+	<img w="1280" h="720">stars/bg_asb_warning_hostile_1.png</img>
+	<img w="1280" h="720">stars/bg_asb_warning_hostile_2.png</img>
+</imageList>
+
+<imageList name="BG_WARNING_ASB_ALLIED">
+	<img w="1280" h="720">stars/bg_asb_warning_allied_1.png</img>
+	<img w="1280" h="720">stars/bg_asb_warning_allied_2.png</img>
+	<img w="1280" h="720">stars/bg_asb_warning_allied_3.png</img>
+</imageList>
+
+
+
+<imageList name="BG_WARNING_TARGETING_ROCK">
+	<img w="1280" h="720">stars/bg_targeting_warning_rock_1.png</img>
+	<img w="1280" h="720">stars/bg_targeting_warning_rock_2.png</img>
+</imageList>
+
+<imageList name="BG_WARNING_TARGETING_MANTIS">
+	<img w="1280" h="720">stars/bg_targeting_warning_mantis_1.png</img>
+	<img w="1280" h="720">stars/bg_targeting_warning_mantis_2.png</img>
+</imageList>
+
+<imageList name="BG_WARNING_TARGETING_FLEET">
+	<img w="1280" h="720">stars/bg_targeting_warning_fleet_1.png</img>
+	<img w="1280" h="720">stars/bg_targeting_warning_fleet_2.png</img>
+	<img w="1280" h="720">stars/bg_targeting_warning_fleet_3.png</img>
+	<img w="1280" h="720">stars/bg_targeting_warning_fleet_4.png</img>
+</imageList>
+
+<imageList name="BG_NEBULA_WARNING_RADIATION">
+	<img w="1280" h="720">stars/bg_nebula_radiation_warning_1.png</img>
+	<img w="1280" h="720">stars/bg_nebula_radiation_warning_2.png</img>
+	<img w="1280" h="720">stars/bg_nebula_radiation_warning_3.png</img>
+</imageList>
+
+<imageList name="BG_NEBULA_WARNING_DUST">
+	<img w="1280" h="720">stars/bg_nebula_dust_warning_1.png</img>
+	<img w="1280" h="720">stars/bg_nebula_dust_warning_2.png</img>
+</imageList>
+
+<imageList name="BG_NEBULA_WARNING_ACID">
+	<img w="1280" h="720">stars/bg_nebula_acid_warning_1.png</img>
+	<img w="1280" h="720">stars/bg_nebula_acid_warning_2.png</img>
+</imageList>
+
+<imageList name="BG_NEBULA_WARNING_ICEFIELD">
+	<img w="1280" h="720">stars/bg_icefield_warning_1.png</img>
+	<img w="1280" h="720">stars/bg_icefield_warning_2.png</img>
+</imageList>
+
+<imageList name="BG_WARNING_BLACKHOLE">
+	<img w="1280" h="720">stars/bg_blackhole_warning_1.png</img>
+	<img w="1280" h="720">stars/bg_blackhole_warning_2.png</img>
+</imageList>
+
+<imageList name="BG_NEBULA_WARNING_NANO">
+	<img w="1280" h="720">stars/bg_nano_warning_1.png</img>
+	<img w="1280" h="720">stars/bg_nano_warning_2.png</img>
+	<img w="1280" h="720">stars/bg_nano_warning_3.png</img>
+	<img w="1280" h="720">stars/bg_nano_warning_4.png</img>
+</imageList>
+
+<imageList name="BG_NEBULA_WARNING_NANO_PDS">
+	<img w="1280" h="720">stars/bg_nano_pds_warning_1.png</img>
+	<img w="1280" h="720">stars/bg_nano_pds_warning_2.png</img>
+</imageList>
+
+<imageList name="BG_NEBULA_WARNING_ANOMALY">
+	<img w="1280" h="720">stars/bg_anomaly_warning_1.png</img>
+	<img w="1280" h="720">stars/bg_anomaly_warning_2.png</img>
+	<img w="1280" h="720">stars/bg_anomaly_warning_3.png</img>
+</imageList>
+
+<imageList name="BG_NEBULA_WARNING_ION">
+	<img w="1280" h="720">stars/bg_ion_warning_1.png</img>
+	<img w="1280" h="720">stars/bg_ion_warning_2.png</img>
+	<img w="1280" h="720">stars/bg_ion_warning_3.png</img>
+	<img w="1280" h="720">stars/bg_ion_warning_4.png</img>
+	<img w="1280" h="720">stars/bg_ion_warning_5.png</img>
+</imageList>
+
+<imageList name="BG_WARNING_PROXIMITY_CONSTRUCTION">
+	<img w="1280" h="720">stars/bg_proximity_warning_1.png</img>
+</imageList>
+
+<imageList name="BG_WARNING_PROXIMITY_DARK">
+	<img w="1280" h="720">stars/bg_proximity_warning_2.png</img>
+</imageList>
+
+<imageList name="BG_WARNING_PROXIMITY_ASTEROID">
+	<img w="1280" h="720">stars/bg_proximity_warning_3.png</img>
+</imageList>
+
+<imageList name="PLANET_HYPERSPACE">
+	<img w="1024" h="1024">stars/bg_planet_hyperspace_1.png</img>
+	<img w="1024" h="1024">stars/bg_planet_hyperspace_2.png</img>
+	<img w="1024" h="1024">stars/bg_planet_hyperspace_3.png</img>
+	<img w="1024" h="1024">stars/bg_planet_hyperspace_4.png</img>
+</imageList>
+
+<imageList name="BG_NEBULA_ASTEROIDS">
+	<img w="1280" h="720">stars/bg_nebula_asteroids_1.png</img>
+	<img w="1280" h="720">stars/bg_nebula_asteroids_2.png</img>
+</imageList>
+
+

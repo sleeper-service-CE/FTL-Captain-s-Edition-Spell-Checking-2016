@@ -5883,7 +5883,7 @@
 	<aug name="SLUG_GEL"/>
 </shipBlueprint>
 
-<shipBlueprint name="TB_JELLY_INTERCEPTOR" layout="tb_jelly_interceptor" img="jelly_button_c">
+<shipBlueprint name="TB_JELLY_INTERCEPTOR" layout="tb_jelly_interceptor" img="jelly_button_2">
 	<class>Slug Interceptor</class>
 	<maxSector>5</maxSector>
 	<systemList>
@@ -6584,7 +6584,7 @@
   SLUG SHIPS
 -->
   
-<shipBlueprint name="TB_JELLY_BUTTON_DLC" layout="tb_jelly_button_dlc" img="jelly_button_2">
+<shipBlueprint name="TB_JELLY_BUTTON_DLC" layout="tb_jelly_button_dlc" img="jelly_button">
 	<class>Slug Scout</class>
 	<maxSector>5</maxSector>
 	<systemList>
@@ -6623,7 +6623,7 @@
 	<aug name="SLUG_GEL"/>
 </shipBlueprint>
 
-<shipBlueprint name="TB_JELLY_CROISSANT_DLC" layout="tb_jelly_croissant_dlc" img="jelly_croissant_2">
+<shipBlueprint name="TB_JELLY_CROISSANT_DLC" layout="tb_jelly_croissant_dlc" img="jelly_croissant_c">
 	<class>Slug Light-Surveyor</class>
 	<systemList>
 		<doors power="1" max="3" room="0" start="false"/>
@@ -6663,7 +6663,7 @@
 	<aug name="SLUG_GEL"/>
 </shipBlueprint>
   
-<shipBlueprint name="TB_JELLY_TRUFFLE_DLC" layout="tb_jelly_truffle_dlc" img="jelly_truffle_2">
+<shipBlueprint name="TB_JELLY_TRUFFLE_DLC" layout="tb_jelly_truffle_dlc" img="jelly_truffle_c">
 	<class>Slug Instigator</class>
 	<systemList>
 		<oxygen power="1" max="3" room="0" start="true"/>
@@ -6844,7 +6844,7 @@
 -->
   
   
-<shipBlueprint name="TB_MANTIS_SCOUT_DLC" layout="tb_mantis_scout_dlc" img="mantis_scout">
+<shipBlueprint name="TB_MANTIS_SCOUT_DLC" layout="tb_mantis_scout_dlc" img="mantis_scout_d">
 	<class>Mantis Invader</class>
 	<systemList>
 		<clonebay power="1" max="2" room="0" start="true"/> <!--6-->
@@ -6886,7 +6886,7 @@
 	<aug name="ZOLTAN_BYPASS"/>
 </shipBlueprint>
 
-<shipBlueprint name="TB_MANTIS_FIGHTER_DLC" layout="tb_mantis_fighter_dlc" img="mantis_fighter_2">
+<shipBlueprint name="TB_MANTIS_FIGHTER_DLC" layout="tb_mantis_fighter_dlc" img="mantis_fighter_c">
 	<class>Mantis Aggressor</class>
 	<systemList>
 		<oxygen power="1" max="3" room="0" start="true"/>
@@ -6927,7 +6927,7 @@
 	<boardingAI>sabotage</boardingAI>
 </shipBlueprint>
 
-<shipBlueprint name="TB_MANTIS_BOMBER_DLC" layout="tb_mantis_bomber_dlc" img="mantis_bomber_2">
+<shipBlueprint name="TB_MANTIS_BOMBER_DLC" layout="tb_mantis_bomber_dlc" img="mantis_bomber_c">
 	<class>Mantis Broodship</class>
 	<minSector>3</minSector>
 	<systemList>
@@ -8526,7 +8526,7 @@
 	<aug name="ENERGY_SHIELD"/>
 </shipBlueprint>
 
-<shipBlueprint name="C_ENERGY_FREIGHTER" layout="c_energy_freighter" img="energy_bomber">
+<shipBlueprint name="C_ENERGY_FREIGHTER" layout="c_energy_freighter" img="energy_bomber_d">
 	<class>Energy Freighter</class>
 	<minSector>3</minSector>
 	<systemList>
@@ -11936,7 +11936,7 @@
 </shipBlueprint>
 		
 
-<shipBlueprint name="TB_JELLY_BUTTON_P" layout="tb_jelly_button_pirate" img="jelly_button_c_pirate">
+<shipBlueprint name="TB_JELLY_BUTTON_P" layout="tb_jelly_button_pirate" img="jelly_button_2_pirate">
 	<class>Pirate Interceptor</class>
 	<maxSector>5</maxSector>
 	<systemList>
@@ -11956,7 +11956,7 @@
 	<cloakImage>jelly_button</cloakImage>
 </shipBlueprint>
 
-<shipBlueprint name="TB_JELLY_BUTTON_P_DLC" layout="tb_jelly_button_pirate" img="jelly_button_2_pirate">
+<shipBlueprint name="TB_JELLY_BUTTON_P_DLC" layout="tb_jelly_button_pirate" img="jelly_button_pirate">
 	<class>Pirate Scout</class>
 	<maxSector>5</maxSector>
 	<systemList>
@@ -11999,7 +11999,7 @@
 	<cloakImage>jelly_croissant</cloakImage>
 </shipBlueprint>
 
-<shipBlueprint name="TB_JELLY_CROISSANT_P_DLC" layout="tb_jelly_croissant_pirate" img="jelly_croissant_pirate">
+<shipBlueprint name="TB_JELLY_CROISSANT_P_DLC" layout="tb_jelly_croissant_pirate" img="jelly_croissant_c_pirate">
 	<class>Pirate Light-Surveyor</class>
 	<minSector>1</minSector>
 	<systemList>
@@ -12045,7 +12045,7 @@
 	<cloakImage>jelly_truffle</cloakImage>
 </shipBlueprint>
 
- <shipBlueprint name="TB_JELLY_TRUFFLE_P_DLC" layout="tb_jelly_truffle_pirate" img="jelly_truffle_pirate">
+ <shipBlueprint name="TB_JELLY_TRUFFLE_P_DLC" layout="tb_jelly_truffle_pirate" img="jelly_truffle_c_pirate">
 	<class>Pirate Instigator</class>
 	<minSector>4</minSector>
 	<systemList>
@@ -12180,7 +12180,7 @@
 	<cloakImage>mantis_scout</cloakImage>
 </shipBlueprint>
 
-  <shipBlueprint name="TB_MANTIS_SCOUT_P_DLC" layout="tb_mantis_scout_pirate" img="mantis_scout_pirate">
+  <shipBlueprint name="TB_MANTIS_SCOUT_P_DLC" layout="tb_mantis_scout_pirate" img="mantis_scout_c_pirate">
 	<class>Pirate Interceptor</class>
 	<maxSector>4</maxSector>
 	<systemList>
@@ -13964,7 +13964,7 @@
 	<aug name="SLUG_GEL"/>
 </shipBlueprint>
 
-<shipBlueprint name="TB_JELLY_INTERCEPTOR_OUTLAW" layout="tb_jelly_interceptor" img="jelly_button_pirate">
+<shipBlueprint name="TB_JELLY_INTERCEPTOR_OUTLAW" layout="tb_jelly_interceptor" img="jelly_button_2_pirate">
 	<class>Slug Interceptor</class>
 	<maxSector>5</maxSector>
 	<systemList>
@@ -14472,7 +14472,7 @@
   SLUG SHIPS
 -->
   
-<shipBlueprint name="TB_JELLY_BUTTON_DLC_OUTLAW" layout="tb_jelly_button_dlc" img="jelly_button_2_pirate">
+<shipBlueprint name="TB_JELLY_BUTTON_DLC_OUTLAW" layout="tb_jelly_button_dlc" img="jelly_button_pirate">
 	<class>Slug Scout</class>
 	<maxSector>5</maxSector>
 	<systemList>
@@ -14688,7 +14688,7 @@
 -->
   
   
-<shipBlueprint name="TB_MANTIS_SCOUT_DLC_OUTLAW" layout="tb_mantis_scout_dlc" img="mantis_scout_pirate">
+<shipBlueprint name="TB_MANTIS_SCOUT_DLC_OUTLAW" layout="tb_mantis_scout_dlc" img="mantis_scout_d_pirate">
 	<class>Mantis Invader</class>
 	<systemList>
 		<clonebay power="1" max="2" room="0" start="true"/> <!--6-->
@@ -15263,7 +15263,7 @@
 	<aug name="ENERGY_SHIELD"/>
 </shipBlueprint>
 
-<shipBlueprint name="C_ENERGY_FREIGHTER_OUTLAW" layout="c_energy_freighter" img="energy_bomber_pirate">
+<shipBlueprint name="C_ENERGY_FREIGHTER_OUTLAW" layout="c_energy_freighter" img="energy_bomber_d_pirate">
 	<class>Energy Freighter</class>
 	<minSector>3</minSector>
 	<systemList>

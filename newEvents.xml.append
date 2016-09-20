@@ -592,7 +592,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -644,7 +644,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -696,7 +696,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -748,7 +748,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -906,7 +906,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -958,7 +958,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1010,7 +1010,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1062,7 +1062,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1122,7 +1122,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1179,7 +1179,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1236,7 +1236,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1325,7 +1325,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1398,7 +1398,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1446,7 +1446,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1502,7 +1502,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1532,7 +1532,7 @@
 			</event>
 		</choice>
 		<choice req="doors" lvl="2" hidden="true">
-			<text>[Blast Doors] Seal your blast doors, one can never be too careful when docked.</text>
+			<text>(Blast Doors) Seal your blast doors, one can never be too careful when docked.</text>
 			<event>
 				<text>Pirates hidden on the station are confounded by your security locks, turning an attempted ambush into a fish-in-a-barrel firefight. You take control of the station and take its fuel reserves.</text>
 				<item_modify>
@@ -1582,7 +1582,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1636,7 +1636,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1746,7 +1746,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1857,7 +1857,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -1950,7 +1950,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -2065,7 +2065,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -2154,7 +2154,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -2205,7 +2205,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -2285,7 +2285,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -2340,7 +2340,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -2695,7 +2695,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -2747,7 +2747,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -2802,7 +2802,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -2850,7 +2850,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
@@ -2899,7 +2899,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) Ready the ships hacking protection.</text>
+			<text>(Advanced Plating) Ready the ships hacking protection.</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 

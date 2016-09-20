@@ -7993,7 +7993,8 @@ IDEAS
 
 
 <event name="PIRATE_ASTEROID_HAZARD">
-	<text>A pirate ship was lying in wait inside this part of the asteroid field. It immediately moves in to attack.</text>
+	<text planet="NONE" back="BG_NEBULA_ASTEROIDS">A pirate ship was lying in wait inside this gasous part of the asteroid field. It immediately moves in to attack.</text>
+	<img planet="NONE" back="BG_NEBULA_ASTEROIDS"/>
 	<ship load="PIRATE" hostile="true"/>
 	<choice>
 		<text>Turn and face them.</text>
@@ -8636,7 +8637,7 @@ IDEAS
 	<text>There's a heavily damaged ship at this beacon. You briefly pick up a very distorted communication from the ship but are unable to understand it. Your sensors detect no life signs.</text>
 </textList>
 
-<event name="GHOST_AI_DOCK">
+<eventList name="GHOST_AI_DOCK">
 	<event>
 		<text>Your crew complains of hearing strange voices as they work. One requests that they end the salvage operation early.</text>
 		<choice hidden="true">
@@ -8665,8 +8666,29 @@ IDEAS
 			</event>
 		</choice>
 	</event>
-	<event load="GHOST_AI_BOARDING"/>
-</event>
+	<event>
+		<text>The salvage operation ends without a hitch. You get your crew members back on board and prepare to jump away.</text>
+		<autoReward level="HIGH">weapon</autoReward>
+	</event>
+	<event>
+		<text>Just as they're finishing the salvage operation, your crew reports they're being attacked by AI avatars that claim to be "ghosts of the previous crew". They seem confident that they can deal with them though.</text>
+		<choice hidden="true">
+			<text>Order your crew to retreat with what they can and get back to the ship.</text>
+			<event>
+				<text>You recover what you can before making preparations to jump away.</text>
+				<autoReward level="MED">scrap_only</autoReward>
+				<choice>
+					<text>Continue...</text>
+					<event load="GHOST_AI_SPACE"/>
+				</choice>
+			</event>
+		</choice>
+		<choice hidden="true">
+			<text>Order them to stand their ground, they should be able to handle a few holograms.</text>
+			<event load="GHOST_AI_STAND"/>
+		</choice>
+	</event>
+</eventList>
 
 <event name="GHOST_AI_SCRAP">
 	<event>
@@ -8844,10 +8866,10 @@ IDEAS
 		</choice>
 	</event>
 </eventList>
-<eventList name="GHOST_AI_BOARDED">
+<event name="GHOST_AI_BOARDED">
 	<text>The AI holograms follow your crew members back on board the ship!</text>
 	<boarders min="2" max="6" class="ghost"/>
-</eventList>
+</event>
 
 
 <event name="STORE_HAZARD">

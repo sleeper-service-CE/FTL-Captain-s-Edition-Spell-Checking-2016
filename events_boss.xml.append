@@ -42,7 +42,7 @@
 
 
 <event name="LAST_STAND_START">
-	<text>You arrive at an outpost close to the Federation Base. Your access codes get you past initial security and an officer sets up a direct feed to the Federation Base's war room. Admiral Tully speaks first saying, "What is the meaning of this?! Who are you?"</text>
+	<text>You arrive at an disputed outpost close to the Federation Base. Your access codes get you past initial security and an officer sets up a direct feed to the Federation Base's war room. Admiral Tully speaks first saying, "What is the meaning of this?! Who are you?"</text>
 	<choice>
 		<text>Explain your mission.</text>
 		<event>
@@ -120,7 +120,7 @@
 	<choice req="ARTILLERY_FED" hidden="true"> 
 		<text>(Artillery Beam) Offer to render artillery support.</text>
 		<event>
-			<text>The Federation forces gladly accept your offer. Spotter ships are send out and start to mark targets for your beam strikes. The reactor runs hot as you pound away at the Rebel ships; till they eventually retreat beyond weapon range. You doubt that they will be deterred for long. Only a few of the spotter ships return, but they agree to share their spoils with you.</text>
+			<text>The Federation forces gladly accept your offer. Spotter ships are sent out and start to mark targets for your beam strikes. The reactor runs hot as you pound away at the Rebel ships; till they eventually retreat beyond weapon range. You doubt that they will be deterred for long. Only a few of the spotter ships return, but they agree to share their spoils with you.</text>
 			<autoReward level="MED">standard</autoReward>
 		</event>
 	</choice>
@@ -414,16 +414,16 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
 			<text>(Teleporter Disruptor) "Activate the teleporter disruption field. Make sure they don't board us from this thing."</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
-		<choice req="AE_MIND_SHIELD" hidden="true"> 
-			<text>(Mind Shield) "Activate the mind shield. Don't let them mess with our heads!"</text>
-			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the flagship with your advanced scanner device.</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
 			<text>(Ion Field) "Activate the ion field. We have to weaken this shield!"</text>
@@ -522,12 +522,16 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
 			<text>(Teleporter Disruptor) "Activate the teleporter disruption field. Make sure they don't board us from this thing."</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
+		</choice>
+		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
+			<text>(Subspace Scanner) Track the flagship with your advanced scanner device.</text> 
+			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
 			<text>(Ion Field) "Activate the ion field. Bring their defenses down now!"  [ Power: -3 ]</text>
@@ -632,7 +636,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -730,7 +734,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -832,7 +836,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -928,7 +932,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -1061,7 +1065,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -1159,7 +1163,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -1257,7 +1261,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -1387,7 +1391,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -1500,7 +1504,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -1610,7 +1614,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -1720,7 +1724,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -1830,7 +1834,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -1940,7 +1944,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -2050,7 +2054,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -2157,7 +2161,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -2260,7 +2264,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -2370,7 +2374,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -2470,7 +2474,7 @@
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
 		<choice req="AE_FIREWALL" hidden="true"> 
-			<text>(Firewall Plating) "Ready the firewalls, don't allow it to hack us!"</text>
+			<text>(Advanced Plating) "Ready the firewalls, don't allow it to hack us!"</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
@@ -3510,6 +3514,13 @@
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
+		</event>
+	</choice>
+	<choice req="artillery" hidden="true"> 
+		<text>(Artillery) Provide fire support from affar.</text>
+		<event>
+			<text>The remaining Federation forces make a desperate break to spot for your artillery. Your fire mission eventually allows them to get the upper hand, for now. Their ships come alongside, sharing salvage to return the favour.</text>
+			<autoReward level="MED">standard</autoReward>
 		</event>
 	</choice>
 	<choice>
@@ -4688,7 +4699,7 @@ IDEAS
 	<choice req="ARTILLERY_FED" hidden="true"> 
 		<text>(Artillery Beam) Offer to render artillery support.</text>
 		<event>
-			<text>The Federation forces gladly accept your offer. Spotter ships are send out and start to mark targets for your beam strikes. The reactor runs hot as you pound away at the Rebel ships; till they eventually retreat beyond weapon range. You doubt that they will be deterred for long. Only a few of the spotter ships return, but they agree to share their spoils with you.</text>
+			<text>The Federation forces gladly accept your offer. Spotter ships are sent out and start to mark targets for your beam strikes. The reactor runs hot as you pound away at the Rebel ships; till they eventually retreat beyond weapon range. You doubt that they will be deterred for long. Only a few of the spotter ships return, but they agree to share their spoils with you.</text>
 			<autoReward level="MED">standard</autoReward>
 		</event>
 	</choice>

@@ -2421,7 +2421,7 @@
 
 <augBlueprint name="AE_FIREWALL">   <!-- 1 power -->
 	<title>Advanced Plating</title>
-	<desc>Electric scrambler plating that provides limited protection against advanced hacking and mind control attempts. 1 power combat augment.</desc>
+	<desc>Electric scrambler plating that dimishes the effect of enemy hacking and mind control attempts. Ineffective against weaker attacks. 1 power combat augment.</desc>
 	<cost>40</cost>
 	<bp>5</bp>
 	<rarity>4</rarity>

@@ -38423,7 +38423,7 @@ IDEAS
 		<text>Continue...</text>
 		<event>
 			<text>"My master is very pleased, Captain. So many rare artifacts! The cargo crew will transmit some supplies and a special little something as thanks. Nice meeting you!" The drone covers itself in a rosy glow and retreats into the airlock. You prepare to travel onwards.</text>
-			<autoReward level="LOW">augment</autoReward>
+			<autoReward level="MEDIUM">augment</autoReward>
 		</event>
 	</choice>
 </event>
@@ -38436,7 +38436,14 @@ IDEAS
 		<text>Continue...</text>
 		<event>
 			<text>"My master is very pleased, Captain. So many rare artifacts! The cargo crew will transmit some supplies and a special little something as thanks. Nice meeting you!" The drone emits a rosy glow and retreats into the airlock. You prepare to travel onwards.</text>
-			<autoReward level="HIGH">augment</autoReward>
+			<autoReward level="HIGH">standard</autoReward>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>"We aslo threw in a special little something as thanks. Nice meeting you!" The drone emits a rosy glow and retreats into the airlock. You prepare to travel onwards.</text>
+					<autoReward level="MEDIUM">augment</autoReward>
+				</event>
+			</choice>
 		</event>
 	</choice>
 </event>
@@ -38466,7 +38473,7 @@ IDEAS
 			<text>Welcome aboard drone!</text>
 			<event>
 				<text>"Splendid!" The drone deploys a small avatar generator and joins your crew in form of a self sustained Hologram.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">standard</autoReward>
 				<crewMember all_skills="1" amount="1" class="ghost">Ian Banks</crewMember>
 			</event>
 		</choice>
@@ -38481,7 +38488,7 @@ IDEAS
 			<text>Welcome aboard drone!</text>
 			<event>
 				<text>"Splendid!" The drone deploys a small avatar generator and joins your crew in form of a self sustained Hologram.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">standard</autoReward>
 				<crewMember all_skills="1" amount="1" class="ghost">KJ4VOV</crewMember>
 			</event>
 		</choice>
@@ -38496,7 +38503,7 @@ IDEAS
 			<text>Welcome aboard drone!</text>
 			<event>
 				<text>"Splendid!" The drone deploys a small avatar generator and joins your crew in form of a self sustained Hologram.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">standard</autoReward>
 				<crewMember all_skills="1" amount="1" class="ghost">127 Praf</crewMember>
 			</event>
 		</choice>
@@ -38511,7 +38518,7 @@ IDEAS
 			<text>Welcome aboard drone!</text>
 			<event>
 				<text>"Splendid!" The drone deploys a small avatar generator and joins your crew in form of a self sustained Hologram.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">standard</autoReward>
 				<crewMember all_skills="1" amount="1" class="ghost">ClAIr 03-p</crewMember>
 			</event>
 		</choice>
@@ -38526,7 +38533,7 @@ IDEAS
 			<text>Welcome aboard drone!</text>
 			<event>
 				<text>"Splendid!" The drone deploys a small avatar generator and joins your crew in form of a self sustained Hologram.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">standard</autoReward>
 				<crewMember all_skills="1" amount="1" class="ghost">JulI jQ-4</crewMember>
 			</event>
 		</choice>
@@ -38541,7 +38548,7 @@ IDEAS
 			<text>Welcome aboard drone!</text>
 			<event>
 				<text>"Splendid!" The drone deploys a small avatar generator and joins your crew in form of a self sustained Hologram.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">standard</autoReward>
 				<crewMember all_skills="1" amount="1" class="ghost">SumRu xT</crewMember>
 			</event>
 		</choice>

@@ -4499,14 +4499,14 @@
 				<text>(Teleporter Disruptor) Well, you know the drill. Disruption field please.</text>
 				<event>
 					<text>You pretend to be unaware of the incoming signal and drop the field, then activate it again at the last moment. The teleported Mantis will never arrive anywhere, their particles are scattered in higher space. You take additional material on board.</text>
-					<autoReward level="MED">standard</autoReward>
+					<autoReward level="HIGH">standard</autoReward>
 				</event>
 			</choice>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
 					<text>"Here they come again. This must be the last of them." While the crew mops up the remaining Mantis you scan the debris for usable parts.</text>
-					<autoReward level="MED">standard</autoReward>
+					<autoReward level="HIGH">standard</autoReward>
 					<boarders min="1" max="2" class="mantis"/>
 				</event>
 			</choice>
@@ -4520,7 +4520,7 @@
 			<text>Pick through the convoy wrecks.</text>
 			<event>
 				<text>All this ships will make good salvaging.</text>
-				<autoReward level="MED">standard</autoReward>
+				<autoReward level="HIGH">standard</autoReward>
 			</event>
 		</choice>
 	</deadCrew>
