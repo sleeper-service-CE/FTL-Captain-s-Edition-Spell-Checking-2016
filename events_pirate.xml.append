@@ -4037,7 +4037,7 @@
 		<choice hidden="true"> 
 			<text>Continue...</text> 
 			<event>
-				<text>A bystander addresses you: "You'r not from around here, aren't you Cap? Let me tell you, you've found yourself in a bad part of town, and these guys you just saw mean business. They don't care about you fancy Federation. Lucky for you, I'm looking for a ride out of here. One could say I'm for hire, could help you dealing with these guys."</text>
+				<text>A bystander addresses you: "You're not from around here, are you Cap? Let me tell you, you've found yourself in a bad part of town, and these guys you just saw mean business. They don't care about you fancy Federation. Lucky for you, I'm looking for a ride out of here. One could say I'm for hire, could help you dealing with these guys."</text>
 				<choice>
 					<text>"Consider yourself hired."</text>
 					<event>
