@@ -5598,7 +5598,7 @@
 		<event load="DISTRESS_QUARANTINE_PLANET_LIST"/>
 	</choice>
 	<choice req="O2_MASKS" hidden="true"> 
-		<text>(Adaptive Gel Suits) Have your crew done environmental suits before going in.</text>
+		<text>(Adaptive Gel Suits) Have your crew don environmental suits before going in.</text>
 		<event load="DISTRESS_QUARANTINE_PLANET_LIST_SAFE"/>
 	</choice>
 	<choice hidden="true" req="medbay" lvl="3">
@@ -5637,7 +5637,7 @@
 		<text>Your crew teams up with the local forces, but the outbreak seems bigger than first thought. The disease has spread through the suburbs and the governor decides to bomb parts of the city. One of your team gets lost in the narrow streets, you fail to evacuate the crewman in time.</text>
 		<removeCrew>
 			<clone>true</clone>
-			<text>Your bombarded crewmember's body is reformed in the clonebay. They appologize for their failure and promise to do better next time.</text>
+			<text>Your bombarded crewmember's body is reformed in the clonebay. They apologize for their failure and promise to do better next time.</text>
 		</removeCrew>
 	</event>
 	<event>
