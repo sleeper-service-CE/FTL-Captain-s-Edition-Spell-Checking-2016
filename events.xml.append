@@ -20205,7 +20205,7 @@
 	<event>
 		<text load="CE_RESEARCH_TEXT"/>
 		<choice req="ghost" hidden="true">
-			<text>Have your AI direct the research team to guaranty success.</text>
+			<text>Have your AI direct the research team to guarantee success.</text>
 			<event load="CE_RESEARCH_LIST_AI"/>
 		</choice>
 		<choice hidden="true">
