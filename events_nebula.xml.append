@@ -440,7 +440,7 @@
 	</choice>
 </event>
 <textList name="START_BEACON_NEBULA">
-	<text>This nebula must have been an important hub at one point; placing all of these jump beacons would be no easy task.  However, now it's hardly navigable.</text>
+	<text>This nebula must have been an important hub at one point; placing all of these jump beacons would be no easy task. However, now it's hardly navigable.</text>
 	<text>Nebulae were always dangerous places. Many electronics fail in these clouds. You will have to tread lightly.</text>
 	<text>You've entered a sector thick with nebulae. You'll have to navigate on instinct.</text>
 	<text>You've entered a nebula-rich sector. You may put a few light years on the fleet, but that's only useful if you make it out the other side.</text>
@@ -2314,7 +2314,7 @@
 </event>
 <textList name="NEBULA_BOARDING_TEXT">
 	<text>You see a small pirate station nearby. You can't be sure without sensors, but they might be preparing to board you.</text> 
-	<text>You arrive in the nebula and immediately receive a distorted message, "Prepare to be boarded!"  With the static from the nebula, there's no way to tell where they broadcast from.</text>
+	<text>You arrive in the nebula and immediately receive a distorted message, "Prepare to be boarded!" With the static from the nebula, there's no way to tell where they broadcast from.</text>
 	<text>You see a number of derelict ships near this beacon. After a short time the ship computer puts a teleporter warning on the vidscreen.</text>
 </textList>
 
@@ -3045,7 +3045,7 @@
 </event>
 <textList name="BS_EVENT_PIRATE_NEBULA_TEXT">
 		<text>As you drift through the nebula, the outlines of an unlicensed station become visible within the clouds. Its weapons come live.</text>
-	<text>A pirate station drifts near the beacon and hails, "Look who we have here. In the end they always come to us. Our cargo scans indicate fine prizes aboard your ship, you won't leave here in one piece."  They lock weapons.</text>
+	<text>A pirate station drifts near the beacon and hails, "Look who we have here. In the end they always come to us. Our cargo scans indicate fine prizes aboard your ship, you won't leave here in one piece." They lock weapons.</text>
 	<text>Your attempts to ID the station ahead are fruitless. When you close in a little you realize that it is a fully armed pirate station that gets its weapons ready!</text>	
 </textList>
 
@@ -8545,7 +8545,7 @@ IDEAS
 
 <event name="BOARDERS_ASTEROID_AI_GHOST" unique="true">
 	<img back="BG_DARK" planet="NONE"/>
-	<text>You jump into the middle of an asteroid field.  Looking around, you find you are surrounded by dozens of wrecks of other ships.  Faint wisps of light can be seen moving between wrecks.  As you watch, they seem to be changing path and floating toward your ship!</text>
+	<text>You jump into the middle of an asteroid field. Looking around, you find you are surrounded by dozens of wrecks of other ships. Faint wisps of light can be seen moving between wrecks. As you watch, they seem to be changing path and floating toward your ship!</text>
 	<choice>
 		<text>Scan the entities.</text>
 			<event>
@@ -8588,7 +8588,7 @@ IDEAS
 	<choice req="pilot" lvl="2" hidden="true"> 
 		<text>(Piloting) Have your pilot maneuver you out of the asteroid field.</text>
 		<event>
-			<text>Thanks to your pilot, you were able escape the worst of the asteroid field unscathed.  However, the wisps of light stream out of the field following your ship!</text>
+			<text>Thanks to your pilot, you were able escape the worst of the asteroid field unscathed. However, the wisps of light stream out of the field following your ship!</text>
 			<choice hidden="true">
 				<text>Scan the entities.</text>
 				<event>
@@ -8657,7 +8657,7 @@ IDEAS
 		<choice req="sensors" lvl="2" hidden="true"> 
 			<text>(Sensors) Wait, sensors are picking up something strange...</text>
 			<event>
-				<text>Your sensors are picking up some subtle but anomalous activity, it's as if the ship is slowly activating.  You pull everyone back to your ship with what they have gathered.</text>
+				<text>Your sensors are picking up some subtle but anomalous activity, it's as if the ship is slowly activating. You pull everyone back to your ship with what they have gathered.</text>
 				<autoReward level="MED">scrap_only</autoReward>
 				<choice hidden="true"> 
 					<text>Continue</text>
