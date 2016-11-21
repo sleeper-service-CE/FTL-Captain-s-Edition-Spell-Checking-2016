@@ -42,7 +42,7 @@
 
 
 <event name="LAST_STAND_START">
-	<text>You arrive at an disputed outpost close to the Federation Base. Your access codes get you past initial security and an officer sets up a direct feed to the Federation Base's war room. Admiral Tully speaks first saying, "What is the meaning of this?! Who are you?"</text>
+	<text>You arrive at a disputed outpost close to the Federation Base. Your access codes get you past initial security and an officer sets up a direct feed to the Federation Base's war room. Admiral Tully speaks first saying, "What is the meaning of this?! Who are you?"</text>
 	<choice>
 		<text>Explain your mission.</text>
 		<event>
@@ -5100,7 +5100,7 @@ IDEAS
 </eventList>
 
 <event name="CE_DISTRESS_AIRSUPPORT" unique="true"> 
-	<text planet="PLANET_UNPOPULATED">The distress call is coming from a civilian spaceport on this small colony planet. Their evacuation is threatened by Rebel ground forces, closing in on the settlement. The Federation still has air and space superiority in this system, but it appears you are the only ship responding to the distress call.</text>
+	<text planet="PLANET_UNPOPULATED">The distress call is coming from a civilian spaceport on this small colony planet. Their evacuation is threatened by Rebel ground forces closing in on the settlement. The Federation still has air and space superiority in this system, but it appears you are the only ship responding to the distress call.</text>
 	<distressBeacon/>
 	<choice hidden="true"> 
 		<text>Enter the atmosphere for a close-range strafing run.</text>

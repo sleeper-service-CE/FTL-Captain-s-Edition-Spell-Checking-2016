@@ -2038,7 +2038,7 @@
 
 <augBlueprint name="ENERGY_SHIELD"> 
 	<title>Zoltan Shield</title>
-	<desc>Uses energy from FTL engine outbursts to shield your ship from hull damage. Indicates you command a official Zoltan ship; enabling diplomatic solutions.</desc>
+	<desc>Uses energy from FTL engine outbursts to shield your ship from hull damage. Indicates you command an official Zoltan ship; enabling diplomatic solutions.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7467,7 +7467,7 @@
 	<title>Charge Missiles Mark I</title>
 	<tip>tip_charge</tip>
 	<short>Charge M. I</short>
-	<desc>If given time to prepare, the charge launcher can replicate a secondary warhead for immidiate follow-up strikes.</desc>
+	<desc>If given time to prepare, the charge launcher can replicate a secondary warhead for immediate follow-up strikes.</desc>
 	<tooltip>Charges up to 2 shield-piercing missiles. However it always uses only one missile resource.</tooltip>
 	<radius>34</radius>
 	<missiles>1</missiles>

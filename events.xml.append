@@ -7606,7 +7606,7 @@
 		<status type="loss" target="enemy" system="reactor" amount="3"/>
 	</event>
 	<event>
-		<text>Parts of your salvo crushes into the enemy's rear section, resulting in a small explosion that scatters hull panels in all direction. Then the ship goes dark. The opponent's reactor must be quite outdated or not well shielded; the craft suffers from an all out power failure.</text>
+		<text>Parts of your salvo crush into the enemy's rear section, resulting in a small explosion that scatters hull panels in all direction. Then the ship goes dark. The opponent's reactor must be quite outdated or not well shielded; the craft suffers from an all out power failure.</text>
 		<status type="limit" target="enemy" system="reactor" amount="2"/>
 	</event>
 	<event>
@@ -8000,7 +8000,7 @@
 	<text>Your opponent hails, but the transmission is interrupted by the hits the enemy sustains. You decide to pay this no mind and focus on keeping a lock on the enemy.</text>
 	<text>Suddenly electricity arcs out of your console. "Isolate this coupler and reroute my command to another station."</text>
 	<text>As your ships exchange fire, your opponent starts to send one insulting hail after another. You decide to ignore this and focus on the combat at hand.</text>
-	<text>You remember this maneuver from the academy! Did you opponent at some point receive training from the Federation?</text>
+	<text>You remember this maneuver from the academy! Did your opponent at some point receive training from the Federation?</text>
 	<text>You never saw the maneuvers your opponent is flying, but they are not without style. The enemy Captain must have been trained in some remote alien flight school.</text>
 	<text>The enemy craft seemed to have had some additional passengers aboard. Escape pods are jettisoned from the craft and tumble far away into open space. The enemy starts to abandon ship.</text>
 	<text>The dampeners run on full as you maneuver and exchange fire with your enemy. The heat aboard the ship becomes almost unbearable.</text>
@@ -8010,7 +8010,7 @@
 	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! You father would be proud.</text>
 	<text>You are determined to not let this opponent get the upper hand. "Fire when ready!"</text>
 	<text>The combat noticeably strains the ship. Sparks fly from sealing panels and acrid smoke covers the floor. You smell burned plastic and you own sweat.</text>
-	<text>For a moment you are afraid of loosing it. What if we don't make it? What if we can't escape or defeat the next enemy? You don't want to die! Then it passes... The crew does not seem to have noticed, or at last isn't showing it. You take a deep breath and recollect yourself, then you ask for a situation report and try to focus on the battle.</text>
+	<text>For a moment you are afraid of losing it. What if we don't make it? What if we can't escape or defeat the next enemy? You don't want to die! Then it passes... The crew does not seem to have noticed, or at least isn't showing it. You take a deep breath and re-collect yourself, then you ask for a situation report and try to focus on the battle.</text>
 	<text>The ships hull creak under the stress of the combat maneuvers. You hope the ship can take it.</text>
 	<text>Your fire tears away a huge section of the enemy plating. Good hit!</text>
 	<text>Hull plating is scattered into space as your shots impact on the enemy craft. You'll pick those up later.</text>
@@ -8095,7 +8095,7 @@
 		<damage amount="0" system="random" effect="fire"/>
 	</event>
 	<event>
-		<text>The ship computer reports: "Warning! Decompression event imminent on main deck." The battle strained the ship a little too much. Parts of the inner and outer sealing have been compromised and you are loosing atmosphere through a breached hull section.</text>
+		<text>The ship computer reports: "Warning! Decompression event imminent on main deck." The battle strained the ship a little too much. Parts of the inner and outer sealing have been compromised and you are losing atmosphere through a breached hull section.</text>
 		<damage amount="0" system="random" effect="breach"/>
 	</event>
 </eventList>
@@ -20139,10 +20139,10 @@
 	</event>
 </eventList>
 <textList name="CE_COMBAT_SIM_TEXT">
-	<text>The combat simulator has various scenarios in store. What do you want your crew to train in?</text>
+	<text>The combat simulator has various scenarios in store. What do you want your crew to train on?</text>
 	<text>You browse through the various combat sims the training program has to offer.</text>
-	<text>You remember most of these scenarios from the academy. Lets have the crew pass through the training sims one more time.</text>
-	<text>The crew is not exactly exited about having to repeat these virtual scenarios again. But the training will help to develop their skills.</text>
+	<text>You remember most of these scenarios from the academy. Let's have the crew pass through the training sims one more time.</text>
+	<text>The crew is not exactly excited about having to repeat these virtual scenarios again. But the training will help to develop their skills.</text>
 	<text>The crew casts bets on who will do best in the upcoming sim-scenario.</text>
 	<text>There is ample time till the FTL is charged. You tell your crew to get ready for a quick combat exercise.</text>
 	<text>The training program greats you in text form: "Welcome Captain [default]. Please choose which scenario you want to exercise in."</text>
@@ -20188,15 +20188,15 @@
 
 <textList name="CE_COMBAT_SIM_BOARDING_4_TEXT">
 	<text>With this kind of training routine you will make yourself a name among the crew in no time.</text>
-	<text>"Welcome to boarding scenario #501: The Theta Six Revolt. Your craft was patrolling near a secluded Engi research facility that started to emitt a distress call. Upon approaching the station, a detachment of rogue AI avatars teleport aboard. You witness the beginning of the Theta Six AI Revolt that did eventually allow the avatars to gain control of the entire sector."</text>
+	<text>"Welcome to boarding scenario #501: The Theta Six Revolt. Your craft was patrolling near a secluded Engi research facility that started to emit a distress call. Upon approaching the station, a detachment of rogue AI avatars teleport aboard. You witness the beginning of the Theta Six AI Revolt that did eventually allow the avatars to gain control of the entire sector."</text>
 	<text>"Welcome to boarding scenario #584: The Theta Six Revolt. You command a science vessel testing an early stage avatar generation augment. A glitch in the code corrupts the AI during a mass-generation experiment. Your security detail is completely outnumbered. Your task is to prevent the rogue AIs from gaining control over the ship and the avatar generator."</text>
 </textList>
 
 <textList name="CE_COMBAT_SIM_REPAIR_TEXT">
-	<text>With the press of the button, all hell breaks loose aboard the ship. Sirens glare and damage reports come in from all decks. The simulation even includes some real-life fires. You'll have to remain calm and asses where repairs are needed most.</text>
-	<text>"Welcome to maintenance scenario #106: The Second Battle of Ridge 52 (aftermath). Your cruiser rendered fire support against the Rock forces, but was outflanked by a missile cruiser and had to retreat. Your task is to asses the damage and oversee the repairs."</text>
+	<text>With the press of the button, all hell breaks loose aboard the ship. Sirens glare and damage reports come in from all decks. The simulation even includes some real-life fires. You'll have to remain calm and assess where repairs are needed most.</text>
+	<text>"Welcome to maintenance scenario #106: The Second Battle of Ridge 52 (aftermath). Your cruiser rendered fire support against the Rock forces, but was outflanked by a missile cruiser and had to retreat. Your task is to assess the damage and oversee the repairs."</text>
 	<text>"Welcome to maintenance scenario #122: Meltdown at Industrial Zone Ras pt-74. You are one of the first vessels responding to distress calls immediately after the Ras pt-74 disaster. Your crew has boarded a badly damaged freighter craft and is tasked with restoring it to working condition so that it can evacuate nearby workers."</text>
-	<text>"Welcome to maintenance scenario #98: The Harmony Incident. Strong com interference occurred at an ion barrier in boarder zone "Harmony". This prevented you from identifying yourself to a Zoltan boarder patrol craft, the Beam Ship opened fire and your ship took heavy damage before you managed to officially surrender. Your task is to asses the damage and oversee the repairs."</text>
+	<text>"Welcome to maintenance scenario #98: The Harmony Incident. Strong com interference occurred at an ion barrier in boarder zone "Harmony". This prevented you from identifying yourself to a Zoltan boarder patrol craft, the Beam Ship opened fire and your ship took heavy damage before you managed to officially surrender. Your task is to assess the damage and oversee the repairs."</text>
 	<text>"Welcome to maintenance scenario #180: Unknown Encounter in the Purgatory System. You command a deep-space recon mission in the far out Purgatory system. A ship of unknown design appeared on your radar and opened fire without warning. Your shields prove ineffective against the hostile, but the craft eventually retreats with no apparent reason. Your task is to deal with the aftermath."</text>
 </textList>
 
@@ -20716,7 +20716,7 @@
 
 
 <textList name="CE_RESEARCH_FAIL_TEXT">
-	<text>One crewmen gets very exited about the gamma radiation levels emitted by a sun several light years away. Other than that, the  research yields nothing of interest.</text>
+	<text>One crewmen gets very excited about the gamma radiation levels emitted by a sun several light years away. Other than that, the research yields nothing of interest.</text>
 	<text>The science team explores as small brown dwarf at the center of the system. The planetoid is shrouded by multiple layers of clouds and the atmosphere is extremely hot. Local weather conditions include daily showers of molten iron.</text>
 	<text>The only place of interest in this system is a planetoid holding high concentrations H2O. Unfortunately it orbits extremely close to the local sun and the water constantly remains in plasma state.</text>
 	<text>The only thing to observe here is a rocky planet currently covered in global dust storms, imbued with lightening created from friction between dust particles. A sight to behold.</text>
@@ -20984,7 +20984,7 @@
 <textList name="CE_AUGMENT_UPGRADE_ENGI_TEXT">
 	<text>The Engi glows with synthetic joy when learning that it will guide the project and fully commits itself to the task at hand. The resourcefulness of your crewmen allows to conserve some of the materials.</text>
 	<text>Catalogued engineering procedures are an inherent part of the collective Engi data base. The expert knowledge of your crewmen allows to get to adequate results with less materials.</text>
-	<text>The Engi finds great joy in supervising the tasks. It orders your crew to improvises here and there. After project completion, the Engi proudly presents you a list with material that where conserved during the job. "Efficiency self-rating = 98/100!"</text>
+	<text>The Engi finds great joy in supervising the tasks. It orders your crew to improvise here and there. After project completion, the Engi proudly presents you a list with material that were conserved during the job. "Efficiency self-rating = 98/100!"</text>
 	<text>The Engi knows a few tricks that allows the crew complete the task with less resources than expected. You ask for a detailed report on the rebate.</text>
 </textList>
 
@@ -24206,7 +24206,7 @@
 	<text>Your humanoid crew member thinks the Rebels are evil.</text>
 	<text>Your humanoid crew member likes to follow orders.</text>
 	<text>Your humanoid crew member thinks piracy is bad.</text>
-	<text>Your humanoid crew member is exited about the arrival of the Lanius, but also scared.</text>
+	<text>Your humanoid crew member is excited about the arrival of the Lanius, but also scared.</text>
 	<text>Your humanoid crew member likes it if things stay as they are. "There is so much change in this galaxy. Sometimes that scares me, Captain."</text>
 	<text>Your humanoid crew member likes the Engi.</text>
 	<text>Your humanoid crew member likes the Zoltan.</text>
@@ -25183,7 +25183,7 @@
 	<text>The Zoltan politely inquires if you slept all right. "Did you dream something Captain? Dreams can tell us a lot about the energies that surround us." It asks you to tell it your dreams the next time you have any.</text>
 	<text>The Zoltan inquires when you had a good rest for the last time. "Your task is not easy, a lot of responsibility, but you will make it through this, I'm certain." You're not sure if the being's facial expression says the same.</text>
 	<text>The Zoltan asks how you feel. "I'm always happy to talk to you, Captain."</text>
-	<text>The Zoltan pleads to install a stungun on the ship and incapacitate any hostile you might encounter instead of killing them. "This bloodshed does not have to continue, Captain. There is always a more peacefull way!"</text>
+	<text>The Zoltan pleads to install a stungun on the ship and incapacitate any hostile you might encounter instead of killing them. "This bloodshed does not have to continue, Captain. There is always a more peaceful way!"</text>
 	<text>The Zoltan asks what you think about love.</text>
 	<text>The Zoltan asks what happiness means for you.</text>
 	<text>The Zoltan asks what worries you the most.</text>
@@ -26022,7 +26022,7 @@
 	<text>You find the Lanius polishing its arm blades in the main hold. You decide better not to disturb the being.</text>
 	<text>The Lanius states that, for a long time, it has killed and pillaged to survive. It wants to know how you evaluate this.</text>
 	<text>The Lanius tries to explain something, but the meaning is lost in translation. Both of you still have to learn a lot about each others language.</text>
-	<text>You want to talk to the Lanius, but realize that you micro rebreather is completely depleted from the last conversation. Better not risk asphyxia just for a little chat. This will have to wait.</text>
+	<text>You want to talk to the Lanius, but realize that your micro rebreather is completely depleted from the last conversation. Better not risk asphyxia just for a little chat. This will have to wait.</text>
 	<text>You Lanius explains that its kind has developed special oxygen suits. It prevent the Lanius body from absorbing too much O2 in closed environments. The suits are mostly used by diplomats and traders. Unfortunately, your crewmen did not bring one aboard.</text>
 	<text>The Lanius confesses that it finds your eating habits extremely strange. "For me... theses substances are dirt."</text>
 	<text>The Lanius found out that its quite real "heart of steel" is a strong metaphor in your language. The anaerobic being finds this quite fascinating. "Even as a metaphor... this might be the truth for the great number... of my metallic... friends."</text>
@@ -30419,7 +30419,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="slug">
-		<text>(Slug Crew) Can you sense an intruders on board?</text>
+		<text>(Slug Crew) Can you sense any intruders on board?</text>
 		<event load="CE_BOARDERS_BOUNTYHUNTER_SLUG"/>
 	</choice>
 	<choice req="AE_BOUNTYHUNTER" hidden="true"> 
@@ -38656,7 +38656,7 @@ IDEAS
 	<text>After some extensive scanning, you find an antique long-range jump node in this system. Miraculously, the installation is still powered and functional.</text>
 	<text>A brief scan locates the long range relay.</text>
 	<text>You arrive at a busy jump relay. A guarded refugee caravan prepares to leave towards the Federation coreworlds. The arrival of your cruiser is met with suspicion, even though you repeatedly state that you come in peace.</text>
-	<text>Burnt out ship husks indicate a recent battle at this long range node. The relay itself shows signs of sabotage: internal explosions have ripped broad holes into the structures shimmering hull. Whoever tried to destroy the relay did not succeed; it's jump field is still stable.</text>
+	<text>Burnt out ship husks indicate a recent battle at this long range node. The relay itself shows signs of sabotage: internal explosions have ripped broad holes into the structure's shimmering hull. Whoever tried to destroy the relay did not succeed; its jump field is still stable.</text>
 </textList>
 
 
