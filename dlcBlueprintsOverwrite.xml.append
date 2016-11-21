@@ -3092,8 +3092,8 @@ Overwritten player ships!
 	</droneList>
 	<health amount="30"/>
 	<maxPower amount ="7"/> 
-	<crewCount amount = "1" class="human"/>
 	<crewCount amount = "1" class="anaerobic"/>
+	<crewCount amount = "1" class="human"/>
 	<crewCount amount = "1" class="human"/>
 	<aug name="AE_BOUNTYHUNTER"/>
 	<shieldImage>kestral</shieldImage>
@@ -3228,8 +3228,9 @@ Overwritten player ships!
 	<health amount="30"/>
 	<maxPower amount ="7"/> 
 	<crewCount amount = "1" class="human"/>
-	<crewCount amount = "2" class="energy"/>
+	<crewCount amount = "1" class="energy"/>
 	<crewCount amount = "1" class="mantis"/>
+	<crewCount amount = "1" class="energy"/>	
 	<aug name="AE_REQUISITION"/>
 	<shieldImage>fed_cruiser</shieldImage>
 	<cloakImage>fed_cruiser</cloakImage>
@@ -3531,8 +3532,8 @@ Overwritten player ships!
 	</droneList>
 	<health amount="30"/>
 	<maxPower amount ="8"/> 
-	<crewCount amount = "2" class="rock"/>
 	<crewCount amount = "1" class="crystal"/>
+	<crewCount amount = "2" class="rock"/>	
 	<aug name="CRYSTAL_SHARDS"/>
 	<shieldImage>rock_cruiser</shieldImage>
 	<cloakImage>rock_cruiser</cloakImage>

@@ -537,35 +537,35 @@
 
 <eventList name="CE_BOUNTY_LIST_ENGI">
 	<event> <!-- Pirate Raider -->
-		<text>Its the usual deal: A small backwater colony is terrorized by a local raider. The farmers collected a meager amount of ship scrap as payment and put a bounty on the pirate's head, seemingly the only way they see to escape their peril. Target: Unknown Pirate Craft. Payment: Low.</text>
+		<text>Its the usual deal: A small backwater colony is terrorized by a local raider. The farmers collected a meager amount of ship scrap as payment and put a bounty on the pirate's head, seemingly the only way they see to escape their peril. Target: Unknown Pirate Craft. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_PIRATE_RAIDER"/>
 	</event>
 	<event> <!-- Auto Ship -->
-		<text>A tiny settlement still loyal to the Federation seeks to recruit a gun for hire. The'll pay you to destroy the automated scouts that guards their system. Target: Automated Craft. Payment: Medium.</text>
+		<text>A tiny settlement still loyal to the Federation seeks to recruit a gun for hire. The'll pay you to destroy the automated scouts that guards their system. Target: Automated Craft. Payment: Low.</text>
 		<quest event="CE_BOUNTY_AUTO"/>
 	</event>
 	<event> <!-- Engi Rebel Invader -->
-		<text>The Engi can't defend themselves against the Rebels effectively and have put out bounties on some of the invading crafts. Target: Rebel Forward Unit. Payment: Medium.</text>
+		<text>The Engi can't defend themselves against the Rebels effectively and have put out bounties on some of the invading crafts. Target: Rebel Forward Unit. Payment: High.</text>
 		<quest event="CE_BOUNTY_ENGI_REBEL_INVADER"/>
 	</event>
 	<event> <!-- Engi Pirate -->
-		<text>The Engi accuse some of their kind of "deviating from adequate behavior parameters". The delinquents have fled the collective in a weaponized ship and the local Engi do not have the resources and firepower to pursue them. Target: Rogue Engi Ship. Payment: Low.</text>
+		<text>The Engi accuse some of their kind of "deviating from adequate behavior parameters". The delinquents have fled the collective in a weaponized ship and the local Engi do not have the resources and firepower to pursue them. Target: Rogue Engi Ship. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_ENGI_PIRATE"/>
 	</event>
 	<event> <!-- Engi Infected -->
-		<text>A small outbreak of the personality degradation virus has been reported from a nearby system. The local Engi have become completely deranged and the collective is looking to hire a purge force. You could be part of it. Target: Rogue Engi Ship. Payment: Medium.</text>
+		<text>A small outbreak of the personality degradation virus has been reported from a nearby system. The local Engi have become completely deranged and the collective is looking to hire a purge force. You could be part of it. Target: Rogue Engi Ship. Payment: High.</text>
 		<quest event="CE_BOUNTY_ENGI_INFECTED"/>
 	</event>
 	<event> <!-- Engi Rebel Invader -->
-		<text>The Engi can't defend themselves against the Rebels effectively and have put out bounties on some of the invading crafts. Target: Rebel Forward Unit. Payment: Medium.</text>
+		<text>The Engi can't defend themselves against the Rebels effectively and have put out bounties on some of the invading crafts. Target: Rebel Forward Unit. Payment: High.</text>
 		<quest event="CE_BOUNTY_ENGI_REBEL_INVADER"/>
 	</event>
 	<event> <!-- Engi Pirate -->
-		<text>The Engi accuse some of their kind of "deviating from adequate behavior parameters". The delinquents have fled the collective in a weaponized ship and the local Engi do not have the resources and firepower to pursue them. Target: Rogue Engi Ship. Payment: Low.</text>
+		<text>The Engi accuse some of their kind of "deviating from adequate behavior parameters". The delinquents have fled the collective in a weaponized ship and the local Engi do not have the resources and firepower to pursue them. Target: Rogue Engi Ship. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_ENGI_PIRATE"/>
 	</event>
 	<event> <!-- Engi Infected -->
-		<text>A small outbreak of the personality degradation virus has been reported from a nearby system. The local Engi have become completely deranged and the collective is looking to hire a purge force. You could be part of it. Target: Rogue Engi Ship. Payment: Medium.</text>
+		<text>A small outbreak of the personality degradation virus has been reported from a nearby system. The local Engi have become completely deranged and the collective is looking to hire a purge force. You could be part of it. Target: Rogue Engi Ship. Payment: High.</text>
 		<quest event="CE_BOUNTY_ENGI_INFECTED"/>
 	</event>
 	<event> <!--  Nothing -->
@@ -608,7 +608,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -657,7 +657,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -710,7 +710,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -768,7 +768,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -820,7 +820,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -874,7 +874,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -925,7 +925,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1044,7 +1044,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1093,7 +1093,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1142,7 +1142,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1201,7 +1201,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1286,7 +1286,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1341,7 +1341,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1523,7 +1523,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1584,7 +1584,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1654,7 +1654,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1731,7 +1731,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1883,7 +1883,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -1953,7 +1953,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -4790,23 +4790,23 @@
 
 <eventList name="CE_BOUNTY_LIST_QUARANTINE">
 	<event> <!-- Pirate Raider -->
-		<text>Its the usual deal: A small backwater colony is terrorized by a local raider. The farmers collected a meager amount of ship scrap as payment and put a bounty on the pirate's head, seemingly the only way they see to escape their peril. Target: Unknown Pirate Craft. Payment: Low.</text>
+		<text>Its the usual deal: A small backwater colony is terrorized by a local raider. The farmers collected a meager amount of ship scrap as payment and put a bounty on the pirate's head, seemingly the only way they see to escape their peril. Target: Unknown Pirate Craft. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_PIRATE_RAIDER"/>
 	</event>
 	<event> <!-- Plague Ship -->
-		<text>A civilian craft has broken through a quarantine checkpoint. The quarantine patrol is short on ships in this part of the sector, they are outsourcing the job. Target: Infected Civilians. Payment: Medium.</text>
+		<text>A civilian craft has broken through a quarantine checkpoint. The quarantine patrol is short on ships in this part of the sector, they are outsourcing the job. Target: Infected Civilians. Payment: High.</text>
 		<quest event="CE_BOUNTY_INFECTED"/>
 	</event>
 	<event> <!-- Plague Ship -->
-		<text>A civilian craft has broken through a quarantine checkpoint. The quarantine patrol is short on ships in this part of the sector, they are outsourcing the job. Target: Infected Civilians. Payment: Medium.</text>
+		<text>A civilian craft has broken through a quarantine checkpoint. The quarantine patrol is short on ships in this part of the sector, they are outsourcing the job. Target: Infected Civilians. Payment: High.</text>
 		<quest event="CE_BOUNTY_INFECTED"/>
 	</event>
 	<event> <!-- Plague Ship -->
-		<text>A civilian craft has broken through a quarantine checkpoint. The quarantine patrol is short on ships in this part of the sector, they are outsourcing the job. Target: Infected Civilians. Payment: Medium.</text>
+		<text>A civilian craft has broken through a quarantine checkpoint. The quarantine patrol is short on ships in this part of the sector, they are outsourcing the job. Target: Infected Civilians. Payment: High.</text>
 		<quest event="CE_BOUNTY_INFECTED"/>
 	</event>
 	<event> <!-- Mantis Raider -->
-		<text>The Mantis are raiding colonies in this sector and the locals lack the military power to defend themselves. You could become their exterminator. Target: Mantis Invaders. Payment: Medium.</text>
+		<text>The Mantis are raiding colonies in this sector and the locals lack the military power to defend themselves. You could become their exterminator. Target: Mantis Invaders. Payment: High.</text>
 		<quest event="CE_BOUNTY_MANTIS_RAIDERS"/>
 	</event>
 </eventList>
@@ -4984,7 +4984,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -5074,7 +5074,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -5174,7 +5174,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -5247,7 +5247,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -5350,7 +5350,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -5409,7 +5409,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -5472,7 +5472,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -5956,7 +5956,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 
@@ -6025,7 +6025,7 @@
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -1 ]</text> 
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
 		<choice req="AE_MIND_SHIELD" hidden="true"> 

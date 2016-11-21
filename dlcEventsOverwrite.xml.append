@@ -218,9 +218,7 @@ Adding pulsar to normal hostile lists.  - Not all of the hostile lists are here,
 	<event load="CE_PIRATE_CREW_BOUNTY"/>
 	<event load="CE_LONE_SHUTTLE"/>
 	<event load="CE_DERELICT_TREASURE"/>
-	<event load="C_EVENT_CIVILIAN_TRANSPORT"/>
 	<event load="BS_EVENT_PIRATE_BLACKMARKET"/>
-	<event load="CE_CIVILIAN_TRADER"/>
 </eventList>
 
 <eventList name="OVERRIDE_NEUTRAL_EXIT">  <!-- This event list is hardcoded to fill out a sector if it ran out of all other calls for that sector -->

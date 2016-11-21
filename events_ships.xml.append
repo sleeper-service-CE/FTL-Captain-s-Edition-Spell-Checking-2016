@@ -5781,7 +5781,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The settlers pay up immediately after seeing what your ship is capable of. They give you everything they have.</text>
-				<autoReward level="LOW">scrap_only</autoReward>
+				<autoReward level="MEDIUM">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -5792,7 +5792,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The settlers pay up immediately after seeing what your ship is capable of. They give you everything they have.</text>
-				<autoReward level="LOW">scrap_only</autoReward>
+				<autoReward level="MED">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -5808,7 +5808,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The magistrate sends an official message, condemning your actions. An encoded attachment leads you to a nearby supply cache containing the payment. The scrap speaks warmer than any words.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -5819,7 +5819,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The magistrate sends an official message, condemning your actions. An encoded attachment leads you to a nearby supply cache containing the payment. The scrap speaks warmer than any words.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -5865,7 +5865,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The militia send out a courier to deliver the payment. "Let us know if you come around, we might have another job for you at some point."</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -5876,7 +5876,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The militia send out a courier to deliver the payment. "Let us know if you come around, we might have another job for you at some point.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -5892,7 +5892,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The militia send out a courier to deliver the payment. "Let us know if you come around, we might have another job for you at some point."</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -5903,7 +5903,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The militia send out a courier to deliver the payment. "Let us know if you come around, we might have another job for you at some point."</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -5919,7 +5919,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The quarantine patrol has informed the local authorities of your task. They reluctantly deliver the payment and seem quite disturbed by what just happened here.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -5930,7 +5930,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The quarantine patrol has informed the local authorities of your task. They reluctantly deliver the payment and seem quite disturbed by what just happened here.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -5949,7 +5949,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The Engi confirm your deed more or less indifferently. They separate parts of their local waystation for you to salvage. You have seen more convenient ways of payment, but the scrap you collect is not that bad.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -5960,7 +5960,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The Engi confirm your deed more or less indifferently. They separate parts of their local waystation for you to salvage. You have seen more convenient ways of payment, but the scrap you collect is not that bad.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -5976,7 +5976,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The Engi confirm your deed more or less indifferently. A local ship is instructed to drop some parts in your wake and scuttles off immediately.</text>
-				<autoReward level="LOW">scrap_only</autoReward>
+				<autoReward level="MEDIUM">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -5987,7 +5987,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The Engi confirm your deed more or less indifferently. A local ship is instructed to drop some parts in your wake and scuttles off immediately.</text>
-				<autoReward level="LOW">scrap_only</autoReward>
+				<autoReward level="MEDIUM">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6003,7 +6003,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The Engi confirm your deed more or less indifferently. They separate parts of their local waystation for you to salvage. You have seen more convenient ways of payment, but the scrap you collect is not that bad.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6014,7 +6014,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The Engi confirm your deed more or less indifferently. They separate parts of their local waystation for you to salvage. You have seen more convenient ways of payment, but the scrap you collect is not that bad.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6030,7 +6030,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>Before handing over the scrap, the Zoltan give you a lengthly speech about the cruelty of causality. They stress how unnecessary but insignificant the death of their brethren ultimately is.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6041,7 +6041,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>Before handing over the scrap, the Zoltan give you a lengthly speech about the cruelty of causality. They stress how unnecessary but insignificant the death of their brethren ultimately is.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6064,7 +6064,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The Zoltan are very happy with how you handled the situation. "Let's not speak about this nasty incident again, shall we? Good luck on your journey, Captain."</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6075,7 +6075,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The Zoltan are very happy with how you handled the situation. "Let's not speak about this nasty incident again, shall we? Good luck on your journey, Captain."</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6097,7 +6097,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>You received an encoded message the very moment the cruisers FTL signature collapsed. It contains nothing but coordinates within this system, leading to a hidden supply cache. You collect your payment.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">weapon</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6109,7 +6109,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>You received an encoded message the very moment the cruisers FTL signature collapsed. It contains nothing but coordinates within this system, leading to a hidden supply cache. You collect your payment.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">weapon</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6134,7 +6134,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>Various pirate ships gather in the system to investigate what happened. The commander of a smaller vessel congratulates you personally. "Well done, merc. Don't worry, we have the metal. I would not dare messing with someone like you. Maybe we can even work together again one day?" They hand over a large payment.</text>
-				<autoReward level="HIGH">scrap_only</autoReward>
+				<autoReward level="MED">drone</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6145,7 +6145,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>Various pirate ships gather in the system to investigate what happened. The commander of a smaller vessel congratulates you personally. "Well done, merc. Don't worry, we have the metal. I would not dare messing with someone like you. Maybe we can even work together again one day?" The hand over a large payment.</text>
-				<autoReward level="HIGH">scrap_only</autoReward>
+				<autoReward level="MED">drone</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6183,7 +6183,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The colonists no longer have to live with the constant thread of being kidnapped by Mantis invaders. They gladly pay their dues.</text>
-				<autoReward level="LOW">scrap_only</autoReward>
+				<autoReward level="MEDIUM">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6194,7 +6194,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The colonists no longer have to live with the constant thread of being kidnapped by Mantis invaders. They gladly pay their dues.</text>
-				<autoReward level="LOW">scrap_only</autoReward>
+				<autoReward level="MEDIUM">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6210,7 +6210,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The Colonists immediately transmit the scrap when you contact them. "You did a good thing today. But we are afraid that there might be more ships coming soon. And there are also these rumors about a Rebel invasion..."</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6221,7 +6221,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The Colonists immediately transmit the scrap when you contact them. "You did a good thing today. But we are afraid that there might be more ships coming soon. And there are also these rumors about a Rebel invasion..."</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6236,7 +6236,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>"I am glad you fulfilled your mission, outsider. It is more than we would have expected. Please take your payment and leave before you are seen."</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6247,7 +6247,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>"I am glad you fulfilled your mission, outsider. It is more than we would have expected. Please take your payment and leave before you are seen."</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6262,7 +6262,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The client laments that such measures became necessary. She knew the soldiers personally.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6273,7 +6273,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The client laments that such measures became necessary. She knew the soldiers personally.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6295,7 +6295,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The avatars simulate a very amused appearance. "Ha! Well done, mercenary Fleischling. I actually doubted you would really accomplish this. Here, have some of the matter you crave so much. Good luck on your trivial journey!"</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6306,7 +6306,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The avatars simulate a very amused appearance. "Ha! Well done, mercenary Fleischling. I actually doubted you would really accomplish this. Here, have some of the matter you crave so much. Good luck on your trivial journey!"</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6322,7 +6322,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The Slug client wants to "re-negotiate" the payment. You have to fire a few warning shots before they agree to transmit the scrap.</text>
-				<autoReward level="LOW">scrap_only</autoReward>
+				<autoReward level="MEDIUM">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6333,7 +6333,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The Slug client wants to "re-negotiate" the payment. You have to fire a few warning shots before they agree to transmit the scrap.</text>
-				<autoReward level="LOW">scrap_only</autoReward>
+				<autoReward level="MEDIUM">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6349,7 +6349,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>You are hailed by a station hidden far deeper within the clouds. The informe you that it is them who has put out the bounty. They pay what was agreed on.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6360,7 +6360,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>You are hailed by a station hidden far deeper within the clouds. The informe you that it is them who has put out the bounty. They pay what was agreed on.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6374,7 +6374,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The local settlers are glad that the immediate thread has been eliminated. "Thank you Mr. mercenary!"</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6385,7 +6385,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>The local settlers are glad that the immediate thread has been eliminated. "Thank you Mr. mercenary!"</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
@@ -6401,7 +6401,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>You received an anonymous message the very moment the ships FTL signature collapsed. It directs you to a hidden supply cache, containing your payment. You'll never know who put out this hit.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</destroyed>
@@ -6412,7 +6412,7 @@
 			<text>Contact the client and collect the bounty.</text>
 			<event>
 				<text>You received an anonymous message the very moment the ships FTL signature collapsed. It directs you to a hidden supply cache, containing your payment. You'll never know who put out this hit.</text>
-				<autoReward level="MED">scrap_only</autoReward>
+				<autoReward level="HIGH">scrap_only</autoReward>
 			</event> 
 		</choice>
 	</deadCrew>
