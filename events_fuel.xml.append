@@ -1832,14 +1832,14 @@
 	
 <eventList name="FUEL_APPROACH_ACCEPT_LIST">
 	<event>
-		<text>They pull close to your ship and unload some fuel saying, "Try not to run out of fuel again.  These are dangerous times; who knows who could have showed up."</text>
+		<text>They pull close to your ship and unload some fuel saying, "Try not to run out of fuel again. These are dangerous times; who knows who could have showed up."</text>
 		<ship load="CIVILIAN_SHIP" hostile="false"/>
 		<item_modify>
 			<item type="fuel" min="2" max="6"/>
 		</item_modify>
 	</event>
 	<event>   <!-- this continues in the DISTRESS section -->
-		<text>They approach and dock with your ship.  On board they present an offer.</text>
+		<text>They approach and dock with your ship. On board they present an offer.</text>
 		<ship load="CIVILIAN_SHIP" hostile="false"/>
 		<choice>
 			<text>Gladly trade.</text>
@@ -1851,7 +1851,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>As their ship pulls up next to yours, their Captain continues, "Yes, we'll certainly help...  Help to relieve you of that nice ship!"  Sensors detect a hidden teleporter has been activated.</text>
+		<text>As their ship pulls up next to yours, their Captain continues, "Yes, we'll certainly help... Help to relieve you of that nice ship!" Sensors detect a hidden teleporter has been activated.</text>
 		<ship load="PIRATE_FUEL" hostile="false"/>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 			<text>(Teleporter Disruptor) Deflect their teleporter signal.</text>
@@ -1958,7 +1958,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>As they approach, you detect their weapons powering up.  It seems their intentions are hostile!</text>
+		<text>As they approach, you detect their weapons powering up. It seems their intentions are hostile!</text>
 		<ship load="PIRATE" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -2012,17 +2012,17 @@
 </eventList>
 <eventList name="FUEL_APPROACH_DECLINE_LIST">
 	<event>
-		<text>"I assure you that we mean no harm.  See, we'll send some fuel over on a transport."  A small ship docks and offloads some fuel just as they said.  They leave, saying, "Stay cautious, friend."</text>
+		<text>"I assure you that we mean no harm. See, we'll send some fuel over on a transport." A small ship docks and offloads some fuel just as they said. They leave, saying, "Stay cautious, friend."</text>
 		<ship load="CIVILIAN_SHIP" hostile="false"/>
 		<item_modify>
 			<item type="fuel" min="1" max="4"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>"No one trusts anyone these days..."  The ship jumps away.</text>
+		<text>"No one trusts anyone these days..." The ship jumps away.</text>
 	</event>
 	<event>
-		<text>They reply,"Keep our distance?  Let's see if you can stop us!"  They power up their weapons and advance.</text>
+		<text>They reply,"Keep our distance? Let's see if you can stop us!" They power up their weapons and advance.</text>
 		<ship load="PIRATE_FUEL" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -2076,13 +2076,13 @@
 </eventList>
 <eventList name="FUEL_APPROACH_SCAN_LIST">
 	<event>
-		<text>Sensors indicate their ship is without military-grade weaponry, even small arms.  You allow them to dock and they give you some fuel saying, "I remember a time when we didn't have to be so paranoid about each others intentions... Stay safe."</text>
+		<text>Sensors indicate their ship is without military-grade weaponry, even small arms. You allow them to dock and they give you some fuel saying, "I remember a time when we didn't have to be so paranoid about each others intentions... Stay safe."</text>
 		<item_modify>
 			<item type="fuel" min="3" max="7"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>Sensors are picking up armed crew and considerably more weaponry than is legal for a craft of this size.  This is surely a trap.</text>
+		<text>Sensors are picking up armed crew and considerably more weaponry than is legal for a craft of this size. This is surely a trap.</text>
 		<choice>
 			<text>Prepare for a fight.</text>
 			<event>
@@ -2141,7 +2141,7 @@
 		<choice req="cloaking" hidden="true"> 
 			<text>(Cloaking) Cloak and get out of scanning range before they have a chance to lock on.</text>
 			<event>
-				<text>Your highly advanced cloaking system allows you to get out of range easily since they were still out of firing range.  Eventually the ship jumps away.</text>
+				<text>Your highly advanced cloaking system allows you to get out of range easily since they were still out of firing range. Eventually the ship jumps away.</text>
 			</event>
 		</choice>
 	</event>		
