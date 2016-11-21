@@ -28983,7 +28983,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You tell yourself that the mission is more important than these civilians. The live of millions depend on you. Your crew doesn't seem to see it exactly like that, but they follow their orders.</text>
+		<text>You tell yourself that the mission is more important than these civilians. The lives of millions depend on you. Your crew doesn't seem to see it exactly like that, but they follow their orders.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
