@@ -6152,8 +6152,8 @@
 </eventList>
 <textList name="DEAD_CREW_DISEASE_TEXT">  
 	<text>The remaining crew of the vessel have been eliminated. You work almost as efficiently as the quarantine fleet.</text>
-	<text>The diseased crew has been put down. The quarantine fleet would probably appreciates the deed.</text>
-	<text>All the sick crewman have been killed aboard their ship. Entering it in order to salvage might still pose a serious health risk.</text>
+	<text>The diseased crew has been put down. The quarantine fleet would probably appreciate the deed.</text>
+	<text>All the sick crewmen have been killed aboard their ship. Entering it in order to salvage might still pose a serious health risk.</text>
 	<text>All hostiles aboard the ship have been eliminated. Entering the craft and salvaging from it holds a certain risk. The disease might spread to your crew.</text>
 </textList>
 
@@ -6433,7 +6433,7 @@
 <textList name="STORE_QUARANTINE_TEXT">
 	<text planet="NONE">A defunct shipyard gets picked up by your sensors. You pay it no mind, since it appears to have been already stripped clean. However, as you're about to jump, you're surprised to be hailed by its apparent inhabitants. They wish to trade.</text>
 	<text planet="PLANET_POPULATED_REAL">You pick up radio signals of a shelter on a nearby planet offering help and medication for the diseased. Among the chatter, you discern the advertisements of a stranded entrepreneur looking to trade.</text>
-	<text>After the jump you find yourself in the vicinity of a small station. Some of its more wealthy  inhabitants offer to sell you some of their belongings in hopes of acquiring enough scrap to leave this place.</text>
+	<text>After the jump you find yourself in the vicinity of a small station. Some of its more wealthy inhabitants offer to sell you some of their belongings in hopes of acquiring enough scrap to leave this place.</text>
 	<text>You pick up radio signals of a shelter offering help and medication for the diseased. Among the chatter, you discern the advertisements of a stranded entrepreneur looking to trade.</text>
 	<text planet="PLANET_POPULATED_REAL">A large quarantine fleet orbits this planet, escorting a refugee caravan. It is halfway through its jump cycle, but some of the ship captains offer a last-minute trade.</text>
 	<text planet="PLANET_POPULATED_REAL">This planet has been largely evacuated, a small quarantine fleet stayed behind and their certified scavengers sell looted goods to finance the aid effort.</text>
