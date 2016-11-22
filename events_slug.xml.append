@@ -1376,7 +1376,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Just before the transmission is cut you hear, "They're not falling for it.  Just kill the crew and we can ssstrip..." Looks like you're not getting out of here without a fight.</text>
+		<text>Just before the transmission is cut you hear, "They're not falling for it. Just kill the crew and we can ssstrip..." Looks like you're not getting out of here without a fight.</text>
 		<ship load="JELLY" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -1433,7 +1433,7 @@
 	<choice hidden="true">
 		<text>Decline.</text>
 		<event>
-			<text>"Oh well... We ssshall wait here then."  You cautiously put distance between your ships before preparing to jump.</text>
+			<text>"Oh well... We ssshall wait here then." You cautiously put distance between your ships before preparing to jump.</text>
 		</event>
 	</choice>
 	<choice hidden="true">
@@ -1526,7 +1526,7 @@
 </event>
 <eventList name="NEBULA_SLUG_FAKE_STORE_LIST">  <!-- if you stay for the whole thing -->
 	<event>
-		<text>"Great. Let me show you our waress.  It's not often I meet patient alienss, have this complimentary fuel as well."</text>
+		<text>"Great. Let me show you our waress. It's not often I meet patient alienss, have this complimentary fuel as well."</text>
 		<item_modify>
 			<item type="fuel" min="5" max="5"/>
 		</item_modify>
@@ -3307,7 +3307,7 @@
 	<choice hidden="true">
 		<text>Weapons.</text>
 		<event>
-			<text>"Your acceptance of death is almosst admirable... Almosst." Your weapons system registers a hacking module.  You hardly have time to respond before they attack.</text>
+			<text>"Your acceptance of death is almosst admirable... Almosst." Your weapons system registers a hacking module. You hardly have time to respond before they attack.</text>
 			<status type="divide" target="player" system="weapons" amount="2"/>
 			<ship load="JELLY_STATUS_WEAPONS" hostile="true"/>
 		<choice hidden="true">
