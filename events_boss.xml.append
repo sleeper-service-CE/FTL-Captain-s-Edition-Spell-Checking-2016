@@ -3539,7 +3539,7 @@
 </textList>
 <eventList name="C_REBEL_CRUISER_BOSS_RESCUE_LIST">  <!-- what the player gets for rescuing the ship-->
 	<event>
-		<text>You are hailed, "Thank you!  We will send out some repair drones to fix as much damage to your ship as possible. Good luck with your mission!"</text>
+		<text>You are hailed, "Thank you! We will send out some repair drones to fix as much damage to your ship as possible. Good luck with your mission!"</text>
 		<damage amount="-15"/>
 	</event>
 	<event>
@@ -3547,7 +3547,7 @@
 		<autoReward level="HIGH">stuff</autoReward>
 	</event>
 	<event>  <!-- Gives new repair station-->
-		<text>You receive a message on encrypted Federation channels.  It says, "Thanks for helping us, Captain. Our drones can fix some of the damage that was done to your ship. We were in the process of setting up another repair station nearby. We can give you the coordinates."</text>
+		<text>You receive a message on encrypted Federation channels. It says, "Thanks for helping us, Captain. Our drones can fix some of the damage that was done to your ship. We were in the process of setting up another repair station nearby. We can give you the coordinates."</text>
 		<damage amount="-5"/>
 		<quest event="BOSS_REPAIR_STATION"/>
 	</event>
@@ -5094,7 +5094,7 @@ IDEAS
 		<autoReward level="MED">stuff</autoReward>
 	</event>
 	<event>  
-		<text>You receive a message on encrypted Federation channels.  It says, "Thanks for helping us, Captain. Our drones can fix some of the damage that was done to your ship."</text>
+		<text>You receive a message on encrypted Federation channels. It says, "Thanks for helping us, Captain. Our drones can fix some of the damage that was done to your ship."</text>
 		<damage amount="-5"/>
 	</event>
 </eventList>
