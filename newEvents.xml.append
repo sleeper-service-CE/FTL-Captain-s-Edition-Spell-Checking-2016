@@ -204,40 +204,40 @@
 	<text>TIP: Grinding Sectors -  It can be beneficial to stay in a Sector for as long as possible to improve the ship since each Sector is increasingly difficult.</text>
 	<text>TIP: Exits -  It's tempting to rush for the sector exits, but exploring is the only way to upgrade your ship. Try and get as much out of each sector as possible.</text>
 	<text>TIP: Pausing -  Press SPACE at any time to pause the game. You can still issue orders to crew or manipulate system power while paused.</text>
-	<text>TIP: Targets -  Prioritize your targeting in combat.  Weapons and Shields are usually the best choice, but if they're fleeing, hit their Engines or Piloting to prevent escape.</text>
+	<text>TIP: Targets -  Prioritize your targeting in combat. Weapons and Shields are usually the best choice, but if they're fleeing, hit their Engines or Piloting to prevent escape.</text>
 	<text>TIP: Hidden Choices -  When you see a blue colored choice in an event, it's a special option that has been made available by your current equipment.</text>
 	<text>TIP: System Damage -  When a System fully breaks due to fire or boarders, the hull also takes one damage.</text>
-	<text>TIP: Selling -  Weapons, drones, and augments can be sold for 1/2 the purchasing price at stores.  Click on the SELL tab at the top.</text>
+	<text>TIP: Selling -  Weapons, drones, and augments can be sold for 1/2 the purchasing price at stores. Click on the SELL tab at the top.</text>
 	<text>TIP: Power Bars - Upgraded systems can be helpful even if you don't have enough reactor power to use them; they still absorb one damage.</text>
 	<text>TIP: Weapons -  You can queue up an attack before the weapon is charged. It will fire when it's charged.</text>
 	<text>TIP: Cloaking -  Cloaking prevents enemies from firing on your ship or charging their weapons. It also causes all currently flying shots to miss your ship.</text>
 	<text>TIP: Boarding -  If you're having trouble with boarders, fight within the medbay. If all else fails, vent the rest of the oxygen out of the ship!</text>
 	<text>TIP: Oxygen -  If the ship's room color changes from tan to red, it means you're losing oxygen. Crew will be damaged and fires will burn out in rooms with an orange border.</text>
-	<text>TIP: Shield Piercing -  Missiles ignore shields.  Use missiles to damage a powerful ship's Shield System. Just remember that Defense Drones can shoot down missiles!</text>
+	<text>TIP: Shield Piercing -  Missiles ignore shields. Use missiles to damage a powerful ship's Shield System. Just remember that Defense Drones can shoot down missiles!</text>
 	<text>TIP: Choices -  Results of most choices have multiple outcomes. You can never be sure what will happen.</text>
 	<text>TIP: Autofire -  Autofire will let a weapon maintain its target. Just keep an eye on your missile count!</text>
 	<text>TIP: Evasion -  Evading enemy shots is crucial but it requires functioning engines AND a pilot. Having someone man the engines will increase your evasion as well.</text>
 	<text>TIP: Sensors -  If the ship goes dark, don't panic. Just fix the Sensors Subsystem.</text>
 	<text>TIP: Drones -  If you're struggling against enemy Drones, target the Drone System to temporarily disable them.</text>
-	<text>TIP: Beams -  Beam weapons do damage based on the number of rooms they hit.   Each Shield bubble will block 1 damage of a beam; it's best to use beams when their shields are down.</text>
-	<text>TIP: Fire -  If fire is spreading, consider opening airlocks and doors to vent the oxygen from parts of your ship.  Fire is quickly extinguished without O2.</text>
-	<text>TIP: Health -  Pay attention to your crew's health!  Use the medbay to keep them patched up.</text>
-	<text>TIP: Upgrades -  Don't forget to upgrade your ship!  Often shields are the highest priority, but don't underestimate the usefulness of subsystems.</text>
-	<text>TIP: Fuel -  Every jump consumes one unit of fuel, so keep an eye on your reserves.  Buy fuel at stores to avoid being left stranded.</text>
+	<text>TIP: Beams -  Beam weapons do damage based on the number of rooms they hit.  Each Shield bubble will block 1 damage of a beam; it's best to use beams when their shields are down.</text>
+	<text>TIP: Fire -  If fire is spreading, consider opening airlocks and doors to vent the oxygen from parts of your ship. Fire is quickly extinguished without O2.</text>
+	<text>TIP: Health -  Pay attention to your crew's health! Use the medbay to keep them patched up.</text>
+	<text>TIP: Upgrades -  Don't forget to upgrade your ship! Often shields are the highest priority, but don't underestimate the usefulness of subsystems.</text>
+	<text>TIP: Fuel -  Every jump consumes one unit of fuel, so keep an eye on your reserves. Buy fuel at stores to avoid being left stranded.</text>
 	<text>TIP: Sound -  Go into the options menu to turn on or off the sound effects and music.</text>
 	<text>TIP: Asteroids -  Fighting in asteroid fields is dangerous, but use it to your advantage. Take out enemy shields and let the rocks take care of the rest.</text>
 	<text>TIP: Nebulae -  Passing through a Nebula will allow you to temporarily slow down the fleet advancement but they contain their own unique dangers.</text>
 	<text>TIP: Solar Flares - Solar flares will cause hull damage in addition to starting fires. Make sure your shields are up to help mitigate this effect.</text>
 	<text>TIP: Score - Your score is based on how many ships you defeat, the number of beacons explored, and your total scrap collection.</text>
 	<text>TIP: Hotkeys -  You can charge or arm weapons using number hotkeys:  The Weapon Slots are 1-4 on your keyboard, and the Drones are 5-7 (customizable in the options).</text>
-	<text>TIP: Augmentations -  Your ship can only hold 3 augmentations.  They provide unique benefits to a system, the crew or the entire ship.</text>
+	<text>TIP: Augmentations -  Your ship can only hold 3 augmentations. They provide unique benefits to a system, the crew or the entire ship.</text>
 	<text>TIP: Breaches -  If a room with a breach has no Oxygen, try opening all the doors surrounding it to make it less hazardous.</text>
 	<text>TIP: Font Size - Pressing +/- (customizable in options) will let you change the event text size.</text>
 	<text>TIP: Rebel fleet - The rebel fleet (represented by the red circle on the map) moves closer to your position every time you jump. Certain events can slow or speed up their movement speed.</text>
 	<text>TIP: Weapon Order - Rearrange a weapon or drone schematic by dragging it into the desired position. The left-most slot will be the last to power down if the system is damaged.</text>
-	<text>TIP: Ion Weapons - Ion weapons de-power and lock a System for a time.  If they hit the enemy shields they deal their stun damage directly to the Shields System.</text>
-	<text>TIP: Bomb Weapons - Bombs teleport directly onto either ship.  They bypass Shields AND Defense Drones.  However they affect crew and Systems; they do no damage to the ships hull.</text>
-	<text>TIP: Door Subsystem - Upgrading your doors once will greatly reduce the chance fire will spread between rooms.  Upgrading them again will cause doors to significantly slow boarder movement.</text>
+	<text>TIP: Ion Weapons - Ion weapons de-power and lock a System for a time. If they hit the enemy shields they deal their stun damage directly to the Shields System.</text>
+	<text>TIP: Bomb Weapons - Bombs teleport directly onto either ship. They bypass Shields AND Defense Drones. However they affect crew and Systems; they do no damage to the ships hull.</text>
+	<text>TIP: Door Subsystem - Upgrading your doors once will greatly reduce the chance fire will spread between rooms. Upgrading them again will cause doors to significantly slow boarder movement.</text>
 	<text>TIP: Armed Space Stations - Enemy space stations have strong hulls but usually no engines. That means they can not move and therefore are unable to dodge. Use this to your advantage.</text>
 	<text>TIP: Light Lasers - These lasers are good for killing crew, but can not deplete shields or damage systems and ship hull. Use them to empty ships of personnel or to support your boarders and keep an eye on your crews health when you are taking fire from light lasers.</text>
 	<text>TIP: Auto Lasers - These lasers seem weak on their own, but can make formidable support weapons if you can deplete the enemy shields with other guns.</text>
