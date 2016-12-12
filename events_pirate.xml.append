@@ -3321,7 +3321,7 @@
 		<augment name="TE_GOODS_TEXTILES"/>
 	</event>
 	<event>
-		<text>Once you bring the cargo onto your ship a pirate bursts out of one of the crates saying, "Ugh... I was getting cramped in there.  Oh, yeah! Prepare to die!" Immediately after this battle-cry your ship is filled with the sound of crates breaking open...</text>
+		<text>Once you bring the cargo onto your ship a pirate bursts out of one of the crates saying, "Ugh... I was getting cramped in there. Oh, yeah! Prepare to die!" Immediately after this battle-cry your ship is filled with the sound of crates breaking open...</text>
 		<boarders min="2" max="4" class="random"/>
 	</event>
 	<event>
@@ -3374,7 +3374,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Once you bring the cargo onto your ship a pirate bursts out of one of the crates saying, "Ugh... I was getting cramped in there.  Oh, yeah! Prepare to die!" Immediately after this battle-cry your ship is filled with the sound of crates breaking open...</text>
+		<text>Once you bring the cargo onto your ship a pirate bursts out of one of the crates saying, "Ugh... I was getting cramped in there. Oh, yeah! Prepare to die!" Immediately after this battle-cry your ship is filled with the sound of crates breaking open...</text>
 		<boarders min="2" max="4" class="random"/>
 	</event>
 	<event>
@@ -3448,7 +3448,7 @@
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>Your advanced sensors pick up faint life signatures inside the cargo. The life forms appear to be armed.  This looks like a planned pirate ambush.</text>
+		<text>Your advanced sensors pick up faint life signatures inside the cargo. The life forms appear to be armed. This looks like a planned pirate ambush.</text>
 		<choice hidden="true">
 			<text>Destroy the crates to prevent another ship from falling victim.</text>
 			<event>
@@ -3506,7 +3506,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your advanced sensors pick up faint life signatures inside the cargo. The life forms appear to be armed.  This looks like a planned pirate ambush.</text>
+		<text>Your advanced sensors pick up faint life signatures inside the cargo. The life forms appear to be armed. This looks like a planned pirate ambush.</text>
 		<choice hidden="true">
 			<text>Destroy the crates to prevent another ship from falling victim.</text>
 			<event>
@@ -3564,7 +3564,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your advanced sensors pick up faint life signatures inside the cargo. The life forms appear to be armed.  This looks like a planned pirate ambush.</text>
+		<text>Your advanced sensors pick up faint life signatures inside the cargo. The life forms appear to be armed. This looks like a planned pirate ambush.</text>
 		<choice hidden="true">
 			<text>Destroy the crates to prevent another ship from falling victim.</text>
 			<event>
@@ -3622,7 +3622,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your advanced sensors pick up faint life signatures inside the cargo. The life forms appear to be armed.  This looks like a planned pirate ambush.</text>
+		<text>Your advanced sensors pick up faint life signatures inside the cargo. The life forms appear to be armed. This looks like a planned pirate ambush.</text>
 		<choice hidden="true">
 			<text>Destroy the crates to prevent another ship from falling victim.</text>
 			<event>
@@ -3808,7 +3808,7 @@
 		</choice>
 </event>
 <textList name="BS_EVENT_PIRATE_TEXT">
-	<text>As you jump into the system  you find yourself right in front of a small pirate station. They are refusing all hails. Prepare for a fight.</text>
+	<text>As you jump into the system you find yourself right in front of a small pirate station. They are refusing all hails. Prepare for a fight.</text>
 	<text>Immediately after arriving in the system you are hailed by a station, "We know who you are and what you carry. You will have to get past us if you want to jump from this beacon. Except you won't."</text>
 	<text>This beacon lies in close proximity to a considerably well armed pirate station. You will have to stay in their weapon range if you want to charge your FTL drive... According to the confused, apparently drug influenced comm chatter you receive the pirates seem quite amused by that.</text>
 	<text>A station at this beacon messages you, "Greetings, assholes. We are almost out of food and fuel here. We might have more if we would trade instead of destroying every ship that comes here, but that wouldn't be so exciting, right?"</text>
