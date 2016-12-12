@@ -1011,7 +1011,7 @@
 		<text>Continue...</text>
 		<event>
 			<text>I am convinced of your strength and pledge to assist your cause. We'll immediately send an advanced cruiser to the Federation fleet and we will prepare our warships to move out.</text>
-			<unlockShip id="6">The Rock deliver a cruiser to the hangar.  The Bulwark has been unlocked!</unlockShip>
+			<unlockShip id="6">The Rock deliver a cruiser to the hangar. The Bulwark has been unlocked!</unlockShip>
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
@@ -1300,7 +1300,7 @@
 
 
 <event name="CE_ROCK_ZOLTAN_HELP" unique="true">
-	<text>It seems a Zoltan ship came here to liberate a Rock settlement from their 'oppressive belief system', and that said Rock did not appreciate it.  The chase is headed your way and the Zoltan and their pursuers will be here at any moment!</text>
+	<text>It seems a Zoltan ship came here to liberate a Rock settlement from their 'oppressive belief system', and that said Rock did not appreciate it. The chase is headed your way and the Zoltan and their pursuers will be here at any moment!</text>
 	<choice hidden="true">
 		<text>Stay and defend the Zoltan.</text>
 		<event>
@@ -2698,7 +2698,7 @@
 			<choice hidden="true" req="WEAPONS_MISSILES"> <!--JUSTIN - TO DO - Missile weapons-->
 				<text>(Missile Weapon) Attempt a controlled detonation using a missile.</text>
 				<event>
-					<text>After drawing straws, a crew member goes out to fix a modified warhead to the mine.  You detonate the missile in a way that dislodges it and it blows up shortly after. The ship takes some damage in the blasts, but you're still sailing.</text>
+					<text>After drawing straws, a crew member goes out to fix a modified warhead to the mine. You detonate the missile in a way that dislodges it and it blows up shortly after. The ship takes some damage in the blasts, but you're still sailing.</text>
 					<damage amount="3"/>
 					<damage amount="1" system="random"/>  <!--DLC-->
 					<item_modify>
