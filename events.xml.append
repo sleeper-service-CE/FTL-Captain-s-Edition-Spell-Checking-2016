@@ -15307,7 +15307,7 @@
 	<text>The Mantis stand down. "Fine. We will take any valuables that your ship holds. Don't you try anything."</text>
 	<text>The Mantis seem inclined to listen to your offer. "Shut up meatsack! Only talk to us about the supplies you will send. What do you have?"</text>
 	<text>"Really? Well we might leave you alive for now, but only to be slaughtered by our brothers soon. We have conditions."</text>
-	<text>A seasoned Mantis warrior appears on the vidscreen."Hugh? I hate it when they surrender... alright meatsack, what do you have?" You will have to hand over some supplies if your want to get away without a fight.</text>
+	<text>A seasoned Mantis warrior appears on the vidscreen."Huh? I hate it when they surrender... alright meatsack, what do you have?" You will have to hand over some supplies if your want to get away without a fight.</text>
 </textList>
 <textList name="CE_PLAYER_SURRENDER_MANTIS_FAIL_TEXT">
 	<text>The Mantis seem to care little about your white flag codes. "Hahaha sorry, but this will be way to much fun. We will tear you all to shreds soon!"</text>
