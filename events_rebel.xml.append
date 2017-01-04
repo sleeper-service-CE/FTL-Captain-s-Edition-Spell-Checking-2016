@@ -233,11 +233,11 @@
 	</choice>
 </event>
 <textList name="NOTHING_REBEL">
-	<text>You enter a system bustling with Rebel activity.  Supply freighters and re-supply stations are dwarfed by a few heavy warships.  Luckily, no one seems to be paying attention to small cruisers.  No ships are scanning or messaging you.</text>
-	<text>You arrive near a small Rebel refueling depot.  Your ship is being scanned multiple times so they must recognize you, but there appears to be no combat-ready ships in the vicinity.  The only message you receive is a denial to your request to dock at the depot.</text> 
-	<text>There is not much of interest nearby.   A small sun in the distance with a few orbiting planets in nearby space provide little of interest.</text>
-	<text planet="NONE">There are no other ships near this beacon, however you detect a small communications relay.  You tap into it without a problem; there are no encryptions.  Most of the chatter revolves around troop and fleet movements, nothing particularly interesting.</text>
-	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements.  A small Rebel fleet is in orbit with many ships ferrying back and forth.  It must be a recently 'liberated' planet.</text>
+	<text>You enter a system bustling with Rebel activity. Supply freighters and re-supply stations are dwarfed by a few heavy warships. Luckily, no one seems to be paying attention to small cruisers. No ships are scanning or messaging you.</text>
+	<text>You arrive near a small Rebel refueling depot. Your ship is being scanned multiple times so they must recognize you, but there appears to be no combat-ready ships in the vicinity. The only message you receive is a denial to your request to dock at the depot.</text> 
+	<text>There is not much of interest nearby. A small sun in the distance with a few orbiting planets in nearby space provide little of interest.</text>
+	<text planet="NONE">There are no other ships near this beacon, however you detect a small communications relay. You tap into it without a problem; there are no encryptions. Most of the chatter revolves around troop and fleet movements, nothing particularly interesting.</text>
+	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements. A small Rebel fleet is in orbit with many ships ferrying back and forth. It must be a recently 'liberated' planet.</text>
 </textList>
 
 
@@ -557,11 +557,11 @@
 	</choice>
 </event>
 <textList name="START_BEACON_REBEL">
-	<text>This sector was bustling with activity just a few years ago.  Now, more than half of the jump beacons have been destroyed, many settlements have been abandoned and the Rebels patrol constantly.</text>
-	<text>This sector was hit hard by the Rebellion.   The many alien settlements and stations located here are now watched over by almost an equal number of Rebel bases, heavy-handedly 'keeping the peace.'</text>
-	<text>Once the Federation forces were scattered the Rebels came down hard on the locals here.  Between the 'tax collectors' and military bases, the Rebel presence in this sector is high.</text>
-	<text>At one point this was one of the most commonly traveled sectors.  Knowing that, the Rebels have stationed a number of fleets here.  Be careful.</text>
-	<text>You will have to be very cautious in this sector.  The Rebels have full control and are no doubt looking for you.</text>
+	<text>This sector was bustling with activity just a few years ago. Now, more than half of the jump beacons have been destroyed, many settlements have been abandoned and the Rebels patrol constantly.</text>
+	<text>This sector was hit hard by the Rebellion. The many alien settlements and stations located here are now watched over by almost an equal number of Rebel bases, heavy-handedly 'keeping the peace.'</text>
+	<text>Once the Federation forces were scattered the Rebels came down hard on the locals here. Between the 'tax collectors' and military bases, the Rebel presence in this sector is high.</text>
+	<text>At one point this was one of the most commonly traveled sectors. Knowing that, the Rebels have stationed a number of fleets here. Be careful.</text>
+	<text>You will have to be very cautious in this sector. The Rebels have full control and are no doubt looking for you.</text>
 </textList>
 
 
@@ -855,7 +855,7 @@
 		<text>Intervene to defend the outpost.</text>
 		<event>
 			<ship hostile="true"/>
-			<text>The Rebel responds to your threat, "I don't know who you are, but no one defies the Rebel fleet!"  They move in to engage.</text>
+			<text>The Rebel responds to your threat, "I don't know who you are, but no one defies the Rebel fleet!" They move in to engage.</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event/>
@@ -1362,7 +1362,7 @@
 
 <event name="NEBULA_REBEL_BOARDING" unique="true">
 	<environment type="nebula"/>
-	<text>There appears to be a number of small stations nearby.  Before you have time to scan them, warnings go off.  A Rebel teleporter activates in one of the stations.</text>
+	<text>There appears to be a number of small stations nearby. Before you have time to scan them, warnings go off. A Rebel teleporter activates in one of the stations.</text>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 		<text>(Teleporter Disruptor) Activate your disruptor field.</text>
 		<event>
@@ -1498,8 +1498,8 @@
 </event>
 <textList name="BOARDERS_REBEL_SHIP" unique="false">
 	<text>You receive a message from the nearby Rebel station's commander, "You have a lot of guts passing through our space, I'll give you that." She tells her men, "Kill their crew, I want that ship intact."</text>
-	<text>Your sensors warn of an incoming Rebel ship at the same time as the well-known computer voice of your ship AI warns you of an active enemy teleporter. You get a taunting message, "Ready to die?  I sure am ready to get a promotion!"</text>
-	<text>Incoming message, "Hello, Captain," says a Rebel in an officer's garb.  "How very generous of you to turn yourself in.  Prepare to be boarded.  Come quietly and we may be lenient."</text>
+	<text>Your sensors warn of an incoming Rebel ship at the same time as the well-known computer voice of your ship AI warns you of an active enemy teleporter. You get a taunting message, "Ready to die? I sure am ready to get a promotion!"</text>
+	<text>Incoming message, "Hello, Captain," says a Rebel in an officer's garb. "How very generous of you to turn yourself in. Prepare to be boarded. Come quietly and we may be lenient."</text>
 	<text>You receive a message on a low-band channel. "You're surrounded, just like the last of your Federation friends. Just die already." The enemy has teleported onto our ship!</text>
 	<text>As you arrive, you become aware of a small Rebel outpost near the beacon. You are hardly able to bark an order before you detect a teleporter charging and a ship moving in. They must have been expecting you...</text>
 </textList>
@@ -1762,7 +1762,7 @@
 
 <eventList name="REBEL_TRANSPORT_DESTROYED">
 	<event>
-		<text>You search the ship and discover that its cargo was new military-grade weaponry!  It was somehow undamaged in the fight and can easily be mounted on the ship.</text>
+		<text>You search the ship and discover that its cargo was new military-grade weaponry! It was somehow undamaged in the fight and can easily be mounted on the ship.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 	<event>
@@ -1778,7 +1778,7 @@
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Searching the remains, you find that the cargo was a military-grade drone schematics!  You bring them aboard to install it in your ship.</text>
+		<text>Searching the remains, you find that the cargo was a military-grade drone schematics! You bring them aboard to install it in your ship.</text>
 		<autoReward level="MED">drone</autoReward>
 	</event>
 	<event>
@@ -2955,24 +2955,24 @@
 	<text>It seems like your luck came to an end. You run into a fully militarized Rebel cruiser that was just passing through this system. They hail, "This is the RS 'Oooo, Doughnuts.' We have no idea who you are, but our computer says you are a high priority target. Sorry, Captain, orders are orders.".</text>
 	<text>With the heavy Rebel presence in this sector it was only a matter of time until you would run into one of their cruisers. They send a short message. "This is the RS 'Wrecking Ball'. Our logs show you as a threat level 20 Federation unit. We will open fire with our full weapon array."</text>
 	<text planet="PLANET_POPULATED_SMALL">A cruiser is refueling at a supply-orbital near the beacon. You try to lay low but they passively scan you and immediately detach from the station to attack. A Rebel officer is put on the comms, "This is the RS 'Cuddle Buddy' We have been ordered to terminate you. Adios."</text>
-	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements.  A small Rebel fleet is in orbit with many ships ferrying back and forth.  It must be a more recently 'liberated' planet. One of the cruisers, identifying as RS "Shiny Buttons And Dials", breaks formation and moves in to intercept you.</text>
-	<text>You enter a system bustling with Rebel activity.  Supply freighters and re-supply stations are dwarfed by a few heavy warships. At first you believe no one noticed you, but then one of the cruisers changes course and gets into an attack position. They identify as the RS "Not In Omicron Anymore".</text>
+	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements. A small Rebel fleet is in orbit with many ships ferrying back and forth. It must be a more recently 'liberated' planet. One of the cruisers, identifying as RS "Shiny Buttons And Dials", breaks formation and moves in to intercept you.</text>
+	<text>You enter a system bustling with Rebel activity. Supply freighters and re-supply stations are dwarfed by a few heavy warships. At first you believe no one noticed you, but then one of the cruisers changes course and gets into an attack position. They identify as the RS "Not In Omicron Anymore".</text>
 
 
 <text planet="PLANET_POPULATED_REAL">This planet is densely populated and orbited by several Rebel shipyards. It's hard to count all the cruisers that are manufactured here. A guard unit moves in to intercept and hails, "This is the RS 'Suck It Up.' We are surprised that you got here without anyone noticing you. Someone will get demoted for this. Anyway, we will deal with you now."</text>
 	<text>It seems like your luck came to an end. You run into a fully militarized Rebel cruiser that was just passing through this system. They hail, "This is the RS 'That's Gotta Sting.' We have no idea who you are, but our computer says you are a high priority target. Sorry, Captain, orders are orders.".</text>
 	<text>With the heavy Rebel presence in this sector it was only a matter of time until you would run into one of their cruisers. They send a short message. "This is the RS 'Rock And Roll Hootchie Coo'. Our logs show you as a threat level 20 Federation unit. We will open fire with our full weapon array." Fleeing seems to be a suitable option here... still, taking out a cruiser would surely throw the Rebel fleet into disarray.</text>
 	<text planet="PLANET_POPULATED_SMALL">A cruiser is refueling at a supply-orbital near the beacon. You try to lay low but they passively scan you and immediately detach from the station to attack. A Rebel officer is put on the comms, "This is the RS 'Slippery When Wet' We have been ordered to terminate you. Goodbye."</text>
-	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements.  A small Rebel fleet is in orbit with many ships ferrying back and forth.  It must be a more recently 'liberated' planet. One of the cruiser, identifying as RS "Discount Muffler", breaks formation and moves in to intercept you.</text>
-	<text>You enter a system bustling with Rebel activity.  Supply freighters and re-supply stations are dwarfed by a few heavy warships. At first you believe no one noticed you, but then one of the cruisers changes course and gets into an attack position. They identify as the RS "Space Radish".</text>
+	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements. A small Rebel fleet is in orbit with many ships ferrying back and forth. It must be a more recently 'liberated' planet. One of the cruiser, identifying as RS "Discount Muffler", breaks formation and moves in to intercept you.</text>
+	<text>You enter a system bustling with Rebel activity. Supply freighters and re-supply stations are dwarfed by a few heavy warships. At first you believe no one noticed you, but then one of the cruisers changes course and gets into an attack position. They identify as the RS "Space Radish".</text>
 
 
 	<text planet="PLANET_POPULATED_REAL">This planet is densely populated and orbited by several Rebel shipyards. It's hard to count all the cruisers that are manufactured here. A guard unit moves in to intercept and hails, "This is the RS 'Look, A Squirrel!.' We are surprised that you got here without anyone noticing you. Someone will get demoted for this. Anyway, we will deal with you now."</text>
 	<text>It seems like you luck came to an end. You run into a fully militarized Rebel cruiser that was just passing through this system. They hail, "This is the RS 'Up Your Kilt.' We have no idea who you are, but our computer says you are a high priority target. Sorry, Captain, orders are orders.".</text>
 	<text>With the heavy Rebel presence in this sector it was only a matter of time until you would run into one of their cruisers. They send a short message. "This is the RS 'Date Your Sister?' Our logs show you as a threat level 20 Federation unit. We will open fire with our full weapons array.".</text>
 	<text planet="PLANET_POPULATED_SMALL">A cruiser is refueling on a supply-orbital near the beacon. You try to lay low but they passively scan you and immediately detach from the station to attack. A Rebel officer is put on the comms, "This is the RS 'Nocturnal Emission' We have been ordered to terminate you. Aloha."</text>
-	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements.  A small Rebel fleet is in orbit with many ships ferrying back and forth.  It must be a more recently 'liberated' planet. One of the cruiser, identifying as RS "Hula Girl On Your Dashboard", breaks formation and moves in to intercept you.</text>
-	<text>You enter a system bustling with Rebel activity.  Supply freighters and re-supply stations are dwarfed by a few heavy warships. At first you believe no one noticed you, but then one of the cruisers changes course and gets into an attack position. They identify as the RS "What Was Our Name Again?".</text>
+	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements. A small Rebel fleet is in orbit with many ships ferrying back and forth. It must be a more recently 'liberated' planet. One of the cruiser, identifying as RS "Hula Girl On Your Dashboard", breaks formation and moves in to intercept you.</text>
+	<text>You enter a system bustling with Rebel activity. Supply freighters and re-supply stations are dwarfed by a few heavy warships. At first you believe no one noticed you, but then one of the cruisers changes course and gets into an attack position. They identify as the RS "What Was Our Name Again?".</text>
 </textList>
 
 <event name="C_EVENT_REBEL_GUNBOAT">
@@ -3293,9 +3293,9 @@
 	<store/>
 </event>
 <textList name="STORE_REBEL">
-	<text>You discover a re-supply station used by Rebels and civilians alike.  You transmit your fake ship identification and for once, they don't seem to recognize your ship.  You try to assume the air of a local as you prepare to dock.</text>
+	<text>You discover a re-supply station used by Rebels and civilians alike. You transmit your fake ship identification and for once, they don't seem to recognize your ship. You try to assume the air of a local as you prepare to dock.</text>
 	<text>You arrive at a small space station that is putting out wide-band broadcasts on black market channels. You doubt they would turn away any business, regardless of allegiance.</text>
-	<text>You receive generic advertisements from a nearby public shipyard.  It seems they are willing to work on any ship, not only those of Rebel hue.</text>
+	<text>You receive generic advertisements from a nearby public shipyard. It seems they are willing to work on any ship, not only those of Rebel hue.</text>
 	<text planet="PLANET_POPULATED_REAL">A trade hub orbits this Rebel controlled planet. Propaganda is constantly broadcast on multiple channels. No Rebel ships are detected in the system so you decide to search for a grey market trader.</text>
 	<text planet="PLANET_POPULATED_REAL">A trade ship sells goods in the orbit of this planet. Security is lacking, they don't even check ship identification here.</text>
 </textList>
@@ -5503,7 +5503,7 @@
 	<text>You enter a system home to another robotic shipyard. Cargo transporters deliver resources and appear tiny in comparison to the massive autonomous factory cruisers. There is no way to know if the ships are aware of your presence, but for the meantime you are completely ignored. Better move on soon.</text>
 	<text>You arrive near a major refueling hub. Large solar panels power the installation and several auto ships are docked to refuel. Your ship is being scanned multiple times, but the auto forces do not react to your presence.</text> 
 	<text>There is not much of interest nearby. A small sun in the distance with a few orbiting planets in nearby space provide little of interest.</text>
-	<text planet="NONE">There are no other ships near this beacon, however you detect a small communications relay.  You try to tap into it; but the auto-chatter is heavily encrypted.</text>
+	<text planet="NONE">There are no other ships near this beacon, however you detect a small communications relay. You try to tap into it; but the auto-chatter is heavily encrypted.</text>
 	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with a few scattered settlements. Several automated cruisers are in orbit, deactivated and de-powered. Are they guarding the settlers? You refrain from attempting communication.</text>
 	<text planet="PLANET_UNPOPULATED">Countless ship-sized tunnels and mining shafts have been beam-drilled into the crust of this planet. All resources have long since been extracted, the automated miners have moved on.</text>
 	<text>A refugee caravan guarded by Auto-Fabricators is preparing for the long journey to another sector. The humanoids explain that the Rebels are resettling them. They surely must be aware that you are not supposed to be here, but no alarm is raised. You are unsure what to make of this.</text>
@@ -6126,7 +6126,7 @@
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Searching the remains, you find that the cargo was a military-grade drone schematics!  You bring them aboard to install it in your ship.</text>
+		<text>Searching the remains, you find that the cargo was a military-grade drone schematics! You bring them aboard to install it in your ship.</text>
 		<autoReward level="MED">drone</autoReward>
 	</event>
 	<event>
@@ -6551,7 +6551,7 @@
 <textList name="CE_REBEL_AUTO_CRUISER_CONSTRUCTION_PLANET_TEXT">
 	<text planet="PLANET_POPULATED_SMALL">There is a moon nearby housing a small colony. A dormant Rebel auto cruiser remains stationary in orbit. The ship must be here to either protect, or intimidate the settlers.</text>
 	<text planet="PLANET_POPULATED_SMALL">You arrive near a planetoid covered with industrial facilities. A few settlers still live among the factories. A huge automated cruiser ascends from the surface and takes defensive position in the outer orbit. The ship is not attacking yet.</text>
-	<text>A tiny moon nearby has been turned into a quarry of galactic proportions. Entire mountain-ranges have been excavated. A small  colony on the surface houses the only life forms in the entire system, but an automated cruiser is already mining the planet crust near the humble housing pods. If the machine continues its work apace, the settlers will soon be homeless.</text>
+	<text>A tiny moon nearby has been turned into a quarry of galactic proportions. Entire mountain-ranges have been excavated. A small colony on the surface houses the only life forms in the entire system, but an automated cruiser is already mining the planet crust near the humble housing pods. If the machine continues its work apace, the settlers will soon be homeless.</text>
 </textList>
 
 

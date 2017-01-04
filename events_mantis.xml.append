@@ -479,7 +479,7 @@
 	</choice>
 </event>
 <textList name="START_BEACON_MANTIS_TEXT">
-	<text>You've entered a poorly charted area of space that's known to be home to the Mantis.  Ensure your hull plating is up to scratch and that you have enough fuel in the tank to make it through.</text>
+	<text>You've entered a poorly charted area of space that's known to be home to the Mantis. Ensure your hull plating is up to scratch and that you have enough fuel in the tank to make it through.</text>
 	<text>You've arrived in a sector controlled by the Mantis. Their expansion to this sector has already cost many lives. You should be careful here.</text>
 	<text>You've entered a recently established Mantis hive cluster. Some civilian settlements remain, but most of the sentient individuals that lived here have been murdered or made their way out of the sector.</text>
 	<text>You've entered one of the many Mantis hive clusters. Traveling through these areas of space is no joke. You should be vigilant.</text>

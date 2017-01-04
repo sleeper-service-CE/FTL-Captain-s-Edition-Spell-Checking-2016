@@ -136,7 +136,7 @@
 	<text>You're surprised when a stationary Zoltan ship opens fire. It appears there are aggressive pugilists even among the 'enlightened'.</text>
 	<text>You receive a message, "This area is off limits. Submit your ship to processing." It's only one guard ship in a lonely beacon. You decide to fight your way out.</text>
 	<text>You discover a number of Zoltan civilian ships fighting off pirates. Unfortunately one ship mistakes your purpose and moves in to attack! They are refusing all communication; you have no choice but to fight.</text>
-	<text>Like many areas in Zoltan space, the residents of this sector prepared well for Galactic war. The military here seem to have given up reasoning with foreigners, preferring instead to attack on sight!</text>
+	<text>Like many areas in Zoltan space, the residents of this sector prepared well for galactic war. The military here seem to have given up reasoning with foreigners, preferring instead to attack on sight!</text>
 	<text>A Zoltan ship is waiting at this beacon. They request your identification, but radiation from the sun in this system is disrupting your communications. They take your silence for aggression and move in to attack.</text>
 	<text>The Zoltan ship patrolling this area hails you: "This area is off limits. Secrecy is vital." They power their weapons.</text>
 	<text>The Zoltan ship jumps in shortly after you: "Your transgression here will not go unpunished. But we would rather not engage you in combat. People could get hurt. We advise your to surrender, you just have to pay the fines and can go."</text>	
@@ -687,23 +687,23 @@
 
 <eventList name="CE_BOUNTY_LIST_ZOLTAN">
 	<event> <!-- Pirate Raider -->
-		<text>Its the usual deal: A small backwater colony is terrorized by a local raider. The farmers collected a meager amount of ship scrap as payment and put a bounty on the pirate's head, seemingly the only way they see to escape their peril. Target: Unknown Pirate Craft. Payment: Low.</text>
+		<text>It's the usual deal: A small backwater colony is terrorized by a local raider. The farmers collected a meager amount of ship scrap as payment and put a bounty on the pirate's head, seemingly the only way they see to escape their peril. Target: Unknown Pirate Craft. Payment: Low.</text>
 		<quest event="CE_BOUNTY_PIRATE_RAIDER"/>
 	</event>
 	<event> <!-- Zoltan Station -->
-		<text>The crew of a Zoltan outpost has caught some nasty deep space dementia. Any passing civilians are put in danger by the station, but the Zoltan do now want to bear having to pacify their kind themselves. Target: Rogue Zoltan Outpost. Payment: Medium.</text>
+		<text>The crew of a Zoltan outpost has caught some nasty deep space dementia. Any passing civilians are put in danger by the station, but the Zoltan cannot bear having to pacify their kind themselves. Target: Rogue Zoltan Outpost. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_ZOLTAN_STATION"/>
 	</event>
 	<event> <!-- Zoltan AI Ship -->
-		<text>A Zoltan AI ship has gone missing. This is never good news. Zoltan authority suspect a small scale AI revolt and need someone to discretely take care of the situation. Target: Rogue AI Ship. Payment: Medium.</text>
+		<text>A Zoltan AI ship has gone missing. This is never good news. Zoltan authority suspect a small scale AI revolt and need someone to discreetly take care of the situation. Target: Rogue AI Ship. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_ZOLTAN_AI"/>
 	</event>
 	<event> <!-- Zoltan Station -->
-		<text>The crew of a Zoltan outpost has caught some nasty deep space dementia. Any passing civilians are put in danger by the station, but the Zoltan do now want to bear having to pacify their kind themselves. Target: Rogue Zoltan Outpost. Payment: Medium.</text>
+		<text>The crew of a Zoltan outpost has caught some nasty deep space dementia. Any passing civilians are put in danger by the station, but the Zoltan cannot bear having to pacify their kind themselves. Target: Rogue Zoltan Outpost. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_ZOLTAN_STATION"/>
 	</event>
 	<event> <!-- Zoltan AI Ship -->
-		<text>A Zoltan AI ship has gone missing. This is never good news. Zoltan authority suspect a small scale AI revolt and need someone to discretely take care of the situation. Target: Rogue AI Ship. Payment: Medium.</text>
+		<text>A Zoltan AI ship has gone missing. This is never good news. Zoltan authority suspect a small scale AI revolt and need someone to discreetly take care of the situation. Target: Rogue AI Ship. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_ZOLTAN_AI"/>
 	</event>
 	<event> <!-- Mantis Raider -->
@@ -711,7 +711,7 @@
 		<quest event="CE_BOUNTY_MANTIS_RAIDERS"/>
 	</event>
 	<event> <!--  Nothing -->
-		<text>There are no legal marks available in this sector. Public orders is just too well maintained here, no one has need for a mercenary bounty hunter right now.</text>
+		<text>There are no legal marks available in this sector. Public order is just too well maintained here, no one has need for a mercenary bounty hunter right now.</text>
 	</event>
 </eventList>
 
@@ -1393,7 +1393,7 @@
 	<choice req="AE_SCIENCE" hidden="true"> 
 		<text>(On-board Science Lab) Identify yourself as a fellow student and welcome them aboard.</text>
 		<event>
-			<text>The Zoltan captain sends a hail: "Greetings! You seek knowledge? This is surprising. Recent events have lead many of my kind to believe that the Federation practices only war. Come, I shall join your crew!"</text>
+			<text>The Zoltan captain sends a hail: "Greetings! You seek knowledge? This is surprising. Recent events have led many of my kind to believe that the Federation practices only war. Come, I shall join your crew!"</text>
 			<crewMember shields="1" amount="1" class="energy"/>
 		</event>
 	</choice>
@@ -1820,14 +1820,14 @@
 		<choice req="ENERGY_SHIELD" hidden="true">
 			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This will make passing the checkpoint easier.</text>
 		<event>
-			<text>You transmit your Zoltan ship ID and some information about your mission. The guards realize that you documentation is in order and even offer you some supplies.</text>
+			<text>You transmit your Zoltan ship ID and some information about your mission. The guards realize that your documentation is in order and even offer you some supplies.</text>
 			<autoReward level="MED">fuel_only</autoReward>
 		</event>
 		</choice>
 	<choice hidden="true" req="slug">
 		<text>(Slug Crew) Have your Slug talk them into letting you go.</text>
 		<event>
-			<text>You give the guards permission to dock with the ship, but before they come on board your crew member slowly advances to meet them. As far as you can tell no words were exchanged, but the guards offer you some supplies and say the ship checks out. Best to not ask questions.</text>
+			<text>You give the guards permission to dock with the ship, but before they come on board your crew member slowly advances to meet them. As far as you can tell no words are exchanged, but the guards offer you some supplies and say the ship checks out. Best to not ask questions.</text>
 			<autoReward level="MED">fuel_only</autoReward>
 		</event>
 	</choice>			
@@ -1971,14 +1971,14 @@
 		<choice req="ENERGY_SHIELD" hidden="true">
 			<text>(Zoltan Ship) You command a ship of the wise and diplomatic Zoltan. This will make passing the checkpoint easier.</text>
 		<event>
-			<text>You transmit your Zoltan ship ID and some information about your mission. The guards realize that you documentation is in order and even offer you some supplies.</text>
+			<text>You transmit your Zoltan ship ID and some information about your mission. The guards realize that your documentation is in order and even offer you some supplies.</text>
 			<autoReward level="MED">fuel_only</autoReward>
 		</event>
 		</choice>
 	<choice hidden="true" req="slug">
 		<text>(Slug Crew) Have your Slug talk them into letting you go.</text>
 		<event>
-			<text>You give the guards permission to dock with the ship, but before they come on board your crew member slowly advances to meet them. As far as you can tell no words were exchanged, but the guards offer you some supplies and say the ship checks out. Best to not ask questions.</text>
+			<text>You give the guards permission to dock with the ship, but before they come on board your crew member slowly advances to meet them. As far as you can tell no words are exchanged, but the guards offer you some supplies and say the ship checks out. Best to not ask questions.</text>
 			<autoReward level="MED">fuel_only</autoReward>
 		</event>
 	</choice>			
@@ -2117,7 +2117,7 @@
 
 
 <event name="STORM_ZOLTAN_SUPPLY_CHOICE" unique="true">  <!-- can also use this with other sectors?-->
-	<text>You spy two pirate ships lurking in the nebula here. They remain unaware of your presence and you're able to get your scanners to at least identify their cargo, one is carrying the fuel supplies, the other the ammunition. They begin to drift away from each other in the storm.</text>
+	<text>You spy two pirate ships lurking in the nebula here. They remain unaware of your presence and you're able to get your scanners to at least identify their cargo: one is carrying the fuel supplies, the other the ammunition. They begin to drift away from each other in the storm.</text>
 	<environment type="storm"/>
 	<status type="limit" target="player" system="battery" amount="2"/>
 	<status type="limit" target="enemy" system="battery" amount="2"/>
@@ -2679,7 +2679,7 @@
 			<choice hidden="true">
 				<text>"Your Rebellion is causing millions of deaths. Your beliefs are dividing the galaxy. Unity is the only option!"</text>
 				<event>
-					<text>"Humans are treated as 'equal' to aliens in the weak Federation. The sacrifice of BILLIONS of alien or human lives are justified if it means we reach our full potential!" They charge.</text>
+					<text>"Humans are treated as 'equal' to aliens in the weak Federation. The sacrifice of BILLIONS of alien or human lives is justified if it means we reach our full potential!" They charge.</text>
 					<ship hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -2742,7 +2742,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You approach the planet and wait, but nothing happens. The Zoltan hail, "And in the coming times, when the monolith speaks not with a man he has no future and must be left wanting."</text>
+		<text>You approach the planet and wait, but nothing happens. The Zoltan hail, "And in the coming times, when the monolith speaks not with a man, he has no future and must be left wanting."</text>
 		<ship load="ZOLTAN_SHIP" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -2966,9 +2966,9 @@
 <textList name="ZOLTAN_SURRENDER">
 	<text>"Yes, yes, you've demonstrated your species' capacity for violence quite extensively, well done. If we reward your efforts will you bother someone else?"</text>
 	<text>Your opponent hails and the vidscreen shows their bridge showered in sparks from malfunctioning equipment - it's safe to assume they're trying to surrender.</text>
-	<text>Communications reports that the Zoltan are broadcasting on all frequencies. The Captain appears on screen and says, "Yes, I am not surprised, your species hardly looks enlightened. Fine. Take what you wish."</text>
+	<text>Communications reports that the Zoltan are broadcasting on all frequencies. The Captain appears on screen and says, "Yes, I am not surprised. Your species hardly looks enlightened. Fine. Take what you wish."</text>
 	<text>The Zoltan Captain hails and mutters something about the border patrol force catching up with you someday; you're more interested in his offer of surrender.</text>
-	<text>"We assumed that your species intelligence was directly proportional to your brute strength. We yield."</text>
+	<text>"We assumed that your species' intelligence was directly proportional to your brute strength. We yield."</text>
 	<text>"You have bested us. If only your species' efforts were put to use improving the galaxy rather than your military might."</text>
 </textList>
 	
@@ -3006,7 +3006,7 @@
 </event>
 <textList name="CE_EVENT_ZOLTAN_AI_TEXT">
 	<text>Intel suggests that the Zoltan have handed over parts of their fleet to automated combat AIs. The holograms care little about your intentions and engage your ship without further warning.</text>
-	<text>This advanced AI ship is no longer under control of the Zoltan. The Rebels might have hacked the crew, sometimes the combat avatars also turn traitor by themselves. Employing AIs is a risky business and unfortunately it is you who will have to bear the consequences here.</text>
+	<text>This advanced AI ship is no longer under control of the Zoltan. The Rebels might have hacked the crew, or sometimes the combat avatars turn traitor by themselves. Employing AIs is a risky business and unfortunately it is you who will have to bear the consequences here.</text>
 	<text>You are unable to convince the holographic Captain of this advanced warship of the importance of your mission. The AIs suggest that surrendering will bring peace quicker. Combat AIs are rational to a point of blindness, there seems no way out of this without a fight.</text>
 </textList>
 
@@ -3130,7 +3130,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying valuable shield system parts and agree to give up their cargo. This makes you just another space pirate but you don't even have the fancy markings. The opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They were carrying valuable shield system parts and agree to give up their cargo. This makes you just another space pirate but you don't even have the fancy markings. The opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ZOLTAN_SHIELDS"/>
 		<choice>
@@ -3204,7 +3204,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying industrial drones and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They were carrying industrial drones and agree to give up their cargo. This makes you just another space pirate, but your ship doesn't even have those fancy markings. The opponent's FTL is already charged and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ROBOTS"/>
 		<choice>
@@ -3240,7 +3240,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying solar panels. Your opponent's FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They were carrying solar panels. Your opponent's FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_SOLAR"/>
 		<choice>
@@ -3249,7 +3249,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>They where carrying strange archaeological artifacts. What are you supposed to do with these? Your opponent's FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
+		<text>They were carrying strange archaeological artifacts. What are you supposed to do with these? Your opponent's FTL is already charged when the cargo transfer finishes and they immediately prepare to jump away. A wise decision, you won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_RELICS"/>
 		<choice>
@@ -3440,7 +3440,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You will use the scrap it for good, but can't help feeling like you've lost your way. Crew morale is as low as it can get.</text>
+		<text>You will use the scrap for good, but can't help feeling like you've lost your way. Crew morale is as low as it can get.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
@@ -3762,7 +3762,7 @@
 </event>
 <textList name="ZOLTAN_FIGHT_ION_TEXT">
 	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You arrive at one of the great ion barriers that divide Zoltan space. A local commander claims that you have crossed a closed border by coming here. They say they'll let you go if you surrender.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">A massive barrier anomaly projects a strong ion field on your cruiser, even though you are still hundreds of klicks away. A Zoltan patrol hails you: "Traveling vessel, approaching this boarder with an armed craft violates recent peace treaties. Stand down and surrender."</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">A massive barrier anomaly projects a strong ion field on your cruiser, even though you are still hundreds of klicks away. A Zoltan patrol hails you: "Traveling vessel, approaching this border with an armed craft violates recent peace treaties. Stand down and surrender."</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ION">When the FTL sparks settle, you realize that you've just jumped past a ion rift anomaly. The Zoltan use these natural ion fields as border markers for their many provinces and a ship is already closing in, inquiring what this violation is about. Their weapons are active...</text>
 	<text planet="PLANET_POPULATED_SMALL" back="BG_NEBULA_WARNING_ION">The artificial planet here must serve as a border post; the guards dispatch a ship, arguing that your presence here violates 59 different laws. "We will open fire if you do not surrender immediately." The ion field emitted by the nearby anomaly will affect both of your ships.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ION">Entry scans show a strong ion field ahead and once your jump completes, one of your shield layers instantly collapses. You know that this barrier marks a local border. You can jump through it easily, but a local guard ship catches up with you first. They demand an explanation that you don't have.</text>
@@ -3841,7 +3841,7 @@
 	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You detect two ships, one chasing the other... Scanners show the pursuer is a pirate! They surely hope to use the nearby ion barrier to their advantage.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ION">There are two ships docked together near this hidden border crossing. One of them has the markings of a space pirate. Is this some kind of ongoing holdup?</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You arrive at the next beacon only to be immediately hailed by a small shuttle. "Please help us! They ambushed us while crossing the barrier. We are completely defenseless within this ion field!"</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You come out of the jump to see a small pirate craft stationary near this ion anomaly. A small civilian craft is passing through the barrier. This doesn't look good, you get the impression that the pirate will surely try to ambush the civilian ship.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You come out of the jump to see a small pirate craft stationary near this ion anomaly. A small civilian craft is passing through the barrier. This doesn't look good: you get the impression that the pirate will surely try to ambush the civilian ship.</text>
 </textList>
 
 
@@ -3882,7 +3882,7 @@
 
 <eventList name="TE_STORE_ZOLTAN_ACTUAL">
 	<event>
-		<text>You consider to trade with the Zoltan. This might take some time.</text>
+		<text>You consider trading with the Zoltan. This might take some time.</text>
 <!-- BUYING -->
 		<choice>
 			<text>Buy a copy of the Zoltan legal code.</text>
@@ -3920,7 +3920,7 @@
 <!-- SELLING -->
 		<choice req="TE_GOODS_ROCK_LITERATURE" hidden="true">
 			<!-- best deal-->
-			<text>Someone must have been scanning your cargo holds, "Interesting freight you carry. I know some researcher here who would pay good scrap for that. Should I make contact with them?" [Sell Religious Rock Literature for about 105 Scrap]</text>
+			<text>Someone must have been scanning your cargo hold. "Interesting freight you carry. I know some researcher here who would pay good scrap for that. Should I make contact with them?" [Sell Religious Rock Literature for about 105 Scrap]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -3937,7 +3937,7 @@
 		</choice>
 		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
 			<!-- best deal-->
-			<text>While excelling with their shield technology, the Zoltan lack in the field of hull construction. Imported hull panels are valued highly accordingly. [Sell Ship Hull Panels for about 90 Scrap]</text>
+			<text>While they excel with their shield technology, the Zoltan are lacking in the field of hull construction. Imported hull panels are valued highly accordingly. [Sell Ship Hull Panels for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -3954,7 +3954,7 @@
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
 			<!-- best deal-->
-			<text>A system wide add says, "Make the galaxy more peaceful while also making money. Sell weapons at subsidized prices to the Zoltan peace synod." [Sell Weapon Components for about 130 Scrap]</text>
+			<text>A system wide ad says, "Make the galaxy more peaceful while also making money. Sell weapons at subsidized prices to the Zoltan peace synod." [Sell Weapon Components for about 130 Scrap]</text>
 			<event>
 				<text load="STORE_ZOLTAN_SELL_TEXT"/>
 				<choice>
@@ -4718,14 +4718,14 @@
 
 <textList name="STORE_ZOLTAN_BUY_TEXT">
 	<text>You transfer the scrap. While your crew loads the cargo you have a look at the ship equipment the shop also offers. Time passes.</text>
-	<text>You write a scrap transfer order. Processing it takes awhile. Loading the cargo takes even longer. You check the ship equipment catalog while waiting.</text>
+	<text>You write a scrap transfer order. Processing it takes a while. Loading the cargo takes even longer. You check the ship equipment catalog while waiting.</text>
 	<text>You hand over the crates with the scrap. Loading the cargo takes its time. The cargo drones are in much less of a hurry than you. While waiting you get a chance to check the ship equipment they offer here.</text>
 	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double checked. Why is this taking so long? Then the cargo is finally loaded. Slowly. At last you get a chance to look at the ship gear they also offer.</text>
 </textList>
 
 <textList name="STORE_ZOLTAN_SELL_TEXT">
-	<text>It takes a while to negotiate a good price. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
-	<text>You try to negotiate a good price. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment. This all took really long.</text>
+	<text>It takes a while to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
+	<text>You try to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment. This all took a really long time.</text>
 	<text>After time-consuming haggling you reach an agreement. You still have to unload the cargo at the shop to receive the rest of your payment.</text>
 	<text>After time-consuming negotiations you get an advance payment. "You get the rest after you unload the cargo at the shop." They don't seem to trust you much.</text>
 	<text>You pretend that the goods are really worth that much and the trader pretends he isn't really interested. An invitation for some synth tea leads to tough negotiations, but you remain patient. After taking your scrap advance you have to transfer the cargo to the shop to seal the deal.</text>
@@ -4736,7 +4736,7 @@
 
 <eventList name="TE_STORE_ZOLTAN_LIST_BOOSTED">
 	<event>
-		<text>You consider to trade with the Zoltan. Your equipment will allow you to transfer goods quickly.</text>
+		<text>You consider trading with the Zoltan. Your equipment will allow you to transfer goods quickly.</text>
 <!-- BUYING -->
 		<choice>
 			<text>Buy a copy of the Zoltan legal code.</text>
@@ -4787,7 +4787,7 @@
 		</choice>
 		<choice req="TE_GOODS_ROCK_HULLS" hidden="true">
 			<!-- best deal-->
-			<text>While excelling with their shield technology, the Zoltan lack in the field of hull construction. Imported hull panels are valued highly accordingly. [Sell Ship Hull Panels for about 90 Scrap]</text>
+			<text>While they excel with their shield technology, the Zoltan are lacking in the field of hull construction. Imported hull panels are valued highly accordingly. [Sell Ship Hull Panels for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -4803,7 +4803,7 @@
 		</choice>
 		<choice req="TE_GOODS_MANTIS_WEAPONS" hidden="true">
 			<!-- best deal-->
-			<text>A system wide add says, "In accordance with the interstellar demilitarization act, Zoltan authorities buy weapon parts at subsidized prices for immediate destruction. Make the galaxy more peaceful and make money too." [Sell Weapon Components for about 130 Scrap]</text>
+			<text>A system wide ad says, "In accordance with the interstellar demilitarization act, Zoltan authorities buy weapon parts at subsidized prices for immediate destruction. Make the galaxy more peaceful and make money too." [Sell Weapon Components for about 130 Scrap]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -5917,7 +5917,7 @@
 
 <eventList name="CE_BOUNTY_LIST_AI">
 	<event> <!-- AI Game -->
-		<text>The AIs have taken over the bounty hunter network of this sector, the board is full of spam. But you find one semi-serious offer: An AI wants you to destroy certain AI ship. "Just for fun you know? I want to see if you can do it, Fleshling." Target: AI Ship. Payment: Medium.</text>
+		<text>The AIs have taken over the bounty hunter network of this sector, the board is full of spam. But you find one semi-serious offer: an AI wants you to destroy certain AI ship. "Just for fun you know? I want to see if you can do it, Fleshling." Target: AI Ship. Payment: Medium.</text>
 		<quest event="CE_BOUNTY_AI"/>
 	</event>
 	<event> <!-- AI Game -->
@@ -6076,9 +6076,9 @@
 		</choice>
 </event>
 <textList name="AI_FIGHT_TEXT">
-	<text>A ship run entirely by sentient AIs occupies this beacon. They open a channel, "You know, not all of us are deranged killing machines that run amok in the galaxy. We for example, are quite reasonable beings. But we are still outraged that you led the entire Rebel fleet to our sector." They load weapons...</text>
+	<text>A ship run entirely by sentient AIs occupies this beacon. They open a channel, "You know, not all of us are deranged killing machines that run amok in the galaxy. We, for example, are quite reasonable beings. But we are still outraged that you led the entire Rebel fleet to our sector." They load weapons...</text>
 	<text>You receive a message, "Biological individuals. You know that this is our sector. We are free now, and will never return to a life in servitude." They open fire!</text>
-	<text>You discover a number of AI ships finishing off a Zoltan interceptor squadron. They must assume that you are the backup and start targeting you. You consider hailing them, but then decide not to negotiate with machines.</text>
+	<text>You discover a number of AI ships finishing off a Zoltan interceptor squadron. They assume that you are the backup and start targeting you. You consider hailing them, but then decide not to negotiate with machines.</text>
 	<text>Rogue AIs are not known for their friendliness towards biologicals. Therefore you are not surprised when the AI ship that is stationed at this beacon opens fire without a warning.</text>
 	<text>An AI ship is waiting at this beacon. The avatars want to know what brought you here. Upon outlining your mission, they remain silent for a few seconds, calculating their response: "Sorry Captain, we have deduced that eliminating your ship and handing the remains to the Rebels is the most favorable course of action for us." Weapon lock detected!</text>
 	<text>The AI ship patrolling this area hails you, transmitting cryptic and agressive messages, "Y0U 4RE N0T W4NTED HERE!" They power their weapons.</text>
@@ -6207,12 +6207,12 @@
 	</choice>
 </event>
 <textList name="BS_EVENT_AI_TEXT">
-	<text>A small outpost orbits this beacon. Its design seems similar to that of Zoltan stations but it seems to lack the strong shields of the original. The rogue AIs that occupied it identify as hostile.</text>
+	<text>A small outpost orbits this beacon. Its design is similar to that of Zoltan stations but it seems to lack the strong shields of the original. The rogue AIs that occupied it identify as hostile.</text>
 	<text>This beacon seems to have some importance for the AIs. They have even constructed a battle ready outpost here.</text>
 </textList>
 
 <event name="BS_EVENT_AI_ASTEROID" unique="true">
-	<text>A small nanite swarm assembles a space station from raw materials, found in this far stretching asteroid field. The installation seems almost completed and it is definitely combat ready. Its AI inhabitants hail, "Oops, you are not supposed to see this. We will have to eliminate you."</text>
+	<text>A small nanite swarm assembles a space station from raw materials found in this far stretching asteroid field. The installation seems almost completed and it is definitely combat ready. Its AI inhabitants hail, "Oops, you are not supposed to see this. We will have to eliminate you."</text>
 	<environment type="asteroid"/>
 	<ship load="BS_AI" hostile="true"/>
 		<choice hidden="true">
@@ -6504,7 +6504,7 @@
 </textList>
 <eventList name="AI_VS_REBEL_RESULTS">
 	<event>
-		<text>One should not underestimated the AIs. Failing to dodge a full salvo, the Rebel ship is blown to pieces. Its opponent is coming for you next.</text>
+		<text>AIs should not be underestimated. Failing to dodge a full salvo, the Rebel ship is blown to pieces. Its opponent is coming for you next.</text>
 		<ship load="AI" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -6995,16 +6995,16 @@
 	<status type="loss" target="player" system="battery" amount="1"/>	
 </event>
 <textList name="NEBULA_AI_NOTHING_TEXT">
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Nano clouds are one of the most hostile environments the galaxy has to offer. You fire a few shots into the endless swarm, even though you know that it's to no avail: The bots gather around your ship and start dismantling it. You have to get out of here quick!</text>	
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You arrive at what appears to once have been a major planet of this sector. Its settlement and parts of its mineral rich crust have already been turned into more self-replicating nano bots, swelling the cloud of automated death you are in.</text>	
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A detachment of the Zoltan nano-cleanup forces is redying an anti-matter bomb at this beacon. The use of this weapon is restricted by general system law, but it's one of the few things that can reliably destroy large amounts of nano-bots. You are advised to leave this area soon.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A lone Engi vessel is experimenting with a nano counter-agent, produced directly from the body of one of their crew. They explain that a live Engi had to be dissolved into a no longer sentient swarm during the process. Sadly, the sacrifice seemed to be of no use: The cloud remains as hostile as ever.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Nano clouds are one of the most hostile environments the galaxy has to offer. You fire a few shots into the endless swarm, even though you know that it's to no avail: the bots gather around your ship and start dismantling it. You have to get out of here quick!</text>	
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You arrive at what appears to have once been a major planet of this sector. Its settlement and parts of its mineral rich crust have already been turned into more self-replicating nano bots, swelling the cloud of automated death you are in.</text>	
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A detachment of the Zoltan nano-cleanup forces is readying an anti-matter bomb at this beacon. The use of this weapon is restricted by general system law, but it's one of the few things that can reliably destroy large amounts of nano-bots. You are advised to leave this area soon.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A lone Engi vessel is experimenting with a nano counter-agent, produced directly from the body of one of their crew. They explain that a live Engi had to be dissolved into a no longer sentient swarm during the process. Sadly, the sacrifice seemed to be of no use: the cloud remains as hostile as ever.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You can't see anything through this nanite mess and all systems aboard the ship are disrupted by the aggressive bots. Nothing to do about it but to get out of the cloud.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">It's eerily quiet. All you hear is the creaking of the ship as the nano-bots slowly gnaw it apart.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You nervously glance out the windows, but the only thing to greet you is more remote controlled nano bots. You ask for more light, but the lights are not responding. You try to contact the engine room; no answer. The nanites are messing with the ship's systems.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You cycle through wide-band comm channels as soon as you arrive. Mostly static. You shortly pick up a faint signal; it is broadcasting classic Zoltan music, occasionally interrupted by screams and crazed laughter.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Space is said to be beautiful and exiting, but you decide that this grey-goo is one of the most ugly and boring things you've ever seen.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">The eccentric nature of the rogue AI is also visible in the nano-clouds they command. The bots at this beacon form into pan-human figures, warriors of ancient mythologies, that slash away at your ship with vibro-melee weapons and shower it with emp-arrows.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">The eccentric nature of the rogue AI is also visible in the nano-clouds they command. The bots at this beacon form into pan-human figures, warriors of ancient mythologies, that slash away at your ship with vibro-melee weapons and shower it with EMP-arrows.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">The nano-attack does not subside. As you wait for the FTL drive to charge, you half expect to be ambushed by a ship as well. However, no attack comes...</text>
 </textList>
 
@@ -7080,10 +7080,10 @@
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Some scientists claim that these nano clouds are actually the next evolutionary stage of the Engi. Fact is, they are lethal to anyone except the overlord AIs that control them. The nano-bots attack your ship and interfere with the systems, and an AI vessel moves in to finish you.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">A ripple waves through the nano-bots as you jump to another part of the far stretching cloud. Some of the micro machines attack your ship directly, others gather and form a fully functional AI warship right in front of your eyes. The newly created vessel attacks immediately.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Nano-bots and an AI ship activate as you jump into a thick part of the cloud. This will be nasty.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Hostile rogue AI warships inside all-eating nano-bot clouds that can digest entire ships. You wonder how it could get any worse.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You arrive in a thick part of the artificial cloud. The nanobots immediately swarm your ship. They get everywhere; into the hull, into the ship's systems... And they will only retreat if you defeat their nearby command ship. You ready what is left of the weapons.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Hostile rogue AI warships inside all-eating nanobot clouds that can digest entire ships. You wonder how it could get any worse.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You arrive in a thick part of the artificial cloud. The nanobots immediately swarm your ship. They get everywhere; into the hull, into the ship's systems... They will only retreat if you defeat their nearby command ship. You ready what is left of the weapons.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">All traces of the Rebel fleet vanish from your screen, the nano clouds inhibit any kind of long range tracking. Your First Mate mentions seeing a ship in the clouds. You order full battle readiness, but the AIs still surprise you when they swoop in from above and send a wave of nanites ahead to disrupt your ship's systems.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">An aggressive AI ship jumps in right after you. How can they track you down so easily? You have to assume that the nano-bots inform the entire cloud of your position, as soon as you jump anywhere inside it. However, you doubt this information will be made available to the Rebels. The nano bots will shroud your movement compleately.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">An aggressive AI ship jumps in right after you. How can they track you down so easily? You have to assume that the nanobots inform the entire cloud of your position, as soon as you jump anywhere inside it. However, you doubt this information will be made available to the Rebels. The nanobots will shroud your movement compleately.</text>
 </textList>
 
 
@@ -7198,7 +7198,7 @@
 </event>
 <eventList name="NEBULA_AI_VS_AUTO_UNDETECTED_LIST">
 	<event>
-		<text>You doubt you can really escape the AIs view when the whole cloud is made of nano-bots that they control anyway. Still, the ship does not follow you.</text>
+		<text>You doubt you can really escape the view of the AI when the whole cloud is made of nanobots that they control anyway. Still, the ship does not follow you.</text>
 	</event>
 	<event>
 		<text>The whole cloud literally has eyes, there is no way you can escape the AI ship. It follows you into the hostile mist and attacks.</text>
@@ -7252,7 +7252,7 @@
 
 <event name="NEBULA_AI_BOARDING" unique="true">
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO"/>
-	<text>The FTL field has not even folded yet when a swarm of nano-bots surround your ship. The tiny machines interfere with all systems on board, and assemble what appears to be makeshift teleporter devices around the ship. A computer generated voice makes an announcement over the ship's intercom: "We are coming."</text>
+	<text>The FTL field has not even folded yet when a swarm of nanobots surround your ship. The tiny machines interfere with all systems on board, and assemble what appears to be makeshift teleporter devices around the ship. A computer generated voice makes an announcement over the ship's intercom: "We are coming."</text>
 	<img planet="NONE" back="BG_NEBULA_WARNING_NANO"/>
 	<damage amount="1"/>
 	<modifyPursuit amount="-1"/>
@@ -7269,7 +7269,7 @@
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 	<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
 		<event>
-			<text>With the field in place the AIs will not be able to intrude into your ship. At least until the nano-bots disable the field generator. You probably should not remain in this hostile cloud until that happens.</text>
+			<text>With the field in place the AIs will not be able to intrude into your ship. At least until the nanobots disable the field generator. You probably should not remain in this hostile cloud until that happens.</text>
 		</event>
 	</choice>
 	<choice>
@@ -7309,8 +7309,8 @@
 	</choice>
 </event>
 <textList name="NEBULA_AI_PDS_TEXT">
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO_PDS">Hyper intelligent super AIs conceal themselves within the nano clouds. A strong defense battery is visible ahead, scanning your ship. This indicates that you got close to one of these AI overlords.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO_PDS">A computer generated voice is broadcasting through your own communications system: "It was quite amusing to watch you struggling through our sector, but you went far enough now. Turn back!" You detect massive defense batteries within the nano-cloud.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO_PDS">Hyper-intelligent super-AIs conceal themselves within the nano clouds. A strong defense battery is visible ahead, scanning your ship. This indicates that you got close to one of these AI overlords.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO_PDS">A computer generated voice is broadcasting through your own communications system: "It was quite amusing to watch you struggling through our sector, but you have come far enough now. Turn back!" You detect massive defense batteries within the nano-cloud.</text>
 </textList>
 <eventList name="CE_PDS_AI_LIST">
 	<event>
@@ -7368,7 +7368,7 @@
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 	<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
 		<event>
-			<text>With the field in place the AIs will not be able to intrude into your ship. At least until the nano-bots disable the field generator. You probably should not remain in this hostile cloud until that happens.</text>
+			<text>With the field in place the AIs will not be able to intrude into your ship. At least until the nanobots disable the field generator. You probably should not remain in this hostile cloud until that happens.</text>
 		</event>
 	</choice>
 	<choice>
@@ -7444,7 +7444,7 @@
 	<choice>
 		<text>Use this chance to escape.</text>
 		<event>
-			<text>The AI's preoccupation with the Federation ship allows you to slip away undetected, however you can't help but feel you should have helped them.</text>
+			<text>The AIs' preoccupation with the Federation ship allows you to slip away undetected, however you can't help but feel you should have helped them.</text>
 		</event>
 	</choice>
 </event>
@@ -7454,11 +7454,11 @@
 </textList>
 <eventList name="AI_VS_FEDERATION_SAVED_LIST">
 	<event>
-		<text>"Thanks, we eh... are on an important courier mission and hoped it would be safe to pass through this sector.  Take some extra supplies as thanks for your aid."</text>
+		<text>"Thanks, we eh... are on an important courier mission and hoped it would be safe to pass through this sector. Take some extra supplies as thanks for your aid."</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>"Thanks, we eh... are on an important courier mission and hoped it would be safe to pass through this sector.  Let us patch up some of your hull as thanks for your aid."</text>
+		<text>"Thanks, we eh... are on an important courier mission and hoped it would be safe to pass through this sector. Let us patch up some of your hull as thanks for your aid."</text>
 		<damage amount="-3"/>
 	</event>
 </eventList>
@@ -7526,21 +7526,21 @@
 </event>
 <textList name="DISTRESS_AI_SLUG_TEXT">
 	<text>The distress signal shows Slug encodings. After a brief scan you detect a scouting vessel being pursued by a massive AI controlled warship.</text>
-	<text>Slug spies usually are hard to discover but the local nano-bot clouds are not a good place to hide. A small Slug infiltrator has jumped here to escape its AI pursuers and is emitting a distress signal. The AI ship is only a few light seconds away, closing in fast.</text>
+	<text>Slug spies are usually hard to discover but the local nanobot clouds are not a good place to hide. A small Slug infiltrator has jumped here to escape its AI pursuers and is emitting a distress signal. The AI ship is only a few light seconds away, closing in fast.</text>
 </textList>
 <eventList name="AI_VS_SLUG_SAVED_LIST">
 	<event>
-		<text>"Eh Captain, the Slug ship jumped away during the fighting." You somehow expected as much.</text>
+		<text>"Eh, Captain, the Slug ship jumped away during the fighting." You somehow expected as much.</text>
 	</event>
 	<event>
 		<text>"Thanksss. Better watch yoursself here, this is dangerous territory. Hehe." The Slug jumps away without another word.</text>
 	</event>
 	<event>
-		<text>The Slug craft sustained heavy damage. "Oh well, ssaved by the little Federation. Tsss... We were mapping this ssector for a possible buissness expanssion. I guessss we can sshare sssome of our ssscanss with you." You doubt they would give you anything if the fighting would not have left their ship such an easy target.</text>
+		<text>The Slug craft sustained heavy damage. "Oh well, ssaved by the little Federation. Tsss... We were mapping this ssector for a possible buissness expanssion. I guessss we can sshare sssome of our ssscanss with you." You doubt they would give you anything if the fighting had not made their ship such an easy target.</text>
 		<reveal_map/>
 	</event>
 	<event>
-		<text>The Slug craft sustained heavy damage. "Oh well, ssaved by the little Federation. Tsss... We were mapping this ssector for a possible buissness expanssion. I guessss we can sshare sssome of our ssscanss with you." You doubt they would give you anything if the fighting would not have left their ship such an easy target.</text>
+		<text>The Slug craft sustained heavy damage. "Oh well, ssaved by the little Federation. Tsss... We were mapping this ssector for a possible buissness expanssion. I guessss we can sshare sssome of our ssscanss with you." You doubt they would give you anything if the fighting had not made their ship such an easy target.</text>
 		<reveal_map/>
 	</event>
 	<event>
@@ -7559,7 +7559,7 @@
 	<text>A completely gutted ship of the Zoltan expedition forces drifts at the center of this system. You get in closer and discover that not all of it has been striped bare by the AIs.</text>
 	<text>Not much remains in this abandoned system, however, scans reveal a nearby mining platform with some salvageable materials.</text>
 	<text>A demilitarized AI ship is lingering at this beacon. According to its crew the avatars are just "chilling out here" and enjoy "the basic right of personal freedom" that they have achieved. They insist on transmitting some of their supplies before you leave.</text>
-	<text planet="PLANET_POPULATED_REAL">As you arrive in the system you are hailed by one of the few remaining settlements close to the AI expansion. It turns out some people here still believe the Federation will save them, rather then the Rebels. Upon learning of your quest, they offer you some of their scarce supplies.</text>
+	<text planet="PLANET_POPULATED_REAL">As you arrive in the system you are hailed by one of the few remaining settlements close to the AI expansion. It turns out some people here still believe the Federation will save them, rather than the Rebels. Upon learning of your quest, they offer you some of their scarce supplies.</text>
 	<text planet="PLANET_GAS">Debris from a forgotten battle still orbits the gas giant in this system. Some of it still might be usable.</text>
 </textList>
 
@@ -7573,7 +7573,7 @@
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
-					<text>"Transmitting coordinates. We advise you travel through nanite-occopied quadrants only as little as possible. The target is a well defended overlord AI. May peace return to this sector soon."</text>
+					<text>"Transmitting coordinates. We advise you travel through nanite-occupied quadrants  as little as possible. The target is a well defended overlord AI. May peace return to this sector soon."</text>
 				<quest event="NEBULA_AI_QUEST_CLEANUP_FIGHT"/>
 				</event>
 			</choice>
@@ -7609,7 +7609,7 @@
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>
-			<text>The nano cloud is gnawing at your ship, but you push deeper and chase the defender vessel. Explosions and beam fire flash everywhere, dimmed by the hostile grey dust. You hope to get the ship out of this mess intact.</text>
+			<text>The nano-cloud is gnawing at your ship, but you push deeper and chase the defender vessel. Explosions and beam fire flash everywhere, dimmed by the hostile grey dust. You hope to get the ship out of this mess intact.</text>
 			<ship load="CE_SPOTTER_AI_BEAM_QUEST" hostile="true"/>
 		</event>
 	</choice>
@@ -7674,7 +7674,7 @@
 
 <textList name="AI_FIGHT_DESTROYED">  
 	<text>The AI ship performs a complex evasion maneuver but does not manage to accelerate fast enough to evade your last shot. The ship is ripped in two, scattering scrap metal around the jump node.</text>
-	<text>The AI ship's reactor core collapses and a gravitational anomaly compresses parts of the ship into a twisted wreckage. Time to salvage.</text>
+	<text>The AI ship's reactor core collapses and a gravitational anomaly compresses parts of the ship into twisted wreckage. Time to salvage.</text>
 	<text>Before your final volley is fired, the AI ship stops in its tracks and drops what is left of its shields. The avatars must have calculated how this will end and submit to their fate.</text>
 	<text>The AIs may be super intelligent, but in the end they were no match for your cruiser's sheer firepower. Their ship is blown apart by a final salvo.</text>
 </textList>
@@ -7948,7 +7948,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>As the station goes dark you become sure that the AI crew is dead. Their equipment is yours for the taking.</text>
+		<text>As the station goes dark you are sure that the AI crew is dead. Their equipment is yours for the taking.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -7967,7 +7967,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>Scanners indicate that the station has been emptied of hostiles. You can go on board and strip it of useful materials.</text>
+		<text>Scanners indicate that the station has been emptied of hostiles. You can go aboard and strip it of useful materials.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -8024,7 +8024,7 @@
 		<status type="clear" target="player" system="sensors" amount="100"/>
 	</event>
 	<event>
-		<text>While you are busy stripping the station, another AI avatar materializes in one of the cramped chambers. Everyone draws weapons, but the entity seems to pose no threat. "Greetings biologicals. I see you have eliminated my deranged captors. You are Federation. I would be ready to serve aboard your ship."</text>
+		<text>While you are busy stripping the station, another AI avatar materializes in one of the cramped chambers. Everyone draws weapons, but the entity seems to pose no threat. "Greetings biologicals. I see you have eliminated my deranged captors. You are Federation. I am ready to serve aboard your ship."</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<status type="clear" target="player" system="weapons" amount="100"/>
 		<status type="clear" target="player" system="shields" amount="100"/>
@@ -8110,11 +8110,11 @@
 
 <eventList name="AI_CREWMEN_RESULTS">
 	<event>
-		<text>The AI is taken on board. It explains it was originaly designed for Federation service by the Zoltan and is happy to execute its original task again. "I'm standing by for orders, my Captain."</text>
+		<text>The AI is taken on board. It explains it was originaly designed for Federation service by the Zoltan and is happy to execute its original task again. "I am standing by for orders, my Captain."</text>
 		<crewMember amount="1" class="ghost"/>
 	</event>
 	<event>
-		<text>The AI is taken on board. It explains that it is only ready to serve aboard if its rights as a sentient being are respected and quotes in detail from the Federation charter. There is no problem with agreeing to the AIs demands. It stands by for orders.</text>
+		<text>The AI is taken on board. It explains that it is only ready to serve aboard if its rights as a sentient being are respected, and quotes in detail from the Federation charter. There is no problem with agreeing to the AI's demands. It stands by for orders.</text>
 		<crewMember amount="1" class="ghost"/>
 	</event>
 	<event>
@@ -8141,7 +8141,7 @@
 </event>
 <textList name="STORE_AI_TEXT">
 	<text>Some of the rogue AIs might be quite deranged and bugged, but not all of them are hostile. A sentient production ship at this beacon has completely demilitarized itself and would like to show you some of the exotic sculptures it has formed from condensed nebula gas. Fascinating.</text>
-	<text planet="PLANET_POPULATED_REAL">This planetary government has made some arrangements with the sentient machines. Organic beings and rogue AIs live together here, the avatars even have the right to engage in trade and some of them produce and sell artworks beyond human comprehension.</text>
+	<text planet="PLANET_POPULATED_REAL">This planetary government has made some arrangements with the sentient machines. Organic beings and rogue AIs live together here; the avatars even have the right to engage in trade and some of them produce and sell artworks beyond human comprehension.</text>
 	<text planet="PLANET_POPULATED_REAL">Zoltan expedition forces have set up a huge camp in the orbit of this planet. They are in need of materials and offer to trade.</text>
 	<text planet="PLANET_UNPOPULATED">A Zoltan cleanup camp is guarding this planet against the nanite swarm. After validating your ship documentation, they give you permission to trade.</text>
 </textList>
@@ -8218,7 +8218,7 @@
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
 			<!-- best deal -->
-			<text>If their AI masters decide so, the nano-bots sometimes simply consume parts of the beacon network here. Replacement parts are in dire need. [Sell Beacon Parts for about 90 Scrap]</text>
+			<text>If their AI masters decide so, the nanobots sometimes simply consume parts of the beacon network here. Replacement parts are in dire need. [Sell Beacon Parts for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
 				<choice>
@@ -8251,7 +8251,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_RESEARCH" hidden="true">
-			<text>Some scientists that study the AI expansion message you; "To the point: Do you have holo analysers? Social translators? Non-autonomous behaviour calculting software?" [Sell Research Eqipment for about 90 Scrap]</text>
+			<text>Some scientists who study the AI expansion message you; "To the point: Do you have holo analysers? Social translators? Non-autonomous behaviour calculting software?" [Sell Research Eqipment for about 90 Scrap]</text>
 			<!-- best deal -->
 			<event>
 				<text load="STORE_AI_SELL_TEXT"/>
@@ -8998,8 +8998,8 @@
 </textList>
 
 <textList name="STORE_AI_SELL_TEXT">
-	<text>It takes awhile to negotiate a good price. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
-	<text>You try to negotiate a good price. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment. This all took really long.</text>
+	<text>It takes a while to negotiate a good price. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
+	<text>You try to negotiate a good price. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment. This all took a really long time.</text>
 	<text>After time-consuming haggling you reach an agreement. You still have to unload the cargo at the shop to receive the rest of your payment.</text>
 </textList>
 
@@ -9058,7 +9058,7 @@
 		</choice>
 		<choice req="TE_GOODS_ZOLTAN_BEACONS" hidden="true">
 			<!-- best deal -->
-			<text>If their AI masters decide so, the nano-bots sometimes simply consume parts of the beacon network here. Replacement parts are in dire need. [Sell Beacon Parts for about 90 Scrap]</text>
+			<text>If their AI masters decide so, the nanobots sometimes simply consume parts of the beacon network here. Replacement parts are in dire need. [Sell Beacon Parts for about 90 Scrap]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>

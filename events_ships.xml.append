@@ -1532,10 +1532,10 @@
 	<text>The auto ship activates its self-destruct sequence. The resulting explosion will be quite hazardous.</text>
 	<text>Your receive a hail, "This is an automated message. Be advised that Rebel tech will never be left to the enemy. FTL overload activated." The AI will detonate its core.</text>
 	<text>The scanners show high energy spikes in the auto ship's main reactor. It seems it will try to suicide in order to deal some damage to your ship.</text>
-	<text>"Core breach! Warning! This unit has initiated a core breach.  Containment fields shutting down..." Now would probably be a good time to evacuate.</text>
+	<text>"Core breach! Warning! This unit has initiated a core breach. Containment fields shutting down..." Now would probably be a good time to evacuate.</text>
 	<text>FTL field arcs begin to flicker around the enemy ship as its FTL core energy levels start to climb beyond the safety limits.</text>
 	<text>"Critical damage sustained. Initializing self destruction protocol."</text>
-	<text>"This unit's remains shall not fall into the hands of the enemy." A tremendous spike in the enemy's FTL signature warns you that its core containment has been shut off.  This is going to sting...</text>
+	<text>"This unit's remains shall not fall into the hands of the enemy." A tremendous spike in the enemy's FTL signature warns you that its core containment has been shut off. This is going to sting...</text>
 	<text>FTL levels around the enemy suddenly increase tremendously as its FTL core starts to overload.</text>
 	 <text>Energy levels suddenly spike on the enemy craft. This is not good.</text>
 </textList>
@@ -1822,7 +1822,7 @@
 		<ship hostile="true"/>
 	</escape> 
 	<gotaway>
-		<text>Your crew reports, "Enemy FTL charge complete.  Brace!"</text>
+		<text>Your crew reports, "Enemy FTL charge complete. Brace!"</text>
 		<choice req="FTL_JUMPER" hidden="true"> 
 			<text>(Advanced Navigation AI) Say a quick prayer.</text>
 			<event>
@@ -2609,7 +2609,7 @@
 <ship name="C_FED_CRUISER_RESCUE" auto_blueprint="C_SHIPS_REBEL_CRUISER">
 	<escape  min="6" max="7" load="C_CRUISER_ESCAPE"/>
 	<gotaway>
-		<text>The Rebel cruiser jumps away, leaving a massive ripple in the fabric of space-time. They  must be contacting fleet command right now, informing every ship in the sector of your whereabouts. At least you can contact their would-be victim.</text>
+		<text>The Rebel cruiser jumps away, leaving a massive ripple in the fabric of space-time. They must be contacting fleet command right now, informing every ship in the sector of your whereabouts. At least you can contact their would-be victim.</text>
 		<modifyPursuit amount="1"/>
 		<choice hidden="true"> 
 			<text>Contact the survivors.</text>

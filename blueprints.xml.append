@@ -14179,7 +14179,7 @@
 	<title>Pegasus Missile</title>
 	<short>Pegasus</short>
 	<desc>Creative missile design allows for two projectiles for the cost of one!</desc>
-	<tooltip>Fires 2 missiles; 2 damage each; pierces  all shields.</tooltip>
+	<tooltip>Fires 2 missiles; 2 damage each; pierces all shields.</tooltip>
 	<!-- <desc>Power Req: 3    Fires 2 missiles that pierces through all shields and deals 2 damage. Consumes 2 missile per shot.</desc> -->
 	<damage>2</damage>
 	<stun>4</stun>

@@ -17879,7 +17879,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>It turns out that your opponent is quite terrified by Zoltan authority. In addition to transferring the agreed amount of supplies, they also insist on immediately repairing some of the the damage done to your ship.</text>
+		<text>It turns out that your opponent is quite terrified by Zoltan authority. In addition to transferring the agreed amount of supplies, they also insist on immediately repairing some of the damage done to your ship.</text>
 		<ship hostile="false"/>
 		<autoReward level="MED">standard</autoReward>
 		<damage amount="-5"/>
@@ -20205,7 +20205,7 @@
 	<event>
 		<text load="CE_RESEARCH_TEXT"/>
 		<choice req="ghost" hidden="true">
-			<text>Have your AI direct the research team to guaranty success.</text>
+			<text>Have your AI direct the research team to guarantee success.</text>
 			<event load="CE_RESEARCH_LIST_AI"/>
 		</choice>
 		<choice hidden="true">
@@ -24957,7 +24957,7 @@
 	<text>The Rockman says it despises the corrupt religious ruling class of its society, but it still turns to pray to the Gods in time of need.</text>
 	<text>The Rockman explains that the Rock religion is not inherently bad, the problem are the many extremists and corrupt individuals among the leading Rock basilisks.</text>
 	<text>The Rockman talks about its past. The being was working in a missile manufacturing plant with thousands of other workers. After many standard decades, it left and joined the Federation due to an unusual thirst for adventure.</text>
-	<text>The Rockman is busy carrying several containers of FTL fuel to the the engine room.</text>
+	<text>The Rockman is busy carrying several containers of FTL fuel to the engine room.</text>
 	<text>The Rockman is seriously wondering how it feels to be burned. You try to explain the sensation, but seem unable to convey the idea. "What do you mean by 'ardent', Captain?"</text>
 	<text>The Rockman explains that many of their former friends only treat them as a heretic for joining the Federation.</text>
 	<text>The Rockman admits it is, sometimes, longing for the dusty air of its home world. The being usually smashes something to get rid of the feeling.</text>
@@ -24993,7 +24993,7 @@
 	<text>Your Rockman is worried by all the hostility in this sector. "Battle is honorable, but endless battle brings only destruction." The conversation drifts off and the Rock crew member shares some memories of the Rock Grand Inquisition on the home worlds. A dark and ongoing chapter in its species history.</text>
 	<text>Your Rockman wonders if the ship will make it through this dangerous sector. "I'm not questioning your combat efficiency, but there is only so many hits a vessel can take. And we face many enemies..."</text>
 	<text>Your Rockman never thought it would face such great opponents as in this sector. "I fought the Rock Inquisition as a pirate for some years. Did you know that Captain?" The crew member claims the Inquisition would, had he ever been caught, thrown him alive into a sun. In order to "purify" the being.</text>
-	<text>All the combat in this sector reminds your Rockman of the the great battles its kind has fought.</text>
+	<text>All the combat in this sector reminds your Rockman of the great battles its kind has fought.</text>
 </textList>
 
 <eventList name="CE_CONVERSATION_ZOLTAN_GENERIC">
@@ -27919,7 +27919,7 @@
 	<text>The beacon is flagged as "liberated", but suprisingly there are no ships around. The fleet must have moved on already. You can't believe your luck.</text>
 	<text>You spot a few cruisers in the distance, but they move away quickly and do not seem to notice you. It is clear that you won't be always this lucky. You have to get out of Rebel territory immediately.</text>
 	<text>This beacon is under Rebel control, but the fleet has not reinforced this position and did not even leave a guard unit. A mistake you can now exploit.</text>
-	<text>The Rebels have already move past the beacon and suddenly you find yourself behind enemy lines. You try to lay low and it is only luck that there are so few ships in the the vicinity. A few auto scouts zip past, but do not actively scan and just seem to be dedicated to reach the front line as fast as possible.</text>
+	<text>The Rebels have already move past the beacon and suddenly you find yourself behind enemy lines. You try to lay low and it is only luck that there are so few ships in the vicinity. A few auto scouts zip past, but do not actively scan and just seem to be dedicated to reach the front line as fast as possible.</text>
 	<text>To your surprise, no hostile ships are in the area. The front line must have moved already. Large caravans of civilian ships slowly follow in the wake of the fleet. Are these sympathizers? Traders? The rebels families? You have to lay low, so you can't find out.</text>
 	<text>The Rebel guard units have been stationed far in the distance to deter any threads to a large civilian caravan. The people here naturally assume that you are a deserter or Rebel mercenary and engage in friendly chatting. They hope to found a new colony somewhere in conquered Rebel space, since their home planet has been devastated in the current conflict.</text>
 </textList>
@@ -28983,7 +28983,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You tell yourself that the mission is more important than these civilians. The live of millions depend on you. Your crew doesn't seem to see it exactly like that, but they follow their orders.</text>
+		<text>You tell yourself that the mission is more important than these civilians. The lives of millions depend on you. Your crew doesn't seem to see it exactly like that, but they follow their orders.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -32066,7 +32066,7 @@
 			<choice hidden="true">
 				<text>Continue...</text>
 				<event>
-					<text>Internal scans indicate that they teleported some advanced equipment. They are also deploying combat avatars to strengthen their numbers. You order your crew to fend of the the boarders and prepare to seize their gear.</text>
+					<text>Internal scans indicate that they teleported some advanced equipment. They are also deploying combat avatars to strengthen their numbers. You order your crew to fend off the boarders and prepare to seize their gear.</text>
 					<boarders min="1" max="3" class="ghost"/>
 					<autoReward level="LOW">standard</autoReward>
 				</event>

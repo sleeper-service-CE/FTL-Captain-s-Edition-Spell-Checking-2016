@@ -748,7 +748,7 @@
 
 <text name="tip_hull">Tip: Hull weapons deal double damage if they hit a room that does not have a system or a subsystem.</text>
 
-<text name="tip_charge">Tip: Charge weapons can be charged multiple times to generate more firepower.  You can save time and fire the weapon prematurely but it will have fewer shots ready as a result.</text>
+<text name="tip_charge">Tip: Charge weapons can be charged multiple times to generate more firepower. You can save time and fire the weapon prematurely but it will have fewer shots ready as a result.</text>
 
 <text name="tip_chain_laser">Tip: Chain lasers decrease their cooldown every time they fire. Check the green lights on the weapon to see how many times it has fired.</text>
 
