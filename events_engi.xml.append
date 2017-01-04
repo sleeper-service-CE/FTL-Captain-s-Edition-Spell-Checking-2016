@@ -202,12 +202,12 @@
 <textList name="NOTHING_ENGI_TEXT">
 	<text>The complex arrangements of ship hulls and FTL drive capacitors floating abandoned in space suggest the Engi were here not too long ago, but no longer.</text>
 	<text>You arrive at a green planet with great plains and rolling waterfalls. It would be of little interest to the Engi nearby.</text>  <!-- JUSTIN TO DO-  MAKE GREEN PLANET-->
-	<text>You have arrived near an Engi construction yard.  Most Engi maintain their bipedal appearance out of habit but here you see a number of Engi hives working together to create massive organic machines adept at building ships.  Truly a sight to behold.</text>
-	<text>Even though each "individual" Engi is made up of trillions of nanomachines, their culture still revolves around traditional social interactions.  A nearby station seems to be constructed for entertainment of passing Engi travelers.</text>
-	<text>You see a number of Engi space stations and fleets nearby.  Despite looking like piles of junk loosely tied together they are actually a model of efficiency.  They just lack a certain aesthetic emphasis in their construction.</text>
-	<text>This system appears quite peaceful.  You're not sure how long it'll last between the combined threats of the Rebels and Mantis.</text>
-	<text>There are a number of merchant ships passing through the area despite the threat of a Mantis invasion.  No doubt interested in buying the efficient technology of the Engi.</text>
-	<text>You see a small Rebel carrier in the distance.  You lay low and try to blend in with the other traffic.  However it's surprising to see a Rebel military ship alone deep in Engi space.</text>
+	<text>You have arrived near an Engi construction yard. Most Engi maintain their bipedal appearance out of habit but here you see a number of Engi hives working together to create massive organic machines adept at building ships. Truly a sight to behold.</text>
+	<text>Even though each "individual" Engi is made up of trillions of nanomachines, their culture still revolves around traditional social interactions. A nearby station seems to be constructed for entertainment of passing Engi travelers.</text>
+	<text>You see a number of Engi space stations and fleets nearby. Despite looking like piles of junk loosely tied together they are actually a model of efficiency. They just lack a certain aesthetic emphasis in their construction.</text>
+	<text>This system appears quite peaceful. You're not sure how long it'll last between the combined threats of the Rebels and Mantis.</text>
+	<text>There are a number of merchant ships passing through the area despite the threat of a Mantis invasion. No doubt interested in buying the efficient technology of the Engi.</text>
+	<text>You see a small Rebel carrier in the distance. You lay low and try to blend in with the other traffic. However it's surprising to see a Rebel military ship alone deep in Engi space.</text>
 	<text>The Engi seem to have avoided this particular node, along with every other life-form. You keep your eyes peeled for reasons why, but spin up the FTL without event.</text>
 	<text>A cluster of Engi satellites in orbit of a nearby planet are the only clue the mechanical species was ever here. You have other places to be.</text>
 </textList>
@@ -733,7 +733,7 @@
 
 <eventList name="ENGI_STATION_DISTRESS_LIST">
 	<event>
-		<text>You receive another message from the ship, this time with a Mantis at the comm.  "Foolish meatsacks," he yells.  Sensors indicate the ship is moving in to attack.</text>
+		<text>You receive another message from the ship, this time with a Mantis at the comm. "Foolish meatsacks," he yells. Sensors indicate the ship is moving in to attack.</text>
 		<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 			<text>(Teleporter Disruptor) The Mantis surely will try to board. Get our defenses online!</text>
 			<event>
@@ -843,7 +843,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You approach to find a Mantis ship assaulting a small Engi space station.  You prepare for a fight!</text>
+		<text>You approach to find a Mantis ship assaulting a small Engi space station. You prepare for a fight!</text>
 		<ship load="MANTIS_ENGI_STATION" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -1017,7 +1017,7 @@
 </event>
 
 <event name="ENGI_UNLOCK_2FAKE">
-	<text>You arrive at one of the Rebel bases that the Engi told you about.  It appears abandoned except for one scout ship.  Perhaps you could extract information from them.</text>
+	<text>You arrive at one of the Rebel bases that the Engi told you about. It appears abandoned except for one scout ship. Perhaps you could extract information from them.</text>
 	<ship load="REBEL_ENGI_UNLOCK_2FAKE" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -1066,7 +1066,7 @@
 </event>
 
 <event name="ENGI_UNLOCK_2REAL">
-	<text>You arrive at one of the Rebel bases that the Engi told you about.  It appears abandoned except for one scout ship.  Perhaps you could extract information from them."</text>
+	<text>You arrive at one of the Rebel bases that the Engi told you about. It appears abandoned except for one scout ship. Perhaps you could extract information from them."</text>
 	<ship load="REBEL_ENGI_UNLOCK_2REAL" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -1115,7 +1115,7 @@
 </event>
 
 <event name="ENGI_UNLOCK_3">
-	<text>You have finally caught up with the ships you've been hunting.  A hangar-sized cargo ship is being escorted by a number of Mantis ships.  As you reconsider the assault, a squadron of Engi ships with pirate emblems jump in and assist you.  You prepare to fight the Mantis but scans indicate they are manned by Rebels!</text>
+	<text>You have finally caught up with the ships you've been hunting. A hangar-sized cargo ship is being escorted by a number of Mantis ships. As you reconsider the assault, a squadron of Engi ships with pirate emblems jump in and assist you. You prepare to fight the Mantis but scans indicate they are manned by Rebels!</text>
 	<ship load="MANTIS_ENGI_UNLOCK_3" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -1999,21 +1999,21 @@
 		<choice hidden="true">
 			<text>Request fuel.</text>
 			<event>
-				<text>"Request granted.  Fuel transferring."</text>
+				<text>"Request granted. Fuel transferring."</text>
 				<autoReward level="HIGH">fuel</autoReward>
 			</event>
 		</choice>
 		<choice hidden="true">
 			<text>Request weapon.</text>
 			<event>
-				<text>"Request granted.  Weapon transferring."</text>
+				<text>"Request granted. Weapon transferring."</text>
 				<autoReward level="LOW">weapon</autoReward>
 			</event>
 		</choice>
 		<choice hidden="true">
 			<text>Request drone.</text>
 			<event>
-				<text>"Request granted.  Drone schematic transferring."</text>
+				<text>"Request granted. Drone schematic transferring."</text>
 				<autoReward level="LOW">drone</autoReward>
 			</event>
 		</choice>
@@ -4890,7 +4890,7 @@
 </event>
 <textList name="NOTHING_QUARANTINE_TEXT">
 	<text>As the blueish shimmer of FTL-charged particles fades away, you find yourself in a dead-silent part of the sector. However, you pick up several hundred objects floating in the space around the beacon, barely radiating any heat. They appear to be bodies - you have arrived at a graveyard for the victims of the plague.</text>
-	<text>Despite the local health crisis, this system appears quite peaceful.  You're not sure how long it'll last between the combined threats of the Rebels, Mantis and the disease.</text>
+	<text>Despite the local health crisis, this system appears quite peaceful. You're not sure how long it'll last between the combined threats of the Rebels, Mantis and the disease.</text>
 	<text planet="PLANET_POPULATED_SMALL">The nearby planet shows sign of habitation and great beauty. A rudimentary automated planetary defense system is looping its message into space, "Warning! Quarantine Level 5 in effect under FHA Act 22, article 11.2. Warning! Quarantine Level 5 ..."</text>
 	<text planet="PLANET_POPULATED_SMALL">All local news channels report exclusively on the current health crisis. Some journalists claim the disease is actually a virus-based bioweapon and was developed in the labs of a huge arms manufacturer.</text>
 	<text planet="PLANET_POPULATED_SMALL">The news network of this small planet broadcasts to the entire system. A virtual anchor man summarizes the current findings, which indicate that the plague is actually a nano virus, released by a deranged AI in a far away sector.</text>
@@ -5746,7 +5746,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>All hell breaks loose when the bay doors open. A team of humans runs for the ship. "We are Federation medical officers and advise you to get this ship out of here immediately; they are coming! Everyone but us is infected here!"  The crew fails to hold off the infected until the ship detaches. Some of the crazed beings enter the ship and several of your original crewmen are bitten.</text>
+		<text>All hell breaks loose when the bay doors open. A team of humans runs for the ship. "We are Federation medical officers and advise you to get this ship out of here immediately; they are coming! Everyone but us is infected here!" The crew fails to hold off the infected until the ship detaches. Some of the crazed beings enter the ship and several of your original crewmen are bitten.</text>
 		<boarders min="2" max="3" class="random"/>
 		<crewMember amount="-2" class="traitor"/>
 		<choice hidden="true">
@@ -6306,7 +6306,7 @@
 	<text>"Alright, you win! Here's some equipment from our stores, leave us alone!"</text>
 	<text>The ship repeatedly hails you. It looks like they want to surrender.</text>
 	<text>"You are considerably more well-armed than I would have thought. We surrender."</text>
-	<text>You get a frantic message, "Take everything we have!  Just don't kill us."</text>
+	<text>You get a frantic message, "Take everything we have! Just don't kill us."</text>
 	<text>"You have clearly bested us. We merely request our lives."</text>
 	<text>"Please cease fire, enough people are dying around these parts."</text>
 </textList>

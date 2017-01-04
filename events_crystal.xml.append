@@ -1154,7 +1154,7 @@
 
 
 <event name="CRYSTAL_FED_DESERTER" unique="true">
-	<text>For a moment you assume it's a glitch,  but no... you've found a Federation military ship! They hail you and, after some probing, reveal that they deserted the Federation fleet before stumbling into this sector while seeking refuge.</text>
+	<text>For a moment you assume it's a glitch, but no... you've found a Federation military ship! They hail you and, after some probing, reveal that they deserted the Federation fleet before stumbling into this sector while seeking refuge.</text>
 	<ship load="FED_SHIP" hostile="false"/>
 	<choice hidden="true">
 		<text>Offer supplies.</text>
@@ -1736,12 +1736,12 @@
 	<store/>
 </event>
 <textList name="STORE_CRYSTAL">
-	<text>You arrive in an area bustling with crystalline ships and stations.  A merchant quickly messages you, "You're from the outside, no? This is a great opportunity for both of us! Do you have anything you wish to sell or trade?"</text>
+	<text>You arrive in an area bustling with crystalline ships and stations. A merchant quickly messages you, "You're from the outside, no? This is a great opportunity for both of us! Do you have anything you wish to sell or trade?"</text>
 	<text>"Ah! Hello, aliens", says a rotund crystalline being on the vidscreen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
 	<text>You arrive at a trade depot and find a store that is willing to open communications with you. "I can't say I've traded with your kind before, but perhaps we could work out some sort of exchange."</text>
 	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realize it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vidscreen, "Long time since use universal translator necessary. Please, buy, buy!"</text>
 	
-	<text>You arrive in an area bustling with crystalline ships and stations.  A merchant quickly messages you, "You're from the outside, no? This is a great opportunity for both of us! Do you have anything you wish to sell or trade?"</text>
+	<text>You arrive in an area bustling with crystalline ships and stations. A merchant quickly messages you, "You're from the outside, no? This is a great opportunity for both of us! Do you have anything you wish to sell or trade?"</text>
 	<text>"Ah! Hello, aliens", says a rotund crystalline being on the vidscreen. "I hoped I would run into one of you. I am a collector of alien artifacts and hoped you would have some equipment to barter!"</text>
 	<text>You arrive at a trade depot and find a store that is willing to open communications with you. "I can't say I've traded with your kind before, but perhaps we could work out so sort of exchange?"</text>
 	<text>You receive an incoming transmission, but it seems badly garbled. Eventually you realize it's advertising an equipment store. "Apologies," says the vendor, when you finally get him on the vidscreen, "Long time since use universal translator necessary. Please, buy, buy!"</text>

@@ -7454,11 +7454,11 @@
 </textList>
 <eventList name="AI_VS_FEDERATION_SAVED_LIST">
 	<event>
-		<text>"Thanks, we eh... are on an important courier mission and hoped it would be safe to pass through this sector.  Take some extra supplies as thanks for your aid."</text>
+		<text>"Thanks, we eh... are on an important courier mission and hoped it would be safe to pass through this sector. Take some extra supplies as thanks for your aid."</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
-		<text>"Thanks, we eh... are on an important courier mission and hoped it would be safe to pass through this sector.  Let us patch up some of your hull as thanks for your aid."</text>
+		<text>"Thanks, we eh... are on an important courier mission and hoped it would be safe to pass through this sector. Let us patch up some of your hull as thanks for your aid."</text>
 		<damage amount="-3"/>
 	</event>
 </eventList>

@@ -1,4 +1,4 @@
-FTL-Captain-s-Edition-Spellchecking-2015
+FTL-Captain-s-Edition-Spellchecking-2016
 ========================================
 A community effort to spell check the FTL Captain's Edition mod for the roguelike game FTL by Subset Games.
 (2015 Rebirth Edition)
@@ -13,7 +13,7 @@ House rules:
 2. Only spell check things within <text> or <tooltip> capsules. Making changes anywhere else might mess thing up. Never write anything outside of any tags.
 3. Too long texts can cause instability. If you rephrase things, try not to exceed the number of characters the text originally had by too much, especially when the text was already pretty long. A few additional words won't matter if the text was sort too begin with, but somewhere beyond 250 characters the game gets iffy. Also tooltips and weapon description are often deliberately as short as they are, so don't extend them by too much or else they won't fit the UI.
 4. Don't add indent or any kinds of breaks in the text. FTL event texts need to be pure flowtext to work correctly.
-5. Please never make any direct changes in the choices that let the player us the combat augments. That will remove my ability to control these choices globally via find and replace. If you have suggestions how these choice texts could be improved then please post your suggestion as a comment in this repository.
+5. Please never make any direct changes in the choices that let the player use the combat augments. That will remove my ability to control these choices globally via find and replace. If you have suggestions how these choice texts could be improved then please post your suggestion as a comment in this repository.
 6. This repository is for spellchecking, not for sneaking changes you like to see into CE. The mod is free to use for anyone. If you have your own vision how of it should be than you can simply take a copy, make your modifications and release as your own flavour of CE. Here is not the place for this though.
 
 Sections that have not yet been checked by a third party include:
