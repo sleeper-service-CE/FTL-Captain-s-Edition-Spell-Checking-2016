@@ -8011,7 +8011,7 @@
 	<text>You are determined to not let this opponent get the upper hand. "Fire when ready!"</text>
 	<text>The combat noticeably strains the ship. Sparks fly from sealing panels and acrid smoke covers the floor. You smell burned plastic and you own sweat.</text>
 	<text>For a moment you are afraid of losing it. What if we don't make it? What if we can't escape or defeat the next enemy? You don't want to die! Then it passes... The crew does not seem to have noticed, or at least isn't showing it. You take a deep breath and re-collect yourself, then you ask for a situation report and try to focus on the battle.</text>
-	<text>The ships hull creak under the stress of the combat maneuvers. You hope the ship can take it.</text>
+	<text>The ship's hull creaks under the stress of the combat maneuvers. You hope the ship can take it.</text>
 	<text>Your fire tears away a huge section of the enemy plating. Good hit!</text>
 	<text>Hull plating is scattered into space as your shots impact on the enemy craft. You'll pick those up later.</text>
 	<text>Your opponent's hull is covered with glowing impact craters of various sizes. They won't be able to take this kind of punishment much longer.</text>
@@ -8137,7 +8137,7 @@
 	<text>You are determined to not let this opponent get the upper hand. "Fire when ready!"</text>
 	<text>The combat noticeably strains the ship. Sparks fly from wall panels and acrid smoke covers the floor. You smell burned plastic and you own sweat.</text>
 	<text>For a moment you are afraid of loosing it. What if we don't make it? What if we can't escape or defeat the next enemy? You don't want to die! Then it passes... The crew does not seem to have noticed, or at last isn't showing it. You take a deep breath and recollect yourself, then you ask for a situation report and try to focus on the battle.</text>
-	<text>The ships hull creak under the stress of the combat maneuvers. You hope the ship can take it.</text>
+	<text>The ship's hull creaks under the stress of the combat maneuvers. You hope the ship can take it.</text>
 	<text>Your fire tears away a huge section of the enemy plating. Good hit!</text>
 	<text>Hull plating is scattered into space as your shots impact on the enemy craft. You'll pick those up later.</text>
 	<text>Your opponent's hull is covered with glowing impact crater of various sizes. It won't be able to take this punishment for much longer.</text>
@@ -14571,7 +14571,7 @@
 	</event>
 </eventList>
 <textList name="CE_PLAYER_SURRENDER_ZOLTAN_TEXT">
-	<text>The Zoltan stand down and hails: "Splendit! We'd have it no other way. May our negations be fruitful!"</text>
+	<text>The Zoltan stand down and hails: "Splendid! We'd have it no other way. May our negations be fruitful!"</text>
 	<text>The Zoltan stand down and hails: "You demonstrate an usually amount of thoughtfulness here. We will let you go if you offer a surrender in in accordance with general system law."</text>
 	<text>Communications report that the Zoltan are answering you hail. The captain appears on screen and says, "Yes, you could not have withstand us anyway. Make you offer and we will settle with reporting you. Then leave this place immediately."</text>
 	<text>"You are right. This does not have to end in meaningless violence." The Zoltan suggest negotiating a fair surrender.</text>
@@ -15307,7 +15307,7 @@
 	<text>The Mantis stand down. "Fine. We will take any valuables that your ship holds. Don't you try anything."</text>
 	<text>The Mantis seem inclined to listen to your offer. "Shut up meatsack! Only talk to us about the supplies you will send. What do you have?"</text>
 	<text>"Really? Well we might leave you alive for now, but only to be slaughtered by our brothers soon. We have conditions."</text>
-	<text>A seasoned Mantis warrior appears on the vidscreen."Hugh? I hate it when they surrender... alright meatsack, what do you have?" You will have to hand over some supplies if your want to get away without a fight.</text>
+	<text>A seasoned Mantis warrior appears on the vidscreen."Huh? I hate it when they surrender... alright meatsack, what do you have?" You will have to hand over some supplies if your want to get away without a fight.</text>
 </textList>
 <textList name="CE_PLAYER_SURRENDER_MANTIS_FAIL_TEXT">
 	<text>The Mantis seem to care little about your white flag codes. "Hahaha sorry, but this will be way to much fun. We will tear you all to shreds soon!"</text>

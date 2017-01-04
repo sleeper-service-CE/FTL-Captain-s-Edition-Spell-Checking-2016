@@ -3439,7 +3439,7 @@
 
 <ship name="C_REBEL_GUNBOAT_TRAITOR" auto_blueprint="C_SHIPS_REBEL_GUNBOATS">
 	<escape chance="0.5" min="4" max="5">
-		<text>The patrol boat prepares to retreat. Your treacherous crewman want's to escape your vengeance.</text>
+		<text>The patrol boat prepares to retreat. Your treacherous crewman wants to escape your vengeance.</text>
 		<ship hostile="true"/>
 	</escape>
 	<gotaway>
@@ -4849,7 +4849,7 @@
 			<event load="C_REBEL_GUNBOAT_PDS_DELAYED_LIST"/>    
 		</choice>
 		<choice hidden="true">
-			<text>Transmit you situation data, wish them luck and continue the engagement on your own.</text>	
+			<text>Transmit your situation data, wish them luck and continue the engagement on your own.</text>	
 			<event/>    
 		</choice>
 	</surrender>
