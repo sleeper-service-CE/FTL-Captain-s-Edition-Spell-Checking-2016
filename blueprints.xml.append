@@ -6794,7 +6794,7 @@
 	<title>Scatter Laser Flak Gun</title>
 	<tip>tip_flak</tip>
 	<short>Scatter Flak</short>
-	<desc>Blasts scatter laser pellets across a wide area doing up to 5 damage. Excellent at taking down shields but hard to aim and can only damage ships hull.</desc>
+	<desc>Blasts scatter laser pellets across a wide area doing up to 5 damage. Excellent at taking down shields but hard to aim and can only damage ships' hull.</desc>
 	<tooltip>Fires scatter laser projectiles across a random area doing up to 5 damage.</tooltip>
 	<radius>80</radius>
 	<damage>1</damage>
