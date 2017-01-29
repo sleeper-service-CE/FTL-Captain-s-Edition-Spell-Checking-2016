@@ -9907,7 +9907,7 @@
 
 <eventList name="MERCENARY_WORK_LIST">
 	<event>
-		<text>"Wait, are you with the Federation proper? We where told to recruit auxiliary vessels to help defend our local Federation outpost, but you might want to aid them anyway. Not everyone has forgotten what the Federation has done for this sector. Please protect us from the Rebel!" They transmit the coordinates of a nearby Federation base under siege and urge you to hurry.</text>
+		<text>"Wait, are you with the Federation proper? We were told to recruit auxiliary vessels to help defend our local Federation outpost, but you might want to aid them anyway. Not everyone has forgotten what the Federation has done for this sector. Please protect us from the Rebel!" They transmit the coordinates of a nearby Federation base under siege and urge you to hurry.</text>
 		<quest event="FEDERATION_BASE_ASSIST"/>
 	</event>
 	<event>
