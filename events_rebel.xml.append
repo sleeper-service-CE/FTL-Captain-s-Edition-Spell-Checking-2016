@@ -6925,7 +6925,7 @@
 		</choice>
 </event>
 <textList name="NEBULA_INDUSTRIAL_SMOG_MED_AUTO_CONSTRUCTION_SHIPYARD_TEXT">
-	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">Particles emitted by an open space shipyard has turned this area into a hazard zone. The dust magnetizes onto your hull and might significantly decrease engine performance. This might proof problematic, as the shipyards construction unit has already acquired you.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">Particles emitted by an open space shipyard has turned this area into a hazard zone. The dust magnetizes onto your hull and might significantly decrease engine performance. This might prove problematic, as the shipyard's construction unit has already acquired you.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">The shields crackle as you jump into another deeply polluted part of the sector. A Rebel construction satellite is welding together an auto scout nearby. The unit immediately stops its work upon detecting you and sends a threatening text: "This is an automated message. Construction units in this sector are programmed to engage any non-Rebel crafts they encounter. Leave or be eradicated."</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">You jump into a thick dust cloud and discover an AI controlled construction satellite ahead. Most likely it is responsible for the pollution in this region, it must have constructed hundreds of ships here already. The unit is well armed and identifies you as hostile.</text>
 </textList>

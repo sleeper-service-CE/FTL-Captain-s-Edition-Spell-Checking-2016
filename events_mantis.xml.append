@@ -1693,7 +1693,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Prepare to fight</text>
+		<text>Prepare to fight.</text>
 		<event>
 		<text load="CE_PRE_FIGHT_TEXT"/>
 			<ship hostile="true"/>

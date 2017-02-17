@@ -1874,7 +1874,7 @@
 		</choice>
 	</destroyed>
 	<deadCrew>
-		<text>Their station goes quiet and you crew salvages as much as possible. Solid-PXt005 hails you, and again you have no idea where they are. "Nicely done Sir, we saw the whole thing. This place is too exposed, we need to jump now but you might find this useful. Good luck out here." They transmit some stolen Rebel security codes and the coordinates of an enemy weapons depot. That might be worth a look.</text>
+		<text>Their station goes quiet and your crew salvages as much as possible. Solid-PXt005 hails you, and again you have no idea where they are. "Nicely done Sir, we saw the whole thing. This place is too exposed, we need to jump now but you might find this useful. Good luck out here." They transmit some stolen Rebel security codes and the coordinates of an enemy weapons depot. That might be worth a look.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<quest event="BS_QUEST_REBEL_REWARD"/>
 	</deadCrew>
@@ -4599,7 +4599,7 @@
 
 <ship name="BS_SLAVER_HIDEOUT" auto_blueprint="BS_STATIONS_PIRATE">
 	<destroyed>
-		<text>The slaver station breaks apart. "I waited a long time for this, Captain. They will never harass this sector again." None of the slaves could have been saved. Your crewman stares at The station's wreckage for a long time.</text>
+		<text>The slaver station breaks apart. "I waited a long time for this, Captain. They will never harass this sector again." None of the slaves could have been saved. Your crewman stares at the station's wreckage for a long time.</text>
 		<autoReward level="MED">standard</autoReward>
 	</destroyed>
 	<deadCrew>

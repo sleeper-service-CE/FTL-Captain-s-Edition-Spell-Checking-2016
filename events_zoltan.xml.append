@@ -3020,7 +3020,7 @@
 		</event>
 	</choice>
 	<choice>
-		<text>They are an easy target. Size their cargo!</text>
+		<text>They are an easy target. Seize their cargo!</text>
 		<event>
 			<text>You are about to commit an act of piracy. This might disturb your crew.</text>
 			<choice hidden="true"> 
