@@ -8009,7 +8009,7 @@
 	<text>Hold it steady and stay on target... Just like in the simulations.</text>
 	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! You father would be proud.</text>
 	<text>You are determined to not let this opponent get the upper hand. "Fire when ready!"</text>
-	<text>The combat noticeably strains the ship. Sparks fly from sealing panels and acrid smoke covers the floor. You smell burned plastic and you own sweat.</text>
+	<text>The combat noticeably strains the ship. Sparks fly from sealing panels and acrid smoke covers the floor. You smell burnt plastic and your own sweat.</text>
 	<text>For a moment you are afraid of losing it. What if we don't make it? What if we can't escape or defeat the next enemy? You don't want to die! Then it passes... The crew does not seem to have noticed, or at least isn't showing it. You take a deep breath and re-collect yourself, then you ask for a situation report and try to focus on the battle.</text>
 	<text>The ship's hull creaks under the stress of the combat maneuvers. You hope the ship can take it.</text>
 	<text>Your fire tears away a huge section of the enemy plating. Good hit!</text>
@@ -25737,7 +25737,7 @@
 	<text>The AI Avatar explains that it is designed as a thinker, not a fighter. Physical trauma and weapon impacts will damage its bio-curcuits. The avatar will require medical attention and bio-stabilizers in case of injury, just like other crew.</text>
 	<text>The AI Avatar is calculating the likelihood of sustaining terminal damage in a "no-escape" scenario. "Hits to my station from certain advanced ship to ship weapons might instantly destroy my physical form. Please protect me, ok?" The entity smiles.</text>
 	<text>Your AI seems puzzled by the fact that you must breathe. It asks you if you are not afraid of forgetting to breathe when you are occupied. You are assuming it is trying to make a joke.</text>
-	<text>The AI requests you explain to it the concept of sleep. It asks you if you are not afraid of having your memory erased when you lose consciousness</text>
+	<text>The AI requests you explain to it the concept of sleep. It asks you if you are not afraid of having your memory erased when you lose consciousness.</text>
 	<text>Your AI wonders if you can be considered its parent. It says it expects you to take good care of it.</text>
 	<text>Your AI crew member asks you to describe the mating rituals associated with you species. It can't understand why you would chose such a cumbersome way to reproduce.</text>
 	<text>The AI tells you it does not want to accidentally be erased, and asks you to make sure you keep at least four copies of its data matrix stored on the ship computers.</text>
@@ -37887,7 +37887,7 @@ IDEAS
 		<text planet="PLANET_UNPOPULATED">You set the ship down on a barren colony planet. Your passengers, a mining crew, head off to their next standard-year shift. After receiving the meager payment that was agreed on, you and the crew take a quick stroll in the local town. A cattle market is on.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice>
-			<text>Buy a small heard of fine cattle.</text>
+			<text>Buy a small herd of fine cattle.</text>
 			<event>
 				<text>Sealing the documentation and driving the livestock into the cargo holds takes its time. You hope the animals survive all the usual breaches, fires, boarding crews and missile impacts...</text>
 				<modifyPursuit amount="1"/>

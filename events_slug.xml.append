@@ -3820,7 +3820,7 @@
 	<text>You find a busy Slug trade station hidden in this part of the nebula. They agree to let you dock and offer some services</text>
 	<text>A Slug station hails you shortly after you arrive, "Come travelerss, see our waress!"</text>
 	<text>As you jump in the crew already expects another Slug hacker trying to set your ship on fire. You are glad to just find a slimy Slug trade-post instead. They even offer their services to you. </text>
-	<text>This area of the nebula seems devoid of life, but as your charge your FTL a Slug station suddenly de-cloaks a few klicks behind you. They hail and explain that they are a trade-post open for buisness.</text>
+	<text>This area of the nebula seems devoid of life, but as you charge your FTL a Slug station suddenly de-cloaks a few klicks behind you. They hail and explain that they are a trade-post open for buisness.</text>
 </textList>
 <eventList name="BS_EVENT_SLUG_BLACKMARKET_NEBULA_TRADE">
 	<event>

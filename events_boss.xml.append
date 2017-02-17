@@ -4475,7 +4475,7 @@ IDEAS
 
 <eventList name="QUEST_FED_BATTLE_2">
 <event>
-	<text>You were supposed to meet up with your battle group here. However, only a few of the Federation ships have made it. "Free asset, be advised: Dynamic simulations no longer show any likelihood of overall success in this this sector. New orders from Federation high command suggest a full-out evacuation. But we have hear that you have a special mission. We'll do what we can to help."</text>
+	<text>You were supposed to meet up with your battle group here. However, only a few of the Federation ships have made it. "Free asset, be advised: Dynamic simulations no longer show any likelihood of overall success in this this sector. New orders from Federation high command suggest a full-out evacuation. But we have heard that you have a special mission. We'll do what we can to help."</text>
 	<fleet>fed</fleet>
 	<autoReward level="MED">weapon</autoReward>
 </event>
