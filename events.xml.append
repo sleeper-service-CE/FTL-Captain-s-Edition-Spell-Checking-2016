@@ -10137,7 +10137,7 @@
 	</event>
 	<event>
 		<text>You search the crewmen lying scattered throughout the enemy ship and identify one of the pirates as the wanted fugitive. It is not surprising that he has sustained heavy injuries in the heat of battle. He is unconscious and his life signs fade quickly.</text>
-		<choice>
+		<choice hidden="true">
 			<text>Perform first aid.</text>
 			<event>
 				<text>Despite your best effort the fugitive quickly succumbs to his wounds. You turn the body in and receive a cut of the bounty.</text>
