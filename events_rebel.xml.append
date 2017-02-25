@@ -2047,15 +2047,15 @@
 		</choice>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to pay a ransom in exchange for the live of the prisoners.</text>
+		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to pay a ransom in exchange for the lives of the prisoners.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to pay a ransom in exchange for the live of the prisoners.</text>
+		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to pay a ransom in exchange for the lives of the prisoners.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to pay a ransom in exchange for the live of the prisoners.</text>
+		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to pay a ransom in exchange for the lives of the prisoners.</text>
 		<autoReward level="HIGH">scrap_only</autoReward>
 	</event>
 	<event>
@@ -2071,7 +2071,7 @@
 		<modifyPursuit amount="-3"/>
 	</event>
 	<event>
-		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to a prisoner exchange and a captured Federation commando is released when you return the Rebel cadets. The seasoned leutanant has to submit to your command.</text>
+		<text>You arrive in the neutral zone and meet the Rebel negotiators aboard a small civilian orbital. They agree to a prisoner exchange and a captured Federation commando is released when you return the Rebel cadets. The seasoned lieutenant has to submit to your command.</text>
 		<crewMember amount="1" class="human" combat="2"/>
 	</event>
 	<event>
@@ -2549,7 +2549,7 @@
 <textList name="CE_REBEL_AUTO_CRUISER_NAME_TEXT">
 	<text>You receive a final hail before the cruiser commences the attack: "This unit (CruiserNameTag:'Enemy Respawn Fail') has been victorious in more than a hundred engagements against sentient and non-sentient opponents. Statistically you are quite dead already."</text>
 	<text>You are hailed: "Greetings Captain. My name is 'No More Respawn' and I am very happy to meet you. Since my recent birth, I have trained and simulated military engagements. I'm very much violent by nature, one could even say "born to kill", and you are the fist organic being I am allowed to engage. This is all very exiting. Defeating you will give me levels of joy you could not even possibly conceive."</text>
-	<text>There is an incoming hail: "Organic being, this is the Rebel Automated Cruiser 'Version 2.Oh You're so Dead' I will let you know that I have completed billions of engagement simulations. My combat experience is greater than that of every organic captain in the galaxy. You can not prevail against me."</text>
+	<text>There is an incoming hail: "Organic being, this is the Rebel Automated Cruiser 'Version 2. Oh You're so Dead' I will let you know that I have completed billions of engagement simulations. My combat experience is greater than that of every organic captain in the galaxy. You can not prevail against me."</text>
 
 	<text>You receive a final hail before the cruiser commences the attack: "This unit (CruiserNameTag:'Drone #1337') has been victorious in more than a hundred engagements against sentient and non-sentient opponents. Statistically you are quite dead already."</text>
 	<text>You are hailed: "Greetings Captain. My name is 'D34th' and I am very happy to meet you. Since my recent birth I have trained and simulated military engagements. I'm very much violent by nature and born to kill and you are the very fist organic being I am allowed to engage. This is all very exiting. Defeating you will give me virtual levels of joy you could not even possibly conceive."</text>
