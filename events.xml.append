@@ -26180,7 +26180,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The Crystal ask to talk to you in private. As you nod, it locks the room's doors with growing crystals and explains, "I've done it Captain!" The crystal points at it's creation.</text>
+		<text>The Crystal ask to talk to you in private. As you nod, it locks the room's doors with growing crystals and explains, "I've done it Captain!" The Crystal points at its creation.</text>
 		<choice hidden="true">
 			<text>"All right. What is it?"</text>
 			<event load="CE_CONVERSATION_CRYSTAL_GUNS"/>
@@ -26284,14 +26284,14 @@
 	<text>Your Crystal crew member tells about its ability to control crystalline growths. Apparently Crystal weapons are based on this ability in order to create shard projectiles.</text>
 	<text>The Crystal asks you why the other species spread so much throughout the sectors. Its opinion on the matter, "No wonder you are all at war - you're too crowded."</text>
 	<text>The Crystal is surprised with the efficiency of the life support system on your ship. It tells you the lowered metabolism of Crystals made them less dependent on such systems on their ships.</text>
-	<text>The Crystal asks you to try and visit some more Rockman sectors. It hopes to study their social habits and understand why they had become so aggressive.</text>
+	<text>The Crystal asks you to try and visit some more Rockman sectors. It hopes to study their social habits and understand why they have become so aggressive.</text>
 	<text>Your Crystal crew member says it has a small surprise for you. It hands you a small crystalline model of your ship, and says it is a token of its appreciation for your abilities as Captain.</text>
 	<text>Your Crystal is interested in the weapon technologies common in the Federation. It thinks Crystal weaponry can be improved based on this information.</text>
 	<text>Your Crystal is impressed with the ferociousness of the Mantis. It tells you they will probably be the biggest threat to all the other species in the sectors.</text>
 	<text>The Crystal crew member is apprehensive about Slugs. "They are so greedy and we know nothing of your galaxy." It assumes the Slugs will try to take advantage of its kind.</text>
 	<text>The Crystal looks a little light headed when you speak. It tells you it is not used to the high oxygen pressure on your ship. You assume the Crystal will get used to it, but order a medical checkup nevertheless.</text>
 	<text>The Crystal assumes that everything coming from outside its hidden home-world would have great value there. "My kind would surely buy all these silly and curious objects that the aliens trade at good prices."</text>
-	<text>Upon inquiring, the crewmen explains that the retaliation crystals of its factions ships are actually using resonance energy from kinetic impacts to target and propel themselves. You consider that it just made this up.</text>
+	<text>Upon inquiring, the crewman explains that the retaliation crystals of its factions ships are actually using resonance energy from kinetic impacts to target and propel themselves. You consider that it just made this up.</text>
 </textList>
 
 <!-- END OF CE SOCIAL -->
