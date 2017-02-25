@@ -8911,7 +8911,7 @@ IDEAS
 		<text>You consider dealing with the trader. This might take some time.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy a some scarce raw materials.</text>
+			<text>Buy some scarce raw materials.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -8967,7 +8967,7 @@ IDEAS
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>There is always some madman that wants to settle the torn edge of the galaxy. And you can provide the nessesary equipment. [Sell Terraforming Gear for about 110 Scrap]</text> 
+			<text>There is always some madman that wants to settle the torn edge of the galaxy. And you can provide the necessary equipment. [Sell Terraforming Gear for about 110 Scrap]</text> 
 			<!-- best deal -->
 			<event>
 				<text load="STORE_HAZARD_SELL_TEXT"/>
@@ -9713,7 +9713,7 @@ IDEAS
 		<text>You consider dealing with the trader. The cargo teleporter will facilitate trading.</text>
 <!-- BUYING -->
 		<choice>
-			<text>Buy a some scarce raw materials.</text>
+			<text>Buy some scarce raw materials.</text>
 			<event>
 				<text load="STORE_BUY_TEXT_BOOSTED"/>
 				<item_modify>
@@ -9766,7 +9766,7 @@ IDEAS
 			</event>
 		</choice>
 		<choice req="TE_GOODS_INDUSTRIAL_TERRAFORMING" hidden="true">
-			<text>There is always some madman that wants to settle the torn edge of the galaxy. And you can provide the nessesary equipment. [Sell Terraforming Gear for about 110 Scrap]</text> 
+			<text>There is always some madman that wants to settle the torn edge of the galaxy. And you can provide the necessary equipment. [Sell Terraforming Gear for about 110 Scrap]</text> 
 			<!-- best deal -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
@@ -12852,7 +12852,7 @@ IDEAS
 		</choice>
 		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
 			<!-- best deal-->
-			<text>You brought this resources to the right place: prices for rare elements are excellent here. [Sell Rare Elements for about 130 Scrap]</text>
+			<text>You brought these resources to the right place: prices for rare elements are excellent here. [Sell Rare Elements for about 130 Scrap]</text>
 			<event>
 				<text load="STORE_OUTLAW_SELL_TEXT"/>
 				<choice>
@@ -12902,7 +12902,7 @@ IDEAS
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>The merchant looks at you cargo logs. "Serve drones... yeah, we always can use these. How much do you want?" [Sell Serve Drones for about 110 Scrap]</text> <!-- updated -->
+			<text>The merchant looks at your cargo logs. "Serve drones... yeah, we always can use these. How much do you want?" [Sell Serve Drones for about 110 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="STORE_INDUSTRIAL_SELL_TEXT"/>
 				<choice>
@@ -13701,7 +13701,7 @@ IDEAS
 		</choice>
 		<choice req="TE_GOODS_HAZARD_ELEMENTS" hidden="true">
 			<!-- best deal-->
-			<text>You brought this resources to the right place: prices for rare elements are excellent here. [Sell Rare Elements for about 130 Scrap]</text>
+			<text>You brought these resources to the right place: prices for rare elements are excellent here. [Sell Rare Elements for about 130 Scrap]</text>
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -13748,7 +13748,7 @@ IDEAS
 			</event>
 		</choice>
 		<choice req="TE_GOODS_ROBOTS" hidden="true">
-			<text>The merchant looks at you cargo logs. "Serve drones... yeah, we always can use these. How much do you want?" [Sell Serve Drones for about 110 Scrap]</text> <!-- updated -->
+			<text>The merchant looks at your cargo logs. "Serve drones... yeah, we always can use these. How much do you want?" [Sell Serve Drones for about 110 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
