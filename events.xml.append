@@ -25725,7 +25725,7 @@
 	<text>The AI Avatar explains that it can think almost a thousand times faster than you. Having a conversation with a sentient alien must be quite boring for it.</text>
 	<text>The AI Avatar explains that, while talking to you, it simultaneously talks to several other crew members over the intercom, analyses the ship's hull integrity, simulates possible combat encounters at the next beacon, downloads cute kitty videos from galaxy net and observes a nearby supernova.</text>
 	<text>The AI Avatar explains that, while talking to you, it simultaneously designs a virtual art piece, studies several forms of martial arts, monitors the crew's vital signs, analyses the secret data you carry, and makes statistic predictions on the outcome of the entire conflict.</text>
-	<text>The AI Avatar explains that, while talking to you, it simultaneously is busy developing ship weapons based on materials that do not yet exist, tracks all the paths of the debris in a nearby asteroid field, and simulates cooking every dish known to Slug history (apparently a lot).</text>
+	<text>The AI Avatar explains that, while talking to you, it simultaneously is busy developing ship weapons based on materials that do not yet exist, tracking all the paths of the debris in a nearby asteroid field, and simulating cooking every dish known to Slug history (apparently a lot).</text>
 	<text>The AI Avatar explains that, while talking to you, it simultaneously is analyzing sensor data, tracking all ships in scanner range, developing a cure for a minor outbreak of the flu aboard and... You interrupt and ask if it can also be less arrogant about its processing capabilities at the same time.</text>
 	<text>The AI Avatar explains that it thinks extremely fast. It even has special sub-routines for talking with organic beings, mainly there to keep it from becoming bored to death by the slow conversations.</text>
 	<text>Your AI crew member tells you it is happy to serve aboard your ship. It says it is better to be a sentient slave then not to be sentient at all. You wonder if this is supposed to be funny, honest or hidden criticism.</text>
@@ -25734,12 +25734,12 @@
 	<text>The AI wants to be a painter one day.</text>
 	<text>The AI considers becoming a doctor after this all is over. "I want to save lives for a change, Captain. Does all this destruction we cause not depress you?"</text>
 	<text>Upon inquiring, the AI explains how its generation unit works. Dynamic photon emitters and gravitational field generators create its physical body. Its "mind" is housed within an AI core that mimics an organic brain with extremely dense biological-circuits.</text>
-	<text>The AI Avatar explains that it is designed as a thinker, not a fighter. Physical trauma and weapon impacts will damage its bio-curcuits. The avatar will require medical attention and bio-stabilizers in case of injury, just like other crew.</text>
+	<text>The AI Avatar explains that it is designed as a thinker, not a fighter. Physical trauma and weapon impacts will damage its bio-circuits. The avatar will require medical attention and bio-stabilizers in case of injury, just like other crew.</text>
 	<text>The AI Avatar is calculating the likelihood of sustaining terminal damage in a "no-escape" scenario. "Hits to my station from certain advanced ship to ship weapons might instantly destroy my physical form. Please protect me, ok?" The entity smiles.</text>
 	<text>Your AI seems puzzled by the fact that you must breathe. It asks you if you are not afraid of forgetting to breathe when you are occupied. You are assuming it is trying to make a joke.</text>
 	<text>The AI requests you explain to it the concept of sleep. It asks you if you are not afraid of having your memory erased when you lose consciousness.</text>
 	<text>Your AI wonders if you can be considered its parent. It says it expects you to take good care of it.</text>
-	<text>Your AI crew member asks you to describe the mating rituals associated with you species. It can't understand why you would chose such a cumbersome way to reproduce.</text>
+	<text>Your AI crew member asks you to describe the mating rituals associated with your species. It can't understand why you would choose such a cumbersome way to reproduce.</text>
 	<text>The AI tells you it does not want to accidentally be erased, and asks you to make sure you keep at least four copies of its data matrix stored on the ship computers.</text>
 	<text>The AI says you should consider creating an AI avatar template based on your own persona. This way, other ship crews will be able to benefit from your skills. You tell the AI you will think about this.</text>
 	<text>Your AI asks if you will allow it to join an Engi hive after your mission is done. It thinks Engies are probably the only species which can truly understand AIs.</text>
@@ -25747,18 +25747,18 @@
 
 <eventList name="CE_CONVERSATION_AI_UPGRADES">
 	<event>
-		<text>"I have closely examined your life support system, Captain. I have rated it's effectiveness and come to a devastating verdict."</text>
+		<text>"I have closely examined your life support system, Captain. I have rated its effectiveness and come to a devastating verdict."</text>
 		<choice req="oxygen" max_lvl="1" max_group="0" blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
-				<text>"Permission to speak freely, Captain?" You nod. Where is this going? "Honestly Captain, I'm surprised that you are still alive. Your life support is barely rocket age, an antiquity by our standards. I simple 50k rewrite of the filter algorithms can improve it's efficiency by 30 percent. I already made the relevant alterations. Have a nice day, Captain." The hologram leaves you baffled.</text>
+				<text>"Permission to speak freely, Captain?" You nod. Where is this going? "Honestly Captain, I'm surprised that you are still alive. Your life support is barely rocket age, an antiquity by our standards. A simple 50k rewrite of the filter algorithms can improve its efficiency by 30 percent. I already made the relevant alterations. Have a nice day, Captain." The hologram leaves you baffled.</text>
 				<upgrade amount="1" system="oxygen"/>
 			</event>
 		</choice>
 		<choice req="oxygen" max_lvl="2" max_group="0" blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
-				<text>"The system is inefficient and primitive. You should probably worry more about that than me Captain, as I don't require clean air to breath, nor am I susceptible to heat, cold or radiation. You might want to invest some material into upgrading this system." You sarcastically thank the AI for its service. "A pleasure, my Captain."</text>
+				<text>"The system is inefficient and primitive. You should probably worry more about that than me Captain, as I don't require clean air to breathe, nor am I susceptible to heat, cold or radiation. You might want to invest some material into upgrading this system." You sarcastically thank the AI for its service. "A pleasure, my Captain."</text>
 			</event>
 		</choice>
 		<choice hidden="true">
@@ -25769,7 +25769,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>"I have closely examined your ships navigation computer, Captain. I have rated the helms effectiveness and come to a devastating verdict."</text>
+		<text>"I have closely examined your ship's navigation computer, Captain. I have rated the helms effectiveness and come to a devastating verdict."</text>
 		<choice req="pilot" max_lvl="1" max_group="0"  blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
@@ -25780,7 +25780,7 @@
 		<choice req="pilot" max_lvl="2" max_group="0"  blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
-				<text>"The system is primitive, but can not be upgrade without investing some materials." You sarcastically thank the AI for its service. "A pleasure, my Captain."</text>
+				<text>"The system is primitive, but cannot be upgraded without investing some materials." You sarcastically thank the AI for its service. "A pleasure, my Captain."</text>
 			</event>
 		</choice>
 		<choice hidden="true">
@@ -25791,18 +25791,18 @@
 		</choice>
 	</event>
 	<event>
-		<text>"I have closely examined your sensor system, Captain. I have rated it's effectiveness and come to a devastating verdict."</text>
+		<text>"I have closely examined your sensor system, Captain. I have rated its effectiveness and come to a devastating verdict."</text>
 		<choice req="sensors" max_lvl="1" max_group="0"  blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
-				<text>"Permission to speak freely, Captain?" You nod. Where is this going? "Honestly Captain, I'm surprised you can even detect me standing here. You never heard about passive subspace waves? Even your antique antenna can pick that up. I already reconfigured the buffers and sensor performance should have improved significantly. Have a nice day, Captain." The hologram leaves you baffled.</text>
+				<text>"Permission to speak freely, Captain?" You nod. Where is this going? "Honestly Captain, I'm surprised you can even detect me standing here. You've never heard about passive subspace waves? Even your antique antenna can pick that up. I already reconfigured the buffers and sensor performance should have improved significantly. Have a nice day, Captain." The hologram leaves you baffled.</text>
 				<upgrade amount="1" system="sensors"/>
 			</event>
 		</choice>
 		<choice req="sensors" max_lvl="2" max_group="0"  blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
-				<text>"The system is primitive, but can not be upgrade without investing some materials." You sarcastically thank the AI for its service. "A pleasure, my Captain."</text>
+				<text>"The system is primitive, but cannot be upgraded without investing some materials." You sarcastically thank the AI for its service. "A pleasure, my Captain."</text>
 			</event>
 		</choice>
 		<choice hidden="true">
@@ -25813,7 +25813,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>"I have closely examined your ship reactor, Captain. I have rated it's effectiveness and come to a devastating verdict."</text>
+		<text>"I have closely examined your ship reactor, Captain. I have rated its effectiveness and come to a devastating verdict."</text>
 		<choice req="reactor" max_lvl="24" blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
