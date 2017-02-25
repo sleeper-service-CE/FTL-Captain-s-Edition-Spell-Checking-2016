@@ -25593,38 +25593,38 @@
 	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters, relaxing with another crew member.</text>
 	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters, rehearsing a comedy play with another crew member. Right, that was this thing to "raise crew moral" that the Slug had planned for the next hyperspace jump...</text>
 	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters, busy making music together with another crew member.</text>
-	<text>The Slug seems bored with your conversation attempt. It mumbles something about your "sssslow communication sssskilsss". Must be frustrating to know what you are going to say before you say it!</text>
-	<text>The Slug advises you to put aside your morals and concentrate on a little more on this great chance to "dissscover ssssome valueblessss". You wonder what it means by "discover"...</text>
+	<text>The Slug seems bored with your conversation attempt. It mumbles something about your "sssslow communication sssskillsss". Must be frustrating to know what you are going to say before you say it!</text>
+	<text>The Slug advises you to put aside your morals and concentrate on a little more on this great chance to "dissscover ssssome valuablessss". You wonder what it means by "discover"...</text>
 	<text>Your Slug looks a little sad. When you ask it why, it tells you it misses the "sssstarlessss ssspaccce" of the nebula in its home sector.</text>
 	<text>Your Slug seems unfocused and absent minded. It suddenly snaps back to reality and explains it tried to telepathically scout the current sector, but is still not skilled enough for such a feat.</text>
 	<text>The Slug tells you it feels quite sorry for you, since you are so poor and without hope of reaching "the firssst sssstage of economic sssstability".</text>
-	<text>The Slug relates a tale of how it once served on a ship which managed to disable the life support system of a Rock cruiser and suffocate all the Rockman aboard. You can't help but shudder at the thought.</text>
+	<text>The Slug relates a tale of how it once served on a ship which managed to disable the life support system of a Rock cruiser and suffocate all the Rockmen aboard. You can't help but shudder at the thought.</text>
 	<text>Your Slug crew member is puzzled by the Rebels. It can't understand why humans would fight for anything other then gaining more wealth.</text>
 	<text>The Slug looks at your legs with amusement. It asks you how you can possibly keep upright and stable. "Tailssss are better!" it says in conclusion.</text>
 	<text>The Slug is sorry about the all the slime it leaves behind on the ship. It chuckles.</text>
 	<text>The Slug says that it can fix a good deal for you if you ever get to a Slug blackmarket.</text>
-	<text>The Slug wonders why you never consider surrendering when combat turns nasty. "Just sswallow your pride and give away ssome sscrap and fuel. Enemies do thiss all the time, iss thiss so difficult for you to do?"</text>
+	<text>The Slug wonders why you never consider surrendering when combat turns nasty. "Just sswallow your pride and give away ssome sscrap and fuel. Enemiess do thiss all the time, iss thiss so difficult for you to do?"</text>
 	<text>The Slug thinks you look stressed. It offers you a massage. You politely decline.</text>
 	<text>The Slug thinks you look stressed. It offers to cook up some real nice Slug specialty, to heighten your spirits. You politely decline the offer.</text>
-	<text>The Slug thinks you look stressed. "Is it about money, Captain? I can help you out... No risk involved." You seriously doubt that.</text>
+	<text>The Slug thinks you look stressed. "Isss it about money, Captain? I can help you out... No rissk involved." You seriously doubt that.</text>
 	<text>The Slug explains that Slug Gel is actually made of nanobots. "Ssome people believe we are ssome kind of mystical beingss. They buy our sslime and think it can fix hull breachess. It's like I would buy the air you exhale and hope it would cure my enzyme-gland problemss. Hehe, sstupid alienss."</text>
-	<text>The Slug suggests you engage in trade more often. "We could sell small arms to some pirate warloardss we come accross. What do you think?"</text>
-	<text>The Slug suggests you engage in trade more often. "We could ssell luxury goods to this arrogant living Glow-stickss."</text>
-	<text>The Slug suggests you engage in trade more often. "Transport ssome ore to my breathren, we don't have many asteroids in our nebula."</text>
+	<text>The Slug suggests you engage in trade more often. "We could sssell ssmall armss to sssome pirate warlordss we come accross. What do you think?"</text>
+	<text>The Slug suggests you engage in trade more often. "We could ssell luxury goodss to thessse arrogant living Glow-stickss."</text>
+	<text>The Slug suggests you engage in trade more often. "Transssport ssome ore to my brethren, we don't have many asteroidss in our nebula."</text>
 	<text>The Slug suggests you engage in trade more often. "I wass told that gass and ore are alwayss in demand in indussstrial sssectorss."</text>
 	<text>The Slug suggests you engage in trade more often. "Disseassse is spreading in the current crissis, or so I was told. If we can get some pharmaceuticalss we could sssell them in quarantined sectorss, for triple the price! We have to help thosse poor people."</text>
-	<text>The Slug suggests you engage in trade more often. "Most of my ssstupid colleaguess would sssell their father for ssome luxury trash from the core-worlds. Idiotss..."</text>
-	<text>The Slug suggests you engage in trade more often. "Think of it, you have a cruisser and a lot of cargo ssspace. If you play your cardss right we could all be rich. Maybe rich enough to buy oursselfss out of thisss horrible misssion..."</text>
+	<text>The Slug suggests you engage in trade more often. "Most of my ssstupid colleaguess would sssell their father for ssome luxury trash from the core-worldsss. Idiotss..."</text>
+	<text>The Slug suggests you engage in trade more often. "Think of it, you have a cruisser and a lot of cargo ssspace. If you play your cardss right we could all be rich. Maybe rich enough to buy oursselvess out of thisss horrible misssion..."</text>
 	<text>The Slug understands that greed is not the best foundation for a galactic civilization. "You ssee Captain, in the end, it doess not matter much. What people do and believe in doess not really affect how thingss turn out for them. It'ss mosstly about caussality and... luck. I believe in luck, Captain."</text>
 </textList>
 
 
 <textList name="CE_CONVERSATION_SLUG_NEBULA_TEXT">
 	<text>The Slug speaks before you can even open your mouth, "I know what your going to ssssay Captain. Not interessssted in talking about it!" Slugs can be quite annoying when they want to...</text>
-	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just staring out of the window Captain. Is it urgent?"</text>
-	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just staring out of the window Captain. Is it urgent?"</text>
-	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just staring out of the window Captain. Beautiful, isn't it? Is something required of me?"</text>
-	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just staring out of the window Captain. Beautiful, isn't it? Is something required of me?"</text>
+	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just ssstaring out of the window Captain. Iss it urgent?"</text>
+	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just ssstaring out of the window Captain. Iss it urgent?"</text>
+	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just ssstaring out of the window Captain. Beautiful, issn't it? Iss sssomething required of me?"</text>
+	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just ssstaring out of the window Captain. Beautiful, issn't it? Iss sssomething required of me?"</text>
 	<text>The Slug looks quite content. You ask it what it has been up to. "Just happy being around nebula. Nothing wrong with that, right? Do you like nebula?"</text>
 	<text>The Slug looks quite content. You ask it what it has been up to. "Just happy being around nebula. Nothing wrotn with that, right? Do you like nebula?"</text>
 	<text>The Slug looks quite content. You ask it what it has been up to. "Just happy being around nebula. Nothing wrotn with that, right? Do you like nebula?"</text>
