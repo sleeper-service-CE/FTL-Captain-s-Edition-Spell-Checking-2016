@@ -25969,7 +25969,7 @@
 	<event>
 		<text>As far as you can tell, the Lanius seems troubled. "This plain... hazard..." The Lanius gestures towards the ship doors. "Failure... there... Reshape... I?"</text>
 		<choice req="doors" max_lvl="2" hidden="true">
-			<text>"Eh, allright? Go ahead then."</text>
+			<text>"Eh, alright? Go ahead then."</text>
 			<event load="CE_CONVERSATION_LANIUS_RESHAPE_DOORS"/>
 		</choice>
 		<choice hidden="true">
@@ -25995,7 +25995,7 @@
 	<event>
 		<text>You ask the Lanius how it feels today. It proudly announces: "I am... ready to do sex, Captain." A few other crewmen nearby can't suppress a laughter. "I'm not joking, Captain. Give me metal and... I shall multiply!"</text>
 		<choice>
-			<text>"Alright, take some Metal."</text>
+			<text>"Alright, take some metal."</text>
 			<event load="CE_CONVERSATION_LANIUS_MULTIPLY"/>
 		</choice>
 		<choice hidden="true">
@@ -26007,7 +26007,7 @@
 	</event>
 </eventList>
 <textList name="CE_CONVERSATION_LANIUS_GENERIC_TEXT">
-	<text>Your Lanius crew member has a lot to say, but you forgot your universal translator on the bridge. Its speech sometimes includes seemingly random nouns in your language, but you can not gather what the crewmen wants to say.</text>
+	<text>Your Lanius crew member has a lot to say, but you forgot your universal translator on the bridge. Its speech sometimes includes seemingly random nouns in your language, but you cannot gather what the crewman wants to say.</text>
 	<text>The Lanius is nowhere to be found. The computer informs you that the crewman is in its personal quarters, absorbing its daily mineral ration.</text>
 	<text>The Lanius is nowhere to be found. The computer informs you that the crewman has gone into a quick stasis nap in its personal quarters.</text>
 	<text>The Lanius is nowhere to be found. The computer informs you that it is currently taking a walk outside, on the hull of the ship. You wonder if there is a article in Federation protocol that regulates this.</text>
@@ -26017,21 +26017,21 @@
 	<text>The Lanius is not very talkative. It just repeatedly mumbles a single word: "Eat..."</text>
 	<text>The Lanius is not very talkative. It just repeatedly mumbles a single word: "Metal..."</text>
 	<text>The Lanius is not very talkative. It just repeatedly mumbles a single word: "Metal..."</text>
-	<text>The Lanius tries to explain something, but the meaning is lost in translation. Both of you still have to learn a lot about each others language.</text>
-	<text>The Lanius tries to explain something, but the meaning is lost in translation. Both of you still have to learn a lot about each others language.</text>
+	<text>The Lanius tries to explain something, but the meaning is lost in translation. Both of you still have to learn a lot about each other's language.</text>
+	<text>The Lanius tries to explain something, but the meaning is lost in translation. Both of you still have to learn a lot about each other's language.</text>
 	<text>You find the Lanius polishing its arm blades in the main hold. You decide better not to disturb the being.</text>
 	<text>The Lanius states that, for a long time, it has killed and pillaged to survive. It wants to know how you evaluate this.</text>
-	<text>The Lanius tries to explain something, but the meaning is lost in translation. Both of you still have to learn a lot about each others language.</text>
+	<text>The Lanius tries to explain something, but the meaning is lost in translation. Both of you still have to learn a lot about each other's language.</text>
 	<text>You want to talk to the Lanius, but realize that your micro rebreather is completely depleted from the last conversation. Better not risk asphyxia just for a little chat. This will have to wait.</text>
-	<text>You Lanius explains that its kind has developed special oxygen suits. It prevent the Lanius body from absorbing too much O2 in closed environments. The suits are mostly used by diplomats and traders. Unfortunately, your crewmen did not bring one aboard.</text>
-	<text>The Lanius confesses that it finds your eating habits extremely strange. "For me... theses substances are dirt."</text>
+	<text>You Lanius explains that its kind has developed special oxygen suits. It prevent the Lanius body from absorbing too much O2 in closed environments. The suits are mostly used by diplomats and traders. Unfortunately, your crewman did not bring one aboard.</text>
+	<text>The Lanius confesses that it finds your eating habits extremely strange. "For me... these substances are dirt."</text>
 	<text>The Lanius found out that its quite real "heart of steel" is a strong metaphor in your language. The anaerobic being finds this quite fascinating. "Even as a metaphor... this might be the truth for the great number... of my metallic... friends."</text>
-	<text>You try to have a proper conversion with the Lanius but soon start to feel dizzy... what is happening? You cant breath... Shortly before passing out, you wave the Lanius away from you and head for the bulkhead. Their oxygen absorbing metabolism should not be underestimated. The crewmen later sends a crudely translate apology.</text>
-	<text>You picked up a few words of Lanic during your travel and use your little language skills to ask the crewmen how it feels today. It reacts with a gesture that, according to your pan-alien transcultural training, might indicate insult. Did you say something wrong?</text>
-	<text>The Lanius confesses that it finds your kind most unusual. "You are similar too... fictional characters from our... great text assortments. Almost like... not from this Galaxy? Scientific impossibilities!"</text>
-	<text>You picked up a few words of Lanic during your travel and use your little language skills to ask the crewmen how it feels today. It reacts with a gesture that, according to your pan-alien transcultural training, might indicate insult. Did you say something wrong?</text>	
+	<text>You try to have a proper conversion with the Lanius but soon start to feel dizzy... what is happening? You cant breathe... Shortly before passing out, you wave the Lanius away from you and head for the bulkhead. Their oxygen absorbing metabolism should not be underestimated. The crewman later sends a crudely translated apology.</text>
+	<text>You picked up a few words of Lanic during your travel and use your little language skills to ask the crewman how it feels today. It reacts with a gesture that, according to your pan-alien transcultural training, might indicate insult. Did you say something wrong?</text>
+	<text>The Lanius confesses that it finds your kind most unusual. "You are similar to... fictional characters from our... great text assortments. Almost like... not from this Galaxy? Scientific impossibilities!"</text>
+	<text>You picked up a few words of Lanic during your travel and use your little language skills to ask the crewman how it feels today. It reacts with a gesture that, according to your pan-alien transcultural training, might indicate insult. Did you say something wrong?</text>	
 	<text>The Lanius tries to explain that its species does not deserve the bad reputation it got. "Forceful acquisition is wrong... even by the standards of my living species. But my people are... hungry."</text>
-	<text>The Lanius mourns that its species demanding metabolism has caused the galaxy so much suffering. "We are no... villains Captain. We just... need to feed us."</text>
+	<text>The Lanius mourns that its species' demanding metabolism has caused the galaxy so much suffering. "We are no... villains Captain. We just... need to feed us."</text>
 	<text>The Lanius asks how much data you have about this sector. "Are there... metallic opportunities?"</text>
 	<text>You find the Lanius in the mess hall. While you eat your ration, a sluggish conversation ensues. After you finish eating, the Lanius points both its bladed arms at your synth-steel plate. "You... still eat him?" You slowly shake your head. The Lanius grabs the plate and absorbs it into its hand. "The best ration... on this plain, Captain. You should... train in it?"</text>
 </textList>
@@ -26042,11 +26042,11 @@
 		<choice hidden="true">
 			<text>"Yes, go ahead."</text>
 			<event>
-				<text>The Lanius nods overly enthusiastically. "I... understand... Captain." The Lanius heads off. You wonder if you really understood what this is about. A few minutes later, a internal damage warning pops up on your terminal. The Lanius has started to absorbe parts of your ship.</text>
+				<text>The Lanius nods overly enthusiastically. "I... understand... Captain." The Lanius heads off. You wonder if you really understood what this is about. A few minutes later, a internal damage warning pops up on your terminal. The Lanius has started to absorb parts of your ship.</text>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
-						<text>The rest of the crew informs you that the Lanius has started to fuse metal from the internal hull plating into various bulkhead doors. You order them to let the alien proceed with what it is doing. Looks like it is manually upgrading your doors using its inherent abilities. You hope the structural integrity will of the vessel will not suffer to much.</text>
+						<text>The rest of the crew informs you that the Lanius has started to fuse metal from the internal hull plating into various bulkhead doors. You order them to let the alien proceed with what it is doing. Looks like it is manually upgrading your doors using its inherent abilities. You hope the structural integrity of the vessel will not suffer too much.</text>
 						<upgrade amount="1" system="doors"/>
 						<damage amount="5"/>
 					</event>
@@ -26088,14 +26088,14 @@
 
 <eventList name="CE_CONVERSATION_LANIUS_MULTIPLY">
 	<event>
-		<text>The Lanius piles up some of the scrap from your holds. You wonder if you should actually be watching. The Lanius lifts one of its bladed arms, and extends the other in front of it. With a single swipe, and no mimic reaction, the crewmen cuts its own arm off, letting it fall into the scrap pile. "Reproduction complete, Captain. This was most private, but I understand that... you can not have manners."</text>
+		<text>The Lanius piles up some of the scrap from your holds. You wonder if you should actually be watching. The Lanius lifts one of its bladed arms, and extends the other in front of it. With a single swipe, and no mimic reaction, the crewman cuts its own arm off, letting it fall into the scrap pile. "Reproduction complete, Captain. This was most private, but I understand that... you cannot have manners."</text>
 		<item_modify>
 			<item type="scrap" min="-70" max="-50"/>
 		</item_modify>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
-				<text>Your crewmen's arm is already reforming while the cut of limb merges with the metal and turns it gray. After some time, the metal pile has formed into a Lanius body. The creature awakes and greets it's new environment with gargling noises, but it's creator seems to understand. You order the new crewmen to be tought a few words of Federation standard as fast as possible.</text>
+				<text>Your crewman's arm is already reforming while the cut of limb merges with the metal and turns it gray. After some time, the metal pile has formed into a Lanius body. The creature awakes and greets its new environment with gargling noises, but its creator seems to understand. You order the new crewman to be taught a few words of Federation standard as fast as possible.</text>
 				<crewMember amount="1" class="anaerobic"/>
 			</event>
 		</choice>
