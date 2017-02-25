@@ -29575,7 +29575,7 @@
 
 <eventList name="C_PIRACY_SUCCESS_LOOT_CIVILIAN_STATION">
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29584,7 +29584,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29593,7 +29593,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29602,7 +29602,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29611,7 +29611,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_CONSUMER"/>
 		<choice>
@@ -29620,7 +29620,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_CONSUMER"/>
 		<choice>
@@ -29648,7 +29648,7 @@
 	</event>
 
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29657,7 +29657,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29666,7 +29666,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29675,7 +29675,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29739,7 +29739,7 @@
 	</event>
 
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29748,7 +29748,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29757,7 +29757,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29766,7 +29766,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29812,7 +29812,7 @@
 	</event>
 
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29830,7 +29830,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29839,7 +29839,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29884,7 +29884,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29893,7 +29893,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29902,7 +29902,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29911,7 +29911,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29929,7 +29929,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ROBOTS"/>
 		<choice>
