@@ -1778,7 +1778,7 @@
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Searching the remains, you find that the cargo was a military-grade drone schematics! You bring them aboard to install it in your ship.</text>
+		<text>Searching the remains, you find that the cargo was military-grade drone schematics! You bring them aboard to install in your ship.</text>
 		<autoReward level="MED">drone</autoReward>
 	</event>
 	<event>
