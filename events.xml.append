@@ -352,7 +352,7 @@
 	</event>
 </eventList>
 <textList name="CE_RESIST_ION_TEXT">
-	<text>Your augmented projectors keep you shields up, even with the ion field present.</text>
+	<text>Your augmented projectors keep your shields up, even with the ion field present.</text>
 	<text>Your advanced field projectors can negate the effect of the ion field. This should keep your defenses up.</text>
 	<text>A few redundant projectors get fried, but you manage to keep the shields up despite the ion field. Time to focus on the hostile.</text>
 	<text>The projector is straining beyond its limits, but you allow some redundant components to fry in order to keep the shields up. The crew reports that your defenses remain fully functional.</text>
@@ -675,8 +675,8 @@
 	<text>The hangar doors open and the small weapon platform races into the darkness. It will begin firing shortly.</text>
 	<text>"Engineering reports: ASB armed and ready, Captain. Dispatching now."</text>
 	<text>"ASB fully responsive, Captain. Shells incoming."</text>
-	<text>The autonomous AI confirms it's fire mission: "Target received... Priming main clusters... Commencing attack in..."</text>
-	<text>The autonomous AI reports it's status: "Target acquired."</text>
+	<text>The autonomous AI confirms its fire mission: "Target received... Priming main clusters... Commencing attack in..."</text>
+	<text>The autonomous AI reports its status: "Target acquired."</text>
 	<text>The weapon AI reports: "Ammo capacity='100' Dispense Options='minimal_spread' ... - Beginning dispensing in: 10 ... 9 ... 8 ..."</text>
 	<text>You release the weapon platform far away from the hostile and then head into battle.</text>
 </textList>
@@ -1181,7 +1181,7 @@
 <textList name="CE_PRE_FIGHT_FIREWALL_TEXT">
 	<text>A few megawatts running through your hull plating should disrupt any hacker devices that get on your ship. The enemy hacking system will be rendered much less effective.</text>
 	<text>The real-space firewall is powered up. Their hacking attempts won't be very effective.</text>
-	<text>The crew feels a lot safer with this equipment active. The enemy will have a harder time messing with your ships systems now.</text>
+	<text>The crew feels a lot safer with this equipment active. The enemy will have a harder time messing with your ship's systems now.</text>
 	<text>The ultra hot firewall plating will obstruct enemy hacking drones from completely disrupting your ship.</text>
 	<text>You crew reports: "Firewalls heating up, Captain. We are physically protected against hacking devices."</text>
 	<text>"Confirming Captain, plating is going hot." You move in to engage.</text>
@@ -8004,7 +8004,7 @@
 	<text>You never saw the maneuvers your opponent is flying, but they are not without style. The enemy Captain must have been trained in some remote alien flight school.</text>
 	<text>The enemy craft seemed to have had some additional passengers aboard. Escape pods are jettisoned from the craft and tumble far away into open space. The enemy starts to abandon ship.</text>
 	<text>The dampeners run on full as you maneuver and exchange fire with your enemy. The heat aboard the ship becomes almost unbearable.</text>
-	<text>You stand in front of the captains chair, focused on the windscreen, bellowing orders to your crew. You will not let this opponent get the better of you!</text>
+	<text>You stand in front of the captain's chair, focused on the windscreen, bellowing orders to your crew. You will not let this opponent get the better of you!</text>
 	<text>Just after you bellowed this last order, everything becomes still for a second. You see yourself from the outside, clutched to one of the silver railings that lines the ship bridge, shouting orders, gesticulating at the screen... Then you remember your parents, your childhood, your time at the academy, the line of cause and effect that brought you here; to another fight to the death. What has become of you?</text>
 	<text>Hold it steady and stay on target... Just like in the simulations.</text>
 	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! You father would be proud.</text>
@@ -18840,7 +18840,7 @@
 
 
 <textList name="HYPERSPACE_TEXT">
-	<text back="BG_DARK" planet="PLANET_HYPERSPACE">Bands of light slowly swirls past the vidscreen while your ship accelerates in hyperspace. You consider your options.</text>
+	<text back="BG_DARK" planet="PLANET_HYPERSPACE">Bands of light slowly swirl past the vidscreen while your ship accelerates in hyperspace. You consider your options.</text>
 	<text back="BG_DARK" planet="PLANET_HYPERSPACE">You are on route towards another sector. Engineering asks for orders regarding fuel usage during the travel.</text>
 	<text back="BG_DARK" planet="PLANET_HYPERSPACE">Your ship slips into higher space and accelerates towards a different sector. How much fuel will you use during the long range travel?</text>
 	<text back="BG_DARK" planet="PLANET_HYPERSPACE">You managed to escape the Rebels and flee the sector. If you spend additional fuel during the long-range jump you might even get ahead of the fleet in the next one.</text>
@@ -24035,9 +24035,9 @@
 	<event>
 		<text load="CE_SOCIAL_HUMAN_HOME_TEXT"/>
 		<choice hidden="true">
-			<text>Dismiss your crewmen.</text>
+			<text>Dismiss your crewman.</text>
 			<event>
-				<text>The ship touches down on a small landing pad. Your crewmen's family is overjoyed by the unexpected return and brings various supplies to your ship to aid you on your journey. "Thank you, Captain. I'am needed here now. Good luck." Your team member hands over the Federation insignia, salutes a last time and disappears into the city streets.</text>
+				<text>The ship touches down on a small landing pad. Your crewmen's family is overjoyed by the unexpected return and brings various supplies to your ship to aid you on your journey. "Thank you, Captain. I am needed here now. Good luck." Your team member hands over the Federation insignia, salutes a last time and disappears into the city streets.</text>
 				<autoReward level="HIGH">standard</autoReward>
 				<removeCrew class="human">
 					<clone>false</clone>
@@ -24049,9 +24049,9 @@
 	<event>
 		<text load="CE_SOCIAL_HUMAN_HOME_TEXT"/>
 		<choice hidden="true">
-			<text>Dismiss your crewmen.</text>
+			<text>Dismiss your crewman.</text>
 			<event>
-				<text>The ship touches down on a small landing pad. Your crewmen's family is overjoyed by the unexpected return and give you a weapon they managed to hide from the Rebel requisition officers. "Thank you once more, Captain. I'am needed here now. Good luck." Your team member hands over the Federation insignia, salutes a last time and disappears into the city streets.</text>
+				<text>The ship touches down on a small landing pad. Your crewmen's family is overjoyed by the unexpected return and give you a weapon they managed to hide from the Rebel requisition officers. "Thank you once more, Captain. I am needed here now. Good luck." Your team member hands over the Federation insignia, salutes a last time and disappears into the city streets.</text>
 				<autoReward level="LOW">weapon</autoReward>
 				<removeCrew class="human">
 					<clone>false</clone>
@@ -24062,15 +24062,15 @@
 	</event>
 </eventList>
 <textList name="CE_SOCIAL_HUMAN_HOME_TEXT">
-	<text planet="PLANET_POPULATED">You locate your crew members home-planet, a busy trade world with loose ties to the Federation. Your crewmen should be able to lay low around here, but it is still unclear what will happen to this planet and its people when the Rebels take over the sector.</text>
-	<text planet="PLANET_UNPOPULATED">You locate your crew members home-planet, a small independent colony world with no strategic value. You crewmen will be able to rejoin with his/her family, but it is still unclear what will happen to this planet once the Rebels take over the sector.</text>
+	<text planet="PLANET_POPULATED">You locate your crew member's home-planet, a busy trade world with loose ties to the Federation. Your crewman should be able to lay low around here, but it is still unclear what will happen to this planet and its people when the Rebels take over the sector.</text>
+	<text planet="PLANET_UNPOPULATED">You locate your crew member's home-planet, a small independent colony world with no strategic value. You crewman will be able to rejoin with his/her family, but it is still unclear what will happen to this planet once the Rebels take over the sector.</text>
 </textList>
 
 
 
 <event name="CE_SOCIAL_HUMAN_LOVE">
 		<img planet="PLANET_GAS"/>
-		<text>You arrived at the presumed location of the slaver' hideout, which is, actually, nowhere to be found.</text>
+		<text>You arrive at the presumed location of the slaver hideout, which is, actually, nowhere to be found.</text>
 		<choice hidden="true" req="human">
 			<text>(Humanoid Crew) Have your crewman point you in the right direction.</text>
 			<event>
@@ -24187,8 +24187,8 @@
 	<text>Your humanoid crew member is too busy to talk.</text>
 	<text>Your humanoid crew member avoids the conversation.</text>
 	<text>Your humanoid crew member avoids the conversation.</text>
-	<text>The human is nowhere to be found. The computer informs you that The crewman is relaxing in their personal quarters.</text>
-	<text>The human is nowhere to be found. The computer informs you that The crewman is busy composing a letter to their family.</text>
+	<text>The human is nowhere to be found. The computer informs you that the crewman is relaxing in their personal quarters.</text>
+	<text>The human is nowhere to be found. The computer informs you that the crewman is busy composing a letter to their family.</text>
 	<text>Your humanoid crew member has relationship problems. You've heard it all before.</text>
 	<text>Your humanoid crew member thinks love is really complicated.</text>
 	<text>Your humanoid crew member wants to live a simple life when all this is over.</text>
@@ -24236,7 +24236,7 @@
 	<text>Your humanoid crew member tells you that the life support room has the freshest air on the ship.</text>
 	<text>Your humanoid crew member complains about the side-effect of the medbay drugs that keep them still standing and working.</text>
 	<text>Your humanoid crew member complains about the boring job on the shields they had on another ship, before they got into all this.</text>
-	<text>Your humanoid crew member acts tough on the outside, but confesses that they often feels insecure.</text>
+	<text>Your humanoid crew member acts tough on the outside, but confesses that they often feel insecure.</text>
 	<text>Your humanoid crew member is afraid to die. "Please tell me we will make it through this alive, Captain."</text>
 	<text>Your humanoid crew member is too busy to talk.</text>
 </textList>
@@ -24257,9 +24257,9 @@
 	<text>Your humanoid crew member spent some peaceful years as a farmer in this sector.</text>
 	<text>Your humanoid crew member went to Federation academy in this sector, and now wonders if the place is still standing.</text>
 	<text>Your humanoid crew member would like to live here, once the mission is finished.</text>
-	<text>Your humanoid crew member admitted that this sector is quite boring.</text>
+	<text>Your humanoid crew member admits that this sector is quite boring.</text>
 	<text>Your humanoid crew member explains that this sector houses two billion unique species of all kinds of non-sentient beings.</text>
-	<text>Your humanoid crew member reveals that he/she was actually not born naturally. The individual was tube bread as a vat grown soldier in a hidden Federation science base in this sector.</text>
+	<text>Your humanoid crew member reveals that he/she was actually not born naturally. The individual was tube bred as a vat grown soldier in a hidden Federation science base in this sector.</text>
 	<text>Your humanoid crew member was spending his/her youth on a busy urbanized world in this sector.</text>
 	<text>Your humanoid crew member reveals that he/she grew up on a small colony planet in this sector.</text>
 	<text>Your humanoid crew member worked a while in this sector.</text>
@@ -24393,7 +24393,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You inquire if your crewmen has made contact with the Engi collective recently. The crewmen states that a vessel of the Engi engineering corps has recently tried to establish a long-range link. "Unusual occurrence. Long range uplinking attempt = violation of current collective radio silence. Rebel deception possible."</text>
+		<text>You inquire if your crewman has made contact with the Engi collective recently. The crewman states that a vessel of the Engi engineering corps has recently tried to establish a long-range link. "Unusual occurrence. Long range uplinking attempt = violation of current collective radio silence. Rebel deception possible."</text>
 		<choice hidden="true">
 			<text>"It's worth a shot. The engineering corps might be able help us out."</text>
 			<event>
@@ -24462,7 +24462,7 @@
 		<choice>
 			<text>Move on.</text>
 			<event>
-				<text>You thank them for their offer but prepare to move on. Your crewmen has exchanged news with the collective.</text>
+				<text>You thank them for their offer but prepare to move on. Your crewman has exchanged news with the collective.</text>
 			</event>
 		</choice>
 	</event>
@@ -24530,7 +24530,7 @@
 
 <eventList name="SAVE_ENGI_ENGINEER_LIST">
 	<event>
-		<text>The engineering craft does not respond. After they intervened, the Rebel ship got a few shots off at them and the demilitarized vessel sustained terminal damage. Without emotion, your Engi crewmen suggest scrapping it for the good of the mission.</text>
+		<text>The engineering craft does not respond. After they intervened, the Rebel ship got a few shots off at them and the demilitarized vessel sustained terminal damage. Without emotion, your Engi crewman suggests scrapping it for the good of the mission.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
@@ -24564,12 +24564,12 @@
 	<text>The Engi crew member wants to discuss how to improve the ship's engines. It stresses the importance of mobility.</text>
 	<text>The Engi crew member claims it once survived being shot at with a scrap-firing flak gun. If you didn't know better, you'd say the robotic crewman is actually proud of the feat.</text>
 	<text>The Engi crew member stresses the importance of good medical facilities aboard the ship.</text>
-	<text>The Engi crew member talks in length about the advantages of a backup battery aboard space ship.</text>
+	<text>The Engi crew member talks in length about the advantages of a backup battery aboard the space ship.</text>
 	<text>The Engi crew member praises the advantages of new hacking systems that have become available all over the galaxy.</text>
 	<text>The Engi crew member tries to explain the neural-field tech on which mind control devices are based on.</text>
-	<text>The Engi crew member reveals interesting details about the advanced hacking systems its species is working on. The Engi where quick to adopt to this new technology.</text>
+	<text>The Engi crew member reveals interesting details about the advanced hacking systems its species is working on. The Engi were quick to adopt to this new technology.</text>
 	<text>The Engi crew member claims that its mind was once "hacked" by a hostile invader craft. The being lost control of its body and was forced to attack other crew members. You believe this must have been done by one of these new mind control systems available everywhere in the galaxy now.</text>
-	<text>The Engi crew member suggest the ship's door system should be carefully maintained. It seems to worry about hostile boarding parties.</text>
+	<text>The Engi crew member suggests the ship's door system should be carefully maintained. It seems to worry about hostile boarding parties.</text>
 	<text>The Engi crew member claims that it alone has witnessed over a hundred of its kind being killed by Mantis invaders during its long life. "Concept of 'hate' unavailable to Engi. Introduction to hive emotion matrix [only partial translation possible] necessary, in order to apply to Mantis species only."</text>
 	<text>The Engi crew member claims that it feels by your standard "indifferent" towards the Mantis as well as the Rebels. "Logic alone suggest peaceful coexistence as most favorable strategy for post FTL civilizations. Mantis and Rebel logic: flawed."</text>
 	<text>The Engi crew member has some kind of mechanical disease. "[translation failure] present. Infection risk for your species: 2.45 percent. Caution advised."</text>
@@ -24791,7 +24791,7 @@
 
 
 <textList name="CE_CONVERSATION_MANTIS_GENERIC_TEXT">
-	<text>Your Mantis crew member looks quite pleased with itself. When you ask why, it explains how it just figured out what a fortune it can make from selling Rebel POWs as slaves. You're not sure if you are happy that this crewmen is on your side.</text>
+	<text>Your Mantis crew member looks quite pleased with itself. When you ask why, it explains how it just figured out what a fortune it can make from selling Rebel POWs as slaves. You're not sure if you are happy that this crewman is on your side.</text>
 	<text>Your Mantis crew member speaks openly, but you forgot your universal translator on the bridge. You just hear a wide variation of soft clicking.</text>
 	<text>The Mantis is nowhere to be found. The computer informs you that the crewman is at its personal "lair," performing some Mantis war ritual.</text>
 	<text>The Mantis is nowhere to be found. The computer informs you that the crewman is in its personal "lair," training in claw combat.</text>
@@ -24865,7 +24865,7 @@
 		<choice>
 			<text>Allow the Rockman to convert the scrap into usable missiles.</text>
 			<event>
-				<text>Your crewman goes to work. "I learned this in my time with the resistance. This will bring the hurt, Captain" It's amazing what the Rockmen can do with such little material.</text>
+				<text>Your crewman goes to work. "I learned this in my time with the resistance. This will bring the hurt, Captain." It's amazing what the Rockmen can do with such little material.</text>
 				<item_modify>
 					<item type="scrap" min="-25" max="-15"/>
 					<item type="missiles" min="4" max="9"/>
@@ -24922,7 +24922,7 @@
 		<choice>
 			<text>Allow the Rockman to convert the scrap into usable missiles.</text>
 			<event>
-				<text>Your crewman goes to work. "I learned this in my time with the resistance. This will bring the hurt, Captain" It's amazing what the Rockmen can do with such little material.</text>
+				<text>Your crewman goes to work. "I learned this in my time with the resistance. This will bring the hurt, Captain." It's amazing what the Rockmen can do with such little material.</text>
 				<item_modify>
 					<item type="scrap" min="-25" max="-15"/>
 					<item type="missiles" min="4" max="9"/>
@@ -24965,9 +24965,9 @@
 	<text>Your Rockman just wants to emphazise that it will be loyal to you and smash the face of any alien that threatens the ship. You are glad the being is on your side.</text>
 	<text>Your Rockman is just absently mumbling something and moves on through the hallway. There was a time when a Captain's authority was respected more...</text>
 	<text>Your Rockman is fed up with the situation on the homeworlds. "I doubt my breathren will ever embrace change."</text>
-	<text>During the conversation, the Rockman reveals that one of the reasons for it to leave the home worlds is that it wasn't allowed to marry its great love. The couple was from different casts.</text>
+	<text>During the conversation, the Rockman reveals that one of the reasons for it to leave the home worlds is that it wasn't allowed to marry its great love. The couple was from different castes.</text>
 	<text>During the conversation, the Rockman reveals that several members of its family died by the hand of the Rock Grand Inquisition.</text>
-	<text>During the conversation, the Rockman says it is content to serve under your command, as you do not judge it by its low cast.</text>
+	<text>During the conversation, the Rockman says it is content to serve under your command, as you do not judge it by its low caste.</text>
 	<text>During the conversation, the Rockman explains that it would never have been able to get a position as good as this one in its home system because of its caste and low upbringing.</text>
 	<text>The Rockman has become quite bitter. "If you have to fight my kind, don't you worry too much. The Rock empires are ruled only by greed and money. Most of my people have become decadent extremists, they deserve to suffer so that they learn to change." You don't know what to make of this.</text>
 	<text>The Rockman asks which Federation Academy you attended. It proudly informs you that it has, for many standard years, studied ballistics and ship-to-ship combat at a Rock court school.</text>
@@ -24983,16 +24983,16 @@
 	<text>The Rockman is analyzing the damage to the ship. "The vessel isn't taking it too well, Captain".</text>
 	<text>The Rockman is busy sealing a micro breach.</text>
 	<text>The Rockman is thrilled by all the opportunities for combat in this sector. You ask it to remain disciplined. "Of course, Captain!"</text>
-	<text>The Rockman is remaining calm in face of all the dangers this sector holds. You are glad that some of your crewman possesses such self discipline.</text>
-	<text>The Rockman has been injured in one of the recent battles. You wonder how exactly the creature's body heals. The medical equipment aboard the ship has some special devices to deal with Rockman.</text>
+	<text>The Rockman is remaining calm in face of all the dangers this sector holds. You are glad that some of your crewmen possesses such self discipline.</text>
+	<text>The Rockman has been injured in one of the recent battles. You wonder how exactly the creature's body heals. The medical equipment aboard the ship has some special devices to deal with Rockmen.</text>
 	<text>The Rockman wisely advises you that a good offense often is the best defense.</text>
 	<text>The Rockman thinks the last battle was honorably fought.</text>
 	<text>The Rockman thinks the last battle was not so memorable.</text>
 	<text>The Rockman complains that you could have done better in some of the recent battles. "You shall contemplate on your tactics, Federation Captain."</text>
 	<text>Your Rockman says you are handling the situation well. They also claim that all the violence in this sector is nothing compared to what is going on in the Rock Homeworlds, where millions of religious dissidents have been dissolved alive in the system's acid clouds by the Rock Grand Inquisition.</text>
 	<text>Your Rockman is worried by all the hostility in this sector. "Battle is honorable, but endless battle brings only destruction." The conversation drifts off and the Rock crew member shares some memories of the Rock Grand Inquisition on the home worlds. A dark and ongoing chapter in its species history.</text>
-	<text>Your Rockman wonders if the ship will make it through this dangerous sector. "I'm not questioning your combat efficiency, but there is only so many hits a vessel can take. And we face many enemies..."</text>
-	<text>Your Rockman never thought it would face such great opponents as in this sector. "I fought the Rock Inquisition as a pirate for some years. Did you know that Captain?" The crew member claims the Inquisition would, had he ever been caught, thrown him alive into a sun. In order to "purify" the being.</text>
+	<text>Your Rockman wonders if the ship will make it through this dangerous sector. "I'm not questioning your combat efficiency, but there are only so many hits a vessel can take. And we face many enemies..."</text>
+	<text>Your Rockman never thought it would face such great opponents as in this sector. "I fought the Rock Inquisition as a pirate for some years. Did you know that Captain?" The crew member claims the Inquisition would, had he ever been caught, thrown him alive into a sun, in order to "purify" the being.</text>
 	<text>All the combat in this sector reminds your Rockman of the great battles its kind has fought.</text>
 </textList>
 
@@ -25173,10 +25173,10 @@
 	<text>The Zoltan politely inquires how you feel today.</text>
 	<text>The Zoltan politely inquires how you feel right now.</text>
 	<text>The Zoltan politely inquires how you feel.</text>
-	<text>The Zoltan wants to know what you favorite color is.</text>
+	<text>The Zoltan wants to know what your favorite color is.</text>
 	<text>The Zoltan asks what good memories remain from your childhood.</text>
 	<text>The Zoltan asks if you have kids.</text>
-	<text>The Zoltan says it is deeply disturbed by all the violence arround it. "I don't now how long I can bare all this, Captain. If this conflict ever ends I will rest and meditate for a few hundred years to regain my balance."</text>
+	<text>The Zoltan says it is deeply disturbed by all the violence around it. "I don't now how long I can bear all this, Captain. If this conflict ever ends I will rest and meditate for a few hundred years to regain my balance."</text>
 	<text>The Zoltan is nowhere to be found. The computer informs you that the crew member is in its personal quarters, meditating.</text>
 	<text>The Zoltan is nowhere to be found. The computer informs you that the crew member is in its personal quarters, listening to music.</text>
 	<text>The Zoltan explains that its kind has done away with distinctive genders a long time ago. "We removed certain features of our physical body via genetic engineering. Now we are all male and female at the same time, we are all one and everything."</text>
@@ -25191,14 +25191,14 @@
 	<text>The Zoltan suggests you should not be too harsh with the crew. "If anything happens to them, it might be too late to apologize."</text>
 	<text>The Zoltan is amazed by the discipline of your crew. "These people would do almost anything if you command them to. They just follow your orders, whatever happens to them, it will be your responsibility."</text>
 	<text>The Zoltan contemplates, that if you fail in battle, it will most likely be your own fault. "There is much to learn in the art of war. Do you think you know enough? Do you think you know everything? Maybe there is still more to learn... I just wish people would study the art of peace instead."</text>
-	<text>The Zoltan looks tired. "Captain... I don't know if I should tell you but I had a horrifiying vision last night. I saw you die. I saw us all die. Burned and shattered and sucked into space." You tell the crewmen to focus on the task at hand and try not to think about what you just heard.</text>
+	<text>The Zoltan looks tired. "Captain... I don't know if I should tell you but I had a horrifiying vision last night. I saw you die. I saw us all die. Burned and shattered and sucked into space." You tell the crewman to focus on the task at hand and try not to think about what you just heard.</text>
 	<text>The Zoltan looks tired. "Ah Captain... I saw the most curious thing in my sleep. A great arrival. The Lanius fleet, it has returned... Well maybe it was just a dream... but I have heard that the scavenger species has been sighted at the edge of known space lately..."</text>
 	<text>The energetic being smiles at you. "Are you alright Captain? I hope our situation does not trouble you too much."</text>
 	<text>The Zoltan marvels at the fact that other species have such short lifespans. It has read a lot on that topic.</text>
 	<text>The Zoltan appreciates your interest, "You take good care of your crew, Captain."</text>
 	<text>The Zoltan appreciates that you follow Federation protocol "most of the time".</text>
 	<text>The Zoltan suggests that you always question your actions. "Are you doing the right thing, Captain?"</text>
-	<text>The Zoltan, in this quiet moment, reveals to you that it is sometimes scared by the power it inherently posses.</text>
+	<text>The Zoltan, in this quiet moment, reveals to you that it is sometimes scared by the power it inherently possesses.</text>
 	<text>Your Zoltan crew member tells you it is considered somewhat of a rogue among its kind, since it broke three Zoltan guidelines during its life.</text>
 	<text>The Zoltan is happy you wish to talk. It says it has formulated several crew protocols for you to enforce on the ship, and knows that you will make sure that "law will prevail".</text>
 	<text>Your Zoltan crew member seems a little sad during your talk. It misses the radiant glow of the space station it was living on a few years ago and invites you for a visit after you complete your mission.</text>
@@ -25332,7 +25332,7 @@
 		<text load="CE_CONVERSATION_SLUG_NEBULA_TEXT"/>
 	</event>
 	<event>
-		<text>The Slug greets you unusuall seriosly. "Hello my Captain. I wanted to talk to you anyway. I probably iss nothing, I have to inform you that I started to ssense a Slug presssense nearby since several jumpsss..."</text>
+		<text>The Slug greets you unusually seriously. "Hello my Captain. I wanted to talk to you anyway. It probably iss nothing, I have to inform you that I started to ssense a Slug presssense nearby ssince ssseveral jumpsss..."</text>
 		<choice>
 			<text>"Thats not exactly unusual in a nebula, right?"</text>
 			<event>
@@ -25369,7 +25369,7 @@
 								<choice hidden="true">
 									<text>Continue...</text>
 									<event>
-										<text>In addition to that, the Slug is also equipped with micro holo-generators. It deployes several combat avatars that aid it in battle. You start to doubt that you are dealing with a simple stowaway here.</text>
+										<text>In addition to that, the Slug is also equipped with micro holo-generators. It deploys several combat avatars that aid it in battle. You start to doubt that you are dealing with a simple stowaway here.</text>
 										<boarders min="2" max="3" class="ghost"/>
 									</event>
 								</choice>
@@ -25517,7 +25517,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Cold water splashes into your face. Where are you? Is this the medbay? "I'm sorry, Captain. You probably should not have had that last drink. Also... a Rebel scout just passed by and scanned us. We did not know what to do. Glad your back with us." The Slug chuckles.</text>
+		<text>Cold water splashes into your face. Where are you? Is this the medbay? "I'm ssorry, Captain. You probably sshould not have had that lasst drink. Also... a Rebel ssscout just passsed by and sscanned usss. We did not know what to do. Glad you're back with usss." The Slug chuckles.</text>
 		<modifyPursuit amount="1"/>
 	</event>
 </eventList>
@@ -25547,7 +25547,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>Cold water splashes into your face. Where are you? Is this the medbay? "I'm sorry, Captain. You probably should not have had that last drink. Also... a Rebel scout just passed by and scanned us. We did not know what to do. Glad your back with us." The Slug chuckles.</text>
+		<text>Cold water splashes into your face. Where are you? Is this the medbay? "I'm ssorry, Captain. You probably sshould not have had that lasst drink. Also... a Rebel ssscout just passsed by and sscanned usss. We did not know what to do. Glad you're back with usss." The Slug chuckles.</text>
 		<modifyPursuit amount="1"/>
 	</event>
 </eventList>
@@ -25564,15 +25564,15 @@
 	<text>The Slug seems almost unaffected by all the substances it offers. "You want another one, Captain?"</text>
 	<text>After a few more drinks you and the Slug got the whole current conflict figured out: The actual problem is the Society!</text>
 	<text>The stuff the Slug offers is quite potent. Is it even legal to have this aboard the ship?</text>
-	<text>The Slug offers you a bowl of hot liquids. "Thatss from my home collony. Inhale the fumesss. Itss really good!" It indeed is! A few deep breaths later your crewmen gets you to mockingly desert the Federation and swear alliance to the Slug Empire.</text>
+	<text>The Slug offers you a bowl of hot liquids. "Thatss from my home colony. Inhale the fumesss. Itss really good!" It indeed is! A few deep breaths later your crewman gets you to mockingly desert the Federation and swear alliance to the Slug Empire.</text>
 	<text>While mixing drinks, the Slug tells you about the part of its live when it was still exporting luxury goods to its homeworld. "Good timess. And lotsss of profit!"</text>
-	<text>While downing your drinks, you ask the Slug where all the strange sculptures in it's quarters come from. "Oh thesse? I made them myself. I studied eccentric art in the home nebula for sssome time. They are alsso my pension fund. The Zoltan pay excellent pricess for these, you know?"</text>
+	<text>While downing your drinks, you ask the Slug where all the strange sculptures in its quarters come from. "Oh thesse? I made them myself. I studied eccentric art in the home nebula for sssome time. They are alsso my pension fund. The Zoltan pay excellent pricess for thesse, you know?"</text>
 	<text>This was good, but you start to get a strange feeling...</text>
-	<text>The Slug opens an unlabeled bottle for you and then starts to improvise on some strange Alien instrument. You stretch out on a comfortable couch and look out of the view port. Your personal terminal beeps: "Eh Sir, do you want to review that damage report you ordered?" You klick the terminal off. This can wait.</text>
+	<text>The Slug opens an unlabeled bottle for you and then starts to improvise on some strange Alien instrument. You stretch out on a comfortable couch and look out of the view port. Your personal terminal beeps: "Eh Sir, do you want to review that damage report you ordered?" You click the terminal off. This can wait.</text>
 	<text>This nebula whine that the Slug gave you is supposed to have a "unique relaxing effect", but you actually don't feel anything.</text>
 	<text>How was that last drink called again? You already don't remember anymore...</text>
-	<text>Half drunk, the Slug openly admits that It often considered abandoning the Federation altogether. "Thiss whole conflict isss sstupid. But ass long asss it lasstss I could still make a fortune by trading nebula gass to the Rebels. Would be much lesss rissky than actively taking ssides."</text>
-	<text>While downing your galaxy import, the Slug tells you about its youth. Its parents came to wealth by trading cheap Engi machinery to the isolated Rock sectors, but disowned your crewmen due to some corruption scandal.</text>
+	<text>Half drunk, the Slug openly admits that it often considered abandoning the Federation altogether. "Thiss whole conflict isss sstupid. But asss long asss it lasstss I could still make a fortune by trading nebula gass to the Rebels. Would be much lesss rissky than actively taking ssides."</text>
+	<text>While downing your galaxy import, the Slug tells you about its youth. Its parents came to wealth by trading cheap Engi machinery to the isolated Rock sectors, but disowned your crewman due to some corruption scandal.</text>
 	<text>The Slug pours you some gelish, purple liquor. "Cheerss! To our misssion! I hope thiss isss all worth it... You know, I wass making a fortune exporting Zoltan Shield Componentss to sscared civiliansss when the Rebellion sstarted. But now I'm not ssso ssure that thiss whole war iss really profitable for everyone."</text>
 </textList>
 
@@ -25593,38 +25593,38 @@
 	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters, relaxing with another crew member.</text>
 	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters, rehearsing a comedy play with another crew member. Right, that was this thing to "raise crew moral" that the Slug had planned for the next hyperspace jump...</text>
 	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters, busy making music together with another crew member.</text>
-	<text>The Slug seems bored with your conversation attempt. It mumbles something about your "sssslow communication sssskilsss". Must be frustrating to know what you are going to say before you say it!</text>
-	<text>The Slug advises you to put aside your morals and concentrate on a little more on this great chance to "dissscover ssssome valueblessss". You wonder what it means by "discover"...</text>
+	<text>The Slug seems bored with your conversation attempt. It mumbles something about your "sssslow communication sssskillsss". Must be frustrating to know what you are going to say before you say it!</text>
+	<text>The Slug advises you to put aside your morals and concentrate on a little more on this great chance to "dissscover ssssome valuablessss". You wonder what it means by "discover"...</text>
 	<text>Your Slug looks a little sad. When you ask it why, it tells you it misses the "sssstarlessss ssspaccce" of the nebula in its home sector.</text>
 	<text>Your Slug seems unfocused and absent minded. It suddenly snaps back to reality and explains it tried to telepathically scout the current sector, but is still not skilled enough for such a feat.</text>
 	<text>The Slug tells you it feels quite sorry for you, since you are so poor and without hope of reaching "the firssst sssstage of economic sssstability".</text>
-	<text>The Slug relates a tale of how it once served on a ship which managed to disable the life support system of a Rock cruiser and suffocate all the Rockman aboard. You can't help but shudder at the thought.</text>
+	<text>The Slug relates a tale of how it once served on a ship which managed to disable the life support system of a Rock cruiser and suffocate all the Rockmen aboard. You can't help but shudder at the thought.</text>
 	<text>Your Slug crew member is puzzled by the Rebels. It can't understand why humans would fight for anything other then gaining more wealth.</text>
 	<text>The Slug looks at your legs with amusement. It asks you how you can possibly keep upright and stable. "Tailssss are better!" it says in conclusion.</text>
 	<text>The Slug is sorry about the all the slime it leaves behind on the ship. It chuckles.</text>
 	<text>The Slug says that it can fix a good deal for you if you ever get to a Slug blackmarket.</text>
-	<text>The Slug wonders why you never consider surrendering when combat turns nasty. "Just sswallow your pride and give away ssome sscrap and fuel. Enemies do thiss all the time, iss thiss so difficult for you to do?"</text>
+	<text>The Slug wonders why you never consider surrendering when combat turns nasty. "Just sswallow your pride and give away ssome sscrap and fuel. Enemiess do thiss all the time, iss thiss so difficult for you to do?"</text>
 	<text>The Slug thinks you look stressed. It offers you a massage. You politely decline.</text>
 	<text>The Slug thinks you look stressed. It offers to cook up some real nice Slug specialty, to heighten your spirits. You politely decline the offer.</text>
-	<text>The Slug thinks you look stressed. "Is it about money, Captain? I can help you out... No risk involved." You seriously doubt that.</text>
+	<text>The Slug thinks you look stressed. "Isss it about money, Captain? I can help you out... No rissk involved." You seriously doubt that.</text>
 	<text>The Slug explains that Slug Gel is actually made of nanobots. "Ssome people believe we are ssome kind of mystical beingss. They buy our sslime and think it can fix hull breachess. It's like I would buy the air you exhale and hope it would cure my enzyme-gland problemss. Hehe, sstupid alienss."</text>
-	<text>The Slug suggests you engage in trade more often. "We could sell small arms to some pirate warloardss we come accross. What do you think?"</text>
-	<text>The Slug suggests you engage in trade more often. "We could ssell luxury goods to this arrogant living Glow-stickss."</text>
-	<text>The Slug suggests you engage in trade more often. "Transport ssome ore to my breathren, we don't have many asteroids in our nebula."</text>
+	<text>The Slug suggests you engage in trade more often. "We could sssell ssmall armss to sssome pirate warlordss we come accross. What do you think?"</text>
+	<text>The Slug suggests you engage in trade more often. "We could ssell luxury goodss to thessse arrogant living Glow-stickss."</text>
+	<text>The Slug suggests you engage in trade more often. "Transssport ssome ore to my brethren, we don't have many asteroidss in our nebula."</text>
 	<text>The Slug suggests you engage in trade more often. "I wass told that gass and ore are alwayss in demand in indussstrial sssectorss."</text>
 	<text>The Slug suggests you engage in trade more often. "Disseassse is spreading in the current crissis, or so I was told. If we can get some pharmaceuticalss we could sssell them in quarantined sectorss, for triple the price! We have to help thosse poor people."</text>
-	<text>The Slug suggests you engage in trade more often. "Most of my ssstupid colleaguess would sssell their father for ssome luxury trash from the core-worlds. Idiotss..."</text>
-	<text>The Slug suggests you engage in trade more often. "Think of it, you have a cruisser and a lot of cargo ssspace. If you play your cardss right we could all be rich. Maybe rich enough to buy oursselfss out of thisss horrible misssion..."</text>
+	<text>The Slug suggests you engage in trade more often. "Most of my ssstupid colleaguess would sssell their father for ssome luxury trash from the core-worldsss. Idiotss..."</text>
+	<text>The Slug suggests you engage in trade more often. "Think of it, you have a cruisser and a lot of cargo ssspace. If you play your cardss right we could all be rich. Maybe rich enough to buy oursselvess out of thisss horrible misssion..."</text>
 	<text>The Slug understands that greed is not the best foundation for a galactic civilization. "You ssee Captain, in the end, it doess not matter much. What people do and believe in doess not really affect how thingss turn out for them. It'ss mosstly about caussality and... luck. I believe in luck, Captain."</text>
 </textList>
 
 
 <textList name="CE_CONVERSATION_SLUG_NEBULA_TEXT">
 	<text>The Slug speaks before you can even open your mouth, "I know what your going to ssssay Captain. Not interessssted in talking about it!" Slugs can be quite annoying when they want to...</text>
-	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just staring out of the window Captain. Is it urgent?"</text>
-	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just staring out of the window Captain. Is it urgent?"</text>
-	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just staring out of the window Captain. Beautiful, isn't it? Is something required of me?"</text>
-	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just staring out of the window Captain. Beautiful, isn't it? Is something required of me?"</text>
+	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just ssstaring out of the window Captain. Iss it urgent?"</text>
+	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just ssstaring out of the window Captain. Iss it urgent?"</text>
+	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just ssstaring out of the window Captain. Beautiful, issn't it? Iss sssomething required of me?"</text>
+	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just ssstaring out of the window Captain. Beautiful, issn't it? Iss sssomething required of me?"</text>
 	<text>The Slug looks quite content. You ask it what it has been up to. "Just happy being around nebula. Nothing wrong with that, right? Do you like nebula?"</text>
 	<text>The Slug looks quite content. You ask it what it has been up to. "Just happy being around nebula. Nothing wrotn with that, right? Do you like nebula?"</text>
 	<text>The Slug looks quite content. You ask it what it has been up to. "Just happy being around nebula. Nothing wrotn with that, right? Do you like nebula?"</text>
@@ -25725,7 +25725,7 @@
 	<text>The AI Avatar explains that it can think almost a thousand times faster than you. Having a conversation with a sentient alien must be quite boring for it.</text>
 	<text>The AI Avatar explains that, while talking to you, it simultaneously talks to several other crew members over the intercom, analyses the ship's hull integrity, simulates possible combat encounters at the next beacon, downloads cute kitty videos from galaxy net and observes a nearby supernova.</text>
 	<text>The AI Avatar explains that, while talking to you, it simultaneously designs a virtual art piece, studies several forms of martial arts, monitors the crew's vital signs, analyses the secret data you carry, and makes statistic predictions on the outcome of the entire conflict.</text>
-	<text>The AI Avatar explains that, while talking to you, it simultaneously is busy developing ship weapons based on materials that do not yet exist, tracks all the paths of the debris in a nearby asteroid field, and simulates cooking every dish known to Slug history (apparently a lot).</text>
+	<text>The AI Avatar explains that, while talking to you, it simultaneously is busy developing ship weapons based on materials that do not yet exist, tracking all the paths of the debris in a nearby asteroid field, and simulating cooking every dish known to Slug history (apparently a lot).</text>
 	<text>The AI Avatar explains that, while talking to you, it simultaneously is analyzing sensor data, tracking all ships in scanner range, developing a cure for a minor outbreak of the flu aboard and... You interrupt and ask if it can also be less arrogant about its processing capabilities at the same time.</text>
 	<text>The AI Avatar explains that it thinks extremely fast. It even has special sub-routines for talking with organic beings, mainly there to keep it from becoming bored to death by the slow conversations.</text>
 	<text>Your AI crew member tells you it is happy to serve aboard your ship. It says it is better to be a sentient slave then not to be sentient at all. You wonder if this is supposed to be funny, honest or hidden criticism.</text>
@@ -25734,12 +25734,12 @@
 	<text>The AI wants to be a painter one day.</text>
 	<text>The AI considers becoming a doctor after this all is over. "I want to save lives for a change, Captain. Does all this destruction we cause not depress you?"</text>
 	<text>Upon inquiring, the AI explains how its generation unit works. Dynamic photon emitters and gravitational field generators create its physical body. Its "mind" is housed within an AI core that mimics an organic brain with extremely dense biological-circuits.</text>
-	<text>The AI Avatar explains that it is designed as a thinker, not a fighter. Physical trauma and weapon impacts will damage its bio-curcuits. The avatar will require medical attention and bio-stabilizers in case of injury, just like other crew.</text>
+	<text>The AI Avatar explains that it is designed as a thinker, not a fighter. Physical trauma and weapon impacts will damage its bio-circuits. The avatar will require medical attention and bio-stabilizers in case of injury, just like other crew.</text>
 	<text>The AI Avatar is calculating the likelihood of sustaining terminal damage in a "no-escape" scenario. "Hits to my station from certain advanced ship to ship weapons might instantly destroy my physical form. Please protect me, ok?" The entity smiles.</text>
 	<text>Your AI seems puzzled by the fact that you must breathe. It asks you if you are not afraid of forgetting to breathe when you are occupied. You are assuming it is trying to make a joke.</text>
 	<text>The AI requests you explain to it the concept of sleep. It asks you if you are not afraid of having your memory erased when you lose consciousness.</text>
 	<text>Your AI wonders if you can be considered its parent. It says it expects you to take good care of it.</text>
-	<text>Your AI crew member asks you to describe the mating rituals associated with you species. It can't understand why you would chose such a cumbersome way to reproduce.</text>
+	<text>Your AI crew member asks you to describe the mating rituals associated with your species. It can't understand why you would choose such a cumbersome way to reproduce.</text>
 	<text>The AI tells you it does not want to accidentally be erased, and asks you to make sure you keep at least four copies of its data matrix stored on the ship computers.</text>
 	<text>The AI says you should consider creating an AI avatar template based on your own persona. This way, other ship crews will be able to benefit from your skills. You tell the AI you will think about this.</text>
 	<text>Your AI asks if you will allow it to join an Engi hive after your mission is done. It thinks Engies are probably the only species which can truly understand AIs.</text>
@@ -25747,18 +25747,18 @@
 
 <eventList name="CE_CONVERSATION_AI_UPGRADES">
 	<event>
-		<text>"I have closely examined your life support system, Captain. I have rated it's effectiveness and come to a devastating verdict."</text>
+		<text>"I have closely examined your life support system, Captain. I have rated its effectiveness and come to a devastating verdict."</text>
 		<choice req="oxygen" max_lvl="1" max_group="0" blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
-				<text>"Permission to speak freely, Captain?" You nod. Where is this going? "Honestly Captain, I'm surprised that you are still alive. Your life support is barely rocket age, an antiquity by our standards. I simple 50k rewrite of the filter algorithms can improve it's efficiency by 30 percent. I already made the relevant alterations. Have a nice day, Captain." The hologram leaves you baffled.</text>
+				<text>"Permission to speak freely, Captain?" You nod. Where is this going? "Honestly Captain, I'm surprised that you are still alive. Your life support is barely rocket age, an antiquity by our standards. A simple 50k rewrite of the filter algorithms can improve its efficiency by 30 percent. I already made the relevant alterations. Have a nice day, Captain." The hologram leaves you baffled.</text>
 				<upgrade amount="1" system="oxygen"/>
 			</event>
 		</choice>
 		<choice req="oxygen" max_lvl="2" max_group="0" blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
-				<text>"The system is inefficient and primitive. You should probably worry more about that than me Captain, as I don't require clean air to breath, nor am I susceptible to heat, cold or radiation. You might want to invest some material into upgrading this system." You sarcastically thank the AI for its service. "A pleasure, my Captain."</text>
+				<text>"The system is inefficient and primitive. You should probably worry more about that than me Captain, as I don't require clean air to breathe, nor am I susceptible to heat, cold or radiation. You might want to invest some material into upgrading this system." You sarcastically thank the AI for its service. "A pleasure, my Captain."</text>
 			</event>
 		</choice>
 		<choice hidden="true">
@@ -25769,7 +25769,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>"I have closely examined your ships navigation computer, Captain. I have rated the helms effectiveness and come to a devastating verdict."</text>
+		<text>"I have closely examined your ship's navigation computer, Captain. I have rated the helms effectiveness and come to a devastating verdict."</text>
 		<choice req="pilot" max_lvl="1" max_group="0"  blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
@@ -25780,7 +25780,7 @@
 		<choice req="pilot" max_lvl="2" max_group="0"  blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
-				<text>"The system is primitive, but can not be upgrade without investing some materials." You sarcastically thank the AI for its service. "A pleasure, my Captain."</text>
+				<text>"The system is primitive, but cannot be upgraded without investing some materials." You sarcastically thank the AI for its service. "A pleasure, my Captain."</text>
 			</event>
 		</choice>
 		<choice hidden="true">
@@ -25791,18 +25791,18 @@
 		</choice>
 	</event>
 	<event>
-		<text>"I have closely examined your sensor system, Captain. I have rated it's effectiveness and come to a devastating verdict."</text>
+		<text>"I have closely examined your sensor system, Captain. I have rated its effectiveness and come to a devastating verdict."</text>
 		<choice req="sensors" max_lvl="1" max_group="0"  blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
-				<text>"Permission to speak freely, Captain?" You nod. Where is this going? "Honestly Captain, I'm surprised you can even detect me standing here. You never heard about passive subspace waves? Even your antique antenna can pick that up. I already reconfigured the buffers and sensor performance should have improved significantly. Have a nice day, Captain." The hologram leaves you baffled.</text>
+				<text>"Permission to speak freely, Captain?" You nod. Where is this going? "Honestly Captain, I'm surprised you can even detect me standing here. You've never heard about passive subspace waves? Even your antique antenna can pick that up. I already reconfigured the buffers and sensor performance should have improved significantly. Have a nice day, Captain." The hologram leaves you baffled.</text>
 				<upgrade amount="1" system="sensors"/>
 			</event>
 		</choice>
 		<choice req="sensors" max_lvl="2" max_group="0"  blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
-				<text>"The system is primitive, but can not be upgrade without investing some materials." You sarcastically thank the AI for its service. "A pleasure, my Captain."</text>
+				<text>"The system is primitive, but cannot be upgraded without investing some materials." You sarcastically thank the AI for its service. "A pleasure, my Captain."</text>
 			</event>
 		</choice>
 		<choice hidden="true">
@@ -25813,7 +25813,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>"I have closely examined your ship reactor, Captain. I have rated it's effectiveness and come to a devastating verdict."</text>
+		<text>"I have closely examined your ship reactor, Captain. I have rated its effectiveness and come to a devastating verdict."</text>
 		<choice req="reactor" max_lvl="24" blue="false">
 			<text>Inquire on that verdict.</text>
 			<event>
@@ -25969,7 +25969,7 @@
 	<event>
 		<text>As far as you can tell, the Lanius seems troubled. "This plain... hazard..." The Lanius gestures towards the ship doors. "Failure... there... Reshape... I?"</text>
 		<choice req="doors" max_lvl="2" hidden="true">
-			<text>"Eh, allright? Go ahead then."</text>
+			<text>"Eh, alright? Go ahead then."</text>
 			<event load="CE_CONVERSATION_LANIUS_RESHAPE_DOORS"/>
 		</choice>
 		<choice hidden="true">
@@ -25995,7 +25995,7 @@
 	<event>
 		<text>You ask the Lanius how it feels today. It proudly announces: "I am... ready to do sex, Captain." A few other crewmen nearby can't suppress a laughter. "I'm not joking, Captain. Give me metal and... I shall multiply!"</text>
 		<choice>
-			<text>"Alright, take some Metal."</text>
+			<text>"Alright, take some metal."</text>
 			<event load="CE_CONVERSATION_LANIUS_MULTIPLY"/>
 		</choice>
 		<choice hidden="true">
@@ -26007,7 +26007,7 @@
 	</event>
 </eventList>
 <textList name="CE_CONVERSATION_LANIUS_GENERIC_TEXT">
-	<text>Your Lanius crew member has a lot to say, but you forgot your universal translator on the bridge. Its speech sometimes includes seemingly random nouns in your language, but you can not gather what the crewmen wants to say.</text>
+	<text>Your Lanius crew member has a lot to say, but you forgot your universal translator on the bridge. Its speech sometimes includes seemingly random nouns in your language, but you cannot gather what the crewman wants to say.</text>
 	<text>The Lanius is nowhere to be found. The computer informs you that the crewman is in its personal quarters, absorbing its daily mineral ration.</text>
 	<text>The Lanius is nowhere to be found. The computer informs you that the crewman has gone into a quick stasis nap in its personal quarters.</text>
 	<text>The Lanius is nowhere to be found. The computer informs you that it is currently taking a walk outside, on the hull of the ship. You wonder if there is a article in Federation protocol that regulates this.</text>
@@ -26017,21 +26017,21 @@
 	<text>The Lanius is not very talkative. It just repeatedly mumbles a single word: "Eat..."</text>
 	<text>The Lanius is not very talkative. It just repeatedly mumbles a single word: "Metal..."</text>
 	<text>The Lanius is not very talkative. It just repeatedly mumbles a single word: "Metal..."</text>
-	<text>The Lanius tries to explain something, but the meaning is lost in translation. Both of you still have to learn a lot about each others language.</text>
-	<text>The Lanius tries to explain something, but the meaning is lost in translation. Both of you still have to learn a lot about each others language.</text>
+	<text>The Lanius tries to explain something, but the meaning is lost in translation. Both of you still have to learn a lot about each other's language.</text>
+	<text>The Lanius tries to explain something, but the meaning is lost in translation. Both of you still have to learn a lot about each other's language.</text>
 	<text>You find the Lanius polishing its arm blades in the main hold. You decide better not to disturb the being.</text>
 	<text>The Lanius states that, for a long time, it has killed and pillaged to survive. It wants to know how you evaluate this.</text>
-	<text>The Lanius tries to explain something, but the meaning is lost in translation. Both of you still have to learn a lot about each others language.</text>
+	<text>The Lanius tries to explain something, but the meaning is lost in translation. Both of you still have to learn a lot about each other's language.</text>
 	<text>You want to talk to the Lanius, but realize that your micro rebreather is completely depleted from the last conversation. Better not risk asphyxia just for a little chat. This will have to wait.</text>
-	<text>You Lanius explains that its kind has developed special oxygen suits. It prevent the Lanius body from absorbing too much O2 in closed environments. The suits are mostly used by diplomats and traders. Unfortunately, your crewmen did not bring one aboard.</text>
-	<text>The Lanius confesses that it finds your eating habits extremely strange. "For me... theses substances are dirt."</text>
+	<text>You Lanius explains that its kind has developed special oxygen suits. It prevent the Lanius body from absorbing too much O2 in closed environments. The suits are mostly used by diplomats and traders. Unfortunately, your crewman did not bring one aboard.</text>
+	<text>The Lanius confesses that it finds your eating habits extremely strange. "For me... these substances are dirt."</text>
 	<text>The Lanius found out that its quite real "heart of steel" is a strong metaphor in your language. The anaerobic being finds this quite fascinating. "Even as a metaphor... this might be the truth for the great number... of my metallic... friends."</text>
-	<text>You try to have a proper conversion with the Lanius but soon start to feel dizzy... what is happening? You cant breath... Shortly before passing out, you wave the Lanius away from you and head for the bulkhead. Their oxygen absorbing metabolism should not be underestimated. The crewmen later sends a crudely translate apology.</text>
-	<text>You picked up a few words of Lanic during your travel and use your little language skills to ask the crewmen how it feels today. It reacts with a gesture that, according to your pan-alien transcultural training, might indicate insult. Did you say something wrong?</text>
-	<text>The Lanius confesses that it finds your kind most unusual. "You are similar too... fictional characters from our... great text assortments. Almost like... not from this Galaxy? Scientific impossibilities!"</text>
-	<text>You picked up a few words of Lanic during your travel and use your little language skills to ask the crewmen how it feels today. It reacts with a gesture that, according to your pan-alien transcultural training, might indicate insult. Did you say something wrong?</text>	
+	<text>You try to have a proper conversion with the Lanius but soon start to feel dizzy... what is happening? You cant breathe... Shortly before passing out, you wave the Lanius away from you and head for the bulkhead. Their oxygen absorbing metabolism should not be underestimated. The crewman later sends a crudely translated apology.</text>
+	<text>You picked up a few words of Lanic during your travel and use your little language skills to ask the crewman how it feels today. It reacts with a gesture that, according to your pan-alien transcultural training, might indicate insult. Did you say something wrong?</text>
+	<text>The Lanius confesses that it finds your kind most unusual. "You are similar to... fictional characters from our... great text assortments. Almost like... not from this Galaxy? Scientific impossibilities!"</text>
+	<text>You picked up a few words of Lanic during your travel and use your little language skills to ask the crewman how it feels today. It reacts with a gesture that, according to your pan-alien transcultural training, might indicate insult. Did you say something wrong?</text>	
 	<text>The Lanius tries to explain that its species does not deserve the bad reputation it got. "Forceful acquisition is wrong... even by the standards of my living species. But my people are... hungry."</text>
-	<text>The Lanius mourns that its species demanding metabolism has caused the galaxy so much suffering. "We are no... villains Captain. We just... need to feed us."</text>
+	<text>The Lanius mourns that its species' demanding metabolism has caused the galaxy so much suffering. "We are no... villains Captain. We just... need to feed us."</text>
 	<text>The Lanius asks how much data you have about this sector. "Are there... metallic opportunities?"</text>
 	<text>You find the Lanius in the mess hall. While you eat your ration, a sluggish conversation ensues. After you finish eating, the Lanius points both its bladed arms at your synth-steel plate. "You... still eat him?" You slowly shake your head. The Lanius grabs the plate and absorbs it into its hand. "The best ration... on this plain, Captain. You should... train in it?"</text>
 </textList>
@@ -26042,11 +26042,11 @@
 		<choice hidden="true">
 			<text>"Yes, go ahead."</text>
 			<event>
-				<text>The Lanius nods overly enthusiastically. "I... understand... Captain." The Lanius heads off. You wonder if you really understood what this is about. A few minutes later, a internal damage warning pops up on your terminal. The Lanius has started to absorbe parts of your ship.</text>
+				<text>The Lanius nods overly enthusiastically. "I... understand... Captain." The Lanius heads off. You wonder if you really understood what this is about. A few minutes later, a internal damage warning pops up on your terminal. The Lanius has started to absorb parts of your ship.</text>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
-						<text>The rest of the crew informs you that the Lanius has started to fuse metal from the internal hull plating into various bulkhead doors. You order them to let the alien proceed with what it is doing. Looks like it is manually upgrading your doors using its inherent abilities. You hope the structural integrity will of the vessel will not suffer to much.</text>
+						<text>The rest of the crew informs you that the Lanius has started to fuse metal from the internal hull plating into various bulkhead doors. You order them to let the alien proceed with what it is doing. Looks like it is manually upgrading your doors using its inherent abilities. You hope the structural integrity of the vessel will not suffer too much.</text>
 						<upgrade amount="1" system="doors"/>
 						<damage amount="5"/>
 					</event>
@@ -26088,14 +26088,14 @@
 
 <eventList name="CE_CONVERSATION_LANIUS_MULTIPLY">
 	<event>
-		<text>The Lanius piles up some of the scrap from your holds. You wonder if you should actually be watching. The Lanius lifts one of its bladed arms, and extends the other in front of it. With a single swipe, and no mimic reaction, the crewmen cuts its own arm off, letting it fall into the scrap pile. "Reproduction complete, Captain. This was most private, but I understand that... you can not have manners."</text>
+		<text>The Lanius piles up some of the scrap from your holds. You wonder if you should actually be watching. The Lanius lifts one of its bladed arms, and extends the other in front of it. With a single swipe, and no mimic reaction, the crewman cuts its own arm off, letting it fall into the scrap pile. "Reproduction complete, Captain. This was most private, but I understand that... you cannot have manners."</text>
 		<item_modify>
 			<item type="scrap" min="-70" max="-50"/>
 		</item_modify>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
-				<text>Your crewmen's arm is already reforming while the cut of limb merges with the metal and turns it gray. After some time, the metal pile has formed into a Lanius body. The creature awakes and greets it's new environment with gargling noises, but it's creator seems to understand. You order the new crewmen to be tought a few words of Federation standard as fast as possible.</text>
+				<text>Your crewman's arm is already reforming while the cut of limb merges with the metal and turns it gray. After some time, the metal pile has formed into a Lanius body. The creature awakes and greets its new environment with gargling noises, but its creator seems to understand. You order the new crewman to be taught a few words of Federation standard as fast as possible.</text>
 				<crewMember amount="1" class="anaerobic"/>
 			</event>
 		</choice>
@@ -26180,7 +26180,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The Crystal ask to talk to you in private. As you nod, it locks the room's doors with growing crystals and explains, "I've done it Captain!" The crystal points at it's creation.</text>
+		<text>The Crystal ask to talk to you in private. As you nod, it locks the room's doors with growing crystals and explains, "I've done it Captain!" The Crystal points at its creation.</text>
 		<choice hidden="true">
 			<text>"All right. What is it?"</text>
 			<event load="CE_CONVERSATION_CRYSTAL_GUNS"/>
@@ -26284,14 +26284,14 @@
 	<text>Your Crystal crew member tells about its ability to control crystalline growths. Apparently Crystal weapons are based on this ability in order to create shard projectiles.</text>
 	<text>The Crystal asks you why the other species spread so much throughout the sectors. Its opinion on the matter, "No wonder you are all at war - you're too crowded."</text>
 	<text>The Crystal is surprised with the efficiency of the life support system on your ship. It tells you the lowered metabolism of Crystals made them less dependent on such systems on their ships.</text>
-	<text>The Crystal asks you to try and visit some more Rockman sectors. It hopes to study their social habits and understand why they had become so aggressive.</text>
+	<text>The Crystal asks you to try and visit some more Rockman sectors. It hopes to study their social habits and understand why they have become so aggressive.</text>
 	<text>Your Crystal crew member says it has a small surprise for you. It hands you a small crystalline model of your ship, and says it is a token of its appreciation for your abilities as Captain.</text>
 	<text>Your Crystal is interested in the weapon technologies common in the Federation. It thinks Crystal weaponry can be improved based on this information.</text>
 	<text>Your Crystal is impressed with the ferociousness of the Mantis. It tells you they will probably be the biggest threat to all the other species in the sectors.</text>
 	<text>The Crystal crew member is apprehensive about Slugs. "They are so greedy and we know nothing of your galaxy." It assumes the Slugs will try to take advantage of its kind.</text>
 	<text>The Crystal looks a little light headed when you speak. It tells you it is not used to the high oxygen pressure on your ship. You assume the Crystal will get used to it, but order a medical checkup nevertheless.</text>
 	<text>The Crystal assumes that everything coming from outside its hidden home-world would have great value there. "My kind would surely buy all these silly and curious objects that the aliens trade at good prices."</text>
-	<text>Upon inquiring, the crewmen explains that the retaliation crystals of its factions ships are actually using resonance energy from kinetic impacts to target and propel themselves. You consider that it just made this up.</text>
+	<text>Upon inquiring, the crewman explains that the retaliation crystals of its factions ships are actually using resonance energy from kinetic impacts to target and propel themselves. You consider that it just made this up.</text>
 </textList>
 
 <!-- END OF CE SOCIAL -->
@@ -29575,7 +29575,7 @@
 
 <eventList name="C_PIRACY_SUCCESS_LOOT_CIVILIAN_STATION">
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29584,7 +29584,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29593,7 +29593,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29602,7 +29602,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29611,7 +29611,7 @@
 		</choice>
 	</event>				
 	<event>
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_CONSUMER"/>
 		<choice>
@@ -29620,7 +29620,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_CIVILIAN_CONSUMER"/>
 		<choice>
@@ -29648,7 +29648,7 @@
 	</event>
 
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29657,7 +29657,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29666,7 +29666,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29675,7 +29675,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29739,7 +29739,7 @@
 	</event>
 
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29748,7 +29748,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29757,7 +29757,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29766,7 +29766,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29812,7 +29812,7 @@
 	</event>
 
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29830,7 +29830,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29839,7 +29839,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29884,7 +29884,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29893,7 +29893,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29902,7 +29902,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29911,7 +29911,7 @@
 		</choice>
 	</event>
 	<event>					
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<autoReward level="RANDOM">stuff</autoReward>
 		<choice>
@@ -29929,7 +29929,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
+		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
 		<ship hostile="false"/>
 		<augment name="TE_GOODS_ROBOTS"/>
 		<choice>
