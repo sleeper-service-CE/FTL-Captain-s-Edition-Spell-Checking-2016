@@ -9778,7 +9778,7 @@
 			</event>
 		</choice>
 		<choice hidden="true">
-			<text>Just quickly check the available ship equipment.</text>
+			<text>Just check the available ship equipment.</text>
 			<event/>
 		</choice>
 	</event>
