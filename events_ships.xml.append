@@ -4519,7 +4519,7 @@
 		<choice hidden="true">
 			<text>Pick through the convoy wrecks.</text>
 			<event>
-				<text>All this ships will make good salvaging.</text>
+				<text>All these ships will make good salvaging.</text>
 				<autoReward level="HIGH">standard</autoReward>
 			</event>
 		</choice>
