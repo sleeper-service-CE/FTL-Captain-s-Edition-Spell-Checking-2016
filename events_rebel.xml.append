@@ -3383,7 +3383,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>The Rebels need huge ammounts of materials for their expansion. Several subcontractors buy all the construction material they can find. [Sell Building Material for about 70 Scrap]</text> <!-- updated -->
+			<text>The Rebels need huge amounts of materials for their expansion. Several subcontractors buy all the construction material they can find. [Sell Building Material for about 70 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="STORE_REBEL_SELL_TEXT"/>
 				<choice>
@@ -4236,7 +4236,7 @@
 			</event>
 		</choice>
 		<choice req="TE_GOODS_GIRDERS" hidden="true">
-			<text>The Rebels need huge ammounts of materials for their expansion. Several subcontractors buy all construction material they can find. [Sell Building Material for about 70 Scrap]</text> <!-- updated -->
+			<text>The Rebels need huge amounts of materials for their expansion. Several subcontractors buy all construction material they can find. [Sell Building Material for about 70 Scrap]</text> <!-- updated -->
 			<event>
 				<text load="STORE_SELL_TEXT_BOOSTED"/>
 				<choice>
@@ -7357,9 +7357,9 @@
 	<store/>
 </event>
 <textList name="STORE_AUTO">
-	<text>You discover small trade depot with an equal amount of automated and civilians ship docked. There are even some pirate cargo boats around. This gives the impression taht anyone can buy and sell here.</text>
+	<text>You discover small trade depot with an equal amount of automated and civilians ship docked. There are even some pirate cargo boats around. This gives the impression that anyone can buy and sell here.</text>
 	<text>You arrive at an automated trade station. Broad band messages inform you that this is considered protected trade space with no identification required. A few shady looking mining ships are being unloaded by drones.</text>
-	<text>You receive an advertisements from one of the few manned shipyards left in the sector. It seems they are willing to work on any ship, not only those of Rebel hue.</text>
+	<text>You receive an advertisement from one of the few manned shipyards left in the sector. It seems they are willing to work on any ship, not only those of Rebel hue.</text>
 	<text planet="PLANET_POPULATED_REAL">A trade hub orbits this Rebel controlled planet. Propaganda is constantly broadcast on multiple channels. No Rebel ships are detected in the system so you decide to search for a grey market trader.</text>
 	<text planet="PLANET_POPULATED_REAL">A trade ship sells goods in the orbit of this planet. Security is lacking, they don't even check ship identification here.</text>
 </textList>
