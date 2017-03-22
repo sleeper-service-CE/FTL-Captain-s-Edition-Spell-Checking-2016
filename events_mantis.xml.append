@@ -701,14 +701,14 @@
 		<autoReward level="MED">stuff</autoReward>
 	</event>
 	<event>
-		<text>You strip the Engi ship before preparing to deal with the Mantis.  However, the commando immediately realizes your intentions and attacks!</text>
+		<text>You strip the Engi ship before preparing to deal with the Mantis. However, the commando immediately realizes your intentions and attacks!</text>
 		<autoReward level="MED">stuff</autoReward>
 		<boarders min="1" max="1" class="mantis"/>
 	</event>
 </eventList>
 <eventList name="MANTIS_CAPTURE_COMMANDO_TALK">
 	<event>	
-		<text>It's not clear what occurs between the two Mantis behind the locked door, but when they emerge the commando is prepared to provide telemetry on the local sector.  He then leaves on the Engi ship.  Your map has been updated.</text>
+		<text>It's not clear what occurs between the two Mantis behind the locked door, but when they emerge the commando is prepared to provide telemetry on the local sector. He then leaves on the Engi ship. Your map has been updated.</text>
 		<reveal_map/>
 	</event>
 	<event>
@@ -896,7 +896,7 @@
 <event name="CE_MANTIS_GAMBLE" unique="true">
 	<text>This node is currently home to a Mantis leisure ship, a place of brothels and combat arenas for warriors to release steam. When they scan your inventory they indicate that you're eligible to engage in a grand game of chance.</text>
 	<choice hidden="true">
-		<text>You don't gamble with crooks.  Prepare to jump.</text>
+		<text>You don't gamble with crooks. Prepare to jump.</text>
 		<event/>
 	</choice>
 	<choice hidden="true">
@@ -941,7 +941,7 @@
 </event>
 <eventList name="MANTIS_GAMBLE_CHEAT">
 	<event>
-		<text>"I cannot forssee the future, Captain, but the blue Mantiss sssemss far more determined and viciouss." You make the bet. The fight starts and the Mantis in blue gets pressed into a corner soon, but he lashes out at the last moment, decapitating his opponent.  You claim your winnings!</text>
+		<text>"I cannot forssee the future, Captain, but the blue Mantiss sssemss far more determined and viciouss." You make the bet. The fight starts and the Mantis in blue gets pressed into a corner soon, but he lashes out at the last moment, decapitating his opponent. You claim your winnings!</text>
 		<item_modify>
 			<item type="scrap" min="100" max="100"/>
 		</item_modify>
@@ -953,13 +953,13 @@
 		</item_modify>
 	</event>
 	<event>
-		<text>"I cannot forssee the future, Captain, but the red Mantiss sssemss to posses far more self-control and experience." You make the bet and the fight starts. The blue Mantis seems assured to win, scoring numerous hits on his enemy.  However, the one in red ends the fight with a single key swipe. You claim your winnings!</text>
+		<text>"I cannot forssee the future, Captain, but the red Mantiss sssemss to posses far more self-control and experience." You make the bet and the fight starts. The blue Mantis seems assured to win, scoring numerous hits on his enemy. However, the one in red ends the fight with a single key swipe. You claim your winnings!</text>
 		<item_modify>
 			<item type="scrap" min="100" max="100"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>"I cannot forssee the future, Captain, but the blue Mantiss sssemss far more determined and viciouss." You make the bet. The fight starts and the blue Mantis seems assured to win, scoring numerous hits on his enemy.  However, the one in red ends the fight with a single lucky swipe.</text>
+		<text>"I cannot forssee the future, Captain, but the blue Mantiss sssemss far more determined and viciouss." You make the bet. The fight starts and the blue Mantis seems assured to win, scoring numerous hits on his enemy. However, the one in red ends the fight with a single lucky swipe.</text>
 		<choice hidden="true">
 			<text>Pay what you owe.</text>
 			<event>
@@ -969,7 +969,7 @@
 		<choice req="engines" lvl="4" hidden="true">
 			<text>(Adv. Engines) Dodge the debt and power up the engines.</text>
 			<event>
-				<text>You are able to get out of firing range of the cruiser before it can react.  However, a smaller ship breaks off from a patrol and moves in to engage.</text>
+				<text>You are able to get out of firing range of the cruiser before it can react. However, a smaller ship breaks off from a patrol and moves in to engage.</text>
 				<ship load="MANTIS_FIGHT" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -1075,13 +1075,13 @@
 </eventList>
 <eventList name="MANTIS_GAMBLE_BLUE">
 	<event>
-		<text>The Mantis in blue gets pressed into a corner, but he lashes out at the last moment, decapitating his opponent.  You claim your winnings!</text>
+		<text>The Mantis in blue gets pressed into a corner, but he lashes out at the last moment, decapitating his opponent. You claim your winnings!</text>
 		<item_modify>
 			<item type="scrap" min="100" max="100"/>
 		</item_modify>
 	</event>
 	<event>
-		<text>The blue Mantis seems sure to win, scoring numerous hits on his enemy.  However, the one in red ends the fight with a single key swipe.</text>
+		<text>The blue Mantis seems sure to win, scoring numerous hits on his enemy. However, the one in red ends the fight with a single key swipe.</text>
 		<choice hidden="true">
 			<text>Pay what you owe.</text>
 			<event>
@@ -1091,7 +1091,7 @@
 		<choice req="engines" lvl="4" hidden="true">
 			<text>(Adv. Engines) Dodge the debt and power up the engines.</text>
 			<event>
-				<text>You are able to get out of firing range of the cruiser before it can react.  However, a smaller ship breaks off from a patrol and moves in to engage.</text>
+				<text>You are able to get out of firing range of the cruiser before it can react. However, a smaller ship breaks off from a patrol and moves in to engage.</text>
 				<ship load="MANTIS_FIGHT" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -1143,7 +1143,7 @@
 </eventList>
 <eventList name="MANTIS_GAMBLE_RED">
 	<event>
-		<text>The blue Mantis seems sure to win, scoring numerous hits on his enemy.  However, the one in red ends the fight with a single key swipe. You claim your winnings!</text>
+		<text>The blue Mantis seems sure to win, scoring numerous hits on his enemy. However, the one in red ends the fight with a single key swipe. You claim your winnings!</text>
 		<item_modify>
 			<item type="scrap" min="100" max="100"/>
 		</item_modify>
@@ -1159,7 +1159,7 @@
 		<choice req="engines" lvl="4" hidden="true">
 			<text>(Adv. Engines) Dodge the debt and power up the engines.</text>
 			<event>
-				<text>You recall the scrap you prepared to send and are able to get out of the cruiser's firing range before they can react.  However, a smaller ship breaks off from a patrol and moves in to engage.</text>
+				<text>You recall the scrap you prepared to send and are able to get out of the cruiser's firing range before they can react. However, a smaller ship breaks off from a patrol and moves in to engage.</text>
 				<item_modify>
 					<item type="scrap" min="50" max="50"/>
 				</item_modify>
@@ -1357,7 +1357,7 @@
 
 <eventList name="MANTIS_FIGHT_CHOICE_AVOID">
 	<event>
-		<text>You power down non-essential systems and wait for the FTL drive to charge.  They either don't want to fight or have failed to notice your ship, the latter being more likely.</text>
+		<text>You power down non-essential systems and wait for the FTL drive to charge. They either don't want to fight or have failed to notice your ship, the latter being more likely.</text>
 	</event>
 	<event>
 		<text>Before you have a chance to slink away the Mantis ship notices you and powers up their weapons.</text>
@@ -1412,7 +1412,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You power down non-essential systems in an attempt to remain unnoticed.  It looks like they are about to leave when suddenly they turn and set course toward you, weapons powered.</text>
+		<text>You power down non-essential systems in an attempt to remain unnoticed. It looks like they are about to leave when suddenly they turn and set course toward you, weapons powered.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -1466,13 +1466,13 @@
 </eventList>
 <eventList name="MANTIS_FIGHT_CHOICE_CLOAK">
 	<event>
-		<text>You quickly cloak the ship and move out of immediate scanning range.  You appear to have gotten away undetected.</text>
+		<text>You quickly cloak the ship and move out of immediate scanning range. You appear to have gotten away undetected.</text>
 	</event>
 	<event>
-		<text>You cloak and shut down non-essential systems.  In a short time the Mantis ship jumps away, no doubt in search of prey.</text>
+		<text>You cloak and shut down non-essential systems. In a short time the Mantis ship jumps away, no doubt in search of prey.</text>
 	</event>
 	<event>
-		<text>You quickly cloak the ship, but not quickly enough.  They spot you and move in to engage.</text>
+		<text>You quickly cloak the ship, but not quickly enough. They spot you and move in to engage.</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
@@ -1821,13 +1821,13 @@
 		</choice>
 	</event>
 	<event>
-		<text>Your Slug concentrates for a second. "Interessting! I senss a human inssside." The slug shivers. "They are in a deep sstate of sshock sssir. Maybe we sshould help them?" You free the human and sedate them immediately. A rare survivor of Mantis captivity.  Once they wake up in the medbay, they offer to join your crew for a time.</text>
+		<text>Your Slug concentrates for a second. "Interessting! I senss a human inssside." The slug shivers. "They are in a deep sstate of sshock sssir. Maybe we sshould help them?" You free the human and sedate them immediately. A rare survivor of Mantis captivity. Once they wake up in the medbay, they offer to join your crew for a time.</text>
 		<crewMember amount="1" class="human"/>
 	</event>
 </eventList>
 <eventList name="MANTIS_CREW_SLUG_MANTIS_RESULTS">	
 	<event>
-		<text>The Mantis inside is FURIOUS. He cuts the closest person in half with a single swipe.  Kill it before anyone else is hurt.</text>
+		<text>The Mantis inside is FURIOUS. He cuts the closest person in half with a single swipe. Kill it before anyone else is hurt.</text>
 		<removeCrew>
 			<clone>true</clone>
 			<text>The Mantis is shocked to see the crewmember it just slaughtered step out of the Clone Bay.</text>
@@ -1900,7 +1900,7 @@
 	<text back="BG_WARNING_ASB_HOSTILE" planet="NONE">You find yourself deep in Mantis space. Newly founded breeding colonies dot the planets of this system and a patrol ship crosses path with your ship. You order to stay away from the planets to not get shot at with anti-ship artillery.</text>
 	<text back="BG_WARNING_ASB_HOSTILE" planet="NONE">A small Mantis cruiser is broadcasting a repeating message on a wide-band frequency, "All non-Mantis ships that enter our territory are forfeit. Lower your shields and surrender if you value your lives." You are out still outside the range of the Mantis defense batteries and decide to risk a confrontation.</text>
 	<text back="BG_WARNING_ASB_HOSTILE" planet="NONE">You detect a small military outpost and a few freighters nearby. This mineral rich planet in an isolated location would be perfect for an illegal Mantis mining operation. As you consider your options, a ship launches from the outpost. You try to stay outside the range of their defense batteries and prepare for a fight.</text>
-	<text back="BG_WARNING_ASB_HOSTILE" planet="NONE">You discover yet another unlicensed and uncharted Mantis colony. They certainly waste no time expanding their claims. A Mantis ship moves to intercept you before you can jump away.  The Mantis have not yet cover the beacon with their ASBs. You will be safe from their fire here.</text>
+	<text back="BG_WARNING_ASB_HOSTILE" planet="NONE">You discover yet another unlicensed and uncharted Mantis colony. They certainly waste no time expanding their claims. A Mantis ship moves to intercept you before you can jump away. The Mantis have not yet cover the beacon with their ASBs. You will be safe from their fire here.</text>
 	<text back="BG_WARNING_ASB_HOSTILE" planet="NONE">A small military craft hails you and a Mantis captain appears on your receiver. "All local human colonies have been punished for the Federation's transgressions. Submit to processing." You realize that you are outside the range of the Mantis occupied ASBs and decide to battle it out.</text>
 </textList>
 
@@ -2141,7 +2141,7 @@
 	<text planet="NONE" back="BG_WARNING_TARGETING_MANTIS">You ventured deep into Mantis space and discovered what must be one of the main hive clusters in this sector. The planetary hatcheries are so densely populated that the computer cannot calculate how many of the aliens are actually bred here.</text>
 	<text planet="NONE" back="BG_WARNING_TARGETING_MANTIS">You arrive in close vicinity of yet another newly established Mantis colony. Hatcheries are built, warships are constructed in orbit and the insectoid beings have already set up planetary defenses. You wonder if these creatures might actually be a greater threat to the Galaxy than the Rebels.</text>
 	<text planet="NONE" back="BG_WARNING_TARGETING_MANTIS">You drop into real-space and have to mark another unlicensed Mantis colony on the star chart. This clearly violates the Post Federation-Mantis War treaty. If the Federation survives the Rebellion, it will have to bring down the hammer on these insectoid beings once more.</text>
-	<text planet="NONE" back="BG_WARNING_TARGETING_MANTIS">A major Mantis settlement hails you and a uniformed officer appears on your receiver.  "What is the meaning of this foolish transgression? You invaded our domain and will be punished!"</text>
+	<text planet="NONE" back="BG_WARNING_TARGETING_MANTIS">A major Mantis settlement hails you and a uniformed officer appears on your receiver. "What is the meaning of this foolish transgression? You invaded our domain and will be punished!"</text>
 </textList>
 
 <eventList name="CE_PDS_MANTIS_LIST">
@@ -2393,7 +2393,7 @@
 <textList name="STORE_MANTIS">
 	<text>Upon arriving at the beacon you're hailed by a well-spoken Mantis, "Hail, traveler. These are dangerous times. Perhaps you find yourself in need of our services?" He appears to be a trader.</text>
 	<text>Uncertain about what you'll discover at this beacon you scan the surroundings. You detect several warnings on wide-band channels discouraging any violence in protected trade-space. Perhaps you can find some wares nearby.</text>
-	<text>Merchants are not highly respected among the Mantis race, so few undertake the profession.  You're mildly surprised to receive an advertisement from a nearby space dock. You decide to see what they have to offer.</text>
+	<text>Merchants are not highly respected among the Mantis race, so few undertake the profession. You're mildly surprised to receive an advertisement from a nearby space dock. You decide to see what they have to offer.</text>
 	<text>Identifying a Mantis trading post ahead, you signal them so that your approach won't be taken as a threat. The leader hails you, "You have scrap? Quickly, come dock before the warriors see you."</text>
 	<text>A struggling Mantis cargo ship headed for the node raises what's left of shields as you jump in. You power up your weapons as a show of force, and they reluctantly agree to offload some of their cargo to you - for a price.</text>
 	<text planet="PLANET_POPULATED_REAL">Mantis industrial installations manufacture invasion ships en masse near this planet. You passively scan the factories. Hundreds of Engi slaves are working in them. A corrupt Mantis clan lord contacts you and offers to sell some of the excess production.</text>
