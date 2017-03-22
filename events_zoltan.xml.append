@@ -3589,7 +3589,7 @@
 <textList name="BS_EVENT_ZOLTAN_TEXT">
 	<!-- <text>A Zoltan station hails, "Is it day or the sleep? Thousands of cycles, always in movement. My mind transcends the worldly realm. I have seen it!" It seems they have been out here for too long. You consider trying to find help for them but for now you are going have to dodge their fire.</text> -->
 	<text>A Zoltan station with strange markings appears on the vidscreen. After a short time they open fire; this must be some violent separatist sect.</text>
-	<text>You receive a hail from a small station, "As a result of jumping here, you have invaded the domain of warrior-monk Sandra-Zen the Sublime. Deactivate your weapons and submit to her authority" The station doesn't seem that big. A fast crew vote results in the decision to fight.</text>
+	<text>You receive a hail from a small station, "As a result of jumping here, you have invaded the domain of warrior-monk Sandra-Zen the Sublime. Deactivate your weapons and submit to her authority." The station doesn't seem that big. A fast crew vote results in the decision to fight.</text>
 	<text>A nearby Zoltan outpost is harassed by some pirate ships, which are about to retreat. The station must have mistaken you for reinforcements and starts targeting you. One would think Zoltan commanders would be open to reason. This one definitely isn't.</text>
 	<text>As you arrive at the beacon a Zoltan military outpost appears on the radar. They refuse all hails and instead start firing. You will have time to wonder why later.</text>
 	<text>The commander of this Zoltan outpost claims that you have intruded into a military zone. They demand that you stand down and surrender immediately.</text>
