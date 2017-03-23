@@ -5013,7 +5013,7 @@
 	<text>A military vessel moves in to intercept after spotting you at this beacon. The quarantine fleet must be aware that you intend to leave this sector soon. You might spread the disease to other sectors.</text>
 	<text>A vessel of the quarantine fleet hails on broadband channels, "Federation vessel, you might spread the disease to other regions by leaving this sector. Your ship is under lockdown." You can't let them stop you.</text>
 	<text>A military ship is guarding this jump node. They request your identification, but radiation from the sun in this system is disrupting your communications. They take your silence for aggression and move in to attack.</text>
-	<text>You receive a message, "This area is off limits. You ship has violated quarantine procedures. Turn yourself in." It's only a single guard ship. The crew gets ready to fight.</text>
+	<text>You receive a message, "This area is off limits. Your ship has violated quarantine procedures. Turn yourself in." It's only a single guard ship. The crew gets ready to fight.</text>
 </textList>
 
 <event name="QUARANTINE_PATROL_AUGMENTED" unique="true">

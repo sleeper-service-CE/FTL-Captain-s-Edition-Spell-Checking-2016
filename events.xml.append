@@ -7962,7 +7962,7 @@
 		<damage amount="2" system="random" effect="fire"/>
 	</event>
 	<event>
-		<text>You extract the recovery arms and grab the ammo in fly by. If you ship is equipped with compatible launchers, you could even fire it at your enemy now.</text>
+		<text>You extract the recovery arms and grab the ammo in fly by. If your ship is equipped with compatible launchers, you could even fire it at your enemy now.</text>
 		<item_modify>
 			<item type="missiles" min="3" max="4"/>
 		</item_modify>	
@@ -21611,7 +21611,7 @@
 			</event>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) Upgrade you ship with specialized shield phase technology for teleporters. [ Scrap: -70; Augment: Zoltan Shield Bypass ]</text>
+			<text>(Zoltan Ship) Upgrade your ship with specialized shield phase technology for teleporters. [ Scrap: -70; Augment: Zoltan Shield Bypass ]</text>
 			<event>
 				<text>The ship computer contains all available data on the advanced Zoltan shields. This allows you to upgrade teleporter devices so that they can bypass them.</text>
 				<item_modify>
@@ -22301,7 +22301,7 @@
 			</event>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) Upgrade you ship with specialized shield phase technology for teleporters. [ Scrap: -70; Augment: Zoltan Shield Bypass ]</text>
+			<text>(Zoltan Ship) Upgrade your ship with specialized shield phase technology for teleporters. [ Scrap: -70; Augment: Zoltan Shield Bypass ]</text>
 			<event>
 				<text>The ship computer contains all available data on the advanced Zoltan shields. This allows you to upgrade teleporter devices so that they can bypass them.</text>
 				<item_modify>
