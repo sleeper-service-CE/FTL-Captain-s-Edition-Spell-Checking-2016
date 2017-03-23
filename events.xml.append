@@ -14283,7 +14283,7 @@
 	<text>You point out that both sides have proven their worth in combat and offer an exchange of goods. You has little choice but to agree.</text>
 	<text>You agree that this was all a misunderstanding and ask if you can further help you former opponent. They decline and willingly transmit supplies, knowing that violating the rules might get them in trouble with the Zoltan later.</text>
 	<text>You immediately power down the weapons to show your good will. A deal favorable for both factions is struck in order to compensate for the damage that was done.</text>
-	<text>Seems coms are sometimes still mightier than weapons. You reach a favorable agreement.</text>
+	<text>Seems comms are sometimes still mightier than weapons. You reach a favorable agreement.</text>
 	<text>Your opponent has to compensate you for the damage done. So says the law.</text>
 	<text>Exchange of weapon fire is followed by an exchange of goods. You are glad that this did not have to end in further bloodshed.</text>
 	<text>For once, diplomacy prevails. Maybe peace still has a chance in this galaxy?</text>
@@ -28638,7 +28638,7 @@
 		<damage amount="3" system="random" effect="breach"/>
 	</event>
 	<event>	
-		<text>Just after you give the salvage order, several Rebel cruisers fire their ASB and a full volley crushes into your ship. The salvage team screams through the coms: "We can't stay here captain, you'll get us all killed!"</text>
+		<text>Just after you give the salvage order, several Rebel cruisers fire their ASB and a full volley crushes into your ship. The salvage team screams through the comms: "We can't stay here captain, you'll get us all killed!"</text>
 		<environment type="PDS" target="player"/>
 		<damage amount="3" system="room" effect="breach"/>
 		<damage amount="3" system="random" effect="breach"/>
