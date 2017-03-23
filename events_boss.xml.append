@@ -1127,7 +1127,7 @@
 				<choice hidden="true">
 					<text>"Eeh, well..."</text>
 					<event>
-						<text>"Seriously? Who are you anyway? This is a wast of time. Why don't you show us what your ship really is capable of. Come at us!" The massive flagship swings around and approaches you dead on. Battle station!</text>
+						<text>"Seriously? Who are you anyway? This is a waste of time. Why don't you show us what your ship really is capable of. Come at us!" The massive flagship swings around and approaches you dead on. Battle station!</text>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) "Prepare for offensive cyber-attack. Hack this thing!"</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
