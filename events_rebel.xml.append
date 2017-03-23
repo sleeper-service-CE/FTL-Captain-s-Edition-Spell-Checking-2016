@@ -6350,7 +6350,7 @@
 		<choice>
 			<text>Continue...</text>
 			<event>
-				<text>A synthetic screeching tears through the coms when you open a channel. A split-second later, searchlights blind your eyes. The shape of an automated cruiser becomes visible. It accelerates in your direction, greedily extending its mechanical arms towards you. There is no way but back, even though the shaft barely gives you enough room to turn and you'll only be able to navigate with basic thrusters.</text>
+				<text>A synthetic screeching tears through the comms when you open a channel. A split-second later, searchlights blind your eyes. The shape of an automated cruiser becomes visible. It accelerates in your direction, greedily extending its mechanical arms towards you. There is no way but back, even though the shaft barely gives you enough room to turn and you'll only be able to navigate with basic thrusters.</text>
 				<ship load="C_AUTO_CRUISER_CONSTRUCTION_FACTORY" hostile="true"/>
 				<status type="limit" target="enemy" system="engines" amount="1"/>
 		<choice hidden="true">
@@ -6426,7 +6426,7 @@
 		<choice>
 			<text>Continue...</text>
 			<event>
-				<text>A synthetic screeching tears through the coms when you open a channel and the next moment searchlights blind your eyes. The shape of an automated cruiser becomes visible. It accelerates in your direction, greedily extending its mechanical arms towards you. There is no way but back, even though the shaft barely gives you enough room to turn.</text>
+				<text>A synthetic screeching tears through the comms when you open a channel and the next moment searchlights blind your eyes. The shape of an automated cruiser becomes visible. It accelerates in your direction, greedily extending its mechanical arms towards you. There is no way but back, even though the shaft barely gives you enough room to turn.</text>
 				<ship load="C_AUTO_CRUISER_CONSTRUCTION_FACTORY" hostile="true"/>
 				<status type="limit" target="enemy" system="engines" amount="1"/>
 		<choice hidden="true">

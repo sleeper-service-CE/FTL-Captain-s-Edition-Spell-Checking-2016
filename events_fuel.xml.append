@@ -1016,7 +1016,7 @@
 			</event>
 		</choice>
 		<choice req="ENERGY_SHIELD" hidden="true">
-			<text>(Zoltan Ship) Upgrade you ship with specialized shield phase technology for teleporters. [ Scrap: -70; Augment: Zoltan Shield Bypass ]</text>
+			<text>(Zoltan Ship) Upgrade your ship with specialized shield phase technology for teleporters. [ Scrap: -70; Augment: Zoltan Shield Bypass ]</text>
 			<event>
 				<text>The ship computer contains all available data on the advanced Zoltan shields. This allows you to upgrade teleporter devices so that they can bypass them.</text>
 				<item_modify>

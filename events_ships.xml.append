@@ -4080,7 +4080,7 @@
 
 <ship name="PIRATE_ACID" auto_blueprint="SHIPS_PIRATE">
 	<surrender chance="0.5" min="1" max="5">
-		<text>The hull of your opponent immediately corrodes wherever it is hit, leaving trails of ugly yellow fog behind. You ship probably does not look much better.</text>
+		<text>The hull of your opponent immediately corrodes wherever it is hit, leaving trails of ugly yellow fog behind. Your ship probably does not look much better.</text>
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event load="CE_ACID_FIGHT_LIST"/>
