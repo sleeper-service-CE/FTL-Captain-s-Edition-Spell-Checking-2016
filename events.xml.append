@@ -24062,7 +24062,7 @@
 	</event>
 </eventList>
 <textList name="CE_SOCIAL_HUMAN_HOME_TEXT">
-	<text planet="PLANET_POPULATED">You locate your crew member's home-planet, a busy trade world with loose ties to the Federation. Your crewman should be able to lay low around here, but it is still unclear what will happen to this planet and its people when the Rebels take over the sector.</text>
+	<text planet="PLANET_POPULATED_REAL">You locate your crew member's home-planet, a busy trade world with loose ties to the Federation. Your crewman should be able to lay low around here, but it is still unclear what will happen to this planet and its people when the Rebels take over the sector.</text>
 	<text planet="PLANET_UNPOPULATED">You locate your crew member's home-planet, a small independent colony world with no strategic value. You crewman will be able to rejoin with his/her family, but it is still unclear what will happen to this planet once the Rebels take over the sector.</text>
 </textList>
 
@@ -38642,10 +38642,10 @@ IDEAS
 	<text>You've arrived at the Long-Range Relay. When the FTL Drive is charged you can jump to the next Sector.</text>
 	<text>You've arrived at the Long-Range Relay. When the FTL Drive is charged you can jump to the next Sector.</text>
 	<text>You've arrived at the Long-Range Relay. When the FTL Drive is charged you can jump to the next Sector.</text>
-	<text back="BACKGROUND" planet="PLANET_POPULATED">You arrive near the main planet of the sector. A major jump relay located here allows space ships to perform extreme long-range jumps. The place is quite busy. Several vessels wait in line and prepare to travel closer to the Federation coreworld, undoubtedly fleeing from the slowly approaching Rebel fleet.</text>
+	<text back="BACKGROUND" planet="PLANET_POPULATED_REAL">You arrive near the main planet of the sector. A major jump relay located here allows space ships to perform extreme long-range jumps. The place is quite busy. Several vessels wait in line and prepare to travel closer to the Federation coreworld, undoubtedly fleeing from the slowly approaching Rebel fleet.</text>
 	<text>You've arrived at a busy Long-Range Beacon - A massive jump relay that can throw ships a great distance. You can use this installation to travel to another sector.</text>
-	<text back="BACKGROUND" planet="PLANET_POPULATED">This well defended planet is orbited by a long-range relay. The only way out of this sector.</text>
-	<text back="BACKGROUND" planet="PLANET_POPULATED">The local planetary economy is wealthy enough to maintain a Long-Range Relay. Permission to jump is still granted for remenants of the Federation.</text>
+	<text back="BACKGROUND" planet="PLANET_POPULATED_REAL">This well defended planet is orbited by a long-range relay. The only way out of this sector.</text>
+	<text back="BACKGROUND" planet="PLANET_POPULATED_REAL">The local planetary economy is wealthy enough to maintain a Long-Range Relay. Permission to jump is still granted for remenants of the Federation.</text>
 	<text>Your cruiser arrives at a busy Long-Range Relay.</text>
 
 
