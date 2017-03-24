@@ -3107,6 +3107,43 @@
 	<weaponArt>ba_missiles_4</weaponArt> 
 </weaponBlueprint>
 
+<weaponBlueprint name="BA_MISSILES_4_ENEMY">
+	<type>MISSILES</type>
+	<tip>tip_missiles</tip>
+	<title>Ares Missile</title>
+	<short>Ares</short>
+	<desc>Enemy version, you should not see this description. Please report seeing this in the CE thread.</desc>
+	<tooltip>Enemy version, you should not see this description. Please report seeing this in the CE thread.</tooltip>
+	<damage>4</damage>
+	<stun>3</stun>
+	<missiles>1</missiles>
+	<shots>1</shots>
+	<sp>5</sp>
+	<fireChance>3</fireChance>
+	<breachChance>2</breachChance>
+	<cooldown>20</cooldown>
+	<power>3</power>
+	<cost>60</cost>
+	<bp>6</bp>
+	<rarity>0</rarity>
+	<image>ba_missile_4</image>
+	<launchSounds>
+		<sound>engine_missile_launch2</sound>
+	</launchSounds>
+	<hitShipSounds>
+		<sound>smallExplosion</sound>
+	</hitShipSounds>
+	<hitShieldSounds>
+		<sound>hitShield1</sound>
+		<sound>hitShield2</sound>
+		<sound>hitShield3</sound>
+	</hitShieldSounds>
+	<missSounds>
+		<sound>miss</sound>
+	</missSounds>
+	<weaponArt>ba_missiles_4</weaponArt> 
+</weaponBlueprint>
+
 <weaponBlueprint name="BA_MISSILES_PERYTON">
 	<type>MISSILES</type>
 	<tip>tip_missiles</tip>

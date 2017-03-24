@@ -92,7 +92,7 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<!-- <name>BA_BEAM_BIO_FOCUS</name>
 	<name>BA_BEAM_BIO_2</name> -->
 	<name>BA_MISSILES_HULL_SMALL</name>
-	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_4_ENEMY</name>
 	<!-- <name>BA_MISSILES_ASTERIA</name> (Might else get in pirate hands? Sucks when pointed at ya...)-->
 	<name>BA_MISSILES_PERYTON</name>
 	<name>BA_MISSILES_COCKATRICE</name>
@@ -167,7 +167,7 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>BA_MISSILES_FIRE</name> 
 	<name>BA_MISSILES_ONI</name>
 	<name>BA_MISSILES_IFRIT</name>
-	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_4_ENEMY</name>
 	<name>BA_MISSILES_SWARM_1</name>
 	<name>BA_MISSILES_SWARM_2</name>
 	<name>BA_MISSILES_SWARM_3</name>
@@ -192,7 +192,7 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>BA_MISSILES_FIRE</name> 
 	<name>BA_MISSILES_ONI</name>
 	<name>BA_MISSILES_IFRIT</name>
-	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_4_ENEMY</name>
 	<name>BA_MISSILES_SWARM_1</name>
 	<name>BA_MISSILES_SWARM_2</name>
 	<name>BA_MISSILES_SWARM_3</name>
@@ -680,7 +680,7 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>BA_MISSILES_COCKATRICE</name>
 	<name>BA_MISSILES_FIRE</name>
 	<name>BA_MISSILES_SIMURGH</name>
-	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_4_ENEMY</name>
 	<name>BA_MISSILES_HULL_SMALL</name>
 	<name>BA_MINES_SMALL_ENEMY</name>
 	<name>BA_MINES_MEDIUM_ENEMY</name>
@@ -739,7 +739,7 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>BA_MISSILES_COCKATRICE</name>
 	<name>BA_MISSILES_FIRE</name>
 	<name>BA_MISSILES_SIMURGH</name>
-	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_4_ENEMY</name>
 	<name>BA_MISSILES_HULL_SMALL</name>
 	<name>BA_MINES_SMALL_ENEMY</name>
 	<name>BA_MINES_MEDIUM_ENEMY</name>
@@ -820,7 +820,7 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>BA_MISSILES_COCKATRICE</name>
 	<name>BA_MISSILES_SWARM_1_ENEMY</name>
 	<name>BA_MISSILES_SWARM_2_ENEMY</name>
-	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_4_ENEMY</name>
 	<name>BA_MINES_SMALL_ENEMY</name>
 	<name>BA_MINES_MEDIUM_ENEMY</name>
 	<name>BA_LASER_LIGHT_2_ENEMY</name>
@@ -888,7 +888,7 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>BA_BEAM_AUTO</name>
 	<name>BA_MISSILES_SWARM_1_ENEMY</name>
 	<name>BA_MISSILES_SWARM_2_ENEMY</name>
-	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_4_ENEMY</name>
 	<name>BA_LASER_LIGHT_2_ENEMY</name>
 	<name>BA_LASER_LIGHT_3_ENEMY</name>
 	<name>BA_LASER_LIGHT_SCATTER_2_ENEMY</name>
@@ -1062,7 +1062,7 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>BA_ION_BURST_1</name>
 	<name>BA_ION_HEAVY_2_ENEMY</name>
 	<name>BA_MISSILES_PERYTON</name>
-	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_4_ENEMY</name>
 	<name>BA_MISSILES_SWARM_1_ENEMY</name>
 	<name>BA_MISSILES_SWARM_2_ENEMY</name>
 	<name>BA_LASER_LIGHT_3_ENEMY</name>
@@ -1244,7 +1244,7 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>BA_BEAM_FLAIL_DAMAGE_ENEMY</name>
 	<name>BA_ION_BURST_1</name>
 	<name>BA_EFFECTOR_1_ENEMY</name>
-	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_4_ENEMY</name>
 	<name>BA_MINES_MEDIUM_ENEMY</name>
 	<name>BA_LASER_OLD</name>
 	<name>BA_LASER_DUAL_OLD</name>
@@ -1329,7 +1329,7 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>BA_ION_BURST_1</name>
 	<name>BA_ION_HEAVY_2_ENEMY</name>
 	<name>BA_MISSILES_PERYTON</name>
-	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_4_ENEMY</name>
 	<name>BA_MISSILES_SWARM_1_ENEMY</name>
 	<name>BA_MISSILES_SWARM_2_ENEMY</name>
 	<name>BA_LASER_LIGHT_3_ENEMY</name>
@@ -1553,7 +1553,7 @@ This doc is for alterate versions of the existing ships - outfitted with the new
 	<name>BA_MISSILES_COCKATRICE</name>
 	<name>BA_MISSILES_SIMURGH</name>
 	<name>BA_MISSILES_FIRE</name>
-	<name>BA_MISSILES_4</name>
+	<name>BA_MISSILES_4_ENEMY</name>
 	<name>BA_MISSILES_SWARM_1_ENEMY</name>
 	<name>BA_MISSILES_SWARM_2_ENEMY</name>
 	<name>BA_MISSILES_SWARM_3_ENEMY</name>
