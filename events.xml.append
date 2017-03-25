@@ -25713,7 +25713,7 @@
 	<event>
 		<text>"I got bored lately, Captain. So I started to think about the ship." The AI explains that it has, voluntarily, evaluated one of your ship systems.</text>
 		<choice>
-			<text>Ask what this is about</text>
+			<text>Ask what this is about.</text>
 			<event load="CE_CONVERSATION_AI_UPGRADES"/>
 		</choice>
 	</event>
