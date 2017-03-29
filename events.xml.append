@@ -12799,7 +12799,7 @@
 			<choice req="AE_REQUISITION" hidden="true"> 
 				<text>(Requisition License) This operation is legal. We are doing this for the good of the mission and the entire Federation.</text>
 				<event>
-					<text>The scientist double check you license. "Is this really necessary? How are we supposed to get out of here without something to trade?" You explain that this is not your problem and proceed to confiscating their drone parts.</text>
+					<text>The scientist double checks your license. "Is this really necessary? How are we supposed to get out of here without something to trade?" You explain that this is not your problem and proceed to confiscating their drone parts.</text>
 					<item_modify>
 						<item type="drones" min="1" max ="3"/>
 					</item_modify>
@@ -25336,7 +25336,7 @@
 		<choice>
 			<text>"Thats not exactly unusual in a nebula, right?"</text>
 			<event>
-				<text>"Correct, but thiss isss different. It iss the same mind all the time and it iss close. We might have a sstowaway aboard. Probably cloaked." Your reconfigure the sensors and have your crew surround the intruder.</text>
+				<text>"Correct, but thiss isss different. It iss the same mind all the time and it iss close. We might have a sstowaway aboard. Probably cloaked." You reconfigure the sensors and have your crew surround the intruder.</text>
 				<choice>
 					<text>Continue...</text>
 					<event>
