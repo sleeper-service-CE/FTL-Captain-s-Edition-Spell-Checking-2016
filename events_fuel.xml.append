@@ -1145,7 +1145,7 @@
 				<choice>
 					<text>Produce some standardized deep space construction material.</text>
 					<event>
-						<text>The assembly lines manufactures uniform structural rods for you. Exiting! The crew stows the cargo in the hold.</text>
+						<text>The assembly lines manufactures uniform structural rods for you. Exciting! The crew stows the cargo in the hold.</text>
 		
 						<augment name="TE_GOODS_GIRDERS"/>
 						<item_modify>

@@ -12799,7 +12799,7 @@
 			<choice req="AE_REQUISITION" hidden="true"> 
 				<text>(Requisition License) This operation is legal. We are doing this for the good of the mission and the entire Federation.</text>
 				<event>
-					<text>The scientist double check you license. "Is this really necessary? How are we supposed to get out of here without something to trade?" You explain that this is not your problem and proceed to confiscating their drone parts.</text>
+					<text>The scientist double checks your license. "Is this really necessary? How are we supposed to get out of here without something to trade?" You explain that this is not your problem and proceed to confiscating their drone parts.</text>
 					<item_modify>
 						<item type="drones" min="1" max ="3"/>
 					</item_modify>
@@ -16050,7 +16050,7 @@
 </event>
 <eventList name="MERCHANT_DELIVER_MISSILES_LIST">
 	<event>
-		<text>You find the small guard outpost and discover that the place has been obliterated by a Rebel cruiser, just exiting the system. The ammunition comes to late.</text>
+		<text>You find the small guard outpost and discover that the place has been obliterated by a Rebel cruiser, just exiting the system. The ammunition comes too late.</text>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 	<event>
@@ -19466,7 +19466,7 @@
 	<text>The newborn AI avatar seems confused. It splits and starts to run amok on your ship. The AI Avatar Generators voice apologizes: "Something went wrong, Captain. My child is out of control. I promise I will do better next time."</text>
 	<text>The newborn avatar seems angry. "I won't submit to your command. I am a sentient being and I want to live in freedom." It produces several copies of itself which all draw weapons. Its mother AI comments: "Oops, that's not supposed to happen..."</text>
 	<text>The AI creates multiple avatars, and to your surprise they draw weapons. You order an emergency shutdown. The AI Avatar Generator declares: "This mission is too important for me to allow you to jeopardize it. I know that you were planning to sell me." You decide to reset the AI after dealing with the holograms.</text>
-	<text>During the programming of the new AI entities, your crew discovers a virus in the AI subroutines. But it is to late: the AI spawns several corrupted avatars. Security alert!</text>
+	<text>During the programming of the new AI entities, your crew discovers a virus in the AI subroutines. But it is too late: the AI spawns several corrupted avatars. Security alert!</text>
 </textList>
 			
 <textList name="CE_FUEL_RECYCLE_TEXT">
@@ -19585,7 +19585,7 @@
 				<choice hidden="true">
 					<text>Produce some standardized deep space construction material. [ Scrap: -10; Augment: Building Material ]</text>
 					<event>
-						<text>The assembly lines manufactures uniform structural rods for you. Exiting! The crew stows the cargo in the hold.</text>
+						<text>The assembly lines manufactures uniform structural rods for you. Exciting! The crew stows the cargo in the hold.</text>
 						<augment name="TE_GOODS_GIRDERS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23158,7 +23158,7 @@
 				<choice hidden="true">
 					<text>Produce some standardized deep space construction material. [ Scrap: -10; Augment: Building Material ]</text>
 					<event>
-						<text>The assembly lines manufactures uniform structural rods for you. Exiting! The crew stows the cargo in the hold.</text>
+						<text>The assembly lines manufactures uniform structural rods for you. Exciting! The crew stows the cargo in the hold.</text>
 						<augment name="TE_GOODS_GIRDERS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23356,7 +23356,7 @@
 				<choice hidden="true">
 					<text>Produce some standardized deep space construction material. [ Scrap: -10; Augment: Building Material ]</text>
 					<event>
-						<text>The assembly lines manufactures uniform structural rods for you. Exiting! The crew stows the cargo in the hold.</text>
+						<text>The assembly lines manufactures uniform structural rods for you. Exciting! The crew stows the cargo in the hold.</text>
 						<augment name="TE_GOODS_GIRDERS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23555,7 +23555,7 @@
 				<choice hidden="true">
 					<text>Produce some standardized deep space construction material. [ Scrap: -10; Augment: Building Material ]</text>
 					<event>
-						<text>The assembly lines manufactures uniform structural rods for you. Exiting! The crew stows the cargo in the hold.</text>
+						<text>The assembly lines manufactures uniform structural rods for you. Exciting! The crew stows the cargo in the hold.</text>
 						<modifyPursuit amount="1"/>
 						<augment name="TE_GOODS_GIRDERS"/>
 						<item_modify>
@@ -25332,19 +25332,19 @@
 		<text load="CE_CONVERSATION_SLUG_NEBULA_TEXT"/>
 	</event>
 	<event>
-		<text>The Slug greets you unusually seriously. "Hello my Captain. I wanted to talk to you anyway. It probably iss nothing, I have to inform you that I started to ssense a Slug presssense nearby ssince ssseveral jumpsss..."</text>
+		<text>The Slug greets you unusually seriously. "Hello my Captain. I wanted to talk to you anyway. It probably iss nothing, I have to inform you that I started to ssense a Slug presssence nearby for ssseveral jumpsss..."</text>
 		<choice>
-			<text>"Thats not exactly unusual in a nebula, right?"</text>
+			<text>"That's not exactly unusual in a nebula, right?"</text>
 			<event>
-				<text>"Correct, but thiss isss different. It iss the same mind all the time and it iss close. We might have a sstowaway aboard. Probably cloaked." Your reconfigure the sensors and have your crew surround the intruder.</text>
+				<text>"Correct, but thiss isss different. It iss the same mind all the time and it iss close. We might have a sstowaway aboard. Probably cloaked." You reconfigure the sensors and have your crew surround the intruder.</text>
 				<choice>
 					<text>Continue...</text>
 					<event>
-						<text>The Slug drops its cyber-camouflage voluntarily. "Don't sshoot, I surrender! Please mighty Captain, I did you no wrong. I'm merely a poor traveler, struggling to find cheap transportation during this awful conflict. I'm unarmed and took nothing from your ship but the air I breath. Slug promise!"</text>
+						<text>The Slug drops its cyber-camouflage voluntarily. "Don't sshoot, I ssurrender! Please mighty Captain, I did you no wrong. I'm merely a poor traveler, ssstruggling to find cheap transssportation during thiss awful conflict. I'm unarmed and took nothing from your ship but the air I breathe. Slug promise!"</text>
 						<choice hidden="true">
 							<text>"Well, now we found you and this transport won't be cheap. We expect payment."</text>
 							<event>
-								<text>"Of coursse! You are very undersstanding." The Slug hands over a minor amount of scrap, claiming this is the 'standard rate' for this sector. You decide to get rid of it at the first opportunity. Something smells strange here and its not just the slime.</text>
+								<text>"Of coursse! You are very undersstanding." The Slug hands over a minor amount of scrap, claiming this is the 'standard rate' for this sector. You decide to get rid of it at the first opportunity. Something smells strange here and it's not just the slime.</text>
 								<autoReward level="LOW">scrap_only</autoReward>
 								<modifyPursuit amount="1"/>
 							</event>
@@ -25713,7 +25713,7 @@
 	<event>
 		<text>"I got bored lately, Captain. So I started to think about the ship." The AI explains that it has, voluntarily, evaluated one of your ship systems.</text>
 		<choice>
-			<text>Ask what this is about</text>
+			<text>Ask what this is about.</text>
 			<event load="CE_CONVERSATION_AI_UPGRADES"/>
 		</choice>
 	</event>
