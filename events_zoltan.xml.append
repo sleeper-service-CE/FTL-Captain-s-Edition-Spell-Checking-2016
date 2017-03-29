@@ -7003,7 +7003,7 @@
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">It's eerily quiet. All you hear is the creaking of the ship as the nano-bots slowly gnaw it apart.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You nervously glance out the windows, but the only thing to greet you is more remote controlled nano bots. You ask for more light, but the lights are not responding. You try to contact the engine room; no answer. The nanites are messing with the ship's systems.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">You cycle through wide-band comm channels as soon as you arrive. Mostly static. You shortly pick up a faint signal; it is broadcasting classic Zoltan music, occasionally interrupted by screams and crazed laughter.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Space is said to be beautiful and exiting, but you decide that this grey-goo is one of the most ugly and boring things you've ever seen.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">Space is said to be beautiful and exciting, but you decide that this grey-goo is one of the most ugly and boring things you've ever seen.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">The eccentric nature of the rogue AI is also visible in the nano-clouds they command. The bots at this beacon form into pan-human figures, warriors of ancient mythologies, that slash away at your ship with vibro-melee weapons and shower it with EMP-arrows.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_NANO">The nano-attack does not subside. As you wait for the FTL drive to charge, you half expect to be ambushed by a ship as well. However, no attack comes...</text>
 </textList>
