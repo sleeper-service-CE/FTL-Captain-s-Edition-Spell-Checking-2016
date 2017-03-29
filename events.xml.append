@@ -25332,19 +25332,19 @@
 		<text load="CE_CONVERSATION_SLUG_NEBULA_TEXT"/>
 	</event>
 	<event>
-		<text>The Slug greets you unusually seriously. "Hello my Captain. I wanted to talk to you anyway. It probably iss nothing, I have to inform you that I started to ssense a Slug presssense nearby ssince ssseveral jumpsss..."</text>
+		<text>The Slug greets you unusually seriously. "Hello my Captain. I wanted to talk to you anyway. It probably iss nothing, I have to inform you that I started to ssense a Slug presssence nearby for ssseveral jumpsss..."</text>
 		<choice>
-			<text>"Thats not exactly unusual in a nebula, right?"</text>
+			<text>"That's not exactly unusual in a nebula, right?"</text>
 			<event>
 				<text>"Correct, but thiss isss different. It iss the same mind all the time and it iss close. We might have a sstowaway aboard. Probably cloaked." You reconfigure the sensors and have your crew surround the intruder.</text>
 				<choice>
 					<text>Continue...</text>
 					<event>
-						<text>The Slug drops its cyber-camouflage voluntarily. "Don't sshoot, I surrender! Please mighty Captain, I did you no wrong. I'm merely a poor traveler, struggling to find cheap transportation during this awful conflict. I'm unarmed and took nothing from your ship but the air I breath. Slug promise!"</text>
+						<text>The Slug drops its cyber-camouflage voluntarily. "Don't sshoot, I ssurrender! Please mighty Captain, I did you no wrong. I'm merely a poor traveler, ssstruggling to find cheap transssportation during thiss awful conflict. I'm unarmed and took nothing from your ship but the air I breathe. Slug promise!"</text>
 						<choice hidden="true">
 							<text>"Well, now we found you and this transport won't be cheap. We expect payment."</text>
 							<event>
-								<text>"Of coursse! You are very undersstanding." The Slug hands over a minor amount of scrap, claiming this is the 'standard rate' for this sector. You decide to get rid of it at the first opportunity. Something smells strange here and its not just the slime.</text>
+								<text>"Of coursse! You are very undersstanding." The Slug hands over a minor amount of scrap, claiming this is the 'standard rate' for this sector. You decide to get rid of it at the first opportunity. Something smells strange here and it's not just the slime.</text>
 								<autoReward level="LOW">scrap_only</autoReward>
 								<modifyPursuit amount="1"/>
 							</event>
