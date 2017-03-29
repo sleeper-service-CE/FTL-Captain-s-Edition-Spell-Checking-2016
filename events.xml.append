@@ -16050,7 +16050,7 @@
 </event>
 <eventList name="MERCHANT_DELIVER_MISSILES_LIST">
 	<event>
-		<text>You find the small guard outpost and discover that the place has been obliterated by a Rebel cruiser, just exiting the system. The ammunition comes to late.</text>
+		<text>You find the small guard outpost and discover that the place has been obliterated by a Rebel cruiser, just exiting the system. The ammunition comes too late.</text>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 	<event>
@@ -19466,7 +19466,7 @@
 	<text>The newborn AI avatar seems confused. It splits and starts to run amok on your ship. The AI Avatar Generators voice apologizes: "Something went wrong, Captain. My child is out of control. I promise I will do better next time."</text>
 	<text>The newborn avatar seems angry. "I won't submit to your command. I am a sentient being and I want to live in freedom." It produces several copies of itself which all draw weapons. Its mother AI comments: "Oops, that's not supposed to happen..."</text>
 	<text>The AI creates multiple avatars, and to your surprise they draw weapons. You order an emergency shutdown. The AI Avatar Generator declares: "This mission is too important for me to allow you to jeopardize it. I know that you were planning to sell me." You decide to reset the AI after dealing with the holograms.</text>
-	<text>During the programming of the new AI entities, your crew discovers a virus in the AI subroutines. But it is to late: the AI spawns several corrupted avatars. Security alert!</text>
+	<text>During the programming of the new AI entities, your crew discovers a virus in the AI subroutines. But it is too late: the AI spawns several corrupted avatars. Security alert!</text>
 </textList>
 			
 <textList name="CE_FUEL_RECYCLE_TEXT">
@@ -19585,7 +19585,7 @@
 				<choice hidden="true">
 					<text>Produce some standardized deep space construction material. [ Scrap: -10; Augment: Building Material ]</text>
 					<event>
-						<text>The assembly lines manufactures uniform structural rods for you. Exiting! The crew stows the cargo in the hold.</text>
+						<text>The assembly lines manufactures uniform structural rods for you. Exciting! The crew stows the cargo in the hold.</text>
 						<augment name="TE_GOODS_GIRDERS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23158,7 +23158,7 @@
 				<choice hidden="true">
 					<text>Produce some standardized deep space construction material. [ Scrap: -10; Augment: Building Material ]</text>
 					<event>
-						<text>The assembly lines manufactures uniform structural rods for you. Exiting! The crew stows the cargo in the hold.</text>
+						<text>The assembly lines manufactures uniform structural rods for you. Exciting! The crew stows the cargo in the hold.</text>
 						<augment name="TE_GOODS_GIRDERS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23356,7 +23356,7 @@
 				<choice hidden="true">
 					<text>Produce some standardized deep space construction material. [ Scrap: -10; Augment: Building Material ]</text>
 					<event>
-						<text>The assembly lines manufactures uniform structural rods for you. Exiting! The crew stows the cargo in the hold.</text>
+						<text>The assembly lines manufactures uniform structural rods for you. Exciting! The crew stows the cargo in the hold.</text>
 						<augment name="TE_GOODS_GIRDERS"/>
 						<item_modify>
 							<item type="scrap" min="-10" max="-10"/>
@@ -23555,7 +23555,7 @@
 				<choice hidden="true">
 					<text>Produce some standardized deep space construction material. [ Scrap: -10; Augment: Building Material ]</text>
 					<event>
-						<text>The assembly lines manufactures uniform structural rods for you. Exiting! The crew stows the cargo in the hold.</text>
+						<text>The assembly lines manufactures uniform structural rods for you. Exciting! The crew stows the cargo in the hold.</text>
 						<modifyPursuit amount="1"/>
 						<augment name="TE_GOODS_GIRDERS"/>
 						<item_modify>
