@@ -5303,7 +5303,7 @@ IDEAS
 	<text planet="PLANET_POPULATED_SMALL">The fighting has died down in this system. A large assortment of still-glowing scrap hulks marks the site of a major battle. In the distance, Rebel gunboats hunt down the remaining Federation forces. A ship flagged with a 'deserter' tag is charging its drive nearby.</text>
 	<text>The Federation has taken heavy losses here, but the admiralty refuses to give up this beacon. Com chatter indicates that many captains started disobeying direct orders to save their crews lives.</text>
 	<text planet="PLANET_POPULATED_REAL">A intense battle is fought on the other side of this planet. But a few Federation ships just calmly charge their drives at this beacon. "We have been ordered to retreat with our squadron." You doubt that this is true.</text>
-	<text>Another battle is raging here, but the only ships in close vicinity are with the Federation. You hail them and they state that they are evacuating the wounded. A message from local battle command contradicts this: "Free asset, be advices: These units have disobeyed direct orders. You are ordered to open fire on the deserters."</text>
+	<text>Another battle is raging here, but the only ships in close vicinity are with the Federation. You hail them and they state that they are evacuating the wounded. A message from local battle command contradicts this: "Free asset, be advised: These units have disobeyed direct orders. You are ordered to open fire on the deserters."</text>
 </textList>
 
 <eventList name="CE_FED_DESERTER_LIST">
@@ -5363,7 +5363,7 @@ IDEAS
 		<choice hidden="true">
 			<text>Tell them that there is still hope.</text>
 			<event>
-				<text>"You command this ship everyone talks about? A standard beam cruiser? I though the would send some high tech stealth craft. Rumors even have it you fly a repainted Kestrel. So this is real..." They say they'll try holding off the fleet to facilitate your passage. There is only so much a single ship can do, but you never know...</text>
+				<text>"You command this ship everyone talks about? A standard beam cruiser? I thought they would send some high tech stealth craft. Rumors even have it you fly a repainted Kestrel. So this is real..." They say they'll try holding off the fleet to facilitate your passage. There is only so much a single ship can do, but you never know...</text>
 				<modifyPursuit amount="-1"/>
 			</event>
 		</choice>
