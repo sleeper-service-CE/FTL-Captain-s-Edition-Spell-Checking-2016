@@ -31461,7 +31461,7 @@
 </eventList>
 <eventList name="DEFENSE_SUCCESS_LIST">   
 	<event>
-		<text>Although station and ships have taken some damage, the whole operation is considered a success. A young crewman is so amazed by your commitment that they offers to join your team.</text>
+		<text>Although station and ships have taken some damage, the whole operation is considered a success. A young crewman is so amazed by your commitment that they offer to join your team.</text>
 		<choice>
 			<text>Welcome aboard!</text>
 			<event>
