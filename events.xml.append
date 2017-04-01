@@ -25100,7 +25100,7 @@
 		<text load="CE_CONVERSATION_ZOLTAN_GENERIC_TEXT"/>
 	</event>
 	<event>
-		<text>Your Zoltan is worried if you can make it through this sector with your small, constantly dwindling fuel supply. "I will power the jump drive with my own body for a few jumps." Zoltan are know to be capable of this amazing feat, but rarely use it because it cuts their individual lifespan by a few decades.</text>
+		<text>Your Zoltan is worried if you can make it through this sector with your small, constantly dwindling fuel supply. "I will power the jump drive with my own body for a few jumps." Zoltan are known to be capable of this amazing feat, but rarely use it because it cuts their individual lifespan by a few decades.</text>
 		<choice hidden="true">
 			<text>"You don't have to do this."</text>
 			<event>
