@@ -17293,7 +17293,7 @@
 			<choice>
 				<text>Agree to pay.</text>
 				<event>
-					<text>"The right decision, Captain. Our business is concluded. I took the liberty to inform the Rebel fleet of your position. You won't bother anyone else with you subordination. Have a nice day."</text>
+					<text>"The right decision, Captain. Our business is concluded. I took the liberty to inform the Rebel fleet of your position. You won't bother anyone else with your subordination. Have a nice day."</text>
 					<item_modify>
 						<item type="scrap" min="-150" max="-50"/>
 					</item_modify>

@@ -3234,7 +3234,7 @@
 		</choice>
 </event>
 <textList name="C_EVENT_GUNBOAT_BOSS_PDS_DELAYED_TEXT">
-	<text back="BG_WARNING_ASB_ALLIED" planet="NONE">You complete the jump and find yourself directly within a breathtaking battle for control if this planet. The Rebel forces are in the process of securing the orbit, systematically eliminating the outdated Federation outriders that skirmish with them. A Rebel gunboat intercepts you before you can even properly evaluate the situation.</text>
+	<text back="BG_WARNING_ASB_ALLIED" planet="NONE">You complete the jump and find yourself directly within a breathtaking battle for control of this planet. The Rebel forces are in the process of securing the orbit, systematically eliminating the outdated Federation outriders that skirmish with them. A Rebel gunboat intercepts you before you can even properly evaluate the situation.</text>
 	<text back="BG_WARNING_ASB_ALLIED" planet="NONE">This planet is housing a major Federation military base and the Rebels are about to eradicate it. Their missile weapons devastate the planet surface; the Federation anti-ship batteries are still firing, but can not do much against the sheer amount of Rebel cruisers. A small gunboat moves in on your position before you can even contact local Fed-Command.</text>
 	<text back="BG_WARNING_ASB_ALLIED" planet="NONE">A battle of planetary scale takes place here. The local Federation garrison is under heavy attack from space. When you try to contact the base, a Rebel gunboat immediately scrambles your coms and gets into an attack vector.</text>
 </textList>
