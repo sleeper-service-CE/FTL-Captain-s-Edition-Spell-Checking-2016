@@ -1608,7 +1608,7 @@
 </event>
 <textList name="NEBULA_ENGI_AUTO_TEXT">
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">Somewhat expected, the Rebels have already sent automated ships into the ice field to look for you. There is no hiding here.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">You jump into a isolated region far away from any stars or other sources of radiation. There is almost no background radiation to conceal ship signatures, you already pick up the auto scout that is heading for your position when it is still several klicks away. It still looks like you won't get away before it arrives.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">You jump into an isolated region far away from any stars or other sources of radiation. There is almost no background radiation to conceal ship signatures, you already pick up the auto scout that is heading for your position when it is still several klicks away. It still looks like you won't get away before it arrives.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">Massive chunks of frozen nebula gas slowly rotate around this beacon. A hazard tag informs you that some Engi experiment has gone horrible wrong here and has made the entire system uninhabitable. Suddenly, you see lights between the galactic glaciers. A previously dormant rebel scout bursts out of the ice, its red status lights glowing aggressively!</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">A Rebel drone, completely frozen, drifts near this beacon. This doesnt's seem right; The ship should be hardly affected by the low temperature... "It's just in sleep mode, Captain. There, systems coming online!" The icy cocoon shatters as the scout's weapon pods swing into firing position.</text>
 </textList>
@@ -1838,7 +1838,7 @@
 	</choice>
 </event>
 <textList name="NEBULA_ENGI_NOTHING_TEXT">
-	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">You arrived in a area far away from any stars that could make planets inhabitable. The space faring Engi depend little on permanent planetary installations and often settle near such desolate regions.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">You arrived in an area far away from any stars that could make planets inhabitable. The space faring Engi depend little on permanent planetary installations and often settle near such desolate regions.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">A thick layer of ice covers this beacon. Shards the size of small planets float quietly around you. According to the ship computer, the field will gather more mass and collapse into a new star within a few billion standard years.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">Huge ice asteroids dot this system, too far away from any major stars to be melted within your lifetime. A thick layer of frozen matter soon covers your ship hull. The radiation from your ship must be detectable hundreds of klicks away, but there is no one around to do so.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ICEFIELD">The interference-free ice field allows you to get a clear reading of the entire system. There is no one here. This heatless region of space seems completely frozen and deserted.</text>
@@ -2055,7 +2055,7 @@
 <textList name="CE_EVENT_ENGI_AI_TEXT">
 	<text>An advanced science ship of the Engi hails, you are surprised when a combat Avatar appears on the vidscreen, "Greetings human. We have calculated that the Rebel fleet is a level 50 (unstoppable) on the hegemonic threat-scale. Handing you over is the only way to save our masters." Their weapons activate!</text>
 	<text>This advanced AI ship is no longer under control of the Engi. The Rebels might have hacked the crew, sometimes the combat avatars also turn traitor by themselves. Employing AIs is a risky business and unfortunately it is you who will have to bear the consequences here.</text>
-	<text>"Captain, we have a AI controlled Engi ship on the scanners, closing in fast." The Engi have automated parts of their fleet during the Rebellion. Many of the combat AIs have been hacked by the Rebels and turned against their former masters.</text>
+	<text>"Captain, we have an AI controlled Engi ship on the scanners, closing in fast." The Engi have automated parts of their fleet during the Rebellion. Many of the combat AIs have been hacked by the Rebels and turned against their former masters.</text>
 </textList>
 
 

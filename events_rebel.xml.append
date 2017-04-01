@@ -5516,7 +5516,7 @@
 	<autoReward level="MED">stuff</autoReward>
 </event>
 <textList name="CE_FREE_STUFF_AUTO_TEXT">
-	<text>You arrive in a system and immediately discover a automated construction unit nearby. Strangely, scans indicate the ship is striped of its AI core. You salvage from the units construction supplies.</text>
+	<text>You arrive in a system and immediately discover an automated construction unit nearby. Strangely, scans indicate the ship is striped of its AI core. You salvage from the units construction supplies.</text>
 	<text>Not much remains in this abandoned system; however, scans reveal an abandoned deep-space construction site nearby. Some supplies have been left behind.</text>
 	<text>You happen upon the remains of construction platform. It has been mostly picked clean but there appears to be a few supplies that will aid you in your mission.</text>
 </textList>
@@ -6311,7 +6311,7 @@
 <textList name="CE_REBEL_AUTO_CONSTRUCTION_OCCUPIED_TEXT">
 	<text planet="PLANET_GAS">You find a huge zero gravity dry-dock in orbit around a gas giant. Work is slow here: A single Rebel construction unit is putting finishing touches on a Rebel cruiser. The dock itself is defended by multiple turrets, but you could easily lure the auto constructor into attacking you.</text>
 	<text>When the jump completes, you find yourself near a depleted asteroid mine. A lone rebel construction craft has been left behind to guard the facilities, but it does not seem to register your arrival.</text>
-	<text>You arrive near what appears to be a small auto testing facility. Dummy targets are scattered throughout the system and a autonomous construction ship busies itself near the installation. It is welding engine casings onto a long row of deactivated auto assault ships and does not react to your presence. Your could easily lure the primitive ship away from the stations turrets.</text>
+	<text>You arrive near what appears to be a small auto testing facility. Dummy targets are scattered throughout the system and an autonomous construction ship busies itself near the installation. It is welding engine casings onto a long row of deactivated auto assault ships and does not react to your presence. Your could easily lure the primitive ship away from the stations turrets.</text>
 </textList>
 
 
@@ -6863,11 +6863,11 @@
 		</choice>
 </event>
 <textList name="NEBULA_INDUSTRIAL_SMOG_LOW_AUTO_CONSTRUCTION_TEXT">
-	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">The space here is saturated with micro particles, which might clog your engines and impede your sensors. Shortly after you arrive, a auto ship jumps in. It reacts aggressive to you presence.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">The space here is saturated with micro particles, which might clog your engines and impede your sensors. Shortly after you arrive, an auto ship jumps in. It reacts aggressively towards your presence.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">A construction ship has followed you into this light dust cloud. The auto ships forces seem to chase you everywhere you go in this sector.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">A Rebel constructor has followed you to an abandoned factory planet. Decades of industrial activities have saturated the surrounding space with micro particles. The enemy ship will be affected by this hazard just as much as you might be.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">An automated unit is disposing industrial waste in this region. It's defense routines take over when you arrive; the mindless mechanical worker is turned into an AI soldier for the time being. It moves in to attack.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">The space here is saturated with micro particles, kept in place by a large containment field. A auto ship is gathering the dust with its collection magnets, but switches to combat mode upon detecting you.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">The space here is saturated with micro particles, kept in place by a large containment field. An auto ship is gathering the dust with its collection magnets, but switches to combat mode upon detecting you.</text>
 </textList>
 
 
@@ -7092,7 +7092,7 @@
 			<choice>
 				<text>Buy the information.</text>
 				<event>
-					<text>"Neat! OK, lets see... Right, this might interest you: The location of a autonomous surveyor craft we tracked. The Rebels send these craft ahead into the sectors to scout for resources. If you can pull the crafts survey data it'll lead you to some fat asteroid fields." You mark the location of the Rebel surveyor on your map.</text>
+					<text>"Neat! OK, lets see... Right, this might interest you: The location of an autonomous surveyor craft we tracked. The Rebels send these craft ahead into the sectors to scout for resources. If you can pull the crafts survey data it'll lead you to some fat asteroid fields." You mark the location of the Rebel surveyor on your map.</text>
 					<quest event="CE_QUEST_AUTO_SURVEYOR_HUNT_FIGHT"/>
 					<item_modify>
 						<item type="scrap" min="-20" max="-20"/>

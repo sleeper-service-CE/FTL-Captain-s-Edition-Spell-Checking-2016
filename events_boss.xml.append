@@ -4555,7 +4555,7 @@ IDEAS
 </event>
 <textList name="FREE_ITEMS_FED_TEXT">
 	<text>You arrive in a system and discover a badly damaged Rebel destroyer. The crew must be dead, there are no life signs on board. You salvage anything useful.</text>
-	<text>The evacuation seems to have made some progress, everyone has left this system. While the FTL charges you strip some materials from a abandoned defensive platform nearby.</text>
+	<text>The evacuation seems to have made some progress, everyone has left this system. While the FTL charges you strip some materials from an abandoned defensive platform nearby.</text>
 	<text planet="PLANET_POPULATED_REAL">As you arrive in the system you are hailed by a loyalist settlement. Upon learning of your quest, they offer you supplies.</text>
 	<text planet="PLANET_UNPOPULATED">Debris from recent battles still orbits the planets in this system. Some of it still might be usable.</text>
 </textList>
@@ -4566,7 +4566,7 @@ IDEAS
 	<fleet>fed</fleet>
 </event>
 <textList name="FIND_DRONE_FED_TEXT">
-	<text planet="PLANET_POPULATED_REAL">An heavily defended space station circles a urbanized world. When you ask for help the local tech geeks transmit schematics for a drone.</text>
+	<text planet="PLANET_POPULATED_REAL">An heavily defended space station circles an urbanized world. When you ask for help the local tech geeks transmit schematics for a drone.</text>
 	<text planet="PLANET_POPULATED_REAL">A Federation cruiser squadron is moving in to reinforce this position. They transmit schematics for a drone to help you out.</text>
 	<text>You are surprised to find a couple of mothballed Federation cruisers in open space. The commanding officer of a lonely guard squadron authorizes you to take some of the ships tech aboard. She explains that the local forces where unable to gather enough personal to crew all the ships. Too many Federation officers have deserted to the Rebels and these ships will likely fall into the hand of the enemy as well.</text>
 </textList>
@@ -5155,7 +5155,7 @@ IDEAS
 			<choice hidden="true"> 
 				<text>Continue...</text>
 				<event>
-					<text>About a minute later, the missiles reach the surface. A few are intercepted by Rebel AA turrets, but most detonate in the middle of their ranks, throwing their forces into disarray. You bought the evacuation some time and a escaping shuttle offers to unload some supplies as thanks.</text>
+					<text>About a minute later, the missiles reach the surface. A few are intercepted by Rebel AA turrets, but most detonate in the middle of their ranks, throwing their forces into disarray. You bought the evacuation some time and an escaping shuttle offers to unload some supplies as thanks.</text>
 					<autoReward level="LOW">stuff</autoReward>
 				</event>
 			</choice>

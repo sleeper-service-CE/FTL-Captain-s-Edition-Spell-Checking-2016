@@ -3763,7 +3763,7 @@
 <textList name="ZOLTAN_FIGHT_ION_TEXT">
 	<text planet="NONE" back="BG_NEBULA_WARNING_ION">You arrive at one of the great ion barriers that divide Zoltan space. A local commander claims that you have crossed a closed border by coming here. They say they'll let you go if you surrender.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ION">A massive barrier anomaly projects a strong ion field on your cruiser, even though you are still hundreds of klicks away. A Zoltan patrol hails you: "Traveling vessel, approaching this border with an armed craft violates recent peace treaties. Stand down and surrender."</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ION">When the FTL sparks settle, you realize that you've just jumped past a ion rift anomaly. The Zoltan use these natural ion fields as border markers for their many provinces and a ship is already closing in, inquiring what this violation is about. Their weapons are active...</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ION">When the FTL sparks settle, you realize that you've just jumped past an ion rift anomaly. The Zoltan use these natural ion fields as border markers for their many provinces and a ship is already closing in, inquiring what this violation is about. Their weapons are active...</text>
 	<text planet="PLANET_POPULATED_SMALL" back="BG_NEBULA_WARNING_ION">The artificial planet here must serve as a border post; the guards dispatch a ship, arguing that your presence here violates 59 different laws. "We will open fire if you do not surrender immediately." The ion field emitted by the nearby anomaly will affect both of your ships.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_ION">Entry scans show a strong ion field ahead and once your jump completes, one of your shield layers instantly collapses. You know that this barrier marks a local border. You can jump through it easily, but a local guard ship catches up with you first. They demand an explanation that you don't have.</text>
 </textList>
@@ -6020,7 +6020,7 @@
 	<text>A large evacuation fleet is charging drives at this node. They mourn the loss of their planetary colony, which has been consumed by a rogue nanite swarm. When hearing about the incoming Rebel fleet, the civilians are even more devastated.</text>
 	<text planet="PLANET_POPULATED_SMALL">It is unclear what happened to the population of this planet, but now not a single life sign is found. You can just hope the population was evacuated when the nanite swarm arrived.</text>
 	<text planet="PLANET_POPULATED_SMALL">Strangely enough, this small colony planet seems not to be bothered by the rogue combat AIs. "We just keep to ourselves these days and they leave us in peace." Their planetary defense clusters probably do their part as well.</text>
-	<text>You exchange greetings with a Engi science vessel stationed at this beacon. They study the behavior of their runaway AI servants, hoping to anticipate future actions. The Engi advise you several times not to venture into the nano-bot clouds, where some of the more powerful AIs have made their home.</text>
+	<text>You exchange greetings with an Engi science vessel stationed at this beacon. They study the behavior of their runaway AI servants, hoping to anticipate future actions. The Engi advise you several times not to venture into the nano-bot clouds, where some of the more powerful AIs have made their home.</text>
 </textList>
 
 <event name="AI_FIGHT">

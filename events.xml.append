@@ -26010,7 +26010,7 @@
 	<text>Your Lanius crew member has a lot to say, but you forgot your universal translator on the bridge. Its speech sometimes includes seemingly random nouns in your language, but you cannot gather what the crewman wants to say.</text>
 	<text>The Lanius is nowhere to be found. The computer informs you that the crewman is in its personal quarters, absorbing its daily mineral ration.</text>
 	<text>The Lanius is nowhere to be found. The computer informs you that the crewman has gone into a quick stasis nap in its personal quarters.</text>
-	<text>The Lanius is nowhere to be found. The computer informs you that it is currently taking a walk outside, on the hull of the ship. You wonder if there is a article in Federation protocol that regulates this.</text>
+	<text>The Lanius is nowhere to be found. The computer informs you that it is currently taking a walk outside, on the hull of the ship. You wonder if there is an article in Federation protocol that regulates this.</text>
 	<text>The Lanius is nowhere to be found. The computer informs you that it is on a space walk, checking the Hull for micro breaches. The anaerobic being seems to enjoy being outside in space quite a bit.</text>
 	<text>The Lanius is nowhere to be found. You hope it's not eating some part of the ship right now.</text>
 	<text>The Lanius is not very talkative. It just repeatedly mumbles a single word: "Hunger..."</text>
@@ -26042,7 +26042,7 @@
 		<choice hidden="true">
 			<text>"Yes, go ahead."</text>
 			<event>
-				<text>The Lanius nods overly enthusiastically. "I... understand... Captain." The Lanius heads off. You wonder if you really understood what this is about. A few minutes later, a internal damage warning pops up on your terminal. The Lanius has started to absorb parts of your ship.</text>
+				<text>The Lanius nods overly enthusiastically. "I... understand... Captain." The Lanius heads off. You wonder if you really understood what this is about. A few minutes later, an internal damage warning pops up on your terminal. The Lanius has started to absorb parts of your ship.</text>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
@@ -36682,7 +36682,7 @@ IDEAS
 		</item_modify>
 	</event>
 	<event>
-		<text>You order a exact list of what supplies are missing and have the crew questioned. No one knows how this could have happened.</text>
+		<text>You order an exact list of what supplies are missing and have the crew questioned. No one knows how this could have happened.</text>
 		<item_modify steal="true">
 			<item type="scrap" min="-10" max="-20"/>
 			<item type="fuel" min="-4" max="-2"/>
@@ -38248,7 +38248,7 @@ IDEAS
 	<text planet="PLANET_UNPOPULATED">The Lermak Whale has been driven nearly extinct due to the Mantis's craving for its flesh. A small colony of the whales has survived at this planet. You hunt down one of the creatures.</text>
 	<text>Sentient Radiant Fish from the depths of Smaral Beta's oceans are a little studied speies. These large fish are know to be extremely rare - they project multi-colored light bursts, with which to lure prey. You manage to convince one of the eloquent fish to meet the Curator.</text>
 	<text planet="PLANET_UNPOPULATED">The rare Suffa plants are cultivated by, and have some of the energized properties of, the Zoltans. An exiled hydroponics lab is using the unique climate of this planet to grow the bright red bushes. You manage to convince one of the Zoltan to give you a sample.</text>
-	<text planet="PLANET_UNPOPULATED">After some digging, you unearth a Rockman ceremonial gong on a archaeological site at this planet. They are used in the more important religious ceremonies of the Rockman. Legend has it striking it three times can summon a hundred saints to aid a Rock basilisk in battle.</text>
+	<text planet="PLANET_UNPOPULATED">After some digging, you unearth a Rockman ceremonial gong on an archaeological site at this planet. They are used in the more important religious ceremonies of the Rockman. Legend has it striking it three times can summon a hundred saints to aid a Rock basilisk in battle.</text>
 	<text>Oldschool Slug hacking modules are a pretty obsolete combat tech, but have quite some collection value. The Curator was right assuming that you could easily find one at the huge space scrapyard that surrounds this beacon.</text>
 	<text>A derelict Engi station, remote-jumped here from another sector, holds an original operational codex. These are the first behavioral programs used by the Engi. Since obsolete Codexes are almost always deleted when Engis develop new versions, it is quite a rare find.</text>
 	<text>A Mantis egg sack from one of their abandoned hatcheries. Why the Curator would want to risk his life with a Mantis brood is beyond you.</text>
@@ -38281,7 +38281,7 @@ IDEAS
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_2">
 	<text planet="PLANET_POPULATED_REAL">This planet is known to house some of the most obscure music shops in the galaxy. You purchase some ancient gel-jazz album the Curator is looking for.</text>
 	<text planet="PLANET_POPULATED_REAL">This planet's population reached a trillion, but it can easily sustain itself. Cities are dotted with small fields. Urban agriculture once again proves to be an efficient concept. You gather the exotic vegetables the Curator is looking for, but can't help feeling like you're fetching his groceries.</text>
-	<text planet="PLANET_UNPOPULATED">The Curator's catalog claims a Zoltan time capsule is hidden in the crust of this planet. After a long scan you discover and unearth the spherical device, which appears to be shielded with a impenetrable forcefield. It contains a fresh sandwich and a hand-held antimatter weapon.</text>
+	<text planet="PLANET_UNPOPULATED">The Curator's catalog claims a Zoltan time capsule is hidden in the crust of this planet. After a long scan you discover and unearth the spherical device, which appears to be shielded with an impenetrable forcefield. It contains a fresh sandwich and a hand-held antimatter weapon.</text>
 	<text planet="PLANET_UNPOPULATED">An abandoned archaeological excavation site of a Khaz'akzhak-period Mantis temple. You load some chitin plated facade parts into your cargo holds. No idea what the Curator wants with these.</text>
 	<text>The Curator's catalog was right, you detect a herd of FTL-Swimmers lingering in subspace a few light years away. A modulated sensor pulse drives the strange space creatures into realspace and you manage to capture one of their young for the Curator.</text>
 </textList>
@@ -38310,7 +38310,7 @@ IDEAS
 	</choice>
 </event>
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_3">
-	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewman is sent on a away mission and succeeds in retrieving one of the huge creatures.</text>
+	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewman is sent on an away mission and succeeds in retrieving one of the huge creatures.</text>
 	<text planet="PLANET_UNPOPULATED">A rare breed of the luminous saber-goat is said to live in the equatorial mountain regions of this planet. You crew goes for a hike with stun-blasters ready. You are glad no one gets hurt during the hunt.</text>
 	<text planet="PLANET_UNPOPULATED">The information provided by the Curator drone proves to be true. The special door frame, an ancient Zoltan artifact, is hidden near the pole of this planet. The device enables FTL travel for a single individual, but no one that stepped through it came back to report where it leads to.</text>
 	<text>Space whales are almost hunted to extinction. This beacon lies close to a part of space where the legendary creatures gathered to die. Several of their eternal corpses orbit a large planetoid. You gather the frozen space whale oil that the Curator is looking for.</text>
@@ -38341,7 +38341,7 @@ IDEAS
 	</choice>
 </event>
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_4">
-	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewman is sent on a away mission and succeeds in retrieving one of the huge creatures.</text>
+	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewman is sent on an away mission and succeeds in retrieving one of the huge creatures.</text>
 	<text planet="PLANET_UNPOPULATED">A rare breed of the luminous saber-goat is said to live in the equatorial mountain regions of this planet. You crew goes for a hike with stun-blasters ready. You are glad no one gets hurt during the hunt.</text>
 	<text planet="PLANET_UNPOPULATED">The information provided by the Curator drone proves to be true. The special door frame, an ancient Zoltan artifact, is hidden near the pole of this planet. The device enables FTL travel for a single individual, but no one that stepped through it came back to report where it leads to.</text>
 	<text>Space whales are almost hunted to extinction. This beacon lies close to a part of space where the legendary creatures gathered to die. Several of their eternal corpses orbit a large planetoid. You gather the frozen space whale oil that the Curator is looking for.</text>
@@ -38369,7 +38369,7 @@ IDEAS
 	<text planet="PLANET_UNPOPULATED">A legendary breed of changer lizards inhabits this world. You scanners uncover them while posing as a heard of sheep-like cattle. The crew captures one of the shape shifter animals an brings it aboard.</text>
 	<text>The Curators data was right: A small portion of space whale ambra is found in this system. The rare substance is left behind by the space inhabiting behemoth once in a decade. It is said to stimulate telepathic abilities.</text>
 	<text planet="PLANET_POPULATED_REAL">The antique industrial drones of this volume are a great tourist attraction. You steel one of the robots for the Curator.</text>
-	<text planet="PLANET_UNPOPULATED">The Curator's catalog claims a Zoltan time capsule is hidden in the crust of this planet. After a long scan you discover and unearth the spherical device, which appears to be shielded with a impenetrable forcefield. It contains an old acoustic guitar and a pair of severed humanoid hands...</text>
+	<text planet="PLANET_UNPOPULATED">The Curator's catalog claims a Zoltan time capsule is hidden in the crust of this planet. After a long scan you discover and unearth the spherical device, which appears to be shielded with an impenetrable forcefield. It contains an old acoustic guitar and a pair of severed humanoid hands...</text>
 </textList>
 
 <eventList name="CE_QUEST_CURATOR_REWARD_1">
