@@ -38367,7 +38367,7 @@ IDEAS
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_5">
 	<text>The curator wants a certain asteroid from a mineral field in this system. You find the piece of Rock at the exact location you where given. It seems to be made of completely ordinary stone. What the Curator wants with this remains a mystery.</text>
 	<text planet="PLANET_UNPOPULATED">A legendary breed of changer lizards inhabits this world. You scanners uncover them while posing as a heard of sheep-like cattle. The crew captures one of the shape shifter animals an brings it aboard.</text>
-	<text>The Curators data was right: A small portion of space whale ambra is found in this system. The rare substance is left behind by the space inhabiting behemoth once in a decade. It is said to stimulate telepathic abilities.</text>
+	<text>The Curator's data was right: A small portion of space whale ambra is found in this system. The rare substance is left behind by the space inhabiting behemoth once in a decade. It is said to stimulate telepathic abilities.</text>
 	<text planet="PLANET_POPULATED_REAL">The antique industrial drones of this volume are a great tourist attraction. You steel one of the robots for the Curator.</text>
 	<text planet="PLANET_UNPOPULATED">The Curator's catalog claims a Zoltan time capsule is hidden in the crust of this planet. After a long scan you discover and unearth the spherical device, which appears to be shielded with an impenetrable forcefield. It contains an old acoustic guitar and a pair of severed humanoid hands...</text>
 </textList>
