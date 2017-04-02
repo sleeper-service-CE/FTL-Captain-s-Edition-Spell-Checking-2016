@@ -7937,7 +7937,7 @@
 		<boarders min="2" max="2" class="human"/>
 	</event>
 	<event>
-		<text>The turncoat cannot believe his luck. Better keep a close eye on them. You leave the Rebel ship to his remaining crew, they hope to flee the fleets advance and return to their homes.</text>
+		<text>The turncoat cannot believe his luck. Better keep a close eye on them. You leave the Rebel ship to his remaining crew, they hope to flee the fleet's advance and return to their homes.</text>
 		<crewMember amount="1" pilot="1" class="human"/>  
 	</event>
 </eventList>
