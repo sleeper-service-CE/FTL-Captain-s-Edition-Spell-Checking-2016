@@ -7365,7 +7365,7 @@ IDEAS
 
 <event name="NEBULA_HAZARD_EXCESSION" unique="true"> <!-- anyone knows this book? one of banks best -->
 	<img planet="NONE" back="BG_NEBULA_WARNING_ANOMALY"/>
-	<text planet="NONE" back="BG_NEBULA_WARNING_ANOMALY">A perfect black-body sphere has appeared at this remote part of the galaxy. The object resists any attempt to analyse it, no sensors can penetrate it's surface. Ship wrecks are scattered in the vicinity, suggesting that various factions have battled over control of the anomaly.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_ANOMALY">A perfect black-body sphere has appeared at this remote part of the galaxy. The object resists any attempt to analyse it: no sensors can penetrate its surface. Ship wrecks are scattered in the vicinity, suggesting that various factions have battled over control of the anomaly.</text>
 	<status type="limit" target="player" system="sensors" amount="0"/>
 	<status type="loss" target="player" system="weapons" amount="1"/>
 	<status type="loss" target="player" system="drones" amount="3"/>
@@ -7377,14 +7377,14 @@ IDEAS
 
 <eventList name="NEBULA_HAZARD_EXCESSION_LIST">
 	<event>
-		<text>The magnetic field emitted by the object prevents you from immediately acquiring a single AI ship that survived the battle. They avatars where about to dispatch a probe towards the object, but then turn to engage you.</text>
+		<text>The magnetic field emitted by the object prevents you from immediately acquiring a single AI ship that survived the battle. They avatars were about to dispatch a probe towards the object, but then turn to engage you.</text>
 		<ship load="AI_EXCESSION" hostile="true"/>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 		<status type="loss" target="enemy" system="weapons" amount="1"/>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
 			<text>(Subspace Scanner) What is this thing?</text> 
 			<event>
-				<text>Even the Subspace scanner can no penetrate the sphere. This is highly unusual and quite troublesome. The general assumption here would be that only a civilization much more advanced than any known to you could produce such an object.</text> 
+				<text>Even the Subspace Scanner cannot penetrate the sphere. This is highly unusual and quite troublesome. The general assumption here would be that only a civilization much more advanced than any known to you could produce such an object.</text> 
 				<choice req="AE_NEBULA_SCANNER" hidden="true"> 
 					<text>Direct the scanner on the enemy ship.</text> 
 					<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
@@ -7445,14 +7445,14 @@ IDEAS
 		</choice>
 	</event>
 	<event>
-		<text>A single warships is still intact and heads towards you, with the FTL signatures indicating that it is Mantis. Looks like the insectoids have sent an expedition force to take control of the artifact. This is an affront to any peace loving culture.</text>
+		<text>A single warship is still intact and heads towards you, with its FTL signatures indicating that it is Mantis. Looks like the insectoids have sent an expedition force to take control of the artifact. This is an affront to any peace loving culture.</text>
 		<ship load="MANTIS_EXCESSION" hostile="true"/>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 		<status type="loss" target="enemy" system="weapons" amount="1"/>
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
 			<text>(Subspace Scanner) What is this thing?</text> 
 			<event>
-				<text>Even the Subspace scanner can no penetrate the sphere. This is highly unusual and quite troublesome. The general assumption here would be that only a civilization much more advanced than any known to you could produce such an object.</text> 
+				<text>Even the Subspace Scanner cannot penetrate the sphere. This is highly unusual and quite troublesome. The general assumption here would be that only a civilization much more advanced than any known to you could produce such an object.</text> 
 				<choice req="AE_NEBULA_SCANNER" hidden="true"> 
 					<text>Direct the scanner on the enemy ship.</text> 
 					<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
@@ -7516,7 +7516,7 @@ IDEAS
 		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
 			<text>(Subspace Scanner) What is this?</text> 
 			<event>
-				<text>Even the Subspace scanner can no penetrate the sphere. This is highly unusual and quite troublesome. The general assumption here would be, that only a civilisation much more advanced than any known to you could produce such an object.</text> 
+				<text>Even the Subspace Scanner cannot penetrate the sphere. This is highly unusual and quite troublesome. The general assumption here would be, that only a civilisation much more advanced than any known to you could produce such an object.</text> 
 				<choice req="AE_NEBULA_SCANNER" hidden="true"> 
 					<text>Direct the scanner on the enemy ship.</text> 
 					<event load="CE_PRE_FIGHT_NEBULA_SCANNER"/>
