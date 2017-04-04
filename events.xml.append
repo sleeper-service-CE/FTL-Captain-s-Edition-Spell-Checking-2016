@@ -37992,7 +37992,7 @@ IDEAS
 				<choice hidden="true" req="slug">
 					<text>(Slugman Crew) Your Slug doubts that.</text>
 					<event>
-						<text>Your Slug calmyl responds: "Yess we knew that. You really thought you were transsmitting data to your superiorss throughout the whole trip without usss knowing? They've got the wrong coordinates." The Rebel curses at the Federation and closes transmission. Your skilled Slug saved you some trouble here.</text>
+						<text>Your Slug calmly responds: "Yess we knew that. You really thought you were transsmitting data to your superiorss throughout the whole trip without usss knowing? They've got the wrong coordinates." The Rebel curses at the Federation and closes transmission. Your skilled Slug saved you some trouble here.</text>
 					</event>
 				</choice>
 			</event>
