@@ -8507,7 +8507,7 @@
 	<text>You arrive at the beacon and immediately detect a pirate ship. It seems this distress beacon was a trap!</text>
 	<text>"Haha! I knew someone would fall into our dastardly trap!" It appears this distress beacon was nothing but a decoy for a pirate ambush.</text>
 	<text>Your cockpit lights up with warning signals; you are being targeted by a nearby ship. The distress call was a lure to attract unwitting ships into weapons range. You prepare for a fight.</text>
-	<text>As soon as you arrive at the distress signal, shots are fired toward your ship. A trap!.</text>
+	<text>As soon as you arrive at the distress signal, shots are fired toward your ship. A trap!</text>
 </textList>
 
 <event name="PIRATE_CIVILIAN_BEACON">
