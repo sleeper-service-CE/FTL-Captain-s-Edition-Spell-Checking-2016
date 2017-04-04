@@ -7377,7 +7377,7 @@ IDEAS
 
 <eventList name="NEBULA_HAZARD_EXCESSION_LIST">
 	<event>
-		<text>The magnetic field emitted by the object prevents you from immediately acquiring a single AI ship that survived the battle. They avatars were about to dispatch a probe towards the object, but then turn to engage you.</text>
+		<text>The magnetic field emitted by the object prevents you from immediately acquiring a single AI ship that survived the battle. The avatars were about to dispatch a probe towards the object, but then turn to engage you.</text>
 		<ship load="AI_EXCESSION" hostile="true"/>
 		<status type="loss" target="enemy" system="drones" amount="3"/>
 		<status type="loss" target="enemy" system="weapons" amount="1"/>
