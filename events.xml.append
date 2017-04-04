@@ -31677,7 +31677,7 @@
 	<choice req="O2_MASKS" hidden="true"> 
 		<text>(Adaptive Gel Suits) You can spare one or two of your environmental suits.</text>
 		<event>
-			<text>"Thanks. These might save us in case we run out completely." They agree to pay a descend price for the devices.</text>
+			<text>"Thanks. These might save us in case we run out completely." They agree to pay a decent price for the devices.</text>
 			<status type="clear" target="enemy" system="oxygen" amount="100"/>
 			<autoReward level="LOW">scrap_only</autoReward>
 		</event>
