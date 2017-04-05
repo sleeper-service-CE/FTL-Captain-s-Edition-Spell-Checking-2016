@@ -17220,7 +17220,7 @@
 		<choice hidden="true">
 			<text>Decline.</text>
 			<event>
-				<text>"As you wish. Good day to your sir."</text>
+				<text>"As you wish. Good day to you, sir."</text>
 			</event>
 		</choice>
 	</event>
