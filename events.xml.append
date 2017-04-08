@@ -8007,7 +8007,7 @@
 	<text>You stand in front of the captain's chair, focused on the windscreen, bellowing orders to your crew. You will not let this opponent get the better of you!</text>
 	<text>Just after you bellowed this last order, everything becomes still for a second. You see yourself from the outside, clutched to one of the silver railings that lines the ship bridge, shouting orders, gesticulating at the screen... Then you remember your parents, your childhood, your time at the academy, the line of cause and effect that brought you here; to another fight to the death. What has become of you?</text>
 	<text>Hold it steady and stay on target... Just like in the simulations.</text>
-	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! You father would be proud.</text>
+	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! Your father would be proud.</text>
 	<text>You are determined to not let this opponent get the upper hand. "Fire when ready!"</text>
 	<text>The combat noticeably strains the ship. Sparks fly from sealing panels and acrid smoke covers the floor. You smell burnt plastic and your own sweat.</text>
 	<text>For a moment you are afraid of losing it. What if we don't make it? What if we can't escape or defeat the next enemy? You don't want to die! Then it passes... The crew does not seem to have noticed, or at least isn't showing it. You take a deep breath and re-collect yourself, then you ask for a situation report and try to focus on the battle.</text>
@@ -8133,7 +8133,7 @@
 	<text>You stand in front of the captain's chair, focused on the windscreen, bellowing orders to your crew. You will not let this opponent get the better of you!</text>
 	<text>Just after you bellowed this last order, everything becomes still for a second. You see yourself from the outside, clutched to one of the silver railings that lines the ship bridge, shouting orders, gesticulating at the screen... Then you remember your parents, your childhood, your time at the academy, the line of cause and effect that brought you here; to another fight to the death. What has become of you?</text>
 	<text>Hold it steady and stay on target... Just like in the simulations.</text>
-	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! You father would be proud.</text>
+	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! Your father would be proud.</text>
 	<text>You are determined to not let this opponent get the upper hand. "Fire when ready!"</text>
 	<text>The combat noticeably strains the ship. Sparks fly from wall panels and acrid smoke covers the floor. You smell burned plastic and you own sweat.</text>
 	<text>For a moment you are afraid of loosing it. What if we don't make it? What if we can't escape or defeat the next enemy? You don't want to die! Then it passes... The crew does not seem to have noticed, or at last isn't showing it. You take a deep breath and recollect yourself, then you ask for a situation report and try to focus on the battle.</text>
@@ -8507,7 +8507,7 @@
 	<text>You arrive at the beacon and immediately detect a pirate ship. It seems this distress beacon was a trap!</text>
 	<text>"Haha! I knew someone would fall into our dastardly trap!" It appears this distress beacon was nothing but a decoy for a pirate ambush.</text>
 	<text>Your cockpit lights up with warning signals; you are being targeted by a nearby ship. The distress call was a lure to attract unwitting ships into weapons range. You prepare for a fight.</text>
-	<text>As soon as you arrive at the distress signal, shots are fired toward your ship. A trap!.</text>
+	<text>As soon as you arrive at the distress signal, shots are fired toward your ship. A trap!</text>
 </textList>
 
 <event name="PIRATE_CIVILIAN_BEACON">
@@ -17220,7 +17220,7 @@
 		<choice hidden="true">
 			<text>Decline.</text>
 			<event>
-				<text>"As you wish. Good day to your sir."</text>
+				<text>"As you wish. Good day to you, sir."</text>
 			</event>
 		</choice>
 	</event>
@@ -31677,7 +31677,7 @@
 	<choice req="O2_MASKS" hidden="true"> 
 		<text>(Adaptive Gel Suits) You can spare one or two of your environmental suits.</text>
 		<event>
-			<text>"Thanks. These might save us in case we run out completely." They agree to pay a descend price for the devices.</text>
+			<text>"Thanks. These might save us in case we run out completely." They agree to pay a decent price for the devices.</text>
 			<status type="clear" target="enemy" system="oxygen" amount="100"/>
 			<autoReward level="LOW">scrap_only</autoReward>
 		</event>
@@ -37992,7 +37992,7 @@ IDEAS
 				<choice hidden="true" req="slug">
 					<text>(Slugman Crew) Your Slug doubts that.</text>
 					<event>
-						<text>Your Slug calmyl responds: "Yess we knew that. You really thought you were transsmitting data to your superiorss throughout the whole trip without usss knowing? They've got the wrong coordinates." The Rebel curses at the Federation and closes transmission. Your skilled Slug saved you some trouble here.</text>
+						<text>Your Slug calmly responds: "Yess we knew that. You really thought you were transsmitting data to your superiorss throughout the whole trip without usss knowing? They've got the wrong coordinates." The Rebel curses at the Federation and closes transmission. Your skilled Slug saved you some trouble here.</text>
 					</event>
 				</choice>
 			</event>
