@@ -993,7 +993,7 @@
 </event>
 
 <event name="CE_BOUNTY_AI">
-	<text>Your client sends a burst message, confirming that he expects you to destroy this ship. You are still not sure if the AIs are playing games with you, but you move in to engae the ship never the less. A job is a job.</text>
+	<text>Your client sends a burst message, confirming that he expects you to destroy this ship. You are still not sure if the AIs are playing games with you, but you move in to engage the ship never the less. A job is a job.</text>
 	<ship load="CE_SHIP_BOUNTY_AI" hostile="true"/>
 		<choice hidden="true">
 			<text>Continue...</text>
