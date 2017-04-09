@@ -1651,7 +1651,7 @@
 	<choice>
 		<text>Buy some missiles.</text>
 		<event>
-			<text>You transfer the scrap and receive a ammo in return.</text>
+			<text>You transfer the scrap and receive an ammo in return.</text>
 			<item_modify>
 				<item type="scrap" min="-42" max="-18"/>
 				<item type="missiles" min="3" max="7"/>
@@ -7118,7 +7118,7 @@ IDEAS
 	<text>The Rebel fleet will have trouble following you through the asteroid belt that extends through this entire sector. You might have trouble getting though it as well.</text>
 	<text>Class delta sector-wide plasma storms have been observed in this area for a few thousand standard years. This might complicate things.</text>
 	<text>You arrive in a far-out fringe sector. Only a few individuals come here, and for good reason: large asteroid belts and constant plasma storms make this area almost uninhabitable. The Rebel fleet will have trouble catching up with you here.</text>
-	<text>You've entered a extremely hazardous sector far from interstellar civilization. You may put a few light years on the fleet, but that's only useful if you manage to get through all the local plasma storms and asteroid fields in one piece.</text>
+	<text>You've entered an extremely hazardous sector far from interstellar civilization. You may put a few light years on the fleet, but that's only useful if you manage to get through all the local plasma storms and asteroid fields in one piece.</text>
 </textList>
 
 
@@ -8431,7 +8431,7 @@ IDEAS
 	<text>Your ship is hailed, "This is an automated message. Our auto-scouts are already swarming the asteroid fields and nebula in this sector. We will find you wherever you go."</text>
 	<text>This must be one of the Rebels' unmanned scout ships. Looks like there's no way around a fight.</text>
 	<text>Another unmanned ship searches the field here. You prepare the ship for combat.</text>
-	<text>This part of the asteroid field is being patrolled by a unmanned scout. A fight is unavoidable.</text>
+	<text>This part of the asteroid field is being patrolled by an unmanned scout. A fight is unavoidable.</text>
 	<text>The Rebels must have send their auto scouts ahead to scout the asteroid fields. The ship spots you and begins its assault.</text>
 	<text>A small Rebel scout is bombarded with asteroids at this beacon. Its AI immediately identifies you as a threat and it engages.</text>
 </textList>

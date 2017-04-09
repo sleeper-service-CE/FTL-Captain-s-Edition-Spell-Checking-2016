@@ -1782,7 +1782,7 @@
 
 <ship name="BS_AUTO_TURRET_SATELLITE_DEFENSE" auto_blueprint="BS_STATIONS_AUTO_SUICIDE">
 	<destroyed>
-		<text>The rest of the defense cluster is powers down as the control satellite is destroyed. The station does not seem to be too happy with your "solution" but they still offer a reward.</text>
+		<text>The rest of the defense cluster is powered down as the control satellite is destroyed. The station does not seem to be too happy with your "solution" but they still offer a reward.</text>
 		<autoReward level="MED">scrap_only</autoReward>
 	</destroyed>
 </ship>

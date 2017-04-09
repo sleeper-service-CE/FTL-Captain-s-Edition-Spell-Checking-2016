@@ -7937,7 +7937,7 @@
 		<boarders min="2" max="2" class="human"/>
 	</event>
 	<event>
-		<text>The turncoat cannot believe his luck. Better keep a close eye on them. You leave the Rebel ship to his remaining crew, they hope to flee the fleets advance and return to their homes.</text>
+		<text>The turncoat cannot believe his luck. Better keep a close eye on them. You leave the Rebel ship to his remaining crew, they hope to flee the fleet's advance and return to their homes.</text>
 		<crewMember amount="1" pilot="1" class="human"/>  
 	</event>
 </eventList>
@@ -8007,7 +8007,7 @@
 	<text>You stand in front of the captain's chair, focused on the windscreen, bellowing orders to your crew. You will not let this opponent get the better of you!</text>
 	<text>Just after you bellowed this last order, everything becomes still for a second. You see yourself from the outside, clutched to one of the silver railings that lines the ship bridge, shouting orders, gesticulating at the screen... Then you remember your parents, your childhood, your time at the academy, the line of cause and effect that brought you here; to another fight to the death. What has become of you?</text>
 	<text>Hold it steady and stay on target... Just like in the simulations.</text>
-	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! You father would be proud.</text>
+	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! Your father would be proud.</text>
 	<text>You are determined to not let this opponent get the upper hand. "Fire when ready!"</text>
 	<text>The combat noticeably strains the ship. Sparks fly from sealing panels and acrid smoke covers the floor. You smell burnt plastic and your own sweat.</text>
 	<text>For a moment you are afraid of losing it. What if we don't make it? What if we can't escape or defeat the next enemy? You don't want to die! Then it passes... The crew does not seem to have noticed, or at least isn't showing it. You take a deep breath and re-collect yourself, then you ask for a situation report and try to focus on the battle.</text>
@@ -8133,7 +8133,7 @@
 	<text>You stand in front of the captain's chair, focused on the windscreen, bellowing orders to your crew. You will not let this opponent get the better of you!</text>
 	<text>Just after you bellowed this last order, everything becomes still for a second. You see yourself from the outside, clutched to one of the silver railings that lines the ship bridge, shouting orders, gesticulating at the screen... Then you remember your parents, your childhood, your time at the academy, the line of cause and effect that brought you here; to another fight to the death. What has become of you?</text>
 	<text>Hold it steady and stay on target... Just like in the simulations.</text>
-	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! You father would be proud.</text>
+	<text>You will defeat this enemy, just like the ones you defeated before. For the Federation! Your father would be proud.</text>
 	<text>You are determined to not let this opponent get the upper hand. "Fire when ready!"</text>
 	<text>The combat noticeably strains the ship. Sparks fly from wall panels and acrid smoke covers the floor. You smell burned plastic and you own sweat.</text>
 	<text>For a moment you are afraid of loosing it. What if we don't make it? What if we can't escape or defeat the next enemy? You don't want to die! Then it passes... The crew does not seem to have noticed, or at last isn't showing it. You take a deep breath and recollect yourself, then you ask for a situation report and try to focus on the battle.</text>
@@ -8507,7 +8507,7 @@
 	<text>You arrive at the beacon and immediately detect a pirate ship. It seems this distress beacon was a trap!</text>
 	<text>"Haha! I knew someone would fall into our dastardly trap!" It appears this distress beacon was nothing but a decoy for a pirate ambush.</text>
 	<text>Your cockpit lights up with warning signals; you are being targeted by a nearby ship. The distress call was a lure to attract unwitting ships into weapons range. You prepare for a fight.</text>
-	<text>As soon as you arrive at the distress signal, shots are fired toward your ship. A trap!.</text>
+	<text>As soon as you arrive at the distress signal, shots are fired toward your ship. A trap!</text>
 </textList>
 
 <event name="PIRATE_CIVILIAN_BEACON">
@@ -12774,7 +12774,7 @@
 	<choice req="AE_SCIENCE" hidden="true"> 
 		<text>(On-board Science Lab) Offer to share data instead.</text>
 		<event>
-			<text>The scientist are thrilled. You discuss your latest findings and get an insight into their research as well. Their fuel shortage is almost forgotten during the exchange of ideas and they event insist that you take some drone parts with you for free.</text>
+			<text>The scientists are thrilled. You discuss your latest findings and get an insight into their research as well. Their fuel shortage is almost forgotten during the exchange of ideas and they event insist that you take some drone parts with you for free.</text>
 			<item_modify>
 				<item type="drones" min="1" max ="3"/>
 			</item_modify>
@@ -17220,7 +17220,7 @@
 		<choice hidden="true">
 			<text>Decline.</text>
 			<event>
-				<text>"As you wish. Good day to your sir."</text>
+				<text>"As you wish. Good day to you, sir."</text>
 			</event>
 		</choice>
 	</event>
@@ -17293,7 +17293,7 @@
 			<choice>
 				<text>Agree to pay.</text>
 				<event>
-					<text>"The right decision, Captain. Our business is concluded. I took the liberty to inform the Rebel fleet of your position. You won't bother anyone else with you subordination. Have a nice day."</text>
+					<text>"The right decision, Captain. Our business is concluded. I took the liberty to inform the Rebel fleet of your position. You won't bother anyone else with your subordination. Have a nice day."</text>
 					<item_modify>
 						<item type="scrap" min="-150" max="-50"/>
 					</item_modify>
@@ -24951,7 +24951,7 @@
 <textList name="CE_CONVERSATION_ROCK_GENERIC_TEXT">
 		<text>The Rockman seems to be bored by this sector. "I hope we will get into an honorable engagement soon."</text>
 	<text>The Rockman mentions that there are over 3,000 living Rock Saints, and that it does not care about a single one of them.</text>
-	<text>The Rockman mentions that there are over 10.000 deceased Rock Saints, and that it never traveled to the tomb of any of them.</text>
+	<text>The Rockman mentions that there are over 10,000 deceased Rock Saints, and that it never traveled to the tomb of any of them.</text>
 	<text>The Rockman is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Tactical planning Captain, is it urgent?"</text>
 	<text>The Rockman tells you a little about why it has turned its back on its religious leaders.</text>
 	<text>The Rockman says it despises the corrupt religious ruling class of its society, but it still turns to pray to the Gods in time of need.</text>
@@ -25100,7 +25100,7 @@
 		<text load="CE_CONVERSATION_ZOLTAN_GENERIC_TEXT"/>
 	</event>
 	<event>
-		<text>Your Zoltan is worried if you can make it through this sector with your small, constantly dwindling fuel supply. "I will power the jump drive with my own body for a few jumps." Zoltan are know to be capable of this amazing feat, but rarely use it because it cuts their individual lifespan by a few decades.</text>
+		<text>Your Zoltan is worried if you can make it through this sector with your small, constantly dwindling fuel supply. "I will power the jump drive with my own body for a few jumps." Zoltan are known to be capable of this amazing feat, but rarely use it because it cuts their individual lifespan by a few decades.</text>
 		<choice hidden="true">
 			<text>"You don't have to do this."</text>
 			<event>
@@ -26010,7 +26010,7 @@
 	<text>Your Lanius crew member has a lot to say, but you forgot your universal translator on the bridge. Its speech sometimes includes seemingly random nouns in your language, but you cannot gather what the crewman wants to say.</text>
 	<text>The Lanius is nowhere to be found. The computer informs you that the crewman is in its personal quarters, absorbing its daily mineral ration.</text>
 	<text>The Lanius is nowhere to be found. The computer informs you that the crewman has gone into a quick stasis nap in its personal quarters.</text>
-	<text>The Lanius is nowhere to be found. The computer informs you that it is currently taking a walk outside, on the hull of the ship. You wonder if there is a article in Federation protocol that regulates this.</text>
+	<text>The Lanius is nowhere to be found. The computer informs you that it is currently taking a walk outside, on the hull of the ship. You wonder if there is an article in Federation protocol that regulates this.</text>
 	<text>The Lanius is nowhere to be found. The computer informs you that it is on a space walk, checking the Hull for micro breaches. The anaerobic being seems to enjoy being outside in space quite a bit.</text>
 	<text>The Lanius is nowhere to be found. You hope it's not eating some part of the ship right now.</text>
 	<text>The Lanius is not very talkative. It just repeatedly mumbles a single word: "Hunger..."</text>
@@ -26042,7 +26042,7 @@
 		<choice hidden="true">
 			<text>"Yes, go ahead."</text>
 			<event>
-				<text>The Lanius nods overly enthusiastically. "I... understand... Captain." The Lanius heads off. You wonder if you really understood what this is about. A few minutes later, a internal damage warning pops up on your terminal. The Lanius has started to absorb parts of your ship.</text>
+				<text>The Lanius nods overly enthusiastically. "I... understand... Captain." The Lanius heads off. You wonder if you really understood what this is about. A few minutes later, an internal damage warning pops up on your terminal. The Lanius has started to absorb parts of your ship.</text>
 				<choice hidden="true">
 					<text>Continue...</text>
 					<event>
@@ -31461,7 +31461,7 @@
 </eventList>
 <eventList name="DEFENSE_SUCCESS_LIST">   
 	<event>
-		<text>Although station and ships have taken some damage, the whole operation is considered a success. A young crewman is so amazed by your commitment that they offers to join your team.</text>
+		<text>Although station and ships have taken some damage, the whole operation is considered a success. A young crewman is so amazed by your commitment that they offer to join your team.</text>
 		<choice>
 			<text>Welcome aboard!</text>
 			<event>
@@ -31677,7 +31677,7 @@
 	<choice req="O2_MASKS" hidden="true"> 
 		<text>(Adaptive Gel Suits) You can spare one or two of your environmental suits.</text>
 		<event>
-			<text>"Thanks. These might save us in case we run out completely." They agree to pay a descend price for the devices.</text>
+			<text>"Thanks. These might save us in case we run out completely." They agree to pay a decent price for the devices.</text>
 			<status type="clear" target="enemy" system="oxygen" amount="100"/>
 			<autoReward level="LOW">scrap_only</autoReward>
 		</event>
@@ -36682,7 +36682,7 @@ IDEAS
 		</item_modify>
 	</event>
 	<event>
-		<text>You order a exact list of what supplies are missing and have the crew questioned. No one knows how this could have happened.</text>
+		<text>You order an exact list of what supplies are missing and have the crew questioned. No one knows how this could have happened.</text>
 		<item_modify steal="true">
 			<item type="scrap" min="-10" max="-20"/>
 			<item type="fuel" min="-4" max="-2"/>
@@ -37992,7 +37992,7 @@ IDEAS
 				<choice hidden="true" req="slug">
 					<text>(Slugman Crew) Your Slug doubts that.</text>
 					<event>
-						<text>Your Slug calmyl responds: "Yess we knew that. You really thought you were transsmitting data to your superiorss throughout the whole trip without usss knowing? They've got the wrong coordinates." The Rebel curses at the Federation and closes transmission. Your skilled Slug saved you some trouble here.</text>
+						<text>Your Slug calmly responds: "Yess we knew that. You really thought you were transsmitting data to your superiorss throughout the whole trip without usss knowing? They've got the wrong coordinates." The Rebel curses at the Federation and closes transmission. Your skilled Slug saved you some trouble here.</text>
 					</event>
 				</choice>
 			</event>
@@ -38248,7 +38248,7 @@ IDEAS
 	<text planet="PLANET_UNPOPULATED">The Lermak Whale has been driven nearly extinct due to the Mantis's craving for its flesh. A small colony of the whales has survived at this planet. You hunt down one of the creatures.</text>
 	<text>Sentient Radiant Fish from the depths of Smaral Beta's oceans are a little studied speies. These large fish are know to be extremely rare - they project multi-colored light bursts, with which to lure prey. You manage to convince one of the eloquent fish to meet the Curator.</text>
 	<text planet="PLANET_UNPOPULATED">The rare Suffa plants are cultivated by, and have some of the energized properties of, the Zoltans. An exiled hydroponics lab is using the unique climate of this planet to grow the bright red bushes. You manage to convince one of the Zoltan to give you a sample.</text>
-	<text planet="PLANET_UNPOPULATED">After some digging, you unearth a Rockman ceremonial gong on a archaeological site at this planet. They are used in the more important religious ceremonies of the Rockman. Legend has it striking it three times can summon a hundred saints to aid a Rock basilisk in battle.</text>
+	<text planet="PLANET_UNPOPULATED">After some digging, you unearth a Rockman ceremonial gong on an archaeological site at this planet. They are used in the more important religious ceremonies of the Rockman. Legend has it striking it three times can summon a hundred saints to aid a Rock basilisk in battle.</text>
 	<text>Oldschool Slug hacking modules are a pretty obsolete combat tech, but have quite some collection value. The Curator was right assuming that you could easily find one at the huge space scrapyard that surrounds this beacon.</text>
 	<text>A derelict Engi station, remote-jumped here from another sector, holds an original operational codex. These are the first behavioral programs used by the Engi. Since obsolete Codexes are almost always deleted when Engis develop new versions, it is quite a rare find.</text>
 	<text>A Mantis egg sack from one of their abandoned hatcheries. Why the Curator would want to risk his life with a Mantis brood is beyond you.</text>
@@ -38281,7 +38281,7 @@ IDEAS
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_2">
 	<text planet="PLANET_POPULATED_REAL">This planet is known to house some of the most obscure music shops in the galaxy. You purchase some ancient gel-jazz album the Curator is looking for.</text>
 	<text planet="PLANET_POPULATED_REAL">This planet's population reached a trillion, but it can easily sustain itself. Cities are dotted with small fields. Urban agriculture once again proves to be an efficient concept. You gather the exotic vegetables the Curator is looking for, but can't help feeling like you're fetching his groceries.</text>
-	<text planet="PLANET_UNPOPULATED">The Curator's catalog claims a Zoltan time capsule is hidden in the crust of this planet. After a long scan you discover and unearth the spherical device, which appears to be shielded with a impenetrable forcefield. It contains a fresh sandwich and a hand-held antimatter weapon.</text>
+	<text planet="PLANET_UNPOPULATED">The Curator's catalog claims a Zoltan time capsule is hidden in the crust of this planet. After a long scan you discover and unearth the spherical device, which appears to be shielded with an impenetrable forcefield. It contains a fresh sandwich and a hand-held antimatter weapon.</text>
 	<text planet="PLANET_UNPOPULATED">An abandoned archaeological excavation site of a Khaz'akzhak-period Mantis temple. You load some chitin plated facade parts into your cargo holds. No idea what the Curator wants with these.</text>
 	<text>The Curator's catalog was right, you detect a herd of FTL-Swimmers lingering in subspace a few light years away. A modulated sensor pulse drives the strange space creatures into realspace and you manage to capture one of their young for the Curator.</text>
 </textList>
@@ -38310,7 +38310,7 @@ IDEAS
 	</choice>
 </event>
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_3">
-	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewman is sent on a away mission and succeeds in retrieving one of the huge creatures.</text>
+	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewman is sent on an away mission and succeeds in retrieving one of the huge creatures.</text>
 	<text planet="PLANET_UNPOPULATED">A rare breed of the luminous saber-goat is said to live in the equatorial mountain regions of this planet. You crew goes for a hike with stun-blasters ready. You are glad no one gets hurt during the hunt.</text>
 	<text planet="PLANET_UNPOPULATED">The information provided by the Curator drone proves to be true. The special door frame, an ancient Zoltan artifact, is hidden near the pole of this planet. The device enables FTL travel for a single individual, but no one that stepped through it came back to report where it leads to.</text>
 	<text>Space whales are almost hunted to extinction. This beacon lies close to a part of space where the legendary creatures gathered to die. Several of their eternal corpses orbit a large planetoid. You gather the frozen space whale oil that the Curator is looking for.</text>
@@ -38341,7 +38341,7 @@ IDEAS
 	</choice>
 </event>
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_4">
-	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewman is sent on a away mission and succeeds in retrieving one of the huge creatures.</text>
+	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewman is sent on an away mission and succeeds in retrieving one of the huge creatures.</text>
 	<text planet="PLANET_UNPOPULATED">A rare breed of the luminous saber-goat is said to live in the equatorial mountain regions of this planet. You crew goes for a hike with stun-blasters ready. You are glad no one gets hurt during the hunt.</text>
 	<text planet="PLANET_UNPOPULATED">The information provided by the Curator drone proves to be true. The special door frame, an ancient Zoltan artifact, is hidden near the pole of this planet. The device enables FTL travel for a single individual, but no one that stepped through it came back to report where it leads to.</text>
 	<text>Space whales are almost hunted to extinction. This beacon lies close to a part of space where the legendary creatures gathered to die. Several of their eternal corpses orbit a large planetoid. You gather the frozen space whale oil that the Curator is looking for.</text>
@@ -38367,9 +38367,9 @@ IDEAS
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_5">
 	<text>The curator wants a certain asteroid from a mineral field in this system. You find the piece of Rock at the exact location you where given. It seems to be made of completely ordinary stone. What the Curator wants with this remains a mystery.</text>
 	<text planet="PLANET_UNPOPULATED">A legendary breed of changer lizards inhabits this world. You scanners uncover them while posing as a heard of sheep-like cattle. The crew captures one of the shape shifter animals an brings it aboard.</text>
-	<text>The Curators data was right: A small portion of space whale ambra is found in this system. The rare substance is left behind by the space inhabiting behemoth once in a decade. It is said to stimulate telepathic abilities.</text>
+	<text>The Curator's data was right: A small portion of space whale ambra is found in this system. The rare substance is left behind by the space inhabiting behemoth once in a decade. It is said to stimulate telepathic abilities.</text>
 	<text planet="PLANET_POPULATED_REAL">The antique industrial drones of this volume are a great tourist attraction. You steel one of the robots for the Curator.</text>
-	<text planet="PLANET_UNPOPULATED">The Curator's catalog claims a Zoltan time capsule is hidden in the crust of this planet. After a long scan you discover and unearth the spherical device, which appears to be shielded with a impenetrable forcefield. It contains an old acoustic guitar and a pair of severed humanoid hands...</text>
+	<text planet="PLANET_UNPOPULATED">The Curator's catalog claims a Zoltan time capsule is hidden in the crust of this planet. After a long scan you discover and unearth the spherical device, which appears to be shielded with an impenetrable forcefield. It contains an old acoustic guitar and a pair of severed humanoid hands...</text>
 </textList>
 
 <eventList name="CE_QUEST_CURATOR_REWARD_1">

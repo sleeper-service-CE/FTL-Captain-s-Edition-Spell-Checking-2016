@@ -3874,7 +3874,7 @@
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">The Rock care little about the galactic environment. The space here is saturated with micro waste particles that clog your engines and impede your sensors. A space pirate has made this place its favorite ambush spot.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">Rock pirates hide in the smog clouds, praying mostly on locals. They will be surprised encountering a foreign ship here.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">Decades of unchecked industrial pollution start to take their toll at this part of the sector. The dust clouds make a perfect ambush spot for pirates, you probably can be glad that only a single ship engages you.</text>
-	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">The shields readjust their layer pattern as you jump to a industrial region. The space here is saturated with metallic dust. A derelict salvage yard floats near the jump node and a pirate ship detaches from the main structure.</text>
+	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">The shields readjust their layer pattern as you jump to an industrial region. The space here is saturated with metallic dust. A derelict salvage yard floats near the jump node and a pirate ship detaches from the main structure.</text>
 </textList>
 
 <event name="NEBULA_ROCK_ACID_PIRATE">
