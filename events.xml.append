@@ -12774,7 +12774,7 @@
 	<choice req="AE_SCIENCE" hidden="true"> 
 		<text>(On-board Science Lab) Offer to share data instead.</text>
 		<event>
-			<text>The scientist are thrilled. You discuss your latest findings and get an insight into their research as well. Their fuel shortage is almost forgotten during the exchange of ideas and they event insist that you take some drone parts with you for free.</text>
+			<text>The scientists are thrilled. You discuss your latest findings and get an insight into their research as well. Their fuel shortage is almost forgotten during the exchange of ideas and they event insist that you take some drone parts with you for free.</text>
 			<item_modify>
 				<item type="drones" min="1" max ="3"/>
 			</item_modify>
