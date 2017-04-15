@@ -5058,17 +5058,23 @@
 				<augment name="TE_GOODS_MANTIS_BOUNTY"/>
 			</event>
 		</choice>
-		<choice>
-			<text>Buy an arms shipment.</text>
+<!-- SELLING -->
+		<choice req="TE_GOODS_PIRATE_ARMS" hidden="true">
+			<!-- best deal-->
+			<text>The people here are all outlaws. The perfect place to sell weapons. [Sell Small Arms for about 110 Scrap]</text>
 			<event>
-				<text load="STORE_BUY_TEXT_BOOSTED"/>
+				<text load="STORE_ZOLTAN_SELL_TEXT"/>
+				<choice>
+					<text>Continue...</text>
+					<event>
+ 						<text>[Please cooperate and sell the trade goods at the shop now. Otherwise you disturb the balance of the universe.]</text>
+					</event>
+				</choice>
 				<item_modify>
-					<item type="scrap" min="-50" max="-42"/>
+					<item type="scrap" min="85" max="95"/>
 				</item_modify>
-				<augment name="TE_GOODS_PIRATE_ARMS"/>
 			</event>
 		</choice>
-<!-- SELLING -->
 		<choice req="TE_GOODS_SLUG_DRUGS" hidden="true">
 			<!-- best deal-->
 			<text>A young slug contacts your ship, "Greetingss sssugar man. I ran out here and my little helperss tell me you got ssome ssstuff. Normally I don't do dealss with ssstrangers but..." [Sell Slug Hallucinogens for about 130 Scrap]</text>
