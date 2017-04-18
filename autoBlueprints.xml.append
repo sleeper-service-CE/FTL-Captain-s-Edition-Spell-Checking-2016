@@ -15877,7 +15877,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="CE_AUTO_BASIC_SIMMED_DEFENSIVE" layout="ce_auto_basic_simmed" img="ce_auto_basic_simmed">
-	<class>Virtual Oponent</class>
+	<class>Virtual Opponent</class>
 	<systemList>
 		<!-- <cloaking power="1" max="3" room="0" start="false" /> -->
 		<engines power="2" max="6" room="3" start="true" />
@@ -15896,7 +15896,7 @@
 </shipBlueprint>
 
 <shipBlueprint name="CE_AUTO_BASIC_SIMMED_AGGRESSIVE" layout="ce_auto_basic_simmed" img="ce_auto_basic_simmed">
-	<class>Virtual Oponent</class>
+	<class>Virtual Opponent</class>
 	<systemList>
 		<engines power="1" max="8" room="3" start="true" />
 		<pilot power="1" max="3" room="2" start="true" />
