@@ -6378,7 +6378,7 @@ IDEAS
 				<choice>
 					<text>Hail them and reveal that you are a sent here by the Claret Skulls.</text>
 					<event>
-						<text>The local pirate lord is mildly surprised. "Is that so? You are supposed to be... some kind of assassin? I assume you do not intend to kill me then? Good for you. The Skulls are small time, but I they might indeed try to pull something like this. Well, I will inform my Tentacles. Have some pocket scrap for sharing this information. Now be on your way."</text>
+						<text>The local pirate lord is mildly surprised. "Is that so? You are supposed to be... some kind of assassin? I assume you do not intend to kill me then? Splendid! The Skulls are small time, but I always thought they might indeed try to pull off something like this. Well, I will inform my Tentacles. Have some pocket scrap for sharing this information. Now be on your way."</text>
 						<autoReward level="LOW">scrap_only</autoReward>
 						<choice hidden="true"> 
 							<text>Leave.</text>
@@ -6455,7 +6455,7 @@ IDEAS
 				<choice hidden="true"> 
 					<text>Hail and inform them about what you did at the Claret Skull homeworld.</text>
 					<event>
-						<text>The local pirate lord is mildly surprised. "Is that so? You are supposed to be... some kind of assassin? But you decided to kill that lady instead of me? Good for you! The Skulls are small time, but I they might try to pull something like this... Very well, you shall receive some pocket scrap for your insubordinates. Now be on your way."</text>
+						<text>The local pirate lord is mildly surprised. "Is that so? You are supposed to be... some kind of assassin? You decided to kill that lady instead of me? Good for you! The Skulls are small time, but I always thought they might try to pull off something like this... Very well, you shall receive some pocket scrap for your insubordination. Now be on your way."</text>
 						<autoReward level="LOW">scrap_only</autoReward>
 						<choice hidden="true"> 
 							<text>Leave.</text>
