@@ -2437,7 +2437,7 @@
 
 <augBlueprint name="AE_FIREWALL">   <!-- 1 power -->
 	<title>Advanced Plating</title>
-	<desc>Electric scrambler plating that dimishes the effect of enemy hacking and mind control attempts. Ineffective against weaker attacks. 1 power combat augment.</desc>
+	<desc>Electric scrambler plating which diminishes enemy hacking and mind control effectiveness. Ineffective against weaker attacks. 1 power combat augment.</desc>
 	<cost>40</cost>
 	<bp>5</bp>
 	<rarity>4</rarity>
@@ -5218,7 +5218,7 @@
 	<short>Heal C.B.</short>
 	<locked>1</locked>
 	<desc>Deploys 3 self-teleporting healing units that instantly heal all friendly crew in the room. Only deploys one unit when targeting your ship.</desc>
-	<tooltip>Bomb weapon; requires a missile; teleports 3 healing units that heal nearby crew members. Can target your own ship, but then only teleports one unit.</tooltip>
+	<tooltip>Bomb weapon; requires a missile; teleports 3 healing units which heal nearby crew members. Can target your own ship, but only one unit is sent.</tooltip>
 	<damage>0</damage>
 	<sysDamage>0</sysDamage>
 	<persDamage>-4</persDamage>
@@ -5250,7 +5250,7 @@
 	<short>Cluster B.</short>
 	<locked>1</locked>
 	<desc>Deploys 3 self-teleporting explosives that damage systems and crew but not the hull. Can target your own ship.</desc>
-	<tooltip>Bomb weapon; requires a missile; teleports 3 bombs that do 1 damage each, but only damage systems, not hull.</tooltip>
+	<tooltip>Bomb weapon; requires a missile; teleports 3 bombs that do 1 damage each, but inflict damage to systems only, not hull.</tooltip>
 	<damage>0</damage>
 	<sysDamage>1</sysDamage>
 	<persDamage>1</persDamage>
@@ -5839,7 +5839,7 @@
 	<locked>1</locked>
 	<flavorType>Electronic Warfare Device</flavorType>
 	<desc>Fast charging electronic warfare device that can continuously disrupt systems with a combination of hacking routines and magnetic field generation.</desc>
-	<tooltip>Does no damage but coninuesly tries to disable 1 bar of the system it is directed on. Surpasses shields.</tooltip>
+	<tooltip>Does no damage but continuously tries to disable 1 bar of the system it is directed on. Surpasses shields.</tooltip>
 	<damage>0</damage>
 	<ion>1</ion>
 	<missiles>0</missiles>
@@ -6739,7 +6739,7 @@
 	<short>Light Vulcan</short>
 	<tip>ce_tip_chain_laser_light</tip>
 	<desc>This light laser takes a long time to spin up. Each time it fires it decreases the cooldown, eventually shredding enemy crew with constant laser fire.</desc>
-	<tooltip>Cooldown drops the more it fires. Ignores 2 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
+	<tooltip>Cooldown decreases the more it fires. Ignores 2 shield bubbles but cannot deplete shields. Low chance of breaching.</tooltip>
 	<persDamage>1</persDamage>
 	<shots>1</shots>
 	<sp>2</sp>
