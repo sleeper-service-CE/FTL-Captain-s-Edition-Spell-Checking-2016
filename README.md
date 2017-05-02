@@ -1,4 +1,4 @@
-FTL-Captain's-Edition-Spellchecking-2017
+FTL: Captain's Edition Spellchecking 2017
 ========================================
 A community effort to spell check the FTL Captain's Edition mod for the roguelike game FTL by Subset Games.
 (2015 Rebirth Edition)
