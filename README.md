@@ -9,7 +9,7 @@ Welcome traveler. I guess you came here from the FTL forum and know what this is
 
 House rules:
 
-1. Changes you make in the files have the potential to make the mod unplayable very easily. Act responsible and observe this rules, else these effort to spell check CE will not work or might even destroy the players experience.
+1. Changes you make in the files have the potential to make the mod unplayable very easily. Act responsible and observe this rules, else this effort to spell check CE will not work or might even destroy the players experience.
 2. Only spell check things within <text> or <tooltip> capsules. Making changes anywhere else might mess thing up. Never write anything outside of any tags.
 3. Too long texts can cause instability. If you rephrase things, try not to exceed the number of characters the text originally had by too much, especially when the text was already pretty long. A few additional words won't matter if the text was short to begin with, but somewhere beyond 250 characters the game gets iffy. Also tooltips and weapon description are often deliberately as short as they are, so don't extend them by too much or else they won't fit the UI.
 4. Don't add indent or any kinds of breaks in the text. FTL event texts need to be pure flowtext to work correctly.
