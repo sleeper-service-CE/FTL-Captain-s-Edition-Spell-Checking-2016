@@ -2682,7 +2682,7 @@
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
-				<text>You barely detached from the station when all hell breaks loose. A Rebel gunboat formation jumps directly into the base perimeter and opens fire on the installation with its preignited arsenal. You engage the closes ship and request fire support from the base.</text>
+				<text>You barely detached from the station when all hell breaks loose. A Rebel gunboat formation jumps directly into the base perimeter and opens fire on the installation with its preignited arsenal. You engage the closest ship and request fire support from the base.</text>
 				<ship load="REBEL_GUNBOAT_BOSS_REPAIR_STATION" hostile="true"/>
 				<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
