@@ -2396,7 +2396,7 @@
 
 <eventList name="REBEL_HELPERS_SUPPLIES">
 	<event>
-		<text>The colonists hand over the supplies. Their settlement has been hit by a flare-drought and the Rebels where delivering seeds to regrow the winters harvest. As you leave, you receive a message: "This is why the Rebels will always have support!"</text>
+		<text>The colonists hand over the supplies. Their settlement has been hit by a flare-drought and the Rebels were delivering seeds to regrow the winters harvest. As you leave, you receive a message: "This is why the Rebels will always have support!"</text>
 		<augment name="TE_GOODS_SEEDS"/>
 	</event>
 	<event>
@@ -2437,7 +2437,7 @@
 
 <eventList name="REBEL_HELPERS_SUPPLIES_PIRACY">
 	<event>
-		<text>The colonists hand over the supplies. Their settlement has been hit by a flare-drought and the Rebels where delivering seeds to regrow the winters harvest. As you leave, you receive a message: "This is why the Rebels will always have support!"</text>
+		<text>The colonists hand over the supplies. Their settlement has been hit by a flare-drought and the Rebels were delivering seeds to regrow the winters harvest. As you leave, you receive a message: "This is why the Rebels will always have support!"</text>
 		<augment name="TE_GOODS_SEEDS"/>
 			<choice>
 				<text>Continue...</text>
@@ -2537,7 +2537,7 @@
 
 <eventList name="REBEL_HELPERS_SUPPLIES_REBEL">
 	<event>
-		<text>The settlement has been hit by a flare-drought and the Rebels where delivering seeds to regrow the winters harvest. As you are about to leave, you receive a message: "This is why the Rebels will always have support!"</text>
+		<text>The settlement has been hit by a flare-drought and the Rebels were delivering seeds to regrow the winters harvest. As you are about to leave, you receive a message: "This is why the Rebels will always have support!"</text>
 		<choice hidden="true">
 			<text>Deliver the supplies yourself.</text>
 			<event load="REBEL_HELPERS_SUPPLIES_DELIVER"/>
