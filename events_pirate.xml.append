@@ -747,7 +747,7 @@
 </event>
 
 <event name="CE_BOUNTY_PIRATE_CRUISER">
-	<text>You tracked down your mark: A pirate lord commanding a large cruiser, passing though the system. This job starts to look worse the more you think about it. The pirates don't even bother with altering trajectory when you engage them. They don't seem to take you attack seriously.</text>
+	<text>You tracked down your mark: A pirate lord commanding a large cruiser, passing though the system. This job starts to look worse the more you think about it. The pirates don't even bother with altering trajectory when you engage them. They don't seem to take your attack seriously.</text>
 	<ship load="CE_SHIP_PIRATE_CRUISER" hostile="true"/>
 	<status type="loss" target="enemy" system="reactor" amount="4"/>
 		<choice hidden="true">
