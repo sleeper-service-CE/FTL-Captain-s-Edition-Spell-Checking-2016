@@ -2682,7 +2682,7 @@
 		<choice hidden="true">
 			<text>Continue...</text>
 			<event>
-				<text>You barely detached from the station when all hell breaks loose. A Rebel gunboat formation jumps directly into the base perimeter and opens fire on the installation with its preignited arsenal. You engage the closes ship and request fire support from the base.</text>
+				<text>You barely detached from the station when all hell breaks loose. A Rebel gunboat formation jumps directly into the base perimeter and opens fire on the installation with its preignited arsenal. You engage the closest ship and request fire support from the base.</text>
 				<ship load="REBEL_GUNBOAT_BOSS_REPAIR_STATION" hostile="true"/>
 				<environment type="PDS" target="enemy"/>
 		<choice hidden="true">
@@ -4568,7 +4568,7 @@ IDEAS
 <textList name="FIND_DRONE_FED_TEXT">
 	<text planet="PLANET_POPULATED_REAL">An heavily defended space station circles an urbanized world. When you ask for help the local tech geeks transmit schematics for a drone.</text>
 	<text planet="PLANET_POPULATED_REAL">A Federation cruiser squadron is moving in to reinforce this position. They transmit schematics for a drone to help you out.</text>
-	<text>You are surprised to find a couple of mothballed Federation cruisers in open space. The commanding officer of a lonely guard squadron authorizes you to take some of the ships tech aboard. She explains that the local forces where unable to gather enough personal to crew all the ships. Too many Federation officers have deserted to the Rebels and these ships will likely fall into the hand of the enemy as well.</text>
+	<text>You are surprised to find a couple of mothballed Federation cruisers in open space. The commanding officer of a lonely guard squadron authorizes you to take some of the ships' tech aboard. She explains that the local forces were unable to gather enough personnel to crew all the ships. Too many Federation officers have deserted to the Rebels and these ships will likely fall into the hands of the enemy as well.</text>
 </textList>
 
 <event name="FIND_WEAPON_FED">

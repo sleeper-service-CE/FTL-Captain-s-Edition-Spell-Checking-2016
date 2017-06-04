@@ -831,7 +831,7 @@
 
 <text name="ce_tip_combat_stealth">Tip: Cloaked Combat Drones will evade most shots from enemy defense drones. They require 1 drone part to deploy for each new enemy and will attack the enemy as long as they are powered.</text>
 
-<text name="ce_tip_beam_adaptive">Tip: Adaptive Beams increases their damage each time they hit an enemy ship or shields. Check the green lights on the weapon to see how much the damage has increased.</text>
+<text name="ce_tip_beam_adaptive">Tip: Adaptive Beams increase their damage each time they fire. Check the green lights on the weapon to see how much the damage has increased.</text>
 
 <text name="ce_tip_stungun">Tip: Neural stunners pierce shields and have a high chance to incapacitate all crew within a certain radius.</text>
 

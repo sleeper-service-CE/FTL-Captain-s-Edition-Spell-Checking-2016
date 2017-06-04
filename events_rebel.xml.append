@@ -5578,7 +5578,7 @@
 	<text>You run into one of the few manned Rebel patrols of the sector.</text>
 	<text>What must be a Rebel inspection group is charging FTL at this beacon. Their escort attacks as soon as you arrive to allow the officers to escape.</text>
 	<text>Com chatter you receive while jumping in does not bode well: "Yes, the jump signature is a match, I think we found them. Going quiet and engaging now." Soon, the ship appears on your radar, closing in fast.</text>
-	<text>A lone Rebel ship hails you: "Greeting! I though I never meet another living being till my turn ends. Let me check your ID and then we can... oh... Ehm, sorry." They cut communication and, after a moment, load weapons.</text>
+	<text>A lone Rebel ship hails you: "Greetings! I thought I'd never meet another living being till my turn ends. Let me check your ID and then we can... oh... Ehm, sorry." They cut communication and, after a moment, load weapons.</text>
 </textList>
 
 <event name="CE_REBEL_AUTO_CRUISER_CONSTRUCTION">

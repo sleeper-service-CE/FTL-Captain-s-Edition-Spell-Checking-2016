@@ -7987,7 +7987,7 @@
 	<text>During a fly-by, you catch a glimpse of the enemy captain through his ship's main view-port. For a split second you come face to face with your enemy.</text>
 	<text>Your shots pierce through the enemy craft, spilling trails of molten metal into open space. The enemy is taking heavy damage.</text>
 	<text>The constant maneuvering almost throws you out of your seat. Steady now!</text>
-	<text>All of the sudden the opponent turns and boost into your direction, you barely manage to avoid a collision. This definitely caught you off guard. The maneuver was either very well planned or completely mad.</text>
+	<text>All of the sudden the opponent turns and boosts into your direction; you barely manage to avoid a collision. This definitely caught you off guard. The maneuver was either very well planned or completely mad.</text>
 	<text>While your weapons trace the enemy, the ship briefly passes in front of the systems sun. For a split-second, it appears as a majestically illuminated shadow in front of the giant star. A brief image of beauty during the cruel carnage of ship-to-ship combat.</text>
 	<text>"Enemy structural integrity is failing, Captain. We got this!"</text>
 	<text>"Shots continue to connect, Captain. Good effect on target."</text>
@@ -8118,7 +8118,7 @@
 <textList name="CE_COMBAT_FLUFF_AUTO_TEXT">
 	<text>Your shots pierce through the enemy craft, spilling trails of molten metal into open space. The enemy is taking heavy damage.</text>
 	<text>The constant maneuvering almost throws you out of your seat. Steady now!</text>
-	<text>All of the sudden, the small auto ship turns and boost into your direction; you barely manage to avoid a collision. This definitely caught you off guard.</text>
+	<text>All of the sudden, the small auto ship turns and boosts into your direction; you barely manage to avoid a collision. This definitely caught you off guard.</text>
 	<text>While your weapons trace the enemy, the ship briefly passes in front of the system's sun. For a split-second, it appears as a majestically illuminated shadow in front of the giant star, a brief image of beauty during the cruel carnage of ship-to-ship combat.</text>
 	<text>"Enemy structural integrity is failing, Captain. We got this!"</text>
 	<text>"Shots continue to connect, Captain. Good effect on target."</text>
