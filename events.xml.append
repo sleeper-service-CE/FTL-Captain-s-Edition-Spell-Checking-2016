@@ -13668,7 +13668,7 @@
 			<choice req="AE_REQUISITION" hidden="true"> 
 				<text>(Requisition License) This operation is legal. We are doing this for the good of the mission and the entire Federation.</text>
 				<event>
-					<text>Than repair station hails: "Ah, you are with the requisition collectors? Why didn't you say so? We will serve you on the house of course. Long live the Federation!" Their drones get to work, but the mashines complete their tasks much slower than usual. The repair crew claims that they have problems with their drone system since a recent Rebel hacking attempt...</text>
+					<text>Then the repair station hails: "Ah, you are with the requisition collectors? Why didn't you say so? We will serve you on the house of course. Long live the Federation!" Their drones get to work, but the machines complete their tasks much slower than usual. The repair crew claims that they have problems with their drone system since a recent Rebel hacking attempt...</text>
 					<damage amount="-5"/>
 				</event>
 			</choice>
