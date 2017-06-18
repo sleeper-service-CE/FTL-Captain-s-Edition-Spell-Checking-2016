@@ -747,7 +747,7 @@
 </event>
 
 <event name="CE_BOUNTY_PIRATE_CRUISER">
-	<text>You tracked down your mark: A pirate lord commanding a large cruiser, passing though the system. This job starts to look worse the more you think about it. The pirates don't even bother with altering trajectory when you engage them. They don't seem to take you attack seriously.</text>
+	<text>You tracked down your mark: A pirate lord commanding a large cruiser, passing though the system. This job starts to look worse the more you think about it. The pirates don't even bother with altering trajectory when you engage them. They don't seem to take your attack seriously.</text>
 	<ship load="CE_SHIP_PIRATE_CRUISER" hostile="true"/>
 	<status type="loss" target="enemy" system="reactor" amount="4"/>
 		<choice hidden="true">
@@ -6332,7 +6332,7 @@ IDEAS
 
 <event name="C_QUEST_PIRATE_HOME_RIVALRY_LORD">
 	<img back="BACKGROUND" planet="PLANET_POPULATED_REAL"/>
-	<text>You arrive near the home-planet of the Purple Tentacles. The commander of the Claret Skulls wants you to take out their leader, but you realize that you might be in over your head here. Anti-ship batteries line the planets orbits. You spot the pirates flagship docked at a small trade depot.</text>
+	<text>You arrive near the home-planet of the Purple Tentacles. The commander of the Claret Skulls wants you to take out their leader, but you realize that you might be in over your head here. Anti-ship batteries line the planet's orbits. You spot the pirates' flagship docked at a small trade depot.</text>
 				<choice hidden="true"> 
 					<text>Approach the planet and attack the pirate cruiser.</text>
 					<event>
@@ -6382,7 +6382,7 @@ IDEAS
 					</event>
 				</choice>
 				<choice>
-					<text>Hail them and reveal that you are a sent here by the Claret Skulls.</text>
+					<text>Hail them and reveal that you were sent here by the Claret Skulls.</text>
 					<event>
 						<text>The local pirate lord is mildly surprised. "Is that so? You are supposed to be... some kind of assassin? I assume you do not intend to kill me then? Splendid! The Skulls are small time, but I always thought they might indeed try to pull off something like this. Well, I will inform my Tentacles. Have some pocket scrap for sharing this information. Now be on your way."</text>
 						<autoReward level="LOW">scrap_only</autoReward>
@@ -6457,7 +6457,7 @@ IDEAS
 
 <event name="C_QUEST_PIRATE_HOME_RIVALRY_LORD_LADY_KILLED">
 	<img back="BACKGROUND" planet="PLANET_POPULATED_REAL"/>
-	<text>You arrive near the home-planet of the Purple Tentacles. Anti-ship batteries line the planets orbits. You spot the pirates flagship docked at a small trade depot.</text>
+	<text>You arrive near the home-planet of the Purple Tentacles. Anti-ship batteries line the planet's orbits. You spot the pirates' flagship docked at a small trade depot.</text>
 				<choice hidden="true"> 
 					<text>Hail and inform them about what you did at the Claret Skull homeworld.</text>
 					<event>
