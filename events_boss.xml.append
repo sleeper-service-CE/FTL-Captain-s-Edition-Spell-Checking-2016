@@ -5539,7 +5539,7 @@ IDEAS
 	<text>You discover a re-supply station that is still operational. A Federation scout squadron is refueled and a few traders have gathered here.</text>
 	<text>Arriving in the system you discover a small trade station. It has been completely militarized and is under full Federation fleet control.</text>
 	<text>You receive some trade offers from a nearby public shipyard. They currently serve the remaining Federation main fleet in order to facilitate the evacuation.</text>
-	<text planet="PLANET_POPULATED_REAL">A trade hub orbits this Federation controlled planet. You check their offers and</text>
+	<text planet="PLANET_POPULATED_REAL">A trade hub orbits this Federation controlled planet. You check their offers and consider whether to profit from their "Galactic Armageddon" sales.</text>
 	<text planet="PLANET_POPULATED_REAL">A trade station is about to be evacuated nearby. Some Federation engineers re-purposed their shipyard to perform military repairs.</text>
 </textList>
 <textList name="STORE_FED_REPAIR_TEXT">
