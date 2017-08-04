@@ -2542,7 +2542,7 @@
 	</choice>
 </event>
 <textList name="CE_REBEL_AUTO_CRUISER_TEXT">
-	<text>You arrive at what appears to be a garrison for the endless swarms of Rebel auto-ships. Thousands of them lie dormant in space, neatly arranged in parallel lines. While you still consider a bombing run, a guard-cruiser is awaken by your presence. You try to get away but the ship chases you without mercy.</text>
+	<text>You arrive at what appears to be a garrison for the endless swarms of Rebel auto-ships. Thousands of them lie dormant in space, neatly arranged in parallel lines. While you still consider a bombing run, a guard-cruiser is awakened by your presence. You try to get away but the ship chases you without mercy.</text>
 	<text>A large Auto-cruiser in sleep mode is found at this beacon. You keep a low energy profile and take great care not to awake the mechanic giant. But suddenly you register in incoming FTL burst message, with Rebel encoding! The Rebels have tracked you here and remotely activate their robotic guardian. Looks like you will have to fight.</text>
 </textList>
 
