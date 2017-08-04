@@ -8733,7 +8733,7 @@
 	<choice hidden="true" req="ghost">
 		<text>(AI Avatar Crew) Send your AI crew member to render some aid.</text>
 		<event>
-			<text>The bio circutes of holograms are more or less immune to simple disease. You upgrade the AI with an emergency medical program and send it in to help. After the miners verbally state the nature of the medical emergency the AI calculates the best course of action. The personal submit to the quarantine and the colony leaders offer a reward.</text>
+			<text>The bio circuits of holograms are more or less immune to simple disease. You upgrade the AI with an emergency medical program and send it in to help. After the miners verbally state the nature of the medical emergency the AI calculates the best course of action. The personnel submit to the quarantine and the colony leaders offer a reward.</text>
 			<autoReward level="MED">stuff</autoReward>
 		</event>
 	</choice>
