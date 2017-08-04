@@ -5092,19 +5092,19 @@
 		<choice req="engines" max_lvl="1" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew performed below average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to it's destruction. Consider not taking part in any real combat scenarios involving ship-to-ship combat with your current assets."</text>
+				<text>"Your crew performed below average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to its destruction. Consider not taking part in any real combat scenarios involving ship-to-ship combat with your current assets."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="2" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew performed below average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to it's destruction. Consider additional training exercises and ship upgrades to improve your crews performance."</text>
+				<text>"Your crew performed below average in this scenario. In a real combat situation your ship would have taken heavy damage, leading to its destruction. Consider additional training exercises and ship upgrades to improve your crew's performance."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="3" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew and performed well considering the circumstances, but your current ship configuration reduces your changes of survival in a real combat situation."</text>
+				<text>"Your crew and performed well considering the circumstances, but your current ship configuration reduces your chances of survival in a real combat situation."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="4" max_group="0" blue="false">
