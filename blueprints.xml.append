@@ -861,7 +861,7 @@
 	<type>BEAM</type>
 	<title>Vindicator Beam</title>
 	<short>Vindicator</short>
-	<desc>This advanced beam cuts through all shields, but can't be aimed manually. Indicates you command high rank Federation ship. 40 seconds base cooldown.</desc>
+	<desc>This advanced beam cuts through all shields, but can't be aimed manually. Indicates you command a high rank Federation ship. 40 seconds base cooldown.</desc>
 	<tooltip>Artillery beam that automatically fires a 1 damage beam that pierces all shields. 40 seconds base cooldown.</tooltip>
 	<damage>1</damage>
 	<sp>5</sp>
