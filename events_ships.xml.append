@@ -5053,7 +5053,7 @@
 		<choice req="weapons" max_lvl="5" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew scored decent in this scenario."</text>
+				<text>"Your crew scored decently in this scenario."</text>
 			</event>
 		</choice>
 		<choice req="weapons" max_lvl="6" max_group="0" blue="false">
@@ -5116,7 +5116,7 @@
 		<choice req="engines" max_lvl="5" max_group="0" blue="false">
 			<text>Continue...</text>
 			<event>
-				<text>"Your crew scored decent in this scenario. You evaded the enemy fire as best as possible while trying to outmaneuver your opponent."</text>
+				<text>"Your crew scored decently in this scenario. You evaded the enemy fire as best as possible while trying to outmaneuver your opponent."</text>
 			</event>
 		</choice>
 		<choice req="engines" max_lvl="6" max_group="0" blue="false">
