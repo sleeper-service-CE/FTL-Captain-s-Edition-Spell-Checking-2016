@@ -8103,12 +8103,12 @@
 
 <eventList name="CE_COMBAT_FLUFF_AUTO_ASTEROIDS">
 	<event>
-		<text>The ship maneuvers the hazardous retain with ease and disappears into the field. It will certainly report back to the fleet soon.</text>
+		<text>The ship maneuvers the hazardous terrain with ease and disappears into the field. It will certainly report back to the fleet soon.</text>
 		<ship hostile="false"/>
 		<modifyPursuit amount="1"/>
 	</event>
 	<event>
-		<text>The automated craft escapes into the asteroid field, but its simple AI is unable to cope with the hazardous environment. You would did not have had to intercept the craft anyway, a large asteroid does your work for you and crushes into the crafts mid-section. You move in to salvage from the disabled ship.</text>
+		<text>The automated craft escapes into the asteroid field, but its simple AI is unable to cope with the hazardous environment. Before you get a chance to intercept the craft, a large asteroid does your work for you and crushes into the craft's mid-section. You move in to salvage from the disabled ship.</text>
 		<ship hostile="false"/>
 		<autoReward level="MED">standard</autoReward>
 	</event>
