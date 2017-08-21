@@ -16214,7 +16214,7 @@
 <textList name="BS_EVENT_FED_AUTO_TEXT">
 	<text>The station you detected upon arriving at this beacon was apparently targeted by an advanced cyber-attack. The crew is dead and the now autonomously operating weapon systems target you.</text>
 	<text>After arriving at the beacon you are hailed by an otherwise completely dark station. "Greetings. I am Federation AI core Krzbrg-22/71. My new master, the infallible Rebel fleet, told me to suffocate my crew and engage any hostiles that arrive at this beacon. Starting up systems." The station's weapons go live!</text>
-	<text>You spot a small Federation station close by the beacon. Its lights are flickering and upon getting closer you realize that all its airlocks have been opened. Dead crewman float in space. As its weapon systems activate all by themselves you become sure... The station has been hacked and taken over by Rebel AI routines.</text>
+	<text>You spot a small Federation station close by the beacon. Its lights are flickering and upon getting closer you realize that all its airlocks have been opened. Dead crewmen float in space. As its weapon systems activate all by themselves you become sure... The station has been hacked and taken over by Rebel AI routines.</text>
 	<text>You get an automated message from a station right next to the beacon, "Greetings, citizen/traveler/trader. This sector is now under Rebel control. Welcome your new supreme overlords by..." The station immediately ceases communication upon identifying your ship. You detect no crew on-board, apparently it has been taken over by a Rebel hacker-AI.</text>
 </textList>
 
@@ -16373,7 +16373,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>On board you find little remaining atmosphere and a lot of dead crewman. You are not sure what happened but assume the station has been hacked or boarded by the Rebels. You take any supplies that are left.</text>
+		<text>On board you find little remaining atmosphere and a lot of dead crewmen. You are not sure what happened but assume the station has been hacked or boarded by the Rebels. You take any supplies that are left.</text>
 		<autoReward level="MED">standard</autoReward>
 	</event>
 	<event>
@@ -24063,7 +24063,7 @@
 </eventList>
 <textList name="CE_SOCIAL_HUMAN_HOME_TEXT">
 	<text planet="PLANET_POPULATED_REAL">You locate your crew member's home-planet, a busy trade world with loose ties to the Federation. Your crewman should be able to lay low around here, but it is still unclear what will happen to this planet and its people when the Rebels take over the sector.</text>
-	<text planet="PLANET_UNPOPULATED">You locate your crew member's home-planet, a small independent colony world with no strategic value. You crewman will be able to rejoin with his/her family, but it is still unclear what will happen to this planet once the Rebels take over the sector.</text>
+	<text planet="PLANET_UNPOPULATED">You locate your crew member's home-planet, a small independent colony world with no strategic value. Your crewman will be able to rejoin with his/her family, but it is still unclear what will happen to this planet once the Rebels take over the sector.</text>
 </textList>
 
 
@@ -24753,7 +24753,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>You put your Mantis on the comm and it sends a broadband hail in its native language. A small Mantis ship approaches from the edge of the system. Your crewman seems to be superior to them, after a short, aggressive conversation, they offer you a slave as tribute.</text>
+		<text>You put your Mantis on the comm and it sends a broadband hail in its native language. A small Mantis ship approaches from the edge of the system. Your crewman seems to be superior to them, and after a short, aggressive conversation, they offer you a slave as tribute.</text>
 		<ship load="MANTIS_CLAN" hostile="false"/>
 		<choice hidden="true">
 			<text>Accept their offer, free the slave and drop them off at the next station.</text>
@@ -25436,7 +25436,7 @@
 		<choice>
 			<text>Buy the map data from your crewman.</text>
 			<event>
-				<text>"A pleasssure doing buissness with you, my Captain!"</text>
+				<text>"A pleasssure doing bussiness with you, my Captain!"</text>
 				<item_modify>
 					<item type="scrap" min="-20" max="-10"/>
 				</item_modify>
@@ -25564,7 +25564,7 @@
 	<text>The Slug seems almost unaffected by all the substances it offers. "You want another one, Captain?"</text>
 	<text>After a few more drinks you and the Slug got the whole current conflict figured out: The actual problem is the Society!</text>
 	<text>The stuff the Slug offers is quite potent. Is it even legal to have this aboard the ship?</text>
-	<text>The Slug offers you a bowl of hot liquids. "Thatss from my home colony. Inhale the fumesss. Itss really good!" It indeed is! A few deep breaths later your crewman gets you to mockingly desert the Federation and swear alliance to the Slug Empire.</text>
+	<text>The Slug offers you a bowl of hot liquids. "That'ss from my home colony. Inhale the fumesss. It'ss really good!" It indeed is! A few deep breaths later your crewman gets you to mockingly desert the Federation and swear alliance to the Slug Empire.</text>
 	<text>While mixing drinks, the Slug tells you about the part of its live when it was still exporting luxury goods to its homeworld. "Good timess. And lotsss of profit!"</text>
 	<text>While downing your drinks, you ask the Slug where all the strange sculptures in its quarters come from. "Oh thesse? I made them myself. I studied eccentric art in the home nebula for sssome time. They are alsso my pension fund. The Zoltan pay excellent pricess for thesse, you know?"</text>
 	<text>This was good, but you start to get a strange feeling...</text>
@@ -28711,7 +28711,7 @@
 		<text>A heated discussion among your crew concerning your moral integrity leads to one of your crewman pulling a blaster on you. You draw faster and your crew member slumps dead to the cold metal floor. No one on the bridge says a word, everyone just returns to their stations. You go to your quarters and wonder how it has come to this.</text>
 		<removeCrew>
 			<clone>false</clone>
-			<text>It probably would not be wise to revive such a rebellious person. One of your other crewmens watches silently from the doorway as you wipe the traitors mind-backup.</text>
+			<text>It probably would not be wise to revive such a rebellious person. One of your other crewmen watches silently from the doorway as you wipe the traitor's mind-backup.</text>
 		</removeCrew>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
@@ -28732,7 +28732,7 @@
 		</choice>
 	</event>
 	<event>
-		<text>There are no more life signs remaining on the ship and you send in a salvage team. One of your crew members sends a formal complaint over the comms, arguing that this operation was unnecessary and against Federation protocols. They decide to desert your mission and stays on board the civilian ship.</text>
+		<text>There are no more life signs remaining on the ship and you send in a salvage team. One of your crew members sends a formal complaint over the comms, arguing that this operation was unnecessary and against Federation protocols. They decide to desert your mission and stay on board the civilian ship.</text>
 		<removeCrew>
 			<clone>false</clone>
 			<text>Your clonebay obviously does not revive your crewmen, since they did not die.</text>
@@ -28740,7 +28740,7 @@
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 	<event>
-		<text>Your crew is silent during the salvage operation, no one talks to you anymore unless given orders. They find a weapon system on the ship. With all the civilians slaughtered, you can take it for your ship.</text>
+		<text>Your crew is silent during the salvage operation, and no one talks to you anymore unless given orders. They find a weapon system on the ship. With all the civilians slaughtered, you can take it for your ship.</text>
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 </eventList>
@@ -29998,7 +29998,7 @@
 
 <eventList name="C_PIRACY_SUCCESS_RESULTS">
 	<event>
-		<text>Your actions are frowned upon by your crew. Still, your command is not questioned and some crewman understand that the mission is paramount.</text>
+		<text>Your actions are frowned upon by your crew. Still, your command is not questioned and some crewmen understand that the mission is paramount.</text>
 	</event>
 	<event>
 		<text>Your crew does not approve of your actions. They accuse you of betraying everything the Federation stands for.</text>
@@ -30007,7 +30007,7 @@
 		<text>Several crew members file a formal complaint on how you handled things. Was this the wrong course of action?</text>
 	</event>
 	<event>
-		<text>Your actions are frowned upon by your crew. Still, your command is not questioned and some crewman understand that the mission is paramount.</text>
+		<text>Your actions are frowned upon by your crew. Still, your command is not questioned and some crewmen understand that the mission is paramount.</text>
 	</event>
 	<event>
 		<text>Your crew does not approve of your actions. They accuse you of betraying everything the Federation stands for.</text>
@@ -30803,7 +30803,7 @@
 
 <eventList name="CE_BOARDERS_BOUNTYHUNTER_SEARCH">
 	<event>
-		<text>One of your crewman reports in after a while. "Captain, we have a situation here..." An intruder equipped with a personal cloaking field was discovered in the process of sabotaging the life-support. The boarder fled deeper into the ship. You reconfigure the internal scanners to flag cloaking fields and sound the security alert.</text>
+		<text>One of your crewmen reports in after a while. "Captain, we have a situation here..." An intruder equipped with a personal cloaking field was discovered in the process of sabotaging the life-support. The boarder fled deeper into the ship. You reconfigure the internal scanners to flag cloaking fields and sound the security alert.</text>
 		<damage amount="1" system="oxygen" effect="fire"/> 
 		<boarders min="1" max="1" class="human"/>
 		<choice hidden="true">
@@ -31279,14 +31279,14 @@
 </eventList>
 <eventList name="CE_DISTRESS_SUN_FAMILY_RETURN">
 	<event>
-		<text planet="PLANET_POPULATED_SMALL">Grim news has to be delivered here. After hearing what happened to their relatives, the families of the lost ship's crewman are all deeply struck with grief. They politely thank you for your effort. You feel like some of them put the blame on you.</text>
+		<text planet="PLANET_POPULATED_SMALL">Grim news has to be delivered here. After hearing what happened to their relatives, the families of the lost ship's crewmen are all deeply struck with grief. They politely thank you for your effort. You feel like some of them put the blame on you.</text>
 	</event>
 	<event>
-		<text planet="PLANET_POPULATED_SMALL">Grim news has to be delivered here. After hearing what happened to their relatives, the families of the lost ship's crewman are all deeply struck with grief. They politely thank you for informing them and offer a small amount of supplies for your efforts. "We are sure you did everything you could. Thank you."</text>
+		<text planet="PLANET_POPULATED_SMALL">Grim news has to be delivered here. After hearing what happened to their relatives, the families of the lost ship's crewmen are all deeply struck with grief. They politely thank you for informing them and offer a small amount of supplies for your efforts. "We are sure you did everything you could. Thank you."</text>
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 	<event>
-		<text planet="PLANET_POPULATED_SMALL">Grim news has to be delivered here. After hearing what happened to their relatives, the families of the lost ship's crewman are all deeply struck with grief. They politely thank you for informing them and insist on paying for your expenses. You are invited to join the symbolic funeral and stay for a short while.</text>
+		<text planet="PLANET_POPULATED_SMALL">Grim news has to be delivered here. After hearing what happened to their relatives, the families of the lost ship's crewmen are all deeply struck with grief. They politely thank you for informing them and insist on paying for your expenses. You are invited to join the symbolic funeral and stay for a short while.</text>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
 </eventList>
@@ -37488,10 +37488,10 @@ IDEAS
 		</choice>
 	</event>
 	<event>
-		<text>A heated discussion among your crew concerning your moral integrity leads to one of your crewman pulling a blaster on you. You draw faster and your crew member slumps dead to the cold metal floor. No one on the bridge says a word, everyone just returns to their stations. You go to your quarters and wonder how it has come to this.</text>
+		<text>A heated discussion among your crew concerning your moral integrity leads to one of your crewmen pulling a blaster on you. You draw faster and your crew member slumps dead to the cold metal floor. No one on the bridge says a word, everyone just returns to their stations. You go to your quarters and wonder how it has come to this.</text>
 		<removeCrew>
 			<clone>false</clone>
-			<text>It probably would not be wise to revive such a rebellious person. One of your other crewmens watches silently from the doorway as you wipe the traitors mind-backup.</text>
+			<text>It probably would not be wise to revive such a rebellious person. One of your other crewmen watches silently from the doorway as you wipe the traitor's mind-backup.</text>
 		</removeCrew>
 		<autoReward level="MED">scrap_only</autoReward>
 	</event>
@@ -38121,12 +38121,12 @@ IDEAS
 		<modifyPursuit amount="1"/>
 	</event>
 	<event>
-		<text>While your crewman do their own things you spend the time on the planet in a small bar. After some drinks you get into a conversation with an ex-Federation officer. Times have changed. You talk about the old days and in the end she agrees to share some local sector maps to help you out.</text>
+		<text>While your crewmen do their own things you spend the time on the planet in a small bar. After some drinks you get into a conversation with an ex-Federation officer. Times have changed. You talk about the old days and in the end she agrees to share some local sector maps to help you out.</text>
 		<modifyPursuit amount="1"/>
 		<reveal_map/>
 	</event>
 	<event>
-		<text>While your crewman do their own things you spend the evening on the planet in a local canteen.</text>
+		<text>While your crewmen do their own things you spend the evening on the planet in a local canteen.</text>
 		<modifyPursuit amount="1"/>
 		<choice>
 			<text>Continue...</text>
@@ -38310,7 +38310,7 @@ IDEAS
 	</choice>
 </event>
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_3">
-	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewman is sent on an away mission and succeeds in retrieving one of the huge creatures.</text>
+	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewmen is sent on an away mission and succeeds in retrieving one of the huge creatures.</text>
 	<text planet="PLANET_UNPOPULATED">A rare breed of the luminous saber-goat is said to live in the equatorial mountain regions of this planet. You crew goes for a hike with stun-blasters ready. You are glad no one gets hurt during the hunt.</text>
 	<text planet="PLANET_UNPOPULATED">The information provided by the Curator drone proves to be true. The special door frame, an ancient Zoltan artifact, is hidden near the pole of this planet. The device enables FTL travel for a single individual, but no one that stepped through it came back to report where it leads to.</text>
 	<text>Space whales are almost hunted to extinction. This beacon lies close to a part of space where the legendary creatures gathered to die. Several of their eternal corpses orbit a large planetoid. You gather the frozen space whale oil that the Curator is looking for.</text>
@@ -38341,7 +38341,7 @@ IDEAS
 	</choice>
 </event>
 <textList name="CE_QUEST_CURATOR_ITEMS_TEXT_4">
-	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewman is sent on an away mission and succeeds in retrieving one of the huge creatures.</text>
+	<text planet="PLANET_UNPOPULATED">The Curator is interested in acquiring a magma-worm larva from this planet. You reconfigure the weapons and drill through the crust. One of your crewmen is sent on an away mission and succeeds in retrieving one of the huge creatures.</text>
 	<text planet="PLANET_UNPOPULATED">A rare breed of the luminous saber-goat is said to live in the equatorial mountain regions of this planet. You crew goes for a hike with stun-blasters ready. You are glad no one gets hurt during the hunt.</text>
 	<text planet="PLANET_UNPOPULATED">The information provided by the Curator drone proves to be true. The special door frame, an ancient Zoltan artifact, is hidden near the pole of this planet. The device enables FTL travel for a single individual, but no one that stepped through it came back to report where it leads to.</text>
 	<text>Space whales are almost hunted to extinction. This beacon lies close to a part of space where the legendary creatures gathered to die. Several of their eternal corpses orbit a large planetoid. You gather the frozen space whale oil that the Curator is looking for.</text>
